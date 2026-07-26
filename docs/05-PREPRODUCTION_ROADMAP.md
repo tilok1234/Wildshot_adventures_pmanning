@@ -140,6 +140,16 @@ At the CORE-20 planning anchor (10 h/week ≈ 500 h/year): **roughly 1.2–2.7 y
 
 **Pending designer inputs:** PROD-01 reliable weekly floor (the hours that survive a bad month — every year-figure above divides by this) and PROD-03 cash budget (Steam fee, subscriptions, music/SFX, capsule art, contingency).
 
+## Tester and market pipeline (added 2026-07-27)
+
+Gates 1 and 2 are judged by fresh outside testers; this is where they come from.
+
+1. During Phase A, capture a 30–60-second GIF each week (the lab's debug tools make this nearly free).
+2. Before the lab gate: stand up an itch.io page, one devlog thread, and a bare Discord; post progress GIFs to r/rotmg and one bullet-hell or indie-dev community — the RotMG community is the target audience for the combat hypothesis.
+3. At gate-ready: publish the lab build unlisted on itch; recruit 5–8 testers — 2–3 strangers from those communities, 2–3 genre-familiar acquaintances; never solely the builder (CORE-53).
+4. Standing rule: every gate playtest includes at least 3 strangers; log unprompted "what is this game?" descriptions (the CORE-54 market test, now with respondents).
+5. A Steam page and wishlist push deliberately wait for slice-quality footage [LATER] — a weak page is its own risk; the itch/devlog channel is the pre-slice market thermometer.
+
 ## Scope rules throughout
 
 - Do not build the large world before one small expedition loop works repeatedly.

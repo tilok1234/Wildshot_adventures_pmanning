@@ -45,7 +45,7 @@ Ranked from the full inventory above, each with test / mitigation / cut:
 4. **Content multiplication (3 classes × exclusive items × dense quests)** — slice velocity extrapolation / shared frameworks, one class first / fewer frames and lower density before cutting classes.
 5. **Endgame intensity outruns readability** — density stress-tests under the eight readability laws with outside testers / effect budgets + telegraph hierarchy + explainable-death review / cap density.
 
-Named market runner-up: "RotMG clone / single-player MMO without a hook" perception — mitigated by the distinct pitch; tested by how outside slice testers describe the game unprompted.
+Named market runner-up: "RotMG clone / single-player MMO without a hook" perception — mitigated by the distinct pitch; tested by how outside slice testers describe the game unprompted. Tester source: the roadmap's tester and market pipeline (added 2026-07-27).
 
 ## Production feasibility status (updated 2026-07-26)
 

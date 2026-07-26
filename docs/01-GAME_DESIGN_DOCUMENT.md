@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-32; CORE-33 active  
+**Version:** Concept snapshot through CORE-33; CORE-34 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-33 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-34 is active.
 
 ## 1. Executive summary
 
@@ -116,7 +116,7 @@ Projectile combat is the game's central combat language, but not every action mu
 
 Single-player combat can normally be paused, freezing the action completely. Pausing is not used to issue commands or perform combat actions.
 
-Exact universal movement and defensive actions, skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, and optional focus-target behaviour remain unresolved for CORE-33 onward.
+Exact skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, and optional focus-target behaviour remain unresolved for CORE-34 onward. Universal movement and defensive actions are resolved by CORE-33 below.
 
 ### Primary attack [L/P]
 
@@ -137,6 +137,14 @@ Ordinary projectiles require a clear line of fire and collide predictably with s
 Primary attacks are intended to remain enjoyable without rewards through dependable control, continuous aiming and positioning decisions, learnable weapon behaviour, meaningful terrain and angle use, and responsive but readable impact feedback.
 
 Exact weapon statistics, cadence ranges, individual patterns, exceptional mechanics, default autofire binding and HUD treatment, collision tuning, and feedback tuning remain unresolved for prototyping and later combat planning.
+
+### Universal movement and defensive actions [L]
+
+Dodging is purely movement-based, in the Realm of the Mad God tradition. The universal kit is movement plus free aim, and nothing else: no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action exists. Survival comes from continuous positioning, spacing, routing, threat reading, and enemy prioritization at the character's movement speed.
+
+This commitment carries binding consequences. Every attack pattern must be honestly avoidable through movement alone at its intended progression level—and, because all classes complete all content solo, at the baseline mobility of the least mobile class. Movement speed becomes a premier statistic and balance lever whose sources, growth, and caps must be tuned deliberately. Without a panic escape, the locked readability rules become even more load-bearing: deaths must always trace to visible, learnable mistakes, and death and recovery design must account for the absence of an escape action. Pause remains available but performs no combat action.
+
+Class skill trees may still offer class-specific mobility or defensive abilities as class tools rather than universal actions [P]; no encounter may require a specific class's tool. Ability roles and counts are decided in CORE-34.
 
 ### Experience curve [L]
 
@@ -493,7 +501,7 @@ The project has not yet locked:
 - tone, rating, and content boundaries;
 - team, engine, budget, schedule, and production constraints;
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
-- enemy-specific and boss-specific encounter loops; universal movement and defensive actions, skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, optional focus-target behaviour, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, and ability counts;
+- enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, optional focus-target behaviour, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, and ability counts;
 - stat set, level curve, and equipment formulas;
 - death, saves, dungeon failure, and recovery;
 - quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
@@ -512,8 +520,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-32:** approved and integrated into this GDD.
-- **CORE-33:** active and unanswered.
+- **CORE-21 through CORE-33:** approved and integrated into this GDD.
+- **CORE-34:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -529,5 +537,6 @@ Current interview state:
 | CORE-30 | [L/P] | Section 13 — repeated travel and selective auto-travel |
 | CORE-31 | [L] | Section 8 — combat format |
 | CORE-32 | [L/P] | Section 8 — primary attack |
+| CORE-33 | [L/P] | Section 8 — universal movement and defensive actions |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

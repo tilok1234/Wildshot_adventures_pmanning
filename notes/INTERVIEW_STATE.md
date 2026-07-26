@@ -9,16 +9,20 @@
 
 ## Active question
 
-**CORE-33 — What are the player's universal movement and defensive actions?**
+**CORE-34 — How many active abilities are equipped, and what roles must a complete combat kit cover?**
 
-*Consider: Dash, block, sprint, roll, teleport, shield, or class-specific alternatives.*
+*Consider: Movement, defense, burst, crowd control, pattern modification, interrupt, utility, and resource management.*
 
-No answer has been accepted yet. Relevant locked constraints from earlier answers:
+No answer has been accepted yet. Relevant constraints from earlier answers:
 
-- Combat is real-time, top-down, freely aimed; movement and aiming are independent (CORE-31).
-- Ordinary primary attacks never root, slow, or direction-lock the player (CORE-32).
-- Combat must stay readable even at endgame intensity (pillar 5.1 / anti-pillar 4).
-- Skill activation, animation commitments, hitboxes, and aim assistance are deferred to CORE-33 onward.
+- Dodging is purely movement-based; there is no universal dash/roll/block/i-frame action (CORE-33).
+  Class trees MAY offer class-specific mobility/defensive abilities as class tools [P], but no
+  encounter may require a specific class's tool — this makes CORE-34's ability-role decisions
+  the only source of active mobility/defense in the game.
+- Mana is reserved for active abilities; primary attacks are free (CORE-32).
+- The weapon owns the primary pattern; skills support the class plan without routinely
+  replacing or multiplying it (CORE-03 / weapon ownership).
+- All classes must complete all content solo; no tank/healer/DPS trinity (CORE-03).
 
 ## Question status table
 
@@ -28,12 +32,22 @@ No answer has been accepted yet. Relevant locked constraints from earlier answer
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-32 | Approved and integrated into the GDD. |
-| **CORE-33** | **ACTIVE — no accepted answer.** |
-| CORE-34 onward | Unanswered. |
+| CORE-21 through CORE-33 | Approved and integrated into the GDD. |
+| **CORE-34** | **ACTIVE — no accepted answer.** |
+| CORE-35 onward | Unanswered. |
 
-The designer chose to continue at CORE-33 while CORE-17 through CORE-20 remain open.
-Continue at CORE-33 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-33 while CORE-17 through CORE-20 remain open.
+Continue at CORE-34 unless the designer chooses to return to an earlier open question.
+
+### CORE-33 — answered 2026-07-26 [L/P]
+
+Purely movement-based dodging, RotMG tradition. Universal kit = movement + free aim only;
+no universal dash, roll, blink, sprint, block, parry, shield, or i-frame action. Binding
+consequences recorded: honest dodgeability by movement alone (at the least mobile class's
+baseline), movement speed as a premier tuned stat, readability/traceable deaths even more
+load-bearing, death design must account for no escape action. Class-specific mobility or
+defensive abilities may exist as class tools [P]; never required by encounters; roles and
+counts belong to CORE-34.
 
 ### Refinement batch — 2026-07-26 (approved, recorded, committed)
 

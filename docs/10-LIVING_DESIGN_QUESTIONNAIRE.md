@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-32 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-33 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-33 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-34 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-32; CORE-17 through CORE-20 open; CORE-33 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-33; CORE-17 through CORE-20 open; CORE-34 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -552,9 +552,11 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Dash, block, sprint, roll, teleport, shield, or class-specific alternatives.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L] Wildshot Adventures uses purely movement-based dodging in the Realm of the Mad God tradition. The universal kit is movement plus free aim, and nothing else: there is no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action. Survival comes from continuous positioning, spacing, routing, threat reading, and enemy prioritization at the character's movement speed.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Design consequences:** [L] (1) Honest dodgeability: every attack pattern must be avoidable through movement alone at the intended progression level, with no pattern that assumes an i-frame or escape button exists. Because all classes must complete all content solo, patterns must be dodgeable at the baseline mobility of the least mobile class. (2) Movement speed becomes a premier statistic and balance lever; its sources, growth, and caps must be tuned deliberately (deferred to the statistics questions). (3) Without a panic escape, the locked readability rules become even more load-bearing: deaths must always trace to visible, learnable mistakes. (4) Death and recovery design (open) should account for the absence of an escape action. Pause remains available but performs no combat action.
+
+**Class-ability boundary:** [P] Class skill trees may still offer class-specific mobility or defensive abilities as part of their kits, in the reference tradition. Any such ability is a class tool, not a universal action; no encounter may require a specific class's mobility or defensive tool. Ability roles and counts belong to CORE-34. (Recorded 2026-07-26.)
 
 **CORE-34. How many active abilities are equipped, and what roles must a complete combat kit cover?**
 

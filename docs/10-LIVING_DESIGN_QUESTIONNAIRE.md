@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-19 open; CORE-20 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-19 open; CORE-17 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-55; CORE-17 through CORE-19 open; CORE-20 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-55 plus CORE-20; CORE-17 through CORE-19 open; CORE-17 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -312,7 +312,19 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Team size, skills, engine, budget, weekly hours, target timeframe, asset limitations, and platform requirements.*
 
-**Answer/status:** [U] Unanswered.
+**Answer/status:** [L/P] Recorded 2026-07-26.
+
+- **Team:** solo developer [L].
+- **Skills:** highly proficient at orchestrating AI, with strong technical understanding and a lifetime of genre knowledge. Production is AI-orchestrated across code, art, and content, with the developer as director, integrator, and designer [L].
+- **Engine:** Godot, most likely [P] — a strong fit for a 2D top-down projectile game (free, lightweight, GDScript, solid 2D tooling), with high-level multiplayer available for the Phase E co-op gate.
+- **Budget:** abundant AI access effectively removes tooling and asset-generation cost as a constraint; no significant cash budget for contractors is assumed [P].
+- **Hours:** 10–40 hours per week, variable [L]. Planning guard: commitments and milestone estimates assume the low end (~10–15 h/week); the high end is upside, not the plan.
+- **Timeframe:** no deadline — a good game over a target date [L]. Guard: the CORE-55 continuation gates replace deadlines as the discipline mechanism; open-ended pacing must not mean open-ended checkpoints, and each gate is still evaluated honestly when reached.
+- **Asset pipeline:** a broad custom tileset and generation system already exists, covering buildings, structures, tiles, and props, and the developer is happy with it; a matched sprite generator for enemies and player characters is close to working [L/P]. This substantially de-risks solo art production.
+
+**Pipeline consequences:** [L/P] (1) Generated sprites must encode the readability laws from the start — the hostile shape-and-pattern language, silhouette readability at a glance, and quiet-floor contrast rules become generator requirements, not post-hoc filters. (2) Generation tooling accelerates *authoring*; it does not change the handcrafted-world rule — zone geography, encounters, and progression-critical content remain authored, with tools as the brush, not the painter. (3) Production velocity remains a measured quantity: Gate 2's velocity extrapolation stands, now with real constraints to extrapolate against.
+
+**Risk update:** [L] CORE-54 risk #2 downgrades from "unmeasured" to "bounded": constraints are known, and the remaining unknown is measured velocity through the lab and slice.
 
 ## C. Loops, world, and long-term structure
 

@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-55; CORE-20 active  
+**Version:** Concept snapshot through CORE-55 plus CORE-20; CORE-17 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-21 through CORE-55 are answered; CORE-17 through CORE-19 remain open and CORE-20 is active.
+**Status:** Guided concept definition / early pre-production; CORE-20 through CORE-55 are answered; CORE-17 through CORE-19 remain open and CORE-17 is active.
 
 ## 1. Executive summary
 
@@ -557,6 +557,12 @@ Controller support is a secondary convenience for relaxed grinding, exploration,
 
 The intended worst case is explicitly acceptable: controller may end up suitable mainly for relaxed, extended grinding sessions while endgame content expects mouse and keyboard, and players should understand this split early. Open-world content remains designed for mouse and keyboard and merely happens to be playable on a controller; enemy and encounter design must never be adjusted toward stick precision.
 
+### Production constraints [L/P]
+
+Wildshot Adventures is built by a solo developer who is highly proficient at orchestrating AI, with strong technical understanding and deep genre knowledge; production is AI-orchestrated across code, art, and content, with the developer as director, integrator, and designer. The engine is most likely Godot [P]. Abundant AI access removes tooling and asset-generation cost as a practical constraint; no contractor budget is assumed. Available time is 10–40 hours per week, with planning anchored to the low end. There is no deadline: the CORE-55 continuation gates, not dates, are the discipline mechanism.
+
+A broad custom tileset and generation system (buildings, structures, tiles, props) already exists, and a matched enemy/player sprite generator is close to working — substantially de-risking solo art. Generated sprites must encode the readability laws from the start, generation tooling accelerates authoring without weakening the handcrafted-world rule, and production velocity remains a measured quantity through the lab and slice.
+
 ### Accessibility and comfort baseline [L/P]
 
 Required from the start: full input remapping; hold-to-fire and toggle autofire; an effect-density/opacity option; flash and screen-effect reduction; a colorblind-safe projectile language where hostile shots differ by shape and pattern, never color alone; an optional visible-hitbox indicator; UI and text scaling; reducible damage numbers; separate audio channels with key threats audible; pause wherever legal; no photosensitivity-hostile effects by default.
@@ -615,7 +621,7 @@ The project has not yet locked:
 - the detailed replay and endgame structure beyond the locked long-term objective;
 - exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
 - tone, rating, and content boundaries;
-- team, engine, budget, schedule, and production constraints;
+- detailed production planning and measured velocity (the hard constraints — solo, AI-orchestrated, Godot [P], 10–40 hours/week, no deadline, custom asset pipeline — are recorded in Section 15);
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - exact stat values, growth curves, stat caps, the regeneration-stat decision, level curve, and equipment formulas (the baseline stat set itself is provisionally decided);
@@ -636,9 +642,9 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-55:** approved and integrated into this GDD. Part I's forward sweep is complete.
-- **CORE-20:** active — the designer chose to return to the open production-constraints question.
-- **CORE-17 through CORE-19:** open.
+- **CORE-20 through CORE-55:** approved and integrated into this GDD.
+- **CORE-17:** active — the first character's journey to endgame.
+- **CORE-18 and CORE-19:** open.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -677,5 +683,6 @@ Current interview state:
 | CORE-53 | [L/P] | Prototype spec — Phase A combat lab confirmed as first milestone, with outside testers and baseline-speed checks |
 | CORE-54 | [L/P] | Risk register and questionnaire — top five risks ranked with test/mitigation/cut |
 | CORE-55 | [L/P] | Questionnaire and prototype spec — the two formal continuation gates |
+| CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, 10–40 h/week, no deadline |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

@@ -47,6 +47,6 @@ Ranked from the full inventory above, each with test / mitigation / cut:
 
 Named market runner-up: "RotMG clone / single-player MMO without a hook" perception — mitigated by the distinct pitch; tested by how outside slice testers describe the game unprompted.
 
-## Highest-priority unknown risk
+## Production feasibility status (updated 2026-07-26)
 
-**Production feasibility cannot be rated properly until CORE-20 is answered.** Team size, engine, available skills, budget, weekly hours, and target timeframe may change the entire roadmap.
+CORE-20 is now answered: solo developer, AI-orchestrated production, Godot [P], 10–40 hours/week (planning anchored to the low end), no deadline with the CORE-55 gates as the discipline mechanism, and a custom tileset + sprite-generation pipeline substantially de-risking art. Feasibility moves from **unmeasured** to **bounded**: the remaining unknown is real velocity, measured through the Phase A lab and the vertical slice per Gate 2.

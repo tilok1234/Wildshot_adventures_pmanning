@@ -9,20 +9,20 @@
 
 ## Active question
 
-**CORE-20 — What are the hard production constraints?**
+**CORE-17 — What is the target length of the first character's journey to endgame?**
 
-*Consider: Team size, skills, engine, budget, weekly hours, target timeframe, asset
-limitations, and platform requirements.*
+*Frame as the first character's journey to endgame / initial zero-to-hero journey, NOT
+a fixed campaign (locked framing from the July 21 handoff).*
 
-The designer chose to return here after completing CORE-21–55. This is the highest-
-priority open question (risk #2 of CORE-54; Gate 2 of CORE-55 is unevaluable without
-it). Needed facts, from the designer's real life, not design preference: team size and
-who (solo?); skills available (code/art/audio) and gaps; engine choice or candidates;
-budget (money for assets/tools/contractors); realistic weekly hours; target timeframe
-or explicit open-endedness; any asset-pipeline limitations (e.g., pixel art
-capability); platform requirements already locked (Windows/Steam lead). Answers may be
-honest "unknowns" — record them as constraints-to-resolve rather than forcing numbers.
-CORE-17–19 remain open after this.
+No answer accepted yet. Now informable by everything decided since: main quest spans
+1→cap with level gaps (CORE-46); cap ≈ endgame transition (CORE-39); endgame is core
+content, not the end (CORE-24); no deadline/no live-service pressure (CORE-15/20);
+target audience wants dozens-to-hundreds of hours (CORE-11). Needed: a rough target
+range of focused hours for a first character to reach the level cap / endgame
+transition (e.g., 30–60h? 40–80h?), acknowledging optional content extends it and the
+number is a design target [P/T], validated much later. Also: the exact mechanical
+threshold that counts as "reaching endgame" (hit cap? finish main quest? both?).
+CORE-18 (replay/endgame structure) and CORE-19 (tone/rating) remain after this.
 
 ## Question status table
 
@@ -32,11 +32,20 @@ CORE-17–19 remain open after this.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-55 | Approved and integrated into the GDD. Forward sweep complete. |
-| CORE-17 through CORE-19 | Open. |
-| **CORE-20** | **ACTIVE — designer's chosen return; no accepted answer.** |
+| CORE-20 through CORE-55 | Approved and integrated into the GDD. |
+| **CORE-17** | **ACTIVE — no accepted answer.** |
+| CORE-18, CORE-19 | Open — the last two unanswered questions in Part I. |
 
-Part I is complete except CORE-17 through CORE-20. The designer chose CORE-20 next.
+### CORE-20 — answered 2026-07-26 [L/P]
+
+Solo developer; AI-orchestration expert with strong technical understanding and deep
+genre knowledge; production AI-orchestrated across code/art/content. Engine most
+likely Godot [P]. Abundant AI access removes tooling/asset cost; no contractor budget.
+10–40 h/week, planning anchored to the low end. No deadline — CORE-55 gates are the
+discipline mechanism. Custom broad tileset + generation system built; matched
+enemy/player sprite generator near completion. Consequences: generators must encode
+the readability laws; tools accelerate authoring without weakening the handcrafted-
+world rule; velocity measured through lab and slice. Risk #2: unmeasured → bounded.
 
 ### CORE-55 — answered 2026-07-26 [L/P]
 

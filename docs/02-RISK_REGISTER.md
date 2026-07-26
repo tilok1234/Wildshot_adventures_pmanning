@@ -1,6 +1,6 @@
 # Wildshot Adventures — Risk Register
 
-**Snapshot:** 2026-07-26; integrated through CORE-32.  
+**Snapshot:** 2026-07-26; integrated through CORE-55 (Part I complete).  
 **Status:** Early pre-production. Ratings are qualitative until production constraints are known.
 
 | Risk | Likelihood | Impact | Early warning | Mitigation / gate |

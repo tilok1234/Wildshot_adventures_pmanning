@@ -634,7 +634,7 @@ The project has not yet locked:
 - save architecture, exact death-penalty values, and hardcore-mode save handling (the death-and-recovery baseline is decided in Section 12.6);
 - faction identities and count, quest density targets, individual quest and faction-set designs, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements (the quest and faction framework is decided in Section 13);
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
-- exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
+- exact pet acquisition, collection structure, and presentation (cosmetic-only is decided);
 - accessibility and readability implementation details (the required-from-start feature baseline is decided in Section 15);
 - exact vertical-slice counts, tuning, and production order (the slice content bill and its measurable gate questions are provisionally decided in CORE-52; full-game per-class counts await CORE-20).
 
@@ -646,8 +646,6 @@ The numbered sections in this GDD are document chapters, not CORE question numbe
 
 Current interview state:
 
-- **CORE-01 through CORE-16:** recorded.
-- **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
 - **CORE-01 through CORE-55: all answered.** Part I of the interview is complete as of 2026-07-26. CORE-14 remains provisional and prototype-gated.
 - The interview proceeds to Part II (combat and controls modules) alongside the Phase A combat laboratory.
 

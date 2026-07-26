@@ -30,10 +30,6 @@ Next steps (designer to choose, in any order):
 
 | Range | State |
 |---|---|
-| CORE-01 through CORE-16 | Answered. CORE-14 remains provisional/test-gated. |
-| CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
-| CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
-| CORE-19, CORE-20 | Open, unanswered. |
 | **CORE-01 through CORE-55** | **ALL ANSWERED — Part I complete 2026-07-26.** |
 | CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
 

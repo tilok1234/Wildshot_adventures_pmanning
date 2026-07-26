@@ -9,26 +9,23 @@
 
 ## Active question
 
-**CORE-43 — What happens when the player dies?**
+**CORE-44 — What makes ordinary enemy groups tactically interesting?**
 
-*(Death, penalties, and recovery — one of the big unresolved areas.)*
+*Consider: Roles, target priority, movement pressure, pattern combinations, terrain,
+interrupts, and manageable intensity.*
 
-No answer has been accepted yet. Constraints from earlier answers:
+No answer has been accepted yet. Relevant existing material:
 
-- No permadeath as the normal rule (explicitly not inherited from RotMG, CORE-09).
-- No excessive rebuilding after failure (locked exclusion: a failed dungeon/raid attempt
-  must not require rebuilding a character or repeating unreasonable solved progression).
-- Risk register: no character deletion; prototype recoverable, bounded penalties and
-  fast retry loops — penalties must not make players avoid experimentation.
-- Ordinary dungeons are one committed instance (CORE-16): leaving/abandoning ends it —
-  death presumably ends it too (to confirm).
-- Raid wings persist player-controlled (refinement 5); how death interacts with wing
-  progress is open.
-- No dodge button (CORE-33): deaths must trace to visible mistakes; harsh-but-fair
-  penalties are more defensible when deaths are honest.
-- Open sub-questions: death in open world (respawn where? cost?), death in dungeons
-  (instance lost? portal consumed?), death in raids/wings, any XP/gold/durability
-  penalty (durability doesn't exist — CORE-32), hardcore optional mode?
+- Prototype spec Phase B already sketches an enemy grammar: direct aimed shot,
+  predictive shot, fan/cone, radial burst, delayed ground hazard, shield/guard role,
+  healer/support priority, chaser/space-control role; ordinary packs use one or two
+  pressures; density alone is never the difficulty.
+- CORE-21 loop expects enemy prioritization to matter in ordinary combat; CORE-36
+  distinguishes ordinary packs from dangerous packs/pockets.
+- Movement-only dodging (CORE-33) means pack design creates pressure through crossing
+  patterns, space control, and priority targets rather than raw density.
+- Remaining: confirm the role grammar as the design answer, and any designer additions
+  (terrain use, pack composition rules).
 
 ## Question status table
 
@@ -38,12 +35,22 @@ No answer has been accepted yet. Constraints from earlier answers:
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-42 | Approved and integrated into the GDD. |
-| **CORE-43** | **ACTIVE — no accepted answer.** |
-| CORE-44 onward | Unanswered. |
+| CORE-21 through CORE-43 | Approved and integrated into the GDD. |
+| **CORE-44** | **ACTIVE — no accepted answer.** |
+| CORE-45 onward | Unanswered. |
 
-The designer chose to continue past CORE-42 while CORE-17 through CORE-20 remain open.
-Continue at CORE-43 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-43 while CORE-17 through CORE-20 remain open.
+Continue at CORE-44 unless the designer chooses to return to an earlier open question.
+
+### CORE-43 — answered 2026-07-26 [L/P]
+
+No character/progression loss outside optional hardcore. Open world: respawn nearest
+city + percent-of-gold fee (scales with wealth; never cheaper than teleporting — no
+death-warp) [P/T]. Dungeons: death ends the committed instance, portal spent [L/P] —
+balanced by re-obtainable portals for knowledgeable players. Raids: paid respawn at
+wing start, wing progress never resets, bosses reset to full (gold buys attempts, not
+progress), escalating within-visit fee [T]. Optional per-character hardcore permadeath
+[P]: never warps baseline, anti-save-scum deferred, trophy candidate.
 
 ### CORE-42 — answered 2026-07-26 [L/P]
 

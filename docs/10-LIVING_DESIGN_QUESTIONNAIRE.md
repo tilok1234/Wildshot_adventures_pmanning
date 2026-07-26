@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-42 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-43 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-43 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-44 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-42; CORE-17 through CORE-20 open; CORE-43 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-43; CORE-17 through CORE-20 open; CORE-44 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -684,9 +684,17 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Checkpoint, loss, recovery, boss reset, durability, unbanked expedition resources, and optional hardcore rules.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Death never deletes the character or solved progression outside the optional hardcore mode. Penalties are light, bounded, and recoverable; the real stakes live in committed attempts.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Open-world death:** [P] The player respawns at the nearest city and loses a percentage of carried gold, so the cost scales naturally with wealth and experience — dying is always worth avoiding but never devastating. Tuning must keep death from being cheaper than teleporting, closing the "death warp" travel exploit [T]. Exact percentage and any minimum fee remain unresolved.
+
+**Dungeon death:** [L/P] Death ejects the player to the nearest city and ends the committed dungeon instance: the run is gone, the portal is spent, and a new attempt requires a new portal. Losing the attempt is the penalty — nothing extra is stacked on top. This is balanced by the friction budget: portals for most dungeons remain reasonably re-obtainable for a player who knows the source, navigates efficiently, and uses mounts and learned routes.
+
+**Raid death:** [P/T] Death inside a raid offers a paid gold respawn at the start of the current wing, and cleared-wing progress never resets. Two guards protect mastery: any boss or encounter in progress resets to full on death — gold buys attempts, never incremental progress [L/P] — and an escalating respawn fee within a single wing visit (resetting on wing clear or fresh entry) should be tested so wealth cannot brute-force the hardest content [T].
+
+**Optional hardcore mode:** [P] An opt-in per-character permadeath mode is planned. It must never warp baseline design or balance; it needs anti-save-scum handling in the save system (deferred); and it is a natural candidate for account-level trophies and titles in the collection menus.
+
+**Deferred detail:** [U] Exact gold percentages, minimum fees, escalating-fee curves, respawn presentation, hardcore save handling, and interactions with future systems remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-44. What makes ordinary enemy groups tactically interesting?**
 

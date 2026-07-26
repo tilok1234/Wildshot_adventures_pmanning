@@ -2,7 +2,7 @@
 
 **Documentation snapshot:** 2026-07-26  
 **Project stage:** Guided concept definition / early pre-production  
-**Current questionnaire position:** CORE-01 through CORE-16 and CORE-21 through CORE-42 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 remain open; CORE-43 is the active unanswered question. (For the live position, `notes/INTERVIEW_STATE.md` is authoritative.)
+**Current questionnaire position:** CORE-01 through CORE-16 and CORE-21 through CORE-43 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 remain open; CORE-44 is the active unanswered question. (For the live position, `notes/INTERVIEW_STATE.md` is authoritative.)
 
 This extracted project folder converts the guided design interview into project-facing documents that are easier to carry between chats and eventually into development tools or a repository. The July 21 handoff is retained as a historical provenance record. The current living documents integrate the approved CORE-21 through CORE-32 answers and advance the active question to CORE-33.
 
@@ -10,7 +10,7 @@ This extracted project folder converts the guided design interview into project-
 
 When documents disagree, use this order:
 
-1. `10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative detailed interview record, integrated through CORE-42 with CORE-43 marked active.
+1. `10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative detailed interview record, integrated through CORE-43 with CORE-44 marked active.
 2. `03-HANDOFF.md` — current continuation state and interview instructions.
 3. `08-DECISION_REGISTER.md` — concise record of locked, provisional, test-gated, and open decisions.
 4. `01-GAME_DESIGN_DOCUMENT.md` — readable current design overview.

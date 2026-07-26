@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-42; CORE-43 active  
+**Version:** Concept snapshot through CORE-43; CORE-44 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-43 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-44 is active.
 
 ## 1. Executive summary
 
@@ -354,6 +354,17 @@ Repeated targeted attempts are meaningful across the broader pursuit, but the ro
 
 Active single-player gameplay is pausable. An ordinary dungeon is normally one committed gameplay instance: pausing while remaining in the run is allowed, but leaving or abandoning ends that instance. The player cannot later resume the same partially cleared dungeon, and ordinary dungeons are not permanently completed room by room across separate entries.
 
+### 12.6 Death and recovery [L/P]
+
+Death never deletes the character or solved progression outside the optional hardcore mode. Penalties are light, bounded, and recoverable; the real stakes live in committed attempts.
+
+- **Open world [P]:** respawn at the nearest city and lose a percentage of carried gold, so the cost scales naturally with wealth. Tuning must keep dying from ever being cheaper than teleporting [T].
+- **Dungeons [L/P]:** death ends the committed instance — the run is gone, the portal spent, and a new attempt needs a new portal. Losing the attempt is the whole penalty; the friction budget keeps portals reasonably re-obtainable for a knowledgeable, efficient player.
+- **Raids [P/T]:** death offers a paid gold respawn at the start of the current wing; cleared-wing progress never resets. Bosses in progress reset to full on death — gold buys attempts, never incremental progress — and an escalating fee within one wing visit should be tested so wealth cannot brute-force mastery content.
+- **Optional hardcore mode [P]:** opt-in per-character permadeath. It never warps baseline design or balance, needs anti-save-scum save handling (deferred), and is a natural source of account-level trophies and titles.
+
+Exact percentages, fees, escalating-fee curves, respawn presentation, and hardcore save handling remain unresolved.
+
 ## 13. World direction [L/P]
 
 The world should be dense and worth inhabiting for a long time. Regions need multiple reasons to visit and revisit, such as:
@@ -566,7 +577,7 @@ The project has not yet locked:
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - exact stat values, growth curves, stat caps, the regeneration-stat decision, level curve, and equipment formulas (the baseline stat set itself is provisionally decided);
-- death, saves, dungeon failure, and recovery;
+- save architecture, exact death-penalty values, and hardcore-mode save handling (the death-and-recovery baseline is decided in Section 12.6);
 - quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
 - exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
@@ -583,8 +594,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-42:** approved and integrated into this GDD.
-- **CORE-43:** active and unanswered.
+- **CORE-21 through CORE-43:** approved and integrated into this GDD.
+- **CORE-44:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -610,5 +621,6 @@ Current interview state:
 | CORE-40 | [L/P] | Section 9 — lean statistic set with intentional exclusions |
 | CORE-41 | [L/P] | Sections 9 and 10 — equipment as the build system; tier, side-grade, and readability rules |
 | CORE-42 | [L/P] | Section 10 — acquisition, duplicate-to-gold rule, no guarantees beyond quest uniques, catch-up vendors |
+| CORE-43 | [L/P] | Section 12.6 — death and recovery, raid respawns, optional hardcore mode |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

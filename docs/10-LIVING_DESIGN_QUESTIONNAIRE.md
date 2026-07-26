@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-44 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-45 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-45 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-46 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-44; CORE-17 through CORE-20 open; CORE-45 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-45; CORE-17 through CORE-20 open; CORE-46 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -718,9 +718,11 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Progress gates, mastery tests, targetable loot, story milestones, build checks, or optional challenges.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Each concentrated-challenge tier has a distinct intended role. **Elites** are open-world pattern tests and portal or rare-drop sources—the "respect me" tier inside every zone. **Dungeons** are concentrated mastery chambers and targetable loot destinations, earned through portals and run as committed one-shot instances. **Bosses** are the learn-then-master-then-farm centerpieces and the unique-item chases. **World bosses** are fixed outdoor anchors and portal fountains. **Raids and optional superbosses** are the endgame execution ceiling.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Optionality:** [P] Almost all dungeons are optional but clearly best-rewarding: a player can theoretically progress through open-world play and quests alone, while dungeons remain the strongest loot, experience, and mastery path. A small number of authored milestone dungeons are tied to major quest or story beats, giving the zero-to-hero arc landmark moments without turning the open structure into a corridor. Milestone gating uses the CORE-28 hard-gate rules (clear, purposeful, proportionate).
+
+**Deferred detail:** [U] Which dungeons are milestones, their placement, and their relationship to the still-undecided narrative structure remain unresolved. (Recorded 2026-07-26.)
 
 ## E. Supporting systems, production, and success
 

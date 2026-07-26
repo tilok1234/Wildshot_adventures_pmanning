@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-44; CORE-45 active  
+**Version:** Concept snapshot through CORE-45; CORE-46 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-45 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-46 is active.
 
 ## 1. Executive summary
 
@@ -291,6 +291,12 @@ The important principle is not the exact percentage. Relevant enemies must exist
 5. Learn and eventually master the boss.
 6. Receive tiered progression and pursue its unique reward.
 7. Return more powerful and more knowledgeable.
+
+### Tier roles and optionality [L/P]
+
+Each concentrated-challenge tier has a distinct role: elites are open-world pattern tests and portal or rare-drop sources; dungeons are concentrated mastery chambers and targetable loot destinations; bosses are the learn-master-farm centerpieces and unique chases; world bosses are fixed outdoor anchors and portal fountains; raids and optional superbosses are the endgame execution ceiling.
+
+Almost all dungeons are optional but clearly best-rewarding [P]: open-world play and quests can theoretically carry progression, while dungeons remain the strongest loot, experience, and mastery path. A small number of authored milestone dungeons are tied to major quest or story beats, giving the zero-to-hero arc landmark moments without turning the open structure into a corridor; milestone gating follows the world-gating rules. Which dungeons are milestones remains unresolved.
 
 ### Boss lifecycle [L]
 
@@ -600,8 +606,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-44:** approved and integrated into this GDD.
-- **CORE-45:** active and unanswered.
+- **CORE-21 through CORE-45:** approved and integrated into this GDD.
+- **CORE-46:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -629,5 +635,6 @@ Current interview state:
 | CORE-42 | [L/P] | Section 10 — acquisition, duplicate-to-gold rule, no guarantees beyond quest uniques, catch-up vendors |
 | CORE-43 | [L/P] | Section 12.6 — death and recovery, raid respawns, optional hardcore mode |
 | CORE-44 | [L/P] | Section 8 — ordinary pack design: role grammar, priority targets, pulling, frame showcase |
+| CORE-45 | [L/P] | Section 11 — tier roles; dungeons optional-but-best-rewarding with milestone exceptions |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

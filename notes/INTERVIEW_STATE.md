@@ -9,20 +9,18 @@
 
 ## Active question
 
-**CORE-45 — What is the intended role of dungeons, elites, and bosses?**
+**CORE-46 — What is the purpose of quests?**
 
-*Consider: Progress gates, mastery tests, targetable loot, story milestones, build
-checks, or optional challenges.*
+*Consider: Narrative context, world change, teaching mechanics, directing exploration,
+faction choice, or reward packaging.*
 
-No answer has been accepted yet. Heavily pre-answered: boss lifecycle (CORE-05:
-learn → master → farm), portal loop (CORE-06A), intensity ladder tiers (CORE-36),
-dungeons as committed instances with real stakes (CORE-16/43), uniques from named
-sources (CORE-08A), minimum-level gates (CORE-28). CORE-45's job is mostly synthesis:
-state each tier's intended ROLE (elites = open-world pattern tests / rare-drop and
-portal sources; dungeons = concentrated mastery + targetable loot; bosses = mastery
-centerpieces + unique chases). Possible open nuance: story-milestone dungeons/bosses
-(narrative still undecided) and whether some dungeons are progress-critical vs all
-optional-but-rewarding.
+No answer has been accepted yet. Relevant existing material: quests are an XP/progression
+route (CORE-24), potential guaranteed-unique sources [P] (CORE-08A), and may drive
+authored settlement changes (CORE-25) and milestone dungeons (CORE-45); the faction-
+reputation direction (CORE-39) will need quest hooks; knowledge pillar wants quests to
+teach sources and direct exploration without wiki dependence. Narrative structure, tone,
+and scope remain undecided (CORE-19 open). Likely shape: quests = packaged direction +
+world context + teaching + landmark rewards, never mandatory daily structure.
 
 ## Question status table
 
@@ -32,12 +30,20 @@ optional-but-rewarding.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-44 | Approved and integrated into the GDD. |
-| **CORE-45** | **ACTIVE — no accepted answer.** |
-| CORE-46 onward | Unanswered. |
+| CORE-21 through CORE-45 | Approved and integrated into the GDD. |
+| **CORE-46** | **ACTIVE — no accepted answer.** |
+| CORE-47 onward | Unanswered. |
 
-The designer chose to continue past CORE-44 while CORE-17 through CORE-20 remain open.
-Continue at CORE-45 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-45 while CORE-17 through CORE-20 remain open.
+Continue at CORE-46 unless the designer chooses to return to an earlier open question.
+
+### CORE-45 — answered 2026-07-26 [L/P]
+
+Tier roles: elites = pattern tests + portal/rare sources; dungeons = mastery chambers +
+targetable loot; bosses = learn-master-farm centerpieces + unique chases; world bosses =
+outdoor anchors + portal fountains; raids/superbosses = execution ceiling. Almost all
+dungeons optional-but-best-rewarding [P]; small set of authored milestone dungeons tied
+to major quest/story beats under CORE-28 gate rules. Milestone selection deferred.
 
 ### CORE-44 — answered 2026-07-26 [L/P]
 

@@ -9,21 +9,18 @@
 
 ## Active question
 
-**CORE-50 — Which accessibility and comfort features are required from the start?**
+**CORE-51 — What visual and audio rules protect combat readability?**
 
-*Consider: Aim assistance, toggle fire, projectile opacity, visible hitbox, flash
-reduction, controller support, difficulty options, and remapping.*
+*Consider: Friendly versus hostile shots, telegraph hierarchy, hit feedback, environment
+contrast, sound cues, and effect limits.*
 
-No answer has been accepted yet. Already decided pieces: remappable autofire toggle
-(CORE-32), reducible/disableable damage numbers (CORE-32), no routine screen shake or
-global hit-stop (CORE-32), controller secondary (CORE-13), no focus targeting on M+K
-(CORE-35), authored difficulty with no difficulty sliders implied by CORE-29 (separate
-fixed higher-difficulty dungeon versions are the difficulty option). Open: full
-remapping scope, projectile opacity/effect-density options, flash/screen-effect
-reduction, colorblind support, visible-hitbox option, aim-assist stance (controller
-only?), text scaling, and whether any difficulty accessibility option exists given the
-no-scaling philosophy. GDD §18 lists "accessibility and readability implementation" as
-unresolved — CORE-50 sets the required-from-start list.
+No answer has been accepted yet. Substantial existing material: readability is a locked
+non-negotiable (anti-pillar 4); CORE-32 feedback rules (no routine shake/hit-stop,
+layered feedback, reducible numbers); CORE-50 colorblind-safe shape/pattern language for
+hostile shots; risk register has visual-hierarchy/density-budget/readability-playtest
+mitigations; Phase B tests telegraphs. CORE-51 should codify the rule set: hostile vs
+friendly distinction, telegraph hierarchy (danger ↔ prominence), effect budgets, player
+shots visually subordinate to enemy shots, environment contrast rules, audio cue roles.
 
 ## Question status table
 
@@ -33,12 +30,22 @@ unresolved — CORE-50 sets the required-from-start list.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-49 | Approved and integrated into the GDD. |
-| **CORE-50** | **ACTIVE — no accepted answer.** |
-| CORE-51 onward | Unanswered. |
+| CORE-21 through CORE-50 | Approved and integrated into the GDD. |
+| **CORE-51** | **ACTIVE — no accepted answer.** |
+| CORE-52 onward | Unanswered. |
 
-The designer chose to continue past CORE-49 while CORE-17 through CORE-20 remain open.
-Continue at CORE-50 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-50 while CORE-17 through CORE-20 remain open.
+Continue at CORE-51 unless the designer chooses to return to an earlier open question.
+
+### CORE-50 — answered 2026-07-26 [L/P]
+
+Required-from-start baseline: full remapping; hold/toggle fire; effect-density/opacity
+options; flash reduction; colorblind-safe projectile language (shape/pattern, never
+color alone); optional visible-hitbox indicator; UI/text scaling; reducible damage
+numbers; separate audio channels + audible key threats; pause wherever legal; no
+photosensitivity-hostile defaults. No global difficulty setting [L] — higher-difficulty
+dungeon versions are the hard mode; accessibility = readability + control, never enemy
+tuning. No M+K aim assist; possible stick assist quarantined to controller.
 
 ### CORE-49 — answered 2026-07-26 [L/T]
 

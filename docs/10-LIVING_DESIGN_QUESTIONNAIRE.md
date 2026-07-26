@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-49 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-50 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-50 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-51 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-49; CORE-17 through CORE-20 open; CORE-50 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-50; CORE-17 through CORE-20 open; CORE-51 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -784,11 +784,18 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Aim assistance, toggle fire, projectile opacity, visible hitbox, flash reduction, controller support, difficulty options, and remapping.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Required from the start, because these are cheap to build in and brutal to retrofit:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- **Input:** full keyboard and mouse remapping; hold-to-fire and remappable toggle autofire (CORE-32); controller as secondary where it survives (CORE-13).
+- **Visual:** an effect-density/opacity option for projectiles and effects; flash and screen-effect reduction; a colorblind-safe hostile/friendly projectile language where hostile shots differ by shape and pattern, never by color alone; an optional visible-hitbox indicator; UI and text scaling; reducible/disableable damage numbers (CORE-32).
+- **Audio:** separate volume channels; key threats audible as well as visible.
+- **Comfort:** pause wherever legal (CORE-16/31); no photosensitivity-hostile effects by default; no routine screen shake or global hit-stop (CORE-32).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Difficulty stance:** [L] There is no global difficulty setting. Content difficulty is authored and fixed (CORE-29); the separate fixed higher-difficulty dungeon versions are the "hard mode." Accessibility is about readability and control, never about tuning enemy strength. The honest trade-off is accepted deliberately: the uncompromised endgame will not be finished by everyone.
+
+**Aim assistance:** [L/P] None on mouse and keyboard, consistent with the movement-purity decisions (CORE-33/35). A possible mild stick assist stays quarantined to controller and is decided when controller support is built.
+
+**Deferred detail:** [U] Exact option lists, defaults, slider ranges, colorblind palettes and shape language, and implementation belong to the readability and interface planning. (Recorded 2026-07-26.)
 
 **CORE-51. What visual and audio rules protect combat readability?**
 

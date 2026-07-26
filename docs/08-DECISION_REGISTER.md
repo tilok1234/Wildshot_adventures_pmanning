@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-49; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-50 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-50; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-51 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -58,6 +58,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-47 | [L/P] | Several major hubs, fewer than one per zone; hubs are full-service anchors (faction vendors, crafting commissions, quest givers, auto-travel, stash); a possible narrative capital remains open. Stash/bank is strictly per-character — no sharing, muling, or cross-character funneling; each character is its own journey. Hubs stage the zero-to-hero recognition: NPC behaviour, improvements, and settlement states escalate with progression, and selected quests may alter hub states. Hub count, placement, services, stash details, and recognition implementation deferred. |
 | CORE-48 | [L] | Confirms CORE-25 and adds the automation stance: crafting is deterministic commission-style non-combat rewards only; gathering is fishing and foraging exactly; and NO automation exists — no idle production, automated gathering, or offline progress. Everything is earned through active play. |
 | CORE-49 | [L/T] | Grind feel stays as locked (deliberate, targetable, cumulative, relaxed-but-active). Target ranges set as test hypotheses [T]: dungeon runs ~10–20 min; portal acquisition at a known source ~5–20 min; mastered loop 2–3×/hour; felt upgrade most 1-hour leveling sessions (endgame exempt); typical boss unique expected within ~20–40 attempts. Percentile guardrail: 95th-percentile unlucky acquisition ≤ roughly 2–3× expected time, tuned via drop rates and cadence, never escalating odds. Attempts per pursuit are tracked and displayed [P]. Grinds overlap: every targeted hunt advances at least two progression tracks — no run is a pure loss [P]. Final numbers await the Phase D percentile simulation. |
+| CORE-50 | [L/P] | Required from start: full remapping; hold/toggle fire; effect-density and opacity options; flash reduction; colorblind-safe projectile language (hostile shots differ by shape/pattern, never color alone); optional visible-hitbox indicator; UI/text scaling; reducible damage numbers; separate audio channels with audible key threats; pause wherever legal; no photosensitivity-hostile defaults. No global difficulty setting [L]: authored fixed difficulty stands, higher-difficulty dungeon versions are the hard mode, and accessibility means readability and control, never enemy-strength tuning. No M+K aim assist; possible mild stick assist quarantined to controller. Option details deferred. |
 
 ## Locked cross-system rules
 

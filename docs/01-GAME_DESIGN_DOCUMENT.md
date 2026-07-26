@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-49; CORE-50 active  
+**Version:** Concept snapshot through CORE-50; CORE-51 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-50 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-51 is active.
 
 ## 1. Executive summary
 
@@ -553,6 +553,12 @@ Controller support is a secondary convenience for relaxed grinding, exploration,
 
 The intended worst case is explicitly acceptable: controller may end up suitable mainly for relaxed, extended grinding sessions while endgame content expects mouse and keyboard, and players should understand this split early. Open-world content remains designed for mouse and keyboard and merely happens to be playable on a controller; enemy and encounter design must never be adjusted toward stick precision.
 
+### Accessibility and comfort baseline [L/P]
+
+Required from the start: full input remapping; hold-to-fire and toggle autofire; an effect-density/opacity option; flash and screen-effect reduction; a colorblind-safe projectile language where hostile shots differ by shape and pattern, never color alone; an optional visible-hitbox indicator; UI and text scaling; reducible damage numbers; separate audio channels with key threats audible; pause wherever legal; no photosensitivity-hostile effects by default.
+
+There is no global difficulty setting [L]: content difficulty is authored and fixed, and the separate higher-difficulty dungeon versions are the "hard mode." Accessibility is about readability and control, never tuning enemy strength — the uncompromised endgame will not be finished by everyone, and that trade-off is accepted deliberately. No aim assistance exists on mouse and keyboard; a possible mild stick assist stays quarantined to controller. Exact option lists, defaults, and palettes remain unresolved.
+
 ### Business [L/P]
 
 - Premium one-time purchase on Steam [L].
@@ -613,7 +619,7 @@ The project has not yet locked:
 - faction identities and count, quest density targets, individual quest and faction-set designs, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements (the quest and faction framework is decided in Section 13);
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
 - exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
-- accessibility and readability implementation;
+- accessibility and readability implementation details (the required-from-start feature baseline is decided in Section 15);
 - detailed vertical-slice content and measurable continuation gates (the slice frame is provisionally decided: one class — Archer [P] — with roughly 3–5 weapon frames, 3–4 ability items, and 2–3 build directions; full-game per-class counts await CORE-20).
 
 No planning document should silently treat these as decided.
@@ -626,8 +632,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-49:** approved and integrated into this GDD.
-- **CORE-50:** active and unanswered.
+- **CORE-21 through CORE-50:** approved and integrated into this GDD.
+- **CORE-51:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -660,5 +666,6 @@ Current interview state:
 | CORE-47 | [L/P] | Section 13 — several major hubs, per-character stash, escalating recognition |
 | CORE-48 | [L] | Section 13 — crafting/gathering confirmation; no automation, active play only |
 | CORE-49 | [L/T] | Section 11 — grind-cadence target ranges, percentile guardrail, attempt visibility, overlapping grinds |
+| CORE-50 | [L/P] | Section 15 — accessibility baseline; no global difficulty setting; no M+K aim assist |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

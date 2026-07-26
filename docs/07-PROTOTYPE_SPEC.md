@@ -17,8 +17,8 @@ Prove that freely aimed projectile combat is enjoyable without rewards and can s
 - One remappable autofire toggle with a clear HUD state.
 - No selected-target requirement or automatic enemy tracking.
 - No mana, stamina, ammunition, durability, or reload cost for ordinary primary attacks.
-- One universal movement or defensive action.
-- Four temporary skill slots or equivalent test actions.
+- No universal movement or defensive action beyond walking (CORE-33): dodging is tested as pure movement.
+- One equipped-ability test slot with several swappable test abilities (CORE-34).
 - Three deterministic weapon frames with meaningfully different positioning:
   - accurate long-range shot;
   - short-range spread;
@@ -147,3 +147,7 @@ Build early tools for:
 - ten-minute activity-mix and one-hour pursuit-progress logging;
 - pause, abandon, and fresh-instance reset tests;
 - save reset and world-state toggles.
+
+## Vertical-slice scope (CORE-38, 2026-07-26)
+
+[P] The vertical slice is built around one class — provisionally the **Archer** — with roughly three to five genuinely distinct weapon frames, three to four ability items covering different roles (at minimum mobility, defense, and burst), and two to three build directions through the skill tree. The slice must prove the locked combat pillar in practice: movement-only dodging, the single equipped active, weapon-owned patterns, honest boss design, and armor and ring tradeoffs. Three classes remain locked for the full game; per-class full-game content counts are explicitly deferred until CORE-20 resolves production constraints.

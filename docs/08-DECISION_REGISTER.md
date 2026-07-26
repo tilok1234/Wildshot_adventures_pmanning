@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-37; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-38 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-38; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-39 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -46,6 +46,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-35 | [CUT] | No focus-targeting system exists: no target selection, lock-on, marking, focused-enemy state, or hover focus on any input method, and no aiming, damage, homing, or informational behaviour is tied to a focused enemy. Enemy information (names, health, boss casts, resistances) is delivered through general interface presentation such as overhead bars, boss presentation, or a bestiary; exact implementation deferred to interface and knowledge questions. Any retained controller aim assistance must work without a focus-target system and stays quarantined from mouse-and-keyboard play and encounter design. |
 | CORE-36 | [L/P] | Combat intensity follows a tiered enemy ladder: weak fodder; ordinary packs; dangerous packs/pockets; elites; rare/named roamers on authored routes; fixed-strength world bosses; denser, faster dungeon enemies; dungeon bosses; raid wings; optional superbosses. Intensity climbs primarily through projectile density, speed, pattern complexity, and encounter composition—not hit-point sponging; health totals stay honest. The open-world ladder repeats inside each zone at that zone's authored difficulty band, so every zone has its own local spread from relaxed outskirts to genuine danger; bands do not trivially overlap. Exact per-zone bands, density/speed budgets, composition rules, and enemy designs remain deferred. |
 | CORE-37 | [L/P] | Ownership map confirmed. Class owns eligibility and identity: base statistics, skill tree, and exclusive weapon and ability-item families — each class plays distinctly through its gear. Weapon owns the primary pattern plus damage, attack speed, and range. Ability item owns the single active and may carry stats. Armor and ring own classic RPG statistics. The loadout is four slots: weapon, ability item, armor, ring; all pieces may carry stats. Armor must offer give-and-take archetypes (light/high-damage vs heavy/low-damage and combos), not one upward ladder. Rings must not collapse into one universally correct choice (no mandatory HP ring); viable rings need situational tradeoffs. Unique items in any slot may carry special effects and behaviours beyond stats [P]. Stat set, per-slot budgets, class stat spreads, and ring class-binding remain deferred. |
+| CORE-38 | [P] | Vertical slice: one class — provisionally the Archer — with roughly 3–5 genuinely distinct weapon frames, 3–4 ability items covering different roles (at minimum mobility, defense, burst), and 2–3 build directions. The slice proves the locked combat pillar: movement-only dodging, single equipped active, weapon-owned patterns, honest bosses, armor/ring tradeoffs. Full game: three classes remain locked; per-class content counts are explicitly deferred until CORE-20 resolves production constraints. Rationale: class-exclusive item families mean every class multiplies all content — prove one class deeply before building three. |
 
 ## Locked cross-system rules
 

@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-37; CORE-38 active  
+**Version:** Concept snapshot through CORE-38; CORE-39 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-38 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-39 is active.
 
 ## 1. Executive summary
 
@@ -541,7 +541,7 @@ The project has not yet locked:
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
 - exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
 - accessibility and readability implementation;
-- vertical-slice scope and measurable continuation gates.
+- detailed vertical-slice content and measurable continuation gates (the slice frame is provisionally decided: one class — Archer [P] — with roughly 3–5 weapon frames, 3–4 ability items, and 2–3 build directions; full-game per-class counts await CORE-20).
 
 No planning document should silently treat these as decided.
 
@@ -553,8 +553,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-37:** approved and integrated into this GDD.
-- **CORE-38:** active and unanswered.
+- **CORE-21 through CORE-38:** approved and integrated into this GDD.
+- **CORE-39:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -575,5 +575,6 @@ Current interview state:
 | CORE-35 | [CUT] | Section 8 — combat format (focus targeting removed entirely) |
 | CORE-36 | [L/P] | Section 8 — combat intensity ladder |
 | CORE-37 | [L/P] | Sections 7 and 9 — class gear identity, four-slot loadout, stat ownership |
+| CORE-38 | [P] | Section 18 and prototype spec — vertical-slice scope (one class, Archer provisional) |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

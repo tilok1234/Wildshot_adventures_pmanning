@@ -9,22 +9,20 @@
 
 ## Active question
 
-**CORE-38 — How many classes, weapon frames, and build directions are required for the vertical slice and for the full game?**
+**CORE-39 — What is the purpose of character levels?**
 
-*Consider: Separate proof-of-concept scope from eventual content ambition.*
+*Consider: Broad power, access, skill unlocks, talent points, equipment eligibility, or
+another function.*
 
-No answer has been accepted yet. Relevant constraints:
-
-- Three classes (Archer/Warrior/Mage) are locked for the full game (CORE-03), each with
-  exclusive weapon and ability-item families (CORE-37) — so class count multiplies all
-  content, which the risk register flags as a top scope risk ("prove one class deeply,
-  one class before three").
-- CORE-32 mandates broad weapon-pattern prototyping before narrowing the arsenal.
-- The question separates VERTICAL-SLICE scope (how many classes/weapon frames/build
-  directions to prove the game) from FULL-GAME ambition. A likely shape: slice = 1 class,
-  a handful of weapon frames, 2-3 build directions; full = 3 classes with per-class
-  targets deferred. CORE-20 (team/budget) is still open, which limits how firm full-game
-  numbers can honestly be.
+No answer has been accepted yet. Partially pre-answered: levels grant skill points and
+broad advancement (CORE-03 / GDD §9 table); dungeons, raids, and selected instances use
+explicit minimum-level entry requirements (CORE-28). Remaining to decide: whether levels
+also grant direct statistics (and how that interacts with gear-driven stats from
+CORE-37); whether equipment has level requirements; whether skill-tree tiers are
+level-gated (the CORE-34 capstone concept implied a max-level unlock); and level-cap
+philosophy (hard cap as an endgame marker — "reaching endgame is a transition" per
+CORE-24). Constraint: no content scales to level (CORE-29); level gates only permit
+attempts (CORE-28).
 
 ## Question status table
 
@@ -34,12 +32,21 @@ No answer has been accepted yet. Relevant constraints:
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-37 | Approved and integrated into the GDD. |
-| **CORE-38** | **ACTIVE — no accepted answer.** |
-| CORE-39 onward | Unanswered. |
+| CORE-21 through CORE-38 | Approved and integrated into the GDD. |
+| **CORE-39** | **ACTIVE — no accepted answer.** |
+| CORE-40 onward | Unanswered. |
 
-The designer chose to continue past CORE-37 while CORE-17 through CORE-20 remain open.
-Continue at CORE-38 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-38 while CORE-17 through CORE-20 remain open.
+Continue at CORE-39 unless the designer chooses to return to an earlier open question.
+
+### CORE-38 — answered 2026-07-26 [P]
+
+Vertical slice: one class — provisionally the Archer — with ~3–5 distinct weapon frames,
+~3–4 ability items (covering at least mobility/defense/burst), 2–3 build directions.
+Proves the locked combat pillar (movement-only dodging, single active, weapon-owned
+patterns, honest bosses, armor/ring tradeoffs). Full game: three classes locked;
+per-class content counts explicitly deferred until CORE-20. Rationale: class-exclusive
+item families multiply content — prove one class deeply first.
 
 ### CORE-37 — answered 2026-07-26 [L/P]
 

@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-37 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-38 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-38 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-39 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-37; CORE-17 through CORE-20 open; CORE-38 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-38; CORE-17 through CORE-20 open; CORE-39 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -616,9 +616,11 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Separate proof-of-concept scope from eventual content ambition.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [P] The vertical slice is built around **one class — provisionally the Archer** — with roughly three to five genuinely distinct weapon frames, three to four ability items covering different roles (at minimum mobility, defense, and burst), and two to three build directions through the skill tree. This is enough to prove the locked combat pillar in practice: movement-only dodging, the single equipped active, weapon-owned patterns, honest boss design, and armor and ring tradeoffs. The slice class may be swapped before production if prototyping reveals a better proof vehicle.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Full game:** [L/U] Three classes (Archer, Warrior, Mage) remain locked for the full game. Per-class full-game content counts — weapon frames, ability items, build directions — are explicitly deferred until CORE-20 resolves team, engine, budget, and schedule; recording invented numbers now would be decoration, not planning.
+
+**Scope rationale:** [L] With class-exclusive weapon, ability-item, and gear families, every class multiplies all content. The slice therefore proves one class deeply before three are built, per the risk register's top scope mitigation. (Recorded 2026-07-26.)
 
 **CORE-39. What is the purpose of character levels?**
 

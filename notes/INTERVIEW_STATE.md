@@ -7,17 +7,24 @@
 
 **Last updated:** 2026-07-26 (refinement batch recorded — see below)
 
-## Active question
+## Interview position
 
-**CORE-19 — What are the intended tone, rating, and content boundaries?**
+🎉 **PART I IS COMPLETE — CORE-01 through CORE-55 all answered (2026-07-26).**
+CORE-14 remains provisional/prototype-gated.
 
-THE FINAL OPEN QUESTION OF PART I. Nothing else constrains it besides genre feel
-(fantasy adventure, RotMG-ish energy) and audience (experienced players, but
-accessible opening). Needed: overall tone (lighthearted/colorful vs dark fantasy vs
-mixed); target age rating equivalent (E10/T-style — violence presentation, blood/gore
-stance); content boundaries (sexual content, profanity, gambling imagery — note the
-game's own loot RNG vs gambling presentation, horror elements, real-world sensitive
-topics). Record as boundaries, not story details (narrative itself stays open).
+Next steps (designer to choose, in any order):
+
+1. **Part II — combat and controls module questions**, which directly feed the Phase A
+   lab's design details (movement feel numbers, exact ability behaviours, enemy
+   grammar specifics).
+2. **Start building the Phase A combat laboratory in Godot** (CORE-53's milestone),
+   using the existing tileset/sprite pipeline; interview and lab can proceed in
+   parallel, with lab findings feeding back into [T] answers.
+3. **Companion-doc refresh sweep**: 03-HANDOFF, 04-OPEN_QUESTIONS, 05-ROADMAP, and
+   09-SYSTEMS_MAP still reflect the CORE-32 snapshot and should be reconciled with
+   everything decided 2026-07-26 (the GDD, registers, and prototype spec are current).
+
+Option 3 is recommended before long Part II sessions so every doc agrees.
 
 ## Question status table
 
@@ -27,8 +34,17 @@ topics). Record as boundaries, not story details (narrative itself stays open).
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-17, CORE-18, CORE-20 through CORE-55 | Approved and integrated into the GDD. |
-| **CORE-19** | **ACTIVE — the final unanswered question in Part I.** |
+| **CORE-01 through CORE-55** | **ALL ANSWERED — Part I complete 2026-07-26.** |
+| CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
+
+### CORE-19 — answered 2026-07-26 [P] — completed Part I
+
+Tone: colorful heroic fantasy with bite (established visually by the existing tileset;
+dungeon/dusk style masters carry the menace). Rating: clean-leaning E10+/T, guiding
+preference not a hard lock ("keep it clean without letting it restrict us"); fantasy
+violence, no gore. Boundaries: no sexual content; mild language at most; no real-world
+religion/politics; horror atmosphere without shock imagery; loot RNG never presented
+with casino aesthetics. Narrative specifics open.
 
 ### CORE-18 — answered 2026-07-26 [L/P]
 

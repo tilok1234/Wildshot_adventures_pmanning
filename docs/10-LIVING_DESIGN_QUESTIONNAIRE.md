@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-18 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-19 open; CORE-19 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-55 ALL ANSWERED — Part I complete; CORE-14 remains provisional/test-gated; interview proceeds to Part II modules — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-55 except CORE-19; CORE-19 active — July 26, 2026 |
+| **Document version**        | Living interview — Part I complete (CORE-01–55 all answered); Part II next — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -314,7 +314,7 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Violence, horror, language, humor, themes, and visual intensity can affect design and production.*
 
-**Answer/status:** [U] Unanswered.
+**Answer/status:** [P] **Tone:** colorful heroic fantasy with bite — a warm, bright, readable pixel-art world (established visually by the existing tileset: cozy towns, lively grasslands, seasonal and mood variants) whose dungeons, raids, and superbosses are allowed to become genuinely menacing through mood shifts such as the existing dungeon-dusk style masters. **Rating:** clean-leaning, roughly E10+/T territory — fantasy violence with impact feedback and defeated enemies, no gore or dismemberment (which also serves the readability laws). Recorded as a guiding preference, not a hard certification lock: the designer's stance is "keep it clean without letting it restrict us," so [P] rather than [L]. **Boundaries:** no sexual content; at most mild language; no real-world religions or politics; horror atmosphere permitted in dark content without shock imagery; and the loot RNG, while core, is never presented with casino aesthetics — no slot-machine visuals or gambling framing around drops. Narrative specifics remain open. (Recorded 2026-07-26. This completes Part I: CORE-01 through CORE-55 are all answered.)
 
 **CORE-20. What are the hard production constraints?**
 

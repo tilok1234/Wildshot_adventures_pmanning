@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-55 except CORE-19; CORE-19 active  
+**Version:** Part I complete — CORE-01 through CORE-55 all answered  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; only CORE-19 remains open in Part I, and it is active.
+**Status:** Guided concept definition / early pre-production; Part I of the interview is complete (CORE-14 remains prototype-gated), and the interview proceeds to the Part II prototype modules alongside the Phase A combat laboratory.
 
 ## 1. Executive summary
 
@@ -626,7 +626,7 @@ The project has not yet locked:
 - final validation of the first journey's 40–80 focused-hour target and cap-plus-main-quest threshold (provisionally decided in CORE-17);
 - specific endgame content, superboss designs, and post-launch content cadence (the endgame's collectathon shape and no-endgame-only-systems rule are decided in CORE-18);
 - exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
-- tone, rating, and content boundaries;
+- narrative specifics (tone, rating, and content boundaries are provisionally decided in CORE-19: colorful heroic fantasy with bite, clean-leaning E10+/T, no casino aesthetics);
 - detailed production planning and measured velocity (the hard constraints — solo, AI-orchestrated, Godot [P], 10–40 hours/week, no deadline, custom asset pipeline — are recorded in Section 15);
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
@@ -648,8 +648,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-17, CORE-18, and CORE-20 through CORE-55:** approved and integrated into this GDD.
-- **CORE-19:** active — tone, rating, and content boundaries; the final open question of Part I.
+- **CORE-01 through CORE-55: all answered.** Part I of the interview is complete as of 2026-07-26. CORE-14 remains provisional and prototype-gated.
+- The interview proceeds to Part II (combat and controls modules) alongside the Phase A combat laboratory.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -691,5 +691,6 @@ Current interview state:
 | CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, 10–40 h/week, no deadline |
 | CORE-17 | [P/T] | Section 12.4a — first-journey target: cap + main quest, roughly 40–80 focused hours |
 | CORE-18 | [L/P] | Section 12.4 — open-ended collectathon endgame; alts modest; no endgame-only systems |
+| CORE-19 | [P] | Tone and content boundaries — colorful heroic fantasy with bite; clean-leaning E10+/T; no casino aesthetics |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-19 open; CORE-17 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-17 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-18 and CORE-19 open; CORE-18 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-55 plus CORE-20; CORE-17 through CORE-19 open; CORE-17 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-55 except CORE-18 and CORE-19; CORE-18 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -294,7 +294,7 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Avoid treating this as a fixed linear campaign. Separate focused progression, optional content, the threshold for reaching endgame, and later endgame time.*
 
-**Answer/status:** [U] Open. Use **first character's journey to endgame** or **initial zero-to-hero journey**, not **first campaign**. The player may advance through different combinations of quests, ordinary enemy grinding, exploration, equipment hunting, dungeons, bosses, and other progression activities established later. No numerical duration, exact mechanical endgame threshold, or focused-versus-optional measurement method is locked.
+**Answer/status:** [P/T] The endgame threshold is reaching the level cap and completing the main quest line, which roughly coincide by design (the main quest spans level one to cap). The first character's zero-to-hero journey targets roughly **40–80 focused hours** to that threshold: long enough that the rise feels earned, MMO-scale, and full of the deliberate level-gap grinding the structure creates; short enough that endgame — locked as core content — is reached by players who commit. Optional content, faction sets, exploration, and collections extend the journey freely beyond focused time, and endgame contains substantially more play beyond the threshold (CORE-18/24). The hour range is a design target validated against real content much later; it does not gate or time anything at runtime. (Recorded 2026-07-26; supersedes the earlier open framing note.)
 
 **CORE-18. What replay or endgame experience is intended?**
 

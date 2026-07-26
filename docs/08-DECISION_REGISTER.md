@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-20 through CORE-55; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-19 remain open; CORE-17 is active.
+**Decided range:** CORE-01 through CORE-17 and CORE-20 through CORE-55; CORE-14 remains prototype-gated.  
+**Interview position:** only CORE-18 and CORE-19 remain open; CORE-18 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -26,7 +26,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-14 | [P/T] | Complete solo-first game with architecture capable of optional two-player online co-op. Co-op is not promised until an early networked prototype passes. Four-player and mandatory group content are outside the direction. |
 | CORE-15 | [L] | Premium one-time purchase on Steam. No subscription, battle pass, pay-to-win, recurring payment, or live-service pressure. Free itch.io release remains optional. |
 | CORE-16 | [L] | No prescribed “correct” or normal session duration. A session is worthwhile when the player can pursue a self-chosen goal; permanent upgrades are not required. Brief and extended sessions both support quests, exploration, learning, mastery, dungeon/boss attempts, and independent loot rolls. Single-player combat is pausable. An ordinary dungeon is one committed instance: pausing is allowed, but leaving or abandoning ends it and it cannot be resumed partially cleared. Dry-streak mitigation comes from reward breadth—cosmetic and collection drops from bosses, recorded straight into the collection interface—never from pity or escalating odds (2026-07-26 [P]). Raids are structured in wings: a wing is the committed dungeon-scale sitting; raid progress persists until completion or a free player-chosen reset with no time-based lockouts; deterministic mastery shortcuts or trophy skip tokens are the test-gated skip baseline, with rare skips only as optional luxury (2026-07-26 [P/T]). Exact raid durations, wing lengths, and checkpoint implementation remain deferred. |
-| CORE-17 | [U] | Open. Frame this as the **first character’s journey to endgame**, not a fixed campaign. No numerical duration or exact endgame threshold is locked. |
+| CORE-17 | [P/T] | The endgame threshold is reaching the level cap and completing the main quest line (which roughly coincide by design). The first zero-to-hero journey targets roughly 40–80 focused hours to that threshold; optional content extends it freely, and substantial endgame play continues beyond it. Design target validated against real content later; nothing gates or times the player at runtime. (Answered 2026-07-26.) |
 | CORE-18 | [U/L] | Exact replay/endgame structure remains open. CORE-24 locks that reaching endgame is a transition into substantial endgame play, including targeted farming, desired uniques, powerful and alternative builds, hardest-solo-content mastery, optional superbosses, collection/completion, and efficiency goals. |
 | CORE-19 | [U] | Unanswered (tone, rating, and content boundaries). |
 | CORE-20 | [L/P] | Production constraints recorded: solo developer, highly proficient at orchestrating AI with strong technical understanding and deep genre knowledge; AI-orchestrated production across code, art, and content. Engine most likely Godot [P]. Abundant AI access removes tooling/asset cost; no contractor budget assumed. 10–40 hours/week with planning anchored to the low end. No deadline — the CORE-55 gates, not dates, are the discipline mechanism. Custom broad tileset + generation system exists; matched enemy/player sprite generator near completion. Consequences: generated sprites must encode the readability laws; tools accelerate authoring without weakening the handcrafted-world rule; velocity remains measured through lab and slice. Risk #2 downgrades from unmeasured to bounded. |

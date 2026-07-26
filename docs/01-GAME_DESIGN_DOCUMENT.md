@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-55 plus CORE-20; CORE-17 active  
+**Version:** Concept snapshot through CORE-55 except CORE-18/19; CORE-18 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-20 through CORE-55 are answered; CORE-17 through CORE-19 remain open and CORE-17 is active.
+**Status:** Guided concept definition / early pre-production; only CORE-18 and CORE-19 remain open in Part I, and CORE-18 is active.
 
 ## 1. Executive summary
 
@@ -352,6 +352,10 @@ The central long-term objective is to develop a chosen character from an unknown
 
 Reaching endgame is a major transition rather than the end of the journey. Substantial endgame play continues through targeted farming, desired unique-item hunts, powerful and alternative builds, mastery of the hardest solo content, optional superbosses, collection, completion goals, and increasingly efficient play. A future story conclusion or final threat may provide direction and an important milestone, but it is not the game's ultimate endpoint. Endgame is core content, not optional cleanup after the "real game."
 
+### 12.4a First-journey target [P/T]
+
+Reaching endgame means hitting the level cap and completing the main quest line, which roughly coincide by design. The first character's zero-to-hero journey targets roughly 40–80 focused hours to that threshold, with optional content extending it freely and substantial endgame play beyond it. The range is a design target validated against real content later; nothing gates or times the player at runtime.
+
 ### 12.5 Session duration and attempt meaning
 
 Wildshot Adventures does not prescribe one correct or normal session duration. A session is successful when the player can actively pursue a self-chosen goal that matters to them. A permanent upgrade is welcome but is not required for the session to be worthwhile.
@@ -617,7 +621,7 @@ Not inherited: SimPlayers as a core system, tab-target combat, mandatory party c
 
 The project has not yet locked:
 
-- the numerical length and exact threshold of the first character’s journey to endgame;
+- final validation of the first journey's 40–80 focused-hour target and cap-plus-main-quest threshold (provisionally decided in CORE-17);
 - the detailed replay and endgame structure beyond the locked long-term objective;
 - exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
 - tone, rating, and content boundaries;
@@ -642,9 +646,9 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-20 through CORE-55:** approved and integrated into this GDD.
-- **CORE-17:** active — the first character's journey to endgame.
-- **CORE-18 and CORE-19:** open.
+- **CORE-17 and CORE-20 through CORE-55:** approved and integrated into this GDD.
+- **CORE-18:** active — replay and endgame structure.
+- **CORE-19:** open — tone, rating, and content boundaries.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -684,5 +688,6 @@ Current interview state:
 | CORE-54 | [L/P] | Risk register and questionnaire — top five risks ranked with test/mitigation/cut |
 | CORE-55 | [L/P] | Questionnaire and prototype spec — the two formal continuation gates |
 | CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, 10–40 h/week, no deadline |
+| CORE-17 | [P/T] | Section 12.4a — first-journey target: cap + main quest, roughly 40–80 focused hours |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

@@ -9,20 +9,19 @@
 
 ## Active question
 
-**CORE-17 — What is the target length of the first character's journey to endgame?**
+**CORE-18 — What replay or endgame experience is intended?**
 
-*Frame as the first character's journey to endgame / initial zero-to-hero journey, NOT
-a fixed campaign (locked framing from the July 21 handoff).*
-
-No answer accepted yet. Now informable by everything decided since: main quest spans
-1→cap with level gaps (CORE-46); cap ≈ endgame transition (CORE-39); endgame is core
-content, not the end (CORE-24); no deadline/no live-service pressure (CORE-15/20);
-target audience wants dozens-to-hundreds of hours (CORE-11). Needed: a rough target
-range of focused hours for a first character to reach the level cap / endgame
-transition (e.g., 30–60h? 40–80h?), acknowledging optional content extends it and the
-number is a design target [P/T], validated much later. Also: the exact mechanical
-threshold that counts as "reaching endgame" (hit cap? finish main quest? both?).
-CORE-18 (replay/endgame structure) and CORE-19 (tone/rating) remain after this.
+CORE-24 locked the direction (endgame = substantial core continuation: targeted
+farming, unique hunts, builds, hardest-solo mastery, superbosses, collection,
+efficiency); designer just affirmed "at endgame there's a lot more." CORE-18's job:
+the concrete endgame STRUCTURE. Building blocks already decided: higher-difficulty
+dungeon versions (CORE-29), raids with wings (CORE-16r), optional superbosses, faction
+grinds incl. post-cap (CORE-39/46), collection systems (CORE-25), alt characters —
+three slots, per-character journeys (CORE-03/47), optional hardcore mode (CORE-43),
+capstone-empowers-item design space (CORE-34). Open: is there a repeatable endgame
+"ladder" beyond farming (e.g., a rotating pinnacle target)? New-character replay value
+stance (alts as intended replay loop given three classes)? Any endgame-only systems?
+CORE-19 (tone/rating/content boundaries) is the final open question after this.
 
 ## Question status table
 
@@ -32,9 +31,16 @@ CORE-18 (replay/endgame structure) and CORE-19 (tone/rating) remain after this.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-20 through CORE-55 | Approved and integrated into the GDD. |
-| **CORE-17** | **ACTIVE — no accepted answer.** |
-| CORE-18, CORE-19 | Open — the last two unanswered questions in Part I. |
+| CORE-17, CORE-20 through CORE-55 | Approved and integrated into the GDD. |
+| **CORE-18** | **ACTIVE — no accepted answer.** |
+| CORE-19 | Open — the final unanswered question in Part I. |
+
+### CORE-17 — answered 2026-07-26 [P/T]
+
+Endgame threshold = level cap + main quest completion (roughly coincide by design).
+First zero-to-hero journey targets ~40–80 focused hours; optional content extends
+freely; substantial endgame beyond. Design target validated later; nothing gated at
+runtime.
 
 ### CORE-20 — answered 2026-07-26 [L/P]
 

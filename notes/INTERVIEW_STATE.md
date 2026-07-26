@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-26 (refinement batch recorded — see below)
+**Last updated:** 2026-07-27 (maintenance batch — desync fixes, falsifiers, effort model, tester pipeline; no interview answers changed. See notes/sessions/2026-07-27.md.)
 
 ## Interview position
 
@@ -25,6 +25,14 @@ Next steps (designer to choose, in any order):
    Claude account — the handoff carries everything a fresh session needs);
    04-OPEN_QUESTIONS rewritten for the Part-I-complete state; 05-ROADMAP and
    09-SYSTEMS_MAP reconciled. All docs now agree.
+
+> **Maintenance 2026-07-27 (external review, designer-approved):** five cross-doc
+> desyncs fixed; falsifiers recorded on CORE-33 ([L/T]) and the CORE-16/42 no-pity
+> and committed-instance baselines; gate-failure consequences pre-registered; a
+> pre-registered effort model + scope menu and a tester/market pipeline added to
+> the roadmap. **Pending designer inputs before Part II:** PROD-01 reliable weekly
+> floor, PROD-03 cash budget, and the scope-menu choice. Review recommendation:
+> lab before further Part II paper. Details: notes/sessions/2026-07-27.md.
 
 ## Question status table
 

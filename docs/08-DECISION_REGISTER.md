@@ -1,7 +1,7 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-27  
-**Decided range:** CORE-01 through CORE-55 — Part I complete; CORE-14 remains prototype-gated. Part II production module underway: PROD-01 and PROD-03 answered 2026-07-27.  
+**Decided range:** CORE-01 through CORE-55 — Part I complete; CORE-14 remains prototype-gated. Part II production module underway: PROD-01, PROD-03, and the effort-model scope-menu decision (Option 4) answered 2026-07-27.  
 **Interview position:** Part I finished 2026-07-26; the interview proceeds to Part II modules alongside the Phase A combat laboratory.
 
 This register is the quickest way to determine what is actually decided.
@@ -73,7 +73,7 @@ This register is the quickest way to determine what is actually decided.
 Recorded while no build sunk cost exists, so future gate evaluations stay honest by construction:
 
 - **Gate 1 (Phase A lab) repeated failure** unlocks, in order, before any pivot/stop decision: CORE-33 (movement-only dodging — see its falsifier), CORE-32 pattern-determinism details, and the weapon-frame roster.
-- **Gate 2 (slice) velocity failure** triggers the roadmap effort model's scope menu in order: slice-as-v1.0 → shrink the content bill → raise reliable capacity. CORE-55's "failure means planned-order scope cuts" now names its order.
+- **Gate 2 (slice) velocity failure** triggers the roadmap effort model's scope menu in order: slice-as-v1.0 → shrink the content bill (the capacity-raise step is moot — PROD-01 maxed capacity). CORE-55's "failure means planned-order scope cuts" now names its order. **Scope-menu decision (2026-07-27, designer-approved): Option 4** — the full game as specced remains the target; the floor-case ~2.25–4.5-year horizon is accepted in writing. **"Viable" defined:** the remaining full-game bill at measured slice velocity extrapolates to ≤ 5 years at the then-current PROD-01 floor; longer auto-triggers the cut order.
 
 ## Locked cross-system rules
 
@@ -139,7 +139,7 @@ Recorded while no build sunk cost exists, so future gate evaluations stay honest
 
 The following remain open (rewritten 2026-07-27 — the earlier version of this list predated the 2026-07-26 answers and wrongly listed engine, team size, the first-journey threshold, death rules, the stat list, and slice content as open):
 
-- **Production:** the effort-model scope-menu choice, measured velocity, post-launch cadence, Early Access/demo strategy, final engine confirmation (Godot is [P]). Weekly capacity and cash budget are NO LONGER open — PROD-01 and PROD-03 (2026-07-27) fixed them: 40 h/week floor / 72 scheduled; cash unconstrained with every asset class self-produced.
+- **Production:** measured velocity, post-launch cadence, Early Access/demo strategy, final engine confirmation (Godot is [P]). Weekly capacity, cash budget, and the scope-menu choice are NO LONGER open — PROD-01, PROD-03, and Option 4 (all 2026-07-27) fixed them: 40 h/week floor / 72 scheduled; cash unconstrained, every asset class self-produced; full game as specced stays the target with Gate 2 "viable" defined as ≤ 5 years remaining at the then-current floor.
 - **Progression numbers:** level cap value, tree size and point totals, exact stat values and growth curves, caps (especially movement speed), the regeneration-stat decision, equipment formulas, equipment level-requirement thresholds.
 - **First-journey validation:** the ~40–80-focused-hour target (CORE-17 [P/T]) awaits validation against real content.
 - **Endgame specifics:** content, superboss designs, and post-launch additions beyond CORE-18’s locked collectathon direction.

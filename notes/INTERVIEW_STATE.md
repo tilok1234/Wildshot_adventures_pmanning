@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-27, evening session (PC) — **PROD-01 answered** (full-time capacity, 72 h/week scheduled / 40 h/week planning floor; CORE-20 hours band amended everywhere) and **CORE-20 asset status verified** via showcase packet (TileForge shipping, Actor Forge v2.3; combat-effects vocabulary pre-registered as the designer-committed pre-lab asset task). Earlier same day: maintenance batch (desync fixes, falsifiers, effort model, tester pipeline). See notes/sessions/2026-07-27.md.
+**Last updated:** 2026-07-27, evening session (PC) — **all three review blockers closed**: PROD-01 (full-time; 72 h/week scheduled / 40 h/week planning floor), PROD-03 (cash unconstrained; music/SFX and store art self-produced), and the **scope-menu decision: Option 4** (full game stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current floor). CORE-20 asset status verified via showcase packet; the combat-effects vocabulary is the committed pre-lab asset task. Earlier same day: maintenance batch. See notes/sessions/2026-07-27.md.
 
 ## Interview position
 
@@ -30,8 +30,8 @@ Next steps (designer to choose, in any order):
 > desyncs fixed; falsifiers recorded on CORE-33 ([L/T]) and the CORE-16/42 no-pity
 > and committed-instance baselines; gate-failure consequences pre-registered; a
 > pre-registered effort model + scope menu and a tester/market pipeline added to
-> the roadmap. **Pending designer inputs before Part II:** ~~PROD-01~~ (✅ answered
-> 2026-07-27, evening), PROD-03 cash budget, and the scope-menu choice. Review
+> the roadmap. **Pending designer inputs before Part II:** ✅ ALL ANSWERED 2026-07-27
+> evening — PROD-01, PROD-03, and the scope-menu choice (Option 4). Review
 > recommendation: lab before further Part II paper. Details: notes/sessions/2026-07-27.md.
 
 ## Question status table
@@ -42,6 +42,16 @@ Next steps (designer to choose, in any order):
 | CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
 | **PROD-01** | **Answered 2026-07-27 [P/T]** — full-time; 72 h/week scheduled, 40 h/week planning floor, self-correcting from logged hours. |
 | **PROD-03** | **Answered 2026-07-27 [P]** — cash unconstrained; music/SFX and store art self-produced; audio pipeline bound to Law 7 from the start; sustainability assumption recorded with falsifier. |
+| **Scope menu** | **Decided 2026-07-27 [P]** — Option 4: full game as specced stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current PROD-01 floor, cut order auto-triggers otherwise. |
+
+### Scope-menu decision — 2026-07-27 [P]
+
+Option 4 chosen ("keep everything we planned"): the full game as specced remains the target;
+the floor-case ~2.25–4.5-year horizon is consciously accepted in writing. Gate 2's "viable
+full-game plan" is now DEFINED: at measured slice velocity, the remaining bill extrapolates
+to ≤ 5 years at the then-current PROD-01 floor; longer auto-triggers the pre-registered cut
+order (slice-as-v1.0 → shrink the bill; capacity-raise moot). All three 2026-07-27 review
+blockers are closed — Gate 2 is fully evaluable when reached.
 
 ### PROD-03 — answered 2026-07-27 [P]
 

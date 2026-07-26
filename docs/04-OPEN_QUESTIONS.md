@@ -71,7 +71,7 @@
 ### Production
 - Post-launch content cadence; Early Access/demo strategy; Steam Deck viability outcome; controller final scope; measured velocity (the great remaining unknown — resolved only by building).
 - PROD-01 ✅ and PROD-03 ✅ answered 2026-07-27: full-time — 72 h/week scheduled, 40 h/week reliable planning floor, self-correcting against logged hours; cash unconstrained, with music/SFX and store art self-produced and the audio pipeline bound to readability Law 7 from the start (see the decision register).
-- The effort-model scope-menu decision (slice-as-v1.0 / shrink the bill / raise capacity / accept the long horizon in writing) — blocks honest Gate 2 "viable plan" evaluation.
+- The effort-model scope-menu decision ✅ decided 2026-07-27: Option 4 — the full game as specced stays the target and the horizon is accepted in writing; Gate 2 "viable" is defined as ≤ 5 years remaining at the then-current PROD-01 floor, auto-triggering the cut order otherwise. Gate 2 is now fully evaluable when reached.
 
 ## Settled — do not reopen casually
 

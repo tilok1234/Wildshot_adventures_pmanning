@@ -108,7 +108,7 @@ The slice should demonstrate the full promise in miniature:
 
 The full content bill is decided in CORE-52 (Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, one zone + hub, 8–10 enemy types, complete portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, one authored secret, ~3–5 hours plus repeatable farm).
 
-**Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order. Pre-registered order (2026-07-27): slice-as-v1.0 → shrink the content bill → raise reliable capacity (see the effort model below and the decision register).
+**Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order. Pre-registered order (2026-07-27): slice-as-v1.0 → shrink the content bill (capacity-raise moot after PROD-01). "Viable" is defined (2026-07-27): the remaining full-game bill at measured slice velocity extrapolates to ≤ 5 years at the then-current PROD-01 floor (see the effort model below and the decision register).
 
 ## Stage 10 — Production planning
 
@@ -147,7 +147,9 @@ At the PROD-01 planning floor (40 h/week ≈ 2,000 h/year): **roughly 4–8.5 mo
 3. **Raise the reliable capacity floor** (changes the divisor, nothing else).
 4. **Consciously accept the long horizon in writing** — legitimate for a no-deadline project, but Gate 2's "viable full-game plan" criterion then needs a stated definition of viable.
 
-**Pending designer inputs:** PROD-01 ✅ and PROD-03 ✅ answered 2026-07-27 (full-time, floor 40 h/week / 72 scheduled; cash unconstrained, music/SFX/store art self-produced, audio pipeline bound to Law 7 from the start — see the decision register). Still pending: the scope-menu choice above.
+**DECIDED 2026-07-27 — Option 4 (designer-approved):** the full game as specced stays the target ("keep everything we planned"); the floor-case ~2.25–4.5-year horizon is consciously accepted in writing. **Gate 2 "viable" is now defined:** at measured slice velocity, the remaining full-game bill must extrapolate to **≤ 5 years at the then-current PROD-01 floor**; longer auto-triggers the pre-registered cut order (slice-as-v1.0 → shrink the content bill; the capacity-raise step is moot — PROD-01 already maxed capacity). Options 1–2 remain live as that failure cascade, not as the plan.
+
+**Pending designer inputs:** none — PROD-01 ✅, PROD-03 ✅, and the scope-menu choice ✅ (Option 4) all answered 2026-07-27. Gate 2 is fully evaluable when reached.
 
 ## Tester and market pipeline (added 2026-07-27)
 

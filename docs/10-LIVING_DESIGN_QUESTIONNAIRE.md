@@ -572,11 +572,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Dash, block, sprint, roll, teleport, shield, or class-specific alternatives.*
 
-**Answer/status:** [L] Wildshot Adventures uses purely movement-based dodging in the Realm of the Mad God tradition. The universal kit is movement plus free aim, and nothing else: there is no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action. Survival comes from continuous positioning, spacing, routing, threat reading, and enemy prioritization at the character's movement speed.
+**Answer/status:** [L/T] Wildshot Adventures uses purely movement-based dodging in the Realm of the Mad God tradition. The universal kit is movement plus free aim, and nothing else: there is no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action. Survival comes from continuous positioning, spacing, routing, threat reading, and enemy prioritization at the character's movement speed.
 
 **Design consequences:** [L] (1) Honest dodgeability: every attack pattern must be avoidable through movement alone at the intended progression level, with no pattern that assumes an i-frame or escape button exists. Because all classes must complete all content solo, patterns must be dodgeable at the baseline mobility of the least mobile class. (2) Movement speed becomes a premier statistic and balance lever; its sources, growth, and caps must be tuned deliberately (deferred to the statistics questions). (3) Without a panic escape, the locked readability rules become even more load-bearing: deaths must always trace to visible, learnable mistakes. (4) Death and recovery design (open) should account for the absence of an escape action. Pause remains available but performs no combat action.
 
 **Class-ability boundary:** [P] Class skill trees may still offer class-specific mobility or defensive abilities as part of their kits, in the reference tradition. Any such ability is a class tool, not a universal action; no encounter may require a specific class's mobility or defensive tool. Ability roles and counts belong to CORE-34. (Recorded 2026-07-26.)
+
+**Falsifier (added 2026-07-27):** [T] Lab-gated: if Phase A/B outside testers at the lowest-speed baseline cannot honestly dodge intended-intensity patterns after fair learning attempts, or endgame-density patterns cannot be authored as relentless-but-fair within walking-only constraints, CORE-33 reopens before further systems build on it. Fallback menu, in order: class mobility tools as soft-universal coverage, one limited universal option, or a lower intensity ceiling.
 
 **CORE-34. How many active abilities are equipped, and what roles must a complete combat kit cover?**
 

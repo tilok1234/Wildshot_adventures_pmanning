@@ -139,13 +139,15 @@ Primary attacks are intended to remain enjoyable without rewards through dependa
 
 Exact weapon statistics, cadence ranges, individual patterns, exceptional mechanics, default autofire binding and HUD treatment, collision tuning, and feedback tuning remain unresolved for prototyping and later combat planning.
 
-### Universal movement and defensive actions [L]
+### Universal movement and defensive actions [L/T]
 
 Dodging is purely movement-based, in the Realm of the Mad God tradition. The universal kit is movement plus free aim, and nothing else: no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action exists. Survival comes from continuous positioning, spacing, routing, threat reading, and enemy prioritization at the character's movement speed.
 
 This commitment carries binding consequences. Every attack pattern must be honestly avoidable through movement alone at its intended progression level—and, because all classes complete all content solo, at the baseline mobility of the least mobile class. Movement speed becomes a premier statistic and balance lever whose sources, growth, and caps must be tuned deliberately. Without a panic escape, the locked readability rules become even more load-bearing: deaths must always trace to visible, learnable mistakes, and death and recovery design must account for the absence of an escape action. Pause remains available but performs no combat action.
 
 Class skill trees may still offer class-specific mobility or defensive abilities as class tools rather than universal actions [P]; no encounter may require a specific class's tool. Ability roles and counts are decided in CORE-34.
+
+**Falsifier (added 2026-07-27) [T]:** this commitment is deliberately lab-gated. If Phase A/B outside testers at the lowest-speed baseline cannot honestly dodge intended-intensity patterns after fair learning attempts, or endgame-density patterns cannot be authored as relentless-but-fair within walking-only constraints, CORE-33 reopens before further systems build on it. Fallback menu, in order: class mobility tools as soft-universal coverage, one limited universal option, or a lower intensity ceiling.
 
 ### Active ability and ability items [L/P]
 

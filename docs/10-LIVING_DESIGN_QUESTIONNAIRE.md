@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-39 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-40 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-40 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-41 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-39; CORE-17 through CORE-20 open; CORE-40 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-40; CORE-17 through CORE-20 open; CORE-41 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -642,9 +642,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Identify offensive, defensive, resource, and handling statistics; state which stats are intentionally excluded.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] The baseline statistic set is deliberately lean: **health, mana, damage, attack speed, range, armor/defense, and movement speed**. Health and mana regeneration are candidate additional statistics whose inclusion as separately tunable stats remains open [P]. Damage, attack speed, and range are weapon-led (CORE-37); health and mana grow with class and level (CORE-39); movement speed is the premier handling statistic in a movement-dodging game and requires deliberately tuned sources and caps (CORE-33).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Intentional exclusions:** [L] The baseline excludes accuracy, evasion, and dodge-chance statistics (structurally banned by CORE-31 — a visible hit always lands), critical-hit chance, life-steal and on-hit sustain, and elemental-resistance matrices. Combat resolves through position and patterns, not dice, and small stat sheets keep armor and ring tradeoffs readable.
+
+**Unique exception:** [P] Unique items may deliberately break these rules with authored, clearly communicated effects, consistent with CORE-37's unique-behaviour clause: the baseline stays lean and readable, uniques stay exciting.
+
+**Deferred detail:** [U] Exact stat values, per-level and per-tier growth, caps (especially movement speed), the regeneration-stat decision, and equipment formulas remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-41. How should equipment change play?**
 

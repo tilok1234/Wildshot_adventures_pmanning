@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-39; CORE-40 active  
+**Version:** Concept snapshot through CORE-40; CORE-41 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-40 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-41 is active.
 
 ## 1. Executive summary
 
@@ -215,6 +215,12 @@ The equipped loadout uses four slots: **weapon, ability item, armor, and ring**.
 - The **ring** is a supporting statistic slot in the same spirit. Rings must not collapse into one universally correct choice (no "everyone wears the HP ring"); viable rings need genuinely situational tradeoffs [L/P].
 
 Unique items in any slot may carry special effects and behaviours beyond statistics [P]: baseline gear stays statistically readable, uniques stay exciting.
+
+### Statistic set [L/P]
+
+The baseline statistic set is deliberately lean: **health, mana, damage, attack speed, range, armor/defense, and movement speed**, with health and mana regeneration as candidate additional stats [P]. Damage, attack speed, and range are weapon-led; health and mana grow with class and level; movement speed is the premier handling statistic and needs deliberately tuned sources and caps.
+
+The baseline intentionally excludes accuracy, evasion, and dodge-chance statistics (a visible hit always lands), critical-hit chance, life-steal and on-hit sustain, and elemental-resistance matrices [L]. Combat resolves through position and patterns, not dice, and the small sheet keeps armor and ring tradeoffs readable. Unique items may deliberately break these rules with authored, clearly communicated effects [P].
 
 Harder content generally provides statistically stronger equipment. The exact stat set, scaling curves, level cap, gear tiers, per-slot stat budgets, and whether rings are class-bound or shared remain unanswered.
 
@@ -545,7 +551,7 @@ The project has not yet locked:
 - team, engine, budget, schedule, and production constraints;
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
-- stat set, level curve, and equipment formulas;
+- exact stat values, growth curves, stat caps, the regeneration-stat decision, level curve, and equipment formulas (the baseline stat set itself is provisionally decided);
 - death, saves, dungeon failure, and recovery;
 - quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
@@ -563,8 +569,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-39:** approved and integrated into this GDD.
-- **CORE-40:** active and unanswered.
+- **CORE-21 through CORE-40:** approved and integrated into this GDD.
+- **CORE-41:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -587,5 +593,6 @@ Current interview state:
 | CORE-37 | [L/P] | Sections 7 and 9 — class gear identity, four-slot loadout, stat ownership |
 | CORE-38 | [P] | Section 18 and prototype spec — vertical-slice scope (one class, Archer provisional) |
 | CORE-39 | [L/P] | Sections 3 and 9 — character levels, level gates, points-deep tree, cap, faction direction |
+| CORE-40 | [L/P] | Section 9 — lean statistic set with intentional exclusions |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

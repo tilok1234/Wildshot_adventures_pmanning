@@ -9,23 +9,20 @@
 
 ## Active question
 
-**CORE-40 — What is the smallest readable statistic set?**
+**CORE-41 — How should equipment change play?**
 
-*Consider: Identify offensive, defensive, resource, and handling statistics; state which
-stats are intentionally excluded.*
+*Consider: Attack patterns, positioning, skill interactions, resource rules, defensive
+plans, and build identity versus pure number increases.*
 
-No answer has been accepted yet. Constraints from earlier answers:
-
-- Weapon carries damage, attack speed, range (CORE-37); levels grant class base stats
-  including HP and mana (CORE-39); mana fuels the single active (CORE-32/34).
-- Movement speed is a premier stat needing deliberate caps (CORE-33).
-- No hidden accuracy or evasion rolls — a visible hit always lands (CORE-31), so
-  accuracy/evasion/dodge-chance stats are structurally excluded.
-- Armor archetypes trade defense vs damage (CORE-37); ring anti-degeneracy rule needs
-  enough distinct stats to make ring choices genuinely situational.
-- Likely candidate set: HP, mana (+regens?), damage, attack speed, range, armor/defense,
-  movement speed — plus explicit exclusions (crit? life-steal? resistances?). The
-  question also wants stated exclusions recorded.
+No answer has been accepted yet. NOTE: heavily pre-answered by today's decisions —
+weapons change positioning via patterns (CORE-32), the ability item IS the active
+(CORE-34), armor archetypes trade offense/defense (CORE-37), rings are situational
+(CORE-37), uniques may break rules (CORE-37/40). CORE-41's remaining job is mostly to
+confirm the synthesis: equipment is THE build system — a loadout (weapon pattern ×
+ability × armor archetype × ring) should change where you stand, how you engage, and
+what you can attempt, not just numbers. Possible remaining nuance: how much tiered
+(non-unique) gear within a class should vary behaviour vs stay familiar-but-stronger
+(CORE-32 said standard tiers may preserve a familiar style while improving numerically).
 
 ## Question status table
 
@@ -35,12 +32,20 @@ No answer has been accepted yet. Constraints from earlier answers:
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-39 | Approved and integrated into the GDD. |
-| **CORE-40** | **ACTIVE — no accepted answer.** |
-| CORE-41 onward | Unanswered. |
+| CORE-21 through CORE-40 | Approved and integrated into the GDD. |
+| **CORE-41** | **ACTIVE — no accepted answer.** |
+| CORE-42 onward | Unanswered. |
 
-The designer chose to continue past CORE-39 while CORE-17 through CORE-20 remain open.
-Continue at CORE-40 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-40 while CORE-17 through CORE-20 remain open.
+Continue at CORE-41 unless the designer chooses to return to an earlier open question.
+
+### CORE-40 — answered 2026-07-26 [L/P]
+
+Lean baseline stat set: health, mana, damage, attack speed, range, armor/defense,
+movement speed; HP/mana regen candidates [P]. Intentional exclusions [L]: accuracy/
+evasion/dodge chance, crit chance, life-steal/on-hit sustain, resistance matrices —
+combat resolves through position, not dice. Uniques may deliberately break these rules
+with authored, communicated effects [P]. Values/growth/caps/regen decision deferred.
 
 ### CORE-39 — answered 2026-07-26 [L/P]
 

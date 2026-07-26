@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-39; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-40 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-40; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-41 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -48,6 +48,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-37 | [L/P] | Ownership map confirmed. Class owns eligibility and identity: base statistics, skill tree, and exclusive weapon and ability-item families — each class plays distinctly through its gear. Weapon owns the primary pattern plus damage, attack speed, and range. Ability item owns the single active and may carry stats. Armor and ring own classic RPG statistics. The loadout is four slots: weapon, ability item, armor, ring; all pieces may carry stats. Armor must offer give-and-take archetypes (light/high-damage vs heavy/low-damage and combos), not one upward ladder. Rings must not collapse into one universally correct choice (no mandatory HP ring); viable rings need situational tradeoffs. Unique items in any slot may carry special effects and behaviours beyond stats [P]. Stat set, per-slot budgets, class stat spreads, and ring class-binding remain deferred. |
 | CORE-38 | [P] | Vertical slice: one class — provisionally the Archer — with roughly 3–5 genuinely distinct weapon frames, 3–4 ability items covering different roles (at minimum mobility, defense, burst), and 2–3 build directions. The slice proves the locked combat pillar: movement-only dodging, single equipped active, weapon-owned patterns, honest bosses, armor/ring tradeoffs. Full game: three classes remain locked; per-class content counts are explicitly deferred until CORE-20 resolves production constraints. Rationale: class-exclusive item families mean every class multiplies all content — prove one class deeply before building three. |
 | CORE-39 | [L/P] | Levels grant class-specific base statistics including health and mana, plus skill points, so leveling feels immediately good; gear remains the primary stat engine and exact growth curves are deferred. Equipment carries level requirements as a deliberate anti-rush gate [P], alongside CORE-28's instance minimum levels and clarity rules; nothing scales. The skill tree is large and points-spent-deep rather than level-tier-gated [P]; the CORE-34 capstone sits at the tree's bottom, reached near cap naturally. A hard level cap roughly marks the endgame transition [P]; post-cap progression continues through gear, builds, knowledge, and mastery. A provisional faction-reputation system (vendor and similar unlocks; faction XP ground from different enemies at varying difficulties) becomes the first concrete world-recognition mechanism; all faction details deferred. |
+| CORE-40 | [L/P] | Baseline statistic set is deliberately lean: health, mana, damage, attack speed, range, armor/defense, movement speed; health/mana regeneration are candidate additions [P]. Intentional exclusions [L]: accuracy, evasion, and dodge chance (a visible hit always lands), critical-hit chance, life-steal/on-hit sustain, and elemental-resistance matrices — combat resolves through position and patterns, not dice. Unique items may deliberately break these rules with authored, clearly communicated effects [P]. Exact values, growth, caps (especially movement speed), the regen decision, and formulas remain deferred. |
 
 ## Locked cross-system rules
 

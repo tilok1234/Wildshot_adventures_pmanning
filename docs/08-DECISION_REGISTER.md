@@ -75,6 +75,12 @@ Recorded while no build sunk cost exists, so future gate evaluations stay honest
 - **Gate 1 (Phase A lab) repeated failure** unlocks, in order, before any pivot/stop decision: CORE-33 (movement-only dodging — see its falsifier), CORE-32 pattern-determinism details, and the weapon-frame roster.
 - **Gate 2 (slice) velocity failure** triggers the roadmap effort model's scope menu in order: slice-as-v1.0 → shrink the content bill (the capacity-raise step is moot — PROD-01 maxed capacity). CORE-55's "failure means planned-order scope cuts" now names its order. **Scope-menu decision (2026-07-27, designer-approved): Option 4** — the full game as specced remains the target; the floor-case ~2.25–4.5-year horizon is accepted in writing. **"Viable" defined:** the remaining full-game bill at measured slice velocity extrapolates to ≤ 5 years at the then-current PROD-01 floor; longer auto-triggers the cut order.
 
+## Tooling contracts (2026-07-27) [P]
+
+- **Bot testing:** AI-driven bots handle mechanical verification — movement-only lowest-speed dodgeability proofs (the CORE-53 check, mechanized), soak/regression runs, percentile drop simulations, TTK checks — running unattended. Never gate judgment: Gates 1/2 are judged by fresh outside human testers (CORE-53/55).
+- **WorldForge (third forge; WIP, completion committed):** world/zone generator consuming TileForge packages (keyed on manifest `sourceCommit`), emitting settlements, tiered route networks (highway/street/trail), rivers with fords and bridges, and a discoveries/POI layer; read-only viewer by contract; elevation/cliff integration a stated later milestone. **Handcrafted-rule contract:** generated worlds are drafts — the designer's curation pass is what makes geography authored; progression-critical placement (portals, dungeons, quest beats, secrets) is always hand-decided (CORE-20 pipeline consequence 2; CORE-27 authored-where rule). Likely first production use: drafting the slice zone.
+- **Phase A build window:** the ~6-week vacation block from ≈ early October 2026 is the pre-registered lab sprint — two Gate 1 cycles targeted; tester turnaround, not designer hours, is the planning constraint; fresh-hands guard on all feel verdicts (see roadmap Stage 2).
+
 ## Locked cross-system rules
 
 - All content and progression must remain solo-completable.

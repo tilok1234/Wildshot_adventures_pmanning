@@ -52,6 +52,25 @@ The packet review verified every other Phase A asset class already ships: arena 
 chasers, ranged, and fodder on Actor Forge's 32×32 four-facing 23-frame contract, with Godot
 importers and a pixel-match acceptance test.
 
+**Phase A build window — pre-registered (2026-07-27):** ~6 free weeks from ≈ early October
+2026 (designer vacation; stated capacity up to 16 h/day — ≈670 h theoretical ceiling, 4×
+Phase A's pessimistic bound). Plan targets **two full Gate 1 cycles** inside the block: lab
+built in weeks 1–2; build in outside testers' hands by ~week 3 (the itch/devlog channel from
+the pre-vacation weeks supplies testers); iterate on feedback; Gate 1 attempted before the
+block ends; if it passes early, Phase B starts inside the block. The planning constraint is
+tester turnaround, not designer hours. Pre-vacation weeks (evenings/weekends): the effects
+pack, audio-pipeline design, Godot project + TileForge import proven via the §4 acceptance
+test, itch/devlog stood up. **Fresh-hands guard:** dodgeability and feel verdicts are
+verified in a rested session or by a bot pass — patterns tuned at hour 14 of a 16-hour day
+are tuned to exhausted reflexes, which violates the lowest-speed honesty rule in spirit.
+
+**Bot-testing system [P] (2026-07-27):** AI-driven test bots for unattended mechanical
+verification — movement-only lowest-speed dodgeability proofs (this IS the CORE-53
+verification, mechanized), soak/regression runs, drop-rate percentile simulation (Phase D),
+TTK sanity checks. **Guard:** bots never substitute for the human gates — Gate 1/2 judgments
+(fun without rewards, explainable deaths, dry-streak feel) belong to fresh outside human
+testers per CORE-53/55.
+
 **Gate (CORE-53/55 Gate 1):** Fresh outside testers — never solely the builder — voluntarily re-engage for 20+ minutes with zero rewards; every death is explainable; every pattern is dodgeable at the lowest intended movement speed; controls, collision, and feedback feel dependable; the frames change how testers fight. Repeated failure means pivot or stop. Pre-registered consequence order (2026-07-27): repeated failure first unlocks CORE-33, then CORE-32 determinism details, then the frame roster — before any pivot/stop decision (see decision register).
 
 ## Stage 3 — Enemy, projectile, and readability grammar

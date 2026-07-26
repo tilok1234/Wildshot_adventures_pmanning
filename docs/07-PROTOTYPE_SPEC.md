@@ -148,7 +148,8 @@ Build early tools for:
 - session-goal and session-end playtest logging;
 - ten-minute activity-mix and one-hour pursuit-progress logging;
 - pause, abandon, and fresh-instance reset tests;
-- save reset and world-state toggles.
+- save reset and world-state toggles;
+- unattended AI bot harness (movement-only dodgeability proofs at lowest speed, soak/regression runs, percentile simulation) — mechanical verification only, never a substitute for human gate judgment (CORE-53).
 
 ## Vertical-slice scope (CORE-38, 2026-07-26)
 

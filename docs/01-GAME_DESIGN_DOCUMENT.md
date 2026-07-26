@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-45; CORE-46 active  
+**Version:** Concept snapshot through CORE-46; CORE-47 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-46 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-47 is active.
 
 ## 1. Executive summary
 
@@ -503,6 +503,16 @@ The four established design pillars remain Wildshot Adventures' only pillars. No
 
 Foraging and fishing interactions, progression curves, detailed collection-interface structure, locations, rarity structures, and reward sets remain unresolved. Crafting recipes, exact requirements, resource sources, interfaces, and eligible non-combat reward types also remain unresolved. Exact pet acquisition, collection structure, and presentation remain unresolved, as do the quests, victories, or world events that may produce authored settlement changes. These details belong to their dedicated later questions.
 
+### Quests and factions [L/P]
+
+Quests are packaged direction and world context: they teach mechanics and zone knowledge, route the player to portal sources, dungeons, and special places they would not otherwise find, deliver landmark rewards, advance faction standing, and mark the zero-to-hero arc's story beats. Quest design speaks the game's own language—hunt, clear, explore—rather than forming a separate minigame layer. No daily or repeatable chore structure exists.
+
+A main quest line spans the journey from level one to the level cap and directs progression geographically around the world [P], doubling as the natural teaching tour. It is deliberately not continuous: the player regularly hits level-gap moments where the next main quest needs more levels, pushing them into side quests, faction sets, dungeons, and grinding. Gap sizes are playtest-tuned [T], and every gap must visibly surface worthwhile nearby options—the world opening up, never padding.
+
+The world is MMO-style quest-dense [P], with density numbers deferred to production constraints and the vertical slice's zone as the density test. Faction experience is woven into questing: some factions level through themed, order-free "faction quest sets" that together tell that faction's story (completing all or most reaches maximum standing), while others level through other verbs such as hunting specific enemy types. Each faction should feel like its own pursuit, not a copy of one reputation bar.
+
+Guards [L/P]: faction rewards stay at the vendor, quality-of-life, and cosmetic tier—never mandatory for core progression; faction quest sets are finite authored content with no repeatable quest experience; major quest rewards remain deterministic guaranteed rewards, with randomness acceptable only as minor-quest spice.
+
 ## 14. Knowledge as progression [L]
 
 Endgame success should require more than reflexes or gear score. Players should gradually learn:
@@ -590,7 +600,7 @@ The project has not yet locked:
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - exact stat values, growth curves, stat caps, the regeneration-stat decision, level curve, and equipment formulas (the baseline stat set itself is provisionally decided);
 - save architecture, exact death-penalty values, and hardcore-mode save handling (the death-and-recovery baseline is decided in Section 12.6);
-- quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
+- faction identities and count, quest density targets, individual quest and faction-set designs, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements (the quest and faction framework is decided in Section 13);
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
 - exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
 - accessibility and readability implementation;
@@ -606,8 +616,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-45:** approved and integrated into this GDD.
-- **CORE-46:** active and unanswered.
+- **CORE-21 through CORE-46:** approved and integrated into this GDD.
+- **CORE-47:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -636,5 +646,6 @@ Current interview state:
 | CORE-43 | [L/P] | Section 12.6 — death and recovery, raid respawns, optional hardcore mode |
 | CORE-44 | [L/P] | Section 8 — ordinary pack design: role grammar, priority targets, pulling, frame showcase |
 | CORE-45 | [L/P] | Section 11 — tier roles; dungeons optional-but-best-rewarding with milestone exceptions |
+| CORE-46 | [L/P] | Section 13 — quests and factions: main quest with level gaps, dense quests, faction sets |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

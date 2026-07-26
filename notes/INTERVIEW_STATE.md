@@ -9,18 +9,20 @@
 
 ## Active question
 
-**CORE-46 — What is the purpose of quests?**
+**CORE-47 — What is the purpose of the main hub, factions, or settlement?**
 
-*Consider: Narrative context, world change, teaching mechanics, directing exploration,
-faction choice, or reward packaging.*
+*Consider: Recognition, services, upgrades, social context, transport, crafting, or
+persistent visual progress.*
 
-No answer has been accepted yet. Relevant existing material: quests are an XP/progression
-route (CORE-24), potential guaranteed-unique sources [P] (CORE-08A), and may drive
-authored settlement changes (CORE-25) and milestone dungeons (CORE-45); the faction-
-reputation direction (CORE-39) will need quest hooks; knowledge pillar wants quests to
-teach sources and direct exploration without wiki dependence. Narrative structure, tone,
-and scope remain undecided (CORE-19 open). Likely shape: quests = packaged direction +
-world context + teaching + landmark rewards, never mandatory daily structure.
+No answer has been accepted yet. Substantially pre-answered: settlements are authored,
+not player-managed, but may change through quests/victories/events (CORE-25); cities are
+auto-travel destinations with no special recall status (CORE-30); faction vendors sell
+catch-up gear (CORE-42) and QoL/cosmetic rewards (CORE-39/46); crafting is a
+commission-style in-world presentation (CORE-25); collection lives in menus, not
+physical displays (CORE-25); world recognition through authored changes + factions.
+Remaining: whether ONE main hub exists vs several regional hubs; which services cluster
+where (vendors, crafting, quest boards?, respec?); recognition presentation in hubs
+(NPC reactions, titles, statues?).
 
 ## Question status table
 
@@ -30,12 +32,24 @@ world context + teaching + landmark rewards, never mandatory daily structure.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-45 | Approved and integrated into the GDD. |
-| **CORE-46** | **ACTIVE — no accepted answer.** |
-| CORE-47 onward | Unanswered. |
+| CORE-21 through CORE-46 | Approved and integrated into the GDD. |
+| **CORE-47** | **ACTIVE — no accepted answer.** |
+| CORE-48 onward | Unanswered. |
 
-The designer chose to continue past CORE-45 while CORE-17 through CORE-20 remain open.
-Continue at CORE-46 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-46 while CORE-17 through CORE-20 remain open.
+Continue at CORE-47 unless the designer chooses to return to an earlier open question.
+
+### CORE-46 — answered 2026-07-26 [L/P]
+
+Quests = packaged direction + world context: teach, route to sources/special places,
+landmark rewards, faction standing, story beats; quest design speaks the game's own
+language; no daily/repeatable structure. Main quest 1→cap directs progression
+geographically with deliberate level-gap moments pushing players into side content;
+gaps playtest-tuned [T] and must surface options. MMO-dense quest world [P], numbers
+deferred to CORE-20, slice zone = density test. Faction XP woven in: some factions via
+order-free themed quest sets (all/most ≈ max standing), others via other verbs (enemy
+hunts) — each faction its own pursuit. Guards: faction rewards never mandatory; sets
+finite; major quest rewards deterministic.
 
 ### CORE-45 — answered 2026-07-26 [L/P]
 

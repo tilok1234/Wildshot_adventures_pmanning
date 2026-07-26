@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-45 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-46 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-46 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-47 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-45; CORE-17 through CORE-20 open; CORE-46 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-46; CORE-17 through CORE-20 open; CORE-47 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -730,9 +730,15 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Narrative context, world change, teaching mechanics, directing exploration, faction choice, or reward packaging.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Quests are packaged direction and world context: they teach mechanics and zone knowledge, route the player to portal sources, dungeons, and special places they would not otherwise find, deliver landmark rewards, advance faction standing, and mark the zero-to-hero arc's story beats. Quest design speaks the game's own language—hunt, clear, explore—rather than forming a separate minigame layer. No daily or repeatable chore structure exists.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Main quest:** [P] A main quest line spans the journey from level one to the level cap and directs progression geographically around the world, doubling as the natural teaching tour of zones, sources, and systems. It is deliberately not continuous: the player regularly reaches level-gap moments where the next main quest requires more levels, pushing them into side quests, faction sets, dungeons, and grinding. Gap sizes are playtest-tuned [T], and at every gap the game visibly surfaces worthwhile options nearby—a gap must feel like the world opening up, never like padding. Level requirements are always clear (CORE-28 rules).
+
+**Quest density and faction sets:** [P] The world is MMO-style quest-dense, with density numbers deferred to CORE-20 production constraints and the vertical slice's zone as the density test. Faction experience is woven into questing: some factions level through themed "faction quest sets"—order-free sets of side quests that together tell that faction's story, with completing all or most reaching maximum standing—while other factions level through other verbs, such as killing specific enemy types. Different factions leveling through different play styles is a deliberate feature: each faction should feel like its own pursuit, not a copy of one reputation bar.
+
+**Guards:** [L/P] Faction rewards stay at the vendor, quality-of-life, and cosmetic tier—never mandatory for core progression. Faction quest sets are finite authored content: no repeatable or daily quest experience. Major quest rewards remain deterministic guaranteed rewards (CORE-08A/42); randomness is acceptable spice only in minor quest rewards.
+
+**Deferred detail:** [U] Faction identities and count, quest density targets, individual quest and set designs, main-quest structure details, and narrative tone (CORE-19) remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-47. What is the purpose of the main hub, factions, or settlement?**
 

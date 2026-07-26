@@ -9,19 +9,15 @@
 
 ## Active question
 
-**CORE-18 — What replay or endgame experience is intended?**
+**CORE-19 — What are the intended tone, rating, and content boundaries?**
 
-CORE-24 locked the direction (endgame = substantial core continuation: targeted
-farming, unique hunts, builds, hardest-solo mastery, superbosses, collection,
-efficiency); designer just affirmed "at endgame there's a lot more." CORE-18's job:
-the concrete endgame STRUCTURE. Building blocks already decided: higher-difficulty
-dungeon versions (CORE-29), raids with wings (CORE-16r), optional superbosses, faction
-grinds incl. post-cap (CORE-39/46), collection systems (CORE-25), alt characters —
-three slots, per-character journeys (CORE-03/47), optional hardcore mode (CORE-43),
-capstone-empowers-item design space (CORE-34). Open: is there a repeatable endgame
-"ladder" beyond farming (e.g., a rotating pinnacle target)? New-character replay value
-stance (alts as intended replay loop given three classes)? Any endgame-only systems?
-CORE-19 (tone/rating/content boundaries) is the final open question after this.
+THE FINAL OPEN QUESTION OF PART I. Nothing else constrains it besides genre feel
+(fantasy adventure, RotMG-ish energy) and audience (experienced players, but
+accessible opening). Needed: overall tone (lighthearted/colorful vs dark fantasy vs
+mixed); target age rating equivalent (E10/T-style — violence presentation, blood/gore
+stance); content boundaries (sexual content, profanity, gambling imagery — note the
+game's own loot RNG vs gambling presentation, horror elements, real-world sensitive
+topics). Record as boundaries, not story details (narrative itself stays open).
 
 ## Question status table
 
@@ -31,9 +27,16 @@ CORE-19 (tone/rating/content boundaries) is the final open question after this.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-17, CORE-20 through CORE-55 | Approved and integrated into the GDD. |
-| **CORE-18** | **ACTIVE — no accepted answer.** |
-| CORE-19 | Open — the final unanswered question in Part I. |
+| CORE-17, CORE-18, CORE-20 through CORE-55 | Approved and integrated into the GDD. |
+| **CORE-19** | **ACTIVE — the final unanswered question in Part I.** |
+
+### CORE-18 — answered 2026-07-26 [L/P]
+
+Endgame = open-ended, collection-driven "never-ending-ish collectathon"; the growing
+collection book is the horizon, not one authored pinnacle; content added over time
+under the locked business model (expansions ok, live-service pressure never; complete
+as purchased). Alts = supported but deliberately modest replay loop [P]. No
+endgame-only systems [L].
 
 ### CORE-17 — answered 2026-07-26 [P/T]
 

@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-17 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-18 and CORE-19 open; CORE-18 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-18 and CORE-20 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-19 open; CORE-19 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-55 except CORE-18 and CORE-19; CORE-18 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-55 except CORE-19; CORE-19 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -300,7 +300,15 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: New builds, harder dungeons, optional bosses, world modifiers, collection, New Game Plus, or none.*
 
-**Answer/status:** [U with locked constraints] The exact replay and endgame structure remains open. CORE-24 locks the broader direction that reaching endgame is a major transition rather than the end of the journey, and that endgame is a core part of Wildshot Adventures. Locked long-term pursuits include targeted farming, desired unique-item hunts, powerful and alternative builds, mastery of the hardest solo content, optional superbosses, collection and completion goals, and increasingly efficient play. The exact structure, sequence, systems, content volume, New Game Plus policy, world modifiers, and other replay rules remain unresolved.
+**Answer/status:** [L/P] Endgame is the CORE-24 continuation made concrete through systems already decided: unique-item hunts with visible attempt counts and overlapping rewards; the hard ladder of higher-difficulty dungeon versions, raid wings, and optional superbosses; build collection across frames, ability items, uniques, and the capstone; and the long tails of faction grinds, collection completion, gathering collections, cosmetics, and hardcore trophies.
+
+**Shape:** [P] Endgame is deliberately open-ended and collection-driven — a "never-ending-ish collectathon" rather than a march toward one authored pinnacle. The collection book, not a final boss, is the horizon: substantial content (bosses, dungeons, uniques, collection categories) is intended to be added over time, growing the horizon rather than closing it. Guard: post-launch additions follow the locked business model — expansions and updates are allowed, live-service retention pressure is not; the game must always feel complete as purchased.
+
+**Alt characters:** [P] Rolling the other classes is a supported replay loop — three classes with exclusive gear and per-character journeys exist partly so the climb is worth repeating — but it carries deliberately modest design weight; the primary endgame driver is the main character's open-ended pursuit set.
+
+**No endgame-only systems:** [L] Endgame uses the same systems at higher intensity. No new currencies, separate mechanics, or bolt-on endgame layers.
+
+**Deferred detail:** [U] Specific endgame content, superboss designs, higher-difficulty version details, and post-launch content cadence remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-19. What tone, age rating, and content boundaries are intended?**
 

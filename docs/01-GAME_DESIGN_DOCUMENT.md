@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-55 except CORE-18/19; CORE-18 active  
+**Version:** Concept snapshot through CORE-55 except CORE-19; CORE-19 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; only CORE-18 and CORE-19 remain open in Part I, and CORE-18 is active.
+**Status:** Guided concept definition / early pre-production; only CORE-19 remains open in Part I, and it is active.
 
 ## 1. Executive summary
 
@@ -352,6 +352,8 @@ The central long-term objective is to develop a chosen character from an unknown
 
 Reaching endgame is a major transition rather than the end of the journey. Substantial endgame play continues through targeted farming, desired unique-item hunts, powerful and alternative builds, mastery of the hardest solo content, optional superbosses, collection, completion goals, and increasingly efficient play. A future story conclusion or final threat may provide direction and an important milestone, but it is not the game's ultimate endpoint. Endgame is core content, not optional cleanup after the "real game."
 
+Endgame's shape is deliberately open-ended and collection-driven [P]: a never-ending-ish collectathon whose horizon — the collection book — grows as content is added over time, rather than a march toward one authored pinnacle. Post-launch additions follow the locked business model: expansions and updates are allowed, live-service retention pressure is not, and the game must always feel complete as purchased. Alt characters are a supported but deliberately modest replay loop [P]. Endgame uses the same systems at higher intensity: no endgame-only currencies, mechanics, or bolt-on layers [L].
+
 ### 12.4a First-journey target [P/T]
 
 Reaching endgame means hitting the level cap and completing the main quest line, which roughly coincide by design. The first character's zero-to-hero journey targets roughly 40–80 focused hours to that threshold, with optional content extending it freely and substantial endgame play beyond it. The range is a design target validated against real content later; nothing gates or times the player at runtime.
@@ -622,7 +624,7 @@ Not inherited: SimPlayers as a core system, tab-target combat, mandatory party c
 The project has not yet locked:
 
 - final validation of the first journey's 40–80 focused-hour target and cap-plus-main-quest threshold (provisionally decided in CORE-17);
-- the detailed replay and endgame structure beyond the locked long-term objective;
+- specific endgame content, superboss designs, and post-launch content cadence (the endgame's collectathon shape and no-endgame-only-systems rule are decided in CORE-18);
 - exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
 - tone, rating, and content boundaries;
 - detailed production planning and measured velocity (the hard constraints — solo, AI-orchestrated, Godot [P], 10–40 hours/week, no deadline, custom asset pipeline — are recorded in Section 15);
@@ -646,9 +648,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-17 and CORE-20 through CORE-55:** approved and integrated into this GDD.
-- **CORE-18:** active — replay and endgame structure.
-- **CORE-19:** open — tone, rating, and content boundaries.
+- **CORE-17, CORE-18, and CORE-20 through CORE-55:** approved and integrated into this GDD.
+- **CORE-19:** active — tone, rating, and content boundaries; the final open question of Part I.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -689,5 +690,6 @@ Current interview state:
 | CORE-55 | [L/P] | Questionnaire and prototype spec — the two formal continuation gates |
 | CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, 10–40 h/week, no deadline |
 | CORE-17 | [P/T] | Section 12.4a — first-journey target: cap + main quest, roughly 40–80 focused hours |
+| CORE-18 | [L/P] | Section 12.4 — open-ended collectathon endgame; alts modest; no endgame-only systems |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

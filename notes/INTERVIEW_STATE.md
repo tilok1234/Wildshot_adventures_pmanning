@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-27, evening session (PC) — **all three review blockers closed**: PROD-01 (full-time; 72 h/week scheduled / 40 h/week planning floor), PROD-03 (cash unconstrained; music/SFX and store art self-produced), and the **scope-menu decision: Option 4** (full game stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current floor). CORE-20 asset status verified via showcase packet; the combat-effects vocabulary is the committed pre-lab asset task. Earlier same day: maintenance batch. See notes/sessions/2026-07-27.md.
+**Last updated:** 2026-07-27, evening session (PC) — **all three review blockers closed**: PROD-01 (amended same evening: day job on record; ≈72 h/week ceiling, 40 h/week floor as self-correcting claim under test), PROD-03 (cash unconstrained; music/SFX and store art self-produced), and the **scope-menu decision: Option 4** (full game stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current floor). CORE-20 asset status verified via showcase packet; combat-effects vocabulary is the committed pre-lab task. Pre-registered: vacation Phase A window (≈Oct), bot-testing system, WorldForge contract. See notes/sessions/2026-07-27.md.
 
 ## Interview position
 
@@ -40,7 +40,7 @@ Next steps (designer to choose, in any order):
 |---|---|
 | **CORE-01 through CORE-55** | **ALL ANSWERED — Part I complete 2026-07-26.** |
 | CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
-| **PROD-01** | **Answered 2026-07-27 [P/T]** — full-time; 72 h/week scheduled, 40 h/week planning floor, self-correcting from logged hours. |
+| **PROD-01** | **Answered 2026-07-27 [P/T], amended same evening** — day job on record; ≈72 h/week ceiling, 40 h/week floor as self-correcting claim under test. |
 | **PROD-03** | **Answered 2026-07-27 [P]** — cash unconstrained; music/SFX and store art self-produced; audio pipeline bound to Law 7 from the start; sustainability assumption recorded with falsifier. |
 | **Scope menu** | **Decided 2026-07-27 [P]** — Option 4: full game as specced stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current PROD-01 floor, cut order auto-triggers otherwise. |
 
@@ -62,15 +62,17 @@ Law 7 (eyes-closed second channel) + CORE-50 audio baseline encoded from the sta
 Sustainability assumption [P] with falsifier: full-time capacity is financially sustainable
 across the multi-year horizon; if that stops being true, PROD-01 and the scope menu re-open.
 
-### PROD-01 — answered 2026-07-27 [P/T] — first Part II production answer
+### PROD-01 — answered 2026-07-27 [P/T] — amended same evening (day job correction)
 
-Full-time solo. Scheduled 72 h/week (five 8-hour weekdays + two 16-hour weekend days);
-**reliable planning floor 40 h/week** (the weekday core — what survives a bad month).
-Every effort-model figure divides by the floor; 72 is sprint ceiling, never the divisor.
+Solo; **a day job exists** — Wildshot is the primary project alongside employment (the
+initial "full-time occupation" phrasing was wrong, corrected within hours). Stated schedule
+~8 h/weekday + up to 16 h/weekend-day (≈72 h/week ceiling). **Planning floor 40 h/week —
+explicitly a claim under test**; every effort-model figure divides by the floor.
 Self-correcting [T]: hours logged from Phase A day one; a 4-week rolling average below 40
-resets the floor to the measured value and re-derives the roadmap. Supersedes CORE-20's
-10–40 h/week band. Roadmap re-anchored: slice → Gate 2 ≈ 4–8.5 months at the floor
-(was 1.2–2.7 years at the assumed 10 h/week); full game ≈ 2.25–4.5 years.
+resets the floor and re-derives the roadmap. No decision depends on 40 holding: a measured
+~20 h/week still gives slice → Gate 2 ≈ 8–17 months, inside the accepted horizon. Employment
+backs sustainability (income, no runway pressure); watched risk = energy, not money.
+Supersedes CORE-20's 10–40 band. At the stated floor: slice → Gate 2 ≈ 4–8.5 months.
 
 ### CORE-19 — answered 2026-07-26 [P] — completed Part I
 

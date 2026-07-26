@@ -9,7 +9,7 @@ All of Part I (CORE-01 through CORE-55) is answered. The former blockers resolve
 - first journey: ~40–80 focused hours to level cap + main quest (CORE-17 [P/T]);
 - endgame: open-ended collectathon, no endgame-only systems (CORE-18);
 - tone: colorful heroic fantasy with bite, clean-leaning E10+/T (CORE-19 [P]);
-- production: solo AI-orchestrated developer, Godot [P], full-time — 40 h/week planning floor / 72 scheduled (CORE-20 as amended by PROD-01, 2026-07-27), no deadline (gates are the discipline), custom tileset + sprite-generation pipeline.
+- production: solo AI-orchestrated developer, Godot [P], 40 h/week planning floor / ≈72 ceiling alongside a day job (CORE-20 as amended by PROD-01, 2026-07-27 — the floor is a self-correcting claim under test), no deadline (gates are the discipline), custom tileset + sprite + world generation pipeline.
 
 **Gate: PASSED.** The project has an honest scope envelope.
 
@@ -136,7 +136,7 @@ Recorded before any build hours exist so Phase A velocity measurement has a fals
 | Overhead — integration, bugfix tax, doc upkeep (~20%) | 100 h | 230 h |
 | **Vertical slice total** | **~610 h** | **~1,400 h** |
 
-At the PROD-01 planning floor (40 h/week ≈ 2,000 h/year): **roughly 4–8.5 months to Gate 2**; at the full 72 h/week schedule, roughly 2–5 months. (Pre-PROD-01 anchors, kept for the record: the assumed 10 h/week gave 1.2–2.7 years; 20 h/week gave 7–16 months.)
+At the PROD-01 planning floor (40 h/week ≈ 2,000 h/year): **roughly 4–8.5 months to Gate 2**; at the ≈72 h/week ceiling, roughly 2–5 months; if the floor self-corrects to ~20 h/week, roughly 8–17 months — every case inside the accepted horizon. (Pre-PROD-01 anchors, kept for the record: the assumed 10 h/week gave 1.2–2.7 years; 20 h/week gave 7–16 months.)
 
 **Full-game extrapolation** (content scaling ~10–20× slice content for the 40–80-hour journey, plus two further classes with exclusive item families, raids/superbosses/endgame, supporting systems, and release work): roughly **4,500–9,000 hours** — about **2.25–4.5 years at the PROD-01 floor (40 h/week)**, 1.25–2.5 at the 72 h/week ceiling. (The pre-registration read 9–17 years because it assumed a 10 h/week side-project anchor; PROD-01's full-time correction — not any change to the hour estimates — is what moved the horizon.) Calibration: Stardew Valley consumed ≈16,000 solo hours pre-AI for a smaller content bill.
 

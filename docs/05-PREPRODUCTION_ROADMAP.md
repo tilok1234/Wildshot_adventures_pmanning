@@ -43,6 +43,15 @@ CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement
 
 Do not add progression rewards until the no-reward combat test passes.
 
+**Pre-lab asset task (added 2026-07-27, showcase-packet review):** author the combat-effects
+vocabulary in the forges before lab tuning needs it — projectile shapes for the player and for
+the one hostile family language, telegraphs, ground-hazard markers, hit/impact effects, and
+boss-cast presentation — spec'd line-by-line against the eight readability laws (CORE-51).
+The packet review verified every other Phase A asset class already ships: arena tilesets
+(including dungeon-room, cave, and corrupt-zone scenes), and a 12-actor roster covering
+chasers, ranged, and fodder on Actor Forge's 32×32 four-facing 23-frame contract, with Godot
+importers and a pixel-match acceptance test.
+
 **Gate (CORE-53/55 Gate 1):** Fresh outside testers — never solely the builder — voluntarily re-engage for 20+ minutes with zero rewards; every death is explainable; every pattern is dodgeable at the lowest intended movement speed; controls, collision, and feedback feel dependable; the frames change how testers fight. Repeated failure means pivot or stop. Pre-registered consequence order (2026-07-27): repeated failure first unlocks CORE-33, then CORE-32 determinism details, then the frame roster — before any pivot/stop decision (see decision register).
 
 ## Stage 3 — Enemy, projectile, and readability grammar

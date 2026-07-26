@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-27, evening session (PC) — **PROD-01 answered**: full-time capacity, 72 h/week scheduled / 40 h/week planning floor; CORE-20 hours band amended everywhere. Earlier same day: maintenance batch (desync fixes, falsifiers, effort model, tester pipeline). See notes/sessions/2026-07-27.md.
+**Last updated:** 2026-07-27, evening session (PC) — **PROD-01 answered** (full-time capacity, 72 h/week scheduled / 40 h/week planning floor; CORE-20 hours band amended everywhere) and **CORE-20 asset status verified** via showcase packet (TileForge shipping, Actor Forge v2.3; combat-effects vocabulary pre-registered as the designer-committed pre-lab asset task). Earlier same day: maintenance batch (desync fixes, falsifiers, effort model, tester pipeline). See notes/sessions/2026-07-27.md.
 
 ## Interview position
 

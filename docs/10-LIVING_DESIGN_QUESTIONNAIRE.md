@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-51 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-52 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-52 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-53 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-51; CORE-17 through CORE-20 open; CORE-52 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-52; CORE-17 through CORE-20 open; CORE-53 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -818,13 +818,21 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Class, weapon frames, levels, regions, enemies, dungeon, boss, items, quest, faction, shortcut, and expected playtime.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [P] The vertical slice is the whole game in one zone, built strictly from locked systems:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- **Character:** Archer only; slice-local level cap around 10; class base stats plus health and mana per level; a small behaviour-changing skill tree (~15–20 nodes) supporting 2–3 build directions.
+- **Arsenal:** four weapon frames across roughly three tiers each (long shot, spread, pierce, one exotic); four ability items covering mobility, defense, burst, and utility; armor in two archetypes (light/high-damage vs heavy/low-damage); a few genuinely situational rings.
+- **World:** one complete outdoor zone with easier outskirts and a dangerous inner pocket (the fractal intensity ladder in miniature); one hub with vendor, stash, crafting stub, and auto-travel point; 8–10 enemy types covering most of the role grammar; packs placed per the pulling and terrain rules; one elite; one roaming rare on an authored route.
+- **The loop:** one portal-dropping associated enemy (~20–30%); one dungeon (10–20 minutes, committed instance, death ends it); one boss with a learnable pattern; tiered and cosmetic drops plus one unique weapon with a situational pattern — the full learn→farm→chase chain end to end.
+- **Quests and factions:** a slice of main quest containing one real level gap; roughly 10–15 side quests as the density test; one faction with a small quest set and vendor.
+- **Playtime:** roughly 3–5 hours to "complete," with the boss-farm loop demonstrating repeatability beyond completion.
+- **Excluded:** co-op (separate Phase E gate), raids, hardcore mode, fishing/foraging (a stub at most), mounts.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Slice gate questions:** [P] The slice ships with explicit pass/fail criteria measured through the playtest instrumentation: (1) do testers voluntarily keep farming the boss after completing the slice; (2) does a dry streak with the visible attempt counter feel like dedication rather than theft; (3) does the level gap read as the world opening up rather than padding; (4) can every death be explained by its victim. These become the previously unresolved measurable continuation gates.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Authored secret:** [P] The zone contains one concealed connection or hidden landmark — the slice's only test of the discovery pillar, and nearly free to build.
+
+**Deferred detail:** [U] Exact counts, tuning, and production order depend on CORE-20 and the combat-lab results. (Recorded 2026-07-26.)
 
 **CORE-53. What is the first playable milestone before the vertical slice?**
 

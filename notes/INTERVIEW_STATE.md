@@ -9,17 +9,15 @@
 
 ## Active question
 
-**CORE-52 — What exact content will the first vertical slice contain?**
+**CORE-53 — What is the first playable milestone before the vertical slice?**
 
-*Consider: Class, weapon frames, levels, regions, enemies, dungeon, boss, items, quest,
-faction, shortcut, and expected playtime.*
+*Consider: Usually a no-reward combat laboratory with explicit success criteria.*
 
-No answer has been accepted yet. CORE-38 set the frame (Archer, 3–5 frames, 3–4 ability
-items, 2–3 builds); CORE-52 wants the full content bill: how many levels, one zone (the
-quest-density test zone per CORE-46), how many enemy types/packs, one dungeon + boss
-(portal loop end-to-end), tiered items + 1 unique, a slice of main quest + a faction
-set sample, expected playtime. Assemble a concrete proposal from all locked systems for
-designer reaction. Note: prototype spec Phase D already sketches the mini-loop.
+No answer has been accepted yet. This is essentially already written: prototype spec
+Phase A (solo combat laboratory, no rewards, greybox arena, three weapon frames, 5–6
+enemy behaviours, elite, explicit exit gate) IS the first playable milestone. CORE-53's
+job is to confirm Phase A as the milestone and note its updated CORE-33/34-aligned
+content (no universal defensive action; one ability slot). Likely a one-confirm answer.
 
 ## Question status table
 
@@ -29,12 +27,23 @@ designer reaction. Note: prototype spec Phase D already sketches the mini-loop.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-51 | Approved and integrated into the GDD. |
-| **CORE-52** | **ACTIVE — no accepted answer.** |
-| CORE-53 onward | Unanswered. |
+| CORE-21 through CORE-52 | Approved and integrated into the GDD. |
+| **CORE-53** | **ACTIVE — no accepted answer.** |
+| CORE-54 onward | Unanswered. |
 
-The designer chose to continue past CORE-51 while CORE-17 through CORE-20 remain open.
-Continue at CORE-52 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-52 while CORE-17 through CORE-20 remain open.
+Continue at CORE-53 unless the designer chooses to return to an earlier open question.
+
+### CORE-52 — answered 2026-07-26 [P]
+
+Full slice bill: Archer, cap ~10, small behaviour-changing tree; 4 frames × ~3 tiers,
+4 ability items, 2 armor archetypes, situational rings; one zone + hub; 8–10 enemy
+types + elite + roaming rare; portal enemy → 10–20 min committed dungeon → boss;
+tiered + cosmetic drops + one unique weapon; main-quest slice with one level gap,
+10–15 side quests, one faction set + vendor; ~3–5 hrs + repeatable farm. Excludes
+co-op/raids/hardcore/gathering/mounts. Additions: explicit gate questions (voluntary
+post-completion farming; dry-streak feel; gap-as-invitation; explainable deaths) and
+one authored secret (discovery-pillar test).
 
 ### CORE-51 — answered 2026-07-26 [L/P]
 

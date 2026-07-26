@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-51; CORE-52 active  
+**Version:** Concept snapshot through CORE-52; CORE-53 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-52 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-53 is active.
 
 ## 1. Executive summary
 
@@ -624,7 +624,7 @@ The project has not yet locked:
 - detailed foraging and fishing interactions, progression, collections, locations, rarity structures, and rewards;
 - exact pet acquisition, progression, passive benefits, balance, collection, and presentation;
 - accessibility and readability implementation details (the required-from-start feature baseline is decided in Section 15);
-- detailed vertical-slice content and measurable continuation gates (the slice frame is provisionally decided: one class — Archer [P] — with roughly 3–5 weapon frames, 3–4 ability items, and 2–3 build directions; full-game per-class counts await CORE-20).
+- exact vertical-slice counts, tuning, and production order (the slice content bill and its measurable gate questions are provisionally decided in CORE-52; full-game per-class counts await CORE-20).
 
 No planning document should silently treat these as decided.
 
@@ -636,8 +636,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-51:** approved and integrated into this GDD.
-- **CORE-52:** active and unanswered.
+- **CORE-21 through CORE-52:** approved and integrated into this GDD.
+- **CORE-53:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -672,5 +672,6 @@ Current interview state:
 | CORE-49 | [L/T] | Section 11 — grind-cadence target ranges, percentile guardrail, attempt visibility, overlapping grinds |
 | CORE-50 | [L/P] | Section 15 — accessibility baseline; no global difficulty setting; no M+K aim assist |
 | CORE-51 | [L/P] | Section 8 — the eight readability laws |
+| CORE-52 | [P] | Prototype spec and questionnaire — full vertical-slice content bill and gate questions |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

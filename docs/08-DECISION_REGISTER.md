@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-51; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-52 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-52; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-53 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -60,6 +60,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-49 | [L/T] | Grind feel stays as locked (deliberate, targetable, cumulative, relaxed-but-active). Target ranges set as test hypotheses [T]: dungeon runs ~10–20 min; portal acquisition at a known source ~5–20 min; mastered loop 2–3×/hour; felt upgrade most 1-hour leveling sessions (endgame exempt); typical boss unique expected within ~20–40 attempts. Percentile guardrail: 95th-percentile unlucky acquisition ≤ roughly 2–3× expected time, tuned via drop rates and cadence, never escalating odds. Attempts per pursuit are tracked and displayed [P]. Grinds overlap: every targeted hunt advances at least two progression tracks — no run is a pure loss [P]. Final numbers await the Phase D percentile simulation. |
 | CORE-50 | [L/P] | Required from start: full remapping; hold/toggle fire; effect-density and opacity options; flash reduction; colorblind-safe projectile language (hostile shots differ by shape/pattern, never color alone); optional visible-hitbox indicator; UI/text scaling; reducible damage numbers; separate audio channels with audible key threats; pause wherever legal; no photosensitivity-hostile defaults. No global difficulty setting [L]: authored fixed difficulty stands, higher-difficulty dungeon versions are the hard mode, and accessibility means readability and control, never enemy-strength tuning. No M+K aim assist; possible mild stick assist quarantined to controller. Option details deferred. |
 | CORE-51 | [L/P] | Eight readability laws: threat renders above beauty (hostile shots/telegraphs never occluded); player shots visually subordinate to enemy fire; hostile vs friendly unmistakable by shape/pattern first with one consistent hostile language; telegraph prominence equals danger; hard per-encounter effect budgets stress-tested at endgame density; quiet arena floors with contrast reserved for gameplay; audio as an eyes-closed second channel for key threats; and death always explainable — unexplainable deaths fail readability review regardless of appearance. Implementation details deferred to art/audio planning. |
+| CORE-52 | [P] | Vertical-slice content bill: Archer, slice cap ~10, small behaviour-changing tree (2–3 builds); four weapon frames × ~3 tiers, four ability items (mobility/defense/burst/utility), two armor archetypes, situational rings; one zone (outskirts→dangerous pocket) + hub; 8–10 enemy types, elite, roaming rare; one portal enemy, one dungeon (10–20 min committed), one boss, tiered + cosmetic drops + one unique weapon; main-quest slice with one level gap, 10–15 side quests, one faction set + vendor; ~3–5 hours plus repeatable boss farm; excludes co-op, raids, hardcore, gathering, mounts. Ships with gate questions: voluntary post-completion farming, dry-streak feel with attempt counter, gap-as-invitation, explainable deaths. Zone contains one authored secret. Counts/tuning deferred to CORE-20 and combat-lab results. |
 
 ## Locked cross-system rules
 

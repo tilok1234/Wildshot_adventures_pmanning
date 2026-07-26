@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-38 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-39 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-39 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-40 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-38; CORE-17 through CORE-20 open; CORE-39 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-39; CORE-17 through CORE-20 open; CORE-40 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -626,9 +626,17 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Broad power, access, skill unlocks, talent points, equipment eligibility, or another function.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Leveling up grants class-specific base statistics—including some health and mana—so each level feels immediately good, alongside the skill points that feed the class tree (CORE-03). Gear remains the primary statistical engine (CORE-37); level growth is a supporting baseline whose exact per-level curves remain unresolved.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Access pacing:** [P] Levels deliberately pace the journey against rushing: dungeons, raids, and selected instances keep their explicit minimum-level entry requirements (CORE-28), and equipment additionally carries level requirements. All requirements follow CORE-28's clarity rules and never scale content (CORE-29).
+
+**Skill-tree structure:** [P] The skill tree is a large structure spent point-by-point: depth is gated by points invested, not by level tiers. The provisional CORE-34 capstone sits at the bottom of the tree, which points-deep investment reaches around the level cap naturally.
+
+**Level cap and post-cap:** [P] A hard level cap roughly marks the transition into endgame, after which progression continues through equipment, builds, knowledge, mastery, and collection (CORE-24).
+
+**Reputation/faction direction:** [P] A reputation or faction system is provisional parallel and post-cap design space: faction standing may unlock vendors and similar benefits, with faction experience earned by grinding different enemies across varying difficulties. This gives the locked world-recognition fantasy its first concrete mechanism; faction identities, benefits, and rates belong to the later faction and quest questions.
+
+**Deferred detail:** [U] Exact per-level stat growth, the level cap value, equipment level-requirement thresholds, tree size and point totals, and all faction details remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-40. What is the smallest readable statistic set?**
 

@@ -9,20 +9,23 @@
 
 ## Active question
 
-**CORE-39 — What is the purpose of character levels?**
+**CORE-40 — What is the smallest readable statistic set?**
 
-*Consider: Broad power, access, skill unlocks, talent points, equipment eligibility, or
-another function.*
+*Consider: Identify offensive, defensive, resource, and handling statistics; state which
+stats are intentionally excluded.*
 
-No answer has been accepted yet. Partially pre-answered: levels grant skill points and
-broad advancement (CORE-03 / GDD §9 table); dungeons, raids, and selected instances use
-explicit minimum-level entry requirements (CORE-28). Remaining to decide: whether levels
-also grant direct statistics (and how that interacts with gear-driven stats from
-CORE-37); whether equipment has level requirements; whether skill-tree tiers are
-level-gated (the CORE-34 capstone concept implied a max-level unlock); and level-cap
-philosophy (hard cap as an endgame marker — "reaching endgame is a transition" per
-CORE-24). Constraint: no content scales to level (CORE-29); level gates only permit
-attempts (CORE-28).
+No answer has been accepted yet. Constraints from earlier answers:
+
+- Weapon carries damage, attack speed, range (CORE-37); levels grant class base stats
+  including HP and mana (CORE-39); mana fuels the single active (CORE-32/34).
+- Movement speed is a premier stat needing deliberate caps (CORE-33).
+- No hidden accuracy or evasion rolls — a visible hit always lands (CORE-31), so
+  accuracy/evasion/dodge-chance stats are structurally excluded.
+- Armor archetypes trade defense vs damage (CORE-37); ring anti-degeneracy rule needs
+  enough distinct stats to make ring choices genuinely situational.
+- Likely candidate set: HP, mana (+regens?), damage, attack speed, range, armor/defense,
+  movement speed — plus explicit exclusions (crit? life-steal? resistances?). The
+  question also wants stated exclusions recorded.
 
 ## Question status table
 
@@ -32,12 +35,22 @@ attempts (CORE-28).
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-38 | Approved and integrated into the GDD. |
-| **CORE-39** | **ACTIVE — no accepted answer.** |
-| CORE-40 onward | Unanswered. |
+| CORE-21 through CORE-39 | Approved and integrated into the GDD. |
+| **CORE-40** | **ACTIVE — no accepted answer.** |
+| CORE-41 onward | Unanswered. |
 
-The designer chose to continue past CORE-38 while CORE-17 through CORE-20 remain open.
-Continue at CORE-39 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-39 while CORE-17 through CORE-20 remain open.
+Continue at CORE-40 unless the designer chooses to return to an earlier open question.
+
+### CORE-39 — answered 2026-07-26 [L/P]
+
+Levels grant class-specific base stats incl. HP and mana + skill points (leveling feels
+good); gear stays the primary stat engine. Equipment has level requirements as an
+anti-rush gate [P] alongside instance minimum levels. Skill tree: large, points-spent-
+deep, not level-tier-gated [P]; capstone at tree bottom reached near cap. Hard cap ≈
+endgame transition [P]. NEW: provisional faction-reputation system — vendor/similar
+unlocks, faction XP ground from different enemies at varying difficulties; first concrete
+world-recognition mechanism (GDD §3 pointer added). Details deferred.
 
 ### CORE-38 — answered 2026-07-26 [P]
 

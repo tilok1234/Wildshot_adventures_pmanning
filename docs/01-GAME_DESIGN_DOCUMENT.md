@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-38; CORE-39 active  
+**Version:** Concept snapshot through CORE-39; CORE-40 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-39 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-40 is active.
 
 ## 1. Executive summary
 
@@ -25,7 +25,7 @@ The player inhabits a clear **zero-to-hero** arc. A new character begins unknown
 The rise should be visible in two dimensions:
 
 - **Mechanical growth:** higher levels, developed skills, stronger statistics, better weapons, and mastery of difficult encounters.
-- **World recognition:** NPCs, factions, settlements, and the wider world increasingly acknowledge the character's achievements. The exact recognition systems remain unresolved.
+- **World recognition:** NPCs, factions, settlements, and the wider world increasingly acknowledge the character's achievements. The exact recognition systems remain unresolved; a provisional faction-reputation direction is recorded in Section 9.
 
 ## 4. Target player [L]
 
@@ -187,13 +187,23 @@ Distinct progression layers should have distinct jobs:
 
 | Layer | Primary responsibility |
 |---|---|
-| Character level | Broad advancement and skill-point acquisition |
+| Character level | Class base-stat growth (including health and mana), skill points, and access pacing |
 | Class skill tree | Behaviour-changing passives, resource behavior, and class specialization (no active abilities) |
 | Standard weapon | Primary attack damage and conventional projectile pattern |
 | Unique weapon | Authored, powerful, situational projectile behavior |
 | Ability item | The single equipped active ability and its behavior |
 | Armor and ring | Classic RPG statistics with meaningful tradeoffs |
 | Player knowledge | Understanding zones, stats, routes, portal sources, loot sources, and encounters |
+
+### Character levels [L/P]
+
+Leveling up grants class-specific base statistics—including some health and mana—so each level feels immediately good, alongside the skill points that feed the class tree. Gear remains the primary statistical engine; level growth is a supporting baseline whose exact curves remain unresolved.
+
+Levels also pace the journey against rushing [P]: dungeons, raids, and selected instances keep their explicit minimum-level entry requirements, and equipment additionally carries level requirements, all under the established clarity rules and without any content scaling.
+
+The skill tree is a large structure spent point-by-point: depth is gated by points invested, not by level tiers [P]. The provisional max-level capstone sits at the bottom of the tree, which deep investment reaches around the cap naturally.
+
+A hard level cap roughly marks the transition into endgame [P]; progression then continues through equipment, builds, knowledge, mastery, and collection. A reputation/faction system is provisional parallel and post-cap design space: faction standing may unlock vendors and similar benefits, with faction experience earned by grinding different enemies across varying difficulties. This gives the world-recognition fantasy (Section 3) its first concrete mechanism; faction details remain deferred.
 
 ### Equipment slots and stat ownership [L/P]
 
@@ -553,8 +563,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-38:** approved and integrated into this GDD.
-- **CORE-39:** active and unanswered.
+- **CORE-21 through CORE-39:** approved and integrated into this GDD.
+- **CORE-40:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -576,5 +586,6 @@ Current interview state:
 | CORE-36 | [L/P] | Section 8 — combat intensity ladder |
 | CORE-37 | [L/P] | Sections 7 and 9 — class gear identity, four-slot loadout, stat ownership |
 | CORE-38 | [P] | Section 18 and prototype spec — vertical-slice scope (one class, Archer provisional) |
+| CORE-39 | [L/P] | Sections 3 and 9 — character levels, level gates, points-deep tree, cap, faction direction |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

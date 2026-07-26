@@ -1,86 +1,60 @@
-# Wildshot Adventures — Handoff for a New Chat or Work Session
+# Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
-## Current state
+**Handoff date:** 2026-07-26 (evening — supersedes all earlier handoffs)  
+**Project stage:** Guided concept definition / early pre-production  
+**Interview position:** **Part I is COMPLETE — CORE-01 through CORE-55 are all answered.** CORE-14 remains provisional/prototype-gated (co-op depends on the Phase E network test).
 
-The project is in guided concept definition / early pre-production.
+## The single most important instruction
 
-- CORE-01 through CORE-16 and CORE-21 through CORE-32 are answered; CORE-14 remains provisional/test-gated.
-- CORE-17 is open and must be framed as the **first character’s journey to endgame**, not a fixed campaign.
-- CORE-18 retains open structural questions while respecting the locked CORE-24 endgame direction.
-- CORE-19 and CORE-20 are unanswered.
-- **CORE-33 — What are the player's universal movement and defensive actions?** is the current active question and has no accepted answer.
+**This git repository is the source of truth.** Do not rely on chat memory, ZIP uploads, or summaries. Read `notes/INTERVIEW_STATE.md` first — it always holds the live position and the note-taking protocol. After every approved decision: update the questionnaire, decision register, GDD, and interview state, then **commit and push before moving on**. One approved answer = one commit. This protocol exists because notes were repeatedly lost before the repo existed; do not regress to "I'll write it up later."
 
-The designer chose to continue at CORE-33 while CORE-17 through CORE-20 remain open. Continue at CORE-33 unless the designer explicitly returns to an earlier question.
+If the new session cannot access the repository directly, ask the designer to grant repo access or provide a fresh clone/ZIP of the repo — but treat any ZIP as a transfer convenience, never the working source of truth, and get changes back into git as soon as possible.
 
-## Read first
+## Read first, in this order
 
-1. `08-DECISION_REGISTER.md`
-2. `01-GAME_DESIGN_DOCUMENT.md`
-3. `04-OPEN_QUESTIONS.md`
-4. `10-LIVING_DESIGN_QUESTIONNAIRE.md` when detail or exact wording is needed.
-5. `11-HANDOFF_2026-07-21_HISTORICAL.md` only as the preserved provenance record for the July 21 integration.
+1. `notes/INTERVIEW_STATE.md` — live position, protocol, and per-question decision summaries from 2026-07-26.
+2. `docs/08-DECISION_REGISTER.md` — the fastest complete picture of what is decided.
+3. `docs/01-GAME_DESIGN_DOCUMENT.md` — the readable integrated design.
+4. `docs/10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative per-question record, when exact wording matters.
+5. `docs/07-PROTOTYPE_SPEC.md` — the Phase A combat lab (the next build milestone) and vertical-slice scope.
+6. `notes/sessions/` — dated working notes, including the full 2026-07-26 session log.
 
-## Source of truth
+## What was decided on 2026-07-26 (one-screen version)
 
-The living questionnaire is authoritative. Companion documents summarize it and must not silently convert provisional, deferred, or unknown items into locked decisions.
+**Combat core:** Dodging is purely movement-based — no universal dash/roll/block/i-frames (CORE-33). Each character has exactly ONE active ability, granted by an equipped ability item from a class-exclusive pool; the skill tree grants no actives and its nodes must change behaviour, not just numbers (CORE-34). Focus targeting is cut entirely (CORE-35). Intensity climbs via density/speed/pattern complexity, never HP sponging, and the ladder repeats inside every zone at its authored band (CORE-36). Eight readability laws govern all art and encounters (CORE-51). Packs combine 1–2 role-grammar pressures, pulling is a learnable skill, and compositions showcase weapon frames (CORE-44).
 
-## Newly locked CORE-16 summary
+**Character & items:** Class = base stats + tree + exclusive weapon/ability/gear families; four-slot loadout (weapon / ability item / armor / ring); armor uses give-and-take archetypes; no universally-correct ring allowed (CORE-37). Lean stat set: HP, mana, damage, attack speed, range, armor, movement speed (+regen candidates); crit/life-steal/resistances/accuracy/evasion intentionally excluded; uniques may break rules (CORE-40). Equipment IS the build system; tiers stay familiar-but-stronger; frames are side-grades; tier steps are chunky; item behaviour is readable before farming (CORE-41).
 
-Wildshot Adventures does not prescribe one correct or normal session duration. A worthwhile session is defined by meaningful pursuit of a self-chosen goal, not by a guaranteed permanent upgrade. Quest progress, discovery, learning, execution improvement, completed dungeon/boss attempts, and additional targeted loot rolls can all make a session successful.
+**Progression:** Levels grant class base stats (incl. HP/mana) + skill points; equipment has level requirements; the tree is points-spent-deep; a hard cap marks the endgame transition; provisional faction-reputation system (CORE-39). First journey targets ~40–80 focused hours to cap + main quest (CORE-17). Endgame is an open-ended collectathon, no endgame-only systems, alts modest (CORE-18).
 
-Targeted loot attempts remain independent under this baseline. More attempts create more total opportunities to have received the desired item, but failures do not raise the next roll's chance, accumulate an escalating modifier, or bank pity.
+**Loot & death:** No pity ever; dry streaks mitigated by reward breadth (cosmetic/collection boss drops) and cheap attempt cadence; dupes sell for meaningful gold, never power; no guarantees beyond quest uniques; faction vendors sell catch-up gear (CORE-42 + refinements). Grind targets: dungeon 10–20 min, portal 5–20 min, mastered loop 2–3×/hr, unique expected in ~20–40 attempts, p95 unlucky ≤ 2–3× expected [all T]; attempts tracked and displayed; every hunt advances ≥2 tracks (CORE-49). Death: nearest-city respawn + percent-of-gold fee (never cheaper than teleporting); dungeon death ends the instance, portal spent; raids give paid respawns at wing start with full boss resets and wing progress never lost; optional per-character hardcore permadeath mode (CORE-43). Raids use wings with player-controlled persistence, no time lockouts; deterministic skip baseline (refinement batch).
 
-Active single-player gameplay is pausable. An ordinary dungeon is one committed instance: pausing is allowed, but leaving or abandoning ends it, and the same partially cleared instance cannot be resumed later. Exact raid duration, wings, checkpoints, and continuation rules are deferred.
+**World & content:** Quests = direction + teaching + landmark rewards; main quest 1→cap with deliberate level gaps; MMO-dense quest world; faction quest sets, different factions level through different verbs (CORE-46). Several major hubs (not per-zone); per-character stash only; escalating hub recognition (CORE-47). Crafting/gathering per CORE-25; NO automation, all active play (CORE-48). Variation bounds: authored *where*, pooled *what* — fixed arenas with boss pools, roaming rares on authored routes (refinement). Tone: colorful heroic fantasy with bite; clean-leaning E10+/T as a preference; no casino aesthetics on loot (CORE-19). Pets cosmetic-only. Steam Deck contingent, controller = relaxed-grinding worst case.
 
-## Approved CORE-21 through CORE-32 summary
+**Production (CORE-20):** Solo developer, expert at orchestrating AI; production is AI-orchestrated across code/art/content. Engine most likely **Godot** [P]. Abundant AI access; no contractor budget. **10–40 h/week** (plan to the low end). **No deadline** — the CORE-55 gates, not dates, are the discipline. A broad custom **tileset + generation system already exists** (buildings/structures/tiles/props, with style masters incl. Town autumn/dusk/winter, Clearing forest, Dungeon dusk, Snow) and a matched **enemy/player sprite generator is near completion**. Generators must encode the readability laws; tools accelerate authoring without weakening the handcrafted-world rule.
 
-- **CORE-21:** Ordinary, level-appropriate open-world combat follows a flexible encounter or aggression → situation-dependent fighting → repeated exchanges when needed → defeat → clear kill feedback → loot or portal collection loop. Ten seconds is a representative moment-to-moment window, not a required encounter length. Boss-specific loops remain separate.
-- **CORE-22:** Over roughly ten minutes, the player may follow one self-chosen activity or naturally combine active low-attention grinding, quests, exploration, targeted hunts, encounters, and dungeon play. Relevant progress is expected; completion, an upgrade, or an entire dungeon clear is not guaranteed.
-- **CORE-23:** Over roughly one hour, the player may sustain one pursuit or mix shorter activities, adjusting equipment, skills, inventory, route, or target only when useful. The hour should normally produce meaningful chosen progress but may be only part of a longer grind. Failed targeted rolls remain independent completed attempts.
-- **CORE-24:** The central long-term objective is the zero-to-hero rise from an unknown adventurer into a powerful, recognized, legendary endgame hero. Reaching endgame begins a substantial continuation of targeted farming, unique hunts, powerful and alternative builds, hardest-solo-content mastery, optional superbosses, collection, completion, and efficiency goals. A story ending may be a milestone, not the ultimate endpoint.
-- **CORE-25:** Fishing and foraging are optional supporting systems with their own levels and collection grinds. Limited crafting deterministically exchanges explicit requirements for known non-combat rewards. Housing and player-managed settlements are not planned; authored settlement changes remain possible. One small non-attacking pet may provide a modest passive benefit. No wider profession roster is planned.
-- **CORE-26:** The world is a coherent network of many large outdoor zone maps connected through physical roads, gates, passes, tunnels, and discoverable paths. Interiors use separate maps where appropriate. Menu-based disconnected level selection is not the world structure.
-- **CORE-27:** Geography, routes, settlements, landmarks, secrets, major interiors, bosses, and progression-critical content are handcrafted. Controlled procedural variation may refresh repeatable details inside authored spaces without erasing world knowledge or targeted pursuits.
-- **CORE-28:** Outdoor regions use mostly soft danger gating and are not level-locked. Dungeons, raids, and selected challenge instances use explicit minimum levels and may have other meaningful prerequisites. Requirements must be clear, proportionate, and checked before consumable access resources are spent.
-- **CORE-29:** Regions, outdoor enemies, and world bosses have stable authored difficulty and never scale to the player. Selected instanced dungeons may later receive separate optional higher-difficulty versions with their own fixed rules and rewards.
-- **CORE-30:** Repeated travel uses selective paid teleportation to unlocked cities, settlements, hubs, and suitable landmarks. It can begin from most safe outdoor locations, has a visible interruptible three-to-five-second cast, and charges currency only on success. Special routes and selected content remain manual. There is no separate free recall.
-- **CORE-31:** Combat is real-time, top-down, seamless, spatial, and freely aimed. No selected or locked target is ever required to aim, attack, use skills, deal damage, or kill. Hidden accuracy/evasion rolls cannot reject a visible hit. Projectile action is central, but readable authored melee arcs, beams, ground effects, and area attacks remain possible.
-- **CORE-32:** Tap LMB to fire once, hold to fire at weapon cadence, or use a remappable autofire toggle that follows current free aim without auto-targeting. Ordinary attacks cost no resource; movement, aim, and attacks remain predictable and independent. Weapon patterns are deterministic, weapon-defined, terrain-aware, varied, and supported by readable impact feedback.
+**Slice & gates:** Vertical slice = Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, 2 armor archetypes, one zone + hub, 8–10 enemy types, full portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, ~3–5 h + repeatable farm, one authored secret (CORE-52). First milestone = Phase A no-reward combat lab, judged by outside testers, patterns dodgeable at lowest movement speed (CORE-53). Top five risks ranked with test/mitigation/cut (CORE-54). Two formal continuation gates recorded (CORE-55).
 
-## How to conduct the interview
+## Next steps (designer to choose)
+
+1. **Part II — combat and controls module questions** (they spec the Phase A lab in detail).
+2. **Start building the Phase A combat laboratory in Godot** — the spec is ready; interview and lab can run in parallel, with lab findings feeding [T] answers.
+3. Any remaining doc polish; the companion docs were refreshed 2026-07-26 and currently agree.
+
+## How to conduct the interview (unchanged method)
 
 - Ask one focused question at a time and finish it before moving on.
-- Let the designer answer naturally, then consolidate the intent into clear design language.
-- Keep straightforward decisions concise and preserve momentum.
-- Expand when a decision creates a meaningful design, balance, technical, or production consequence.
-- Use existing answers before asking for a decision again.
-- Mark conclusions as locked, provisional, test-gated, unknown, cut, or deferred.
-- Update the living questionnaire and companion documents in sensible batches.
-- Treat purposeful, targetable repetition as an intended strength rather than assuming grind should be removed.
-- Do not let controller support, optional co-op, or beginner accessibility weaken the intended mouse/keyboard endgame scope.
+- Let the designer answer naturally, then consolidate into clear design language; give an honest opinion when asked — the designer explicitly values honest pushback and often asks "what would you add?"
+- Keep straightforward decisions concise; expand only when a decision has real consequences.
+- Use existing answers before asking again; mark conclusions [L]/[P]/[T]/[U]/[CUT]/[LATER].
+- Challenge material design or production risks honestly.
+- Treat purposeful, targetable repetition as an intended strength.
+- Commit after every approved answer (see protocol above).
 
-## Recommended opening prompt
+## Communication preferences learned
 
-> Continue the guided design interview for **Wildshot Adventures** using the extracted project documentation as the source of truth. CORE-01 through CORE-16 and CORE-21 through CORE-32 are recorded in the living questionnaire; CORE-14 remains provisional/test-gated and CORE-17 through CORE-20 remain open. The current active topic is **CORE-33 — universal movement and defensive actions**, which has no accepted answer. Ask one focused question at a time, preserve the established design direction, keep straightforward conclusions concise, and challenge material design or production risks honestly.
+The designer writes informally (typos are normal — ask when a typo is ambiguous rather than guessing; this mattered at CORE-34 where "lobe" changed the meaning). They value momentum, honest opinions, and being offered concrete recommendations to react to rather than open-ended questions. They frequently approve batches with a short "ye sounds good" and often invite additions — offer 1–3 well-chosen additions, never a flood.
 
-## Essential design summary
+## Recommended opening prompt for the new session
 
-Wildshot Adventures is a single-player-first, top-down 2D open-world fantasy action RPG combining RotMG-style freely aimed projectile combat and portal/dungeon/raid loot pursuit with Erenshor-style long-form, knowledge-driven, zero-to-hero MMO progression.
-
-Three permanent classes—Archer, Warrior, Mage—use class-specific weapons whose projectile patterns define primary attacks. Tiered gear drops broadly and provides vertical progression; unique items come from named world bosses, dungeons, raids, and perhaps selected major quests, and should be powerful but situational.
-
-Open-world play is laid-back and productive. Endgame bosses and raids may be relentlessly intense but must remain readable. Specific mobs directly drop specific dungeon portals; player knowledge and targeted hunting earn access. All content remains solo-completable. Optional online duo co-op is architecture-aware but not promised until a prototype passes.
-
-The world consists of large handcrafted outdoor zone maps connected by physical routes, with controlled procedural variation inside authored spaces. Difficulty is stable rather than player-scaled. A selective paid teleport network compresses repeat journeys without reaching every cave, secret, wilderness destination, or dungeon route.
-
-Fishing, foraging, limited non-combat crafting, collections, and small non-attacking pets are supporting systems rather than new pillars. Housing, player-managed settlements, broad professions, and combat-power crafting are not currently planned.
-
-Combat requires no selected target. Tap, hold, or toggle autofire all use the player's current free aim. Primary attacks consume no resource, use deterministic weapon-defined patterns, preserve predictable movement, collide clearly with terrain, and prioritize readable feedback.
-
-Mouse and keyboard defines the full game. Controller is secondary and can be reduced or cut rather than constrain content. The business model is a one-time Steam purchase.
-
-## Communication preference learned during the interview
-
-The designer values thoroughness but dislikes unnecessary administrative delay or overlong finalization of easy questions. Keep momentum. Expand only when the decision genuinely benefits from analysis.
-
-When an answer is approved, update the current project-facing documents and verify the new text and interview marker in those exact files. Do not describe a separate copy or storage version as though a Project attachment itself has refreshed.
+> Continue the guided design interview and development work for **Wildshot Adventures**. The git repository is the source of truth. Read `notes/INTERVIEW_STATE.md` first and follow its note-taking protocol (one approved answer = one commit). Part I of the questionnaire (CORE-01 through CORE-55) is complete as of 2026-07-26. Ask what I want to do next — Part II module questions or starting the Phase A combat lab in Godot — and keep the established method: one focused question at a time, honest opinions, concrete recommendations, commit everything.

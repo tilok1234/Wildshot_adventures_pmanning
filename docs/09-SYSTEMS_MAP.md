@@ -2,7 +2,7 @@
 
 **Purpose:** Show which systems own which decisions and in what order they should be resolved.
 
-**Current design coverage:** CORE-01 through CORE-16 and CORE-21 through CORE-32; CORE-33 is active.
+**Current design coverage:** Part I complete — CORE-01 through CORE-55 all answered (2026-07-26); CORE-14 remains prototype-gated. Detailed 2026-07-26 decisions live in the Decision Register and GDD; this map's matrix reflects them.
 
 ## 1. Critical dependency chain
 
@@ -32,11 +32,12 @@ A later system should not be used to hide a failure in an earlier one. Loot must
 
 | System | Owns | Must not own |
 |---|---|---|
-| Class | Core identity, skill tree, class resource, broad combat plan | Routine replacement of the weapon's projectile pattern |
-| Weapon | Primary attack damage, range/cadence, projectile pattern, preferred positioning | The entire class identity |
+| Class | Base statistics and growth, exclusive weapon/ability-item/gear families, the behaviour-changing passive skill tree | Granting active abilities through the tree; routine replacement of the weapon's pattern |
+| Weapon | Primary attack damage, attack speed, range, projectile pattern, preferred positioning | The entire class identity |
+| Ability item | The single equipped active ability and its behaviour; role choice (mobility/defense/burst/utility) | Being required by any encounter; existing outside its class's pool |
 | Primary-attack input | Tap once, hold at weapon cadence, or toggle the same held-fire state; always follow current free aim | Target selection, automatic tracking, passive combat, or a separate attack resource |
-| Armor/equipment | RPG statistics, defense, supporting synergies | Automatic universal best-in-slot progression |
-| Level | Broad growth and skill-point progression | Making execution irrelevant |
+| Armor and ring | RPG statistics with give-and-take archetypes and situational tradeoffs | Automatic universal best-in-slot progression; a single universally correct ring |
+| Level | Class base-stat growth (incl. HP/mana), skill points, access pacing via instance and equipment level gates | Making execution irrelevant; scaling any content |
 | Player knowledge | Efficient routes, loot/portal sources, stats, encounter understanding | Essential facts available only through external wikis |
 | Tiered loot | Reliable vertical progression | Authored unique playstyles |
 | Unique loot | Situational build identity and aspirational chase | Universally superior power in every situation |
@@ -44,13 +45,14 @@ A later system should not be used to hide a failure in an earlier one. Loot must
 | Dungeon | Concentrated combat, boss access, targetable rewards | Waiting or schedule-based access |
 | Boss | Pattern mastery, milestone victory, authored loot source | Unreadable damage or arbitrary failure |
 | Raid | Long-form endgame mastery and gearing journey | Mandatory multiplayer |
-| Quest | Purpose, context, progression, world recognition; exact role unresolved | Empty quotas as the main content model |
+| Quest | Direction, teaching, landmark deterministic rewards, faction standing, story beats; the gapped main quest | Empty quotas as the main content model; daily/repeatable structure |
+| Faction | Reputation pursuits levelled through distinct verbs (quest sets, enemy hunts); vendor/QoL/cosmetic unlocks; world recognition | Mandatory core-progression rewards |
 | World topology | Large outdoor zone maps, physical connections, separate interiors, coherent geography | A menu of disconnected levels |
 | Procedural variation | Refresh repeatable details inside authored spaces | Moving essential destinations, erasing world knowledge, or replacing authored identity |
 | Auto-travel | Paid teleportation to selected unlocked destinations from safe outdoor situations | Universal destination coverage, free recall, emergency escape, or simulated ambush travel |
 | Fishing / foraging | Optional leveled collection grinds and world-enrichment discoveries | Mandatory combat power, daily chores, or a broad profession economy |
 | Limited crafting | Deterministic exchange for known non-combat rewards | Combat equipment, combat statistics, buffs, consumables, random output, or a leveled profession |
-| Pet | One small optional follower with a modest passive benefit | Attacking, drawing aggro, tanking, casting, or becoming an AI party member |
+| Pet | One small optional cosmetic collection follower | Any combat or statistic benefit; attacking, drawing aggro, tanking, casting, or becoming an AI party member |
 | Controller | Optional comfort and portability | Restricting mouse/keyboard combat scope |
 | Co-op | Optional shared adventure | Defining solo balance or gating content |
 | Session goal / attempt | Player-chosen objective, attempt completion, pause/abandon boundaries, run telemetry | Guaranteeing a permanent upgrade on a fixed timer |
@@ -67,7 +69,8 @@ Normal enemy / elite / chest
 Dungeon / world boss / raid encounter
         ├─ stronger tiered equipment baseline
         ├─ progression rewards
-        └─ authored unique-item chance
+        ├─ cosmetic and collection drops (dry-streak breadth, straight to the collection menu)
+        └─ authored unique-item chance (duplicates sell for meaningful gold, never power)
 
 Selected major quest [P]
         └─ guaranteed authored unique or other milestone reward
@@ -189,14 +192,13 @@ These rules are not release commitments until the network prototype passes.
 
 ## 7. Decisions that block downstream work
 
-Before full production begins, the project must resolve:
+Resolved on 2026-07-26: production constraints and engine [P] (CORE-20); the player kit — movement-only dodging, one item-granted active, focus targeting cut (CORE-33–35); the readability laws and pack grammar at the rule level (CORE-44/51); the stat set and scaling philosophy (CORE-40); the death/retry baseline (CORE-43); quest/hub/faction purpose (CORE-46/47); vertical-slice scope and both measurable gates (CORE-52/55); raid wing structure and persistence (CORE-16 revision).
 
-1. Production constraints and engine.
-2. Universal movement and defensive actions, active ability structure, focus-target purpose, and the remaining player-kit details beyond the locked primary attack.
-3. Enemy/readability grammar.
-4. Stat set and scaling philosophy.
-5. Death, retry, and save rules.
-6. Exact zone sizes, content-density targets, procedural content pools, access-gate placement, travel prices/unlocks, and higher-difficulty dungeon-version implementation within the locked world structure.
-7. Quest/hub/faction purpose.
-8. Vertical-slice scope and measurable gates.
-9. Raid commitment, checkpoint, continuation, and re-entry structure.
+Still blocking before or during full production:
+
+1. Measured production velocity (only the lab and slice can provide it — Gate 2).
+2. Save architecture, exact death fees, and hardcore save handling.
+3. Exact zone sizes, content-density numbers, procedural content pools, access-gate placement, travel prices/unlocks, and higher-difficulty dungeon-version implementation.
+4. Numeric combat tuning: weapon stats, ability designs, growth curves, caps, drop rates against the CORE-49 targets.
+5. Raid wing lengths, checkpoint implementation, and skip-mechanic prototypes.
+6. Narrative specifics within the decided tone boundaries.

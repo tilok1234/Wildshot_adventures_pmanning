@@ -2,18 +2,16 @@
 
 **Status:** Recommended sequence. It does not assign dates or assume team capacity that has not been discussed.
 
-## Stage 0 — Finish plan-blocking core questions
+## Stage 0 — Finish plan-blocking core questions ✅ COMPLETE (2026-07-26)
 
-CORE-16 is resolved: the game does not prescribe a normal session duration, and session value is not dependent on receiving a permanent upgrade. The remaining plan-blocking questions are CORE-17 through CORE-20:
+All of Part I (CORE-01 through CORE-55) is answered. The former blockers resolved as:
 
-- first character's journey to endgame: target length and exact endgame threshold;
-- replay/endgame intent;
-- tone, rating, and content boundaries;
-- hard production constraints: team, engine, budget, time, skills, and target window.
+- first journey: ~40–80 focused hours to level cap + main quest (CORE-17 [P/T]);
+- endgame: open-ended collectathon, no endgame-only systems (CORE-18);
+- tone: colorful heroic fantasy with bite, clean-leaning E10+/T (CORE-19 [P]);
+- production: solo AI-orchestrated developer, Godot [P], 10–40 h/week planned to the low end, no deadline (gates are the discipline), custom tileset + sprite-generation pipeline (CORE-20).
 
-The designer has completed CORE-21 through CORE-32 and chosen to continue at CORE-33 while CORE-17 through CORE-20 remain open.
-
-**Gate:** The project has an honest scope envelope.
+**Gate: PASSED.** The project has an honest scope envelope.
 
 ## Stage 1 — Define loops and world structure on paper
 
@@ -30,7 +28,7 @@ CORE-21 through CORE-30 now define:
 
 ## Stage 2 — Solo combat laboratory
 
-CORE-31 and CORE-32 establish the combat format and primary-attack baseline. Resolve CORE-33 onward as needed while implementing:
+CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement:
 
 - independent movement and free aiming with no selected-target requirement;
 - tap-to-fire, hold-to-fire, and a visible remappable autofire toggle;
@@ -39,12 +37,13 @@ CORE-31 and CORE-32 establish the combat format and primary-attack baseline. Res
 - predictable movement while firing;
 - clear terrain collision and line-of-fire behavior;
 - readable impact, immunity, blocked-hit, and kill feedback;
-- one universal defensive or movement action;
-- three weapon frames, several enemy behaviors, and one elite.
+- NO universal defensive action beyond walking — dodging tested as pure movement (CORE-33);
+- one equipped-ability test slot with swappable test abilities (CORE-34);
+- three weapon frames, several enemy behaviors from the role grammar, and one elite.
 
 Do not add progression rewards until the no-reward combat test passes.
 
-**Gate:** Combat remains enjoyable and understandable without loot, feels dependable while moving and aiming, and never relies on hidden targeting, accuracy, or movement behavior.
+**Gate (CORE-53/55 Gate 1):** Fresh outside testers — never solely the builder — voluntarily re-engage for 20+ minutes with zero rewards; every death is explainable; every pattern is dodgeable at the lowest intended movement speed; controls, collision, and feedback feel dependable; the frames change how testers fight. Repeated failure means pivot or stop.
 
 ## Stage 3 — Enemy, projectile, and readability grammar
 
@@ -54,7 +53,7 @@ Establish telegraph language, hostile/friendly visual hierarchy, projectile rule
 
 ## Stage 4 — Class, skill, and weapon grammar
 
-Prototype one class deeply before building all three. Define the boundary between class, skill tree, weapon, and equipment. Test several build directions.
+Prototype one class (Archer, provisional) deeply before building all three. The class/weapon/equipment boundary is decided (CORE-34/37/41: one item-granted active, behaviour-changing passive tree, four-slot loadout); implement and test 2–3 build directions against it.
 
 **Gate:** Builds change decisions and positioning, not only sheet damage.
 
@@ -66,7 +65,7 @@ Run the two-player greybox test before large world production. Keep solo design 
 
 ## Stage 6 — Levels, stats, equipment, and loot
 
-Define the smallest readable stat set, scaling rules, equipment tiers, unique-item rules, source targeting, duplicate behavior, and protection against multiplicative projectile/proc explosions.
+The stat set (CORE-40), tier philosophy (CORE-41), acquisition and duplicate rules (CORE-42), and grind-cadence targets (CORE-49) are decided; implement them, tune exact values and curves, and run the drop-rate/percentile simulation against the CORE-49 targets. Guard against multiplicative projectile/proc explosions.
 
 **Gate:** Progression feels tangible without making execution irrelevant or creating one mandatory build.
 
@@ -80,7 +79,7 @@ Test the complete friction budget: travel + enemy availability + portal chance +
 
 ## Stage 8 — World, quests, hub, and recognition
 
-Define the detailed purposes of quests, factions, hubs, world recognition, and return visits. Implement only enough fishing, foraging, limited non-combat crafting, collection presentation, pets, and authored settlement change to test their locked supporting roles without allowing them to become mandatory combat progression or a parallel profession economy. Build one dense region with several overlapping goals.
+The purposes of quests (CORE-46), factions (CORE-39/46), hubs and recognition (CORE-47) are decided; implement the slice's share of them. Implement only enough fishing, foraging, limited non-combat crafting, collection presentation, pets (cosmetic-only), and authored settlement change to test their locked supporting roles. Build one dense region with several overlapping goals — the slice zone doubles as the quest-density test.
 
 **Gate:** The world supplies meaningful reasons to explore and grind beyond isolated combat rooms.
 
@@ -98,9 +97,9 @@ The slice should demonstrate the full promise in miniature:
 - learning physical routes and unlocking one selective teleport destination or permanent shortcut;
 - returning visibly stronger and more recognized.
 
-Exact content counts are deferred to CORE-52.
+The full content bill is decided in CORE-52 (Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, one zone + hub, 8–10 enemy types, complete portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, one authored secret, ~3–5 hours plus repeatable farm).
 
-**Gate:** Measurable player evidence justifies scaling to full production.
+**Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order.
 
 ## Stage 10 — Production planning
 

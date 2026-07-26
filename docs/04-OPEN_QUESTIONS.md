@@ -1,180 +1,73 @@
 # Wildshot Adventures — Open Questions
 
-**Current interview position:** **CORE-33 — universal movement and defensive actions** is active and has no accepted answer.  
-**Open but currently bypassed by designer choice:** CORE-17 through CORE-20.
+**Snapshot:** 2026-07-26 — **Part I complete: CORE-01 through CORE-55 all answered.**  
+**Purpose:** List what remains genuinely open, so a new session neither reopens settled matters nor silently treats open ones as decided.
 
-This file contains unanswered core questions and deferred decisions. It should prevent a new session from reopening matters that are already locked.
+## Interview position
 
-## Recently resolved
+- All 55 Part I core questions are answered (see `08-DECISION_REGISTER.md` for status per question; `notes/INTERVIEW_STATE.md` for the live position).
+- CORE-14 (optional two-player co-op) remains provisional and prototype-gated on the Phase E network test.
+- The interview proceeds to Part II modules (combat and controls first), alongside building the Phase A combat laboratory.
 
-- **CORE-16 [L]:** The game does not prescribe a normal session duration. Self-chosen goal progress, learning, mastery, relevant attempts, and independent loot rolls can make a session worthwhile without a permanent upgrade. Single-player play is pausable. Leaving or abandoning an ordinary dungeon ends that instance; partial clears are not resumed later.
-- **CORE-21 [L]:** Ordinary level-appropriate combat cycles through encounter or aggression, situation-dependent fighting, repeated exchanges when needed, defeat, clear kill feedback, and loot or portal collection. Ten seconds is representative, not a required fight length; boss-specific loops remain separate.
-- **CORE-22 [L]:** A ten-minute window may contain one self-chosen activity or a natural mixture of active grinding, quests, exploration, targeted hunting, encounters, and dungeon play. Relevant progress is expected, but completion or an upgrade is not guaranteed.
-- **CORE-23 [L]:** A one-hour window may sustain one pursuit or combine shorter activities, with preparation or retargeting only when useful. Meaningful progress is expected, but the hour may be part of a longer grind and independent failed loot rolls remain completed attempts.
-- **CORE-24 [L]:** The long-term objective is a zero-to-hero rise into a powerful, recognized, legendary endgame character. Endgame is a major transition into substantial farming, build, mastery, superboss, collection, completion, and efficiency pursuits—not the end of the game.
-- **CORE-25 [L/P]:** Fishing and foraging are optional leveled supporting systems with primarily cosmetic and collection-oriented rewards. Limited crafting gives deterministic known non-combat rewards. Housing and player-managed settlements are not planned; authored settlement changes remain possible. Small non-attacking pets are optional. No broad profession roster is planned.
-- **CORE-26 [L/P]:** The world uses many large outdoor zone maps connected by physical routes, with separate interior maps where appropriate. It must feel like one coherent world rather than disconnected menu-selected levels.
-- **CORE-27 [L/P]:** The world foundation and progression-critical content are handcrafted. Controlled procedural variation may refresh repeatable details inside authored spaces without erasing world knowledge, reliable targeting, or authored identity.
-- **CORE-28 [L/P]:** Outdoor regions use soft danger gating and are not level-locked. Dungeons, raids, and selected instances use explicit minimum levels and may have meaningful additional prerequisites. Requirements must be clear, proportionate, and checked before access resources are consumed.
-- **CORE-29 [L/P]:** Regions, outdoor enemies, and world bosses have fixed authored difficulty and never scale to the player. Selected instanced dungeons may later receive separate fixed higher-difficulty versions.
-- **CORE-30 [L/P]:** Repeated travel uses selective paid teleportation to eligible unlocked destinations. It begins only from safe outdoor situations, has an interruptible three-to-five-second cast, charges only on success, and does not replace special manual routes. There is no free recall.
-- **CORE-31 [L]:** Combat is real-time, top-down, seamless, spatial, and freely aimed. No selected target is required for any combat action or kill, and hidden accuracy/evasion rolls cannot invalidate a visible hit.
-- **CORE-32 [L/P]:** Tap, hold, and toggle-autofire inputs all use current free aim. Ordinary primary attacks cost no resource, preserve predictable movement and aiming, use deterministic weapon-defined patterns, interact clearly with terrain, and provide readable hit feedback.
+## Test-gated decisions awaiting prototypes [T]
 
-## Priority 1 — Scope and format blockers still open
+- **Phase A lab gate:** no-reward combat enjoyment, dependable feel, explainable deaths, lowest-speed dodgeability, outside-tester judgment (CORE-53/55 Gate 1).
+- **Grind cadence targets (CORE-49):** dungeon 10–20 min; portal at known source 5–20 min; mastered loop 2–3×/hour; felt upgrade most leveling hours; unique expected in ~20–40 attempts; p95 unlucky ≤ ~2–3× expected — all validated by the Phase D percentile simulation.
+- **Slice gate questions (CORE-52/55 Gate 2):** voluntary post-completion farming; dry-streak feel with attempt counter; level-gap-as-invitation; explainable-death rate at density; build distinction; production-velocity extrapolation.
+- **Raid skip mechanics:** deterministic baseline (mastery shortcuts vs trophy tokens) to prototype; escalating within-wing respawn fee.
+- **Main-quest level-gap sizes** and quest-density feel (slice zone is the density test).
+- **Portal drop rates** (~20–30% normal / 50–100% world boss remain test targets).
+- **Co-op (CORE-14):** the Phase E two-player greybox gate.
 
-1. **CORE-17:** What is the target length of the **first character’s journey to endgame**, what mechanical threshold counts as reaching endgame, and how should focused progression, optional content, and later endgame time be measured separately?
-2. **CORE-18:** What replay or long-term endgame experience is intended?
-3. **CORE-19:** What tone, age rating, violence, horror, language, humor, and content boundaries are intended?
-4. **CORE-20:** What are the hard production constraints: team size, engine, skills, budget, weekly hours, timeframe, and asset limits?
+## Deferred implementation details by area
 
-## Priority 2 — Loops and world
+### Combat and player kit
+- Exact skill activation, ability-specific animation commitments, hitbox/collision geometry, aim assistance details.
+- Weapon statistics, cadence ranges, final individual attack patterns, exceptional weapon mechanics.
+- Per-class ability-item pools, individual ability designs, mana costs, cooldown/charge models.
+- Default autofire binding and HUD treatment; collision and hit-feedback tuning.
+- Enemy-specific and boss-specific encounter loops; per-region role rosters; pack composition tables; aggro ranges.
+- The capstone-empowers-equipped-item concept [P design space].
 
-CORE-21 through CORE-30 are answered at the core-design level. Their detailed implementation questions remain deferred below and in the Decision Register.
+### Stats, levels, and equipment
+- Exact stat values, per-level growth curves, caps (especially movement speed), the regeneration-stat decision, equipment formulas.
+- Level cap value; equipment level-requirement thresholds; tree size and point totals.
+- Tier counts and step sizes; per-frame balance; per-slot stat budgets; whether rings are class-bound or shared.
+- Class base-stat spreads; respec rules; item preview/interface implementation.
 
-## Priority 3 — Combat and progression
+### Loot and economy
+- Exact drop rates; gold values; shop inventories and pricing; class filtering; upgrade retention.
+- Cosmetic dupe-milestone design [LATER]; currency/material vocabulary beyond gold.
 
-- **CORE-31 [RESOLVED]:** exact combat format.
-- **CORE-32 [RESOLVED]:** primary attack behavior and no-reward enjoyment.
-- **CORE-33 [ACTIVE]:** universal movement/defense actions.
-- CORE-34: active ability count and kit roles.
-- CORE-35: focus-targeting purpose, if any.
-- CORE-36: intensity curve.
-- CORE-37: exact class/weapon/equipment responsibility boundary.
-- CORE-38: class, weapon-frame, and build counts for slice/full game.
-- CORE-39: purpose of levels.
-- CORE-40: smallest readable stat set.
-- CORE-41: how equipment changes play.
-- CORE-42: deliberate acquisition path for important items, including whether any guarantees coexist with the independent-roll CORE-16 baseline.
-- CORE-43: death and recovery.
+### Death, saves, and hardcore
+- Exact death-fee percentages and minimum fee; escalating raid-fee curves; respawn presentation.
+- Save architecture; hardcore anti-save-scum handling; dungeon reset/save boundaries; portal persistence and expiration.
 
-## Priority 4 — Content systems
+### World, travel, and content
+- Zone sizes and count; route placement; secret connections; regional difficulty bands.
+- Procedural content pools, placement rules, reset schedules; boss-pool assignments.
+- Auto-travel destinations, unlock requirements, prices, cost scaling; mount and shortcut mechanics; remote turn-in/storage (undecided by CORE-30).
+- Higher-difficulty dungeon-version names, eligibility, mechanics, rewards.
+- Hub count and placement; service rosters; stash size/interface; the possible narrative capital [U].
+- Milestone-dungeon selection; raid duration, wing lengths, section boundaries, checkpoint implementation.
 
-- CORE-44: ordinary enemy-group tactics.
-- CORE-45: role of dungeons, elites, bosses, and raids.
-- CORE-46: purpose of quests.
-- CORE-47: hub, faction, settlement, and recognition purpose.
-- CORE-48: crafting, gathering, and automation purpose.
-- CORE-49: acceptable grind times and reward cadence.
-- CORE-50: accessibility and comfort requirements.
-- CORE-51: visual/audio readability rules.
+### Quests, factions, and narrative
+- Faction identities and count; per-faction leveling verbs; faction-set designs; reward tables.
+- Quest density numbers; individual quest designs; main-quest structure details.
+- Narrative specifics: story, characters, world lore, the possible story conclusion (tone/boundaries ARE decided — CORE-19).
+- Exact authored settlement changes; recognition beats and NPC behaviour tiers.
 
-## Priority 5 — Production gates
+### Supporting systems
+- Fishing/foraging mechanics, curves, locations, rarity, rewards; crafting recipes, requirements, sources, interfaces, eligible reward types.
+- Collection-menu categories, metadata, previews, completion presentation.
+- Pet acquisition, collection structure, presentation (cosmetic-only is decided).
 
-- CORE-52: exact vertical-slice content.
-- CORE-53: first playable milestone.
-- CORE-54: five largest risks after constraints are known.
-- CORE-55: measurable continuation gates.
+### Accessibility, readability, and audio-visual
+- Exact option lists, defaults, slider ranges; colorblind palettes and the hostile shape language; visual language, effect budgets, audio design; readability review process implementation.
 
-## Deferred details already identified
+### Production
+- Post-launch content cadence; Early Access/demo strategy; Steam Deck viability outcome; controller final scope; measured velocity (the great remaining unknown — resolved only by building).
 
-### Portals, ordinary dungeons, and raids
+## Settled — do not reopen casually
 
-Locked by CORE-16:
-
-- active single-player play is pausable;
-- leaving or abandoning an ordinary dungeon ends that instance;
-- the same partially cleared ordinary dungeon is not resumed later.
-
-Still open:
-
-- exact portal drop rates and whether they vary by enemy/region;
-- portal persistence, ownership, and expiration;
-- death and retry rules;
-- dungeon reset timing and save boundaries;
-- whether first discovery changes future access;
-- party entry and portal consumption if co-op survives;
-- exact raid duration and maximum uninterrupted commitment;
-- raid wings/sections, checkpoints, continuation, and re-entry rules.
-
-### Loot
-
-- exact tier structure and stat ranges;
-- unique drop rates;
-- whether deterministic guarantees, tokens, or other fallback systems exist outside the independent-roll pursuit described by CORE-16;
-- duplicate behavior;
-- class-relevant drop filtering;
-- unique upgrade/retention across later tiers;
-- whether selected major quests award uniques.
-
-### Classes and skills
-
-- class resources;
-- skill counts and loadout structure;
-- skill-tree size and respec rules;
-- weapon families per class;
-- which effects are allowed to influence projectile patterns indirectly.
-
-### World, access, difficulty, and travel
-
-- exact outdoor-zone sizes, route placement, and secret-connection requirements;
-- exact procedural systems, content pools, placement rules, reset schedules, and selected dungeon applications;
-- exact minimum levels and which activities use them;
-- placement and implementation of keys, quests, boss victories, events, environmental protection, discovered routes, and other gates;
-- exact regional difficulty ranges;
-- higher-difficulty dungeon-version names, eligibility, unlock conditions, mechanics, entry requirements, and rewards;
-- exact auto-travel destinations, individual unlock requirements, prices, and whether costs vary by distance or destination;
-- mount, permanent-shortcut, and other manual-travel mechanics;
-- remote quest turn-in and remote storage access, which CORE-30 did not decide.
-
-### Supporting activities and collections
-
-- fishing and foraging interactions, progression curves, regional placement, rarity structures, collections, and rewards;
-- limited-crafting recipes, exact requirements, resource sources, interfaces, and eligible non-combat reward types;
-- collection-menu categories, metadata, previews, and completion presentation;
-- pet acquisition, progression, passive benefits, balance, collection, and presentation;
-- exact quests, victories, or world events that produce authored settlement changes.
-
-### Combat
-
-- universal movement and defensive actions;
-- active ability count, activation, kit roles, and ability-specific animation commitments;
-- detailed player, enemy, projectile, and terrain hitbox/collision geometry;
-- aim assistance and the optional focus-target feature's exact purpose;
-- exact weapon statistics, cadence ranges, final primary-attack patterns, and exceptional mechanics;
-- default autofire binding and HUD treatment;
-- hit-feedback and collision tuning;
-- enemy-specific and boss-specific encounter loops.
-
-### Co-op
-
-- whether the early prototype passes;
-- host/guest quest and world progression;
-- personal loot specifics;
-- scaling and enemy-targeting rules;
-- revival and death;
-- pause behavior in co-op;
-- disconnect/rejoin and save ownership.
-
-### Controls
-
-- controller viability target;
-- aim assistance and dead-zone rules;
-- Steam Deck performance/UI target;
-- whether controller remains in release scope after testing.
-- default autofire hotkey and final HUD indicator treatment.
-
-## Questions that are already answered and should not be reopened casually
-
-- three permanent classes and at least three character slots;
-- weapon-owned primary projectile patterns;
-- targeted direct portal drops rather than fragment crafting;
-- tiered gear versus situational unique loot;
-- solo-completable content and no mandatory roles;
-- mouse/keyboard as design authority;
-- premium Steam purchase;
-- no prescribed normal session duration or requirement that every session grant a permanent upgrade;
-- independent targeted loot rolls under the CORE-16 baseline;
-- pausable single-player play and committed ordinary-dungeon instances;
-- RotMG and Erenshor as primary references;
-- accessible beginning without compromising endgame.
-- the flexible ten-second ordinary-combat loop and its non-prescriptive duration;
-- self-directed ten-minute and one-hour loops without guaranteed completion or upgrades;
-- the zero-to-hero long-term objective and endgame as a core continuation rather than post-story cleanup.
-- optional fishing and foraging, limited non-combat crafting, interface-led collections, small non-attacking pets, no current housing, no player-managed settlements, and no broad profession roster;
-- the layered multi-map world, handcrafted foundation, and controlled procedural variation;
-- mostly soft outdoor gating with clear, purposeful contained gates and minimum-level instance requirements;
-- fixed authored outdoor/world-boss difficulty with no player scaling and only separate optional higher-difficulty dungeon versions;
-- selective paid teleport travel with an interruptible three-to-five-second cast and no free recall;
-- real-time seamless free-aim combat that never requires a selected target;
-- tap, hold, and toggle-autofire primary attack input; no ordinary attack resource cost; deterministic weapon-defined patterns; predictable movement; terrain collision; and readable hit feedback.
+Everything in `08-DECISION_REGISTER.md` rows CORE-01 through CORE-55, including (highlights): three permanent classes with exclusive item families; weapon-owned patterns; movement-only dodging with no universal defensive action; one equipped-item active ability with a behaviour-changing passive tree; focus targeting cut; four-slot loadout and the lean stat set with its exclusion list; no pity ever, dupes-to-gold, no guarantees beyond quest uniques; committed dungeon instances where death ends the run; raid wings with player-controlled persistence and full boss resets; optional hardcore mode; the fractal intensity ladder and honest-HP rule; the eight readability laws; the pack role grammar; quests speaking the game's language with a gapped main quest and faction sets; several hubs with per-character stash; no automation; no global difficulty setting; no M+K aim assist; colorful-heroic-with-bite tone and clean-leaning rating; solo AI-orchestrated production in Godot [P] with no deadline; the Archer slice; the top-five risk ranking; and both continuation gates.

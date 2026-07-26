@@ -20,11 +20,11 @@ Next steps (designer to choose, in any order):
 2. **Start building the Phase A combat laboratory in Godot** (CORE-53's milestone),
    using the existing tileset/sprite pipeline; interview and lab can proceed in
    parallel, with lab findings feeding back into [T] answers.
-3. **Companion-doc refresh sweep**: 03-HANDOFF, 04-OPEN_QUESTIONS, 05-ROADMAP, and
-   09-SYSTEMS_MAP still reflect the CORE-32 snapshot and should be reconciled with
-   everything decided 2026-07-26 (the GDD, registers, and prototype spec are current).
-
-Option 3 is recommended before long Part II sessions so every doc agrees.
+3. ~~Companion-doc refresh sweep~~ ✅ DONE 2026-07-26 (late session): 03-HANDOFF fully
+   rewritten as the current handoff (designer is switching to PC and likely another
+   Claude account — the handoff carries everything a fresh session needs);
+   04-OPEN_QUESTIONS rewritten for the Part-I-complete state; 05-ROADMAP and
+   09-SYSTEMS_MAP reconciled. All docs now agree.
 
 ## Question status table
 

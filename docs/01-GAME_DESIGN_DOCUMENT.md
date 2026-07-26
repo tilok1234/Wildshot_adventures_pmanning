@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-34; CORE-35 active  
+**Version:** Concept snapshot through CORE-35; CORE-36 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-35 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-36 is active.
 
 ## 1. Executive summary
 
@@ -106,7 +106,7 @@ Wildshot Adventures uses real-time, top-down, freely aimed projectile-action com
 
 Combat occurs seamlessly in the current outdoor, interior, dungeon, or raid map. There is no separate battle screen, combat instance, turn transition, or required target-engagement state before the player can attack.
 
-**Combat never requires a selected or locked target.** The player can aim, fire, and activate combat actions without an enemy being present or selected, including aiming or firing into empty space wherever the action permits. Acquiring a target is never a prerequisite for attacking, using skills, dealing damage to an enemy, or killing it. Any later focus-targeting feature must remain optional and subordinate to free aiming; its exact informational, controller-assistance, or other functions remain deferred to CORE-35.
+**Combat never requires a selected or locked target.** The player can aim, fire, and activate combat actions without an enemy being present or selected, including aiming or firing into empty space wherever the action permits. Acquiring a target is never a prerequisite for attacking, using skills, dealing damage to an enemy, or killing it. Focus targeting is cut entirely [CUT, CORE-35]: no target selection, lock-on, marking, focused-enemy state, or hover-based focus mechanic exists on any input method, and no aiming, damage, homing, or informational behaviour is tied to a focused enemy. Enemy names, health, boss casts, and similar knowledge are delivered through general interface presentation—overhead health bars, boss presentation, or a bestiary—whose exact implementation belongs to later interface and knowledge questions. Any retained controller aim assistance must work without a focus-target system.
 
 There is no tab targeting, passive auto-combat, turn-based play, or tactical pause-and-command system. Controller support, if retained, may use a secondary twin-stick equivalent, but it cannot restrict the primary mouse-and-keyboard combat design.
 
@@ -116,7 +116,7 @@ Projectile combat is the game's central combat language, but not every action mu
 
 Single-player combat can normally be paused, freezing the action completely. Pausing is not used to issue commands or perform combat actions.
 
-Exact skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, and optional focus-target behaviour remain unresolved for CORE-34 onward. Universal movement and defensive actions are resolved by CORE-33 below.
+Exact skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, and aim assistance remain unresolved for later combat planning. Universal movement and defensive actions are resolved by CORE-33 below; focus targeting is cut by CORE-35.
 
 ### Primary attack [L/P]
 
@@ -512,7 +512,7 @@ The project has not yet locked:
 - tone, rating, and content boundaries;
 - team, engine, budget, schedule, and production constraints;
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
-- enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, optional focus-target behaviour, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
+- enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - stat set, level curve, and equipment formulas;
 - death, saves, dungeon failure, and recovery;
 - quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
@@ -531,8 +531,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-34:** approved and integrated into this GDD.
-- **CORE-35:** active and unanswered.
+- **CORE-21 through CORE-35:** approved and integrated into this GDD.
+- **CORE-36:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -550,5 +550,6 @@ Current interview state:
 | CORE-32 | [L/P] | Section 8 — primary attack |
 | CORE-33 | [L/P] | Section 8 — universal movement and defensive actions |
 | CORE-34 | [L/P] | Sections 8 and 9 — active ability, ability items, and skill-tree boundary |
+| CORE-35 | [CUT] | Section 8 — combat format (focus targeting removed entirely) |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

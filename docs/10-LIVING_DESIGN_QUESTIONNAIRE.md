@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-34 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-35 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-35 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-36 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-34; CORE-17 through CORE-20 open; CORE-35 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-35; CORE-17 through CORE-20 open; CORE-36 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -576,9 +576,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Information, cast tracking, marks, homing skills, controller assistance, or nothing. It should not silently replace free aiming unless intended.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [CUT] There is no focus-targeting system. Wildshot Adventures ships with no target selection, lock-on, marking, focused-enemy state, or hover-based focus mechanic on any input method, and no aiming, damage, homing, or informational behaviour is ever tied to a focused enemy. This resolves the question CORE-31 deferred: rather than remaining "optional and subordinate," focus targeting is removed entirely, completing the movement-purity direction of CORE-33 and CORE-34.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Enemy information:** [L/U] Enemy names, health, boss casts, resistances, and similar knowledge are delivered through general interface presentation—for example overhead health bars, boss presentation, or a bestiary/journal—rather than through a focused-enemy state. Exact implementation belongs to the later interface, readability, and knowledge questions.
+
+**Controller boundary:** [L/P] Any controller aim assistance, if retained, must be implemented without a focus-target system and remains quarantined from mouse-and-keyboard play and from encounter design (CORE-13).
+
+(Recorded 2026-07-26.)
 
 **CORE-36. How does combat intensity vary across the game?**
 

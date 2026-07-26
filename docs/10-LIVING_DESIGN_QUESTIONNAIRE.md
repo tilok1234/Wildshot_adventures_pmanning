@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-54 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-55 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-55 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-19 open; CORE-20 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-54; CORE-17 through CORE-20 open; CORE-55 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-55; CORE-17 through CORE-19 open; CORE-20 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -866,11 +866,13 @@ The full risk inventory remains in the Risk Register; this answer ranks the top 
 
 *Consider: Use observations and metrics such as no-reward enjoyment, readability, build distinction, grind satisfaction, and production velocity.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Two formal continuation gates with honest fail states.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Gate 1 — combat lab to vertical slice** (the Phase A exit gate plus CORE-53 additions): fresh outside testers voluntarily re-engage enemies and experiment with weapons for twenty-plus minutes with zero rewards; every death is explainable by its victim; patterns are dodgeable at the lowest intended movement speed; movement, aiming, firing, autofire state, collision, and feedback are reported dependable; and the three test frames genuinely change where and how testers fight. Repeated failure means pivot or stop.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Gate 2 — vertical slice to full production** (the CORE-52 gate questions plus two): testers voluntarily keep farming the boss after completing the slice content; dry streaks with the visible attempt counter read as dedication rather than theft; the level gap reads as invitation; the explainable-death rate stays high in the dungeon's densest moments; **build distinction** — the same encounters feel meaningfully different across the slice's builds and frames; and **production velocity** — time actually spent building the slice, extrapolated across full-game scope, yields a plan viable under the CORE-20 constraints. Failure means scope cuts in the planned order before further production.
+
+Gate 2 cannot be evaluated until CORE-20 is answered. (Recorded 2026-07-26.)
 
 # Part II - Combat and controls
 

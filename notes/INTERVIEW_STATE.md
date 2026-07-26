@@ -9,19 +9,20 @@
 
 ## Active question
 
-**CORE-55 — What measurable results would justify continuing from prototype to vertical
-slice and from slice to full production?**
+**CORE-20 — What are the hard production constraints?**
 
-*Consider: Use observations and metrics such as no-reward enjoyment, readability, build
-distinction, grind satisfaction, and production velocity.*
+*Consider: Team size, skills, engine, budget, weekly hours, target timeframe, asset
+limitations, and platform requirements.*
 
-No answer has been accepted yet. Largely assembled already: Phase A exit gate (CORE-53)
-= the prototype→slice gate; CORE-52's slice gate questions = the slice→production gate.
-CORE-55's job: state both gates formally as measurable criteria, adding (a) build
-distinction (same encounters feel different across builds — Phase C), (b) production
-velocity measured during the slice extrapolates to a viable full-game plan under
-CORE-20 constraints, (c) readability metrics (explainable-death rate). Likely
-consolidation + confirm.
+The designer chose to return here after completing CORE-21–55. This is the highest-
+priority open question (risk #2 of CORE-54; Gate 2 of CORE-55 is unevaluable without
+it). Needed facts, from the designer's real life, not design preference: team size and
+who (solo?); skills available (code/art/audio) and gaps; engine choice or candidates;
+budget (money for assets/tools/contractors); realistic weekly hours; target timeframe
+or explicit open-endedness; any asset-pipeline limitations (e.g., pixel art
+capability); platform requirements already locked (Windows/Steam lead). Answers may be
+honest "unknowns" — record them as constraints-to-resolve rather than forcing numbers.
+CORE-17–19 remain open after this.
 
 ## Question status table
 
@@ -31,12 +32,20 @@ consolidation + confirm.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-54 | Approved and integrated into the GDD. |
-| **CORE-55** | **ACTIVE — no accepted answer.** |
-| Part I after CORE-55 | Complete once CORE-55 and open CORE-17–20 are answered. |
+| CORE-21 through CORE-55 | Approved and integrated into the GDD. Forward sweep complete. |
+| CORE-17 through CORE-19 | Open. |
+| **CORE-20** | **ACTIVE — designer's chosen return; no accepted answer.** |
 
-The designer chose to continue past CORE-54 while CORE-17 through CORE-20 remain open.
-Continue at CORE-55 unless the designer chooses to return to an earlier open question.
+Part I is complete except CORE-17 through CORE-20. The designer chose CORE-20 next.
+
+### CORE-55 — answered 2026-07-26 [L/P]
+
+Two formal continuation gates. Gate 1 (lab→slice): Phase A exit gate + outside testers
++ lowest-speed dodgeability + explainable deaths + frames change how testers fight;
+repeated failure = pivot or stop. Gate 2 (slice→production): voluntary post-completion
+farming; dry-streak-as-dedication; gap-as-invitation; explainable-death rate at
+density; build distinction; slice velocity extrapolates to a viable plan under CORE-20;
+failure = planned-order scope cuts. Gate 2 unevaluable until CORE-20.
 
 ### CORE-54 — answered 2026-07-26 [L/P]
 

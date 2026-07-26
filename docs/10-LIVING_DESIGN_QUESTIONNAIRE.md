@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-50 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-51 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-51 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-52 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-50; CORE-17 through CORE-20 open; CORE-51 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-51; CORE-17 through CORE-20 open; CORE-52 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -801,11 +801,18 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Friendly versus hostile shots, telegraph hierarchy, hit feedback, environment contrast, sound cues, and effect limits.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Eight readability laws that every artist, effect, and encounter obeys:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+1. **Threat renders above beauty.** Hostile projectiles and telegraphs are never occluded by friendly effects, ground decoration, or particles; draw order is a design rule, not an art choice.
+2. **Player shots are visually subordinate.** The player's own fire is dimmer and simpler than enemy fire; in dense fights the screen budget belongs to what can kill you.
+3. **Hostile versus friendly is unmistakable** — by shape and pattern first (CORE-50), color second — and hostile shots share one consistent family language across the entire game.
+4. **Telegraph hierarchy: prominence equals danger.** The more damaging or harder to avoid an attack is, the bigger, earlier, and louder its telegraph; a lethal wind-up is never subtler than a weak one.
+5. **Effect budgets per encounter.** Hard caps on simultaneous effects and particles, stress-tested at endgame density with hitbox debug tooling.
+6. **The arena floor is quiet.** Environment art reserves contrast for gameplay: hazards read against any floor, and no decorative element mimics a telegraph.
+7. **Audio is a second channel, not an echo.** Key threats carry distinct sounds that work eyes-closed — off-screen wind-ups, behind-you spawns — per CORE-50's audible-threats rule.
+8. **Death is always explainable.** After dying, the player can say what killed them; if playtesters cannot, the encounter fails readability review regardless of appearance.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Deferred detail:** [U] Exact visual language, palettes, budgets, audio design, and review process implementation remain unresolved for art and audio planning. (Recorded 2026-07-26.)
 
 **CORE-52. What exact content will the first vertical slice contain?**
 

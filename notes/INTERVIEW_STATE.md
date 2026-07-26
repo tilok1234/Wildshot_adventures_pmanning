@@ -9,18 +9,17 @@
 
 ## Active question
 
-**CORE-51 — What visual and audio rules protect combat readability?**
+**CORE-52 — What exact content will the first vertical slice contain?**
 
-*Consider: Friendly versus hostile shots, telegraph hierarchy, hit feedback, environment
-contrast, sound cues, and effect limits.*
+*Consider: Class, weapon frames, levels, regions, enemies, dungeon, boss, items, quest,
+faction, shortcut, and expected playtime.*
 
-No answer has been accepted yet. Substantial existing material: readability is a locked
-non-negotiable (anti-pillar 4); CORE-32 feedback rules (no routine shake/hit-stop,
-layered feedback, reducible numbers); CORE-50 colorblind-safe shape/pattern language for
-hostile shots; risk register has visual-hierarchy/density-budget/readability-playtest
-mitigations; Phase B tests telegraphs. CORE-51 should codify the rule set: hostile vs
-friendly distinction, telegraph hierarchy (danger ↔ prominence), effect budgets, player
-shots visually subordinate to enemy shots, environment contrast rules, audio cue roles.
+No answer has been accepted yet. CORE-38 set the frame (Archer, 3–5 frames, 3–4 ability
+items, 2–3 builds); CORE-52 wants the full content bill: how many levels, one zone (the
+quest-density test zone per CORE-46), how many enemy types/packs, one dungeon + boss
+(portal loop end-to-end), tiered items + 1 unique, a slice of main quest + a faction
+set sample, expected playtime. Assemble a concrete proposal from all locked systems for
+designer reaction. Note: prototype spec Phase D already sketches the mini-loop.
 
 ## Question status table
 
@@ -30,12 +29,20 @@ shots visually subordinate to enemy shots, environment contrast rules, audio cue
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-50 | Approved and integrated into the GDD. |
-| **CORE-51** | **ACTIVE — no accepted answer.** |
-| CORE-52 onward | Unanswered. |
+| CORE-21 through CORE-51 | Approved and integrated into the GDD. |
+| **CORE-52** | **ACTIVE — no accepted answer.** |
+| CORE-53 onward | Unanswered. |
 
-The designer chose to continue past CORE-50 while CORE-17 through CORE-20 remain open.
-Continue at CORE-51 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-51 while CORE-17 through CORE-20 remain open.
+Continue at CORE-52 unless the designer chooses to return to an earlier open question.
+
+### CORE-51 — answered 2026-07-26 [L/P]
+
+Eight readability laws: threat renders above beauty; player shots subordinate; hostile
+vs friendly by shape/pattern first with one hostile family language; telegraph
+prominence = danger; per-encounter effect budgets stress-tested at endgame density;
+quiet arena floors; audio as eyes-closed second channel; death always explainable
+(unexplainable deaths fail review).
 
 ### CORE-50 — answered 2026-07-26 [L/P]
 

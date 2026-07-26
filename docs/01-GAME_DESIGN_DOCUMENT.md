@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-50; CORE-51 active  
+**Version:** Concept snapshot through CORE-51; CORE-52 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-51 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-52 is active.
 
 ## 1. Executive summary
 
@@ -156,6 +156,10 @@ The class skill tree grants no active abilities. It provides passives, resource 
 No fixed role checklist is mandated: ability items may provide mobility, defense, burst, crowd control, utility, or other roles, and choosing role coverage is part of build choice and the hunt. Because the equipped item is the only active and no universal dodge exists, no encounter may require a specific ability item—or any ability at all—to be survivable. Movement must remain sufficient, and boss and encounter design carries this burden deliberately.
 
 Exact per-class item pools, individual ability designs, mana costs, cooldown or charge models, acquisition sources, rarity structure, and the capstone concept remain unresolved.
+
+### Readability laws [L/P]
+
+Eight rules every artist, effect, and encounter obeys: (1) threat renders above beauty — hostile projectiles and telegraphs are never occluded by friendly effects or decoration; (2) player shots are visually subordinate to enemy fire; (3) hostile versus friendly is unmistakable by shape and pattern first, color second, with one consistent hostile family language; (4) telegraph prominence equals danger — a lethal wind-up is never subtler than a weak one; (5) hard effect budgets per encounter, stress-tested at endgame density; (6) the arena floor is quiet — environment contrast is reserved for gameplay and nothing decorative mimics a telegraph; (7) audio is a second channel, not an echo — key threats work eyes-closed; (8) death is always explainable — if playtesters cannot say what killed them, the encounter fails review regardless of appearance.
 
 ### Experience curve [L]
 
@@ -632,8 +636,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-50:** approved and integrated into this GDD.
-- **CORE-51:** active and unanswered.
+- **CORE-21 through CORE-51:** approved and integrated into this GDD.
+- **CORE-52:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -667,5 +671,6 @@ Current interview state:
 | CORE-48 | [L] | Section 13 — crafting/gathering confirmation; no automation, active play only |
 | CORE-49 | [L/T] | Section 11 — grind-cadence target ranges, percentile guardrail, attempt visibility, overlapping grinds |
 | CORE-50 | [L/P] | Section 15 — accessibility baseline; no global difficulty setting; no M+K aim assist |
+| CORE-51 | [L/P] | Section 8 — the eight readability laws |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

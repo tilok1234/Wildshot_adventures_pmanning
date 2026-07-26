@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-26
+**Last updated:** 2026-07-26 (refinement batch recorded — see below)
 
 ## Active question
 
@@ -34,6 +34,24 @@ No answer has been accepted yet. Relevant locked constraints from earlier answer
 
 The designer chose to continue at CORE-33 while CORE-17 through CORE-20 remain open.
 Continue at CORE-33 unless the designer chooses to return to an earlier open question.
+
+### Refinement batch — 2026-07-26 (approved, recorded, committed)
+
+Out-of-order refinements approved after a coherence review; integrated into the GDD,
+Decision Register, and Living Questionnaire:
+
+1. **Dry-streak mitigation [P]** (CORE-16): no pity ever; reward breadth instead —
+   cosmetic/collection drops from bosses, recorded straight into the collection menu.
+2. **Controller worst case [P]** (CORE-13/12): controller may end up as the relaxed
+   grinding input only; endgame expects M+K; Steam Deck demoted to "where it survives".
+3. **Variation bounds [P]** (CORE-27): authored *where*, pooled *what* — fixed arenas
+   with 3–4 possible bosses; roaming rares patrol authored zone+route; pooled locations
+   share key rewards or stay variety-only.
+4. **Pets cosmetic-only [P]** (CORE-25): no combat/stat benefit of any kind, if included.
+5. **Raid structure [P/T]** (CORE-16 raid scope): wings as the unit of commitment;
+   player-controlled persistence, no time-based lockouts, free instant reset;
+   deterministic skip baseline (mastery shortcuts or trophy tokens) [T]; rare skips
+   only as luxury on top; within-wing checkpoints test-gated.
 
 ## Note-taking protocol (the fix for lost notes)
 

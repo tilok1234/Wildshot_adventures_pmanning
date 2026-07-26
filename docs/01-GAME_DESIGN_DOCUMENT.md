@@ -175,6 +175,10 @@ Tiered weapons and equipment form the dependable vertical power ladder. They may
 
 Bosses may drop tiered equipment as baseline rewards in addition to unique-item chances.
 
+### Cosmetic and collection drops [P]
+
+Bosses and other named encounters may additionally drop cosmetic and collection items, so repeated attempts stay productive during unlucky streaks. Reward breadth—not pity—is the dry-streak mitigation: unique-item rolls remain independent under the CORE-16 baseline, while cosmetics, collection entries, and baseline tiered rewards give most runs something permanent. Cosmetic drops are recorded directly in the collection interface rather than occupying inventory space.
+
 ### Unique equipment
 
 Unique items come from named, authored high-value sources:
@@ -225,7 +229,13 @@ Boss-access difficulty, encounter difficulty, unique usefulness, and reward rari
 
 Raid-scale content means long, extremely difficult solo endgame dungeons requiring sustained execution, preparation, build strength, and accumulated game knowledge. It does not imply mandatory multiplayer.
 
-Exact raid duration, maximum uninterrupted commitment, wing structure, section boundaries, checkpoints, continuation rules, shortcuts, and rewards remain unresolved. Separate wings or sections are possible future design space, but no such structure is committed.
+Raids are structured in separate wings or sections [P], in the spirit of classic multi-wing raid dungeons. A wing is the unit of commitment—roughly one committed, dungeon-scale sitting—while the raid is the larger campaign around its wings. Where appropriate, wings may be attempted in more than one order, supporting targeted re-runs of a desired wing once the raid is mastered.
+
+Raid progress persists across sessions and days until the raid is completed or the player chooses to reset it [P]. Persistence is player-controlled, never time-controlled: no daily or weekly lockouts, no scheduled resets, and resetting for a fresh farming run is free and immediate.
+
+Skip and shortcut mechanics are test-gated [T]. The baseline must be deterministic—mastery-earned permanent shortcuts unlocked by defeating a wing or section boss, or reliably dropped "trophy" skip tokens from bosses already conquered—so that mastery, not luck, buys speed. Rare skip items may exist only as an optional luxury on top of that deterministic baseline, never as the sole path. Within-wing checkpoints for the longest wings are worth testing, but must not erode the committed-attempt value of a wing.
+
+Exact raid duration, wing length, section boundaries, checkpoint implementation, skip-mechanic details, and rewards remain unresolved.
 
 ## 12. Gameplay loops, session structure, RNG pursuit, and committed attempts [L]
 
@@ -332,6 +342,8 @@ Procedural systems may vary enemy groups, roaming encounters, rare spawns, event
 
 Procedural variation exists to keep revisiting and grinding familiar regions interesting, not merely to inflate world size. Randomness must not erase useful world knowledge, make targeted pursuits unreliable, constantly relocate essential destinations, or replace distinctive authored content with interchangeable filler.
 
+Variation follows authored bounds [P]: the *where* is authored and learnable, while the *what* varies within a known pool. A fixed, authored location may host a small authored pool of possible bosses or encounters—for example, one arena where any of three or four bosses may appear—so the place stays learnable while the fight varies. Roaming rare enemies are not placed randomly; they patrol authored restrictions such as a specific zone and a route within it, keeping them huntable through route knowledge. When a pooled location matters to a targeted pursuit, key rewards such as portals should be shared across the pool, or the location reserved for variety rather than sole-source targets; roaming rares remain bonus encounters rather than sole sources.
+
 The exact procedural systems, content pools, placement rules, reset schedules, dungeon applications, and balance between persistence and variation remain unresolved for their dedicated questions and prototypes.
 
 ### World gating and access [L/P]
@@ -391,11 +403,11 @@ The four established design pillars remain Wildshot Adventures' only pillars. No
 
 **Player-managed settlement growth is not planned.** Settlements remain authored locations rather than player-built or managed systems. Selected settlements may undergo authored changes through quests, major victories, or world events. These changes support the world and narrative rather than forming a separate management activity.
 
-**Pets are a small optional supporting system.** One small pet may follow the player and provide a modest passive benefit, such as light healing, regeneration, or a small statistic or utility bonus. Pets do not attack, draw aggro, tank enemies, cast abilities, or function as AI party members, and they should complement the character rather than become a major source of combat power. Collection and appearance may be more important than maximizing pet power.
+**Pets are a purely cosmetic collection system, if included [P].** One small pet may follow the player as a companion and collection reward. Pets provide no combat or statistic benefit of any kind: they do not heal, regenerate, buff, attack, draw aggro, tank enemies, cast abilities, or function as AI party members. Dropping the earlier modest-passive-benefit concept keeps optional collection systems fully separated from combat power and removes an entire balance surface; pets are pure collection and appearance joy.
 
 **Fishing and foraging are the only non-combat activities currently planned with their own progression levels.** Limited crafting is a deterministic reward system, not a leveled profession. No wider profession roster—such as mining, smithing, cooking, alchemy, or woodcutting—is currently planned. Another activity should be considered later only if it creates a genuinely distinct and valuable pursuit that fishing or foraging cannot already provide. The project prefers two strong non-combat activity systems over ten merely adequate ones.
 
-Foraging and fishing interactions, progression curves, detailed collection-interface structure, locations, rarity structures, and reward sets remain unresolved. Crafting recipes, exact requirements, resource sources, interfaces, and eligible non-combat reward types also remain unresolved. Exact pet acquisition, progression, benefits, balance, and presentation remain unresolved, as do the quests, victories, or world events that may produce authored settlement changes. These details belong to their dedicated later questions.
+Foraging and fishing interactions, progression curves, detailed collection-interface structure, locations, rarity structures, and reward sets remain unresolved. Crafting recipes, exact requirements, resource sources, interfaces, and eligible non-combat reward types also remain unresolved. Exact pet acquisition, collection structure, and presentation remain unresolved, as do the quests, victories, or world events that may produce authored settlement changes. These details belong to their dedicated later questions.
 
 ## 14. Knowledge as progression [L]
 
@@ -416,7 +428,7 @@ Essential knowledge should eventually be discoverable or recordable inside the g
 ### Platform [L]
 
 - Lead platform: Windows PC through Steam.
-- Steam Deck compatibility is an intended target.
+- Steam Deck compatibility is desirable and supported where it survives the design, but it is contingent on the input rules below and may be reduced rather than weaken the game [P].
 - Consoles may be considered later but do not drive initial scope.
 
 ### Input [L]
@@ -424,6 +436,8 @@ Essential knowledge should eventually be discoverable or recordable inside the g
 Mouse and keyboard defines the intended combat experience, precision ceiling, encounter complexity, and endgame scope.
 
 Controller support is a secondary convenience for relaxed grinding, exploration, couch play, and possible Steam Deck use. It must adapt to the game; the game must not be weakened to support it. If controller support requires reducing projectile intensity, precision demands, skill design, or encounter scope, controller support should be reduced or dropped.
+
+The intended worst case is explicitly acceptable: controller may end up suitable mainly for relaxed, extended grinding sessions while endgame content expects mouse and keyboard, and players should understand this split early. Open-world content remains designed for mouse and keyboard and merely happens to be playable on a controller; enemy and encounter design must never be adjusted toward stick precision.
 
 ### Business [L/P]
 
@@ -475,7 +489,7 @@ The project has not yet locked:
 
 - the numerical length and exact threshold of the first character’s journey to endgame;
 - the detailed replay and endgame structure beyond the locked long-term objective;
-- exact raid duration, maximum uninterrupted commitment, wings, checkpoints, and continuation rules;
+- exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
 - tone, rating, and content boundaries;
 - team, engine, budget, schedule, and production constraints;
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;

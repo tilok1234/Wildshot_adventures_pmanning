@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-41 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-42 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-42 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-43 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-41; CORE-17 through CORE-20 open; CORE-42 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-42; CORE-17 through CORE-20 open; CORE-43 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -670,11 +670,15 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Random direct drop, guaranteed tokens, crafting, selectable rewards, pity, duplicate conversion, or a combination.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Deliberate acquisition is structurally defined by earlier decisions: learn the authored source, farm it deliberately, and roll independently with no pity (CORE-16); reward breadth and a cheap attempt cadence soften dry streaks; quest uniques are guaranteed authored rewards [P]; crafting never produces combat equipment (CORE-25).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Duplicate handling:** [P] Duplicate uniques sell for meaningful gold — a dupe should still feel like a win at the vendor, not a wasted jackpot. Duplicates never convert into power, upgrade materials, or improved odds, protecting the independent-roll baseline. Optional later design space [LATER]: purely cosmetic duplicate milestones (for example a recolor or title after many duplicates from the same source) that acknowledge long farms without touching drop mechanics.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**No guaranteed acquisition:** [L] Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for unique items. Random stays random.
+
+**Tiered catch-up vendors:** [P] Vendors — naturally the CORE-39 faction-reputation vendors — may sell modest baseline tiered equipment so an unlucky player is never stuck badly under-geared while leveling. Dropped gear always outpaces shop gear: shops are a floor, never the ceiling, and never sell uniques.
+
+**Deferred detail:** [U] Gold values, shop inventories and pricing, faction-vendor structure, and any cosmetic duplicate-milestone design remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-43. What happens when the player dies?**
 

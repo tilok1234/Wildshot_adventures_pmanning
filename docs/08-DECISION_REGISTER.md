@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-41; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-42 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-42; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-43 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -50,6 +50,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-39 | [L/P] | Levels grant class-specific base statistics including health and mana, plus skill points, so leveling feels immediately good; gear remains the primary stat engine and exact growth curves are deferred. Equipment carries level requirements as a deliberate anti-rush gate [P], alongside CORE-28's instance minimum levels and clarity rules; nothing scales. The skill tree is large and points-spent-deep rather than level-tier-gated [P]; the CORE-34 capstone sits at the tree's bottom, reached near cap naturally. A hard level cap roughly marks the endgame transition [P]; post-cap progression continues through gear, builds, knowledge, and mastery. A provisional faction-reputation system (vendor and similar unlocks; faction XP ground from different enemies at varying difficulties) becomes the first concrete world-recognition mechanism; all faction details deferred. |
 | CORE-40 | [L/P] | Baseline statistic set is deliberately lean: health, mana, damage, attack speed, range, armor/defense, movement speed; health/mana regeneration are candidate additions [P]. Intentional exclusions [L]: accuracy, evasion, and dodge chance (a visible hit always lands), critical-hit chance, life-steal/on-hit sustain, and elemental-resistance matrices — combat resolves through position and patterns, not dice. Unique items may deliberately break these rules with authored, clearly communicated effects [P]. Exact values, growth, caps (especially movement speed), the regen decision, and formulas remain deferred. |
 | CORE-41 | [L/P] | Equipment is the build system: a loadout (weapon pattern, ability item, armor archetype, ring) changes where the player stands, how they engage, which roles they cover, and what they can attempt — not merely numbers. Tiering rule: ordinary tier upgrades within a frame preserve a familiar style while improving numerically; behaviour changes come from switching frames/ability items and from uniques. Within a tier, frames and ability items are situational side-grades, not a strict ranking [P]. Tier steps are chunky and felt, not incremental dribble [P]. Item behaviour is clearly communicated before farming so hunts are chosen knowledgeably [P]. Tier counts, step sizes, balance, and preview implementation deferred. |
+| CORE-42 | [L/P] | Deliberate acquisition = learn the authored source, farm it, roll independently; no pity. Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for uniques [L] — random stays random. Duplicate uniques sell for meaningful gold and never convert into power, materials, or improved odds [P]; cosmetic dupe milestones remain optional later design space [LATER]. Vendors (naturally the CORE-39 faction vendors) may sell modest baseline tiered gear as a leveling catch-up floor [P]; drops always outpace shops, and shops never sell uniques. Gold values, shop inventories, and pricing deferred. |
 
 ## Locked cross-system rules
 

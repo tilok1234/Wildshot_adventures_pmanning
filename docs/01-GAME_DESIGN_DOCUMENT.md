@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-41; CORE-42 active  
+**Version:** Concept snapshot through CORE-42; CORE-43 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-42 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-43 is active.
 
 ## 1. Executive summary
 
@@ -253,7 +253,17 @@ Generic normal enemies do not randomly drop unique items.
 
 Unique weapons should be powerful but situational. Examples of valid tradeoffs include range, precision requirements, fire rate, optimal distance, crowd versus single-target performance, and difficult returning or converging patterns.
 
-Selected quest uniques, if retained, should generally be authored guaranteed rewards rather than another random roll. Exact drop rates, pity systems, duplicate handling, class filtering, and upgrade retention remain unresolved.
+Selected quest uniques, if retained, should generally be authored guaranteed rewards rather than another random roll.
+
+### Acquisition, duplicates, and vendors [L/P]
+
+Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for unique items [L]: random stays random, and deliberate acquisition means learning the authored source and farming it with independent rolls.
+
+Duplicate uniques sell for meaningful gold [P] — a dupe should still feel like a win at the vendor, not a wasted jackpot. Duplicates never convert into power, upgrade materials, or improved odds. Purely cosmetic duplicate milestones (a recolor or title after many dupes from one source) remain optional later design space [LATER].
+
+Vendors — naturally the faction-reputation vendors of Section 9 — may sell modest baseline tiered equipment as a catch-up floor for unlucky leveling players [P]. Dropped gear always outpaces shop gear: shops are a floor, never the ceiling, and never sell uniques.
+
+Exact drop rates, gold values, shop inventories and pricing, class filtering, and upgrade retention remain unresolved.
 
 ## 11. Portal, dungeon, boss, and raid loop [L/P]
 
@@ -573,8 +583,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-41:** approved and integrated into this GDD.
-- **CORE-42:** active and unanswered.
+- **CORE-21 through CORE-42:** approved and integrated into this GDD.
+- **CORE-43:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -599,5 +609,6 @@ Current interview state:
 | CORE-39 | [L/P] | Sections 3 and 9 — character levels, level gates, points-deep tree, cap, faction direction |
 | CORE-40 | [L/P] | Section 9 — lean statistic set with intentional exclusions |
 | CORE-41 | [L/P] | Sections 9 and 10 — equipment as the build system; tier, side-grade, and readability rules |
+| CORE-42 | [L/P] | Section 10 — acquisition, duplicate-to-gold rule, no guarantees beyond quest uniques, catch-up vendors |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

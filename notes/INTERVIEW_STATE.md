@@ -9,21 +9,26 @@
 
 ## Active question
 
-**CORE-42 — How does a player deliberately acquire a desired important item?**
+**CORE-43 — What happens when the player dies?**
 
-*Consider: Random direct drop, guaranteed tokens, crafting, selectable rewards, pity,
-duplicate conversion, or a combination.*
+*(Death, penalties, and recovery — one of the big unresolved areas.)*
 
-No answer has been accepted yet. Heavily pre-answered: targeted farming of learnable,
-authored sources (pillar 3); portals from associated enemies (CORE-06A); uniques only
-from named sources (CORE-08A); independent rolls, no pity ever (CORE-16 + refinement 1:
-breadth via cosmetic/collection drops instead); quest uniques as guaranteed authored
-rewards [P]; crafting cannot produce combat gear (CORE-25); dry-streak mitigation =
-cheap attempt cadence + reward breadth. Remaining to decide: DUPLICATE HANDLING (convert
-dupes to something? currency/cosmetic credit?), whether any guaranteed-token or
-selectable-reward mechanism exists for anything besides quest uniques, and whether
-tiered (non-unique) gear needs a deterministic catch-up path (vendors?). Ties into the
-CORE-39 faction-vendor idea.
+No answer has been accepted yet. Constraints from earlier answers:
+
+- No permadeath as the normal rule (explicitly not inherited from RotMG, CORE-09).
+- No excessive rebuilding after failure (locked exclusion: a failed dungeon/raid attempt
+  must not require rebuilding a character or repeating unreasonable solved progression).
+- Risk register: no character deletion; prototype recoverable, bounded penalties and
+  fast retry loops — penalties must not make players avoid experimentation.
+- Ordinary dungeons are one committed instance (CORE-16): leaving/abandoning ends it —
+  death presumably ends it too (to confirm).
+- Raid wings persist player-controlled (refinement 5); how death interacts with wing
+  progress is open.
+- No dodge button (CORE-33): deaths must trace to visible mistakes; harsh-but-fair
+  penalties are more defensible when deaths are honest.
+- Open sub-questions: death in open world (respawn where? cost?), death in dungeons
+  (instance lost? portal consumed?), death in raids/wings, any XP/gold/durability
+  penalty (durability doesn't exist — CORE-32), hardcore optional mode?
 
 ## Question status table
 
@@ -33,12 +38,21 @@ CORE-39 faction-vendor idea.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-41 | Approved and integrated into the GDD. |
-| **CORE-42** | **ACTIVE — no accepted answer.** |
-| CORE-43 onward | Unanswered. |
+| CORE-21 through CORE-42 | Approved and integrated into the GDD. |
+| **CORE-43** | **ACTIVE — no accepted answer.** |
+| CORE-44 onward | Unanswered. |
 
-The designer chose to continue past CORE-41 while CORE-17 through CORE-20 remain open.
-Continue at CORE-42 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-42 while CORE-17 through CORE-20 remain open.
+Continue at CORE-43 unless the designer chooses to return to an earlier open question.
+
+### CORE-42 — answered 2026-07-26 [L/P]
+
+Acquisition = learn authored source, farm, roll independently; no pity. No tokens,
+first-kill guarantees, or selectable rewards for uniques beyond guaranteed quest uniques
+[L]. Dupes sell for meaningful gold, never convert to power/materials/odds [P];
+cosmetic dupe milestones = optional [LATER]. Faction vendors may sell modest baseline
+tiered gear as a leveling catch-up floor [P]; drops always outpace shops; shops never
+sell uniques.
 
 ### CORE-41 — answered 2026-07-26 [L/P]
 

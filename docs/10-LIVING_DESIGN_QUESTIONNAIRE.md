@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-36 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-37 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-37 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-38 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-36; CORE-17 through CORE-20 open; CORE-37 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-37; CORE-17 through CORE-20 open; CORE-38 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -600,11 +600,17 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Avoid overlapping systems that all provide the same generic damage increase.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] The ownership map is confirmed. The class owns eligibility and identity: its base statistics, its skill tree, and its exclusive weapon and ability-item families, so each class plays distinctly through the gear built for it. The weapon owns the complete primary-attack pattern plus damage, attack speed, and range. The ability item owns the single active skill and may carry supporting statistics. Armor and ring own classic RPG statistics. The skill tree owns behaviour-changing passives, resource behaviour, and specialization. Player knowledge owns access, targeting, and preparation.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Equipment slots:** [L/P] The equipped loadout uses four slots: weapon, ability item, armor, and ring. All equipment pieces, including the weapon, may carry statistics. This four-slot loadout is the baseline.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Armor tradeoffs:** [P] Armor must offer meaningful give-and-take rather than one upward ladder: light armor with high damage, heavy armor with lower damage, and other combinations that give and take. Armor is a build lever, not only bigger numbers.
+
+**Ring anti-degeneracy rule:** [L/P] The ring is a supporting statistic slot in the same spirit as armor, and rings must not collapse into one universally correct choice — explicitly avoiding the Realm of the Mad God outcome where everyone wears the HP ring. Viable rings need genuinely situational tradeoffs.
+
+**Unique behaviour:** [P] Unique items in any slot may carry special effects and behaviours beyond statistics, consistent with the unique-weapon philosophy: baseline gear stays statistically readable, uniques stay exciting.
+
+**Deferred detail:** [U] The exact statistic set, per-slot stat budgets, armor archetype details, class base-statistic spreads, and whether rings are class-bound or shared remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-38. How many classes, weapon frames, and build directions are required for the vertical slice and for the full game?**
 

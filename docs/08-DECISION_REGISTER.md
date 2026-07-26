@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-36; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-37 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-37; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-38 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -45,6 +45,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-34 | [L/P] | Each character has exactly one active ability, granted by an equipped ability item; each class has its own large pool of ability-equip items, so ability variety, build identity, and new playstyles come from the loot hunt. The weapon owns the primary pattern, the ability item owns the active, and armor owns supporting statistics. Abilities run on mana; the item defines its behaviour and cost. The skill tree grants no actives: it provides passives, resource behaviour, and specialization, and meaningful nodes must change behaviour rather than only numbers (including modifying how equipped ability items work). A max-level capstone that supercharges the equipped item is open design space [P]. No mandated role checklist; role coverage is build choice. No encounter may require a specific ability item—or any ability—to be survivable; movement stays sufficient, and encounter design carries that burden deliberately. Item pools, individual designs, costs, cooldown models, acquisition, and rarity remain deferred. |
 | CORE-35 | [CUT] | No focus-targeting system exists: no target selection, lock-on, marking, focused-enemy state, or hover focus on any input method, and no aiming, damage, homing, or informational behaviour is tied to a focused enemy. Enemy information (names, health, boss casts, resistances) is delivered through general interface presentation such as overhead bars, boss presentation, or a bestiary; exact implementation deferred to interface and knowledge questions. Any retained controller aim assistance must work without a focus-target system and stays quarantined from mouse-and-keyboard play and encounter design. |
 | CORE-36 | [L/P] | Combat intensity follows a tiered enemy ladder: weak fodder; ordinary packs; dangerous packs/pockets; elites; rare/named roamers on authored routes; fixed-strength world bosses; denser, faster dungeon enemies; dungeon bosses; raid wings; optional superbosses. Intensity climbs primarily through projectile density, speed, pattern complexity, and encounter composition—not hit-point sponging; health totals stay honest. The open-world ladder repeats inside each zone at that zone's authored difficulty band, so every zone has its own local spread from relaxed outskirts to genuine danger; bands do not trivially overlap. Exact per-zone bands, density/speed budgets, composition rules, and enemy designs remain deferred. |
+| CORE-37 | [L/P] | Ownership map confirmed. Class owns eligibility and identity: base statistics, skill tree, and exclusive weapon and ability-item families — each class plays distinctly through its gear. Weapon owns the primary pattern plus damage, attack speed, and range. Ability item owns the single active and may carry stats. Armor and ring own classic RPG statistics. The loadout is four slots: weapon, ability item, armor, ring; all pieces may carry stats. Armor must offer give-and-take archetypes (light/high-damage vs heavy/low-damage and combos), not one upward ladder. Rings must not collapse into one universally correct choice (no mandatory HP ring); viable rings need situational tradeoffs. Unique items in any slot may carry special effects and behaviours beyond stats [P]. Stat set, per-slot budgets, class stat spreads, and ring class-binding remain deferred. |
 
 ## Locked cross-system rules
 
@@ -90,6 +91,8 @@ This register is the quickest way to determine what is actually decided.
 - Each character has one active ability, granted by the equipped class ability item; the skill tree grants no actives, and its meaningful nodes change behaviour rather than only numbers.
 - No encounter may require a specific ability item—or any active ability—to be survivable; movement alone must remain sufficient.
 - Difficulty escalates through projectile density, speed, pattern complexity, and encounter composition, never hit-point sponging; every zone carries its own local intensity spread within its authored band.
+- The equipped loadout is four slots — weapon, ability item, armor, ring — and all pieces may carry statistics; behaviour beyond statistics belongs to weapon patterns, ability items, tree nodes, and uniques.
+- No equipment slot may collapse into a single universally correct choice; armor and ring options require genuinely situational tradeoffs.
 
 ## Provisional/test-gated decisions
 

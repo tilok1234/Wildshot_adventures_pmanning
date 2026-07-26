@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-36; CORE-37 active  
+**Version:** Concept snapshot through CORE-37; CORE-38 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-37 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-38 is active.
 
 ## 1. Executive summary
 
@@ -92,6 +92,7 @@ The game must not become:
 - Class is selected at character creation and cannot be changed on that character.
 - A profile/account supports at least three character slots, allowing one character of each class.
 - Each class has a separate skill tree.
+- Each class has distinct base statistics and exclusive weapon and ability-item families (with class-appropriate gear), giving each class a gear-driven unique playstyle [L/P]. Whether rings are class-bound or shared remains unresolved.
 - Levels grant skill points and broader progression.
 - Each class must remain capable of completing all content solo.
 - Mandatory tank/healer/DPS party composition is excluded.
@@ -191,10 +192,21 @@ Distinct progression layers should have distinct jobs:
 | Standard weapon | Primary attack damage and conventional projectile pattern |
 | Unique weapon | Authored, powerful, situational projectile behavior |
 | Ability item | The single equipped active ability and its behavior |
-| Armor/equipment | Classic RPG statistics and supporting effects |
+| Armor and ring | Classic RPG statistics with meaningful tradeoffs |
 | Player knowledge | Understanding zones, stats, routes, portal sources, loot sources, and encounters |
 
-Harder content generally provides statistically stronger equipment. The exact stat set, scaling curves, level cap, and gear tiers remain unanswered.
+### Equipment slots and stat ownership [L/P]
+
+The equipped loadout uses four slots: **weapon, ability item, armor, and ring**. All pieces, including the weapon, may carry statistics; this four-slot loadout is the baseline.
+
+- The **weapon** carries damage, attack speed, and range alongside its authored projectile pattern.
+- The **ability item** is primarily the active skill and may carry supporting statistics.
+- **Armor** is the main statistical identity piece and must offer meaningful give-and-take rather than one upward ladder: light armor with high damage, heavy armor with lower damage, and other trading combinations [P].
+- The **ring** is a supporting statistic slot in the same spirit. Rings must not collapse into one universally correct choice (no "everyone wears the HP ring"); viable rings need genuinely situational tradeoffs [L/P].
+
+Unique items in any slot may carry special effects and behaviours beyond statistics [P]: baseline gear stays statistically readable, uniques stay exciting.
+
+Harder content generally provides statistically stronger equipment. The exact stat set, scaling curves, level cap, gear tiers, per-slot stat budgets, and whether rings are class-bound or shared remain unanswered.
 
 ## 10. Loot model [L/P]
 
@@ -541,8 +553,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-36:** approved and integrated into this GDD.
-- **CORE-37:** active and unanswered.
+- **CORE-21 through CORE-37:** approved and integrated into this GDD.
+- **CORE-38:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -562,5 +574,6 @@ Current interview state:
 | CORE-34 | [L/P] | Sections 8 and 9 — active ability, ability items, and skill-tree boundary |
 | CORE-35 | [CUT] | Section 8 — combat format (focus targeting removed entirely) |
 | CORE-36 | [L/P] | Section 8 — combat intensity ladder |
+| CORE-37 | [L/P] | Sections 7 and 9 — class gear identity, four-slot loadout, stat ownership |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

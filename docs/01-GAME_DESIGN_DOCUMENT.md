@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-47; CORE-48 active  
+**Version:** Concept snapshot through CORE-48; CORE-49 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-48 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-49 is active.
 
 ## 1. Executive summary
 
@@ -491,6 +491,8 @@ The four established design pillars remain Wildshot Adventures' only pillars. No
 - It should avoid a sprawling material economy, recipe clutter, random-output crafting, mandatory upkeep, and routine crafting chores.
 - The system should remain deliberately extensible within its non-combat boundary; the complete list of eligible non-combat reward types is not locked.
 
+**No automation exists [L].** No idle production, automated gathering, offline progress, or retired-labor systems; everything is earned through active play (CORE-48).
+
 **Collectables should primarily be tracked, presented, and enjoyed through dedicated, polished interface menus rather than physical housing displays.** Fishing, foraging, trophies and major accomplishments, cosmetics and skins, mounts, and future collection categories should contribute to an organized long-term collection system with clear progress and satisfying completion feedback.
 
 **Player housing is not currently planned.** It is not required for collection, storage, crafting, or progression and should not be added merely to provide somewhere to display rewards. This is not a permanent prohibition: housing may be reconsidered later only if a separate compelling purpose emerges.
@@ -624,8 +626,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-47:** approved and integrated into this GDD.
-- **CORE-48:** active and unanswered.
+- **CORE-21 through CORE-48:** approved and integrated into this GDD.
+- **CORE-49:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -656,5 +658,6 @@ Current interview state:
 | CORE-45 | [L/P] | Section 11 — tier roles; dungeons optional-but-best-rewarding with milestone exceptions |
 | CORE-46 | [L/P] | Section 13 — quests and factions: main quest with level gaps, dense quests, faction sets |
 | CORE-47 | [L/P] | Section 13 — several major hubs, per-character stash, escalating recognition |
+| CORE-48 | [L] | Section 13 — crafting/gathering confirmation; no automation, active play only |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

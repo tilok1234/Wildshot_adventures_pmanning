@@ -9,19 +9,20 @@
 
 ## Active question
 
-**CORE-48 — What is the purpose of crafting, gathering, and automation?**
+**CORE-49 — What should grinding feel like, and what are the acceptable time limits?**
 
-*Consider: Deterministic gear, consumables, hub growth, resource conversion, or retiring
-routine labor.*
+*Consider: State desired rhythm, number of boss runs, time to a meaningful upgrade, and
+maximum unlucky acquisition time.*
 
-No answer has been accepted yet. Almost fully pre-answered by CORE-25: crafting =
-limited deterministic commission-style exchange for non-combat rewards only (no combat
-gear/power/consumables/buffs, not a leveled profession); gathering = fishing + foraging
-only, each with its own level and rare-collection grind, primarily cosmetic/collection
-rewards; no automation systems planned (no idle/automated production — consistent with
-anti-pillars). CORE-48's job: confirm the synthesis + explicitly answer the
-"automation" part (likely: none — active play only), and any additions (e.g. gathering
-feeding crafting = already established).
+No answer has been accepted yet. Existing material: grind is deliberate, targetable,
+cumulative, and desirable (locked rule); open-world grinding is laid-back but active;
+no pity — independent rolls with breadth mitigation (CORE-16/42); friction budget risk
+(access × length × difficulty × rarity) is a top register risk with "measure attempt
+cadence and percentile acquisition time" as the mitigation. CORE-49 wants NUMBERS or at
+least bounds: typical boss-run cadence, time-to-meaningful-upgrade expectations, and
+the maximum acceptable unlucky acquisition time (percentile framing). Likely honest
+answer: set target RANGES as [T] hypotheses for the prototype's drop-rate/percentile
+simulation (instrumentation already lists this) rather than locking numbers now.
 
 ## Question status table
 
@@ -31,12 +32,18 @@ feeding crafting = already established).
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-47 | Approved and integrated into the GDD. |
-| **CORE-48** | **ACTIVE — no accepted answer.** |
-| CORE-49 onward | Unanswered. |
+| CORE-21 through CORE-48 | Approved and integrated into the GDD. |
+| **CORE-49** | **ACTIVE — no accepted answer.** |
+| CORE-50 onward | Unanswered. |
 
-The designer chose to continue past CORE-47 while CORE-17 through CORE-20 remain open.
-Continue at CORE-48 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-48 while CORE-17 through CORE-20 remain open.
+Continue at CORE-49 unless the designer chooses to return to an earlier open question.
+
+### CORE-48 — answered 2026-07-26 [L]
+
+Confirms CORE-25 + adds automation stance: crafting deterministic non-combat only;
+gathering = fishing/foraging exactly; NO automation of any kind — no idle production,
+automated gathering, or offline progress. Everything through active play.
 
 ### CORE-47 — answered 2026-07-26 [L/P]
 

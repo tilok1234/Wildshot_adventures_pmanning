@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-47; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-48 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-48; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-49 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -56,6 +56,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-45 | [L/P] | Tier roles: elites = open-world pattern tests and portal/rare sources; dungeons = concentrated mastery chambers and targetable loot destinations; bosses = learn-master-farm centerpieces and unique chases; world bosses = fixed outdoor anchors and portal fountains; raids/superbosses = endgame execution ceiling. Almost all dungeons are optional but clearly best-rewarding [P]; a small number of authored milestone dungeons tie to major quest/story beats under the CORE-28 hard-gate rules, giving the zero-to-hero arc landmarks without making the structure a corridor. Milestone selection deferred. |
 | CORE-46 | [L/P] | Quests are packaged direction and world context: teaching, routing to sources and special places, landmark rewards, faction standing, and story beats; quest design speaks the game's own language, and no daily/repeatable chore structure exists. A main quest line spans level one to cap, directing progression geographically, with deliberate level-gap moments that push players into side content and grinding; gap sizes are playtest-tuned [T] and gaps must visibly surface worthwhile options. The world is MMO-style quest-dense [P] with density numbers deferred to CORE-20; the slice zone is the density test. Faction XP is woven in: some factions level via order-free themed quest sets (complete all/most ≈ max standing), others via other verbs like hunting enemy types — each faction its own pursuit. Guards: faction rewards never mandatory for core progression; faction sets are finite authored content; major quest rewards stay deterministic. |
 | CORE-47 | [L/P] | Several major hubs, fewer than one per zone; hubs are full-service anchors (faction vendors, crafting commissions, quest givers, auto-travel, stash); a possible narrative capital remains open. Stash/bank is strictly per-character — no sharing, muling, or cross-character funneling; each character is its own journey. Hubs stage the zero-to-hero recognition: NPC behaviour, improvements, and settlement states escalate with progression, and selected quests may alter hub states. Hub count, placement, services, stash details, and recognition implementation deferred. |
+| CORE-48 | [L] | Confirms CORE-25 and adds the automation stance: crafting is deterministic commission-style non-combat rewards only; gathering is fishing and foraging exactly; and NO automation exists — no idle production, automated gathering, or offline progress. Everything is earned through active play. |
 
 ## Locked cross-system rules
 

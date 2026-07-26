@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-47 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-48 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-48 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-49 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-47; CORE-17 through CORE-20 open; CORE-48 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-48; CORE-17 through CORE-20 open; CORE-49 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -756,9 +756,9 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Deterministic gear, consumables, hub growth, resource conversion, or retiring routine labor.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L] Confirms and completes CORE-25. **Crafting** is a limited, deterministic, commission-style exchange for non-combat rewards only—mounts, skins, cosmetics, collection rewards—never combat gear, power, consumables, or buffs, and never a leveled profession. **Gathering** is fishing and foraging exactly, each with its own progression level and rare-collection grind, feeding crafting requirements and the collection menus. **Automation: none.** No idle production, automated gathering, offline progress, or retired-labor systems exist; everything is earned through active play, consistent with the anti-waiting and active-participation rules.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Deferred detail:** [U] Recipes, requirements, resource sources, interfaces, and reward lists remain with CORE-25's deferrals. (Recorded 2026-07-26.)
 
 **CORE-49. What should grinding feel like, and what are the acceptable time limits?**
 

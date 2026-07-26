@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-33; CORE-34 active  
+**Version:** Concept snapshot through CORE-34; CORE-35 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-34 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-35 is active.
 
 ## 1. Executive summary
 
@@ -98,7 +98,7 @@ The game must not become:
 
 ## 8. Combat direction [L/P]
 
-Combat is top-down and freely aimed. Movement and aiming are independent. The player uses class skills alongside a weapon-defined primary projectile attack.
+Combat is top-down and freely aimed. Movement and aiming are independent. The player uses one equipped active ability alongside a weapon-defined primary projectile attack.
 
 ### Combat format [L]
 
@@ -146,6 +146,16 @@ This commitment carries binding consequences. Every attack pattern must be hones
 
 Class skill trees may still offer class-specific mobility or defensive abilities as class tools rather than universal actions [P]; no encounter may require a specific class's tool. Ability roles and counts are decided in CORE-34.
 
+### Active ability and ability items [L/P]
+
+Each character has exactly one active ability, granted by an equipped ability item rather than the skill tree. Each class has its own large pool of possible ability-equip items, so ability variety, build identity, and new playstyles come from the loot hunt: the weapon owns the primary pattern, the ability item owns the active, and armor owns supporting statistics. A new playstyle is a farming target, not a menu choice. Active abilities run on mana; the equipped item defines its own behaviour and cost.
+
+The class skill tree grants no active abilities. It provides passives, resource behaviour, and class specialization under a binding condition: meaningful nodes must change behaviour rather than only numbers—modifying how equipped ability items work, altering resource behaviour, or specializing toward categories of ability items. The tree shapes *how* the equipped ability plays; the item decides *what* it is. A max-level capstone that supercharges the equipped ability item remains open design space [P].
+
+No fixed role checklist is mandated: ability items may provide mobility, defense, burst, crowd control, utility, or other roles, and choosing role coverage is part of build choice and the hunt. Because the equipped item is the only active and no universal dodge exists, no encounter may require a specific ability item—or any ability at all—to be survivable. Movement must remain sufficient, and boss and encounter design carries this burden deliberately.
+
+Exact per-class item pools, individual ability designs, mana costs, cooldown or charge models, acquisition sources, rarity structure, and the capstone concept remain unresolved.
+
 ### Experience curve [L]
 
 - **Open world:** laid-back, satisfying, and productive; still requires awareness and active participation.
@@ -167,9 +177,10 @@ Distinct progression layers should have distinct jobs:
 | Layer | Primary responsibility |
 |---|---|
 | Character level | Broad advancement and skill-point acquisition |
-| Class skill tree | Abilities, passives, resource behavior, and class specialization |
+| Class skill tree | Behaviour-changing passives, resource behavior, and class specialization (no active abilities) |
 | Standard weapon | Primary attack damage and conventional projectile pattern |
 | Unique weapon | Authored, powerful, situational projectile behavior |
+| Ability item | The single equipped active ability and its behavior |
 | Armor/equipment | Classic RPG statistics and supporting effects |
 | Player knowledge | Understanding zones, stats, routes, portal sources, loot sources, and encounters |
 
@@ -501,7 +512,7 @@ The project has not yet locked:
 - tone, rating, and content boundaries;
 - team, engine, budget, schedule, and production constraints;
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
-- enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, optional focus-target behaviour, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, and ability counts;
+- enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, optional focus-target behaviour, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - stat set, level curve, and equipment formulas;
 - death, saves, dungeon failure, and recovery;
 - quests, factions, hubs, and the exact authored changes that quests, victories, or world events may produce in settlements;
@@ -520,8 +531,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-33:** approved and integrated into this GDD.
-- **CORE-34:** active and unanswered.
+- **CORE-21 through CORE-34:** approved and integrated into this GDD.
+- **CORE-35:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -538,5 +549,6 @@ Current interview state:
 | CORE-31 | [L] | Section 8 — combat format |
 | CORE-32 | [L/P] | Section 8 — primary attack |
 | CORE-33 | [L/P] | Section 8 — universal movement and defensive actions |
+| CORE-34 | [L/P] | Sections 8 and 9 — active ability, ability items, and skill-tree boundary |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

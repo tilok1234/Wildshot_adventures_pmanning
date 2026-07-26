@@ -9,20 +9,20 @@
 
 ## Active question
 
-**CORE-34 — How many active abilities are equipped, and what roles must a complete combat kit cover?**
+**CORE-35 — What does focus targeting do?**
 
-*Consider: Movement, defense, burst, crowd control, pattern modification, interrupt, utility, and resource management.*
+*Consider: Information, cast tracking, marks, homing skills, controller assistance, or nothing.
+It should not silently replace free aiming unless intended.*
 
 No answer has been accepted yet. Relevant constraints from earlier answers:
 
-- Dodging is purely movement-based; there is no universal dash/roll/block/i-frame action (CORE-33).
-  Class trees MAY offer class-specific mobility/defensive abilities as class tools [P], but no
-  encounter may require a specific class's tool — this makes CORE-34's ability-role decisions
-  the only source of active mobility/defense in the game.
-- Mana is reserved for active abilities; primary attacks are free (CORE-32).
-- The weapon owns the primary pattern; skills support the class plan without routinely
-  replacing or multiplying it (CORE-03 / weapon ownership).
-- All classes must complete all content solo; no tank/healer/DPS trinity (CORE-03).
+- CORE-31 [L]: combat never requires a selected or locked target; any focus-target feature
+  must remain optional and subordinate to free aiming, and can never be a prerequisite for
+  any combat action. Its exact functions were explicitly deferred to CORE-35.
+- CORE-33/34 doubled down on movement purity and one item-granted active; "focus targeting
+  does nothing / is cut" is a fully legitimate answer.
+- Controller may use a twin-stick equivalent (CORE-31); focus targeting as controller
+  assistance is one possible bounded role.
 
 ## Question status table
 
@@ -32,12 +32,25 @@ No answer has been accepted yet. Relevant constraints from earlier answers:
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-33 | Approved and integrated into the GDD. |
-| **CORE-34** | **ACTIVE — no accepted answer.** |
-| CORE-35 onward | Unanswered. |
+| CORE-21 through CORE-34 | Approved and integrated into the GDD. |
+| **CORE-35** | **ACTIVE — no accepted answer.** |
+| CORE-36 onward | Unanswered. |
 
-The designer chose to continue past CORE-33 while CORE-17 through CORE-20 remain open.
-Continue at CORE-34 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-34 while CORE-17 through CORE-20 remain open.
+Continue at CORE-35 unless the designer chooses to return to an earlier open question.
+
+### CORE-34 — answered 2026-07-26 [L/P]
+
+Exactly one active ability per character, granted by an equipped ability item; each class
+has its own large pool of ability-equips, so ability variety and build identity come from
+the loot hunt (weapon = primary pattern, ability item = active, armor = stats). Abilities
+run on mana; the item defines behaviour and cost. The skill tree grants no actives — it is
+passives/resource/specialization with a binding condition that meaningful nodes change
+behaviour, not just numbers (including modifying equipped ability items). Max-level
+capstone that supercharges the equipped item = open design space [P]. No mandated role
+checklist. No encounter may require a specific ability item, or any ability, to be
+survivable — movement stays sufficient (designer: "awesome boss fights where movement is
+enough, just like RotMG").
 
 ### CORE-33 — answered 2026-07-26 [L/P]
 

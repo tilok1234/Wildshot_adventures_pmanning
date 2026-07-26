@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-33 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-34 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-34 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-35 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-33; CORE-17 through CORE-20 open; CORE-34 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-34; CORE-17 through CORE-20 open; CORE-35 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -562,9 +562,15 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Movement, defense, burst, crowd control, pattern modification, interrupt, utility, and resource management.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Each character has exactly one active ability, and it is granted by an equipped ability item rather than the skill tree. Each class has its own large pool of possible ability-equip items, so ability variety, build identity, and new playstyles come from the loot hunt: the weapon owns the primary pattern, the ability item owns the active, and armor owns supporting statistics. Active abilities run on mana under the CORE-32 baseline; the equipped item defines its own behaviour and cost [P].
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Skill-tree boundary:** [L/P] The class skill tree grants no active abilities. It provides passives, resource behaviour, and class specialization under a binding condition: meaningful nodes must change behaviour rather than only numbers—modifying how equipped ability items work, altering resource behaviour, or specializing toward categories of ability items. The tree shapes *how* the equipped ability plays; the item decides *what* it is. A max-level capstone that supercharges the equipped ability item remains open design space [P].
+
+**Role coverage:** [P] No fixed role checklist is mandated. Ability items may cover mobility, defense, burst, crowd control, utility, or other roles; choosing role coverage is part of build choice and the hunt.
+
+**Encounter boundary:** [L] Because the equipped item is the only active and no universal dodge exists, no encounter may require a specific ability item—or any ability at all—to be survivable. Movement must remain sufficient, in the Realm of the Mad God tradition, and boss and encounter design carries this burden deliberately.
+
+**Deferred detail:** [U] Exact per-class item pools, individual ability designs, mana costs, cooldown or charge models, acquisition sources, rarity structure, and the capstone concept remain unresolved for later combat and loot questions. (Recorded 2026-07-26.)
 
 **CORE-35. What does focus targeting do?**
 

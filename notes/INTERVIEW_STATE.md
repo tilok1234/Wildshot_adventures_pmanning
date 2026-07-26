@@ -9,20 +9,21 @@
 
 ## Active question
 
-**CORE-49 — What should grinding feel like, and what are the acceptable time limits?**
+**CORE-50 — Which accessibility and comfort features are required from the start?**
 
-*Consider: State desired rhythm, number of boss runs, time to a meaningful upgrade, and
-maximum unlucky acquisition time.*
+*Consider: Aim assistance, toggle fire, projectile opacity, visible hitbox, flash
+reduction, controller support, difficulty options, and remapping.*
 
-No answer has been accepted yet. Existing material: grind is deliberate, targetable,
-cumulative, and desirable (locked rule); open-world grinding is laid-back but active;
-no pity — independent rolls with breadth mitigation (CORE-16/42); friction budget risk
-(access × length × difficulty × rarity) is a top register risk with "measure attempt
-cadence and percentile acquisition time" as the mitigation. CORE-49 wants NUMBERS or at
-least bounds: typical boss-run cadence, time-to-meaningful-upgrade expectations, and
-the maximum acceptable unlucky acquisition time (percentile framing). Likely honest
-answer: set target RANGES as [T] hypotheses for the prototype's drop-rate/percentile
-simulation (instrumentation already lists this) rather than locking numbers now.
+No answer has been accepted yet. Already decided pieces: remappable autofire toggle
+(CORE-32), reducible/disableable damage numbers (CORE-32), no routine screen shake or
+global hit-stop (CORE-32), controller secondary (CORE-13), no focus targeting on M+K
+(CORE-35), authored difficulty with no difficulty sliders implied by CORE-29 (separate
+fixed higher-difficulty dungeon versions are the difficulty option). Open: full
+remapping scope, projectile opacity/effect-density options, flash/screen-effect
+reduction, colorblind support, visible-hitbox option, aim-assist stance (controller
+only?), text scaling, and whether any difficulty accessibility option exists given the
+no-scaling philosophy. GDD §18 lists "accessibility and readability implementation" as
+unresolved — CORE-50 sets the required-from-start list.
 
 ## Question status table
 
@@ -32,12 +33,21 @@ simulation (instrumentation already lists this) rather than locking numbers now.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-48 | Approved and integrated into the GDD. |
-| **CORE-49** | **ACTIVE — no accepted answer.** |
-| CORE-50 onward | Unanswered. |
+| CORE-21 through CORE-49 | Approved and integrated into the GDD. |
+| **CORE-50** | **ACTIVE — no accepted answer.** |
+| CORE-51 onward | Unanswered. |
 
-The designer chose to continue past CORE-48 while CORE-17 through CORE-20 remain open.
-Continue at CORE-49 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-49 while CORE-17 through CORE-20 remain open.
+Continue at CORE-50 unless the designer chooses to return to an earlier open question.
+
+### CORE-49 — answered 2026-07-26 [L/T]
+
+Feel stays as locked. Target ranges as [T] hypotheses: dungeon runs ~10–20 min; portal
+at known source ~5–20 min; mastered loop 2–3×/hr; felt upgrade most 1-hr leveling
+sessions (endgame exempt); boss unique expected ~20–40 attempts. Percentile guardrail:
+p95 unlucky time ≤ ~2–3× expected, tuned via rates/cadence never odds. Additions:
+attempt counts tracked and displayed per pursuit [P]; grinds overlap — every hunt
+advances ≥2 tracks, no run a pure loss [P]. Final numbers await Phase D simulation.
 
 ### CORE-48 — answered 2026-07-26 [L]
 

@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-48; CORE-49 active  
+**Version:** Concept snapshot through CORE-49; CORE-50 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-49 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-50 is active.
 
 ## 1. Executive summary
 
@@ -306,7 +306,7 @@ Almost all dungeons are optional but clearly best-rewarding [P]: open-world play
 4. Efficient farming through mastery and power.
 5. Long-term unique-item pursuit.
 
-Boss-access difficulty, encounter difficulty, unique usefulness, and reward rarity must be balanced together. Exact retry rules, portal persistence, dungeon length, checkpoints, and death costs remain unanswered.
+Boss-access difficulty, encounter difficulty, unique usefulness, and reward rarity must be balanced together under target ranges set as test hypotheses [T]: dungeon runs of roughly 10–20 minutes; portal acquisition at a known source within roughly 5–20 minutes; a mastered full loop 2–3 times per hour; a felt upgrade in most one-hour leveling sessions (endgame exempt); typical boss uniques expected within roughly 20–40 attempts; and a percentile guardrail that 95th-percentile unlucky acquisition should not exceed roughly 2–3× the expected time, tuned through drop rates and cadence, never escalating odds. Attempts per pursuit are tracked and displayed [P], and a targeted hunt always advances at least two progression tracks at once — no run is a pure loss [P]. Exact retry rules, portal persistence, and final numbers remain unanswered pending the reward-loop tests.
 
 ### Raids [L/P]
 
@@ -626,8 +626,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-48:** approved and integrated into this GDD.
-- **CORE-49:** active and unanswered.
+- **CORE-21 through CORE-49:** approved and integrated into this GDD.
+- **CORE-50:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -659,5 +659,6 @@ Current interview state:
 | CORE-46 | [L/P] | Section 13 — quests and factions: main quest with level gaps, dense quests, faction sets |
 | CORE-47 | [L/P] | Section 13 — several major hubs, per-character stash, escalating recognition |
 | CORE-48 | [L] | Section 13 — crafting/gathering confirmation; no automation, active play only |
+| CORE-49 | [L/T] | Section 11 — grind-cadence target ranges, percentile guardrail, attempt visibility, overlapping grinds |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

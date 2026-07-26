@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-48 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-49 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-49 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-50 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-48; CORE-17 through CORE-20 open; CORE-49 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-49; CORE-17 through CORE-20 open; CORE-50 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -764,11 +764,21 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: State desired rhythm, number of boss runs, time to a meaningful upgrade, and maximum unlucky acquisition time.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/T] The feel is already locked: grinding is deliberate, targetable, cumulative, relaxed-but-active in the open world, with honest independent rolls. CORE-49 sets target ranges as test hypotheses [T] for the prototype's drop-rate and percentile-acquisition simulation, rather than locking numbers:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Ordinary dungeon run length: roughly 10–20 minutes (one committed, pausable sitting).
+- Portal acquisition at a known source: roughly 5–20 minutes of hunting — a knowledgeable player usually earns an attempt within one short session.
+- Mastered attempt cadence: a full loop (earn portal → clear → boss) roughly 2–3 times per hour.
+- Time-to-meaningful-upgrade while leveling: most one-hour sessions produce a felt upgrade (gear tier, level, or new frame); endgame is explicitly exempt.
+- Unique-chase expectation: expected acquisition within roughly 20–40 attempts for a typical boss unique.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Percentile guardrail:** [L/T] "Acceptable unlucky time" is defined by percentile: the 95th-percentile acquisition time should not exceed roughly 2–3× the expected time. In a no-pity game this guardrail is tuned through drop rates and attempt cadence, never through escalating odds.
+
+**Attempt visibility:** [P] The game tracks and displays attempts per pursuit (bestiary/collection UI). Visible attempt counts make dedication measurable during dry streaks and double as completion bragging rights, while honestly communicating independent odds.
+
+**Grinds overlap:** [P] A targeted hunt should always advance at least two progression tracks at once — XP, faction standing, tiered drops, gold, cosmetics, or collection entries alongside the primary target. No run is a pure loss.
+
+**Deferred detail:** [U] All ranges are hypotheses pending the Phase D reward-loop tests and percentile simulation; final numbers, per-boss tuning, and UI presentation remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-50. Which accessibility and comfort features are required from the start?**
 

@@ -9,19 +9,18 @@
 
 ## Active question
 
-**CORE-36 — How does combat intensity vary across the game?**
+**CORE-37 — What belongs to the class, what belongs to the weapon, and what belongs to equipment?**
 
-*Consider: Weak overworld creatures, ordinary packs, dangerous packs, elites, dungeons,
-bosses, and optional expert content.*
+*Consider: Avoid overlapping systems that all provide the same generic damage increase.*
 
-No answer has been accepted yet. NOTE: this is partially pre-answered — the experience/
-intensity curve is already locked at a coarse level (open world laid-back → dungeons and
-world bosses faster and more demanding → endgame bosses/raids relentlessly intense but
-readable; CORE-31 intensity curve + GDD §8 experience curve). CORE-36's job is the finer
-ladder: weak creatures vs ordinary packs vs dangerous packs vs elites vs rare enemies vs
-dungeon trash vs bosses vs superbosses, and how density/speed/pattern complexity step up
-across those tiers. Constraints: stable authored difficulty, no scaling (CORE-29); every
-pattern dodgeable by movement alone (CORE-33); no ability ever required (CORE-34).
+No answer has been accepted yet. NOTE: heavily pre-answered by CORE-34's layer split —
+weapon = primary pattern; ability item = the single active; skill tree = behaviour-changing
+passives/resource/specialization; armor/equipment = classic RPG stats and supporting
+effects; knowledge = access. CORE-37's remaining job: confirm that split as the formal
+answer and settle the leftover nuances — what "class" itself contributes beyond the tree
+(base stats? weapon/ability-item eligibility? identity), whether armor may carry
+behaviour-affecting effects or stays purely statistical, and guarding the anti-overlap
+rule (no three systems all granting generic +damage).
 
 ## Question status table
 
@@ -31,12 +30,21 @@ pattern dodgeable by movement alone (CORE-33); no ability ever required (CORE-34
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-35 | Approved and integrated into the GDD. |
-| **CORE-36** | **ACTIVE — no accepted answer.** |
-| CORE-37 onward | Unanswered. |
+| CORE-21 through CORE-36 | Approved and integrated into the GDD. |
+| **CORE-37** | **ACTIVE — no accepted answer.** |
+| CORE-38 onward | Unanswered. |
 
-The designer chose to continue past CORE-35 while CORE-17 through CORE-20 remain open.
-Continue at CORE-36 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-36 while CORE-17 through CORE-20 remain open.
+Continue at CORE-37 unless the designer chooses to return to an earlier open question.
+
+### CORE-36 — answered 2026-07-26 [L/P]
+
+Tiered intensity ladder confirmed: fodder → ordinary packs → dangerous packs/pockets →
+elites → rare/named roamers → world bosses → dungeon enemies → dungeon bosses → raid
+wings → optional superbosses. Escalation axis [L]: projectile density, speed, pattern
+complexity, and composition — never HP sponging; health stays honest. Fractal rule [L]:
+the open-world ladder repeats inside every zone at that zone's authored band (relaxed
+outskirts through genuine danger in each zone); bands don't trivially overlap.
 
 ### CORE-35 — answered 2026-07-26 [CUT]
 

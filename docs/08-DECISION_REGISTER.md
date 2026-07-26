@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-35; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-36 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-36; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-37 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -44,6 +44,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-33 | [L/P] | Dodging is purely movement-based, in the RotMG tradition. The universal kit is movement plus free aim only: no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action. Survival comes from positioning, spacing, routing, threat reading, and prioritization at the character's movement speed. Binding consequences: every attack pattern must be honestly dodgeable through movement alone at its intended level and at the least mobile class's baseline; movement speed is a premier, deliberately tuned statistic; readability and traceable deaths become even more load-bearing; death/recovery design must account for the absence of an escape action; pause performs no combat action. Class trees may still offer class-specific mobility/defensive tools [P]; no encounter may require a specific class's tool; ability roles and counts belong to CORE-34. |
 | CORE-34 | [L/P] | Each character has exactly one active ability, granted by an equipped ability item; each class has its own large pool of ability-equip items, so ability variety, build identity, and new playstyles come from the loot hunt. The weapon owns the primary pattern, the ability item owns the active, and armor owns supporting statistics. Abilities run on mana; the item defines its behaviour and cost. The skill tree grants no actives: it provides passives, resource behaviour, and specialization, and meaningful nodes must change behaviour rather than only numbers (including modifying how equipped ability items work). A max-level capstone that supercharges the equipped item is open design space [P]. No mandated role checklist; role coverage is build choice. No encounter may require a specific ability item—or any ability—to be survivable; movement stays sufficient, and encounter design carries that burden deliberately. Item pools, individual designs, costs, cooldown models, acquisition, and rarity remain deferred. |
 | CORE-35 | [CUT] | No focus-targeting system exists: no target selection, lock-on, marking, focused-enemy state, or hover focus on any input method, and no aiming, damage, homing, or informational behaviour is tied to a focused enemy. Enemy information (names, health, boss casts, resistances) is delivered through general interface presentation such as overhead bars, boss presentation, or a bestiary; exact implementation deferred to interface and knowledge questions. Any retained controller aim assistance must work without a focus-target system and stays quarantined from mouse-and-keyboard play and encounter design. |
+| CORE-36 | [L/P] | Combat intensity follows a tiered enemy ladder: weak fodder; ordinary packs; dangerous packs/pockets; elites; rare/named roamers on authored routes; fixed-strength world bosses; denser, faster dungeon enemies; dungeon bosses; raid wings; optional superbosses. Intensity climbs primarily through projectile density, speed, pattern complexity, and encounter composition—not hit-point sponging; health totals stay honest. The open-world ladder repeats inside each zone at that zone's authored difficulty band, so every zone has its own local spread from relaxed outskirts to genuine danger; bands do not trivially overlap. Exact per-zone bands, density/speed budgets, composition rules, and enemy designs remain deferred. |
 
 ## Locked cross-system rules
 
@@ -88,6 +89,7 @@ This register is the quickest way to determine what is actually decided.
 - Dodging is purely movement-based: no universal dash, roll, blink, sprint, block, parry, shield, or invulnerability-frame action. Every attack pattern must be dodgeable through movement alone by every class, and no encounter may require a specific class's mobility or defensive tool.
 - Each character has one active ability, granted by the equipped class ability item; the skill tree grants no actives, and its meaningful nodes change behaviour rather than only numbers.
 - No encounter may require a specific ability item—or any active ability—to be survivable; movement alone must remain sufficient.
+- Difficulty escalates through projectile density, speed, pattern complexity, and encounter composition, never hit-point sponging; every zone carries its own local intensity spread within its authored band.
 
 ## Provisional/test-gated decisions
 

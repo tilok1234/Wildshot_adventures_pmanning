@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-35; CORE-36 active  
+**Version:** Concept snapshot through CORE-36; CORE-37 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-36 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-37 is active.
 
 ## 1. Executive summary
 
@@ -163,6 +163,16 @@ Exact per-class item pools, individual ability designs, mana costs, cooldown or 
 - **Endgame bosses and raids:** may become relentlessly intense, provided patterns remain readable and learnable.
 
 Appropriately leveled content should retain meaningful resistance. Progression should not erase player participation.
+
+### Combat intensity ladder [L/P]
+
+Combat intensity follows a tiered enemy ladder: weak fodder; ordinary packs (the relaxed bread-and-butter grind); dangerous packs and pockets that punish autopilot; elites with real patterns to respect; rare and named roamers on authored routes; fixed-strength world bosses; denser, faster dungeon enemies; learn-then-farm dungeon bosses; raid wings demanding sustained execution; and optional superbosses as the readable-but-relentless ceiling.
+
+Intensity climbs primarily through projectile density, speed, pattern complexity, and encounter composition—not hit-point sponging [L]. Health totals stay honest: harder enemies are more dangerous to fight, not merely slower to kill, preserving the rules that every pattern remains dodgeable through movement alone and readable at any intensity.
+
+The open-world portion of the ladder repeats inside each zone at that zone's authored difficulty band [L]. Every zone contains its own local spread—easier outskirts and fodder, ordinary packs, dangerous pockets, elites, rares, and where appropriate world bosses—so relaxed grinding and genuine danger coexist everywhere. Bands do not trivially overlap: a late zone's ordinary enemies may outclass an early zone's elites.
+
+Exact per-zone bands, per-tier density and speed budgets, encounter-composition rules, and individual enemy designs remain unresolved.
 
 ### Weapon ownership [L]
 
@@ -531,8 +541,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-35:** approved and integrated into this GDD.
-- **CORE-36:** active and unanswered.
+- **CORE-21 through CORE-36:** approved and integrated into this GDD.
+- **CORE-37:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -551,5 +561,6 @@ Current interview state:
 | CORE-33 | [L/P] | Section 8 — universal movement and defensive actions |
 | CORE-34 | [L/P] | Sections 8 and 9 — active ability, ability items, and skill-tree boundary |
 | CORE-35 | [CUT] | Section 8 — combat format (focus targeting removed entirely) |
+| CORE-36 | [L/P] | Section 8 — combat intensity ladder |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

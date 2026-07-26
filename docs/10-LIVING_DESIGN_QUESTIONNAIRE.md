@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-35 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-36 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-36 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-37 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-35; CORE-17 through CORE-20 open; CORE-36 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-36; CORE-17 through CORE-20 open; CORE-37 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -588,9 +588,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Weak overworld creatures, ordinary packs, dangerous packs, elites, dungeons, bosses, and optional expert content.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Combat intensity follows a tiered enemy ladder: weak fodder; ordinary packs (the relaxed bread-and-butter grind); dangerous packs and pockets that punish autopilot; elites with real patterns to respect; rare and named roamers on authored routes; fixed-strength world bosses; denser, faster dungeon enemies; learn-then-farm dungeon bosses; raid wings demanding sustained execution; and optional superbosses as the readable-but-relentless ceiling.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Escalation axis:** [L] Intensity climbs primarily through projectile density, speed, pattern complexity, and encounter composition—not hit-point sponging. Health totals stay honest: harder enemies are more dangerous to fight, not merely slower to kill. This preserves the locked rules that every pattern remains dodgeable through movement alone and readable at any intensity.
+
+**In-zone spread:** [L] The open-world portion of the ladder repeats inside each zone at that zone's authored difficulty band. Every zone contains its own local spread—easier outskirts and fodder, ordinary packs, dangerous pockets, elites, rares, and where appropriate world bosses—so relaxed grinding and genuine danger coexist everywhere, consistent with CORE-29's stable authored difficulty. Bands do not trivially overlap: a late zone's ordinary enemies may outclass an early zone's elites.
+
+**Deferred detail:** [U] Exact per-zone difficulty bands, per-tier density and speed budgets, encounter-composition rules, and individual enemy designs remain unresolved for later enemy, encounter, and readability planning. (Recorded 2026-07-26.)
 
 **CORE-37. What belongs to the class, what belongs to the weapon, and what belongs to equipment?**
 

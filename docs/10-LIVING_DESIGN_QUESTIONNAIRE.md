@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-43 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-44 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-44 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-45 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-43; CORE-17 through CORE-20 open; CORE-44 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-44; CORE-17 through CORE-20 open; CORE-45 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -700,11 +700,19 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Roles, target priority, movement pressure, pattern combinations, terrain, interrupts, and manageable intensity.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Ordinary packs become tactically interesting through combined pressures from a reusable enemy role grammar—direct aimed shot, predictive shot, fan/cone, radial burst, delayed ground hazard, shield/guard, healer/support priority, and chaser/space-control—rather than through raw density. Ordinary packs combine one or two pressures; dangerous packs and pockets use three or more, or nastier combinations. Density alone is never the difficulty (CORE-36).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Priority targets:** [L/P] Healers, shielders, and similar support roles turn packs into decisions rather than damage checks: killing the right enemy first is a learnable skill. Crossing patterns plus a priority target plus space pressure is the baseline formula for an interesting pack under movement-only dodging.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Terrain:** [P] Pack placement deliberately uses chokepoints, open ground, and obstacles; the same pack in a corridor and in a field should be two different fights.
+
+**Pulling is a skill:** [P] Packs have readable, consistent engagement ranges, so a knowledgeable player can deliberately pull, split, and isolate parts of a pack instead of always fighting it whole. Aggro behaviour is designed for this from the start.
+
+**Frame showcase:** [P] Pack compositions and formations deliberately create moments where different weapon frames shine—clumps flatter spreads, lines flatter piercing, lone distant threats flatter long shots—so pack design supports build expression and keeps same-tier frames genuine side-grades in practice.
+
+**Readability:** [L] Every role is identifiable at a glance; silhouette and visual-language details belong to the readability questions.
+
+**Deferred detail:** [U] Exact role rosters per region, pack composition tables, aggro ranges, and readability implementation remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-45. What is the intended role of dungeons, elites, and bosses?**
 

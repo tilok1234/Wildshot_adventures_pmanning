@@ -1,8 +1,8 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-26  
-**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-43; CORE-14 remains prototype-gated.  
-**Interview position:** CORE-17 through CORE-20 remain open; CORE-44 is active.
+**Decided range:** CORE-01 through CORE-16 and CORE-21 through CORE-44; CORE-14 remains prototype-gated.  
+**Interview position:** CORE-17 through CORE-20 remain open; CORE-45 is active.
 
 This register is the quickest way to determine what is actually decided.
 
@@ -52,6 +52,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-41 | [L/P] | Equipment is the build system: a loadout (weapon pattern, ability item, armor archetype, ring) changes where the player stands, how they engage, which roles they cover, and what they can attempt — not merely numbers. Tiering rule: ordinary tier upgrades within a frame preserve a familiar style while improving numerically; behaviour changes come from switching frames/ability items and from uniques. Within a tier, frames and ability items are situational side-grades, not a strict ranking [P]. Tier steps are chunky and felt, not incremental dribble [P]. Item behaviour is clearly communicated before farming so hunts are chosen knowledgeably [P]. Tier counts, step sizes, balance, and preview implementation deferred. |
 | CORE-42 | [L/P] | Deliberate acquisition = learn the authored source, farm it, roll independently; no pity. Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for uniques [L] — random stays random. Duplicate uniques sell for meaningful gold and never convert into power, materials, or improved odds [P]; cosmetic dupe milestones remain optional later design space [LATER]. Vendors (naturally the CORE-39 faction vendors) may sell modest baseline tiered gear as a leveling catch-up floor [P]; drops always outpace shops, and shops never sell uniques. Gold values, shop inventories, and pricing deferred. |
 | CORE-43 | [L/P] | Death never deletes the character or solved progression outside optional hardcore. Open world: respawn at nearest city, lose a percentage of carried gold (scales with wealth; must never be cheaper than teleporting — no death-warp) [P/T]. Dungeons: death ends the committed instance, portal spent, new attempt needs a new portal; losing the attempt is the whole penalty [L/P]. Raids: paid gold respawn at current wing start, cleared-wing progress never resets; bosses reset to full on death (gold buys attempts, never incremental progress), and an escalating within-visit fee is test-gated so wealth cannot brute-force mastery [P/T]. Optional per-character hardcore permadeath mode is planned; it never warps baseline balance and needs anti-save-scum handling [P]. Exact values and save architecture deferred. |
+| CORE-44 | [L/P] | Ordinary packs are made tactically interesting by combining one or two pressures from the enemy role grammar (aimed/predictive shots, fans, bursts, ground hazards, shield/guard, healer/support, chaser/space control); dangerous packs use three or more; density alone is never the difficulty. Priority targets turn packs into decisions. Terrain placement makes the same pack play differently in different spaces [P]. Packs have readable, consistent engagement ranges so pulling and splitting is a learnable skill [P]. Compositions deliberately showcase different weapon frames (clumps→spread, lines→pierce, distant→long shot), keeping same-tier frames genuine side-grades in practice [P]. Roles readable at a glance; rosters, composition tables, aggro ranges, and visuals deferred. |
 
 ## Locked cross-system rules
 

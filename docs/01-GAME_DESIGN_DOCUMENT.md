@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-43; CORE-44 active  
+**Version:** Concept snapshot through CORE-44; CORE-45 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-44 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-45 is active.
 
 ## 1. Executive summary
 
@@ -174,6 +174,12 @@ Intensity climbs primarily through projectile density, speed, pattern complexity
 The open-world portion of the ladder repeats inside each zone at that zone's authored difficulty band [L]. Every zone contains its own local spread—easier outskirts and fodder, ordinary packs, dangerous pockets, elites, rares, and where appropriate world bosses—so relaxed grinding and genuine danger coexist everywhere. Bands do not trivially overlap: a late zone's ordinary enemies may outclass an early zone's elites.
 
 Exact per-zone bands, per-tier density and speed budgets, encounter-composition rules, and individual enemy designs remain unresolved.
+
+### Ordinary pack design [L/P]
+
+Ordinary packs become tactically interesting through combined pressures from a reusable enemy role grammar—direct aimed shots, predictive shots, fans and cones, radial bursts, delayed ground hazards, shield/guard roles, healer and support priorities, and chaser/space-control roles—never through raw density. Ordinary packs combine one or two pressures; dangerous packs use three or more. Priority targets such as healers and shielders turn packs into decisions rather than damage checks.
+
+Pack placement deliberately uses terrain [P]: the same pack in a corridor and in a field should be two different fights. Packs have readable, consistent engagement ranges so pulling, splitting, and isolating enemies is a learnable skill [P]. Compositions and formations deliberately create moments where different weapon frames shine—clumps flatter spreads, lines flatter piercing, lone distant threats flatter long shots—so pack design supports build expression [P]. Every role must be identifiable at a glance; visual-language details belong to readability planning.
 
 ### Weapon ownership [L]
 
@@ -594,8 +600,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-43:** approved and integrated into this GDD.
-- **CORE-44:** active and unanswered.
+- **CORE-21 through CORE-44:** approved and integrated into this GDD.
+- **CORE-45:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -622,5 +628,6 @@ Current interview state:
 | CORE-41 | [L/P] | Sections 9 and 10 — equipment as the build system; tier, side-grade, and readability rules |
 | CORE-42 | [L/P] | Section 10 — acquisition, duplicate-to-gold rule, no guarantees beyond quest uniques, catch-up vendors |
 | CORE-43 | [L/P] | Section 12.6 — death and recovery, raid respawns, optional hardcore mode |
+| CORE-44 | [L/P] | Section 8 — ordinary pack design: role grammar, priority targets, pulling, frame showcase |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

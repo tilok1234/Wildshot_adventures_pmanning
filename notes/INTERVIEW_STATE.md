@@ -9,23 +9,20 @@
 
 ## Active question
 
-**CORE-44 — What makes ordinary enemy groups tactically interesting?**
+**CORE-45 — What is the intended role of dungeons, elites, and bosses?**
 
-*Consider: Roles, target priority, movement pressure, pattern combinations, terrain,
-interrupts, and manageable intensity.*
+*Consider: Progress gates, mastery tests, targetable loot, story milestones, build
+checks, or optional challenges.*
 
-No answer has been accepted yet. Relevant existing material:
-
-- Prototype spec Phase B already sketches an enemy grammar: direct aimed shot,
-  predictive shot, fan/cone, radial burst, delayed ground hazard, shield/guard role,
-  healer/support priority, chaser/space-control role; ordinary packs use one or two
-  pressures; density alone is never the difficulty.
-- CORE-21 loop expects enemy prioritization to matter in ordinary combat; CORE-36
-  distinguishes ordinary packs from dangerous packs/pockets.
-- Movement-only dodging (CORE-33) means pack design creates pressure through crossing
-  patterns, space control, and priority targets rather than raw density.
-- Remaining: confirm the role grammar as the design answer, and any designer additions
-  (terrain use, pack composition rules).
+No answer has been accepted yet. Heavily pre-answered: boss lifecycle (CORE-05:
+learn → master → farm), portal loop (CORE-06A), intensity ladder tiers (CORE-36),
+dungeons as committed instances with real stakes (CORE-16/43), uniques from named
+sources (CORE-08A), minimum-level gates (CORE-28). CORE-45's job is mostly synthesis:
+state each tier's intended ROLE (elites = open-world pattern tests / rare-drop and
+portal sources; dungeons = concentrated mastery + targetable loot; bosses = mastery
+centerpieces + unique chases). Possible open nuance: story-milestone dungeons/bosses
+(narrative still undecided) and whether some dungeons are progress-critical vs all
+optional-but-rewarding.
 
 ## Question status table
 
@@ -35,12 +32,21 @@ No answer has been accepted yet. Relevant existing material:
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-43 | Approved and integrated into the GDD. |
-| **CORE-44** | **ACTIVE — no accepted answer.** |
-| CORE-45 onward | Unanswered. |
+| CORE-21 through CORE-44 | Approved and integrated into the GDD. |
+| **CORE-45** | **ACTIVE — no accepted answer.** |
+| CORE-46 onward | Unanswered. |
 
-The designer chose to continue past CORE-43 while CORE-17 through CORE-20 remain open.
-Continue at CORE-44 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-44 while CORE-17 through CORE-20 remain open.
+Continue at CORE-45 unless the designer chooses to return to an earlier open question.
+
+### CORE-44 — answered 2026-07-26 [L/P]
+
+Packs = combined pressures from the role grammar (aimed/predictive/fan/burst/ground
+hazard/shield/healer/chaser); ordinary = 1–2 pressures, dangerous = 3+; density never
+the difficulty. Priority targets make packs decisions. Terrain placement matters [P].
+Additions: pulling/splitting as a learnable skill via readable engagement ranges [P];
+pack compositions deliberately showcase different weapon frames [P]. Roles readable at
+a glance.
 
 ### CORE-43 — answered 2026-07-26 [L/P]
 

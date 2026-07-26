@@ -269,7 +269,7 @@ Selected quest uniques, if retained, should generally be authored guaranteed rew
 
 ### Acquisition, duplicates, and vendors [L/P]
 
-Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for unique items [L]: random stays random, and deliberate acquisition means learning the authored source and farming it with independent rolls.
+Beyond guaranteed quest uniques, no token, first-kill guarantee, or selectable-reward mechanism exists for unique items [P/T]: random stays random, and deliberate acquisition means learning the authored source and farming it with independent rolls. This baseline carries a Phase D falsifier (2026-07-27): if playtesters at simulated 95th-percentile dry streaks report the pursuit as disrespectful despite reward breadth and the attempt counter, the mitigation menu reopens — bounded bad-luck protection remains distinct from the rejected escalating-odds designs.
 
 Duplicate uniques sell for meaningful gold [P] — a dupe should still feel like a win at the vendor, not a wasted jackpot. Duplicates never convert into power, upgrade materials, or improved odds. Purely cosmetic duplicate milestones (a recolor or title after many dupes from one source) remain optional later design space [LATER].
 
@@ -376,7 +376,7 @@ Brief and extended sessions may both support useful play:
 
 Repeated targeted attempts are meaningful across the broader pursuit, but the rolls remain independent. Additional kills or clears create more total opportunities to have succeeded; a failed attempt does not raise the probability of the next roll, accumulate an escalating modifier, or bank pity under the CORE-16 baseline.
 
-Active single-player gameplay is pausable. An ordinary dungeon is normally one committed gameplay instance: pausing while remaining in the run is allowed, but leaving or abandoning ends that instance. The player cannot later resume the same partially cleared dungeon, and ordinary dungeons are not permanently completed room by room across separate entries.
+Active single-player gameplay is pausable. An ordinary dungeon is normally one committed gameplay instance: pausing while remaining in the run is allowed, but leaving or abandoning ends that instance. The player cannot later resume the same partially cleared dungeon, and ordinary dungeons are not permanently completed room by room across separate entries. The commitment rule is Phase D test-gated (2026-07-27): the prototype's interruption, abandon, and fresh-instance tests must show it reads as a known commitment rather than lost progress.
 
 ### 12.6 Death and recovery [L/P]
 

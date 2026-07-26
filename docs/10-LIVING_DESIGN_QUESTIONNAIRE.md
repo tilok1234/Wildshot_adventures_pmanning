@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-52 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-53 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-53 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-54 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-52; CORE-17 through CORE-20 open; CORE-53 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-53; CORE-17 through CORE-20 open; CORE-54 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -838,9 +838,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Usually a no-reward combat laboratory with explicit success criteria.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] The first playable milestone is the prototype specification's **Phase A solo combat laboratory**: a no-reward greybox arena with independent movement and aiming, tap/hold/toggle fire, three deterministic weapon frames, one equipped-ability test slot with swappable test abilities, five to six enemy behaviours, one elite, terrain for line-of-fire testing, debug visualization, and no loot, experience, or progression. Its exit gate stands: no large content or progression systems are built until testers voluntarily re-engage enemies, experiment with weapons, understand their deaths, and report that movement, aiming, firing, and feedback feel dependable.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Outside testers:** [P] The exit gate is judged by at least a few fresh outside testers, never solely by whoever built the lab — weeks of iteration create muscle memory that masks readability and feel problems from the developer.
+
+**Baseline-speed dodgeability:** [P] The lab explicitly verifies that every test pattern is dodgeable at the lowest intended movement speed, not at a comfortable mid-tier loadout — CORE-33's honest-dodgeability rule as a standing lab procedure.
+
+**Deferred detail:** [U] Lab timeline and iteration budget await CORE-20. (Recorded 2026-07-26.)
 
 **CORE-54. What are the five largest design, technical, production, and market risks?**
 

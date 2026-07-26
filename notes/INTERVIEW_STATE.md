@@ -9,15 +9,22 @@
 
 ## Active question
 
-**CORE-53 — What is the first playable milestone before the vertical slice?**
+**CORE-54 — What are the five largest design, technical, production, and market risks?**
 
-*Consider: Usually a no-reward combat laboratory with explicit success criteria.*
+*Consider: For each risk, state an early test, mitigation, and cut option.*
 
-No answer has been accepted yet. This is essentially already written: prototype spec
-Phase A (solo combat laboratory, no rewards, greybox arena, three weapon frames, 5–6
-enemy behaviours, elite, explicit exit gate) IS the first playable milestone. CORE-53's
-job is to confirm Phase A as the milestone and note its updated CORE-33/34-aligned
-content (no universal defensive action; one ability slot). Likely a one-confirm answer.
+No answer has been accepted yet. The risk register (doc 02) already holds ~30 risks
+with mitigations. CORE-54's job: pick the TOP FIVE and state test/mitigation/cut for
+each. Candidate top five from the register + today's decisions: (1) combat not
+enjoyable without rewards (gate: Phase A lab; cut: project pivot); (2) production
+feasibility unknown — CORE-20 unanswered (test: answer CORE-20 + slice velocity; cut:
+scope reduction); (3) friction budget stacking (test: Phase D percentile sim vs CORE-49
+targets; cut: raise rates/cheapen access); (4) scope explosion — 3 classes ×
+class-exclusive items × MMO-dense quests (mitigation: one-class slice, prove-then-
+multiply; cut: fewer frames/quests per zone); (5) endgame readability at intensity
+(test: density stress + readability laws review; cut: density budgets enforced).
+Market risk candidate: "RotMG clone/single-player MMO without a hook" perception.
+Propose five for designer reaction.
 
 ## Question status table
 
@@ -27,12 +34,19 @@ content (no universal defensive action; one ability slot). Likely a one-confirm 
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-52 | Approved and integrated into the GDD. |
-| **CORE-53** | **ACTIVE — no accepted answer.** |
-| CORE-54 onward | Unanswered. |
+| CORE-21 through CORE-53 | Approved and integrated into the GDD. |
+| **CORE-54** | **ACTIVE — no accepted answer.** |
+| CORE-55 onward | Unanswered. |
 
-The designer chose to continue past CORE-52 while CORE-17 through CORE-20 remain open.
-Continue at CORE-53 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-53 while CORE-17 through CORE-20 remain open.
+Continue at CORE-54 unless the designer chooses to return to an earlier open question.
+
+### CORE-53 — answered 2026-07-26 [L/P]
+
+First playable milestone = prototype spec Phase A no-reward combat lab with its
+standing exit gate. Additions: gate judged by fresh outside testers, never solely the
+builder [P]; every test pattern verified dodgeable at lowest intended movement speed
+[P]. Lab timeline awaits CORE-20.
 
 ### CORE-52 — answered 2026-07-26 [P]
 

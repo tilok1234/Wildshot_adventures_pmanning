@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-52; CORE-53 active  
+**Version:** Concept snapshot through CORE-53; CORE-54 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-53 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-54 is active.
 
 ## 1. Executive summary
 
@@ -636,8 +636,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-52:** approved and integrated into this GDD.
-- **CORE-53:** active and unanswered.
+- **CORE-21 through CORE-53:** approved and integrated into this GDD.
+- **CORE-54:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -673,5 +673,6 @@ Current interview state:
 | CORE-50 | [L/P] | Section 15 — accessibility baseline; no global difficulty setting; no M+K aim assist |
 | CORE-51 | [L/P] | Section 8 — the eight readability laws |
 | CORE-52 | [P] | Prototype spec and questionnaire — full vertical-slice content bill and gate questions |
+| CORE-53 | [L/P] | Prototype spec — Phase A combat lab confirmed as first milestone, with outside testers and baseline-speed checks |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

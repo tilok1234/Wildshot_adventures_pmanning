@@ -51,6 +51,8 @@ Prove that freely aimed projectile combat is enjoyable without rewards and can s
 
 Do not add large content or progression systems until testers voluntarily re-engage enemies, experiment with weapons, understand deaths, and report that movement, aiming, firing, autofire state, projectile placement, terrain collision, and hit feedback feel dependable.
 
+The gate is judged by at least a few fresh outside testers, never solely by whoever built the lab (CORE-53). Every test pattern must additionally be verified dodgeable at the lowest intended movement speed, not a comfortable mid-tier loadout.
+
 ## Phase B — Enemy and readability grammar
 
 Prototype reusable components:

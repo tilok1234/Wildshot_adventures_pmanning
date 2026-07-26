@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-27 (maintenance batch — desync fixes, falsifiers, effort model, tester pipeline; no interview answers changed. See notes/sessions/2026-07-27.md.)
+**Last updated:** 2026-07-27, evening session (PC) — **PROD-01 answered**: full-time capacity, 72 h/week scheduled / 40 h/week planning floor; CORE-20 hours band amended everywhere. Earlier same day: maintenance batch (desync fixes, falsifiers, effort model, tester pipeline). See notes/sessions/2026-07-27.md.
 
 ## Interview position
 
@@ -30,9 +30,9 @@ Next steps (designer to choose, in any order):
 > desyncs fixed; falsifiers recorded on CORE-33 ([L/T]) and the CORE-16/42 no-pity
 > and committed-instance baselines; gate-failure consequences pre-registered; a
 > pre-registered effort model + scope menu and a tester/market pipeline added to
-> the roadmap. **Pending designer inputs before Part II:** PROD-01 reliable weekly
-> floor, PROD-03 cash budget, and the scope-menu choice. Review recommendation:
-> lab before further Part II paper. Details: notes/sessions/2026-07-27.md.
+> the roadmap. **Pending designer inputs before Part II:** ~~PROD-01~~ (✅ answered
+> 2026-07-27, evening), PROD-03 cash budget, and the scope-menu choice. Review
+> recommendation: lab before further Part II paper. Details: notes/sessions/2026-07-27.md.
 
 ## Question status table
 
@@ -40,6 +40,17 @@ Next steps (designer to choose, in any order):
 |---|---|
 | **CORE-01 through CORE-55** | **ALL ANSWERED — Part I complete 2026-07-26.** |
 | CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
+| **PROD-01** | **Answered 2026-07-27 [P/T]** — full-time; 72 h/week scheduled, 40 h/week planning floor, self-correcting from logged hours. |
+
+### PROD-01 — answered 2026-07-27 [P/T] — first Part II production answer
+
+Full-time solo. Scheduled 72 h/week (five 8-hour weekdays + two 16-hour weekend days);
+**reliable planning floor 40 h/week** (the weekday core — what survives a bad month).
+Every effort-model figure divides by the floor; 72 is sprint ceiling, never the divisor.
+Self-correcting [T]: hours logged from Phase A day one; a 4-week rolling average below 40
+resets the floor to the measured value and re-derives the roadmap. Supersedes CORE-20's
+10–40 h/week band. Roadmap re-anchored: slice → Gate 2 ≈ 4–8.5 months at the floor
+(was 1.2–2.7 years at the assumed 10 h/week); full game ≈ 2.25–4.5 years.
 
 ### CORE-19 — answered 2026-07-26 [P] — completed Part I
 

@@ -9,7 +9,7 @@ All of Part I (CORE-01 through CORE-55) is answered. The former blockers resolve
 - first journey: ~40–80 focused hours to level cap + main quest (CORE-17 [P/T]);
 - endgame: open-ended collectathon, no endgame-only systems (CORE-18);
 - tone: colorful heroic fantasy with bite, clean-leaning E10+/T (CORE-19 [P]);
-- production: solo AI-orchestrated developer, Godot [P], 10–40 h/week planned to the low end, no deadline (gates are the discipline), custom tileset + sprite-generation pipeline (CORE-20).
+- production: solo AI-orchestrated developer, Godot [P], full-time — 40 h/week planning floor / 72 scheduled (CORE-20 as amended by PROD-01, 2026-07-27), no deadline (gates are the discipline), custom tileset + sprite-generation pipeline.
 
 **Gate: PASSED.** The project has an honest scope envelope.
 
@@ -127,9 +127,9 @@ Recorded before any build hours exist so Phase A velocity measurement has a fals
 | Overhead — integration, bugfix tax, doc upkeep (~20%) | 100 h | 230 h |
 | **Vertical slice total** | **~610 h** | **~1,400 h** |
 
-At the CORE-20 planning anchor (10 h/week ≈ 500 h/year): **roughly 1.2–2.7 years to Gate 2**; at a sustained 20 h/week, roughly 7–16 months.
+At the PROD-01 planning floor (40 h/week ≈ 2,000 h/year): **roughly 4–8.5 months to Gate 2**; at the full 72 h/week schedule, roughly 2–5 months. (Pre-PROD-01 anchors, kept for the record: the assumed 10 h/week gave 1.2–2.7 years; 20 h/week gave 7–16 months.)
 
-**Full-game extrapolation** (content scaling ~10–20× slice content for the 40–80-hour journey, plus two further classes with exclusive item families, raids/superbosses/endgame, supporting systems, and release work): roughly **4,500–9,000 hours** — about 9–17 years at 10 h/week, 4.5–9 at 20, 2–4.5 at an unsustainable 40. Calibration: Stardew Valley consumed ≈16,000 solo hours pre-AI for a smaller content bill.
+**Full-game extrapolation** (content scaling ~10–20× slice content for the 40–80-hour journey, plus two further classes with exclusive item families, raids/superbosses/endgame, supporting systems, and release work): roughly **4,500–9,000 hours** — about **2.25–4.5 years at the PROD-01 floor (40 h/week)**, 1.25–2.5 at the 72 h/week ceiling. (The pre-registration read 9–17 years because it assumed a 10 h/week side-project anchor; PROD-01's full-time correction — not any change to the hour estimates — is what moved the horizon.) Calibration: Stardew Valley consumed ≈16,000 solo hours pre-AI for a smaller content bill.
 
 **Scope menu (designer decision pending — blocks honest Gate 2 evaluation):**
 
@@ -138,7 +138,7 @@ At the CORE-20 planning anchor (10 h/week ≈ 500 h/year): **roughly 1.2–2.7 y
 3. **Raise the reliable capacity floor** (changes the divisor, nothing else).
 4. **Consciously accept the long horizon in writing** — legitimate for a no-deadline project, but Gate 2's "viable full-game plan" criterion then needs a stated definition of viable.
 
-**Pending designer inputs:** PROD-01 reliable weekly floor (the hours that survive a bad month — every year-figure above divides by this) and PROD-03 cash budget (Steam fee, subscriptions, music/SFX, capsule art, contingency).
+**Pending designer inputs:** PROD-01 ✅ answered 2026-07-27 (full-time; floor 40 h/week, schedule 72 — see the decision register). Still pending: PROD-03 cash budget (Steam fee, subscriptions, music/SFX, capsule art, contingency) and the scope-menu choice above.
 
 ## Tester and market pipeline (added 2026-07-27)
 

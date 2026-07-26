@@ -567,7 +567,7 @@ The intended worst case is explicitly acceptable: controller may end up suitable
 
 ### Production constraints [L/P]
 
-Wildshot Adventures is built by a solo developer who is highly proficient at orchestrating AI, with strong technical understanding and deep genre knowledge; production is AI-orchestrated across code, art, and content, with the developer as director, integrator, and designer. The engine is most likely Godot [P]. Abundant AI access removes tooling and asset-generation cost as a practical constraint; no contractor budget is assumed. Available time is 10–40 hours per week, with planning anchored to the low end. There is no deadline: the CORE-55 continuation gates, not dates, are the discipline mechanism.
+Wildshot Adventures is built by a solo developer who is highly proficient at orchestrating AI, with strong technical understanding and deep genre knowledge; production is AI-orchestrated across code, art, and content, with the developer as director, integrator, and designer. The engine is most likely Godot [P]. Abundant AI access removes tooling and asset-generation cost as a practical constraint; no contractor budget is assumed. Wildshot is the developer's full-time occupation (PROD-01, 2026-07-27): 72 hours per week are scheduled (five 8-hour weekdays plus two 16-hour weekend days), and the reliable planning floor is 40 hours per week — the weekday core, the number assumed to survive a bad month. Every plan-level figure divides by the floor, never the ceiling, and the floor self-corrects against logged hours from Phase A onward. There is no deadline: the CORE-55 continuation gates, not dates, are the discipline mechanism.
 
 A broad custom tileset and generation system (buildings, structures, tiles, props) already exists, and a matched enemy/player sprite generator is close to working — substantially de-risking solo art. Generated sprites must encode the readability laws from the start, generation tooling accelerates authoring without weakening the handcrafted-world rule, and production velocity remains a measured quantity through the lab and slice.
 
@@ -629,7 +629,7 @@ The project has not yet locked:
 - specific endgame content, superboss designs, and post-launch content cadence (the endgame's collectathon shape and no-endgame-only-systems rule are decided in CORE-18);
 - exact raid duration, wing lengths, section boundaries, checkpoint implementation, and skip-mechanic details (wing structure, player-controlled persistence, and the deterministic skip baseline are provisionally decided);
 - narrative specifics (tone, rating, and content boundaries are provisionally decided in CORE-19: colorful heroic fantasy with bite, clean-leaning E10+/T, no casino aesthetics);
-- detailed production planning and measured velocity (the hard constraints — solo, AI-orchestrated, Godot [P], 10–40 hours/week, no deadline, custom asset pipeline — are recorded in Section 15);
+- detailed production planning and measured velocity (the hard constraints — solo, AI-orchestrated, Godot [P], full-time with a 40 h/week planning floor (72 scheduled, PROD-01), no deadline, custom asset pipeline — are recorded in Section 15);
 - exact world-gate placement, regional difficulty ranges, higher-difficulty dungeon-version implementation, auto-travel destinations, unlock requirements, prices, cost scaling, manual-travel aids, and exact procedural-variation implementation;
 - enemy-specific and boss-specific encounter loops; skill activation, ability-specific animation commitments, detailed hitbox and collision geometry, aim assistance, exact weapon statistics and cadence ranges, final individual attack patterns, exceptional weapon mechanics, default autofire binding and HUD treatment, hit-feedback tuning, individual ability-item designs, and per-class ability-item pools;
 - exact stat values, growth curves, stat caps, the regeneration-stat decision, level curve, and equipment formulas (the baseline stat set itself is provisionally decided);
@@ -688,7 +688,7 @@ Current interview state:
 | CORE-53 | [L/P] | Prototype spec — Phase A combat lab confirmed as first milestone, with outside testers and baseline-speed checks |
 | CORE-54 | [L/P] | Risk register and questionnaire — top five risks ranked with test/mitigation/cut |
 | CORE-55 | [L/P] | Questionnaire and prototype spec — the two formal continuation gates |
-| CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, 10–40 h/week, no deadline |
+| CORE-20 | [L/P] | Section 15 — production constraints: solo, AI-orchestrated, Godot, full-time (40 h/week floor per PROD-01), no deadline |
 | CORE-17 | [P/T] | Section 12.4a — first-journey target: cap + main quest, roughly 40–80 focused hours |
 | CORE-18 | [L/P] | Section 12.4 — open-ended collectathon endgame; alts modest; no endgame-only systems |
 | CORE-19 | [P] | Tone and content boundaries — colorful heroic fantasy with bite; clean-leaning E10+/T; no casino aesthetics |

@@ -49,4 +49,4 @@ Named market runner-up: "RotMG clone / single-player MMO without a hook" percept
 
 ## Production feasibility status (updated 2026-07-26)
 
-CORE-20 is now answered: solo developer, AI-orchestrated production, Godot [P], 10–40 hours/week (planning anchored to the low end), no deadline with the CORE-55 gates as the discipline mechanism, and a custom tileset + sprite-generation pipeline substantially de-risking art. Feasibility moves from **unmeasured** to **bounded**: the remaining unknown is real velocity, measured through the Phase A lab and the vertical slice per Gate 2.
+CORE-20 is now answered: solo developer, AI-orchestrated production, Godot [P], full-time capacity (PROD-01, 2026-07-27: 72 h/week scheduled, 40 h/week reliable planning floor), no deadline with the CORE-55 gates as the discipline mechanism, and a custom tileset + sprite-generation pipeline substantially de-risking art. Feasibility moves from **unmeasured** to **bounded**: the remaining unknown is real velocity, measured through the Phase A lab and the vertical slice per Gate 2.

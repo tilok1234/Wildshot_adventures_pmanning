@@ -70,7 +70,7 @@
 
 ### Production
 - Post-launch content cadence; Early Access/demo strategy; Steam Deck viability outcome; controller final scope; measured velocity (the great remaining unknown — resolved only by building).
-- PROD-01 reliable weekly floor and PROD-03 cash budget — drafts pending designer numbers (see the roadmap's pre-registered effort model, added 2026-07-27).
+- PROD-01 ✅ answered 2026-07-27: full-time — 72 h/week scheduled, 40 h/week reliable planning floor, self-correcting against logged hours (see the decision register). PROD-03 cash budget — still pending designer numbers (see the roadmap's effort model).
 - The effort-model scope-menu decision (slice-as-v1.0 / shrink the bill / raise capacity / accept the long horizon in writing) — blocks honest Gate 2 "viable plan" evaluation.
 
 ## Settled — do not reopen casually

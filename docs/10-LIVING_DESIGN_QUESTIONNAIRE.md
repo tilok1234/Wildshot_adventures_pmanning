@@ -326,7 +326,7 @@ Supporting direction: [P] The developer may also release the game for free on it
 - **Skills:** highly proficient at orchestrating AI, with strong technical understanding and a lifetime of genre knowledge. Production is AI-orchestrated across code, art, and content, with the developer as director, integrator, and designer [L].
 - **Engine:** Godot, most likely [P] — a strong fit for a 2D top-down projectile game (free, lightweight, GDScript, solid 2D tooling), with high-level multiplayer available for the Phase E co-op gate.
 - **Budget:** abundant AI access effectively removes tooling and asset-generation cost as a constraint; no significant cash budget for contractors is assumed [P].
-- **Hours:** 10–40 hours per week, variable [L]. Planning guard: commitments and milestone estimates assume the low end (~10–15 h/week); the high end is upside, not the plan.
+- **Hours:** amended by PROD-01 (2026-07-27) — full-time: 72 hours/week scheduled (five 8-hour weekdays + two 16-hour weekend days), reliable planning floor 40 h/week [P/T]. The original 10–40 h/week variable band predated full-time status going on record. Planning guard unchanged in spirit: estimates use the floor, never the ceiling.
 - **Timeframe:** no deadline — a good game over a target date [L]. Guard: the CORE-55 continuation gates replace deadlines as the discipline mechanism; open-ended pacing must not mean open-ended checkpoints, and each gate is still evaluated honestly when reached.
 - **Asset pipeline:** a broad custom tileset and generation system already exists, covering buildings, structures, tiles, and props, and the developer is happy with it; a matched sprite generator for enemies and player characters is close to working [L/P]. This substantially de-risks solo art production.
 
@@ -3278,13 +3278,7 @@ Gate 2 cannot be evaluated until CORE-20 is answered. (Recorded 2026-07-26.)
 
 *Consider: Separate current capacity from hoped-for future capacity.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [P/T] Recorded 2026-07-27. **Team:** the solo developer (CORE-20) — director, integrator, and designer orchestrating AI across code, art, and content; the TileForge/Actor Forge asset pipeline is the developer's own tooling. **Capacity:** Wildshot is the full-time occupation. Scheduled 72 hours/week — five 8-hour weekdays plus two 16-hour weekend days. **Reliable planning floor: 40 hours/week** — the weekday core, the number assumed to survive a bad month (weekends are the first thing a bad month costs). Every effort-model year-figure divides by the floor; 72 is a sprint ceiling, never the divisor. **Self-correcting rule [T]:** hours are logged from Phase A day one; if any 4-week rolling average lands below 40, the floor resets to the measured average and the roadmap re-derives from it. Supersedes the CORE-20 hours band (10–40 h/week), recorded before full-time status was stated.
 
 **PROD-02. Which disciplines are missing or dependent on contractors, asset packs, or later hiring?** *\[Before scope\]*
 

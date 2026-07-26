@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-53 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-54 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-54 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-55 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-53; CORE-17 through CORE-20 open; CORE-54 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-54; CORE-17 through CORE-20 open; CORE-55 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -850,13 +850,17 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: For each risk, state an early test, mitigation, and cut option.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] The five largest risks, each with an early test, mitigation, and cut option:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+1. **Combat is not fun without rewards** (design, foundational). Test: the Phase A lab and its exit gate. Mitigation: iterate feel before any content exists. Cut: if the lab fails repeatedly, the project pivots or stops — the cheapest possible failure point.
+2. **Production feasibility is unmeasured** (production; CORE-20 open). Test: answer CORE-20, then measure real velocity through lab and slice. Mitigation: one-class slice, prove-then-multiply. Cut: scope reductions in planned order — fewer weapon frames, quests per zone, and dungeons before ever touching the core loop.
+3. **Friction stacking makes the no-pity grind feel cruel** (design/economy). Test: the Phase D percentile simulation against the CORE-49 target ranges. Mitigation: the friction budget, the p95 guardrail, and reward breadth. Cut: raise drop and portal rates or shorten access — never add pity.
+4. **Content multiplication: three classes × class-exclusive items × MMO-dense quests** (production). Test: slice velocity extrapolated to full scope. Mitigation: shared frameworks; one class proven deeply first. Cut: fewer frames and ability items per class and lower quest density before cutting classes.
+5. **Endgame intensity outruns readability** (design/technical). Test: density stress-tests under the eight readability laws with outside testers. Mitigation: effect budgets, telegraph hierarchy, explainable-death reviews. Cut: cap density — unreadable intensity is worse than lower intensity.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Named runner-up (market):** [P] The game reads as "a RotMG clone" or "a single-player MMO without a hook." Mitigation: the distinct pitch — permanent classes, authored handcrafted world, zero-to-hero recognition, equipment-as-build-system. Test: how outside slice testers describe the game unprompted.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+The full risk inventory remains in the Risk Register; this answer ranks the top of it. (Recorded 2026-07-26.)
 
 **CORE-55. What measurable results would justify continuing from prototype to vertical slice and from slice to full production?**
 

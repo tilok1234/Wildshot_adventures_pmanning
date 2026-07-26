@@ -9,22 +9,19 @@
 
 ## Active question
 
-**CORE-54 — What are the five largest design, technical, production, and market risks?**
+**CORE-55 — What measurable results would justify continuing from prototype to vertical
+slice and from slice to full production?**
 
-*Consider: For each risk, state an early test, mitigation, and cut option.*
+*Consider: Use observations and metrics such as no-reward enjoyment, readability, build
+distinction, grind satisfaction, and production velocity.*
 
-No answer has been accepted yet. The risk register (doc 02) already holds ~30 risks
-with mitigations. CORE-54's job: pick the TOP FIVE and state test/mitigation/cut for
-each. Candidate top five from the register + today's decisions: (1) combat not
-enjoyable without rewards (gate: Phase A lab; cut: project pivot); (2) production
-feasibility unknown — CORE-20 unanswered (test: answer CORE-20 + slice velocity; cut:
-scope reduction); (3) friction budget stacking (test: Phase D percentile sim vs CORE-49
-targets; cut: raise rates/cheapen access); (4) scope explosion — 3 classes ×
-class-exclusive items × MMO-dense quests (mitigation: one-class slice, prove-then-
-multiply; cut: fewer frames/quests per zone); (5) endgame readability at intensity
-(test: density stress + readability laws review; cut: density budgets enforced).
-Market risk candidate: "RotMG clone/single-player MMO without a hook" perception.
-Propose five for designer reaction.
+No answer has been accepted yet. Largely assembled already: Phase A exit gate (CORE-53)
+= the prototype→slice gate; CORE-52's slice gate questions = the slice→production gate.
+CORE-55's job: state both gates formally as measurable criteria, adding (a) build
+distinction (same encounters feel different across builds — Phase C), (b) production
+velocity measured during the slice extrapolates to a viable full-game plan under
+CORE-20 constraints, (c) readability metrics (explainable-death rate). Likely
+consolidation + confirm.
 
 ## Question status table
 
@@ -34,12 +31,20 @@ Propose five for designer reaction.
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-53 | Approved and integrated into the GDD. |
-| **CORE-54** | **ACTIVE — no accepted answer.** |
-| CORE-55 onward | Unanswered. |
+| CORE-21 through CORE-54 | Approved and integrated into the GDD. |
+| **CORE-55** | **ACTIVE — no accepted answer.** |
+| Part I after CORE-55 | Complete once CORE-55 and open CORE-17–20 are answered. |
 
-The designer chose to continue past CORE-53 while CORE-17 through CORE-20 remain open.
-Continue at CORE-54 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-54 while CORE-17 through CORE-20 remain open.
+Continue at CORE-55 unless the designer chooses to return to an earlier open question.
+
+### CORE-54 — answered 2026-07-26 [L/P]
+
+Top five risks with test/mitigation/cut (detail in Risk Register): no-reward fun (Phase
+A gate); production feasibility unmeasured (CORE-20 + velocity); friction stacking
+(percentile sim, never pity); content multiplication (one class first, cut density
+before classes); endgame readability (stress-tests under the eight laws, cap density).
+Market runner-up: clone-without-a-hook perception.
 
 ### CORE-53 — answered 2026-07-26 [L/P]
 

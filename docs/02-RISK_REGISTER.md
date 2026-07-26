@@ -35,6 +35,18 @@
 | Save integrity and character persistence fail | Low/Medium | Critical | Lost/corrupted progression, especially with co-op | Stable IDs, versioned saves, backups, migration tests, disconnect tests |
 | Market identity becomes "RotMG clone" or "single-player MMO" without a clear hook | Medium | Medium/High | Testers describe only the references | Preserve distinct world, classes, quests, loot philosophy, and zero-to-hero structure |
 
+## Top five risks (CORE-54, 2026-07-26)
+
+Ranked from the full inventory above, each with test / mitigation / cut:
+
+1. **Combat not fun without rewards** — Phase A lab gate / iterate feel first / pivot or stop if the lab fails repeatedly.
+2. **Production feasibility unmeasured (CORE-20 open)** — answer CORE-20 + measure lab/slice velocity / one-class prove-then-multiply / planned scope-reduction order before touching the core loop.
+3. **Friction stacking under no-pity RNG** — Phase D percentile simulation vs CORE-49 targets / friction budget + p95 guardrail + reward breadth / raise rates or shorten access, never add pity.
+4. **Content multiplication (3 classes × exclusive items × dense quests)** — slice velocity extrapolation / shared frameworks, one class first / fewer frames and lower density before cutting classes.
+5. **Endgame intensity outruns readability** — density stress-tests under the eight readability laws with outside testers / effect budgets + telegraph hierarchy + explainable-death review / cap density.
+
+Named market runner-up: "RotMG clone / single-player MMO without a hook" perception — mitigated by the distinct pitch; tested by how outside slice testers describe the game unprompted.
+
 ## Highest-priority unknown risk
 
 **Production feasibility cannot be rated properly until CORE-20 is answered.** Team size, engine, available skills, budget, weekly hours, and target timeframe may change the entire roadmap.

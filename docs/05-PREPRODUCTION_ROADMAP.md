@@ -1,6 +1,6 @@
 # Wildshot Adventures — Pre-production Roadmap
 
-**Status:** Recommended sequence. It does not assign dates or assume team capacity that has not been discussed.
+**Status:** Recommended sequence. Dates remain unset — the CORE-55 gates, not dates, are the discipline mechanism — but the pre-registered effort model below (added 2026-07-27) gives velocity measurement a falsifiable baseline against the CORE-20 capacity constraints.
 
 ## Stage 0 — Finish plan-blocking core questions ✅ COMPLETE (2026-07-26)
 
@@ -111,6 +111,34 @@ Only after the slice succeeds:
 - schedule classes, regions, quests, dungeons, bosses, raids, and polish;
 - decide Early Access/demo strategy;
 - revisit co-op commitment and platform expansion.
+
+## Pre-registered effort model (added 2026-07-27) [T]
+
+Recorded before any build hours exist so Phase A velocity measurement has a falsifiable baseline. Assumes strong AI leverage on code and asset generation and human-paced feel iteration, tuning, playtesting, and integration. Attack the inputs, then replace them with measured actuals.
+
+| Stage | Optimistic | Pessimistic |
+|---|---|---|
+| Phase A — combat lab | 60 h | 150 h |
+| Phase B — readability grammar | 40 h | 100 h |
+| Phase C — build grammar | 40 h | 100 h |
+| Phase D — progression/loot mini-loop | 80 h | 200 h |
+| Phase E — co-op network gate | 40 h | 120 h |
+| Stages 8–9 — slice content (zone, hub, quests, faction set, art, audio, UI, CORE-50 baseline, tuning, playtests) | 250 h | 500 h |
+| Overhead — integration, bugfix tax, doc upkeep (~20%) | 100 h | 230 h |
+| **Vertical slice total** | **~610 h** | **~1,400 h** |
+
+At the CORE-20 planning anchor (10 h/week ≈ 500 h/year): **roughly 1.2–2.7 years to Gate 2**; at a sustained 20 h/week, roughly 7–16 months.
+
+**Full-game extrapolation** (content scaling ~10–20× slice content for the 40–80-hour journey, plus two further classes with exclusive item families, raids/superbosses/endgame, supporting systems, and release work): roughly **4,500–9,000 hours** — about 9–17 years at 10 h/week, 4.5–9 at 20, 2–4.5 at an unsustainable 40. Calibration: Stardew Valley consumed ≈16,000 solo hours pre-AI for a smaller content bill.
+
+**Scope menu (designer decision pending — blocks honest Gate 2 evaluation):**
+
+1. **Slice-as-v1.0:** ship the CORE-52 slice scope as a small premium game; the MMO-scale world becomes the expansion path that exists only if strangers pay for and replay the seed.
+2. **Shrink the content bill:** shorter first journey, fewer/smaller zones, two classes, raids as post-launch expansion.
+3. **Raise the reliable capacity floor** (changes the divisor, nothing else).
+4. **Consciously accept the long horizon in writing** — legitimate for a no-deadline project, but Gate 2's "viable full-game plan" criterion then needs a stated definition of viable.
+
+**Pending designer inputs:** PROD-01 reliable weekly floor (the hours that survive a bad month — every year-figure above divides by this) and PROD-03 cash budget (Steam fee, subscriptions, music/SFX, capsule art, contingency).
 
 ## Scope rules throughout
 

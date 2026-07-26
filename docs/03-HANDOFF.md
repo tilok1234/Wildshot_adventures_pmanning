@@ -1,6 +1,6 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
-**Handoff date:** 2026-07-26 (evening — supersedes all earlier handoffs)  
+**Handoff date:** 2026-07-26 (evening — supersedes all earlier handoffs); amended 2026-07-27 with maintenance commits (see notes/sessions/2026-07-27.md)  
 **Project stage:** Guided concept definition / early pre-production  
 **Interview position:** **Part I is COMPLETE — CORE-01 through CORE-55 are all answered.** CORE-14 remains provisional/prototype-gated (co-op depends on the Phase E network test).
 
@@ -37,9 +37,10 @@ If the new session cannot access the repository directly, ask the designer to gr
 
 ## Next steps (designer to choose)
 
-1. **Part II — combat and controls module questions** (they spec the Phase A lab in detail).
-2. **Start building the Phase A combat laboratory in Godot** — the spec is ready; interview and lab can run in parallel, with lab findings feeding [T] answers.
-3. Any remaining doc polish; the companion docs were refreshed 2026-07-26 and currently agree.
+1. **Answer the numbers (added 2026-07-27):** confirm the reliable weekly floor (PROD-01), the cash budget (PROD-03), and pick from the roadmap effort model's scope menu — the 2026-07-26 external review found this is the plan's only missing dimension, and it blocks honest Gate 2 evaluation.
+2. **Part II — combat and controls module questions** (they spec the Phase A lab in detail).
+3. **Start building the Phase A combat laboratory in Godot** — the spec is ready; interview and lab can run in parallel, with lab findings feeding [T] answers. External-review note (2026-07-27): recommendation is lab before further Part II paper — pre-lab answers deepen lock-in against lab evidence.
+4. Any remaining doc polish; the companion docs were refreshed 2026-07-26 and re-synced 2026-07-27.
 
 ## How to conduct the interview (unchanged method)
 

@@ -43,7 +43,7 @@ CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement
 
 Do not add progression rewards until the no-reward combat test passes.
 
-**Gate (CORE-53/55 Gate 1):** Fresh outside testers — never solely the builder — voluntarily re-engage for 20+ minutes with zero rewards; every death is explainable; every pattern is dodgeable at the lowest intended movement speed; controls, collision, and feedback feel dependable; the frames change how testers fight. Repeated failure means pivot or stop.
+**Gate (CORE-53/55 Gate 1):** Fresh outside testers — never solely the builder — voluntarily re-engage for 20+ minutes with zero rewards; every death is explainable; every pattern is dodgeable at the lowest intended movement speed; controls, collision, and feedback feel dependable; the frames change how testers fight. Repeated failure means pivot or stop. Pre-registered consequence order (2026-07-27): repeated failure first unlocks CORE-33, then CORE-32 determinism details, then the frame roster — before any pivot/stop decision (see decision register).
 
 ## Stage 3 — Enemy, projectile, and readability grammar
 
@@ -99,7 +99,7 @@ The slice should demonstrate the full promise in miniature:
 
 The full content bill is decided in CORE-52 (Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, one zone + hub, 8–10 enemy types, complete portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, one authored secret, ~3–5 hours plus repeatable farm).
 
-**Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order.
+**Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order. Pre-registered order (2026-07-27): slice-as-v1.0 → shrink the content bill → raise reliable capacity (see the effort model below and the decision register).
 
 ## Stage 10 — Production planning
 

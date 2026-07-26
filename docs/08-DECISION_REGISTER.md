@@ -66,6 +66,13 @@ This register is the quickest way to determine what is actually decided.
 | CORE-54 | [L/P] | Top five risks ranked with test/mitigation/cut (full detail in the Risk Register): (1) combat not fun without rewards — Phase A gate, pivot/stop if it fails; (2) production feasibility unmeasured — answer CORE-20, measure velocity, planned scope-cut order; (3) friction stacking under no-pity RNG — percentile sim vs CORE-49 targets, raise rates never pity; (4) content multiplication — slice-velocity extrapolation, one class first, cut density before classes; (5) endgame intensity vs readability — density stress-tests under the eight laws, cap density. Market runner-up: clone-without-a-hook perception, tested by unprompted tester descriptions. |
 | CORE-55 | [L/P] | Two formal continuation gates. Gate 1 (lab→slice): outside testers voluntarily re-engage 20+ min with zero rewards; explainable deaths; lowest-speed dodgeability; dependable controls; frames change how testers fight — repeated failure means pivot or stop. Gate 2 (slice→production): voluntary post-completion boss farming; dry streaks read as dedication; level gap reads as invitation; explainable-death rate high at density; build distinction across builds/frames; and slice production velocity extrapolates to a viable full-game plan under CORE-20 constraints — failure means planned-order scope cuts. Gate 2 is unevaluable until CORE-20 is answered. |
 
+## Pre-registered gate-failure consequences (2026-07-27) [P]
+
+Recorded while no build sunk cost exists, so future gate evaluations stay honest by construction:
+
+- **Gate 1 (Phase A lab) repeated failure** unlocks, in order, before any pivot/stop decision: CORE-33 (movement-only dodging — see its falsifier), CORE-32 pattern-determinism details, and the weapon-frame roster.
+- **Gate 2 (slice) velocity failure** triggers the roadmap effort model's scope menu in order: slice-as-v1.0 → shrink the content bill → raise reliable capacity. CORE-55's "failure means planned-order scope cuts" now names its order.
+
 ## Locked cross-system rules
 
 - All content and progression must remain solo-completable.

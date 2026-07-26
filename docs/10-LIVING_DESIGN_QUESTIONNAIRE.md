@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-40 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-41 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-41 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-42 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-40; CORE-17 through CORE-20 open; CORE-41 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-41; CORE-17 through CORE-20 open; CORE-42 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -654,11 +654,17 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Attack patterns, positioning, skill interactions, resource rules, defensive plans, and build identity versus pure number increases.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] Equipment is the build system. A loadout—weapon pattern, ability item, armor archetype, and ring—changes where the player stands, how they engage, which roles they cover, and what content they can attempt, not merely their numbers. Behaviour lives in the weapon, the ability item, behaviour-changing tree nodes, and uniques; numeric power lives in armor, rings, and tiers (synthesis of CORE-32/34/37/40).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Tiering rule:** [L/P] Ordinary tier upgrades within a weapon frame preserve a familiar style while improving numerically (per CORE-32); behaviour changes come from switching frames or ability items and from uniques. Grinding therefore climbs a dependable ladder, while the exciting swings belong to frames and uniques.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Side-grade rule:** [P] Within a tier, a class's different weapon frames and ability items are situational side-grades rather than a strict ranking, so "which frame" remains a real choice at every tier.
+
+**Felt steps:** [P] Tier upgrades arrive in chunky, noticeable steps rather than incremental dribble; a new tier should be felt in play.
+
+**Itemization readability:** [P] An item's behaviour is clearly communicated before it is farmed—descriptions and previews state what a frame or ability actually does—so targeted hunts are chosen knowledgeably. Surprise belongs to discovering that an item exists, not to discovering what it does after grinding for it.
+
+**Deferred detail:** [U] Exact tier counts, step sizes, per-frame balance, and preview or interface implementation remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-42. How does a player deliberately acquire a desired important item?**
 

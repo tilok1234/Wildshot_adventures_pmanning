@@ -9,20 +9,21 @@
 
 ## Active question
 
-**CORE-41 — How should equipment change play?**
+**CORE-42 — How does a player deliberately acquire a desired important item?**
 
-*Consider: Attack patterns, positioning, skill interactions, resource rules, defensive
-plans, and build identity versus pure number increases.*
+*Consider: Random direct drop, guaranteed tokens, crafting, selectable rewards, pity,
+duplicate conversion, or a combination.*
 
-No answer has been accepted yet. NOTE: heavily pre-answered by today's decisions —
-weapons change positioning via patterns (CORE-32), the ability item IS the active
-(CORE-34), armor archetypes trade offense/defense (CORE-37), rings are situational
-(CORE-37), uniques may break rules (CORE-37/40). CORE-41's remaining job is mostly to
-confirm the synthesis: equipment is THE build system — a loadout (weapon pattern ×
-ability × armor archetype × ring) should change where you stand, how you engage, and
-what you can attempt, not just numbers. Possible remaining nuance: how much tiered
-(non-unique) gear within a class should vary behaviour vs stay familiar-but-stronger
-(CORE-32 said standard tiers may preserve a familiar style while improving numerically).
+No answer has been accepted yet. Heavily pre-answered: targeted farming of learnable,
+authored sources (pillar 3); portals from associated enemies (CORE-06A); uniques only
+from named sources (CORE-08A); independent rolls, no pity ever (CORE-16 + refinement 1:
+breadth via cosmetic/collection drops instead); quest uniques as guaranteed authored
+rewards [P]; crafting cannot produce combat gear (CORE-25); dry-streak mitigation =
+cheap attempt cadence + reward breadth. Remaining to decide: DUPLICATE HANDLING (convert
+dupes to something? currency/cosmetic credit?), whether any guaranteed-token or
+selectable-reward mechanism exists for anything besides quest uniques, and whether
+tiered (non-unique) gear needs a deterministic catch-up path (vendors?). Ties into the
+CORE-39 faction-vendor idea.
 
 ## Question status table
 
@@ -32,12 +33,22 @@ what you can attempt, not just numbers. Possible remaining nuance: how much tier
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-40 | Approved and integrated into the GDD. |
-| **CORE-41** | **ACTIVE — no accepted answer.** |
-| CORE-42 onward | Unanswered. |
+| CORE-21 through CORE-41 | Approved and integrated into the GDD. |
+| **CORE-42** | **ACTIVE — no accepted answer.** |
+| CORE-43 onward | Unanswered. |
 
-The designer chose to continue past CORE-40 while CORE-17 through CORE-20 remain open.
-Continue at CORE-41 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-41 while CORE-17 through CORE-20 remain open.
+Continue at CORE-42 unless the designer chooses to return to an earlier open question.
+
+### CORE-41 — answered 2026-07-26 [L/P]
+
+Equipment is the build system: loadout (weapon pattern × ability item × armor archetype
+× ring) changes positioning, engagement, roles, and attemptable content — not just
+numbers. Tiering rule: ordinary tiers preserve a familiar style while improving
+numerically; behaviour swings come from frames, ability items, uniques. Additions
+(assistant-proposed, designer-invited): side-grade rule (frames within a tier are
+situational alternatives, not a ranking) [P]; chunky felt tier steps [P]; itemization
+readability (behaviour communicated before farming) [P].
 
 ### CORE-40 — answered 2026-07-26 [L/P]
 

@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-40; CORE-41 active  
+**Version:** Concept snapshot through CORE-41; CORE-42 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-41 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-42 is active.
 
 ## 1. Executive summary
 
@@ -216,6 +216,8 @@ The equipped loadout uses four slots: **weapon, ability item, armor, and ring**.
 
 Unique items in any slot may carry special effects and behaviours beyond statistics [P]: baseline gear stays statistically readable, uniques stay exciting.
 
+Equipment is the build system [L/P]: a loadout—weapon pattern, ability item, armor archetype, and ring—changes where the player stands, how they engage, which roles they cover, and what content they can attempt, not merely their numbers. An item's behaviour is clearly communicated before it is farmed, so targeted hunts are chosen knowledgeably [P]: surprise belongs to discovering that an item exists, not to discovering what it does after grinding for it.
+
 ### Statistic set [L/P]
 
 The baseline statistic set is deliberately lean: **health, mana, damage, attack speed, range, armor/defense, and movement speed**, with health and mana regeneration as candidate additional stats [P]. Damage, attack speed, and range are weapon-led; health and mana grow with class and level; movement speed is the premier handling statistic and needs deliberately tuned sources and caps.
@@ -231,6 +233,8 @@ Harder content generally provides statistically stronger equipment. The exact st
 Tiered weapons and equipment form the dependable vertical power ladder. They may drop from normal enemies, elites, chests, world bosses, dungeons, raids, and other appropriate sources. The maximum tier follows the source's difficulty and progression level.
 
 Bosses may drop tiered equipment as baseline rewards in addition to unique-item chances.
+
+Ordinary tier upgrades within a weapon frame preserve a familiar style while improving numerically; behaviour changes come from switching frames or ability items and from uniques [L/P]. Within a tier, a class's different frames and ability items are situational side-grades rather than a strict ranking [P], and tier upgrades arrive in chunky, felt steps rather than incremental dribble [P].
 
 ### Cosmetic and collection drops [P]
 
@@ -569,8 +573,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-40:** approved and integrated into this GDD.
-- **CORE-41:** active and unanswered.
+- **CORE-21 through CORE-41:** approved and integrated into this GDD.
+- **CORE-42:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -594,5 +598,6 @@ Current interview state:
 | CORE-38 | [P] | Section 18 and prototype spec — vertical-slice scope (one class, Archer provisional) |
 | CORE-39 | [L/P] | Sections 3 and 9 — character levels, level gates, points-deep tree, cap, faction direction |
 | CORE-40 | [L/P] | Section 9 — lean statistic set with intentional exclusions |
+| CORE-41 | [L/P] | Sections 9 and 10 — equipment as the build system; tier, side-grade, and readability rules |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

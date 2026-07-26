@@ -12,14 +12,14 @@
 </tbody>
 </table>
 
-Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-46 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-47 active — updated July 26, 2026
+Living interview copy — CORE-01 through CORE-16 and CORE-21 through CORE-47 answered; CORE-14 remains provisional/test-gated; CORE-17 through CORE-20 open; CORE-48 active — updated July 26, 2026
 
 **Recommended workflow: Core pass -\> Prototype questions -\> System modules -\> Planning summary**
 
 | **Project / working title** | Wildshot Adventures                                                    |
 |-----------------------------|------------------------------------------------------------------------|
 | **Designer / team**         |                                                                        |
-| **Document version**        | Living interview — through CORE-46; CORE-17 through CORE-20 open; CORE-47 active — July 26, 2026 |
+| **Document version**        | Living interview — through CORE-47; CORE-17 through CORE-20 open; CORE-48 active — July 26, 2026 |
 | **Date started**            |                                                                        |
 | **Primary engine**          |                                                                        |
 | **Current project stage**   |                                                                        |
@@ -744,9 +744,13 @@ Supporting direction: [P] The developer may also release the game for free on it
 
 *Consider: Recognition, services, upgrades, social context, transport, crafting, or persistent visual progress.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [L/P] The world uses several major hubs, deliberately fewer than one per zone. Hubs are full-service anchors: faction vendors, crafting commissions, quest givers, auto-travel destinations, and stash access. Whether one hub additionally serves as a narrative capital and recognition centerpiece remains open [U]. Settlements outside the hub set remain authored locations with their established rules (CORE-25/30).
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Stash:** [L/P] A stash/bank exists in hubs and is strictly per-character — never shared between characters. Each character is its own journey: no muling, twinking, or cross-character item funneling. This aligns with the locked rule that important rewards are personally obtainable.
+
+**Recognition presentation:** [P] Hubs are the stage where the zero-to-hero rise becomes visible. NPC greetings and behaviour, available improvements, and settlement states escalate with the player's progression, and selected quests may also alter hub and settlement states (extending CORE-25's authored-changes rule). The exact recognition beats, NPC behaviour tiers, and quest-driven alterations remain unresolved.
+
+**Deferred detail:** [U] Hub count and placement, exact service rosters, stash size and interface, the possible capital, and recognition implementation remain unresolved. (Recorded 2026-07-26.)
 
 **CORE-48. What is the purpose of crafting, gathering, and automation?**
 

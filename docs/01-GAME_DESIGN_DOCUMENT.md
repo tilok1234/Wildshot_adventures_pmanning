@@ -1,8 +1,8 @@
 # Wildshot Adventures — Living Game Design Document
 
-**Version:** Concept snapshot through CORE-46; CORE-47 active  
+**Version:** Concept snapshot through CORE-47; CORE-48 active  
 **Date:** 2026-07-26  
-**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-47 is active.
+**Status:** Guided concept definition / early pre-production; CORE-17 through CORE-20 remain open and CORE-48 is active.
 
 ## 1. Executive summary
 
@@ -513,6 +513,14 @@ The world is MMO-style quest-dense [P], with density numbers deferred to product
 
 Guards [L/P]: faction rewards stay at the vendor, quality-of-life, and cosmetic tier—never mandatory for core progression; faction quest sets are finite authored content with no repeatable quest experience; major quest rewards remain deterministic guaranteed rewards, with randomness acceptable only as minor-quest spice.
 
+### Hubs, stash, and recognition [L/P]
+
+The world uses several major hubs, deliberately fewer than one per zone [P]. Hubs are full-service anchors: faction vendors, crafting commissions, quest givers, auto-travel destinations, and stash access. Whether one hub additionally serves as a narrative capital remains open.
+
+A stash/bank exists in hubs and is strictly per-character — never shared between characters [L/P]. Each character is its own journey: no muling, twinking, or cross-character funneling, consistent with the rule that important rewards are personally obtainable.
+
+Hubs are the stage where the zero-to-hero rise becomes visible [P]: NPC greetings and behaviour, available improvements, and settlement states escalate with progression, and selected quests may also alter hub and settlement states. Hub count, placement, service rosters, stash details, and recognition implementation remain unresolved.
+
 ## 14. Knowledge as progression [L]
 
 Endgame success should require more than reflexes or gear score. Players should gradually learn:
@@ -616,8 +624,8 @@ Current interview state:
 
 - **CORE-01 through CORE-16:** recorded.
 - **CORE-17 through CORE-20:** still open. CORE-18 has later constraints established by CORE-24, but its exact replay/endgame structure remains unresolved.
-- **CORE-21 through CORE-46:** approved and integrated into this GDD.
-- **CORE-47:** active and unanswered.
+- **CORE-21 through CORE-47:** approved and integrated into this GDD.
+- **CORE-48:** active and unanswered.
 
 | CORE | Status | Where the approved decision is integrated |
 |---|---|---|
@@ -647,5 +655,6 @@ Current interview state:
 | CORE-44 | [L/P] | Section 8 — ordinary pack design: role grammar, priority targets, pulling, frame showcase |
 | CORE-45 | [L/P] | Section 11 — tier roles; dungeons optional-but-best-rewarding with milestone exceptions |
 | CORE-46 | [L/P] | Section 13 — quests and factions: main quest with level gaps, dense quests, faction sets |
+| CORE-47 | [L/P] | Section 13 — several major hubs, per-character stash, escalating recognition |
 
 The Decision Register and Living Design Questionnaire retain the full per-question records. This GDD integrates approved decisions by design topic instead of duplicating the entire interview transcript.

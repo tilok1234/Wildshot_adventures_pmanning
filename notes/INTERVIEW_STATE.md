@@ -9,20 +9,19 @@
 
 ## Active question
 
-**CORE-47 — What is the purpose of the main hub, factions, or settlement?**
+**CORE-48 — What is the purpose of crafting, gathering, and automation?**
 
-*Consider: Recognition, services, upgrades, social context, transport, crafting, or
-persistent visual progress.*
+*Consider: Deterministic gear, consumables, hub growth, resource conversion, or retiring
+routine labor.*
 
-No answer has been accepted yet. Substantially pre-answered: settlements are authored,
-not player-managed, but may change through quests/victories/events (CORE-25); cities are
-auto-travel destinations with no special recall status (CORE-30); faction vendors sell
-catch-up gear (CORE-42) and QoL/cosmetic rewards (CORE-39/46); crafting is a
-commission-style in-world presentation (CORE-25); collection lives in menus, not
-physical displays (CORE-25); world recognition through authored changes + factions.
-Remaining: whether ONE main hub exists vs several regional hubs; which services cluster
-where (vendors, crafting, quest boards?, respec?); recognition presentation in hubs
-(NPC reactions, titles, statues?).
+No answer has been accepted yet. Almost fully pre-answered by CORE-25: crafting =
+limited deterministic commission-style exchange for non-combat rewards only (no combat
+gear/power/consumables/buffs, not a leveled profession); gathering = fishing + foraging
+only, each with its own level and rare-collection grind, primarily cosmetic/collection
+rewards; no automation systems planned (no idle/automated production — consistent with
+anti-pillars). CORE-48's job: confirm the synthesis + explicitly answer the
+"automation" part (likely: none — active play only), and any additions (e.g. gathering
+feeding crafting = already established).
 
 ## Question status table
 
@@ -32,12 +31,20 @@ where (vendors, crafting, quest boards?, respec?); recognition presentation in h
 | CORE-17 | Open. Frame as **first character's journey to endgame**, not "campaign". No numerical duration locked. |
 | CORE-18 | Open. Constrained by CORE-24's locked endgame direction. |
 | CORE-19, CORE-20 | Open, unanswered. |
-| CORE-21 through CORE-46 | Approved and integrated into the GDD. |
-| **CORE-47** | **ACTIVE — no accepted answer.** |
-| CORE-48 onward | Unanswered. |
+| CORE-21 through CORE-47 | Approved and integrated into the GDD. |
+| **CORE-48** | **ACTIVE — no accepted answer.** |
+| CORE-49 onward | Unanswered. |
 
-The designer chose to continue past CORE-46 while CORE-17 through CORE-20 remain open.
-Continue at CORE-47 unless the designer chooses to return to an earlier open question.
+The designer chose to continue past CORE-47 while CORE-17 through CORE-20 remain open.
+Continue at CORE-48 unless the designer chooses to return to an earlier open question.
+
+### CORE-47 — answered 2026-07-26 [L/P]
+
+Several major hubs (fewer than one per zone) as full-service anchors: faction vendors,
+crafting commissions, quest givers, auto-travel, stash. Possible narrative capital open
+[U]. Stash strictly per-character — no sharing/muling; each character is its own
+journey. Recognition staged in hubs [P]: NPC behaviour, improvements, settlement states
+escalate with progression; selected quests may alter hub states.
 
 ### CORE-46 — answered 2026-07-26 [L/P]
 

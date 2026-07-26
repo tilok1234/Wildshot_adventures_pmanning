@@ -147,7 +147,7 @@ At the PROD-01 planning floor (40 h/week ≈ 2,000 h/year): **roughly 4–8.5 mo
 3. **Raise the reliable capacity floor** (changes the divisor, nothing else).
 4. **Consciously accept the long horizon in writing** — legitimate for a no-deadline project, but Gate 2's "viable full-game plan" criterion then needs a stated definition of viable.
 
-**Pending designer inputs:** PROD-01 ✅ answered 2026-07-27 (full-time; floor 40 h/week, schedule 72 — see the decision register). Still pending: PROD-03 cash budget (Steam fee, subscriptions, music/SFX, capsule art, contingency) and the scope-menu choice above.
+**Pending designer inputs:** PROD-01 ✅ and PROD-03 ✅ answered 2026-07-27 (full-time, floor 40 h/week / 72 scheduled; cash unconstrained, music/SFX/store art self-produced, audio pipeline bound to Law 7 from the start — see the decision register). Still pending: the scope-menu choice above.
 
 ## Tester and market pipeline (added 2026-07-27)
 

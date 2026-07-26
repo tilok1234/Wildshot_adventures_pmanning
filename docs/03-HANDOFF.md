@@ -37,7 +37,7 @@ If the new session cannot access the repository directly, ask the designer to gr
 
 ## Next steps (designer to choose)
 
-1. **Answer the numbers (added 2026-07-27):** PROD-01 ✅ answered 2026-07-27 (full-time; 40 h/week floor / 72 scheduled). Remaining: the cash budget (PROD-03) and the scope-menu pick — these still gate honest Gate 2 evaluation.
+1. **Answer the numbers (added 2026-07-27):** PROD-01 ✅ and PROD-03 ✅ answered 2026-07-27 (full-time, 40 h/week floor / 72 scheduled; cash unconstrained, all asset classes self-produced). Remaining: **the scope-menu pick** — the last input gating honest Gate 2 evaluation.
 2. **Part II — combat and controls module questions** (they spec the Phase A lab in detail).
 3. **Start building the Phase A combat laboratory in Godot** — the spec is ready; interview and lab can run in parallel, with lab findings feeding [T] answers. External-review note (2026-07-27): recommendation is lab before further Part II paper — pre-lab answers deepen lock-in against lab evidence.
 4. Any remaining doc polish; the companion docs were refreshed 2026-07-26 and re-synced 2026-07-27.

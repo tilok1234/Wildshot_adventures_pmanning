@@ -1,7 +1,7 @@
 # Wildshot Adventures — Decision Register
 
 **Snapshot:** 2026-07-27  
-**Decided range:** CORE-01 through CORE-55 — Part I complete; CORE-14 remains prototype-gated. Part II production module underway: PROD-01 answered 2026-07-27.  
+**Decided range:** CORE-01 through CORE-55 — Part I complete; CORE-14 remains prototype-gated. Part II production module underway: PROD-01 and PROD-03 answered 2026-07-27.  
 **Interview position:** Part I finished 2026-07-26; the interview proceeds to Part II modules alongside the Phase A combat laboratory.
 
 This register is the quickest way to determine what is actually decided.
@@ -66,6 +66,7 @@ This register is the quickest way to determine what is actually decided.
 | CORE-54 | [L/P] | Top five risks ranked with test/mitigation/cut (full detail in the Risk Register): (1) combat not fun without rewards — Phase A gate, pivot/stop if it fails; (2) production feasibility unmeasured — answer CORE-20, measure velocity, planned scope-cut order; (3) friction stacking under no-pity RNG — percentile sim vs CORE-49 targets, raise rates never pity; (4) content multiplication — slice-velocity extrapolation, one class first, cut density before classes; (5) endgame intensity vs readability — density stress-tests under the eight laws, cap density. Market runner-up: clone-without-a-hook perception, tested by unprompted tester descriptions. |
 | CORE-55 | [L/P] | Two formal continuation gates. Gate 1 (lab→slice): outside testers voluntarily re-engage 20+ min with zero rewards; explainable deaths; lowest-speed dodgeability; dependable controls; frames change how testers fight — repeated failure means pivot or stop. Gate 2 (slice→production): voluntary post-completion boss farming; dry streaks read as dedication; level gap reads as invitation; explainable-death rate high at density; build distinction across builds/frames; and slice production velocity extrapolates to a viable full-game plan under CORE-20 constraints — failure means planned-order scope cuts. Gate 2 is unevaluable until CORE-20 is answered. |
 | PROD-01 | [P/T] | Team and capacity (answered 2026-07-27 — first Part II production answer): solo developer per CORE-20, with Wildshot as the full-time occupation. Scheduled capacity 72 h/week (five 8-hour weekdays + two 16-hour weekend days); **reliable planning floor 40 h/week** — the weekday core that survives a bad month. Every effort-model figure divides by the floor; 72 is sprint ceiling, never the divisor. Self-correcting [T]: hours logged from Phase A day one; any 4-week rolling average below 40 resets the floor to the measured value and re-derives the roadmap. Supersedes CORE-20's 10–40 h/week band (recorded before full-time status was stated). |
+| PROD-03 | [P] | Budget (answered 2026-07-27): cash is not a project constraint. AI subscriptions already running and ample (the actual production engine); Steam Direct fee trivially payable. No contractor spend anywhere: music/SFX self-produced (audio pipeline planning started 2026-07-27) and store/capsule art self-produced. No ceiling needed at current scope. Consequence: the audio pipeline inherits the forge rule — it must encode readability Law 7 (audio as the eyes-closed second channel) and the CORE-50 audio baseline (separate channels, key threats audible) from the start. Sustainability assumption with falsifier: full-time capacity is financially sustainable across the 2.25–4.5-year horizon with no income pressure imposing a de-facto deadline; if that stops being true, PROD-01 and the scope menu re-open by rule. |
 
 ## Pre-registered gate-failure consequences (2026-07-27) [P]
 
@@ -138,7 +139,7 @@ Recorded while no build sunk cost exists, so future gate evaluations stay honest
 
 The following remain open (rewritten 2026-07-27 — the earlier version of this list predated the 2026-07-26 answers and wrongly listed engine, team size, the first-journey threshold, death rules, the stat list, and slice content as open):
 
-- **Production:** cash budget (PROD-03), the effort-model scope-menu choice, measured velocity, post-launch cadence, Early Access/demo strategy, final engine confirmation (Godot is [P]). Weekly capacity is NO LONGER open — PROD-01 (2026-07-27) fixed it at 40 h/week floor / 72 scheduled.
+- **Production:** the effort-model scope-menu choice, measured velocity, post-launch cadence, Early Access/demo strategy, final engine confirmation (Godot is [P]). Weekly capacity and cash budget are NO LONGER open — PROD-01 and PROD-03 (2026-07-27) fixed them: 40 h/week floor / 72 scheduled; cash unconstrained with every asset class self-produced.
 - **Progression numbers:** level cap value, tree size and point totals, exact stat values and growth curves, caps (especially movement speed), the regeneration-stat decision, equipment formulas, equipment level-requirement thresholds.
 - **First-journey validation:** the ~40–80-focused-hour target (CORE-17 [P/T]) awaits validation against real content.
 - **Endgame specifics:** content, superboss designs, and post-launch additions beyond CORE-18’s locked collectathon direction.

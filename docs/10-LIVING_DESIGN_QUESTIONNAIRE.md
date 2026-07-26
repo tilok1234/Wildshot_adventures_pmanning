@@ -3296,11 +3296,7 @@ Gate 2 cannot be evaluated until CORE-20 is answered. (Recorded 2026-07-26.)
 
 *Consider: Tools, contractors, music, localization, ratings, platform fees, marketing, and contingency.*
 
-**Answer/status:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Answer/status:** [P] Recorded 2026-07-27. Cash is not a project constraint. Committed/available: AI subscriptions (already running, ample — the actual production engine) and the Steam Direct fee ($100, trivially payable when needed). No contractor spend planned anywhere: music and SFX are self-produced (audio pipeline planning started 2026-07-27), and store/capsule art is self-produced. No other committed expenses; incidental costs (fonts, tools, licenses) are absorbed as they arise. No budget ceiling is needed at current scope — revisited only if a real line item appears (localization, ratings, launch marketing). **Consequence [P] — the audio pipeline inherits the forge rule:** exactly as TileForge/Actor Forge must encode the readability laws, the audio pipeline must encode Law 7 (audio as the eyes-closed second channel) and the CORE-50 audio baseline (separate channels, key threats audible) from the start — threat sounds are an information system first, music second. **Sustainability assumption [P], with falsifier:** full-time capacity (PROD-01) is financially sustainable across the 2.25–4.5-year horizon, with no income pressure that would impose a de-facto deadline; if that stops being true, PROD-01 and the scope menu re-open by rule.
 
 **PROD-04. What is the smallest milestone that can disprove the core idea?** *\[Before implementation\]*
 

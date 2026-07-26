@@ -41,6 +41,16 @@ Next steps (designer to choose, in any order):
 | **CORE-01 through CORE-55** | **ALL ANSWERED — Part I complete 2026-07-26.** |
 | CORE-14 | Provisional/prototype-gated (co-op depends on the Phase E network gate). |
 | **PROD-01** | **Answered 2026-07-27 [P/T]** — full-time; 72 h/week scheduled, 40 h/week planning floor, self-correcting from logged hours. |
+| **PROD-03** | **Answered 2026-07-27 [P]** — cash unconstrained; music/SFX and store art self-produced; audio pipeline bound to Law 7 from the start; sustainability assumption recorded with falsifier. |
+
+### PROD-03 — answered 2026-07-27 [P]
+
+Cash is not a project constraint: AI subs ample and running; Steam fee trivial; music/SFX
+self-produced (audio pipeline planning started 2026-07-27); store/capsule art self-produced;
+no ceiling needed at current scope. Consequence: the audio pipeline inherits the forge rule —
+Law 7 (eyes-closed second channel) + CORE-50 audio baseline encoded from the start.
+Sustainability assumption [P] with falsifier: full-time capacity is financially sustainable
+across the multi-year horizon; if that stops being true, PROD-01 and the scope menu re-open.
 
 ### PROD-01 — answered 2026-07-27 [P/T] — first Part II production answer
 

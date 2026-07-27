@@ -45,14 +45,16 @@ CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement
 
 Do not add progression rewards until the no-reward combat test passes.
 
-**Pre-lab asset task (added 2026-07-27, showcase-packet review):** author the combat-effects
-vocabulary in the forges before lab tuning needs it — projectile shapes for the player and for
-the one hostile family language, telegraphs, ground-hazard markers, hit/impact effects, and
-boss-cast presentation — spec'd line-by-line against the eight readability laws (CORE-51).
-The packet review verified every other Phase A asset class already ships: arena tilesets
-(including dungeon-room, cave, and corrupt-zone scenes), and a 12-actor roster covering
-chasers, ranged, and fodder on Actor Forge's 32×32 four-facing 23-frame contract, with Godot
-importers and a pixel-match acceptance test.
+**Pre-lab asset task (added 2026-07-27, showcase-packet review; rescoped same night —
+Sprite Forge supersedes Actor Forge v2.3):** the Sprite Forge full pack ships 20 projectile
+and 15 effect sheets (incl. telegraph rings/cones/beams, charge-up, muzzle, impact), so the
+combat-effects task becomes **curate + gap-fill**: assign player-vs-hostile projectile
+families, apply the shared hostile signature as a rendering treatment across all hostile
+shots, and author hazard arm-progress indicators — spec'd against the eight readability laws
+(CORE-51). Every other Phase A asset class ships: arena tilesets (including dungeon-room,
+cave, and corrupt-zone scenes) and a 231-actor manifest-driven pack (28-row rig, 64 px
+cells, deterministic cfg regeneration; placeholder-fidelity by design, polished swaps later
+under the frozen contract), delivered in-repo at game repo `assets/`.
 
 **Phase A build window — pre-registered (2026-07-27):** ~6 free weeks from ≈ early October
 2026 (designer vacation; stated capacity up to 16 h/day — ≈670 h theoretical ceiling, 4×

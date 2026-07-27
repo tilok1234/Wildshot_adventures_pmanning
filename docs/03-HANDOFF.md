@@ -1,61 +1,51 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
-**Handoff date:** 2026-07-26 (evening — supersedes all earlier handoffs); amended 2026-07-27 with maintenance commits (see notes/sessions/2026-07-27.md)  
-**Project stage:** Guided concept definition / early pre-production  
-**Interview position:** **Part I is COMPLETE — CORE-01 through CORE-55 are all answered.** CORE-14 remains provisional/prototype-gated (co-op depends on the Phase E network test).
+**Handoff date:** 2026-07-27, late-night session close (supersedes all earlier handoffs; written for an account switch — the new session may have no memory of anything below)  
+**Project stage:** Pre-production planning **CLOSED**. Build phase approved and pending kickoff (M0 deliberately not started — the designer says when).  
+**Interview position:** Part I complete (CORE-01–55, 2026-07-26). Part II production trio answered 2026-07-27 (PROD-01, PROD-03, scope menu). Remaining Part II modules deliberately deferred behind lab evidence.
 
 ## The single most important instruction
 
-**This git repository is the source of truth.** Do not rely on chat memory, ZIP uploads, or summaries. Read `notes/INTERVIEW_STATE.md` first — it always holds the live position and the note-taking protocol. After every approved decision: update the questionnaire, decision register, GDD, and interview state, then **commit and push before moving on**. One approved answer = one commit. This protocol exists because notes were repeatedly lost before the repo existed; do not regress to "I'll write it up later."
-
-If the new session cannot access the repository directly, ask the designer to grant repo access or provide a fresh clone/ZIP of the repo — but treat any ZIP as a transfer convenience, never the working source of truth, and get changes back into git as soon as possible.
+**This git repository is the source of truth.** Do not rely on chat memory, ZIPs, or summaries. Read `notes/INTERVIEW_STATE.md` first — it holds the live position and the note-taking protocol. After every designer-approved decision: update the questionnaire, decision register, GDD, and interview state, then **commit and push before moving on**. One approved answer = one commit. Never batch write-ups for later — that is how notes were lost before this repo existed.
 
 ## Read first, in this order
 
-1. `notes/INTERVIEW_STATE.md` — live position, protocol, and per-question decision summaries from 2026-07-26.
-2. `docs/08-DECISION_REGISTER.md` — the fastest complete picture of what is decided.
-3. `docs/01-GAME_DESIGN_DOCUMENT.md` — the readable integrated design.
-4. `docs/10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative per-question record, when exact wording matters.
-5. `docs/07-PROTOTYPE_SPEC.md` — the Phase A combat lab (the next build milestone) and vertical-slice scope.
-6. `notes/sessions/` — dated working notes, including the full 2026-07-26 session log.
+1. `notes/INTERVIEW_STATE.md` — live position and protocol.
+2. `docs/08-DECISION_REGISTER.md` — fastest complete picture of what is decided (including the Tooling contracts section).
+3. `docs/12-PHASE_A_LAB_BUILD_PLAN.md` — **the approved build plan**; the next work happens here.
+4. `docs/07-PROTOTYPE_SPEC.md` — the Phase A lab's design-level definition.
+5. `notes/sessions/2026-07-27.md` — the full log of the session that closed planning.
+6. `docs/01-GAME_DESIGN_DOCUMENT.md` and `docs/10-LIVING_DESIGN_QUESTIONNAIRE.md` — when depth or exact wording matters.
 
-## What was decided on 2026-07-26 (one-screen version)
+## Where things stand (one screen)
 
-**Combat core:** Dodging is purely movement-based — no universal dash/roll/block/i-frames (CORE-33). Each character has exactly ONE active ability, granted by an equipped ability item from a class-exclusive pool; the skill tree grants no actives and its nodes must change behaviour, not just numbers (CORE-34). Focus targeting is cut entirely (CORE-35). Intensity climbs via density/speed/pattern complexity, never HP sponging, and the ladder repeats inside every zone at its authored band (CORE-36). Eight readability laws govern all art and encounters (CORE-51). Packs combine 1–2 role-grammar pressures, pulling is a learnable skill, and compositions showcase weapon frames (CORE-44).
+**All three external-review blockers closed 2026-07-27:**
 
-**Character & items:** Class = base stats + tree + exclusive weapon/ability/gear families; four-slot loadout (weapon / ability item / armor / ring); armor uses give-and-take archetypes; no universally-correct ring allowed (CORE-37). Lean stat set: HP, mana, damage, attack speed, range, armor, movement speed (+regen candidates); crit/life-steal/resistances/accuracy/evasion intentionally excluded; uniques may break rules (CORE-40). Equipment IS the build system; tiers stay familiar-but-stronger; frames are side-grades; tier steps are chunky; item behaviour is readable before farming (CORE-41).
+- **PROD-01 [P/T], amended same evening:** a **day job exists** — Wildshot is the primary project alongside it. Stated schedule ~8 h/weekday + up to 16 h/weekend-day (≈72 ceiling). **Planning floor 40 h/week — explicitly a claim under test**: hours are logged from Phase A day one; any 4-week rolling average below 40 resets the floor and re-derives the roadmap. No decision depends on 40 holding (measured ~20 still lands the slice at ~8–17 months).
+- **PROD-03 [P]:** cash is not a constraint — AI subs ample, Steam fee trivial, music/SFX and store art **self-produced**. The audio pipeline inherits the forge rule: readability Law 7 + the CORE-50 audio baseline encoded from the start. Sustainability backed by employment income; falsifier recorded.
+- **Scope menu — Option 4:** the full game as specced stays the target; horizon accepted in writing. **Gate 2 "viable" is defined:** remaining bill at measured slice velocity ≤ 5 years at the then-current floor, else the pre-registered cut order auto-triggers (slice-as-v1.0 → shrink the bill).
 
-**Progression:** Levels grant class base stats (incl. HP/mana) + skill points; equipment has level requirements; the tree is points-spent-deep; a hard cap marks the endgame transition; provisional faction-reputation system (CORE-39). First journey targets ~40–80 focused hours to cap + main quest (CORE-17). Endgame is an open-ended collectathon, no endgame-only systems, alts modest (CORE-18).
+**Asset platform (verified by direct inspection 2026-07-27):** three designer-built forges. **TileForge** — shipping: 4 theme packages × 31,431 tiles, Godot importers, pixel-match acceptance test; packages + reference pack at `C:\Users\headc\Documents\Semantic tile generator design\exports\`. **Actor Forge v2.3** — 32×32, 4 facings, 23-frame contract, 12 actors × 4 themes, first quadruped landed; packs arrive as zips in Downloads. **WorldForge** — third forge, WIP (completion committed): whole-zone drafts from TileForge packages under the handcrafted-rule contract (generated worlds are drafts; curation makes geography authored; progression-critical placement always hand-decided). **The one asset gap, designer-committed:** the combat-effects vocabulary (projectiles, telegraphs, hazard markers, hit/cast effects) — spec discussed 2026-07-27, needed by ~M5.
 
-**Loot & death:** No pity ever; dry streaks mitigated by reward breadth (cosmetic/collection boss drops) and cheap attempt cadence; dupes sell for meaningful gold, never power; no guarantees beyond quest uniques; faction vendors sell catch-up gear (CORE-42 + refinements). Grind targets: dungeon 10–20 min, portal 5–20 min, mastered loop 2–3×/hr, unique expected in ~20–40 attempts, p95 unlucky ≤ 2–3× expected [all T]; attempts tracked and displayed; every hunt advances ≥2 tracks (CORE-49). Death: nearest-city respawn + percent-of-gold fee (never cheaper than teleporting); dungeon death ends the instance, portal spent; raids give paid respawns at wing start with full boss resets and wing progress never lost; optional per-character hardcore permadeath mode (CORE-43). Raids use wings with player-controlled persistence, no time lockouts; deterministic skip baseline (refinement batch).
+**The approved build plan (`docs/12`, approved 2026-07-27):** pure sim core at fixed 60 Hz with replay + state-hashing from week 1; no Godot physics (custom SoA collision, M2 stress-rig escape hatch); zero-RNG player fire path; three-tier DodgeBot + mandatory human lowest-speed confirmation; two-profile builds (testers never get debug tools); **Godot 4.6.2 pinned** (verified at `~/bin/godot`); 12 milestones — 9 pre-vacation (incl. the M-FX effects track) + M8 and **two Gate 1 cycles inside the ~6-week vacation sprint from ≈ early October 2026**; pre-registered slip ladder; CI addendum (staged GitHub Actions jobs, replay/bot jobs on Windows runners per the determinism scope).
 
-**World & content:** Quests = direction + teaching + landmark rewards; main quest 1→cap with deliberate level gaps; MMO-dense quest world; faction quest sets, different factions level through different verbs (CORE-46). Several major hubs (not per-zone); per-character stash only; escalating hub recognition (CORE-47). Crafting/gathering per CORE-25; NO automation, all active play (CORE-48). Variation bounds: authored *where*, pooled *what* — fixed arenas with boss pools, roaming rares on authored routes (refinement). Tone: colorful heroic fantasy with bite; clean-leaning E10+/T as a preference; no casino aesthetics on loot (CORE-19). Pets cosmetic-only. Steam Deck contingent, controller = relaxed-grinding worst case.
+**Six designer rulings deliberately open** (ruled on as they come due): sprites-in-lab vs greybox capsules for Gate 1; the Longbolt 6.5-tile cap vs extending enemy envelopes; slip-ladder ordering; end-of-M5 effects-pack deadline; Blast Rune replacing Snare Trap; tester recruitment sizing (10–16 candidates, ≥4 strangers/cycle).
 
-**Production (CORE-20):** Solo developer, expert at orchestrating AI; production is AI-orchestrated across code/art/content. Engine most likely **Godot** [P]. Abundant AI access; no contractor budget. **PROD-01 (2026-07-27, amended): day job + Wildshot as the primary project; ≈72 h/week ceiling, 40 h/week planning floor as a self-correcting claim under test** — plans divide by the floor. **No deadline** — the CORE-55 gates, not dates, are the discipline. The asset pipeline is **verified shipping** (showcase packet reviewed 2026-07-27): **TileForge** — four complete theme packages (forest/autumn/dusk/winter; 31,431 tiles × 80 families each) with Godot importers, a pixel-match acceptance test, and dungeon-room/cave/corrupt-zone interior scenes; **Actor Forge v2.3** — deterministic 32×32 four-facing 23-frame actor sheets, 12 actors × 4 themes, first quadruped landed, sprites still WIP. One gap, designer-committed as the pre-lab task: the **combat-effects vocabulary** (projectiles, telegraphs, hazard markers, hit/cast effects) authored against the eight laws. **WorldForge** (third forge, WIP) drafts whole zones from TileForge packages — settlements, tiered routes, rivers, discoveries — under the drafts-not-authored contract (curation makes geography authored; progression-critical placement always hand-decided). Generators must encode the readability laws; tools accelerate authoring without weakening the handcrafted-world rule.
+**The game repo exists and is empty by choice:** https://github.com/tilok1234/Wildshot-Adventures (designer-created 2026-07-27; M0 deferred by the designer — "not just yet"). This planning repo remains the design authority; the game repo never amends it. **The next action in the entire project is M0** (game-repo scaffolding per the build plan §5: CLAUDE.md contract, directory skeleton, hours-log tooling, CI lint skeleton, Godot 4.6.2 pin) — start it only when the designer says go.
 
-**Slice & gates:** Vertical slice = Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, 2 armor archetypes, one zone + hub, 8–10 enemy types, full portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, ~3–5 h + repeatable farm, one authored secret (CORE-52). First milestone = Phase A no-reward combat lab, judged by outside testers, patterns dodgeable at lowest movement speed (CORE-53). Top five risks ranked with test/mitigation/cut (CORE-54). Two formal continuation gates recorded (CORE-55).
+## Machine-local facts a fresh session needs
 
-## Next steps (designer to choose)
+- Planning repo clone: `C:\Users\headc\Documents\Wildshot_adventure_final_planning`, branch `claude/questionnaire-note-taking-9vl2sl` (the only branch). Git identity tilok1234 / headchained@gmail.com; push over HTTPS works.
+- Godot 4.6.2 stable: `~/bin/godot` (also on Desktop).
+- TileForge exports: `C:\Users\headc\Documents\Semantic tile generator design\exports\` (integration path: give a session the theme zip, integrate per its GAME-GUIDE.md, prove the renderer against `map-reference.png` via the §4 acceptance test before anything else).
 
-1. ~~**Answer the numbers**~~ ✅ **ALL THREE CLOSED 2026-07-27:** PROD-01 (40 floor / ≈72 ceiling, day job on record, floor self-correcting), PROD-03 (cash unconstrained; all asset classes self-produced), and the scope menu (Option 4 — full game stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current floor). Gate 2 is fully evaluable when reached.
-2. **Part II — combat and controls module questions** (they spec the Phase A lab in detail).
-3. **Start building the Phase A combat laboratory in Godot** — the spec is ready; interview and lab can run in parallel, with lab findings feeding [T] answers. External-review note (2026-07-27): recommendation is lab before further Part II paper — pre-lab answers deepen lock-in against lab evidence. **Pre-registered build window (2026-07-27):** the ~6-week vacation block from ≈ early October 2026 targets the lab built plus two Gate 1 cycles; pre-vacation evenings cover the effects pack, audio-pipeline design, Godot + TileForge scaffolding, and standing up the itch/devlog tester channel. **The approved build plan is `docs/12-PHASE_A_LAB_BUILD_PLAN.md`** (architecture, v0 numbers, milestones M0–M8, slip ladder; six designer rulings open; M0 not yet started — deferred by the designer on 2026-07-27). **The game repo exists:** https://github.com/tilok1234/Wildshot-Adventures (designer-created 2026-07-27, awaiting M0 scaffolding; this planning repo remains the design authority per the plan's §Authority).
-4. Any remaining doc polish; the companion docs were refreshed 2026-07-26 and re-synced 2026-07-27.
+## How to work with the designer (unchanged, learned over many sessions)
 
-## How to conduct the interview (unchanged method)
-
-- Ask one focused question at a time and finish it before moving on.
-- Let the designer answer naturally, then consolidate into clear design language; give an honest opinion when asked — the designer explicitly values honest pushback and often asks "what would you add?"
-- Keep straightforward decisions concise; expand only when a decision has real consequences.
-- Use existing answers before asking again; mark conclusions [L]/[P]/[T]/[U]/[CUT]/[LATER].
-- Challenge material design or production risks honestly.
-- Treat purposeful, targetable repetition as an intended strength.
-- Commit after every approved answer (see protocol above).
-
-## Communication preferences learned
-
-The designer writes informally (typos are normal — ask when a typo is ambiguous rather than guessing; this mattered at CORE-34 where "lobe" changed the meaning). They value momentum, honest opinions, and being offered concrete recommendations to react to rather than open-ended questions. They frequently approve batches with a short "ye sounds good" and often invite additions — offer 1–3 well-chosen additions, never a flood.
+- One focused question or task at a time; finish before moving on.
+- They write informally (typos normal — ask when ambiguous rather than guess). They value momentum, honest pushback, and concrete recommendations to react to over open-ended questions. Batch approvals arrive as a short "ye sounds good"; offer 1–3 well-chosen additions, never a flood.
+- Challenge material design or production risks honestly — they explicitly want this (the day-job amendment and floor-as-claim-under-test exist because of it).
+- Status tags: [L] locked / [P] provisional / [T] test-gated / [U] unknown / [CUT] / [LATER]. Get approval before recording; commit after recording.
 
 ## Recommended opening prompt for the new session
 
-> Continue the guided design interview and development work for **Wildshot Adventures**. The git repository is the source of truth. Read `notes/INTERVIEW_STATE.md` first and follow its note-taking protocol (one approved answer = one commit). Part I of the questionnaire (CORE-01 through CORE-55) is complete as of 2026-07-26. Ask what I want to do next — Part II module questions or starting the Phase A combat lab in Godot — and keep the established method: one focused question at a time, honest opinions, concrete recommendations, commit everything.
+> Continue work on **Wildshot Adventures**. The git repo at `C:\Users\headc\Documents\Wildshot_adventure_final_planning` is the source of truth — read `notes/INTERVIEW_STATE.md` first, then `docs/03-HANDOFF.md`, and follow the note-taking protocol (one approved decision = one commit + push). Planning is closed; the approved Phase A build plan is `docs/12-PHASE_A_LAB_BUILD_PLAN.md`; the game repo (https://github.com/tilok1234/Wildshot-Adventures) exists but is empty — M0 has not started. Ask me whether to start M0 or work on something else (effects pack, WorldForge, open rulings), and keep the established method: one question at a time, honest opinions, concrete recommendations, commit everything.

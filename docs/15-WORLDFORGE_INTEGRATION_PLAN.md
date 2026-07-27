@@ -51,10 +51,10 @@ doc):
 
 | Step | What | When |
 |---|---|---|
-| 1 | Designer ratifies the pack contract + decision points (§4) | any time; paper only |
-| 2 | WorldForge implements `export-game-pack` + authored-placement recipe extension | WorldForge sessions; parallel to lab work, zero game-repo cost |
+| 1 | Designer ratifies the pack contract + decision points (§4) | ✅ **DONE 2026-07-27** |
+| 2 | WorldForge implements `export-game-pack` + authored-placement recipe extension | ✅ **DONE 2026-07-27** (WorldForge behavior 36; both proven end-to-end: pinned landmark + per-recipe stamp + cell override exported as a validated pack; 170 tests green; Godot half of the verify chain pending a desktop session — settlement pins deferred to a follow-up behavior, see the WorldForge plan doc §5 notes) |
 | 3 | `addons/worldforge_importer/` in the game repo (validate → TileMapLayers + bitgrid + POI/spawn data) | **post-Gate-1**, per docs/12 §6 deferrals; ~the same shape as the doc-14 importer, est. 1–2 sessions |
-| 4 | Slice-zone drafting: WorldForge candidates → designer curation via pinned placements / stamps / cell overrides → export → import | Phase B+ / slice preparation |
+| 4 | Slice-zone drafting: WorldForge candidates → designer curation via pinned placements / stamps / cell overrides → export → import | Phase B+ / slice preparation; needs the dusk package export (designer TileForge task) |
 
 Nothing lands in the game repo before Gate 1; Phase A scope is guarded.
 Steps 1–2 cost the lab nothing and de-risk the slice.

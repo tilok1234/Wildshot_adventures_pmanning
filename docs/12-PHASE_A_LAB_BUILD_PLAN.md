@@ -230,7 +230,7 @@ Window per PLAN-vacation / TOOLING: **~10 evening/weekend weeks now (M0–M7 + t
 ### Pre-vacation (evenings/weekends, weeks 1–10)
 
 **M0 — Repo, contract, skeleton (week 1).**
-Game repo created; CLAUDE.md contract per §5; Godot 4.6.2 pinned; directory layout per §2.5; `tools/hourslog.ps1` **and `tools/hours_report.ps1`** + `notes/hours.csv` live **before the first code commit** (PROD-01) — first weekly report scheduled for end of week 4, when the first rolling window closes; `notes/TECH_DEBT_LEDGER.md` opened, seeded with named entries: hard-coded ability effects (incl. Quickdraw's cadence multiplier — no stat pipeline), fixed class-shell stats, arena-only spawning, placeholder EffectLibrary entries, brute-force actor collision, PNG-sequence GIF path.
+Game repo created; CLAUDE.md contract per §5; Godot 4.6.2 pinned; CI skeleton green on first push (lint job per the CI addendum); directory layout per §2.5; `tools/hourslog.ps1` **and `tools/hours_report.ps1`** + `notes/hours.csv` live **before the first code commit** (PROD-01) — first weekly report scheduled for end of week 4, when the first rolling window closes; `notes/TECH_DEBT_LEDGER.md` opened, seeded with named entries: hard-coded ability effects (incl. Quickdraw's cadence multiplier — no stat pipeline), fixed class-shell stats, arena-only spawning, placeholder EffectLibrary entries, brute-force actor collision, PNG-sequence GIF path.
 *Accept:* repo builds an empty window; hours log has entries; `hours_report.ps1` runs against them; ledger committed.
 
 **M1 — TileForge proven (weeks 1–2).**
@@ -355,3 +355,17 @@ All blocker, major, and minor findings from the 2026-07-27 verification pass wer
 5. **M2 stress ordering:** chose the pull-rig-into-M2 option so the escape-hatch verdict genuinely stays at M2 (the alternative re-dating option was not used).
 6. **Leadshot telegraph:** set to 40 ticks, above the finding's 30–36 floor, so the Law 4 ordering is strictly monotone above Ringer's 36 rather than tied.
 7. **Speed band:** applied both offered mechanisms — band clamped at 3.0 AND proofs speed-stamped with auto-stale + export block, since the stat editor's dev profile could otherwise still dip below the floor.
+
+## CI addendum (added 2026-07-27, designer-approved) [P]
+
+GitHub Actions on the game repo, jobs activating as their producing milestone lands — CI is the scheduler for verification machinery this plan already specifies headless-first:
+
+| Active from | Job | Catches |
+|---|---|---|
+| M0 | Lint: banned-RNG grep under `sim/` (the §2.4 fire-path guard), format check | Determinism leaks at commit time |
+| M1 | TileForge §4 pixel-match, headless | Renderer/import regressions |
+| M4 | **Golden-replay hash gate** on every push (`tests/replay_fixtures/`) | Any CORE-32 determinism break, immediately |
+| M7 | Nightly DodgeBot tier-1 pattern proofs at the 3.0 floor | Dodgeability regressions, unattended |
+| M8 | Tester-profile export built **only** by CI | Two-profile rule enforced structurally — debug tooling cannot leak into a tester build by hand-packaging |
+
+**Runner constraint (binds via §2.4):** the determinism scope is same-build/same-platform (Windows), so every replay-hash and bot job runs on a **Windows runner** — Linux runners would produce false hash alarms from float drift. Staging: cloud `windows-latest` first (note: 2× Actions-minute multiplier on a private repo, 2,000 free min/month); switch the heavy jobs (nightly bots, soak runs) to a **self-hosted runner on the dev machine** when minutes pinch or at M7, whichever first — free, exact platform match, and overnight soaks run on the hardware the determinism scope is defined against. Switch point left open [P]. Lint/format may run on Linux runners (no sim execution).

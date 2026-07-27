@@ -1,7 +1,7 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
 **Handoff date:** 2026-07-27, late-night session close (supersedes all earlier handoffs; written for an account switch — the new session may have no memory of anything below)  
-**Project stage:** Pre-production planning **CLOSED**. **Build phase RUNNING — M0 and M1 completed 2026-07-27 late night** (M1: pixel-match + net16 acceptance green locally and in CI; dusk arena builds with an honest bitgrid). Open designer confirmations on M1: Law-6 floor eyeball; obstacle-stub deviation ruling (§3.1 2×2 pillars → 3-cell wall stubs — every 2×2 option lied about collision). Next milestone: M2.  
+**Project stage:** Pre-production planning **CLOSED**. **Build phase RUNNING — M0 and M1 completed and designer-approved 2026-07-27 late night** (M1: pixel-match + net16 acceptance green locally and in CI; dusk arena with an honest bitgrid; Law-6 floor and wall-stub obstacles approved). **M2 in progress** — remaining work list in the game repo CLAUDE.md. **Build sessions run rooted in the game repo now**; this repo stays the design authority.  
 **Interview position:** Part I complete (CORE-01–55, 2026-07-26). Part II production trio answered 2026-07-27 (PROD-01, PROD-03, scope menu). Remaining Part II modules deliberately deferred behind lab evidence.
 
 ## The single most important instruction
@@ -49,4 +49,6 @@
 
 ## Recommended opening prompt for the new session
 
-> Continue work on **Wildshot Adventures**. The git repo at `C:\Users\headc\Documents\Wildshot_adventure_final_planning` is the source of truth — read `notes/INTERVIEW_STATE.md` first, then `docs/03-HANDOFF.md`, and follow the note-taking protocol (one approved decision = one commit + push). Planning is closed; the approved Phase A build plan is `docs/12-PHASE_A_LAB_BUILD_PLAN.md`; the build phase has started — M0 is complete in the game repo at `C:\Users\headc\Documents\Wildshot-Adventures` (read its CLAUDE.md before working there). Ask me whether to start M1 (TileForge importer + pixel-match + greybox arena) or work on something else (effects pack, WorldForge, open rulings), and keep the established method: one question at a time, honest opinions, concrete recommendations, commit everything.
+> **(For build sessions — start the chat in `C:\Users\headc\Documents\Wildshot-Adventures`.)** Continue building **Wildshot Adventures**. Your CLAUDE.md is the standing contract — the milestone tracker in it says exactly where the build stands (currently: M2 in progress with a full remaining-work list). The planning repo at `C:\Users\headc\Documents\Wildshot_adventure_final_planning` is the design authority — consult `docs/12-PHASE_A_LAB_BUILD_PLAN.md` for the plan and record milestone completions + design decisions there per its `notes/INTERVIEW_STATE.md` protocol (one approved decision = one commit + push, both repos). Log hours via `tools/hourslog.ps1`. Keep the established method: one focused task at a time, honest opinions, concrete recommendations, commit everything.
+>
+> (For design/interview sessions — start in the planning repo and read `notes/INTERVIEW_STATE.md` first, as before.)

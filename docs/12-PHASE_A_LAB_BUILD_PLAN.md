@@ -150,7 +150,7 @@ Every number below is a starting hypothesis the lab exists to tune. All live in 
 | Tile size | 32 px | [P] (Sprite Forge/TileForge logical contract, CORE-20; Sprite Forge sheets are authored at ×2) |
 | Base render | 640×360, integer scale ×2/×3/×4, Nearest | [P] |
 | Sim rate | 60 Hz fixed; render 60 FPS target | [P] |
-| Arena | 48×32 tiles greybox; 1-tile walls; 4–6 obstacle pillars (2×2); two corridor walls; one corner pocket; open center ~16×12 for density testing | [T] — layout is itself a line-of-fire/corner test asset (SPEC-A) |
+| Arena | 48×32 tiles greybox; 1-tile walls; five 3-cell wall-stub obstacles (**amended from 2×2 pillars, designer-approved 2026-07-27** — every 2×2 art option underfilled its blocked footprint; straight wall runs are pixel-honest, Law 8); two corridor walls; one corner pocket; open center ~16×12 for density testing | [T] — layout is itself a line-of-fire/corner test asset (SPEC-A); built at M1 as `data/arena_lab.json` |
 | Render interpolation | toggle built; tester-build default is the **output of the §6 item 1 A/B on a high-refresh display**, not a foregone conclusion; if snap wins, tester builds force 60 Hz vsync so snap and refresh align | [T] |
 
 ### 3.2 Player (temporary class shell)

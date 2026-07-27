@@ -152,7 +152,7 @@ Every number below is a starting hypothesis the lab exists to tune. All live in 
 | Tile size | 32 px | [P] (Sprite Forge/TileForge logical contract, CORE-20; Sprite Forge sheets are authored at ×2) |
 | Base render | 640×360, integer scale ×2/×3/×4, Nearest | [P] |
 | Sim rate | 60 Hz fixed; render 60 FPS target | [P] |
-| Arena | 48×32 tiles greybox; 1-tile walls; five 3-cell wall-stub obstacles (**amended from 2×2 pillars, designer-approved 2026-07-27** — every 2×2 art option underfilled its blocked footprint; straight wall runs are pixel-honest, Law 8); two corridor walls; one corner pocket; open center ~16×12 for density testing | [T] — layout is itself a line-of-fire/corner test asset (SPEC-A); built at M1 as `data/arena_lab.json` |
+| Arena | 48×32 tiles greybox; 1-tile walls; five 3-cell wall-stub obstacles (**amended from 2×2 pillars, designer-approved 2026-07-27** — every 2×2 art option underfilled its blocked footprint; straight wall runs are pixel-honest, Law 8); two corridor walls; one corner pocket; open center ~16×12 for density testing. **Amendments 2026-07-27 (designer, session log):** (a) detail pass — the SAME arena gained data-driven props/decals/floor-patch dressing (dungeon-room reference style) with the §3.1 skeleton and open center preserved; (b) a SECOND, natural-setting readability testbed (`data/arena_forest.json`, Forest Walk scenario) was approved as a SPEC-A addendum — zero rewards, no mechanics, actors/projectiles judged in nature per the sprite-pack doctrine; scenarios now name their arena | [T] — layout is itself a line-of-fire/corner test asset (SPEC-A); built at M1 as `data/arena_lab.json` |
 | Render interpolation | toggle built; tester-build default is the **output of the §6 item 1 A/B on a high-refresh display**, not a foregone conclusion; if snap wins, tester builds force 60 Hz vsync so snap and refresh align | [T] |
 
 ### 3.2 Player (temporary class shell)
@@ -187,12 +187,18 @@ All [T]. Intent: A pulls fights long and thin, B pulls them close and brave, C o
 
 | Behavior (role) | HP | Body r | Speed (t/s) | Attack | Dmg | Shot speed / r | Shot range / TTL | Telegraph | Cooldown |
 |---|---|---|---|---|---|---|---|---|---|
-| Rusher (chaser fodder) | 20 | 0.30 | 2.7 (kiteable at 3.0) | contact | 8 | — | — | — | — |
+| Rusher (chaser fodder) | 20 | 0.30 | 2.7 (kiteable at 3.0) | ~~contact~~ **3-shot 50° slash arc (amended 2026-07-27)** | 8/shot (point-blank can stack all 3) | 5 t/s / 0.22 | ≈1.1 tiles (ttl 10) | 10 ticks | 36 ticks |
 | Husk Archer (aimed shot, keep-range 5–6) | 40 | 0.35 | 2.2 | aimed single | 10 | 7 t/s / 0.18 | 7 tiles ≈ 60 ticks | 12 ticks | 90 ticks |
 | Leadshot (predictive shot, flanker) | 45 | 0.35 | 2.4 | intercept-aimed | 12 | 9 t/s / 0.18 | 10 tiles ≈ 67 ticks | **40 ticks** | 120 ticks |
 | Fanmaw (fan/cone, anchor) | 60 | 0.45 | 1.8 | 5-shot 60° fan | 8 | 6 t/s / 0.20 | 7.5 tiles ≈ 75 ticks | 30 ticks | 150 ticks |
 | Ringer (radial burst, slow chaser) | 55 | 0.40 | 1.6 | 12-shot radial | 7 | 5 t/s / 0.20 | 6 tiles ≈ 72 ticks | 36 ticks | 180 ticks |
 | Blightcaster (delayed ground hazard, keep-range) | 50 | 0.35 | 2.0 | 1.5-tile hazard circle, arms 45 ticks, lingers 120 ticks | 12 | — | — | 45 ticks (= full arm time) | 150 ticks |
+
+**Amendment 2026-07-27 (designer, session log):** every enemy attack is a
+visible telegraphed pattern (projectile/arc) — silent contact-only damage is
+retired from the roster (the sim mechanism remains, unused). The Rusher row
+above reflects it; Law-4 ordering stays monotone (slash 10 < Husk 12 < Fanmaw
+30 < Ringer 36 < Leadshot 40 < Blightcaster 45).
 
 All [T]. Spread check (CORE-21): Rusher/Husk die head-on (2 and 4 Longbolt hits); Fanmaw/Ringer/Blightcaster demand positioning; Leadshot punishes straight-line kiting and now **outranges Longbolt** (§3.3 invariant).
 

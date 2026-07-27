@@ -40,6 +40,7 @@ When documents disagree, use this order:
 - `09-SYSTEMS_MAP.md` — system responsibilities, dependencies, and critical interactions.
 - `10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative detailed interview record.
 - `11-HANDOFF_2026-07-21_HISTORICAL.md` — unchanged July 21 provenance source.
+- `12-PHASE_A_LAB_BUILD_PLAN.md` — approved Phase A lab build plan (2026-07-27): Godot architecture bundle [P], v0 tuning hypotheses [T], 12 milestones with the vacation-sprint split, slip ladder, session workflow.
 
 ## Current integration summary
 

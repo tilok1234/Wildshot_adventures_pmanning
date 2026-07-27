@@ -5,7 +5,7 @@
 > and MUST update + commit it after every approved answer. If this file and chat
 > memory disagree, this file wins.
 
-**Last updated:** 2026-07-27, evening session (PC) — **all three review blockers closed**: PROD-01 (amended same evening: day job on record; ≈72 h/week ceiling, 40 h/week floor as self-correcting claim under test), PROD-03 (cash unconstrained; music/SFX and store art self-produced), and the **scope-menu decision: Option 4** (full game stays the target; Gate 2 "viable" = ≤ 5 years remaining at the then-current floor). CORE-20 asset status verified via showcase packet; combat-effects vocabulary is the committed pre-lab task. Pre-registered: vacation Phase A window (≈Oct), bot-testing system, WorldForge contract. See notes/sessions/2026-07-27.md.
+**Last updated:** 2026-07-27, late evening (PC) — **all three review blockers closed** (PROD-01 amended same evening: day job on record, 40 h/week floor as self-correcting claim under test; PROD-03 cash unconstrained; scope menu Option 4 with Gate 2 "viable" ≤ 5 years at the floor). CORE-20 assets verified via showcase packet; effects pack = committed pre-lab task. Pre-registered: vacation Phase A window (≈Oct), bot-testing system, WorldForge contract. **Phase A lab build plan approved and committed — `docs/12-PHASE_A_LAB_BUILD_PLAN.md`** (multi-agent drafted + adversarially verified; six rulings open; Godot 4.6.2 verified installed; **M0 start deliberately deferred by the designer**). See notes/sessions/2026-07-27.md.
 
 ## Interview position
 

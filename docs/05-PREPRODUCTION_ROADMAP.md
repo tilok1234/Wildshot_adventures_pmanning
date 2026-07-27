@@ -28,6 +28,8 @@ CORE-21 through CORE-30 now define:
 
 ## Stage 2 — Solo combat laboratory
 
+**Build plan: `12-PHASE_A_LAB_BUILD_PLAN.md` (approved 2026-07-27)** — architecture bundle, v0 tuning hypotheses, milestones M0–M8 + M-FX with the pre-vacation/vacation split and slip ladder. The plan implements everything below; this stage description remains the design-level statement.
+
 CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement:
 
 - independent movement and free aiming with no selected-target requirement;

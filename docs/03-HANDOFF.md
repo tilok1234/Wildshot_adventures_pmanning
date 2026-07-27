@@ -1,7 +1,7 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
 **Handoff date:** 2026-07-27, late-night session close (supersedes all earlier handoffs; written for an account switch — the new session may have no memory of anything below)  
-**Project stage:** Pre-production planning **CLOSED**. Build phase approved and pending kickoff (M0 deliberately not started — the designer says when).  
+**Project stage:** Pre-production planning **CLOSED**. **Build phase STARTED — M0 complete 2026-07-27 late night** (game repo scaffolded, CI green). Next milestone: M1.  
 **Interview position:** Part I complete (CORE-01–55, 2026-07-26). Part II production trio answered 2026-07-27 (PROD-01, PROD-03, scope menu). Remaining Part II modules deliberately deferred behind lab evidence.
 
 ## The single most important instruction
@@ -31,12 +31,13 @@
 
 **Six designer rulings deliberately open** (ruled on as they come due): sprites-in-lab vs greybox capsules for Gate 1; the Longbolt 6.5-tile cap vs extending enemy envelopes; slip-ladder ordering; end-of-M5 effects-pack deadline; Blast Rune replacing Snare Trap; tester recruitment sizing (10–16 candidates, ≥4 strangers/cycle).
 
-**The game repo exists and is empty by choice:** https://github.com/tilok1234/Wildshot-Adventures (designer-created 2026-07-27; M0 deferred by the designer — "not just yet"). This planning repo remains the design authority; the game repo never amends it. **The next action in the entire project is M0** (game-repo scaffolding per the build plan §5: CLAUDE.md contract, directory skeleton, hours-log tooling, CI lint skeleton, Godot 4.6.2 pin) — start it only when the designer says go.
+**The game repo is live — M0 complete 2026-07-27:** https://github.com/tilok1234/Wildshot-Adventures, cloned at `C:\Users\headc\Documents\Wildshot-Adventures` (branch `main`). Scaffolded per the build plan §4 M0 + §5: CLAUDE.md contract (binding-constraint digest + session rules), directory skeleton, hours tooling live with the first real entry, CI lint green (banned-RNG grep + gdformat), tech-debt ledger seeded, Godot 4.6.2 pinned and boot-verified. This planning repo remains the design authority; the game repo never amends it. **The next action is M1**: TileForge importer + §4 pixel-match acceptance test green in the game project + greybox arena (theme zip → GAME-GUIDE.md → prove the renderer against `map-reference.png` first).
 
 ## Machine-local facts a fresh session needs
 
 - Planning repo clone: `C:\Users\headc\Documents\Wildshot_adventure_final_planning`, branch `claude/questionnaire-note-taking-9vl2sl` (the only branch). Git identity tilok1234 / headchained@gmail.com; push over HTTPS works.
-- Godot 4.6.2 stable: `~/bin/godot` (also on Desktop).
+- Game repo clone: `C:\Users\headc\Documents\Wildshot-Adventures`, branch `main`; push works; `gh` CLI authenticated (CI status checks work).
+- Godot 4.6.2 stable: `~/bin/godot.exe` (+ `godot_console.exe` for CLI output; also on Desktop).
 - TileForge exports: `C:\Users\headc\Documents\Semantic tile generator design\exports\` (integration path: give a session the theme zip, integrate per its GAME-GUIDE.md, prove the renderer against `map-reference.png` via the §4 acceptance test before anything else).
 
 ## How to work with the designer (unchanged, learned over many sessions)
@@ -48,4 +49,4 @@
 
 ## Recommended opening prompt for the new session
 
-> Continue work on **Wildshot Adventures**. The git repo at `C:\Users\headc\Documents\Wildshot_adventure_final_planning` is the source of truth — read `notes/INTERVIEW_STATE.md` first, then `docs/03-HANDOFF.md`, and follow the note-taking protocol (one approved decision = one commit + push). Planning is closed; the approved Phase A build plan is `docs/12-PHASE_A_LAB_BUILD_PLAN.md`; the game repo (https://github.com/tilok1234/Wildshot-Adventures) exists but is empty — M0 has not started. Ask me whether to start M0 or work on something else (effects pack, WorldForge, open rulings), and keep the established method: one question at a time, honest opinions, concrete recommendations, commit everything.
+> Continue work on **Wildshot Adventures**. The git repo at `C:\Users\headc\Documents\Wildshot_adventure_final_planning` is the source of truth — read `notes/INTERVIEW_STATE.md` first, then `docs/03-HANDOFF.md`, and follow the note-taking protocol (one approved decision = one commit + push). Planning is closed; the approved Phase A build plan is `docs/12-PHASE_A_LAB_BUILD_PLAN.md`; the build phase has started — M0 is complete in the game repo at `C:\Users\headc\Documents\Wildshot-Adventures` (read its CLAUDE.md before working there). Ask me whether to start M1 (TileForge importer + pixel-match + greybox arena) or work on something else (effects pack, WorldForge, open rulings), and keep the established method: one question at a time, honest opinions, concrete recommendations, commit everything.

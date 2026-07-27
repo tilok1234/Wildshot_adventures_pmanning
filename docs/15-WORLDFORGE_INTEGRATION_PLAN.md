@@ -1,11 +1,11 @@
 # Wildshot Adventures — WorldForge Integration Plan
 
 **Doc:** 15-WORLDFORGE_INTEGRATION_PLAN
-**Status:** **PROPOSED** (2026-07-27) — planning-pass output, direction
-approved by the designer in session ("ye should we do this"); the contract
-details and the §4 decision points await explicit designer approval before
-anything is recorded as decided. Written from a docs-review session; the
-live build and interview sessions own their protocols as usual.
+**Status:** **APPROVED** (2026-07-27) — planning-pass output; direction
+approved in session ("ye should we do this"), and the four §4 decision
+points decided the same day per the assistant's recommendations ("ye go
+with your recommendations on all 4"). Written from a docs-review session;
+the live build and interview sessions own their protocols as usual.
 **Tool:** WorldForge (repo `tilok1234/WorldForge`), third forge — see the
 Decision Register, Tooling contracts.
 **Companion:** `WorldForge/docs/GAME_INTEGRATION_PLAN.md` holds the full
@@ -59,32 +59,35 @@ doc):
 Nothing lands in the game repo before Gate 1; Phase A scope is guarded.
 Steps 1–2 cost the lab nothing and de-risk the slice.
 
-## 4. Designer decision points (open, [U])
+## 4. Designer decision points — DECIDED 2026-07-27 [P]
 
-1. **Theme pin [U]:** lab runs *dusk*; WorldForge pins *forest*
-   (`forest-a5baf52`). Recommended: re-pin WorldForge to a dusk package
-   export before `export-game-pack` lands (pinned-package changes are
-   designer-authority under WorldForge's AGENTS rules; the lock keys on
-   manifest `sourceCommit`, and the dusk export is a TileForge-side task
-   like the `sourceCommit` precedent).
-2. **Resolution ownership [U]:** recommended — packs ship
-   WorldForge-resolved layers; the game never re-implements mask/blob47
-   logic (keeps the M1 deferral honest: that derivation lands in
-   WorldForge, once).
-3. **Importer timing [U]:** confirm post-Gate-1 (recommended) or pull
-   earlier if a lab milestone wants a generated test arena.
-4. **Handcrafted-rule mechanics:** the curation pass becomes *recipe
-   input* — pinned placements, per-recipe stamps, sparse cell overrides —
-   so curated geography is authored, reproducible, and diffable, and
+All four decided per the assistant's recommendations, approved as a batch
+("ye go with your recommendations on all 4"):
+
+1. **Theme pin [P]:** WorldForge re-pins to a *dusk* package export at
+   Phase 2 start (pinned-package changes are designer-authority under
+   WorldForge's AGENTS rules; the lock keys on manifest `sourceCommit`;
+   the dusk export is a TileForge-side task like the `sourceCommit`
+   precedent). Slice-zone drafts ship dusk-first.
+2. **Resolution ownership [P]:** packs ship WorldForge-resolved layers;
+   the game never re-implements mask/blob47 logic (keeps the M1 deferral
+   honest: that derivation lands in WorldForge, once).
+3. **Importer timing [P]:** post-Gate-1, per docs/12 §6 deferrals; may be
+   revisited only if a lab milestone explicitly wants a generated test
+   arena (that would be its own ruling).
+4. **Authored-placement vocabulary [P]:** approved as drafted in the
+   companion doc — pinned placements, per-recipe stamps, warn-only-capped
+   cell overrides — making the registered handcrafted-rule contract
+   mechanical: curated geography is authored, reproducible, and diffable;
    progression-critical placement (portals, dungeons, quest beats,
    secrets) is hand-decided by construction (CORE-20 consequence 2,
-   CORE-27 authored-where). No approval needed on the principle (already
-   registered); the vocabulary shape is in the companion doc for review.
+   CORE-27 authored-where).
 
 ## 5. Constraints this plan honors
 
-- **One approved decision = one commit** — this doc records *no*
-  decisions; it stages them.
+- **One approved decision = one commit** — the §4 batch approval is
+  recorded here and in the Decision Register's Tooling contracts entry in
+  a single commit, matching the established batch-approval precedent.
 - The register's WorldForge entry (drafts, not authored geography;
   curation is the authoring pass) is implemented, not amended.
 - WorldForge's boundaries stay intact: TileForge read-only; the game repo

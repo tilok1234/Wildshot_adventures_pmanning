@@ -1,10 +1,11 @@
 # Wildshot Adventures — Assembler Game-Pack Export Spec
 
 **Doc:** 14-ASSEMBLER_GAME_PACK_SPEC
-**Status:** DRAFT — assistant-proposed 2026-07-27 at the designer's request
-("what should I add into the assembler to make game consumption
-contracts?"). Becomes binding only with designer approval, together with
-the §2.14 amendment below. Ranked behind nothing: this unblocks the
+**Status:** **APPROVED by the designer 2026-07-27** ("i approve to change
+to the other sprite pack i think it will be way better") — binding. The
+§0 amendment is applied to docs/12 §2.14 as Amendment v2. The designer
+is building the exporter against this spec; the game repo integrates on
+pack drop, before M5 enemy work. Ranked behind nothing: this unblocks the
 actor-source switch the designer is leaning toward, and the cheap window
 closes at M5 (enemy rendering).
 **Tool:** `8-bit sprite assembler` (repo `tilok1234/8-bit-sprite-assembler`).

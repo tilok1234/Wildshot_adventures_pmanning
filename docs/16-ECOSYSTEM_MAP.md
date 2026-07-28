@@ -77,10 +77,12 @@ asks, never as local patches.
   game packs (packFormat 1) with reachability gate.
 - **Authority docs:** `HANDOFF.md` (account-switch #6, includes the merge
   runbook §1a), `AGENTS.md`, `docs/GAME_INTEGRATION_PLAN.md`.
-- **State:** behavior 48 on main, artifact format 8, 207 tests green.
-- **⚠ Two live lanes:** `main` vs `origin/claude/worldforge-game-review-yzllne`
-  (behaviors 49–50, unmerged). **After merging, the dusk game pack MUST be
-  re-exported** (identity bytes shift) and the game re-runs intake.
+- **State (truthed up 2026-07-29):** behaviors 49–50 MERGED (`ae924e3`,
+  full §1a duty executed: 226 tests green, goldens drift-free, both
+  consumers verified); behavior 56, artifact format 8. The dusk game
+  pack was RE-EXPORTED under the v50 identity (flood unchanged 34556,
+  byte-stable double export) — **the game-side intake of that
+  re-export is the remaining step** (Godot-gated, in the armed queue).
 - **Open:** the-eight-holds round-3 verdict, slit-seal ruling, moss-as-solid
   semantic ruling (designer), ferry routing decided-but-unbuilt.
 

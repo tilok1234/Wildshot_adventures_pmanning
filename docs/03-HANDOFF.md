@@ -1,5 +1,11 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
+> **ECOSYSTEM POINTER (2026-07-29, designer-accepted doc 16).** This
+> planning repo is the DESIGN AUTHORITY over a seven-repo project. The
+> shared map — what each repo owns, its authority docs, and the hard
+> cross-repo rules — lives at `docs/16-ECOSYSTEM_MAP.md` in this repo.
+> Read it before working in ANY Wildshot repo.
+
 ---
 
 # CURRENT HANDOFF — 2026-07-28 (assessment session close)
@@ -50,6 +56,15 @@ tier. `tools/test_deck.html` is retired by this adoption (queue item
 2 below is superseded). **Queued after the burn-down
 (designer-requested):** a backlog-prevention protocol session —
 standing rules so decisions get made at the seam instead of pooling.
+
+**POST-BURN-DOWN UPDATE (2026-07-29 ~01:20):** the queue below was
+largely EXECUTED via the Decision Deck register (20 decisions swept —
+see `notes/sessions/2026-07-29.md` + game CLAUDE.md tracker). Still
+live: the Godot-gated engineering chain (reactive re-baseline → Warden
+575 → export.ps1 → v50 dusk-pack intake; note the WorldForge merge
+itself was found ALREADY DONE, `ae924e3`), the rested feel cards (M2
+close, six ordinaries, audio-in-play), eyes-closed audio evidence,
+grass-slits clarification, hours-backfill numbers, Discord link.
 
 ## The queue (designer triggers each; listed in leverage order)
 

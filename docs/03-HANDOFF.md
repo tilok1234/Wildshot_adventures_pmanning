@@ -18,8 +18,17 @@ designer approval), then the game repo's `notes/DESIGNER_QUEUE.md`.
 
 **How this seam works:** the designer is now at their PC and will trigger
 items from the queue below one at a time. **Do nothing from this queue
-until the designer says so.** Branch for this work:
-`claude/repo-assessment-planning-u6fkjy` (both planning and game repos).
+until the designer says so.**
+
+**Branch note (clarified after a PC-session flag):**
+`claude/repo-assessment-planning-u6fkjy` was the REMOTE assessment
+session's designated branch — it exists only in this planning repo and
+holds the assessment artifacts (notice, ecosystem map draft, test deck,
+this handoff section). The game repo received NO commits from that
+session. Local PC sessions keep their standing branch discipline
+(planning: `claude/questionnaire-note-taking-9vl2sl`; game: `main`) and
+simply merge/pull the assessment branch's content in — do not create new
+branches for this seam, and do not treat the remote branch name as a rule.
 
 ## The queue (designer triggers each; listed in leverage order)
 

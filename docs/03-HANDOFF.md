@@ -1,5 +1,69 @@
 # Wildshot Adventures — Handoff for a New Chat, Account, or Work Session
 
+---
+
+# CURRENT HANDOFF — 2026-07-28 (assessment session close)
+
+**This section supersedes everything below it.** The 2026-07-27 handoff
+body is kept as history but is FIVE MILESTONES STALE (it says "M2 in
+progress"); a full truth-up of it and `notes/INTERVIEW_STATE.md` is a
+queued go-item, not yet authorized.
+
+**True position:** M0–M6 engineering complete; M7 complete except
+`export.ps1`. The authoritative running record is the game repo's
+CLAUDE.md milestone block. A full seven-repo assessment was recorded this
+session — read `notes/PROJECT_NOTICE_2026-07-28.md` first (ranked issues +
+agenda), then `docs/16-ECOSYSTEM_MAP.md` (all seven repos, DRAFT pending
+designer approval), then the game repo's `notes/DESIGNER_QUEUE.md`.
+
+**How this seam works:** the designer is now at their PC and will trigger
+items from the queue below one at a time. **Do nothing from this queue
+until the designer says so.** Branch for this work:
+`claude/repo-assessment-planning-u6fkjy` (both planning and game repos).
+
+## The queue (designer triggers each; listed in leverage order)
+
+1. **Verdict-system ruling** — two-tier / strict / all-count, PLUS the
+   shift-work amendment to the fresh-hands rule: the designer works a
+   15:00–23:00 shift, so "rested day-start" must key on hours-into-their
+   -waking-day and hours-into-session, never wall-clock ("home at midnight"
+   is their 17:00). Provisional triggers that STAY regardless of ruling:
+   marathon-length sessions and dirty runs (god/slow-mo/runtime edits).
+   On ruling: write the planning decision entry, seed the verdict
+   register from the provisional backlog (quotes + evidence links), and
+   amend the game repo CLAUDE.md fresh-hands digest.
+2. **Test deck pass** — designer opens `tools/test_deck.html` (planning
+   repo; double-click, runs in browser), answers rulings/feel checks,
+   hits Export, pastes the `V:` block into chat. The session sweeps those
+   lines into the register + planning log. Six rulings need zero gameplay.
+3. **Remaining rulings not in the deck:** tester recruitment sizing
+   (10–16, ≥4 strangers/cycle — unblocks the Gate 1 calendar and is the
+   single highest-leverage one-liner), ledger #12 grandfather note,
+   hours-log backfill ruling.
+4. **Go-items batch** (each needs an explicit word; all engineering-side):
+   - WorldForge: merge the behaviors-49/50 lane per HANDOFF.md §1a, then
+     RE-EXPORT the dusk game pack (identity bytes shift) and re-run the
+     game intake battery.
+   - world_filler: fix the reference verifiers BEFORE any game importer
+     copies them (report.json unread; empty manifest.files vacuous;
+     TS-vs-GDScript territory wrap-vs-refuse divergence).
+   - Docs truth-up: this file's stale body + notes/INTERVIEW_STATE.md.
+   - Game repo: `tools/export.ps1` dev/tester profiles + checklist step
+     (design staged in game notes/EXPORT_PIPELINE_DESIGN.md).
+   - Ecosystem map approval → then pointer blocks at the top of all seven
+     repos' agent-facing docs.
+5. **Designer-machine task (not agent-doable):** push the sprite-assembler
+   exporter commit `b7eae05f…` from wherever it lives — the actor pack the
+   game consumes is currently reproducible from NO known repo. Cheapest
+   insurance in the project.
+6. **Standing designer items:** itch page + devlog + Discord (open since
+   M3), weekly GIF #2 (fresh material: Warden fight, M6 pack in the dusk
+   town, generated world).
+
+---
+
+# HISTORICAL HANDOFF BELOW (2026-07-27 — stale, kept for record)
+
 **Handoff date:** 2026-07-27, late-night session close (supersedes all earlier handoffs; written for an account switch — the new session may have no memory of anything below)  
 **Project stage:** Pre-production planning **CLOSED**. **Build phase RUNNING — M0 and M1 completed and designer-approved 2026-07-27 late night** (M1: pixel-match + net16 acceptance green locally and in CI; dusk arena with an honest bitgrid; Law-6 floor and wall-stub obstacles approved). **M2 in progress** — remaining work list in the game repo CLAUDE.md. **Build sessions run rooted in the game repo now**; this repo stays the design authority.  
 **Interview position:** Part I complete (CORE-01–55, 2026-07-26). Part II production trio answered 2026-07-27 (PROD-01, PROD-03, scope menu). Remaining Part II modules deliberately deferred behind lab evidence.

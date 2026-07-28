@@ -30,6 +30,27 @@ session. Local PC sessions keep their standing branch discipline
 simply merge/pull the assessment branch's content in — do not create new
 branches for this seam, and do not treat the remote branch name as a rule.
 
+**Decision register (adopted 2026-07-28, late seam):** the
+designer-built **Decision Deck** (a Claude-design export; the design
+session is its source) is THE decision-register UI:
+`tools/decision_deck.html` — double-click, fully offline, verified
+(no external requests, decisions persist with option + note +
+timestamp). Real-queue payload: `tools/decision_deck_items_2026-07-28.json`
+(25 cards compiled from the four-ruling menu, this queue, the game
+DESIGNER_QUEUE, and the notice). **Designer flow:** open the deck →
+PASTE FROM AI → paste the payload file's contents → REPLACE (kills
+any sample/test entries in one step) → deal cards. **Convention:**
+after a deck session, EXPORT and hand the JSON to the session (paste
+or file); it gets committed as `tools/decision_deck_register.json`
+and the session sweeps decided items into the planning log + decision
+register and executes authorized go-items. Git is the register; the
+deck is the UI. Deck FEEL verdicts count per the verdict-system
+ruling (queue item 1); rulings/acceptance/go-no-go/evidence need no
+tier. `tools/test_deck.html` is retired by this adoption (queue item
+2 below is superseded). **Queued after the burn-down
+(designer-requested):** a backlog-prevention protocol session —
+standing rules so decisions get made at the seam instead of pooling.
+
 ## The queue (designer triggers each; listed in leverage order)
 
 1. **Verdict-system ruling** — two-tier / strict / all-count, PLUS the
@@ -41,14 +62,15 @@ branches for this seam, and do not treat the remote branch name as a rule.
    On ruling: write the planning decision entry, seed the verdict
    register from the provisional backlog (quotes + evidence links), and
    amend the game repo CLAUDE.md fresh-hands digest.
-2. **Test deck pass** — designer opens `tools/test_deck.html` (planning
-   repo; double-click, runs in browser), answers rulings/feel checks,
-   hits Export, pastes the `V:` block into chat. The session sweeps those
-   lines into the register + planning log. Six rulings need zero gameplay.
-3. **Remaining rulings not in the deck:** tester recruitment sizing
-   (10–16, ≥4 strangers/cycle — unblocks the Gate 1 calendar and is the
-   single highest-leverage one-liner), ledger #12 grandfather note,
-   hours-log backfill ruling.
+2. **Deck pass (SUPERSEDED → Decision Deck)** — see the Decision
+   register note above: `tools/decision_deck.html` + the 2026-07-28
+   payload replace `test_deck.html`. The zero-gameplay rulings still
+   lead the deal (the three weight-5 cards: verdict system, reactive
+   as record, recruitment sizing).
+3. **Remaining rulings** (now IN the deck as cards): tester recruitment
+   sizing (10–16, ≥4 strangers/cycle — unblocks the Gate 1 calendar and
+   is the single highest-leverage one-liner), ledger #12 grandfather
+   note, hours-log backfill ruling.
 4. **Go-items batch** (each needs an explicit word; all engineering-side):
    - WorldForge: merge the behaviors-49/50 lane per HANDOFF.md §1a, then
      RE-EXPORT the dusk game pack (identity bytes shift) and re-run the

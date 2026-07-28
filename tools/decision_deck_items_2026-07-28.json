@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Verdict system — how your calls count",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 5,
+    "unblocks": "most of the rested-pass backlog",
+    "detail": "Two-tier = in-session one-liners count as decisions and a fresh-hands session ratifies feel; Strict = only rested day-start counts; All-count = any clear-headed call counts. Includes the shift-work amendment: 'rested' keys on hours into YOUR waking day (15:00-23:00 shift means home-at-midnight is your 17:00), never wall clock. Marathon sessions and dirty runs (god/slow-mo/runtime edits) stay PROVISIONAL under every option. On ruling: planning decision entry, verdict register seeded from the provisional backlog, game CLAUDE.md fresh-hands digest amended.",
+    "options": ["Two-tier", "Strict (rested-only)", "All-count"],
+    "lean": "Two-tier"
+  },
+  {
+    "title": "Reactive as DodgeBot policy of record",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 5,
+    "unblocks": "ledger #11 + first_contact + battery re-baseline",
+    "detail": "Reactive (enter melee range, dodge windups on their telegraphs like a human) passes all three wolf-pair FAILs clean — first_contact 0 hits on all three canonical seeds — and is calibrated (solos a wolf, still fails the geometric canary). YES converts the three FAILs into documented baselines and the canonical battery re-runs under reactive as the record. Bot-fair vs human-fun stays your call.",
+    "options": ["Yes — reactive is the record", "No — keep primary as record"],
+    "lean": "Yes — reactive is the record"
+  },
+  {
+    "title": "Tester recruitment sizing",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 5,
+    "unblocks": "the Gate 1 calendar",
+    "detail": "The one original-plan ruling never made. Strangers arrive on calendar time — this number sets when Gate 1 can happen. Drafted proposal: 10-16 candidates, at least 4 strangers per cycle, at least 5 reserved for cycle 2.",
+    "options": ["10-16, >=4 strangers/cycle (drafted)", "Smaller (8-10)", "Bigger (16-24)"],
+    "lean": "10-16, >=4 strangers/cycle (drafted)"
+  },
+  {
+    "title": "Export pipeline (last M7 item)",
+    "category": "gonogo",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "M7 close + tester builds",
+    "detail": "tools/export.ps1 dev + tester profiles per the staged design (game notes/EXPORT_PIPELINE_DESIGN.md): tester profile feature-tag-gates god/slow-mo/console/free stat editor, excludes tests/, zip + artifact boot check; export step joins pretester_check. Engineering-side, runs without you."
+  },
+  {
+    "title": "Stand up itch + devlog + Discord",
+    "category": "evidence",
+    "repo": "community",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "tester recruitment runway",
+    "detail": "Open since M3; the plan moved these early exactly to give recruitment a runway (assessment P1: the real Gate 1 risk). Accounts + public posts are yours; ~1 evening total."
+  },
+  {
+    "title": "Push the assembler exporter commit",
+    "category": "evidence",
+    "repo": "assembler",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "actor-pipeline reproducibility",
+    "detail": "The game's actor pack was built from tool commit b7eae05f — it exists in NO known branch (checkout HEAD is 2026-07-17 with 41 families; the pack is 57/202). Push it from whichever machine has it. Cheapest insurance in the project."
+  },
+  {
+    "title": "M2 formal close — movement feel",
+    "category": "feel",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "M2 + every provisional movement call",
+    "tier": "fresh",
+    "detail": "Walk the current build: 3.0/4.0 presets ([ / ]), ranger facing, pause full-freeze (Esc), interp A/B (I), and the walk-close feel near props/structures (terrain radius 0.25 + corner slip). Your 'doesnt lag anymore' is provisional until this word. Open since July."
+  },
+  {
+    "title": "Six ordinaries ratification",
+    "category": "feel",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "M6 close + the [T] truth-up",
+    "tier": "fresh",
+    "detail": "Rusher slash, Husk, Fanmaw (big-glob d16 now — re-feel it), Ringer, Leadshot intercept+flank, Blightcaster zones. All provisionally positive so far ('he does exactly that!'); your 'Approved : not done' needs the word after a walk on the current build (wolves corner fluidly, moss walks)."
+  },
+  {
+    "title": "Weekly GIF",
+    "category": "cadence",
+    "repo": "community",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "recruitment pipeline priming",
+    "intervalDays": 7,
+    "detail": "GIF #2 is open and due. Fresh material: the Warden full fight, the M6 pack in the dusk town, the generated world. G dumps the ring buffer, tools/gif.ps1 converts; post to the devlog + one community."
+  },
+  {
+    "title": "WorldForge behaviors-49/50 merge",
+    "category": "gonogo",
+    "repo": "worldforge",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "WorldForge lane unification",
+    "detail": "Merge runbook is WorldForge HANDOFF.md section 1a. After the merge the dusk game pack MUST be re-exported (identity bytes shift) and the game re-runs the intake battery. Until then the game pins a pack the merge will orphan."
+  },
+  {
+    "title": "world_filler verifier fixes",
+    "category": "gonogo",
+    "repo": "world_filler",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "a trustworthy format-1 freeze",
+    "detail": "The freeze is provisional with credible holes: neither reference verifier reads report.json (an ok:false pack passes), empty manifest.files makes hash checks vacuous, and TS vs GDScript diverge on row-crossing territories (wrap vs refuse). Fix BEFORE any game importer copies them."
+  },
+  {
+    "title": "Nine-row acceptance — eye rows",
+    "category": "acceptance",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "ledgers #9/#14 + Law sign-off",
+    "detail": "Open game notes/NINE_ROW_ACCEPTANCE.md with reports/density_audit_m6.png, _min.png, _deutan.png (attach them to this card if you like — they are small). Judge rows 1, 2, 3, 6, 9; rows 4/5/7/8 are mechanical and already evidenced. Row 3 on the deutan capture doubles as the fanmaw-color evidence. ~15 min, rested preferred."
+  },
+  {
+    "title": "CORE-34 no-ability clear",
+    "category": "evidence",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "the M6 acceptance line",
+    "detail": "One full clear of a shipped scenario (second_contact or first_contact suggested) WITHOUT ever pressing Space. Tired counts — this is evidence, not feel. session.jsonl gets verified after (kills present, zero AbilityCast)."
+  },
+  {
+    "title": "Grass slits — the 13 sealed cells",
+    "category": "ruling",
+    "repo": "worldforge",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "settlement readability polish",
+    "detail": "The inter-house gaps you X-marked were the porosity fix's seals, not moss. Keep sealed = overlap protection wins. Reopen = readability wins but the slide-into-sprites visual returns on exactly those cells. TileForge dressing = fixes both upstream, needs art.",
+    "options": ["Keep sealed (now)", "Reopen", "TileForge blocked-ground dressing (endstate)"],
+    "lean": "Keep sealed (now)"
+  },
+  {
+    "title": "Warden HP vs the 13-second line",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "elite docs truth-up",
+    "detail": "Spec 3.5 prose says 400 HP is ~13 s of pure Longbolt; TTKBot measures the CURRENT Longbolt killing it in 8.38 s (the prose matched an older statline). Scattercast/Wheelblade already sit at ~13 s. Accept = docs truth-up; raise = ~575 HP [T] + contained elite re-proof.",
+    "options": ["Accept 8.4 s honest", "Raise to ~575 HP [T] + re-proof"],
+    "lean": "Accept 8.4 s honest"
+  },
+  {
+    "title": "Fanmaw projectile hue — orange vs teal",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "CVD sign-off (9-row row 3)",
+    "detail": "Orange shares the deutan 'olive bucket' with husk red (see density_audit_m6_deutan.png); teal is the CVD-safe alternate. One-file remap either way. Judge with the deutan capture — this pairs with 9-row row 3.",
+    "options": ["Keep orange", "Switch to teal"]
+  },
+  {
+    "title": "Scarecrow:strawfield for the Warden",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "elite sheet finality",
+    "detail": "The elite's actor sheet is provisional. Approve, or name another family:variant — either is a one-line swap; polished sheets drop into the same slot later.",
+    "options": ["Approve scarecrow:strawfield", "Name another family:variant"],
+    "lean": "Approve scarecrow:strawfield"
+  },
+  {
+    "title": "Hours-log backfill",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "PROD-01 floor integrity",
+    "detail": "~8.5 h formally closed against ~2 days of heavy work; the 16-hour Jul-28 session barely logged. The 40 h/week floor check and the Phase A actuals are only as good as this file.",
+    "options": ["Backfill the marathon honestly once, then log forward", "Accept the gap, log forward only"],
+    "lean": "Backfill the marathon honestly once, then log forward"
+  },
+  {
+    "title": "Docs truth-up",
+    "category": "gonogo",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "cold-start safety",
+    "detail": "docs/03-HANDOFF.md body + notes/INTERVIEW_STATE.md still say 'M2 in progress' — five milestones stale. A cold-start session following the repo's own reading order would be misled. One truth-up commit, engineering-side."
+  },
+  {
+    "title": "Ecosystem map (doc 16)",
+    "category": "acceptance",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "pointer blocks in all seven repos",
+    "detail": "docs/16-ECOSYSTEM_MAP.md: seven repos, authority docs, pins, cross-repo rules. On accept, a short pointer block goes at the top of each repo's agent-facing doc. If accept-with-edits, put the edits in the card note."
+  },
+  {
+    "title": "Eyes-closed audio sanity (Law 7)",
+    "category": "evidence",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "audio cue map sign-off",
+    "detail": "One mixed encounter, eyes closed — can you tell the seven cues apart? Verdict + date go in the slot at the bottom of game notes/AUDIO_CUE_MAP.md. Tired counts."
+  },
+  {
+    "title": "Audio cues in normal play",
+    "category": "feel",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 1,
+    "unblocks": "cue-map ratification",
+    "tier": "fresh",
+    "detail": "Do the placeholder cues read right (not annoying, not masking) during ordinary play? Pairs with the eyes-closed test; this half is feel."
+  },
+  {
+    "title": "Ledger #12 grandfather note",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 1,
+    "unblocks": "ledger hygiene",
+    "detail": "Blob-47 mask placement stays game-side until a WorldForge arena replaces the hand-authored forest. You were going to record the note — one line.",
+    "options": ["Record the grandfather note", "Schedule the replacement instead"],
+    "lean": "Record the grandfather note"
+  },
+  {
+    "title": "Hours report weekly",
+    "category": "cadence",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 1,
+    "unblocks": "PROD-01 rolling window",
+    "intervalDays": 7,
+    "detail": "tools/hours_report.ps1 weekly; the first meaningful read is end of week 4 when the first 4-week rolling window closes."
+  },
+  {
+    "title": "Boss sheets drop intake",
+    "category": "evidence",
+    "repo": "assembler",
+    "actionable": "later",
+    "weight": 1,
+    "unblocks": "polished actor art",
+    "detail": "When your polished boss/actor sheets drop: same family:variant slot = zero-code re-import; new bosses = new slots and we talk scope (M8/Phase B). Tell the session the drop location."
+  }
+]

@@ -1,4 +1,4 @@
-# Wildshot Ecosystem Map (DRAFT — pending designer approval)
+# Wildshot Ecosystem Map (ACCEPTED 2026-07-29 — Decision Deck register; pointer blocks pending the housekeeping batch)
 
 **Read this first, in any repo, before doing anything.** This is the one
 document that names every repo in the project, what it owns, what it may
@@ -89,11 +89,15 @@ asks, never as local patches.
   territories, danger bands) → content pack format 1.
 - **Authority docs:** `HANDOFF.md`, `docs/ROADMAP.md` (F0–F8),
   `docs/FREEZE_REVIEW_FINDINGS.md` (**read before trusting the freeze**).
-- **State:** F0–F7 green (114 tests), F8 (viewer) next.
-- **⚠ Freeze is PROVISIONAL:** adversarial review was cut off; credible
-  verifier holes (report.json unread; empty manifest.files vacuous;
-  TS-vs-GDScript territory-wrap divergence). **Fix verifiers before any
-  game importer copies them.** F2–F5 visual verdicts pending designer.
+- **State (truthed up 2026-07-29):** F0–F8 complete, 140 tests; the
+  F7 freeze review was RESOLVED in a follow-up session (38/38 findings
+  fixed empirically; **content pack format 1 FINAL**; both verifier
+  lanes aligned refusal-for-refusal). Branch
+  `claude/freeze-review-resolution-tf6bkf` is the RULED MAINLINE
+  (Decision Deck 2026-07-29); a proper clone now lives on the dev
+  machine. HEAD continues into F9 (studio) — check its HANDOFF.md.
+  F2–F5 visual verdicts still pending designer. Game-side consumption
+  plan: planning docs/17 (ACCEPTED — post-Gate-1).
 - **Env notes:** canonical 256² pack not committed (regenerate); Node ≥24.15.
 
 ### 6. 8-bit-sprite-assembler — actor sprite tool

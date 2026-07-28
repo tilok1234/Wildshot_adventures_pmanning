@@ -1,4 +1,4 @@
-# 17 — world_filler Integration Plan (DRAFT — pending designer approval)
+# 17 — world_filler Integration Plan (ACCEPTED 2026-07-29 — Decision Deck register)
 
 Drafted 2026-07-29 on designer request ("plan out properly how we gonna
 use it"). Sources read this session: world_filler HANDOFF.md (2026-07-28,

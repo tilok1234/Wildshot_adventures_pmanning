@@ -208,7 +208,7 @@ All [T]. Spread check (CORE-21): Rusher/Husk die head-on (2 and 4 Longbolt hits)
 
 ### 3.5 Elite v0 — "Yard Warden"
 
-- HP **400** [T] — ~13 s of pure Longbolt DPS; honest, not sponge (CORE-36); TTKBot verifies.
+- HP **575** [T] — raised from 400 by Decision Deck ruling 2026-07-29: TTKBot measured the current Longbolt killing 400 in 8.38 s vs this line's ~13 s intent (the prose had matched an older statline); 575 restores ~12 s. Honest, not sponge (CORE-36); TTKBot verifies.
 - Phases on HP% (PhaseList resource): P1 (100–66%) aimed triples + fan; P2 (66–33%) rotating radial + ground hazards; P3 (33–0%) predictive volleys + fan + chase bursts. All [T].
 - Peak hostile projectiles ≤ 300 (budgets.tres); density meter proves complexity-not-density escalation (CORE-36, CORE-51 Law 5).
 - Every phase pattern carries a passing DodgeBot proof at 3.0 tiles/s **with ability unused**, **plus a full-fight proof across phase transitions**, before any tester sees it (CORE-33/34, PLAN-bots, §2.11).

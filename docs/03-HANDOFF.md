@@ -6,6 +6,12 @@
 > cross-repo rules — lives at `docs/16-ECOSYSTEM_MAP.md` in this repo.
 > Read it before working in ANY Wildshot repo.
 
+> **SYNC-LOG HOOK (doc 18, ACCEPTED 2026-07-30).** At session end, with
+> the handoff update, append a line to `tools/sync_log.json` for every
+> cross-repo event the session caused (delivery, intake, ask, incident,
+> pin change). No event, no entry. Protocol: `docs/18-AGENT_SYNC_PROTOCOL.md`;
+> mainlines + pins: `tools/ecosystem.lock.json`.
+
 ---
 
 # CURRENT HANDOFF — 2026-07-28 (assessment session close)

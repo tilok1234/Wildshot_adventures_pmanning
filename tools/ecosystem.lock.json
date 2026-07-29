@@ -1,11 +1,12 @@
 {
   "formatVersion": 1,
-  "status": "DRAFT — pending designer acceptance of docs/18-AGENT_SYNC_PROTOCOL.md; seeded 2026-07-29 from the seven-repo review. Fields marked UNCONFIRMED need verification before this file binds.",
-  "updated": "2026-07-29",
+  "status": "ACTIVE — doc 18 ACCEPTED 2026-07-30 (Decision Deck register). Written during intakes and mainline rulings per doc 18 §10; any mismatch between this file and reality is an automatic incident.",
+  "updated": "2026-07-30",
   "repos": {
     "planning": {
       "github": "tilok1234/Wildshot_adventures_pmanning",
-      "mainline": "UNCONFIRMED (session branches only on remote; ruled mainline never recorded)"
+      "mainline": "claude/questionnaire-note-taking-9vl2sl",
+      "note": "Standing branch by design — no main, do not create one. Only branch on the remote after the 2026-07-30 janitor sweep."
     },
     "game": {
       "github": "tilok1234/Wildshot-Adventures",
@@ -13,25 +14,28 @@
     },
     "tileforge": {
       "github": "tilok1234/tileforge",
-      "mainline": "UNCONFIRMED (assumed main)"
+      "mainline": "master",
+      "note": "Confirmed 2026-07-29 branch audit: master only, default. Local folder: 'Semantic tile generator design'."
     },
     "worldforge": {
       "github": "tilok1234/WorldForge",
-      "mainline": "main"
+      "mainline": "main",
+      "note": "Husk branches deleted 2026-07-30 (archive-tagged). Active designer scenery arc lands on main via their WF sessions."
     },
     "world_filler": {
       "github": "tilok1234/world_filler",
-      "mainline": "claude/freeze-review-resolution-tf6bkf",
-      "note": "RULED mainline (Decision Deck 2026-07-29). GitHub default branch is still the older claude/world-director-planning-vvvudl — incident sl-0002; fix needs ruling item 3 in doc 18 §11."
+      "mainline": "main",
+      "note": "RE-RULED 2026-07-30 (designer, Tier 1): main = the designer's approval line (formerly world-filler-repo-focus-9fmr60; all visual verdicts, format-2 work). GitHub default = main. The parallel freeze-review-resolution-tf6bkf line is archive-tagged (149-test dual-verifier battery — port ask open). Area-share banding verdict superseded by rounds 1-4. Windows warning: no .gitattributes yet — use byte-exact checkouts for tests (ask open)."
     },
     "assembler": {
       "github": "tilok1234/8-bit-sprite-assembler",
       "mainline": "main",
-      "note": "Remote main HEAD is 2026-07-17 and does NOT contain the exporter commit the game's pack was built from — incident sl-0001."
+      "note": "Consolidated 2026-07-30 janitor session: main c6dcdc5 contains all four codex lines AND the game pack's source commit b7eae05f — incident sl-0001 RESOLVED. npm run check cannot pass from a clean clone (reads untracked review drafts — ask open)."
     },
     "resonance_forge": {
       "github": "tilok1234/music_soundeffects",
-      "mainline": "UNCONFIRMED (assumed main)"
+      "mainline": "main",
+      "note": "codex/g3-g5-production (4 ahead, incl. Phase 7) is LIVE designer-session territory as of 2026-07-30 — merges to main at that session's own seam with its gates (npm test in apps/desktop + cargo test -p audio-core --lib)."
     }
   },
   "pins": [
@@ -54,7 +58,7 @@
       "artifact": "small-cold-coastal-pack-dusk, WYSIWYG era (WF 91d1fa9 ruling), flood 34739, porosity pin 44",
       "path": "assets/worldforge-packs/small-cold-coastal-pack-dusk/",
       "intake": "2026-07-29",
-      "note": "A NEWER WF export exists (behavior 63, flood 34641 after furniture claimed ground cells) and is awaiting handover — sync log sl-0004."
+      "note": "A NEWER WF export exists (behavior 63, flood 34641 after furniture claimed ground cells) and is awaiting handover — sync log sl-0004. WF itself has since moved to behavior 65 (designer scenery arc)."
     },
     {
       "consumer": "game",
@@ -63,7 +67,7 @@
       "path": "assets/assembler-pack/",
       "sourceCommit": "b7eae05f",
       "intake": "2026-07-27",
-      "note": "sourceCommit NOT verifiable on the assembler GitHub remote — incident sl-0001. Pack itself validated and in use."
+      "note": "sourceCommit verifiable on GitHub since 2026-07-30 (assembler main c6dcdc5) — incident sl-0001 resolved."
     },
     {
       "consumer": "game",
@@ -83,7 +87,7 @@
     {
       "consumer": "game",
       "producer": "world_filler",
-      "artifact": "NONE — consumption is post-Gate-1 by doc 17 (accepted 2026-07-29)"
+      "artifact": "NONE — consumption is post-Gate-1 by doc 17 (accepted 2026-07-29; mainline note added 2026-07-30: format 1 FINAL stays the consumption basis)"
     },
     {
       "consumer": "game",

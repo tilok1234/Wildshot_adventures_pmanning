@@ -458,6 +458,106 @@
       ],
       "lean": "freeze-review-resolution-tf6bkf is the lane",
       "decidedAt": 1785278820571
+    },
+    {
+      "id": "n8vp2k3v",
+      "category": "ruling",
+      "title": "Adopt the repo rulebook (doc 18)",
+      "repo": "ecosystem",
+      "actionable": "now",
+      "weight": 4,
+      "unblocks": "the whole anti-drift system becoming law",
+      "detail": "This is the rulebook born from your phone idea, designed properly with you in the remote session, and battle-tested by tonight's cleanup. Adopting it makes four habits law for every session in every repo: (1) THE LOGBOOK - one shared file in the planning repo where every pack handover, request between repos, and incident gets one line, so repos stop depending on someone remembering; (2) THE PASSPORT - no pack enters a repo without a small where-I-came-from slip (source, version, fingerprint), and importers refuse packs without one; (3) THE SESSION RECIPE - page 1 answers 'which repo do I open', including the janitor rules we used tonight (safety tags first, tests before pushes, you click anything destructive); (4) THE HANDOFF HOOK - every session-end handoff asks 'do I owe the logbook a line'. Adopting changes how sessions work going forward; it does not rebuild anything existing.",
+      "images": [],
+      "status": "done",
+      "decision": "Adopt it",
+      "note": "",
+      "options": [
+        "Adopt it",
+        "Not yet - I want changes first"
+      ],
+      "lean": "Adopt it",
+      "decidedAt": 1785367106345
+    },
+    {
+      "id": "yltypfyq",
+      "category": "ruling",
+      "title": "Pack tools refuse to export unsaved/unpushed work",
+      "repo": "ecosystem",
+      "actionable": "now",
+      "weight": 3,
+      "unblocks": "never again losing a pack's recipe",
+      "detail": "Every pack-making tool (tiles, worlds, world-filler, sprites, audio) gets one safety check: it refuses to export a pack while its own code has unsaved changes or commits that exist only on this machine. This is exactly what nearly made the game's character art unrebuildable - the art pack came from tool code no branch on GitHub contained. Tonight's cleanup found the same pattern again in a smaller way (a half-merged main that was never pushed). YES means each tool repo gets a small paste-ask to add the check in its own lane; the tools' behavior is otherwise untouched.",
+      "images": [],
+      "status": "done",
+      "decision": "Yes - all pack tools get the guard",
+      "note": "",
+      "options": [
+        "Yes - all pack tools get the guard",
+        "No"
+      ],
+      "lean": "Yes - all pack tools get the guard",
+      "decidedAt": 1785367116717
+    },
+    {
+      "id": "hxw5hlkm",
+      "category": "ruling",
+      "title": "Talk-before-build becomes law",
+      "repo": "planning",
+      "actionable": "now",
+      "weight": 3,
+      "unblocks": "no more surprise half-built systems",
+      "detail": "Your own callout from the phone session, made into a standing rule: when a NEW tool, protocol, or system idea comes up, the design conversation happens in chat first - the agent builds nothing until you have walked through the idea and said build. (This exists because the first sync-protocol draft got built in one pass the moment you mentioned the idea, and you rightly called that out. The proper session afterwards agreed with the draft - but that was luck, not process.)",
+      "images": [],
+      "status": "done",
+      "decision": "Make it law",
+      "note": "",
+      "options": [
+        "Make it law",
+        "Skip - case by case"
+      ],
+      "lean": "Make it law",
+      "decidedAt": 1785367134845
+    },
+    {
+      "id": "cr44yht8",
+      "category": "ruling",
+      "title": "Finished packs also go up as GitHub releases",
+      "repo": "ecosystem",
+      "actionable": "now",
+      "weight": 2,
+      "unblocks": "originals always fetchable from anywhere",
+      "detail": "Today a finished pack travels as a folder or zip handed from tool to game. This rule would ADDITIONALLY upload every shipped pack to its tool's GitHub page as a tagged release - so the original always lives online, any machine can download it, and its fingerprint can be checked forever. Costs a little ceremony per pack export. Honest lean: LATER - the current handover works, the logbook already fixes the forgetting problem, and the tester push matters more right now. Revisit after Gate 1.",
+      "images": [],
+      "status": "done",
+      "decision": "Adopt now",
+      "note": "",
+      "options": [
+        "Adopt now",
+        "Later - revisit after Gate 1"
+      ],
+      "lean": "Later - revisit after Gate 1",
+      "decidedAt": 1785367147414
+    },
+    {
+      "id": "kare4qyw",
+      "category": "ruling",
+      "title": "Automatic drift check - now or later",
+      "repo": "ecosystem",
+      "actionable": "now",
+      "weight": 2,
+      "unblocks": "drift found by a script instead of a session",
+      "detail": "A small report-only check that compares what each repo SAYS it holds (the logbook and pin file) against what is actually on disk and on GitHub, and lists mismatches. Honest lean: LATER - the rulebook's own principle is data first, tools after; let the logbook collect real entries for a while, then build the checker against real data. Building it now would be automating a file that is still nearly empty.",
+      "images": [],
+      "status": "done",
+      "decision": "Later - after the logbook has real data",
+      "note": "",
+      "options": [
+        "Build it now",
+        "Later - after the logbook has real data"
+      ],
+      "lean": "Later - after the logbook has real data",
+      "decidedAt": 1785367172093
     }
   ],
   "repos": [
@@ -466,6 +566,7 @@
     "community",
     "assembler",
     "worldforge",
-    "world_filler"
+    "world_filler",
+    "ecosystem"
   ]
 }

@@ -154,7 +154,12 @@ asks, never as local patches.
    pending — see planning repo once recorded).
 6. **All work on designated branches; commit+push before the container/
    session dies.** Unpushed work on a dev machine is issue-class (see
-   assembler drift).
+   assembler drift, resolved 2026-07-30).
+7. **GitHub default branch = ruled mainline, every repo** (doc 18,
+   accepted 2026-07-30). The full cross-repo operating protocol —
+   sync-log logbook, pack passports, session recipe, janitor rules,
+   publish gates, releases-as-transport — is
+   `docs/18-AGENT_SYNC_PROTOCOL.md`; read it alongside this map.
 
 ---
 

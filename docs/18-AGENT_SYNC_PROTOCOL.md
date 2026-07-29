@@ -1,18 +1,17 @@
 # Agent Sync Protocol — cross-repo events, logging homes, and the Sync Log
 
 **Doc:** 18-AGENT_SYNC_PROTOCOL
-**Status:** **DRAFT, REVIEWED — pending Deck ratification.** Drafted
-2026-07-29 on designer direction (phone chat); independently re-derived
-and agreed point-for-point in the 2026-07-29 remote design session
-(back-and-forth, designer-approved direction — see
-`notes/sessions/2026-07-29-remote-repo-structure-planning.md` §2); its
-three requested edits are folded in (§0 session recipe as page 1, the
-janitor exception, the handoff hook), plus the 2026-07-30 janitor
-session's live evidence (§0.4, §12). Ratification payload:
-`tools/decision_deck_items_2026-07-30.json`. Until the Deck accepts,
-this doc changes NOTHING — doc 16's rules stand as written.
-**Authority:** extends `docs/16-ECOSYSTEM_MAP.md`; on any conflict, doc 16
-wins until this doc is accepted and doc 16 is amended to reference it.
+**Status:** **ACCEPTED 2026-07-30 — Decision Deck register ("Adopt
+it").** This doc now BINDS every session in every repo. Companion
+rulings from the same deal: **publish gates YES** (asks armed for all
+producer repos); **releases-as-transport ADOPTED NOW** (§4.4 is active —
+the designer chose adoption over the drafted later-lean); **drift check
+LATER** (build it after the logbook has real data); **talk-before-build
+is LAW** (§13). History: drafted 2026-07-29 on designer direction,
+re-derived and agreed in the 2026-07-29 remote design session, edits
+folded + janitor-evidenced 2026-07-30, ratified same night.
+**Authority:** extends `docs/16-ECOSYSTEM_MAP.md` (its rule 7 comes from
+this doc); on conflict doc 16 wins.
 
 ---
 
@@ -130,10 +129,13 @@ accepted (regenerate, don't hand-edit).
    adopt it when their exporters next change).
 3. Log a `delivery` entry in the sync log: artifact id, sourceCommit,
    hash, where the consumer should pick it up.
-4. *(Tier 2, once ruled)* Upload the pack zip as a **GitHub release
-   asset** tagged with the artifact id — the registry replaces
-   desktop-zip/chat transport; consumers fetch by tag and verify the
-   hash. Until ruled, the current directory-drop transport stands.
+4. *(RULED ACTIVE 2026-07-30 — designer adopted now, against the
+   later-lean)* Upload the pack zip as a **GitHub release asset**
+   tagged with the artifact id — the registry replaces desktop-zip/chat
+   transport; consumers fetch by tag and verify the hash. Rollout: each
+   producer repo adopts it in the same ask that adds its publish gate
+   (§11 item 2); packs shipped before a tool's exporter gains the step
+   are grandfathered.
 
 ## 5. Intake protocol (consumer repos — today: the game)
 
@@ -228,30 +230,39 @@ ref). Written only during intakes (§5) or mainline rulings. Any tool or
 agent that wants to know "what should be where" reads this file; any
 mismatch between the lock and reality is an automatic `incident`.
 
-## 11. What needs a ruling before any of this binds
+## 11. The ruling menu (RESOLVED 2026-07-30 — outcomes inline)
 
 One deck card per line (drafted for paste-in when asked):
 
-1. **Adopt the protocol** (this doc; doc 16 gains a pointer + rule 7:
+1. **Adopt the protocol** — ✅ **ADOPTED** (doc 16 gains rule 7:
    "GitHub default branch = ruled mainline, every repo").
-2. **Publish gates** in the four producer exporters (asks to each repo).
+2. **Publish gates** in the producer exporters — ✅ **YES**; paste-asks
+   armed for tileforge, WorldForge, world_filler, assembler, Resonance
+   Forge (each implements in its own lane; the same ask carries the
+   §4.4 release-upload step).
 3. ~~**Fix world_filler's default branch**~~ ✅ DONE 2026-07-30 (janitor
    session: `main` created, default flipped, then re-ruled to the
    designer's approval line).
-4. *(Tier 2)* **GitHub releases as pack transport**, replacing
-   directory/zip drops.
-5. *(Tier 2)* **Drift check cadence** — a script or scheduled agent
-   comparing lock vs latest deliveries, report-only.
-6. **Talk-before-build rule** (from the 2026-07-29 phone-break lesson,
-   proposed by the designer's own callout): for new protocol/tool/
-   system ideas, the design conversation happens in chat FIRST; agents
-   draft nothing until the designer has walked through the idea and
-   said build.
+4. **GitHub releases as pack transport** — ✅ **ADOPTED NOW** (designer
+   call, against the drafted later-lean; §4.4 active).
+5. **Drift check cadence** — ⏲ **LATER**, by ruling: build it after the
+   logbook has real data (the doc's own data-first principle).
+6. **Talk-before-build rule** — ✅ **LAW** (§13).
 
-Ratification payload: `tools/decision_deck_items_2026-07-30.json`
-(cards for 1, 2, 4, 5, 6 — item 3 already done).
-Until ruled: agents MAY write sync-log entries (recording facts harms
-nothing and the seed log already exists); everything else waits.
+Register: `tools/decision_deck_register.json` (dealt from payload
+`tools/decision_deck_items_2026-07-30.json`, decided 2026-07-30).
+
+## 13. Talk-before-build (LAW, 2026-07-30)
+
+For NEW protocol/tool/system ideas: the design conversation happens in
+chat FIRST — the agent builds nothing until the designer has walked
+through the idea end-to-end and said build. Origin: the 2026-07-29
+phone-break session built this very protocol's first draft in one pass
+the moment the idea was mentioned; the designer called it out, and the
+proper session that followed happened to agree with the draft — luck,
+not process. This rule makes the process mandatory. (It governs new
+systems; it does not slow normal in-lane engineering the designer
+already authorized.)
 
 ## 12. Repo hygiene baseline (added 2026-07-30, janitor evidence)
 

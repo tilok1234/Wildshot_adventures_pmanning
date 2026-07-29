@@ -8,9 +8,9 @@
       "repo": "assembler",
       "target": "game",
       "title": "The enemy-sprite pack the game uses was built from a commit that is not on the assembler's GitHub",
-      "detail": "The pack manifest says it was built from commit b7eae05f, but that commit exists on no branch of tilok1234/8-bit-sprite-assembler (remote HEAD is 2026-07-17, before the exporter work). The pack itself is validated and fine — but if the dev machine copy is ever lost, the exact tool version that made it is gone. Fix: push the exporter work (and the 48x48 boss pilots) from wherever it lives, then verify the commit is fetchable.",
-      "refs": ["notes/sessions/2026-07-29.md"],
-      "status": "open",
+      "detail": "The pack manifest says it was built from commit b7eae05f, but that commit exists on no branch of tilok1234/8-bit-sprite-assembler (remote HEAD is 2026-07-17, before the exporter work). The pack itself is validated and fine — but if the dev machine copy is ever lost, the exact tool version that made it is gone. Fix: push the exporter work (and the 48x48 boss pilots) from wherever it lives, then verify the commit is fetchable. || RESOLVED 2026-07-30 (janitor session): the commit was on GitHub all along, on codex/form-shading; assembler main was consolidated to c6dcdc5 which contains it. The actor pipeline is reproducible from the repo again.",
+      "refs": ["notes/sessions/2026-07-29.md", "notes/sessions/2026-07-30.md"],
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -19,9 +19,9 @@
       "type": "incident",
       "repo": "world_filler",
       "title": "Fresh copies of world_filler start on old, wrong code",
-      "detail": "The ruled mainline is claude/freeze-review-resolution-tf6bkf, but the repo's GitHub default branch is an older lane — so a fresh clone (or agent) lands ~12 commits behind on pre-freeze-resolution code with an obsolete HANDOFF that still calls the freeze provisional. Fix: set the GitHub default branch to the ruled mainline (doc 18 §11 item 3), and refresh stale local clones.",
-      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
-      "status": "open",
+      "detail": "The ruled mainline is claude/freeze-review-resolution-tf6bkf, but the repo's GitHub default branch is an older lane — so a fresh clone (or agent) lands ~12 commits behind on pre-freeze-resolution code with an obsolete HANDOFF that still calls the freeze provisional. Fix: set the GitHub default branch to the ruled mainline (doc 18 §11 item 3), and refresh stale local clones. || RESOLVED 2026-07-30 (janitor session): main created + GitHub default flipped; the mainline was then RE-RULED by the designer to their approval line (now main = the former world-filler-repo-focus-9fmr60), local clone switched, HANDOFF de-staled.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md", "notes/sessions/2026-07-30.md"],
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -30,7 +30,7 @@
       "type": "incident",
       "repo": "planning",
       "title": "Doc 16's version-snapshot table drifted within a day of being written",
-      "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited.",
+      "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited. || 2026-07-30: doc 18 is now ACCEPTED and the table + lock were hand-truthed tonight; converting the table to a lock-rendered view is sanctioned future work — until then the lock file is the authority on pins (doc 18 §10).",
       "refs": ["docs/16-ECOSYSTEM_MAP.md", "tools/ecosystem.lock.json"],
       "status": "open",
       "by": "agent"
@@ -92,6 +92,36 @@
       "title": "Sync protocol drafted (doc 18) + this log started",
       "detail": "Designer directed (phone, Tier 1): structure the agent protocols for cross-repo work and logging, and build a log program like the Decision Deck. Draft delivered: docs/18-AGENT_SYNC_PROTOCOL.md, tools/ecosystem.lock.json, this register, tools/sync_log.html. Nothing binds until the deck ruling (doc 18 §11).",
       "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0009",
+      "ts": "2026-07-30T01:40:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "title": "The repo rulebook (doc 18) is ADOPTED — logbook, passports, session recipe, handoff hook now bind every session",
+      "detail": "Decision Deck deal 2026-07-30: doc 18 adopted; publish gates YES for all pack tools; packs-as-GitHub-releases ADOPTED NOW (designer chose against the drafted later-lean); drift check LATER (after the logbook has real data); talk-before-build is LAW. Doc 16 gained rule 7 (GitHub default = ruled mainline).",
+      "refs": ["tools/decision_deck_register.json", "docs/18-AGENT_SYNC_PROTOCOL.md", "notes/sessions/2026-07-30.md"],
+      "by": "designer"
+    },
+    {
+      "id": "sl-0010",
+      "ts": "2026-07-30T01:40:00Z",
+      "type": "ruling",
+      "repo": "world_filler",
+      "title": "world_filler mainline re-ruled: main = the designer's approval line; area-share banding superseded",
+      "detail": "Designer confirmed their substantial work lived on the world-filler-repo-focus line (verdict rounds 1-4, F2-F5, F8, format-2 work); evidence: 134/135 tests on a byte-exact checkout (the 1 fail is a Windows-separator test nit). main force-pushed to it (designer-clicked, lease-guarded). The old area-share banding verdict (project-docs-handoff-8vdssn line) is SUPERSEDED by quantile rounds 1-4. Both old lines archive-tagged.",
+      "refs": ["notes/sessions/2026-07-30.md", "tools/ecosystem.lock.json"],
+      "by": "designer"
+    },
+    {
+      "id": "sl-0011",
+      "ts": "2026-07-30T01:40:00Z",
+      "type": "note",
+      "repo": "planning",
+      "title": "Janitor sweep complete: every repo down to one living branch",
+      "detail": "16 archive tags pushed, 7 husks + 4 world_filler lines + 4 assembler codex branches deleted (designer-clicked), assembler main consolidated (c6dcdc5), world_filler main promoted, music untouched (live session — merges at its own seam). Full record: notes/sessions/2026-07-30.md.",
+      "refs": ["notes/sessions/2026-07-30.md"],
       "by": "agent"
     }
   ]

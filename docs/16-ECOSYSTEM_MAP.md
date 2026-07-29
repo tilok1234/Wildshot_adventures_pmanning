@@ -102,10 +102,10 @@ asks, never as local patches.
   battery onto main is a recorded ask. Old area-share banding verdict
   SUPERSEDED by rounds 1–4 (designer, 2026-07-30). Game-side
   consumption plan: planning docs/17 (ACCEPTED — post-Gate-1).
-- **Windows env warning:** repo has no `.gitattributes` and hash-pins
-  fixtures — checkouts with `autocrlf=true` break ~30 tests falsely.
-  Recorded ask: add `.gitattributes` (LF) + fix the one
-  separator-naive guard test.
+- **Windows env warning: RESOLVED same night** — the designer's
+  world_filler agent landed `.gitattributes` (LF pin) + the guard-test
+  fix (`dce666b`) and ported the archived line's test battery
+  (`3c66a6c`) within ~35 min of the ask (sync log sl-0012).
 - **Env notes:** canonical 256² pack not committed (regenerate); Node ≥24.15.
 
 ### 6. 8-bit-sprite-assembler — actor sprite tool

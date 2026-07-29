@@ -1,0 +1,98 @@
+{
+  "formatVersion": 1,
+  "entries": [
+    {
+      "id": "sl-0001",
+      "ts": "2026-07-29T15:30:00Z",
+      "type": "incident",
+      "repo": "assembler",
+      "target": "game",
+      "title": "The enemy-sprite pack the game uses was built from a commit that is not on the assembler's GitHub",
+      "detail": "The pack manifest says it was built from commit b7eae05f, but that commit exists on no branch of tilok1234/8-bit-sprite-assembler (remote HEAD is 2026-07-17, before the exporter work). The pack itself is validated and fine — but if the dev machine copy is ever lost, the exact tool version that made it is gone. Fix: push the exporter work (and the 48x48 boss pilots) from wherever it lives, then verify the commit is fetchable.",
+      "refs": ["notes/sessions/2026-07-29.md"],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0002",
+      "ts": "2026-07-29T15:30:00Z",
+      "type": "incident",
+      "repo": "world_filler",
+      "title": "Fresh copies of world_filler start on old, wrong code",
+      "detail": "The ruled mainline is claude/freeze-review-resolution-tf6bkf, but the repo's GitHub default branch is an older lane — so a fresh clone (or agent) lands ~12 commits behind on pre-freeze-resolution code with an obsolete HANDOFF that still calls the freeze provisional. Fix: set the GitHub default branch to the ruled mainline (doc 18 §11 item 3), and refresh stale local clones.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0003",
+      "ts": "2026-07-29T15:30:00Z",
+      "type": "incident",
+      "repo": "planning",
+      "title": "Doc 16's version-snapshot table drifted within a day of being written",
+      "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited.",
+      "refs": ["docs/16-ECOSYSTEM_MAP.md", "tools/ecosystem.lock.json"],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0004",
+      "ts": "2026-07-29T15:30:00Z",
+      "type": "delivery",
+      "repo": "worldforge",
+      "target": "game",
+      "title": "A newer dusk world export is finished and waiting to be handed to the game",
+      "detail": "WorldForge re-exported the dusk pack under behavior 63 (walkable count 34641 — furniture now claims the ground cells it stands on). The game still plays the earlier WYSIWYG export (34739). When it lands: full intake runbook (validate, battery, porosity re-pin, world_walk re-proof) plus the designer's city walk.",
+      "artifact": { "id": "small-cold-coastal-pack-dusk@b63", "sourceCommit": "see WF outputs/game-packs staging", "hash": "in pack manifest" },
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0005",
+      "ts": "2026-07-29T15:30:00Z",
+      "type": "ask_opened",
+      "repo": "worldforge",
+      "target": "tileforge",
+      "title": "WorldForge needs three art improvements from TileForge",
+      "detail": "Better road-band art, vertical (east/west) gate art, and an optional softer hedge repaint. Recorded in WorldForge's handoff but not visible in TileForge's own queue — this entry is the tracked record until the GitHub-issue half of the ask protocol is ruled.",
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0006",
+      "ts": "2026-07-29T15:35:00Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "worldforge",
+      "title": "Game took in the what-you-see-is-where-you-walk dusk world",
+      "detail": "Historical entry for reference: WYSIWYG re-export intaken 2026-07-29 (~03:15) — boot + hash chain green, porosity pin moved 11 to 44 (gateway pass cells verified), world_walk proof PASS on three seeds, designer walked between the houses and accepted ('hallelujah! finnaly works').",
+      "artifact": { "id": "small-cold-coastal-pack-dusk@wysiwyg", "sourceCommit": "WF 91d1fa9 era", "hash": "verified at intake" },
+      "refs": ["notes/sessions/2026-07-29.md"],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0007",
+      "ts": "2026-07-29T15:35:00Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "assembler",
+      "title": "Game took in the 13-boss sprite pack (kept raw, not wired in)",
+      "detail": "Historical entry for reference: validated structurally (1248 images, every frame checked against its sheet) and committed raw 2026-07-29 (~12:45). Designer ruled: keep as-is, wire in only when a boss is naturally needed.",
+      "artifact": { "id": "established-boss-pack-13-v1", "sourceCommit": "unknown (dist zip drop — see incident sl-0001 pattern)", "hash": "validated by tools/validate_boss_pack.py" },
+      "refs": ["notes/sessions/2026-07-29.md"],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0008",
+      "ts": "2026-07-29T15:40:00Z",
+      "type": "note",
+      "repo": "planning",
+      "title": "Sync protocol drafted (doc 18) + this log started",
+      "detail": "Designer directed (phone, Tier 1): structure the agent protocols for cross-repo work and logging, and build a log program like the Decision Deck. Draft delivered: docs/18-AGENT_SYNC_PROTOCOL.md, tools/ecosystem.lock.json, this register, tools/sync_log.html. Nothing binds until the deck ruling (doc 18 §11).",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "by": "agent"
+    }
+  ]
+}

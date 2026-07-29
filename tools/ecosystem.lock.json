@@ -1,0 +1,99 @@
+{
+  "formatVersion": 1,
+  "status": "DRAFT — pending designer acceptance of docs/18-AGENT_SYNC_PROTOCOL.md; seeded 2026-07-29 from the seven-repo review. Fields marked UNCONFIRMED need verification before this file binds.",
+  "updated": "2026-07-29",
+  "repos": {
+    "planning": {
+      "github": "tilok1234/Wildshot_adventures_pmanning",
+      "mainline": "UNCONFIRMED (session branches only on remote; ruled mainline never recorded)"
+    },
+    "game": {
+      "github": "tilok1234/Wildshot-Adventures",
+      "mainline": "main"
+    },
+    "tileforge": {
+      "github": "tilok1234/tileforge",
+      "mainline": "UNCONFIRMED (assumed main)"
+    },
+    "worldforge": {
+      "github": "tilok1234/WorldForge",
+      "mainline": "main"
+    },
+    "world_filler": {
+      "github": "tilok1234/world_filler",
+      "mainline": "claude/freeze-review-resolution-tf6bkf",
+      "note": "RULED mainline (Decision Deck 2026-07-29). GitHub default branch is still the older claude/world-director-planning-vvvudl — incident sl-0002; fix needs ruling item 3 in doc 18 §11."
+    },
+    "assembler": {
+      "github": "tilok1234/8-bit-sprite-assembler",
+      "mainline": "main",
+      "note": "Remote main HEAD is 2026-07-17 and does NOT contain the exporter commit the game's pack was built from — incident sl-0001."
+    },
+    "resonance_forge": {
+      "github": "tilok1234/music_soundeffects",
+      "mainline": "UNCONFIRMED (assumed main)"
+    }
+  },
+  "pins": [
+    {
+      "consumer": "worldforge",
+      "producer": "tileforge",
+      "artifact": "tileforge package a5baf52 (forest, reference lane)",
+      "note": "Deliberately older pin, locks by sourceCommit — doc 16 rule 3.",
+      "intake": "pre-2026-07-28"
+    },
+    {
+      "consumer": "worldforge",
+      "producer": "tileforge",
+      "artifact": "tileforge package dusk-ae1eecb-seed103991 (game-pack lane)",
+      "intake": "pre-2026-07-28"
+    },
+    {
+      "consumer": "game",
+      "producer": "worldforge",
+      "artifact": "small-cold-coastal-pack-dusk, WYSIWYG era (WF 91d1fa9 ruling), flood 34739, porosity pin 44",
+      "path": "assets/worldforge-packs/small-cold-coastal-pack-dusk/",
+      "intake": "2026-07-29",
+      "note": "A NEWER WF export exists (behavior 63, flood 34641 after furniture claimed ground cells) and is awaiting handover — sync log sl-0004."
+    },
+    {
+      "consumer": "game",
+      "producer": "assembler",
+      "artifact": "enemy catalog game pack (57 families / 202 variants, 1x)",
+      "path": "assets/assembler-pack/",
+      "sourceCommit": "b7eae05f",
+      "intake": "2026-07-27",
+      "note": "sourceCommit NOT verifiable on the assembler GitHub remote — incident sl-0001. Pack itself validated and in use."
+    },
+    {
+      "consumer": "game",
+      "producer": "assembler",
+      "artifact": "established-boss-pack-13-v1 (48x48, review-only, unwired by ruling)",
+      "path": "assets/assembler-boss-pack/",
+      "intake": "2026-07-29",
+      "note": "Raw drop kept by Tier 1 ruling 2026-07-29 ~12:50; no game wiring until the boss-sheets deck card."
+    },
+    {
+      "consumer": "game",
+      "producer": "game (in-repo generator)",
+      "artifact": "wildshot-projectiles-sphere-v0 (726 files, deterministic generator)",
+      "path": "assets/wildshot-projectiles-sphere-v0/",
+      "intake": "2026-07-28"
+    },
+    {
+      "consumer": "game",
+      "producer": "world_filler",
+      "artifact": "NONE — consumption is post-Gate-1 by doc 17 (accepted 2026-07-29)"
+    },
+    {
+      "consumer": "game",
+      "producer": "resonance_forge",
+      "artifact": "NONE — Phase 6 importer unbuilt; placeholder cues are game-generated (tools/gen_cue_wavs.py)"
+    },
+    {
+      "consumer": "—",
+      "producer": "game",
+      "artifact": "serialization SERIAL 12, goldens current"
+    }
+  ]
+}

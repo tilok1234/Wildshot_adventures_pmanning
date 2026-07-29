@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sync Log — Wildshot ecosystem</title>
+<style>
+  :root{
+    --bg:#101216; --panel:#181b21; --panel2:#1f232b; --line:#2a2f39;
+    --text:#d7dbe2; --dim:#8b93a1; --accent:#5cc8ff;
+    --ok:#4ec97a; --warn:#e8b23e; --bad:#e86a5e; --chip:#262b34;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:14px/1.5 system-ui,Segoe UI,Roboto,sans-serif;padding:14px;max-width:880px;margin:0 auto}
+  h1{font-size:18px;letter-spacing:.04em;margin-bottom:2px}
+  .sub{color:var(--dim);font-size:12px;margin-bottom:14px}
+  .board{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin-bottom:14px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+  .stat .n{font-size:22px;font-weight:700}
+  .stat .l{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+  .stat.warn .n{color:var(--warn)} .stat.bad .n{color:var(--bad)} .stat.ok .n{color:var(--ok)}
+  .bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;align-items:center}
+  .chip{background:var(--chip);border:1px solid var(--line);border-radius:14px;padding:3px 11px;font-size:12px;cursor:pointer;color:var(--dim);user-select:none}
+  .chip.on{color:#0d1013;background:var(--accent);border-color:var(--accent);font-weight:600}
+  input[type=search]{flex:1;min-width:140px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:6px 10px;font-size:13px}
+  .entry{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:8px}
+  .entry .head{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+  .type{font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:3px;padding:2px 6px;white-space:nowrap}
+  .t-delivery{background:#2b3d55;color:#9ecbff} .t-intake{background:#27402f;color:#8fe0a8}
+  .t-incident{background:#4a2a27;color:#ffab9e} .t-ask_opened,.t-ask_resolved{background:#463b22;color:#f0cf7e}
+  .t-pin_change{background:#3a2f4a;color:#cbaef5} .t-handoff,.t-note,.t-ruling{background:#2a2f39;color:#aab2c0}
+  .title{font-weight:600}
+  .meta{color:var(--dim);font-size:11.5px;margin-top:2px}
+  .detail{color:var(--dim);font-size:12.5px;margin-top:6px;display:none;white-space:pre-wrap}
+  .entry.open-d .detail{display:block}
+  .art{font-family:ui-monospace,Consolas,monospace;font-size:11px;color:var(--accent);margin-top:4px;word-break:break-all;display:none}
+  .entry.open-d .art{display:block}
+  .status{font-size:10.5px;font-weight:700;border-radius:3px;padding:2px 6px}
+  .s-open{background:#4a2a27;color:#ffab9e}.s-resolved{background:#27402f;color:#8fe0a8}
+  .btns{margin-top:6px;display:none;gap:6px}
+  .entry.open-d .btns{display:flex}
+  button{background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:5px 12px;font-size:12px;cursor:pointer}
+  button:hover{border-color:var(--accent)}
+  .foot{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0 8px}
+  .banner{background:var(--panel2);border:1px solid var(--warn);border-radius:8px;color:var(--warn);font-size:12px;padding:8px 12px;margin-bottom:12px}
+  .empty{color:var(--dim);text-align:center;padding:30px 0}
+  textarea{width:100%;height:120px;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px;font:12px ui-monospace,Consolas,monospace;margin-top:8px;display:none}
+</style>
+</head>
+<body>
+  <h1>SYNC LOG</h1>
+  <div class="sub">Cross-repo record: pack deliveries &amp; intakes, asks between repos, problems found. The committed <span style="font-family:monospace">tools/sync_log.json</span> is the truth — import it here to view; export after resolving anything.</div>
+  <div id="banner" class="banner" style="display:none">Showing the built-in snapshot from 2026-07-29 — IMPORT <b>tools/sync_log.json</b> for the current log.</div>
+  <div class="board" id="board"></div>
+  <div class="bar" id="repoChips"></div>
+  <div class="bar" id="typeChips"></div>
+  <div class="bar"><input type="search" id="q" placeholder="search…"></div>
+  <div id="list"></div>
+  <div class="foot">
+    <button onclick="doImport()">IMPORT JSON</button>
+    <button onclick="doExport()">EXPORT JSON</button>
+    <button onclick="togglePaste()">PASTE FROM AI</button>
+    <button onclick="copySchema()">COPY THE ENTRY SCHEMA</button>
+    <input type="file" id="file" accept=".json" style="display:none">
+  </div>
+  <textarea id="paste" placeholder='Paste a JSON array of entries, then click PASTE FROM AI again to append.'></textarea>
+
+<script>
+const TYPE_LABEL = {delivery:'pack delivered', intake:'pack taken in', ask_opened:'ask opened',
+  ask_resolved:'ask answered', pin_change:'pin changed', incident:'problem found',
+  handoff:'handoff', ruling:'ruling', note:'note'};
+const SNAPSHOT_DATE='2026-07-29';
+const SEED = {"formatVersion": 1, "entries": [{"id": "sl-0001", "ts": "2026-07-29T15:30:00Z", "type": "incident", "repo": "assembler", "target": "game", "title": "The enemy-sprite pack the game uses was built from a commit that is not on the assembler's GitHub", "detail": "The pack manifest says it was built from commit b7eae05f, but that commit exists on no branch of tilok1234/8-bit-sprite-assembler (remote HEAD is 2026-07-17, before the exporter work). The pack itself is validated and fine \u2014 but if the dev machine copy is ever lost, the exact tool version that made it is gone. Fix: push the exporter work (and the 48x48 boss pilots) from wherever it lives, then verify the commit is fetchable.", "refs": ["notes/sessions/2026-07-29.md"], "status": "open", "by": "agent"}, {"id": "sl-0002", "ts": "2026-07-29T15:30:00Z", "type": "incident", "repo": "world_filler", "title": "Fresh copies of world_filler start on old, wrong code", "detail": "The ruled mainline is claude/freeze-review-resolution-tf6bkf, but the repo's GitHub default branch is an older lane \u2014 so a fresh clone (or agent) lands ~12 commits behind on pre-freeze-resolution code with an obsolete HANDOFF that still calls the freeze provisional. Fix: set the GitHub default branch to the ruled mainline (doc 18 \u00a711 item 3), and refresh stale local clones.", "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"], "status": "open", "by": "agent"}, {"id": "sl-0003", "ts": "2026-07-29T15:30:00Z", "type": "incident", "repo": "planning", "title": "Doc 16's version-snapshot table drifted within a day of being written", "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited.", "refs": ["docs/16-ECOSYSTEM_MAP.md", "tools/ecosystem.lock.json"], "status": "open", "by": "agent"}, {"id": "sl-0004", "ts": "2026-07-29T15:30:00Z", "type": "delivery", "repo": "worldforge", "target": "game", "title": "A newer dusk world export is finished and waiting to be handed to the game", "detail": "WorldForge re-exported the dusk pack under behavior 63 (walkable count 34641 \u2014 furniture now claims the ground cells it stands on). The game still plays the earlier WYSIWYG export (34739). When it lands: full intake runbook (validate, battery, porosity re-pin, world_walk re-proof) plus the designer's city walk.", "artifact": {"id": "small-cold-coastal-pack-dusk@b63", "sourceCommit": "see WF outputs/game-packs staging", "hash": "in pack manifest"}, "status": "open", "by": "agent"}, {"id": "sl-0005", "ts": "2026-07-29T15:30:00Z", "type": "ask_opened", "repo": "worldforge", "target": "tileforge", "title": "WorldForge needs three art improvements from TileForge", "detail": "Better road-band art, vertical (east/west) gate art, and an optional softer hedge repaint. Recorded in WorldForge's handoff but not visible in TileForge's own queue \u2014 this entry is the tracked record until the GitHub-issue half of the ask protocol is ruled.", "status": "open", "by": "agent"}, {"id": "sl-0006", "ts": "2026-07-29T15:35:00Z", "type": "intake", "repo": "game", "target": "worldforge", "title": "Game took in the what-you-see-is-where-you-walk dusk world", "detail": "Historical entry for reference: WYSIWYG re-export intaken 2026-07-29 (~03:15) \u2014 boot + hash chain green, porosity pin moved 11 to 44 (gateway pass cells verified), world_walk proof PASS on three seeds, designer walked between the houses and accepted ('hallelujah! finnaly works').", "artifact": {"id": "small-cold-coastal-pack-dusk@wysiwyg", "sourceCommit": "WF 91d1fa9 era", "hash": "verified at intake"}, "refs": ["notes/sessions/2026-07-29.md"], "status": "resolved", "by": "agent"}, {"id": "sl-0007", "ts": "2026-07-29T15:35:00Z", "type": "intake", "repo": "game", "target": "assembler", "title": "Game took in the 13-boss sprite pack (kept raw, not wired in)", "detail": "Historical entry for reference: validated structurally (1248 images, every frame checked against its sheet) and committed raw 2026-07-29 (~12:45). Designer ruled: keep as-is, wire in only when a boss is naturally needed.", "artifact": {"id": "established-boss-pack-13-v1", "sourceCommit": "unknown (dist zip drop \u2014 see incident sl-0001 pattern)", "hash": "validated by tools/validate_boss_pack.py"}, "refs": ["notes/sessions/2026-07-29.md"], "status": "resolved", "by": "agent"}, {"id": "sl-0008", "ts": "2026-07-29T15:40:00Z", "type": "note", "repo": "planning", "title": "Sync protocol drafted (doc 18) + this log started", "detail": "Designer directed (phone, Tier 1): structure the agent protocols for cross-repo work and logging, and build a log program like the Decision Deck. Draft delivered: docs/18-AGENT_SYNC_PROTOCOL.md, tools/ecosystem.lock.json, this register, tools/sync_log.html. Nothing binds until the deck ruling (doc 18 \u00a711).", "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"], "by": "agent"}]};
+let data = null, usingSeed=false;
+const LS='wildshot_sync_log_v1';
+
+function load(){
+  const s=localStorage.getItem(LS);
+  if(s){ try{ data=JSON.parse(s); }catch(e){} }
+  if(!data){ data=SEED||{formatVersion:1,entries:[]}; usingSeed=!!SEED; }
+  document.getElementById('banner').style.display = usingSeed?'block':'none';
+}
+function save(){ localStorage.setItem(LS, JSON.stringify(data)); usingSeed=false; document.getElementById('banner').style.display='none'; }
+
+let fRepo=null, fType=null, q='';
+function repos(){ return [...new Set(data.entries.flatMap(e=>[e.repo,e.target]).filter(Boolean))].sort(); }
+function types(){ return [...new Set(data.entries.map(e=>e.type))]; }
+
+function waiting(){
+  const intaken=new Set(data.entries.filter(e=>e.type==='intake'&&e.artifact).map(e=>e.artifact.id));
+  return data.entries.filter(e=>e.type==='delivery'&&e.status==='open'&&(!e.artifact||!intaken.has(e.artifact.id)));
+}
+function openOf(t){ return data.entries.filter(e=>e.type===t&&e.status==='open'); }
+
+function render(){
+  const b=document.getElementById('board');
+  const w=waiting().length, inc=openOf('incident').length, asks=openOf('ask_opened').length;
+  b.innerHTML =
+    `<div class="stat ${w?'warn':'ok'}"><div class="n">${w}</div><div class="l">deliveries waiting for intake</div></div>`+
+    `<div class="stat ${inc?'bad':'ok'}"><div class="n">${inc}</div><div class="l">open problems</div></div>`+
+    `<div class="stat ${asks?'warn':'ok'}"><div class="n">${asks}</div><div class="l">open asks</div></div>`+
+    `<div class="stat"><div class="n">${data.entries.length}</div><div class="l">entries total</div></div>`;
+
+  const rc=document.getElementById('repoChips');
+  rc.innerHTML = `<span class="chip ${fRepo===null?'on':''}" onclick="fRepo=null;render()">all repos</span>`+
+    repos().map(r=>`<span class="chip ${fRepo===r?'on':''}" onclick="fRepo='${r}';render()">${r}</span>`).join('');
+  const tc=document.getElementById('typeChips');
+  tc.innerHTML = `<span class="chip ${fType===null?'on':''}" onclick="fType=null;render()">all types</span>`+
+    types().map(t=>`<span class="chip ${fType===t?'on':''}" onclick="fType='${t}';render()">${TYPE_LABEL[t]||t}</span>`).join('');
+
+  const list=document.getElementById('list');
+  const ql=q.toLowerCase();
+  const rows=data.entries.slice().sort((a,b)=>(b.ts||'').localeCompare(a.ts||''))
+    .filter(e=>fRepo===null||e.repo===fRepo||e.target===fRepo)
+    .filter(e=>fType===null||e.type===fType)
+    .filter(e=>!ql||JSON.stringify(e).toLowerCase().includes(ql));
+  list.innerHTML = rows.length? rows.map(card).join('') : '<div class="empty">no entries match</div>';
+}
+function card(e){
+  const arrow=e.target?` → ${e.target}`:'';
+  const st=e.status?`<span class="status s-${e.status}">${e.status}</span>`:'';
+  const art=e.artifact?`<div class="art">${e.artifact.id||''} · ${e.artifact.sourceCommit||''} · ${e.artifact.hash||''}</div>`:'';
+  const refs=(e.refs&&e.refs.length)?`\n\nrefs: ${e.refs.join(' · ')}`:'';
+  const canResolve=e.status==='open';
+  return `<div class="entry" id="${e.id}" onclick="this.classList.toggle('open-d')">
+    <div class="head"><span class="type t-${e.type}">${TYPE_LABEL[e.type]||e.type}</span>
+    <span class="title">${e.title||''}</span>${st}</div>
+    <div class="meta">${e.repo||''}${arrow} · ${(e.ts||'').slice(0,16).replace('T',' ')} · ${e.id} · by ${e.by||'?'}</div>
+    <div class="detail">${(e.detail||'')+refs}</div>${art}
+    <div class="btns">${canResolve?`<button onclick="event.stopPropagation();resolve('${e.id}')">MARK RESOLVED</button>`:''}</div>
+  </div>`;
+}
+function resolve(id){
+  const e=data.entries.find(x=>x.id===id); if(!e)return;
+  const note=prompt('Resolution note (what closed it)?'); if(note===null)return;
+  e.status='resolved'; e.detail=(e.detail||'')+`\n\nRESOLVED ${new Date().toISOString().slice(0,10)} (designer): ${note}`;
+  save(); render();
+}
+function doImport(){
+  const f=document.getElementById('file'); f.onchange=()=>{
+    const r=new FileReader(); r.onload=()=>{ try{
+      const j=JSON.parse(r.result);
+      data = Array.isArray(j)?{formatVersion:1,entries:j}:j;
+      save(); render();
+    }catch(err){ alert('Not valid JSON: '+err.message);} }; r.readAsText(f.files[0]); f.value=''; };
+  f.click();
+}
+function doExport(){
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='sync_log.json'; a.click();
+}
+function togglePaste(){
+  const t=document.getElementById('paste');
+  if(t.style.display!=='block'){ t.style.display='block'; t.focus(); return; }
+  const v=t.value.trim();
+  if(v){ try{
+    const arr=JSON.parse(v); const items=Array.isArray(arr)?arr:(arr.entries||[]);
+    let n=Math.max(0,...data.entries.map(e=>parseInt((e.id||'').replace('sl-',''))||0));
+    for(const it of items){ if(!it.id) it.id='sl-'+String(++n).padStart(4,'0'); data.entries.push(it); }
+    save(); render(); t.value='';
+  }catch(err){ alert('Not valid JSON: '+err.message); return; } }
+  t.style.display='none';
+}
+function copySchema(){
+  const s=`Append entries to the Wildshot sync log. Output a JSON array only. Each entry:
+{"id":"(leave out — assigned on paste)","ts":"ISO datetime","type":"delivery|intake|ask_opened|ask_resolved|pin_change|incident|handoff|ruling|note","repo":"acting repo","target":"other repo if any","title":"plain language one-liner, zero jargon","detail":"context","artifact":{"id":"","sourceCommit":"","hash":""},"refs":[],"status":"open|resolved (required for incident/ask/delivery)","by":"agent|designer"}`;
+  navigator.clipboard.writeText(s).then(()=>alert('Schema prompt copied.'));
+}
+document.getElementById('q').addEventListener('input',e=>{q=e.target.value;render()});
+load(); render();
+</script>
+</body>
+</html>

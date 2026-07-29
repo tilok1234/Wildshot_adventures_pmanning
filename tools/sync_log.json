@@ -120,7 +120,7 @@
       "type": "ask_resolved",
       "repo": "world_filler",
       "title": "Both world_filler maintenance asks executed by its own agent — same night they were opened",
-      "detail": "The designer handed the janitor session's paste-ask to a world_filler session, which landed dce666b (.gitattributes LF pin for all text files + the separator-naive guard test fixed) and 3c66a6c (the archived tf6bkf line's extra test coverage ported onto main). First ask-to-resolution cycle completed under the freshly ratified protocol, ~35 minutes end to end.",
+      "detail": "The designer handed the janitor session's paste-ask to a world_filler session, which landed dce666b (.gitattributes LF pin for all text files + the separator-naive guard test fixed) and 3c66a6c (the archived tf6bkf line's extra test coverage ported onto main). First ask-to-resolution cycle completed under the freshly ratified protocol, ~35 minutes end to end. || Full report relayed by designer 2026-07-30 ~02:05: 160/160 tests green on Windows (up from 135). The dual-verifier battery runs REAL on this machine (Godot 4.6.2 on PATH): 20 cross-lane cases agree refusal-for-refusal on main's implementations, no divergence; self-skips visibly where no Godot binary. Also ported: workflow.test (first coverage of wf-fill lock on main, reroll-own-region hard case holds byte-stably) + viewer contract pins. Correctly NOT ported: serve.test (src/serve does not exist on main — porting it would port implementation). One designer flag opened: archived line's viewer refused row-crossing territory runs; main's viewer draws them permissively (worldfiller-viewer.html:269) — ruling pending.",
       "refs": ["notes/sessions/2026-07-30.md", "sl-0010"],
       "status": "resolved",
       "by": "designer"

@@ -8,6 +8,15 @@ Remote branch `claude/freeze-review-resolution-tf6bkf` verified to exist
 on `tilok1234/world_filler` (7bc73db). Nothing here is implementation
 authorization — this doc plans; the scope ladder in §5 gates building.
 
+> **2026-07-30 mainline note (janitor session, designer-ruled):** the
+> repo's mainline is now **`main`** = the designer's approval line
+> (formerly `world-filler-repo-focus-9fmr60`), which carries all visual
+> verdicts and continues into format-2 work (encounter sites). The
+> `freeze-review-resolution-tf6bkf` line this doc was read against is
+> archive-tagged. **This plan's basis is unchanged:** format 1 FINAL
+> remains the game-side consumption target post-Gate-1; format 2 is not
+> consumed by anything in this plan.
+
 ## 1. What world_filler is (state as read, 2026-07-29)
 
 The **world director**: reads a finished WorldForge world pack plus a

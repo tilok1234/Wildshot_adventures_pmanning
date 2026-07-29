@@ -1,4 +1,4 @@
-# Wildshot Ecosystem Map (ACCEPTED 2026-07-29 — Decision Deck register; pointer blocks pending the housekeeping batch)
+# Wildshot Ecosystem Map (ACCEPTED 2026-07-29 — Decision Deck register; pointer blocks live in all seven repos; branch hygiene swept 2026-07-30)
 
 **Read this first, in any repo, before doing anything.** This is the one
 document that names every repo in the project, what it owns, what it may
@@ -42,10 +42,10 @@ asks, never as local patches.
 - **Authority docs:** `docs/12-PHASE_A_LAB_BUILD_PLAN.md` (build plan),
   `docs/07-PROTOTYPE_SPEC.md` (SPEC-A), `docs/08-DECISION_REGISTER.md`,
   `docs/15-WORLDFORGE_INTEGRATION_PLAN.md`, `notes/sessions/` (daily truth).
-- **State:** M0–M6 engineering complete, M7 all but export.ps1;
-  designer rulings queue is the critical path.
-- **Known doc debt:** `notes/INTERVIEW_STATE.md` + `docs/03-HANDOFF.md`
-  stale (say "M2 in progress"); truth-up pending.
+- **State (2026-07-30):** M0–M7 closed; M8 engineering exhausted —
+  remaining M8 is designer-side (taste answers, copy pass, laptop pass,
+  itch publish, recruitment). Critical path is designer items + calendar.
+- **Doc debt:** cleared 2026-07-29 (03-HANDOFF + INTERVIEW_STATE truthed).
 
 ### 2. Wildshot-Adventures — the game (Godot 4.6.2, pinned)
 - **Owns:** implementation only. Never reinterprets design.
@@ -91,15 +91,21 @@ asks, never as local patches.
   territories, danger bands) → content pack format 1.
 - **Authority docs:** `HANDOFF.md`, `docs/ROADMAP.md` (F0–F8),
   `docs/FREEZE_REVIEW_FINDINGS.md` (**read before trusting the freeze**).
-- **State (truthed up 2026-07-29):** F0–F8 complete, 140 tests; the
-  F7 freeze review was RESOLVED in a follow-up session (38/38 findings
-  fixed empirically; **content pack format 1 FINAL**; both verifier
-  lanes aligned refusal-for-refusal). Branch
-  `claude/freeze-review-resolution-tf6bkf` is the RULED MAINLINE
-  (Decision Deck 2026-07-29); a proper clone now lives on the dev
-  machine. HEAD continues into F9 (studio) — check its HANDOFF.md.
-  F2–F5 visual verdicts still pending designer. Game-side consumption
-  plan: planning docs/17 (ACCEPTED — post-Gate-1).
+- **State (re-ruled 2026-07-30, janitor session):** mainline is
+  **`main`** (GitHub default) = the designer's approval line — first
+  arc F0–F9 COMPLETE, **all visual verdicts approved** (rounds 1–4,
+  F2–F5, F8) at behavior 12, 135 tests green on a byte-exact checkout,
+  format-2 work (encounter sites) in development. **Content pack
+  format 1 FINAL** stays the consumption basis (docs/17). The parallel
+  `freeze-review-resolution-tf6bkf` line (its own 38/38 freeze fix,
+  dual-verifier battery, 149 tests) is archive-tagged; porting its
+  battery onto main is a recorded ask. Old area-share banding verdict
+  SUPERSEDED by rounds 1–4 (designer, 2026-07-30). Game-side
+  consumption plan: planning docs/17 (ACCEPTED — post-Gate-1).
+- **Windows env warning:** repo has no `.gitattributes` and hash-pins
+  fixtures — checkouts with `autocrlf=true` break ~30 tests falsely.
+  Recorded ask: add `.gitattributes` (LF) + fix the one
+  separator-naive guard test.
 - **Env notes:** canonical 256² pack not committed (regenerate); Node ≥24.15.
 
 ### 6. 8-bit-sprite-assembler — actor sprite tool
@@ -108,10 +114,13 @@ asks, never as local patches.
   designer-approved 2026-07-27 — assembler supersedes Sprite Forge).
 - **Authority docs:** `ROADMAP.md`, `ARCHITECTURE.md`; the pack contract
   lives in planning `docs/14-ASSEMBLER_GAME_PACK_SPEC.md`.
-- **⚠ STATE DRIFT (top priority for this repo):** the game consumes a pack
-  built from tool commit `b7eae05f…` (57 fam/202 var, 1×) — that commit
-  exists in NO branch of the known checkout (HEAD 2026-07-17, 41 fam, 4×).
-  The exporter work lives unpushed somewhere. **Push it.**
+- **State drift RESOLVED (2026-07-30 janitor session):** `main` is now
+  the consolidated line (`c6dcdc5` — all four codex branches merged,
+  build gate green); the game pack's source commit `b7eae05f` is in
+  main's history on GitHub. The actor pipeline is reproducible from the
+  repo again. Known env nit: `npm run check` requires local review-draft
+  PNGs that are not tracked — it cannot pass from a clean clone
+  (recorded ask: skip missing review drafts).
 - **Open tool work per the spec:** cast animation (CORE-34 needs it), death
   animation, one-command validated "Export game pack" (no hand-zips).
 
@@ -156,6 +165,6 @@ asks, never as local patches.
 | tileforge | package `dusk-ae1eecb-seed103991` | WorldForge (game-pack lane) |
 | tileforge | package `a5baf52` (forest, older, deliberate) | WorldForge (reference lane) |
 | WorldForge | packFormat 1, artifact format 8 | game importer + world_filler |
-| world_filler | content pack format 1 (PROVISIONAL freeze) | (no consumer yet) |
-| assembler | game pack v0, tool commit `b7eae05f…` (57/202, 1×) | game `assets/assembler-pack` |
+| world_filler | content pack format 1 FINAL (format 2 in dev on main) | (no consumer yet; docs/17 post-Gate-1) |
+| assembler | game pack v0, tool commit `b7eae05f…` (57/202, 1×; in main since 2026-07-30) | game `assets/assembler-pack` |
 | game | SERIAL 12, goldens current | — |

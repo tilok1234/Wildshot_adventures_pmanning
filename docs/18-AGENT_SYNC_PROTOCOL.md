@@ -1,15 +1,55 @@
 # Agent Sync Protocol — cross-repo events, logging homes, and the Sync Log
 
 **Doc:** 18-AGENT_SYNC_PROTOCOL
-**Status:** **DRAFT — assistant-drafted 2026-07-29 on designer direction
-(phone chat: "we should completely structure the protocols for how agents
-do it and what info gets logged where"; log-program idea same message).
-Pending designer acceptance via the Decision Deck. Until accepted, this
-doc changes NOTHING — doc 16's rules stand as written.**
+**Status:** **DRAFT, REVIEWED — pending Deck ratification.** Drafted
+2026-07-29 on designer direction (phone chat); independently re-derived
+and agreed point-for-point in the 2026-07-29 remote design session
+(back-and-forth, designer-approved direction — see
+`notes/sessions/2026-07-29-remote-repo-structure-planning.md` §2); its
+three requested edits are folded in (§0 session recipe as page 1, the
+janitor exception, the handoff hook), plus the 2026-07-30 janitor
+session's live evidence (§0.4, §12). Ratification payload:
+`tools/decision_deck_items_2026-07-30.json`. Until the Deck accepts,
+this doc changes NOTHING — doc 16's rules stand as written.
 **Authority:** extends `docs/16-ECOSYSTEM_MAP.md`; on any conflict, doc 16
 wins until this doc is accepted and doc 16 is amended to reference it.
 
 ---
+
+## 0. Which repo do I open? (the session recipe — page 1 on purpose)
+
+1. **Open the repo where the changes will land. One repo per session.**
+2. The planning repo only needs to exist on disk (readable by path); it
+   does not need to be "open". Two exceptions:
+   - **Game sessions keep the game+planning pair** — code lands in the
+     game repo, decisions/records land in planning.
+   - **Planning/decision sessions start in the planning repo.**
+3. Cross-repo needs become recorded asks or ready-to-paste prompts for
+   that repo's own agent — never work done out-of-lane (the lane rule,
+   game CLAUDE.md Authority section, now ecosystem-wide).
+4. **Exception — the janitor session (git hygiene only).** A
+   planning-rooted session MAY do cross-repo git housekeeping: default
+   branches, fast-forwards, merging finished work to main, deleting
+   fully-merged husks. Guardrails, all mandatory (all exercised live
+   2026-07-30):
+   - **(a) Archive tags first:** every branch tip slated for merge or
+     delete gets an `archive/<branch>` tag pushed BEFORE anything moves.
+     Tags make every later step reversible — moving or deleting a
+     branch name never destroys a tagged snapshot.
+   - **(b) Gates before pushes:** that repo's own test/validate gates
+     run green before any push. Not green — or not runnable — means no
+     push without the designer's explicit word.
+   - **(c) Mechanical only:** merge conflicts, verdict salvage, and
+     "which line wins" questions STOP and escalate to the designer or
+     that repo's own session.
+   - **(d) Live-session check:** before touching any branch, fetch and
+     look at tip age + running agent processes. A branch another
+     session is actively working is hands-off (this check caught the
+     music repo mid-commit, 6 minutes fresh, on 2026-07-29).
+   - **(e) Destructive ref operations are designer-clicked:** branch
+     deletion and force-pushes are executed by the designer (agent
+     stages the exact command), never by the agent. The permission
+     layer enforces this anyway; the protocol adopts it as design.
 
 ## 1. Why this exists
 
@@ -66,9 +106,12 @@ accepted (regenerate, don't hand-edit).
 
 **Session end:**
 1. Update the repo's HANDOFF.md (existing rule, unchanged).
-2. Append `sync_log.json` entries for every cross-repo event this
-   session caused (see §8 event types). No event, no entry — the log
-   is events, not diary.
+2. **The handoff hook:** writing the handoff IS the moment to ask "does
+   this session owe the logbook a line?" — the two habits are one
+   ritual. Append `sync_log.json` entries for every cross-repo event
+   this session caused (see §8 event types). No event, no entry — the
+   log is events, not diary. Every repo's contract doc carries this
+   one-line rule so the hook survives account switches.
 3. Commit and push; then **verify the push landed**
    (`git status -sb` shows the branch level with its remote). The
    assembler drift happened because "pushed" was assumed, not checked.
@@ -192,11 +235,36 @@ One deck card per line (drafted for paste-in when asked):
 1. **Adopt the protocol** (this doc; doc 16 gains a pointer + rule 7:
    "GitHub default branch = ruled mainline, every repo").
 2. **Publish gates** in the four producer exporters (asks to each repo).
-3. **Fix world_filler's default branch** to the ruled mainline.
+3. ~~**Fix world_filler's default branch**~~ ✅ DONE 2026-07-30 (janitor
+   session: `main` created, default flipped, then re-ruled to the
+   designer's approval line).
 4. *(Tier 2)* **GitHub releases as pack transport**, replacing
    directory/zip drops.
 5. *(Tier 2)* **Drift check cadence** — a script or scheduled agent
    comparing lock vs latest deliveries, report-only.
+6. **Talk-before-build rule** (from the 2026-07-29 phone-break lesson,
+   proposed by the designer's own callout): for new protocol/tool/
+   system ideas, the design conversation happens in chat FIRST; agents
+   draft nothing until the designer has walked through the idea and
+   said build.
 
+Ratification payload: `tools/decision_deck_items_2026-07-30.json`
+(cards for 1, 2, 4, 5, 6 — item 3 already done).
 Until ruled: agents MAY write sync-log entries (recording facts harms
 nothing and the seed log already exists); everything else waits.
+
+## 12. Repo hygiene baseline (added 2026-07-30, janitor evidence)
+
+- **Hash-pinned repos ship `.gitattributes` from day one.** Any repo
+  that byte-hashes text artifacts (fixtures, goldens, packs) must pin
+  LF line endings — Windows checkouts with `autocrlf=true` otherwise
+  rewrite files at checkout and fail hash-verified tests falsely
+  (world_filler: ~30 false fails, diagnosed and evidenced 2026-07-30;
+  byte-exact re-checkout took both lines to green/one-benign-fail).
+- **Self-checks must pass from a clean clone.** A check that reads
+  untracked local artifacts (assembler review drafts) can never gate a
+  fresh checkout and silently stops gating anything.
+- **One living branch per repo** (plus the planning repo's standing-
+  branch exception); GitHub default = ruled mainline (doc 16 rule 7
+  once this doc is accepted). Finished side branches merge at their own
+  session's seam and die; the 2026-07-30 sweep is the reference state.

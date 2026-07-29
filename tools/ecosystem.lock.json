@@ -35,7 +35,7 @@
     "resonance_forge": {
       "github": "tilok1234/music_soundeffects",
       "mainline": "main",
-      "note": "codex/g3-g5-production (4 ahead, incl. Phase 7) is LIVE designer-session territory as of 2026-07-30 — merges to main at that session's own seam with its gates (npm test in apps/desktop + cargo test -p audio-core --lib)."
+      "note": "codex/g3-g5-production (Phase 7 + publish gate work) is LIVE designer-session territory as of 2026-07-30 — merges to main at that session's own seam with its gates (npm test in apps/desktop + cargo test -p audio-core --lib). Publish gate + release upload IMPLEMENTED (sl-0013) but uncommitted in that session; first real release comes post-merge from a normal shell (machine gh token valid — the sandbox 'invalid token' is a keyring-access limitation)."
     }
   },
   "pins": [

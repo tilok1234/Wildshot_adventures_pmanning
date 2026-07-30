@@ -25,7 +25,7 @@
     "world_filler": {
       "github": "tilok1234/world_filler",
       "mainline": "main",
-      "note": "RE-RULED 2026-07-30 (designer, Tier 1): main = the designer's approval line (formerly world-filler-repo-focus-9fmr60; all visual verdicts, format-2 work). GitHub default = main. The parallel freeze-review-resolution-tf6bkf line is archive-tagged (149-test dual-verifier battery — port ask open). Area-share banding verdict superseded by rounds 1-4. Windows warning: no .gitattributes yet — use byte-exact checkouts for tests (ask open)."
+      "note": "RE-RULED 2026-07-30 (designer, Tier 1): main = the designer's approval line. GitHub default = main. tf6bkf line archive-tagged; its dual-verifier value absorbed on main (sl-0012: battery real via headless Godot; Windows checkout issue resolved same day). Behavior 14 since the b72 walkability adoption (sl-0040, commit 44f1adb): ladder transcribed from the WF public loader @ bbc10cdb, 184 tests green incl. the real Godot lane. Segmentation walkability-aware since sl-0026/sl-0039 (b2d0755)."
     },
     "assembler": {
       "github": "tilok1234/8-bit-sprite-assembler",
@@ -60,6 +60,33 @@
       "sourceCommit": "449772921c28674374272b114b375104cfadce24",
       "intake": "2026-07-30",
       "note": "First release-transport intake (doc 18 §5; transport blessed sl-0016): fetched from the GitHub release, zipSha256 ba7e936f… + manifestSha256 cc329164… + 8-file parity + sourceCommit verified locally BEFORE the drop. Mechanical gates green: runbook validate + 24-row battery byte-identical incl world_walk (85 cells sealed / 0 opened / 13 stranded vs WYSIWYG 34739; the 44 route cells identical, pin unchanged). Game commit 5cb0e3b. Designer city walk = acceptance, PENDING at pin time — sync log sl-0020."
+    },
+    {
+      "consumer": "game",
+      "producer": "worldforge",
+      "artifact": "wildshot-overworld-pack-dusk@b71 (behavior 71, flood 45184, porosity pin 60)",
+      "path": "assets/worldforge-packs/wildshot-overworld-pack-dusk/",
+      "sourceCommit": "63632716a766ff85c1139ed0613a13007a779945",
+      "intake": "2026-07-30",
+      "note": "Re-issued delivery sl-0034 (b70 retired unintaken — never fetched). Release transport: zip + manifest + 8-file parity + sourceCommit verified locally before the drop; staged blobs byte-true. FIRST STYLED PACK: semantic path values {0,1,2} (1784 city-lane cells) — the game chain reads no path values, contract accepted with zero code change. Cliff line confirmed game-side: zero band-on-rock AND zero walkable at terrace level >= 1 (the pack ships no terrace layer; the adapter-v4 quantization was replicated from WF resolve.ts at the source commit over the intaken grid — 1456 terraced-peak cells, all non-walkable). Tops blocked by design; tops+ramps arc designer-pending. Lands BESIDE b65 — which world loads is scenario routing; world_walk byte-identical proves b65 untouched. Spawn 109,182 (harbor capital, matches b70). Porosity pin 60 (per-drop; all cells two-wide gateways/gatehouse footprints, eyeballed). Game commit 88d2b27. Completion in the sync log ref sl-0034."
+    },
+    {
+      "consumer": "world_filler",
+      "producer": "worldforge",
+      "artifact": "small-cold-coastal-pack-dusk@b65 (canonical fixture world; flood 34641)",
+      "path": "outputs/local-packs/",
+      "sourceCommit": "449772921c28674374272b114b375104cfadce24",
+      "intake": "2026-07-30",
+      "note": "Adoption sl-0040 (wf 44f1adb): IMPORTED from the GitHub release, digest-verified; 626 moss-carpet cells walking = the moss ruling's recorded canonical count — the import proved sound, no regen needed. Canonical successor per designer ratification (planning lean confirmed)."
+    },
+    {
+      "consumer": "world_filler",
+      "producer": "worldforge",
+      "artifact": "wildshot-overworld-pack-dusk@b72 (working set; behavior 72, flood 45202)",
+      "path": "outputs/local-packs/",
+      "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
+      "intake": "2026-07-30",
+      "note": "Adoption sl-0040: IMPORTED digest-verified; parity bit-identical under the b72 ladder (behavior 14). Unblocks content packs over the dusk overworld — director-loop ask sl-0041."
     },
     {
       "consumer": "game",
@@ -102,7 +129,7 @@
     {
       "consumer": "—",
       "producer": "game",
-      "artifact": "serialization SERIAL 12, goldens current"
+      "artifact": "serialization SERIAL 13, goldens current (Loop v1, sl-0033: regenerated deliberately, verified 10x)"
     }
   ]
 }

@@ -14,9 +14,43 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-07-28 (assessment session close)
+# CURRENT HANDOFF — 2026-07-30 (workday seam; designer at work, phone planning expected)
 
-**This section supersedes everything below it.** The 2026-07-27 handoff
+**This section supersedes everything below it.** Full detail: the
+tail HANDOFF of `notes/sessions/2026-07-30.md` — and that whole
+file is the two-day story (doc 18 RATIFIED; publish-gate +
+releases-as-transport rollout COMPLETE across all five producers;
+**LOOP V1 BUILT** — town → Bone Reliquary King, every gate green;
+the overworld arc through b72). Board at this seam:
+
+- **Loop v1 built + swept** (sl-0033; game main 88d2b27). The
+  designer's acceptance RUN is pending; L2's clock starts only on
+  their "judgeable".
+- **b71 intaken; b72 released + verified — game intake PENDING**
+  (sl-0035, paste with the designer).
+- **world_filler adopted b72 walkability** (sl-0040): b65
+  canonical + b72 imported parity-green. **Director-loop ask
+  sl-0041 OPEN** (paste with the designer) — mob/boss placement
+  over the test overworld as the game's authoring reference
+  (docs/20 step 1; export gated on designer approval).
+- Opens: sl-0035, sl-0041, standing sl-0003/sl-0005.
+- Authorities: docs/19 (loop) · **docs/20 (NEW — world-content
+  arc: rehearse by hand → feel verdict → importer; end-state =
+  customized generation + authorial hand-carve)** · doc 18 ·
+  doc 16 + `tools/ecosystem.lock.json`.
+
+Phone sessions: pull first. Planning's mainline is the standing
+branch `claude/questionnaire-note-taking-9vl2sl` (no main by
+design). If forced onto a new branch, leave a merge note for the
+next PC seam. Sweep duty for incoming logbook lines: verify vs
+GitHub → commit → resolve → next paste (mechanics in the
+session-file HANDOFF).
+
+---
+
+# PRIOR HANDOFF — 2026-07-28 (assessment session close)
+
+**Superseded by the 2026-07-30 section above; kept as history.** The 2026-07-27 handoff
 body is kept as history but is FIVE MILESTONES STALE (it says "M2 in
 progress"); a full truth-up of it and `notes/INTERVIEW_STATE.md` is a
 queued go-item, not yet authorized.

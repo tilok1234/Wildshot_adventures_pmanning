@@ -659,6 +659,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0042",
+      "ts": "2026-07-30T21:36:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning asks the game to make the aim crosshair readable — the hardware cursor never scales with the viewport (designer's standing complaint)",
+      "detail": "Designer flag raised at the evening seam, standing 'forever': the aim crosshair is really hard to see. Planning grounding before the ask: game/main.gd:876 sets uikit cursor_crosshair.png (11x11 per the docs/13 spec row, hotspot 5,5) via Input.set_custom_mouse_cursor — a HARDWARE cursor, drawn at native pixel size in window space, so it never inherits viewport scaling: every sprite scales up on screen while the crosshair stays an ~11-physical-pixel speck, worse at higher display resolutions. This is a readability defect against the kit's own intent (docs/13: 'light core + 1 px dark rim so it survives every floor'), not taste drift. Requirement, not implementation: the crosshair must read at a glance at real gameplay scale, against every palette including dusk, windowed and fullscreen. Recommended lean: fix at the load site in code — scale the cursor texture nearest-neighbor by the actual window content scale (hotspot scaled to match, re-applied if the window scale changes); do NOT hand-edit the uikit pack assets (manifest-hashed — art/contrast changes that sizing cannot fix are an upstream kit cut, recorded as their own ask). Render-only: zero aim-mechanics or hurtbox change. Boot it for the designer and let them taste-rule final size/contrast on screen (a taste ruling is fine post-shift; no feel verdicts tonight). Log completion hands-free referencing this ask; planning sweeps.",
+      "refs": [
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

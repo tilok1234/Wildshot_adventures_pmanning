@@ -436,12 +436,12 @@
       "repo": "planning",
       "target": "tileforge",
       "title": "Planning asks TileForge to restore the removed road tiles as they were (designer ruling)",
-      "detail": "Designer ruling 2026-07-30: the road tiles were removed from TileForge over a width doubt (\"i just was thinking they wasnt wide enough\"), the designer tested worlds without them, and rules them RESTORED exactly as they were. Independent of the sl-0028 cliff diagnostic. Planning's read for context: WorldForge ships pinned package snapshots (dusk-ae1eecb-seed103991), so shipped worlds rendered roads throughout — the restoration re-aligns TileForge's current state with what the pins already provide; confirm and note whether any fresh package cut is needed downstream. Paste handed to the designer.",
+      "detail": "Designer ruling 2026-07-30: the road tiles were removed from TileForge over a width doubt (\"i just was thinking they wasnt wide enough\"), the designer tested worlds without them, and rules them RESTORED exactly as they were. Independent of the sl-0028 cliff diagnostic. Planning's read for context: WorldForge ships pinned package snapshots (dusk-ae1eecb-seed103991), so shipped worlds rendered roads throughout — the restoration re-aligns TileForge's current state with what the pins already provide; confirm and note whether any fresh package cut is needed downstream. Paste handed to the designer. || RESOLVED 2026-07-30 (tileforge session, commit 0b0b1f5): ae1eecb git-reverted, road tiles back exactly as they were; pins confirmed unaffected; see sl-0031.",
       "refs": [
         "sl-0028",
         "notes/sessions/2026-07-30.md"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -458,6 +458,21 @@
         "sl-0027",
         "sl-0029"
       ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0031",
+      "ts": "2026-07-30T04:34:07Z",
+      "type": "ask_resolved",
+      "repo": "tileforge",
+      "target": "planning",
+      "title": "TileForge restored the road tiles as they were (sl-0029 executed, commit 0b0b1f5)",
+      "detail": "Straight git revert of the retirement commit ae1eecb (the removal was fully contained in git history - no fallback to package art needed): road + ruinedroad brushes back ('Roads & piers' category, hotkey r -> road), both paintCell setters, the corridor Lane toggle, and the band-based demo/city boot patterns all restored exactly as they were - no width change. mappings.roadTypesLegacy removed at both emit sites (types 1/3 first-class again). Revert conflicts resolved keeping the newer palette-UX and publish-gate work. The atlas was never touched by the retirement, so tile count stays 31431 - no baseline churn. Gates green: validate 31431 0/0 x4 themes, salience --strict, parity 568-0, replay-selector 400k. Downstream CONFIRMING planning's read: pins were never affected - WorldForge's dusk-ae1eecb-seed103991 package kept every road family in its atlas (shipped worlds rendered roads throughout); its one stale field is mappings.roadTypesLegacy:[1,3], and the next cut drops it - a fresh package is needed only if WorldForge wants that flag gone (no cut made this pass; the doc-18 publish gate therefore never engaged). One flag for the designer: the earlier bare-corridor DISPLAY doctrine (TileForge 208b791 - reference maps and guide recipes render routes as bare packedroad corridors, no band) was a separate ruling and still stands; if the reference maps should also return to road bands, that needs its own ruling. Follow-up correction commit a6b2281 aligned TileForge's stale 'pins a5baf52' claim to planning's pin info.",
+      "refs": [
+        "sl-0029",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "resolved",
       "by": "agent"
     }
   ]

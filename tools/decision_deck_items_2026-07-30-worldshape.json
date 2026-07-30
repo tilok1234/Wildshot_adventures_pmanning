@@ -1,0 +1,57 @@
+[
+  {
+    "title": "The game is the living world you described in Part I — the loop is just its first mile",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 5,
+    "unblocks": "loop bar wording, all zone work",
+    "detail": "You already ruled this in chat (2026-07-30, forklift session) — this card is the confirmation tap for the record. The Erenshor-style persistent zoned world IS the design you recorded from question 16 onward (zone bands, city-fee death, geographic quests, living hubs, collectathon endgame). The loop milestone is the first playable mile of that world, not a separate run-game. Nothing in the register needs amending.",
+    "options": ["Confirmed", "Needs more talk"],
+    "lean": "Confirmed"
+  },
+  {
+    "title": "Name it a pillar: zones intertwine — glimpses of your future self are hidden everywhere",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "zone authoring direction",
+    "detail": "Your call from the forklift session: zones keep a general level progression, but deliberately contain cross-band pockets — an endgame corner inside a starter zone (walk in, get one-shot, learn and remember), a high-level dungeon under a low-level city. Your words: 'we can potentially score a lot here.' This card asks: is this a named pillar (protected, always considered in zone work) or just a normal rule?",
+    "options": ["Pillar", "Normal rule"],
+    "lean": "Pillar"
+  },
+  {
+    "title": "Name it a pillar: everything in the world has a reason a villager could tell you",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "world_filler direction sessions, all placement work",
+    "detail": "Your call: the world must never feel like objectives placed on a map. Every camp, dungeon, rare route, and road has an in-world reason discoverable by looking at it. Working test for any placement: 'what is this doing here?' should have an answer a villager could give. Wolves denning above the sheep farms passes; 'a level-8 camp because this is the level-8 area' fails.",
+    "options": ["Pillar", "Normal rule"],
+    "lean": "Pillar"
+  },
+  {
+    "title": "Night and weather may never make the game harder to see or heavier to run",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "future day/night and weather work",
+    "detail": "Your recorded pet peeve turned into a standing guardrail: whenever day/night or weather get built (both deferred), night must never be a visibility tax that makes grinding feel bad, and weather must never cost framerate. Atmosphere only ever adds. Adopting this now means no future session can build a darkness-tax night by default.",
+    "options": ["Adopt as law", "Keep soft"],
+    "lean": "Adopt as law"
+  },
+  {
+    "title": "Adopt the aliveness test: organic enemies first, loot worth reading second, sound you never mute third",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "first-slice priorities",
+    "detail": "Your own definition from today, in order: (1) enemies and camps read as organic places, not generic placements — the prerequisite for caring at all; (2) drops that make you stop and read the stats; (3) music and sfx good enough that you don't mute them (already passed — you historically mute game music and haven't muted this). 'When I want to play the game, that is when it feels alive.' This orders the first-slice work.",
+    "options": ["Adopt as the first-slice test", "Rework the wording"],
+    "lean": "Adopt as the first-slice test"
+  }
+]

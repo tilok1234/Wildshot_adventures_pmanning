@@ -42,9 +42,9 @@
       "repo": "worldforge",
       "target": "game",
       "title": "A newer dusk world export is finished and waiting to be handed to the game",
-      "detail": "WorldForge re-exported the dusk pack under behavior 63 (walkable count 34641 — furniture now claims the ground cells it stands on). The game still plays the earlier WYSIWYG export (34739). When it lands: full intake runbook (validate, battery, porosity re-pin, world_walk re-proof) plus the designer's city walk.",
+      "detail": "WorldForge re-exported the dusk pack under behavior 63 (walkable count 34641 — furniture now claims the ground cells it stands on). The game still plays the earlier WYSIWYG export (34739). When it lands: full intake runbook (validate, battery, porosity re-pin, world_walk re-proof) plus the designer's city walk. || RESOLVED 2026-07-30: delivered via the blessed GitHub-release transport and intaken by the game (sl-0020; game commit 5cb0e3b). Label note: this entry's @b63 id was stale — the staging artifact had been refreshed to the b65 identity before delivery (sl-0016). The designer's city walk stays open game-side as the acceptance step.",
       "artifact": { "id": "small-cold-coastal-pack-dusk@b63", "sourceCommit": "see WF outputs/game-packs staging", "hash": "in pack manifest" },
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -206,6 +206,19 @@
       "title": "World Filler now blocks packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
       "detail": "The exporter (wf-fill export) is now a publishing act per the ruled letter: it refuses when the tree is dirty (git status --porcelain non-empty) or HEAD is on no remote branch (git branch -r --contains HEAD empty), naming the failed check before any work; the dirty-tree refusal was exercised for real on a genuinely dirty 19-path tree (exit 1, nothing written). Gated exports embed the proved commit as manifest.sourceCommit; because content pack formats 1-2 are frozen and this repo's format doctrine lands appends as a new format number, the field is pack format 3 (format 2 plus exactly that one optional append; payloads unchanged; dev-bypass builds omit it so the golden byte-pin stays commit-independent). Both reference verifiers - TypeScript and the headless Godot proof, run REAL on this machine's 4.6.2 - accept formats 1-3 and refuse sourceCommit misuse, battery grown to 23 cross-lane cases. A successful gated export zips the pack deterministically and uploads it as a GitHub release tagged with the artifact id, targeting the proved commit, notes carrying sourceCommit + zip SHA-256; an existing tag refuses - never overwritten. gh auth verified (tilok1234, repo scope, keyring) and the repo reachable; the release registry is empty and NO release was created - nothing has been delivered, prior packs are grandfathered, and the create path is unit-tested through an injected runner. Same session, the designer's pending viewer ruling was implemented: the viewer adopted the refusing run decoder (row-crossing/malformed runs and lying cellCounts get an on-page error naming the defect, never a plausible render), pinned by test and exercised through the real file-intake path - closing the flag recorded in sl-0012. 178 tests green; landed and pushed as world_filler main commit 7f681c0.",
       "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md", "sl-0012"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0020",
+      "ts": "2026-07-30T03:10:00Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "worldforge",
+      "title": "Game took in the b65 dusk world from the GitHub release — the new transport's first real delivery",
+      "detail": "Fetched the release by tag and verified everything against the notes BEFORE touching the repo: zip hash, manifest hash, all 8 per-file hashes, and the source commit (4497729) all match — then re-hashed the staged git blobs after the drop, also byte-true. Full intake runbook, every gate by exit code: pack validator, walkability diag, boot, determinism smoke all green; the 24-row proof battery came back entirely on-matrix and BYTE-IDENTICAL to the committed record — including world_walk, because the b65 changes (85 cells sealed, none opened, 13 more stranded behind seals; walkable count 34739→34641) sit on no path any proof walks. The 44 gateway route cells are byte-for-byte the previously accepted set, so the porosity pin stays 44 — the re-pin was verified as a no-op, not skipped. Game repo committed and pushed (5cb0e3b). One deviation, recorded in the commit: the one-command pretester gate was not run because its machine-wide Godot guard trips on the designer's editor open on an unrelated project; the runbook gates ran individually with the same commands. Still open before the pack is ACCEPTED: the designer's city walk (game relaunched and handed over).",
+      "artifact": { "id": "small-cold-coastal-pack-dusk@b65", "sourceCommit": "449772921c28674374272b114b375104cfadce24", "hash": "zipSha256 ba7e936f03c67d54e23902bbc27f317a7f136509ac4cbced66287d740dc09483; manifestSha256 cc3291646e72dc6d171c816d7f9c4d67aa6244bb611204f1bfaecd1efa2d093d" },
+      "refs": ["sl-0004", "sl-0016", "docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "status": "resolved",
       "by": "agent"
     }
   ]

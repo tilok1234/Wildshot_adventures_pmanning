@@ -55,10 +55,11 @@
     {
       "consumer": "game",
       "producer": "worldforge",
-      "artifact": "small-cold-coastal-pack-dusk, WYSIWYG era (WF 91d1fa9 ruling), flood 34739, porosity pin 44",
+      "artifact": "small-cold-coastal-pack-dusk@b65 (behavior 65, flood 34641, porosity pin 44)",
       "path": "assets/worldforge-packs/small-cold-coastal-pack-dusk/",
-      "intake": "2026-07-29",
-      "note": "A NEWER WF export exists (behavior 63, flood 34641 after furniture claimed ground cells) and is awaiting handover — sync log sl-0004. WF itself has since moved to behavior 65 (designer scenery arc)."
+      "sourceCommit": "449772921c28674374272b114b375104cfadce24",
+      "intake": "2026-07-30",
+      "note": "First release-transport intake (doc 18 §5; transport blessed sl-0016): fetched from the GitHub release, zipSha256 ba7e936f… + manifestSha256 cc329164… + 8-file parity + sourceCommit verified locally BEFORE the drop. Mechanical gates green: runbook validate + 24-row battery byte-identical incl world_walk (85 cells sealed / 0 opened / 13 stranded vs WYSIWYG 34739; the 44 route cells identical, pin unchanged). Game commit 5cb0e3b. Designer city walk = acceptance, PENDING at pin time — sync log sl-0020."
     },
     {
       "consumer": "game",

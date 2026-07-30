@@ -293,6 +293,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0026",
+      "ts": "2026-07-30T03:57:25Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "world_filler",
+      "title": "Planning asks world_filler to make region carving walkability-aware (cliff tops are walked by design)",
+      "detail": "Designer ruling 2026-07-30: the walkable cliff-top tiles are MEANT to be walked — ramps exist to climb them — and a cliff-heavy overworld is planned as the first loop test world (scale-sense goal). The recorded §1e gap goes from conditional to GO: region segmentation treats void as void-material AND unwalkable (walkable rock/ford cells get regions; unwalkable cliff edges keep separating — that behavior is correct and desirable). ANALYSIS_VERSION bump per repo doctrine; the existing route-crossing ford cells are the ready-made regression case. Same session: empirically record what material name the walkable cliff tiles carry in a current WorldForge export. The upstream adoption (fixture regen + coverage re-record on the new WF base, the documented explicit decision) happens when the test world's base settles — the wf agent sequences the two per its own §1e coordination note. Paste handed to the designer.",
+      "refs": [
+        "notes/sessions/2026-07-30.md",
+        "docs/19-LOOP_MILESTONE_SPEC.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

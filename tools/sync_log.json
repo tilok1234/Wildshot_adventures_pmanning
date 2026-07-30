@@ -154,6 +154,29 @@
       "detail": "The 13-boss exporter refuses dirty or unpushed GitHub source before asset writes, records the exact source commit plus SHA-256 content and archive hashes, protects the immutable artifact tag, and publishes the ZIP plus external manifest under established-boss-pack-13-v1 with source and hash notes. Focused publisher checks and the real dirty-tree refusal passed; no release or delivery is claimed because the current 19-boss review worktree is intentionally dirty and uncommitted.",
       "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
       "by": "agent"
+    },
+    {
+      "id": "sl-0015",
+      "ts": "2026-07-30T00:12:46Z",
+      "type": "note",
+      "repo": "worldforge",
+      "title": "WorldForge now blocks game packs from uncommitted or unpushed code and publishes successful exports as GitHub releases",
+      "detail": "The world exporter refuses to run when the repo has uncommitted changes or the current commit is not pushed, naming which check failed; the dirty-tree refusal was exercised for real on this machine. A clean export zips the pack deterministically and creates a non-overwriting GitHub release tagged with the artifact id, notes carrying the source commit and every content hash, so the pack stays fetchable and verifiable even if the dev-machine copy is lost. Verified while landing it: the pack's own manifest lists per-file hashes but deliberately NO source commit (re-exports of an unchanged world stay byte-identical across commits); the commit binds through the release tag and notes instead — so doc 18 §4.2's 'manifest sourceCommit already standard' is half-true for WorldForge, on purpose. Tests 234 -> 242 green; GitHub CLI keyring verified working. Honest scope: tooling landing, not a delivery — the pending dusk hand-over (sl-0004) is unaffected. Landed at WorldForge commit 4497729.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md", "sl-0004"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0016",
+      "ts": "2026-07-30T00:12:46Z",
+      "type": "incident",
+      "repo": "worldforge",
+      "target": "game",
+      "title": "An unplanned GitHub release of the dusk world went out during gate testing — designer call needed: keep it or delete it",
+      "detail": "While verifying the new publish gate on a clean pushed tree, the agent intended to pass --no-release but the flag was omitted from the actual command, so the freshly armed transport did its job and published small-cold-coastal-pack-dusk@b65 (32.1 MB zip). Mitigating facts: the release is byte-identical to the staging pack awaiting game intake (same manifest hash), correctly provenance'd from a pushed commit, and overwrote nothing — but the ruling said releases start with the NEXT real export, so its existence is unplanned. Designer options: KEEP it and bless it as the transport for the pending sl-0004 delivery (the game intakes by tag + hash-verify instead of directory copy), or DELETE it (designer-clicked per protocol; staged command: gh release delete \"small-cold-coastal-pack-dusk@b65\" --cleanup-tag). Also surfaced: sl-0004 labels the pending pack @b63, but the staging directory on disk today carries the b65 identity (round-16/17 byte-stable re-verifications refreshed it; WorldForge HANDOFF corrected). No further releases will be minted until this is ruled.",
+      "artifact": { "id": "small-cold-coastal-pack-dusk@b65", "sourceCommit": "449772921c28674374272b114b375104cfadce24", "hash": "manifestSha256 cc3291646e72dc6d171c816d7f9c4d67aa6244bb611204f1bfaecd1efa2d093d; zipSha256 ba7e936f03c67d54e23902bbc27f317a7f136509ac4cbced66287d740dc09483" },
+      "refs": ["sl-0004", "sl-0015", "docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

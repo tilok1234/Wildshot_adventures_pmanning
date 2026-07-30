@@ -11,6 +11,13 @@ below stands until then.**
 (ask sl-0025); it never amends it. Supersedes docs/12's tester-cycle
 prose as the forward scope (docs/12 §banner; docs/08 CORE-53/55
 amended rows carry the same provenance).
+**World-frame context (2026-07-30 evening, Tier 1):** the loop is the
+FIRST MILE of the Part I persistent zoned world (CORE-16 onward), not
+a standalone run-game — designer reconnection ruling, record in
+`notes/sessions/2026-07-30-worldshape-forklift.md`. The bar's meaning
+re-aims accordingly ("is the first mile of my world worth walking
+daily"); the staged wording card absorbs this when the designer words
+it.
 
 ## 1. The bar (draft standing in for the designer's words)
 

@@ -46,6 +46,41 @@ next PC seam. Sweep duty for incoming logbook lines: verify vs
 GitHub → commit → resolve → next paste (mechanics in the
 session-file HANDOFF).
 
+## EVENING ADDENDUM — 2026-07-30 (the forklift world-shape session; designer home, PC seam next)
+
+**MERGE NOTE (per the phone-session rule above):** this addendum and
+everything it references live on the forced task branch
+`claude/operator-protocols-guidelines-ruyu4q` — exactly 3 commits
+ahead of the standing mainline, 0 behind, ALL new files (zero
+conflict risk). PC seam: fast-forward the standing branch onto it
+(`git merge --ff-only origin/claude/operator-protocols-guidelines-ruyu4q`).
+
+- **THE WORLD SHAPE, RECONNECTED (Tier 1, designer):** "rethink as
+  Erenshor zones" resolved as a RECONNECTION, not a pivot — the
+  Part I persistent zoned world (CORE-16 onward: fractal zone bands,
+  city-fee death, geographic quests, living hubs, collectathon) IS
+  the game; the Loop milestone is its FIRST MILE, not a separate
+  run-game. No CORE amendments needed. Full record + the W-1..W-14
+  aliveness/world direction set (two pillar candidates, night/weather
+  guardrail, the aliveness test, prop-walkability conversion ask):
+  `notes/sessions/2026-07-30-worldshape-forklift.md`. Deck payload
+  staged: `tools/decision_deck_items_2026-07-30-worldshape.json`
+  (5 confirmation cards). Sequencing flag: world_filler consumption
+  likely moves UP (zone-authoring engine).
+- **Operator guide v1 + perishable queue snapshot** live at
+  `notes/operator-guide/` (derived digests, dated, regenerable).
+- Board unchanged from the workday seam: **sl-0035 (b72 game intake)
+  and sl-0041 (world_filler dusk-overworld direction) still OPEN**;
+  the morning phone WF session died unpushed (verified — nothing
+  lost, nothing done).
+- Doc-state audit (this seam): docs/08 CORE-53/55 amended rows ✓,
+  docs/12 supersession banner ✓, docs/19+20 current ✓, lock truthed
+  at workday seam ✓. Nits for later: docs/08 §Bot-testing tail still
+  says "Gates 1/2 judged by fresh outside human testers" (pre-rewrite
+  phrasing; amended rows govern); the GAME repo CLAUDE.md still
+  flags "docs/08+12 truth-up owed planning-side" — that flag is
+  itself stale, clear it in passing during a game session.
+
 ---
 
 # PRIOR HANDOFF — 2026-07-28 (assessment session close)

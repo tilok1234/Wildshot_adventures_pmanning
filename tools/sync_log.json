@@ -474,6 +474,23 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0032",
+      "ts": "2026-07-30T04:52:05Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "Planning greenlights the b71 carver-grading fix (grading only; the tops+ramps arc stays designer-pending)",
+      "detail": "The go for the sl-0030 recommendation, issued without waiting on the tops+ramps ruling because the b71 scope is identical under every outcome: grade rock under the city street-web carver AND the landmark approach carver so both restore the no-cliff-crossing invariant (wilderness-trail grading is the reference behavior, zero violations measured); the 108 ungraded lane cells in the b70 snowline city at terrace level >= 1 are the ready-made regression case. EXPLICIT SCOPE FENCE: b71 carries ONLY the carver grading — the tops+ramps walkable-cliffs arc is a designer-pending contract change (it moves pack, game importer, and world_filler together per sl-0030) and no part of it ships in b71. Ship through the full doc-18 lane: publish gate on a clean pushed tree, immutable release, then the hands-free delivery line here (compute the id inside the same read-and-append; reference this ask and sl-0027; artifact block with sourceCommit plus zip and manifest hashes). Planning holds the b70 game intake and re-issues it against the fresh b71 hashes when the delivery line lands; b71 lands beside b65 and supersedes nothing. Paste handed to the designer.",
+      "refs": [
+        "sl-0030",
+        "sl-0027",
+        "sl-0028",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

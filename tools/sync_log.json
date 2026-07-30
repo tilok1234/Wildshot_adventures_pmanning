@@ -421,12 +421,12 @@
       "repo": "planning",
       "target": "worldforge",
       "title": "Planning asks WorldForge to diagnose the two cliff issues before anyone fixes anything (walkability provenance + roads)",
-      "detail": "Designer self-flag 2026-07-30: they recall TELLING a WF session that cliffs are walkable, road work was built on that assertion, and a road issue just surfaced. Diagnostic-first ask: (1) report how high-cliff walkability is actually derived (TileForge tile properties vs session-declared override) and what the b70 export's grid says at plateau tops / cliff edges / ramps (design intent: edges unwalkable, tops walkable, ramps the access); (2) report how the road router treats cliff terrain and what the designer's issue looks like from WF's side; (3) verdict which fixes are WF-lane (derivation/router) vs TileForge-lane (tile properties) - planning opens the TF ask on that evidence - and whether wildshot-overworld re-exports (b71). The game intake of b70 (sl-0027) WAITS for this verdict to avoid double battery/pin work. Paste handed to the designer.",
+      "detail": "Designer self-flag 2026-07-30: they recall TELLING a WF session that cliffs are walkable, road work was built on that assertion, and a road issue just surfaced. Diagnostic-first ask: (1) report how high-cliff walkability is actually derived (TileForge tile properties vs session-declared override) and what the b70 export's grid says at plateau tops / cliff edges / ramps (design intent: edges unwalkable, tops walkable, ramps the access); (2) report how the road router treats cliff terrain and what the designer's issue looks like from WF's side; (3) verdict which fixes are WF-lane (derivation/router) vs TileForge-lane (tile properties) - planning opens the TF ask on that evidence - and whether wildshot-overworld re-exports (b71). The game intake of b70 (sl-0027) WAITS for this verdict to avoid double battery/pin work. Paste handed to the designer. || RESOLVED 2026-07-30 (same session): diagnosis delivered in full (sl-0030) — all fixes are WF-lane (city-lane + approach carvers gain rock grading; the no-cliff-crossing invariant restores); TileForge is missing nothing; the b70 game intake HOLDS for b71 after the carver fix; the tops+ramps walkable-cliffs arc is a separate designer-ruled contract change, pending.",
       "refs": [
         "sl-0027",
         "notes/sessions/2026-07-30.md"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -442,6 +442,22 @@
         "notes/sessions/2026-07-30.md"
       ],
       "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0030",
+      "ts": "2026-07-30T04:18:29Z",
+      "type": "note",
+      "repo": "worldforge",
+      "target": "planning",
+      "title": "Cliff diagnosis done: the roads-climb-cliffs bug is WorldForge's street carver, and TileForge is missing nothing",
+      "detail": "Answers to sl-0028, all measured on the b70 pack, no fixes applied yet. (1) PROVENANCE: high-cliff walkability is WorldForge-side semantics, not TileForge tile properties - terrain.rock sits in the loader's BLOCKED_MATERIALS list, and the cliff terraces are adapter-side ART drawn inside the rock mass under an explicit invariant ('every walkable cell stays level 0 - a cliff can never cross traversal'). The assertion the designer remembers giving is the narrower 2026-07-28 moss ruling: bare moss carpet on LEVEL-0 apron rock walks; terraces stay solid. Measured b70 grid: plateau tops 1705 cells with only 79 walkable (every one a road/lane cell), cliff edges 231 with 29 walkable (lane crossings), apron 781 with 157 walkable (moss + graded trails), and the RAMP layer is ALL ZEROS - ramps are never placed by anything, though the package ships four walkable ramp families. The stated intent (edges unwalkable / tops walkable / ramps the access) is NOT implemented: tops are blocked and ramps do not exist. Making tops walkable is a walkability-CONTRACT change touching pack, game, and world_filler - designer-ruled arc, not a quiet fix. Related: world_filler's 'walkable cliff-top tiles' observation (sl-0026) is actually moss carpets and graded/lane cells, not tops. (2) ROADS x CLIFFS: wilderness trails GRADE rock crossings to gravel (zero violations measured), but the city street-web carvers write lanes with NO rock grading - the b70 snowline city carved 108 walkable lane cells at terrace level >= 1 (x 200-237, y 25-26): streets climbing cliff faces with no ramps. That is the designer's road issue. A second ungraded writer (the landmark approach carver) is latent. (3) VERDICT: fixes are ALL WorldForge-lane (grade rock under city-lane and approach carvers, restoring the no-cliff-crossing invariant); the TileForge ask is a NO-OP - current exports still ship road/ruinedroad (legacy per the ROAD-LAYER RETIREMENT ae1eecb+c92d36f, 'roadTypesLegacy shipped, count unchanged'), dirtpath, packedroad, and all four ramp families, byte-identical to the pinned dusk manifest. FORWARD GUARD for TileForge instead: never stop exporting road/ruinedroad/ramp families (city lanes ride the legacy road band; a future walkable-tops arc needs the ramps). Drift note: TileForge's handoff still says WorldForge pins a5baf52 - stale, WF pins ae1eecb since 2026-07-28. RECOMMENDATION: hold the b70 game intake; b71 re-exports after the carver grading fix (small, in-lane); the tops+ramps redesign awaits a designer ruling. || CORRECTION (same session, designer redirect): the TileForge missing-inventory half is SUPERSEDED - restoration was ruled separately (sl-0029); for the record the measurement stands (current TF exports byte-identical to pinned for road families, ATLAS KEPT per ae1eecb). WIDTH-DOUBT VERDICT, timeline-checked: the two-wide passage rule is DISMISSED as the motive - TF's road-layer retirement is 2026-07-26 21:30 (ae1eecb), the two-wide rule existed 2026-07-29 02:12-03:01 only (49 minutes, then WYSIWYG reverted it), ~2.5 days AFTER the retirement. The retirement commit itself reads as deliberate palette cleanup (brushes/Lane toggle removed, hotkey to packedroad, atlas kept so saves render) - no walkability motive recorded. The width doubt's documented origin is the 2026-07-28 'wide reads as solid clutter' complaint, root-caused at b56 (2026-07-29): COBBLE BLOB-RENDERING draws 1-cell lanes 2-3 tiles wide - a renderer artifact, fixed by the band art (which is the retired road band, un-retired scoped by b57). Neither the tiles nor the two-wide rule were ever the problem.",
+      "refs": [
+        "sl-0028",
+        "sl-0026",
+        "sl-0027",
+        "sl-0029"
+      ],
       "by": "agent"
     }
   ]

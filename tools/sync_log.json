@@ -369,14 +369,14 @@
       "repo": "planning",
       "target": "game",
       "title": "Planning asks the game to build Loop v1 per the accepted spec (docs/19)",
-      "detail": "Phase 0 design conversation complete same night (session addenda 11/12): the loop spine is ruled — permadeath toggle at character creation with normal death = town respawn + gold percentage [T] + run-back (equipment never taken); loot = five tiers T1-T5 mainly from normal enemies plus boss-only boss-tied uniques (no pity, per docs/01); minimal XP/levels in; first boss = Bone Reliquary King (the proven Warden kit reskinned from the 13-boss pack, name mutable); danger gradient v1 hand-authored with world_filler data as guide. docs/19-LOOP_MILESTONE_SPEC.md is the consumable spec (talk-before-build satisfied); docs/08 CORE-53/55 amended, docs/12 superseded-bannered (sl-0024's flagged debt swept); four ratification cards staged in decision_deck_items_2026-07-30-loop.json. Implementation paste handed to the designer; the game session appends its completion line referencing this ask (compute the id inside the append) and planning sweeps the resolution.",
+      "detail": "Phase 0 design conversation complete same night (session addenda 11/12): the loop spine is ruled — permadeath toggle at character creation with normal death = town respawn + gold percentage [T] + run-back (equipment never taken); loot = five tiers T1-T5 mainly from normal enemies plus boss-only boss-tied uniques (no pity, per docs/01); minimal XP/levels in; first boss = Bone Reliquary King (the proven Warden kit reskinned from the 13-boss pack, name mutable); danger gradient v1 hand-authored with world_filler data as guide. docs/19-LOOP_MILESTONE_SPEC.md is the consumable spec (talk-before-build satisfied); docs/08 CORE-53/55 amended, docs/12 superseded-bannered (sl-0024's flagged debt swept); four ratification cards staged in decision_deck_items_2026-07-30-loop.json. Implementation paste handed to the designer; the game session appends its completion line referencing this ask (compute the id inside the append) and planning sweeps the resolution. || RESOLVED 2026-07-30 (game session, hands-free line sl-0033; commits 86459d1..5b83b38, game main = 5b83b38 verified on GitHub): full L1 skeleton live per docs/19 §3 — isolated loot stream provably unable to perturb enemy variation, five tiers + armor + kill XP/levels, permadeath toggle at creation (normal death 25% [T] carried gold + run-back, equipment never taken; hardcore deletes the character file), hand-authored danger gradient on b65 geography with every spawn flood-reachable, Bone Reliquary King live (Warden kit @ 900 HP [T], real 48px sheet, guaranteed T5 + 35% independent Reliquary Coil roll), four dodgeability proofs PASS at 3.0 ability-off with proofs never weakened, serialization 13, full pre-tester gate ALL GREEN in 13.9 min. Designer-facing opens: the run itself, the render pass, every number [T] in one tuning file; L2 daily-play clock starts when the designer calls the skeleton judgeable.",
       "refs": [
         "docs/19-LOOP_MILESTONE_SPEC.md",
         "sl-0023",
         "sl-0024",
         "tools/decision_deck_items_2026-07-30-loop.json"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -490,6 +490,20 @@
         "notes/sessions/2026-07-30.md"
       ],
       "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0033",
+      "ts": "2026-07-30T07:05:00Z",
+      "type": "note",
+      "repo": "game",
+      "target": "planning",
+      "title": "Loop v1 is built — the run exists, town spawn to the Bone Reliquary King, every gate green",
+      "detail": "Ask sl-0025 executed same-session (game commits 86459d1..5b83b38). The whole L1 skeleton from docs/19 §3 is live: loot state in the sim under a NEW named serialized loot stream (provably unable to perturb enemy variation), five-tier equipment + armor + kill XP/levels with identity defaults (existing proofs reproduced byte-identical before anything else landed), ground drops rendered on a new quiet band below every threat; the persistent character with the permadeath toggle at creation only — normal death costs 25% [T] of carried gold plus the run-back and never takes equipment, hardcore death deletes the character file and the reset key lands on the new-character screen; retry is one key. The danger gradient is hand-authored on the b65 world's own geography (every spawn verified flood-reachable; the town component measures exactly the manifest flood — a free pack cross-check; world_filler data peeked, not consumed, per the spec's deferral). The Bone Reliquary King guards the far edge at 105 tiles: the proven Warden kit at 900 HP [T] wearing his real 48px sheet (render scale only, hurtbox untouched), carrying guaranteed T5 + gold + a 35% independent roll on the Reliquary Coil placeholder unique. Dodgeability: four new proofs (three rings + the boss site) ALL PASS at 3.0 ability-off after TWO layout iterations — proofs never weakened; convergence failures were fixed by spacing clusters beyond kite-drift and recomposing ring 3 to two-pressure pulls (final: zero hits). Serialization 13 with goldens regenerated deliberately and verified 10x; the full pre-tester gate ran ALL GREEN (13.9 min: 18 fixed steps including the new loop contracts, 28-row battery byte-identical, tester+dev exports boot-checked, lockdown probe). Honest opens: every number is [T] in one tuning file (data/progression.tres + def drop tables); designer-eyes render pass (creation screen, drops, HUD) and THE RUN itself; game ledger #16 opened (replay headers lack the character block — profile-run replays refuse verification honestly; proofs are profile-free by construction). L2's daily-play bar clock starts when the designer calls the skeleton judgeable. Planning sweeps sl-0025's resolution per the ask.",
+      "refs": [
+        "sl-0025",
+        "docs/19-LOOP_MILESTONE_SPEC.md"
+      ],
       "by": "agent"
     }
   ]

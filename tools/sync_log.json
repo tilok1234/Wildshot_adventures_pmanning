@@ -134,6 +134,26 @@
       "detail": "16 archive tags pushed, 7 husks + 4 world_filler lines + 4 assembler codex branches deleted (designer-clicked), assembler main consolidated (c6dcdc5), world_filler main promoted, music untouched (live session — merges at its own seam). Full record: notes/sessions/2026-07-30.md.",
       "refs": ["notes/sessions/2026-07-30.md"],
       "by": "agent"
+    },
+    {
+      "id": "sl-0013",
+      "ts": "2026-07-29T23:35:33Z",
+      "type": "note",
+      "repo": "resonance_forge",
+      "title": "Resonance Forge now blocks packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
+      "detail": "The supported publisher fetches GitHub state, refuses dirty or unpushed source, writes the artifact id and source commit into the manifest, and creates a non-overwriting release whose notes include the commit and ZIP hash. The dirty-tree refusal was exercised successfully. No delivery is claimed yet: the implementation is still under review, the GitHub CLI token needs repair, and the pickup revisions remain listening-pending.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0014",
+      "ts": "2026-07-29T23:38:49Z",
+      "type": "note",
+      "repo": "assembler",
+      "title": "Assembler now blocks boss packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
+      "detail": "The 13-boss exporter refuses dirty or unpushed GitHub source before asset writes, records the exact source commit plus SHA-256 content and archive hashes, protects the immutable artifact tag, and publishes the ZIP plus external manifest under established-boss-pack-13-v1 with source and hash notes. Focused publisher checks and the real dirty-tree refusal passed; no release or delivery is claimed because the current 19-boss review worktree is intentionally dirty and uncommitted.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "by": "agent"
     }
   ]
 }

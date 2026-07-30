@@ -172,10 +172,40 @@
       "repo": "worldforge",
       "target": "game",
       "title": "An unplanned GitHub release of the dusk world went out during gate testing — designer call needed: keep it or delete it",
-      "detail": "While verifying the new publish gate on a clean pushed tree, the agent intended to pass --no-release but the flag was omitted from the actual command, so the freshly armed transport did its job and published small-cold-coastal-pack-dusk@b65 (32.1 MB zip). Mitigating facts: the release is byte-identical to the staging pack awaiting game intake (same manifest hash), correctly provenance'd from a pushed commit, and overwrote nothing — but the ruling said releases start with the NEXT real export, so its existence is unplanned. Designer options: KEEP it and bless it as the transport for the pending sl-0004 delivery (the game intakes by tag + hash-verify instead of directory copy), or DELETE it (designer-clicked per protocol; staged command: gh release delete \"small-cold-coastal-pack-dusk@b65\" --cleanup-tag). Also surfaced: sl-0004 labels the pending pack @b63, but the staging directory on disk today carries the b65 identity (round-16/17 byte-stable re-verifications refreshed it; WorldForge HANDOFF corrected). No further releases will be minted until this is ruled.",
+      "detail": "While verifying the new publish gate on a clean pushed tree, the agent intended to pass --no-release but the flag was omitted from the actual command, so the freshly armed transport did its job and published small-cold-coastal-pack-dusk@b65 (32.1 MB zip). Mitigating facts: the release is byte-identical to the staging pack awaiting game intake (same manifest hash), correctly provenance'd from a pushed commit, and overwrote nothing — but the ruling said releases start with the NEXT real export, so its existence is unplanned. Designer options: KEEP it and bless it as the transport for the pending sl-0004 delivery (the game intakes by tag + hash-verify instead of directory copy), or DELETE it (designer-clicked per protocol; staged command: gh release delete \"small-cold-coastal-pack-dusk@b65\" --cleanup-tag). Also surfaced: sl-0004 labels the pending pack @b63, but the staging directory on disk today carries the b65 identity (round-16/17 byte-stable re-verifications refreshed it; WorldForge HANDOFF corrected). No further releases will be minted until this is ruled. || RESOLVED 2026-07-30 (designer, in-session Tier 1): KEEP — blessed as the official transport for the pending dusk delivery (sl-0004); the game intakes by tag + hash-verify against the release notes. Planning verified before the ruling: GitHub's computed asset digest equals the notes' zipSha256 (ba7e936f…), manifestSha256 cc329164…, flood 34641 — the exact staging artifact.",
       "artifact": { "id": "small-cold-coastal-pack-dusk@b65", "sourceCommit": "449772921c28674374272b114b375104cfadce24", "hash": "manifestSha256 cc3291646e72dc6d171c816d7f9c4d67aa6244bb611204f1bfaecd1efa2d093d; zipSha256 ba7e936f03c67d54e23902bbc27f317a7f136509ac4cbced66287d740dc09483" },
       "refs": ["sl-0004", "sl-0015", "docs/18-AGENT_SYNC_PROTOCOL.md"],
-      "status": "open",
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0017",
+      "ts": "2026-07-30T00:19:44Z",
+      "type": "note",
+      "repo": "tileforge",
+      "title": "TileForge now blocks packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
+      "detail": "The headless CLI (the supported publisher) refuses zip builds when the tree is dirty — full porcelain per the ruled letter, untracked files included; an uncommitted in-tree draft's tracked-only softening was tightened to match §4.1 — or when HEAD is absent from the remote, naming the failed check (exit 3; --no-zip validation stays ungated). Manifests now carry exporter-written contentHashes (SHA-256 of every sibling entry, 173 in the proof pack) beside the standard sourceCommit; in-app exports ship null provenance and cannot pass §5 intake. --release uploads the zip as an immutable GitHub release tagged <zipname>@<commit>, notes carrying sourceCommit + zip SHA-256, existing tag = refuse. Exercised for real at tileforge e3353ec: dirty-tree refusal on a genuinely dirty 29-path tree, unpushed-HEAD refusal, untracked --project refusal, and a clean-worktree PASS build whose manifest hashes all verified via an independent zip reader. No delivery claimed: the release step is code-complete but unexercised (gh keyring auth and the immutable-tag probe are green; the registry stays empty until the next real pack cut) and existing exports/ packs are grandfathered — WorldForge's pinned a5baf52 unaffected. Live friction, by design: the designer's parked scratch (baseline ' - Copy' PNGs, refroads-new/) now blocks main-tree pack builds until their delete/keep call — the clean-worktree escape is documented in --help.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0018",
+      "ts": "2026-07-30T00:21:33Z",
+      "type": "note",
+      "repo": "assembler",
+      "title": "Assembler normal work moved to main; archived 19-boss review state parked locally",
+      "detail": "Applied the active planning lock: normal work now uses C:\\Users\\headc\\Documents\\8-bit-sprite-assembler-main on main at e5ecdea (origin/main; consolidation c6dcdc5). Updated the main-worktree HANDOFF.md to state mainline = main, codex/form-shading fully merged and archive-tagged, and the old checkout review-only. Parked the old checkout's complete dirty state on local wip/19-boss-review at fb4b664, based on 9b7f4bf; the 60,902,041-byte review payload was not pushed.",
+      "refs": ["tools/ecosystem.lock.json"],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0019",
+      "ts": "2026-07-30T00:27:10Z",
+      "type": "note",
+      "repo": "world_filler",
+      "title": "World Filler now blocks packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
+      "detail": "The exporter (wf-fill export) is now a publishing act per the ruled letter: it refuses when the tree is dirty (git status --porcelain non-empty) or HEAD is on no remote branch (git branch -r --contains HEAD empty), naming the failed check before any work; the dirty-tree refusal was exercised for real on a genuinely dirty 19-path tree (exit 1, nothing written). Gated exports embed the proved commit as manifest.sourceCommit; because content pack formats 1-2 are frozen and this repo's format doctrine lands appends as a new format number, the field is pack format 3 (format 2 plus exactly that one optional append; payloads unchanged; dev-bypass builds omit it so the golden byte-pin stays commit-independent). Both reference verifiers - TypeScript and the headless Godot proof, run REAL on this machine's 4.6.2 - accept formats 1-3 and refuse sourceCommit misuse, battery grown to 23 cross-lane cases. A successful gated export zips the pack deterministically and uploads it as a GitHub release tagged with the artifact id, targeting the proved commit, notes carrying sourceCommit + zip SHA-256; an existing tag refuses - never overwritten. gh auth verified (tilok1234, repo scope, keyring) and the repo reachable; the release registry is empty and NO release was created - nothing has been delivered, prior packs are grandfathered, and the create path is unit-tested through an injected runner. Same session, the designer's pending viewer ruling was implemented: the viewer adopted the refusing run decoder (row-crossing/malformed runs and lying cellCounts get an on-page error naming the defect, never a plausible render), pinned by test and exercised through the real file-intake path - closing the flag recorded in sl-0012. 178 tests green; landed and pushed as world_filler main commit 7f681c0.",
+      "refs": ["docs/18-AGENT_SYNC_PROTOCOL.md", "sl-0012"],
       "by": "agent"
     }
   ]

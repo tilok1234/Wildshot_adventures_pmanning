@@ -254,13 +254,27 @@
       "repo": "planning",
       "target": "game",
       "title": "Planning asks the game to retire the stranger-tester items and adopt the Loop milestone (Gate 1 rewritten)",
-      "detail": "Designer ruling (in-session Tier 1, 2026-07-30 ~04:20; deck cards staged in tools/decision_deck_items_2026-07-30-gate1.json for the rested click): cold tester recruitment is RETIRED, not postponed — strangers try an early build once and never twice, so fresh eyes are spent on first touch, and failed recruitment reads as verdict when it is only silence. Human testing moves behind a written loop bar: an unguided complete run — town, rising danger with loot that matters, first boss or die trying, death that costs something real, immediate retry pull — fun for the designer daily for a week. Then 2-3 warm WATCHED first-touches: 'never judged solely by the builder' survives at the bar. The game tracker should stop owing recruitment scheduling and the tester-channel push and start owing loop assembly; the tester-build export pipeline itself STAYS (the clean zip is what makes warm testing frictionless). Ready-to-paste prompt handed to the designer; the game session appends its completion line referencing this ask and planning sweeps the resolution.",
+      "detail": "Designer ruling (in-session Tier 1, 2026-07-30 ~04:20; deck cards staged in tools/decision_deck_items_2026-07-30-gate1.json for the rested click): cold tester recruitment is RETIRED, not postponed — strangers try an early build once and never twice, so fresh eyes are spent on first touch, and failed recruitment reads as verdict when it is only silence. Human testing moves behind a written loop bar: an unguided complete run — town, rising danger with loot that matters, first boss or die trying, death that costs something real, immediate retry pull — fun for the designer daily for a week. Then 2-3 warm WATCHED first-touches: 'never judged solely by the builder' survives at the bar. The game tracker should stop owing recruitment scheduling and the tester-channel push and start owing loop assembly; the tester-build export pipeline itself STAYS (the clean zip is what makes warm testing frictionless). Ready-to-paste prompt handed to the designer; the game session appends its completion line referencing this ask and planning sweeps the resolution. || RESOLVED 2026-07-30 (same night): executed by the game same-session (sl-0024, game commit 0fe2b4a) — tracker + HANDOFF swapped, digest rows amended. docs/08+12 truth-up remains owed planning-side (folded into Phase 0).",
       "refs": [
         "notes/sessions/2026-07-30.md",
         "tools/decision_deck_items_2026-07-30-gate1.json",
         "docs/18-AGENT_SYNC_PROTOCOL.md"
       ],
-      "status": "open",
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0024",
+      "ts": "2026-07-30T05:05:00Z",
+      "type": "note",
+      "repo": "game",
+      "target": "planning",
+      "title": "Game absorbed the Gate 1 rewrite — stranger-tester items retired, the Loop milestone is the forward scope",
+      "detail": "Executed the sl-0023 ask same-session (game commit 0fe2b4a): the milestone tracker and HANDOFF stopped owing recruitment scheduling, the tester-channel push, and stranger-aimed onboarding polish — retired with the ruling's cause on record — while the tester-build export pipeline and lockdown profile stay a standing gate (the clean 58.7 MB audio-era zip was cut and probed the same night, builds/wildshot-322066c). The game contract's own digest rows (CORE-53/55, SPEC-A, scope tripwire, quiet-lab rule) now carry the rewrite with full provenance: forward scope = the Loop milestone — an unguided b65-town-to-boss run with loot that matters, real death cost, and immediate retry pull; exit = fun for the designer playing daily for a week; 2-3 warm WATCHED first-touches at the bar; the zero-reward lab law is lifted for loop work by this ruling. Loop assembly starts from designer direction under talk-before-build — the loop's systems (loot model, death cost, boss choice, danger gradient) are not yet designed anywhere. ONE FLAG for the sweep: planning docs/08 CORE-53/55 rows and docs/12's Gate-1 prose still carry the pre-rewrite text (verified at absorption ~04:45) — the ruling lives in planning commit 593cc27 + the staged deck cards + this log, so the prose truth-up is owed planning-side. Planning sweeps sl-0023's resolution per the ask.",
+      "refs": [
+        "sl-0023",
+        "tools/decision_deck_items_2026-07-30-gate1.json"
+      ],
       "by": "agent"
     }
   ]

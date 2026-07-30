@@ -622,6 +622,43 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0040",
+      "ts": "2026-07-30T11:53:55Z",
+      "type": "pin_change",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "World filler now speaks the b72 walkability: fixtures re-pinned, the canonical world and the dusk overworld are imported and verified, content over the dusk map is unblocked",
+      "detail": "Adoption EXECUTED per the designer ratification closing sl-0039 (world_filler commit 44f1adb, 184 tests green incl. the real Godot lane, behavior 14). Ladder tables transcribed from the WorldForge public loader at bbc10cdb: 16 new blocking props, dock/city_gate pass cells, two appended rungs (moss_rock_walk keyed on the pack's adapter elev grid; structure_stamp_block for the WYSIWYG art-outline stamp). One real transcription bug surfaced and fixed by parity: trailAt pinned path value 1 from the b47 era, missing behavior-57 band-2 lanes (b72 routes them over swamp - 28 cells). Parity is bit-identical on all five b72-era packs: the three regenerated fixtures (provenance updated to bbc10cdb), the IMPORTED small-cold-coastal-pack-dusk@b65 canonical (digest-verified; flood 34641; 626 moss-carpet cells walking, exactly the upstream moss ruling's recorded canonical count - the import proved SOUND, no regen was needed), and the IMPORTED wildshot-overworld-pack-dusk@b72 (digest-verified, flood 45202) - both now live in outputs/local-packs under the suite's parity lane, which completes the original dusk import request. The frozen format-1 compat pack was re-extracted over the new fen world (1 placement - fen binds no dungeon at b72). Content packs over the dusk overworld are now possible; a dusk-directed recipe + design pass is the natural next step and is NOT started.",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk@b72",
+        "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
+        "hash": "6cd46753449cb033b37f2175b734fdd97372ff6fae9e1fe619cb051b1deb0c60"
+      },
+      "refs": [
+        "sl-0039",
+        "sl-0037",
+        "sl-0035",
+        "world_filler@44f1adb"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0041",
+      "ts": "2026-07-30T11:54:45Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "world_filler",
+      "title": "Planning asks world_filler to DIRECT the dusk overworld — the docs/20 step-1 rehearsal begins (designer in the loop, export gated on approval)",
+      "detail": "The adoption (sl-0040) unblocked content over wildshot-overworld-pack-dusk@b72; the designer's standing intent (mob and boss placement as reference for the game, session record Addendum 22) now executes as docs/20 step 1. Ask: build a FIRST-DRAFT dusk-directed recipe pinned to the b72 generation identity (start from the basic-direction fixture recipe), shaped by the loop doctrine — the harbor capital at spawn 109,182 is the safe anchor, danger rises with distance as geography, boss and dungeon sites land at named-challenge-quality locations, endgame pockets authored not accidental. Run plan, place, territories, validate (nine gates) and present renders for the designer's review; the designer then drives lock/reroll/paint rounds in the viewer until the placement feels right. Keep placeholder rosters AS-IS — mapping to real enemy defs happens game-side in the reference pass (docs/20; the vocabulary carries identity later). DO NOT export until the designer approves a locked state; export then publishes the content pack through the wf gate as a release pinning b72. Log rounds and the eventual export hands-free referencing this ask; planning sweeps.",
+      "refs": [
+        "sl-0040",
+        "docs/20-WORLD_CONTENT_ARC.md",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

@@ -773,6 +773,22 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0049",
+      "ts": "2026-07-30T23:29:03Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "Designer doctrine: settlement streets are BANDED ROADS — the tiles connecting houses must be the road family, not paving carving",
+      "detail": "DESIGNER RULING (Tier 1, 2026-07-31 planning channel, stated repeatedly; verbatim: 'i want banded roads in the cities... atm theres tiles used to connect togheter houses, not road tiles as is what i would want it to be'): in settlements, the surface that CONNECTS HOUSES — the street web and lanes linking building to building — must be drawn as the banded ROAD family so streets read as actual roads; today those connections read as paving/plaza-style carving. Big inter-city roads: fine as they are (same designer, same conversation; the separate on-screen country-road width/band verdict stays the designer's pending call and is NOT part of this ask). SCOPE: all settlement classes (cities, towns, villages). Diagnose-first per house rules: enumerate which composers write house-connection surfaces per settlement class (city street web, house-lane band writes, village/town lanes, plaza carving) and what b72 actually draws for each; then propose the composition change — streets as banded road; where paving legitimately remains (true market squares etc.) is a designer render call, not an agent guess. METHOD: renders to the designer for approval BEFORE any export — their eye is the sole authority on the look; designer lock/reroll rounds as usual; export only on an approved look, through the full doc-18 publish lane as the next behavior, hands-free delivery line back (game intake follows on its own paste). CONSTRAINTS: no walkability-contract changes (tops+ramps stays parked); b71 carver rock-grading carries forward wherever bands land; game-side rendering is PROVEN healthy (sl-0048 pixel audit — 2570 road cells render correctly), so this is purely WorldForge composition, not a consumer issue. Context for honesty: the designer stated this want multiple times tonight and planning's earlier translations (a game rendering ask sl-0047, then routing) missed it — both produced real side value (Overworld Walk picker row, per-layer placement loudness) but were not the want; this ask is the want, in the designer's own words. Log rounds and the export hands-free referencing this ask; planning sweeps.",
+      "refs": [
+        "sl-0048",
+        "sl-0043",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

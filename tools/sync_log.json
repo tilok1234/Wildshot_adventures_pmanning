@@ -742,6 +742,23 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0047",
+      "ts": "2026-07-30T22:55:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning asks the game to RENDER THE ROAD LAYER — the b72 pack ships perfect band-road art that the game render chain silently never draws",
+      "detail": "Designer report with screenshots from the intaken b72 overworld: city streets show bare cobble plaza and a highway shows bare wide corridor ground — no road tiles anywhere ('we do want banded roads... i want the roads in the cities to be the actual road tiles'). Planning diagnosis, data-verified on the intaken pack: the pack is FLAWLESS — map-data road layer carries 2166 type-1 (road band) + 361 type-2 (dirtpath) + 43 type-3 (ruinedroad) cells, AND resolved-map.tmj composes them as 2,570 nonzero gids landing exactly in the road tilesets (road_network firstgid 30756, dirt_path 30788, ruined_road 30820; 70 distinct tiles, range 30758..30849). game/arena/world_builder.gd renders every tmj layer uniformly with no road special-case and all-or-nothing tileset resolution (the world renders, so the road tilesets resolved) — yet the art does not appear on screen. Zero road-specific code exists anywhere in game/*.gd or the shipped tileforge importer — the render chain was built in the road-retirement era when the pinned package's GAME-GUIDE declared road families display-retired LEGACY; the upstream restoration (TF 0b0b1f5, sl-0031) made them first-class again but no consumer was ever asked to render them. ASK: make the road layer actually draw. Runtime suspects, in order: (a) gid→source_id/columns/frames resolution specifically for the network-class road tilesets in world_builder's by_base mapping (columns default 12 vs the network tilesets' real geometry; frame-0 snap); (b) z/occlusion — road sits between pier and fence in tmj layer order; (c) instrument placements-per-layer at load and compare road against 2570. Also stop honoring the stale roadTypesLegacy flag anywhere it is consulted (the game's pinned package manifests still carry it; TF drops it at the next natural cut). Fix bar: the three road families render as the pack's own art, matching the WF viewer's look. DESIGNER TASTE BOUNDARY recorded tonight: big inter-city corridors staying WIDE is fine (ground layers untouched — the fix adds the road art on top, it does not neck anything); the want is city streets + small roads legible as actual road tiles; the designer taste-rules the rendered look on screen (taste legal post-shift; the pending b72 country-road-look verdict fires only after roads actually draw). Mechanical render fix only — no walkability, sim, or pack changes; battery untouched. Log completion hands-free referencing this ask with the game commit sha; planning sweeps.",
+      "refs": [
+        "sl-0043",
+        "sl-0031",
+        "sl-0035",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

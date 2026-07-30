@@ -261,6 +261,11 @@ if __name__ == "__main__":
           "conflict.",
           "Wildshot Operator Quick Card — derived digest 2026-07-30 "
           "— authority: planning docs 16/18 + Decision Deck")
+    build("OPERATOR_QUEUE_SNAPSHOT.md", "WILDSHOT_QUEUE_SNAPSHOT.pdf",
+          "PERISHABLE queue snapshot — refreshed by any session that "
+          "changes the queue. The Decision Deck is the live truth.",
+          "Wildshot Queue Snapshot — PERISHABLE, dated inside "
+          "— the Decision Deck is the live queue")
     build("OPERATOR_MANUAL.md", "WILDSHOT_OPERATOR_MANUAL.pdf",
           "How you run the seven-repo machine — derived digest, "
           "snapshot 2026-07-30. Planning docs + Decision Deck win on any "

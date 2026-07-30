@@ -119,15 +119,11 @@ Console (` key):
 - Never edit sim data while a battery runs. Never run gates while a Godot
   editor holds the same project open.
 
-## 11. Open on you right now (2026-07-30 snapshot)
+## 11. What's open on you
 
-- **The rested feel pass** — formally closes M2 and ratifies the
-  provisional bundle (six ordinaries, arenas, sphere set, audio-in-play).
-- **THE LOOP:** play it; say the skeleton is "judgeable" to start the bar
-  clock; judge every [T] rate (drop rates, XP growth, death cost 25%,
-  king 900 HP, unique 35%).
-- **b65 city walk verdict** (still unrecorded) + b71 overworld look.
-- **Designer-eyes renders:** creation screen, drops/HUD, comments box,
-  onboarding copy voice pass.
-- **Eyes-closed audio pass** — now against the real Resonance Forge cues.
-- **Weekly GIF** — loop/king material is fresh.
+This card stays evergreen on purpose — your **live queue is the
+Decision Deck**, and a dated snapshot of open items lives in
+`OPERATOR_QUEUE_SNAPSHOT.md` / `WILDSHOT_QUEUE_SNAPSHOT.pdf` beside
+this file, grouped by where you can actually do each item (phone /
+at the machine / rested day-start). Any session that changes the
+queue refreshes the snapshot; this card never rots with it.

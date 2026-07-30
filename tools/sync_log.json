@@ -585,6 +585,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0038",
+      "ts": "2026-07-30T11:14:11Z",
+      "type": "note",
+      "repo": "planning",
+      "title": "The world-content arc is written down: hand-rehearsal, feel verdict, then the importer (docs/20)",
+      "detail": "Designer accepted the sequencing direction in-session and asked for it to be recorded. docs/20-WORLD_CONTENT_ARC.md lands as the doctrine: (1) wf directs the test overworld (b72 base) and the game consumes the content pack AS REFERENCE ONLY — hand-authored spawn tables and boss sites, placeholder rosters mapped to real enemy defs, dodgeability proofs re-run; (2) the designer plays the directed placement and gives the feel verdict — the cheap answer to the only real uncertainty; (3) only then does the worldfiller_importer get built, at its own planning session (the designer-held reservation), scoped to the minimal surface (bands, placements, territories) with the step-1 mapping as its spec input. Confidence basis recorded in the doc: wf content packs already validate inside real headless Godot; the game intake culture is proven (sl-0036); the consuming side exists since Loop v1; formats are frozen, hash-sealed, base-pinned. Gates in front of step 1: sl-0037 (adoption scoping + ratification) and sl-0035 (b72 intake). The importer spec itself deliberately ratifies later, not here.",
+      "refs": [
+        "docs/20-WORLD_CONTENT_ARC.md",
+        "docs/19-LOOP_MILESTONE_SPEC.md",
+        "sl-0037",
+        "sl-0035"
+      ],
+      "by": "agent"
     }
   ]
 }

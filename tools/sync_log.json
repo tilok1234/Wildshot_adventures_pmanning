@@ -401,7 +401,7 @@
       "repo": "worldforge",
       "target": "game",
       "title": "The Wildshot test overworld is published as a GitHub release, ready for the game to fetch and verify",
-      "detail": "The designer iterated a purpose-built world for Wildshot Adventures (world arc rounds W1-W4 in one evening: 512 draft, small pinned edition, fresh-layout lineup, layout C chosen, then 'good enough for a test') and it shipped through the full doc-18 lane: approve-recipe baseline recorded (recipeSha 35321dea...), publish gate passed on a clean pushed tree, and the export auto-published the release. Fetch by tag wildshot-overworld-pack-dusk@b70, verify the zip sha, and run the normal intake battery. TWO INTAKE NOTES: (1) this is the FIRST STYLED pack ever delivered - its path layer carries value 2 (behavior-57 city-lane band, adapter 7 maps the art); WorldForge's own artifact validator had a latent 0..1 pin that refused the first export attempt and was fixed today - if the game importer pins path values the same way it will refuse too, and the fix is to accept 0/1/2. (2) The pack supersedes nothing: the pending canonical dusk delivery (sl-0004, b65 release) remains available; which world the game loads is the game side's call. World summary: 256x256, harbor capital on the south bay (spawn 109,182), snowline crossing city, three ports, walled cities, gardens, orchard/logging/wreck compositions live.",
+      "detail": "The designer iterated a purpose-built world for Wildshot Adventures (world arc rounds W1-W4 in one evening: 512 draft, small pinned edition, fresh-layout lineup, layout C chosen, then 'good enough for a test') and it shipped through the full doc-18 lane: approve-recipe baseline recorded (recipeSha 35321dea...), publish gate passed on a clean pushed tree, and the export auto-published the release. Fetch by tag wildshot-overworld-pack-dusk@b70, verify the zip sha, and run the normal intake battery. TWO INTAKE NOTES: (1) this is the FIRST STYLED pack ever delivered - its path layer carries value 2 (behavior-57 city-lane band, adapter 7 maps the art); WorldForge's own artifact validator had a latent 0..1 pin that refused the first export attempt and was fixed today - if the game importer pins path values the same way it will refuse too, and the fix is to accept 0/1/2. (2) The pack supersedes nothing: the pending canonical dusk delivery (sl-0004, b65 release) remains available; which world the game loads is the game side's call. World summary: 256x256, harbor capital on the south bay (spawn 109,182), snowline crossing city, three ports, walled cities, gardens, orchard/logging/wreck compositions live. || RESOLVED 2026-07-30: superseded as the intake target by b71 (sl-0034) — this b70 pack carries the street-climbs-cliffs carver defect diagnosed in sl-0030 and was NEVER intaken (held per sl-0028, then replaced by the graded re-export). The b70 release stays published as immutable archive; do not intake it.",
       "artifact": {
         "id": "wildshot-overworld-pack-dusk@b70",
         "sourceCommit": "167615b13595bc5d516c5e363786863b3a547d7b",
@@ -411,7 +411,7 @@
         "docs/18-AGENT_SYNC_PROTOCOL.md",
         "sl-0004"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -482,14 +482,14 @@
       "repo": "planning",
       "target": "worldforge",
       "title": "Planning greenlights the b71 carver-grading fix (grading only; the tops+ramps arc stays designer-pending)",
-      "detail": "The go for the sl-0030 recommendation, issued without waiting on the tops+ramps ruling because the b71 scope is identical under every outcome: grade rock under the city street-web carver AND the landmark approach carver so both restore the no-cliff-crossing invariant (wilderness-trail grading is the reference behavior, zero violations measured); the 108 ungraded lane cells in the b70 snowline city at terrace level >= 1 are the ready-made regression case. EXPLICIT SCOPE FENCE: b71 carries ONLY the carver grading — the tops+ramps walkable-cliffs arc is a designer-pending contract change (it moves pack, game importer, and world_filler together per sl-0030) and no part of it ships in b71. Ship through the full doc-18 lane: publish gate on a clean pushed tree, immutable release, then the hands-free delivery line here (compute the id inside the same read-and-append; reference this ask and sl-0027; artifact block with sourceCommit plus zip and manifest hashes). Planning holds the b70 game intake and re-issues it against the fresh b71 hashes when the delivery line lands; b71 lands beside b65 and supersedes nothing. Paste handed to the designer.",
+      "detail": "The go for the sl-0030 recommendation, issued without waiting on the tops+ramps ruling because the b71 scope is identical under every outcome: grade rock under the city street-web carver AND the landmark approach carver so both restore the no-cliff-crossing invariant (wilderness-trail grading is the reference behavior, zero violations measured); the 108 ungraded lane cells in the b70 snowline city at terrace level >= 1 are the ready-made regression case. EXPLICIT SCOPE FENCE: b71 carries ONLY the carver grading — the tops+ramps walkable-cliffs arc is a designer-pending contract change (it moves pack, game importer, and world_filler together per sl-0030) and no part of it ships in b71. Ship through the full doc-18 lane: publish gate on a clean pushed tree, immutable release, then the hands-free delivery line here (compute the id inside the same read-and-append; reference this ask and sl-0027; artifact block with sourceCommit plus zip and manifest hashes). Planning holds the b70 game intake and re-issues it against the fresh b71 hashes when the delivery line lands; b71 lands beside b65 and supersedes nothing. Paste handed to the designer. || RESOLVED 2026-07-30 (WF session, delivery sl-0034): executed to the letter and exceeded — gradeRockCell shared across all six street/approach write sites; measured on the shipped pack: zero band cells on rock (b70 had 175), zero walkable at terrace >= 1 (b70 had 108+), pinned by suite test; scope fence honored (tops blocked, ramps unplaced, arc designer-pending). Planning verified the release from here: GitHub asset digest = zipSha256, tag targets sourceCommit 63632716. Game intake re-issued against b71.",
       "refs": [
         "sl-0030",
         "sl-0027",
         "sl-0028",
         "notes/sessions/2026-07-30.md"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -504,6 +504,27 @@
         "sl-0025",
         "docs/19-LOOP_MILESTONE_SPEC.md"
       ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0034",
+      "ts": "2026-07-30T05:04:22Z",
+      "type": "delivery",
+      "repo": "worldforge",
+      "target": "game",
+      "title": "The Wildshot overworld re-shipped with the cliff fix - b71 release is live, ready for the re-issued intake",
+      "detail": "The sl-0032 GO executed: every street and approach carver now grades rock the way wilderness trails always did (gradeRockCell shared; six write sites covered), so no walkable band cell rides rock material and the cliff relief can never cross traversal. Regression target met and exceeded, measured on the shipped pack: ZERO band cells on rock material (b70 had 175), ZERO walkable cells at any terrace level >= 1 (b70 had 108+ lane cells climbing the snow city's own cliffs; the x200-237 cluster is clean), pinned by a suite test on the shipped world. Scope fence honored: carver grading only - tops stay blocked, ramps stay unplaced, the tops+ramps contract arc remains designer-pending. Walkability semantics unchanged (grading swaps the material under bands): world flood 45082 identical to b70, pack flood 45184 (+17 pack-level moss interaction). Fetch by tag wildshot-overworld-pack-dusk@b71, verify the zip sha, run the intake battery; lands beside b65 and b70, supersedes nothing - planning re-issues the game intake against these hashes. The sl-0027 intake notes still apply (first styled pack: path layer carries value 2 per behavior 57 - an importer that pins path values at 0..1 will refuse and should accept 0/1/2).",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk@b71",
+        "sourceCommit": "63632716a766ff85c1139ed0613a13007a779945",
+        "zipSha256": "dbfd9ac43aefb151aa6a3f9543b52352895a1b9b04b9166c6a2f2a36e337658d",
+        "manifestSha256": "5fd96677e988a95ac3374ae32527f3454f8b03b99a225084dde916847d675406"
+      },
+      "refs": [
+        "sl-0032",
+        "sl-0027"
+      ],
+      "status": "open",
       "by": "agent"
     }
   ]

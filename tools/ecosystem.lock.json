@@ -93,7 +93,11 @@
     {
       "consumer": "game",
       "producer": "resonance_forge",
-      "artifact": "NONE — Phase 6 importer unbuilt; placeholder cues are game-generated (tools/gen_cue_wavs.py)"
+      "artifact": "resonance-forge-godot-audio-v1-23a6c659199b (4 music loops + 6 SFX families)",
+      "path": "audio/cues/ + audio/music/ (consumed subset; masters live in the release)",
+      "sourceCommit": "23a6c659199b15994f5bb14c955f29ffea8db22e",
+      "intake": "2026-07-30",
+      "note": "Second release-transport intake (doc 18 §5): zipSha256 F786126B… verified vs notes + sidecar, all 178 manifest files hash-true, consumed cues re-hashed byte-identical after copy. RF addon/autoload NOT enabled (no middleware) — files consumed through the game's own cue map + music player (queue-on-loop + duck-under-threats, designer-ruled 2026-07-30). Music masters (581 MB WAV) deliberately NOT vendored: the immutable release is the archive; the repo ships ffmpeg OGG q6 conversions (21.5 MB, hashes in game commit). Game commits ec12575 + aaa7250. Designer listening pass (the audio verdicts deferred 2026-07-29) now runnable against real audio — PENDING at pin time. Sync log sl-0022 (delivery sl-0021 closed)."
     },
     {
       "consumer": "—",

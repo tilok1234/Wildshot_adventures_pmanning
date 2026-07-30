@@ -118,6 +118,14 @@ farming; dry-streak-as-dedication; gap-as-invitation; explainable-death rate at
 density; build distinction; slice velocity extrapolates to a viable plan under CORE-20;
 failure = planned-order scope cuts. Gate 2 unevaluable until CORE-20.
 
+**AMENDED 2026-07-30 (in-session ruling; deck cards staged for the
+rested click):** Gate 1's outside-tester mechanism is rewritten — cold
+recruitment RETIRED; a written loop bar (unguided complete run with
+loot, stakes, and retry pull, designer-fun daily for a week) precedes
+2–3 warm WATCHED first-touches. "Never judged solely by the builder"
+survives at the bar. See sessions/2026-07-30.md addendum 9 +
+tools/decision_deck_items_2026-07-30-gate1.json; ask sl-0022.
+
 ### CORE-54 — answered 2026-07-26 [L/P]
 
 Top five risks with test/mitigation/cut (detail in Risk Register): no-reward fun (Phase
@@ -132,6 +140,10 @@ First playable milestone = prototype spec Phase A no-reward combat lab with its
 standing exit gate. Additions: gate judged by fresh outside testers, never solely the
 builder [P]; every test pattern verified dodgeable at lowest intended movement speed
 [P]. Lab timeline awaits CORE-20.
+
+**AMENDED 2026-07-30:** the fresh-outside-testers addition is
+re-sequenced behind the loop bar (see the CORE-55 amendment above);
+the dodgeability rule is untouched.
 
 ### CORE-52 — answered 2026-07-26 [P]
 

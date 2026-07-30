@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Testers move behind the loop - Gate 1 rewritten",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "the go-hard phase starting without a doomed recruitment drive",
+    "detail": "Already ruled by you in-session tonight (2026-07-30, ~04:20) - this click is the rested ratification. The old plan's Gate 1 wanted fresh outside testers judging the combat lab: 10-16 recruited candidates, at least 4 strangers per cycle. Your ruling: that is not realistic for a game at this shape in 2026. Strangers try an early build once and never twice, which means fresh eyes are spent the moment they touch it - they are the one resource you cannot renew. A failed recruitment drive produces silence, and silence always reads as 'the game is bad' when it really means 'nobody saw it'. It was also the only gate in the whole project that depended on other people's behavior instead of your own effort. So: (1) cold recruitment is RETIRED, not postponed - no public tester channel until the game can attract players on its own; (2) the go-hard phase builds THE LOOP first - the pieces already exist (world, town, bosses, sprites, audio), what is missing is the playable run that uses them; (3) human judgment returns as 2-3 warm, WATCHED first looks once the loop bar (next card) is met. The old rule's heart - 'the gate is never judged solely by the builder' - survives; it just waits until there is a game for someone to judge. This reverses the outside-tester rule from 2026-07-26 with cause: that rule assumed recruitable strangers, and the assumption fails against reality. The tester-build pipeline itself stays - tonight's clean 58.7 MB zip is exactly what will make the warm looks effortless.",
+    "options": ["Ratify the rewrite", "Roll it back - keep the old Gate 1"],
+    "lean": "Ratify the rewrite"
+  },
+  {
+    "title": "The loop bar - what earns the first fresh look (make it yours)",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "a finish line for the go-hard phase so it cannot recede forever",
+    "detail": "The draft bar, written to be rewritten in YOUR words - this is the target the go-hard phase aims at, so it has to be yours. Draft: a person can sit down unguided and get one complete run - spawn in the town, walk out, fight through rising danger where loot actually drops and matters, reach the first boss or die trying, death costs something real, and dying makes you want to press retry NOW. When that run exists and stays fun for YOU playing it every day for a week straight, the 2-3 warm watched testers get called for their one fresh look. Two honest notes baked in: the bar is about FEEL and STAKES, not polish - your genre forgives dated visuals and never forgives flat combat; and from now on test scenes should be built so they leave playable content behind where possible, so testing accretes into the game instead of leaving scaffolding (your own observation tonight: the batteries verified every system, but 'playable' was never a gated artifact - this card makes it one).",
+    "options": ["Adopt as drafted", "I will rewrite the bar in my words", "Not yet"],
+    "lean": "Adopt as drafted"
+  }
+]

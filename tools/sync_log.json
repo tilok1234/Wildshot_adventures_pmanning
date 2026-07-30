@@ -228,9 +228,39 @@
       "repo": "resonance_forge",
       "target": "game",
       "title": "The complete approved music and sound pack is ready for the game from a verified GitHub release",
-      "detail": "Resonance Forge published four approved music loops and all six listening-approved sound-effect families as one Godot 4 addon: 41 SFX event categories, 77 SFX WAVs, and 178 manifest-hashed payloads. The clean pushed source, local ZIP, checksum sidecar, package manifest, and GitHub asset digest were verified after upload. The package includes a warning-only internal similarity report with zero unavailable descriptors; it is not legal or copyright clearance. Waiting for game intake by release tag and hash.",
+      "detail": "Resonance Forge published four approved music loops and all six listening-approved sound-effect families as one Godot 4 addon: 41 SFX event categories, 77 SFX WAVs, and 178 manifest-hashed payloads. The clean pushed source, local ZIP, checksum sidecar, package manifest, and GitHub asset digest were verified after upload. The package includes a warning-only internal similarity report with zero unavailable descriptors; it is not legal or copyright clearance. Waiting for game intake by release tag and hash. || RESOLVED 2026-07-30 (~03:55): intaken by the game via the ruled tag + hash verification (sl-0022; game commits ec12575 + aaa7250). Real audio is live in the build; the designer's listening pass is the acceptance step.",
       "artifact": { "id": "resonance-forge-godot-audio-v1-23a6c659199b", "sourceCommit": "23a6c659199b15994f5bb14c955f29ffea8db22e", "hash": "zipSha256 f786126b9dd15159550783babd4ee2e7dd2eade80a9d9fb06b1759e1cbf8f8c1" },
       "refs": ["sl-0013", "docs/18-AGENT_SYNC_PROTOCOL.md", "https://github.com/tilok1234/music_soundeffects/releases/tag/resonance-forge-godot-audio-v1-23a6c659199b"],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0022",
+      "ts": "2026-07-30T03:55:00Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "resonance_forge",
+      "title": "Game took in the music + sound package — real audio is live in the build",
+      "detail": "Fetched the release by tag and verified everything before the repo was touched: the zip hash matches the release notes and the sidecar file, the source commit matches the tag, all 178 files inside match the package manifest's per-file hashes, and the seven sound files the game consumes were re-hashed byte-identical after copying. Wiring per the game's own design: the threat/feedback cues were swapped by data alone (chosen from the pack's own critical-threat set — the designer's listening pass judges the choices; any swap is a one-line edit), and the four approved music loops play as a queue in listed order, looping the whole set, ducking under danger sounds (both designer-ruled in-session tonight, along with the comments box that landed the same seam). The pack's bundled plugin/autoload stays OFF — the game consumes files, not middleware. The four master WAVs (581 MB total) are deliberately NOT in the game repo: the immutable hash-sealed release is the archive, and the repo ships small OGG conversions (21.5 MB) with recorded hashes. All fixed gates green after the import pass; game commits ec12575 + aaa7250 pushed. Open before this pack is ACCEPTED: the designer's listening pass (eyes-closed cue classes, in-play feel, music/duck taste) — the audio verdicts deferred on 2026-07-29 now have their real target.",
+      "artifact": { "id": "resonance-forge-godot-audio-v1-23a6c659199b", "sourceCommit": "23a6c659199b15994f5bb14c955f29ffea8db22e", "hash": "zipSha256 f786126b9dd15159550783babd4ee2e7dd2eade80a9d9fb06b1759e1cbf8f8c1" },
+      "refs": ["sl-0021", "sl-0013", "docs/18-AGENT_SYNC_PROTOCOL.md"],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0023",
+      "ts": "2026-07-30T02:52:59Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning asks the game to retire the stranger-tester items and adopt the Loop milestone (Gate 1 rewritten)",
+      "detail": "Designer ruling (in-session Tier 1, 2026-07-30 ~04:20; deck cards staged in tools/decision_deck_items_2026-07-30-gate1.json for the rested click): cold tester recruitment is RETIRED, not postponed — strangers try an early build once and never twice, so fresh eyes are spent on first touch, and failed recruitment reads as verdict when it is only silence. Human testing moves behind a written loop bar: an unguided complete run — town, rising danger with loot that matters, first boss or die trying, death that costs something real, immediate retry pull — fun for the designer daily for a week. Then 2-3 warm WATCHED first-touches: 'never judged solely by the builder' survives at the bar. The game tracker should stop owing recruitment scheduling and the tester-channel push and start owing loop assembly; the tester-build export pipeline itself STAYS (the clean zip is what makes warm testing frictionless). Ready-to-paste prompt handed to the designer; the game session appends its completion line referencing this ask and planning sweeps the resolution.",
+      "refs": [
+        "notes/sessions/2026-07-30.md",
+        "tools/decision_deck_items_2026-07-30-gate1.json",
+        "docs/18-AGENT_SYNC_PROTOCOL.md"
+      ],
+      "status": "open",
       "by": "agent"
     }
   ]

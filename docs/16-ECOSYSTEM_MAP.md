@@ -43,8 +43,12 @@ asks, never as local patches.
   `docs/07-PROTOTYPE_SPEC.md` (SPEC-A), `docs/08-DECISION_REGISTER.md`,
   `docs/15-WORLDFORGE_INTEGRATION_PLAN.md`, `notes/sessions/` (daily truth).
 - **State (2026-07-30):** M0–M7 closed; M8 engineering exhausted —
-  remaining M8 is designer-side (taste answers, copy pass, laptop pass,
-  itch publish, recruitment). Critical path is designer items + calendar.
+  remaining M8 is designer-side (taste answers, copy pass, laptop pass).
+  **Gate 1 REWRITTEN 2026-07-30** (session addendum 9 + the gate1 deck
+  payload): stranger recruitment + tester-channel push RETIRED; the
+  Loop milestone (unguided run — loot, stakes, retry pull; designer-fun
+  daily for a week) precedes 2–3 warm watched first-touches. Critical
+  path is the Loop + designer items.
 - **Doc debt:** cleared 2026-07-29 (03-HANDOFF + INTERVIEW_STATE truthed).
 
 ### 2. Wildshot-Adventures — the game (Godot 4.6.2, pinned)

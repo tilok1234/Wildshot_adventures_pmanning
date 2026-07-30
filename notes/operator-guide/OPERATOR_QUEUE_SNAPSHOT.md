@@ -73,9 +73,12 @@ world-shape session record:
 - Polished boss sheets from the assembler (3 animation corpora +
   Eclipse Unicorn await one-at-a-time approvals; the NEXT delivery
   must ride the new gate).
-- **Assembler publish gate re-ask (sl-0045, paste ready)** — the
-  sl-0014 gate never landed (audit + GitHub verified); its session
-  pushes assembler main's 2 unpushed commits first.
+- ~~Assembler publish gate~~ **DONE same night (sl-0046)**: the
+  sl-0014 work was recovered from the pre-protocol Codex worktree,
+  checkpointed (`salvage/19-boss-continuation` @ 0b35dce), and the
+  gate is live on main (bf6269c, harness green). Left for later:
+  the boss-lane fork triage (salvage bosses 10–19 vs main's
+  Unicorn lane — both safe on GitHub) and boss 20.
 - **Music seam merge → main** — now 15 commits (whole Phase-8 line,
   audit-verified pure superset); gates: npm test in apps/desktop +
   cargo test -p audio-core --lib. The Hell Engine listening verdict

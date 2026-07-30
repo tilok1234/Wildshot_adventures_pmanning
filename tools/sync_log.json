@@ -568,6 +568,23 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0037",
+      "ts": "2026-07-30T10:59:30Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "world_filler",
+      "title": "wf parity finding absorbed; sl-0026 goes live in the running wf session, bundled with behavior-71/72 walkability adoption SCOPING",
+      "detail": "The world_filler session went live on a different errand (designer asked it to view the imported b71) and returned a load-bearing parity finding, absorbed here: b71 fails wf walkability parity — pack flood 45184 vs format-1 ladder 45247, 306 cells differing in both directions (walkable-rock cells the ladder blocks, e.g. around x204,y13-x205,y16; new blocking vocab the ladder default-walks, e.g. x22,y2-x22,y12); the wf ladder and fixtures pin WF bb7832f (behavior 47) while the shipped world is behavior 71. FRAME CORRECTION riding along: the walkable-rock cells are NOT walkable cliff tops — sl-0036 proved all 1456 terraced peaks non-walkable game-side; they are the 2026-07-28 moss-carpet class (bare moss on level-0 apron rock walks). Tops+ramps stays designer-deferred; nothing shipped walkable tops. BUNDLED GO handed to the live session: (1) execute sl-0026 ruled segmentation fix now (its material-empiricism half is delivered by this very finding); (2) SCOPE — not adopt — behavior-71/72 walkability adoption: ladder vocab update, fixture regen story, coverage re-record, base candidate b72 (bbc10cdb, roads-as-bands successor; confirm identity from the release); (3) resolve the format question WITH EVIDENCE before anyone opens a WF ask — does the declared walkability format actually promise material-to-walkability derivability (then WF drifted under an unbumped format and planning opens the ask on that evidence), or is walkability.json the sole authority and the parity ladder wf-internal reconstruction to update (then no WF ask) — the sl-0028 diagnose-first precedent. Adoption itself is designer-ratified AFTER the scoping report, per wf fixture doctrine. Completion lines hands-free per the wf HANDOFF hook, referencing this ask and sl-0026. Paste handed to the designer.",
+      "refs": [
+        "sl-0026",
+        "sl-0030",
+        "sl-0035",
+        "sl-0036"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

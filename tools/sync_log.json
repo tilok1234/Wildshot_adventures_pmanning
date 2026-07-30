@@ -428,6 +428,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0029",
+      "ts": "2026-07-30T04:14:30Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "tileforge",
+      "title": "Planning asks TileForge to restore the removed road tiles as they were (designer ruling)",
+      "detail": "Designer ruling 2026-07-30: the road tiles were removed from TileForge over a width doubt (\"i just was thinking they wasnt wide enough\"), the designer tested worlds without them, and rules them RESTORED exactly as they were. Independent of the sl-0028 cliff diagnostic. Planning's read for context: WorldForge ships pinned package snapshots (dusk-ae1eecb-seed103991), so shipped worlds rendered roads throughout — the restoration re-aligns TileForge's current state with what the pins already provide; confirm and note whether any fresh package cut is needed downstream. Paste handed to the designer.",
+      "refs": [
+        "sl-0028",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

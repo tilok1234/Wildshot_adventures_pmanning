@@ -70,6 +70,31 @@ The importer is what makes directed worlds cheap and repeatable —
 direct in wf, import, play. That is its payoff; the test world is
 just the rehearsal stage.
 
+## The end-state this arc serves (designer, in-session 2026-07-30)
+
+Designer's words, near-verbatim: work toward "pretty pristine and
+customized world_filler generation specifically directed at this
+game — and when we got that going, go over and hand-carve it to a
+pristine feel-good shape." The production model in one line:
+**generation does the heavy lifting, hand-carving does the soul.**
+wf grows from a generic director into one tuned for Wildshot —
+its real enemy vocabulary, its danger-as-geography doctrine, its
+loop rules — producing worlds that arrive mostly right; the
+designer then carves the finishing layer by hand.
+
+Two standing notes on that path:
+
+- The hand-carve layer needs no new tool: wf's authoring loop
+  (lock / reroll / paint — designer shaping SURVIVES rerolls) plus
+  WorldForge terrain polish IS the carving kit, used at finishing
+  intensity.
+- "Customized at this game" starts DATA-FIRST: game-specific
+  recipes and a roster vocabulary speaking real enemy defs instead
+  of placeholders — no wf format changes; the step-1 rehearsal
+  mapping is the seed of exactly this vocabulary. Feature-level wf
+  customization only if the rehearsal shows data-first cannot
+  reach pristine — decided then, on evidence, not now.
+
 ## Gates in front of step 1 (live at writing)
 
 - sl-0037: wf segmentation fix (sl-0026, ruled) + behavior-71/72

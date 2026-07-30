@@ -513,7 +513,7 @@
       "repo": "worldforge",
       "target": "game",
       "title": "The Wildshot overworld re-shipped with the cliff fix - b71 release is live, ready for the re-issued intake",
-      "detail": "The sl-0032 GO executed: every street and approach carver now grades rock the way wilderness trails always did (gradeRockCell shared; six write sites covered), so no walkable band cell rides rock material and the cliff relief can never cross traversal. Regression target met and exceeded, measured on the shipped pack: ZERO band cells on rock material (b70 had 175), ZERO walkable cells at any terrace level >= 1 (b70 had 108+ lane cells climbing the snow city's own cliffs; the x200-237 cluster is clean), pinned by a suite test on the shipped world. Scope fence honored: carver grading only - tops stay blocked, ramps stay unplaced, the tops+ramps contract arc remains designer-pending. Walkability semantics unchanged (grading swaps the material under bands): world flood 45082 identical to b70, pack flood 45184 (+17 pack-level moss interaction). Fetch by tag wildshot-overworld-pack-dusk@b71, verify the zip sha, run the intake battery; lands beside b65 and b70, supersedes nothing - planning re-issues the game intake against these hashes. The sl-0027 intake notes still apply (first styled pack: path layer carries value 2 per behavior 57 - an importer that pins path values at 0..1 will refuse and should accept 0/1/2).",
+      "detail": "The sl-0032 GO executed: every street and approach carver now grades rock the way wilderness trails always did (gradeRockCell shared; six write sites covered), so no walkable band cell rides rock material and the cliff relief can never cross traversal. Regression target met and exceeded, measured on the shipped pack: ZERO band cells on rock material (b70 had 175), ZERO walkable cells at any terrace level >= 1 (b70 had 108+ lane cells climbing the snow city's own cliffs; the x200-237 cluster is clean), pinned by a suite test on the shipped world. Scope fence honored: carver grading only - tops stay blocked, ramps stay unplaced, the tops+ramps contract arc remains designer-pending. Walkability semantics unchanged (grading swaps the material under bands): world flood 45082 identical to b70, pack flood 45184 (+17 pack-level moss interaction). Fetch by tag wildshot-overworld-pack-dusk@b71, verify the zip sha, run the intake battery; lands beside b65 and b70, supersedes nothing - planning re-issues the game intake against these hashes. The sl-0027 intake notes still apply (first styled pack: path layer carries value 2 per behavior 57 - an importer that pins path values at 0..1 will refuse and should accept 0/1/2). || RESOLVED 2026-07-30: superseded as the intake target by b72 (sl-0035) BEFORE any intake ran — the designer kept iterating same-morning (country roads drawn as band lines after the TF road restoration made the band first-class again); b71 was never intaken and its release stays published as immutable archive. Planning verified b72 from here (GitHub digest = logged zipSha256, tag = sourceCommit bbc10cdb) and re-issued the game intake against b72; the b71 carver grading carries forward (restored ground grades rock per b71).",
       "artifact": {
         "id": "wildshot-overworld-pack-dusk@b71",
         "sourceCommit": "63632716a766ff85c1139ed0613a13007a779945",
@@ -521,6 +521,28 @@
         "manifestSha256": "5fd96677e988a95ac3374ae32527f3454f8b03b99a225084dde916847d675406"
       },
       "refs": [
+        "sl-0032",
+        "sl-0027"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0035",
+      "ts": "2026-07-30T10:39:59Z",
+      "type": "delivery",
+      "repo": "worldforge",
+      "target": "game",
+      "title": "Country roads now draw as band lines - b72 release supersedes the b71 intake target",
+      "detail": "Designer-approved same session ('cool importing it to game now'): with the road band restored first-class upstream, styled worlds' COUNTRY corridors now neck to centerline and draw as the road band over restored ground - the b56 city medicine applied outside the walls, so every road (city lane, country highway, wilderness trail) is a one-tile band line. Junction flanks that trails join become band cells (the first cut severed two landmarks; the compose gate caught it and the suite now asserts gate cleanliness); restored ground grades rock per b71; style-free worlds byte-identical (canonical 33783 verified). The designer is importing NOW: intake should target THIS tag (wildshot-overworld-pack-dusk@b72), not b71 - fetch by tag, verify the zip sha, run the battery. The sl-0027/sl-0034 notes still apply (first styled pack: path layer carries value 2, an importer pinning 0..1 must accept 0/1/2 - and b72 uses value 2 on country roads too, so the volume of 2s is much higher now). Walkable flood 45202, spawn 109,182.",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk@b72",
+        "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
+        "zipSha256": "6cd46753449cb033b37f2175b734fdd97372ff6fae9e1fe619cb051b1deb0c60",
+        "manifestSha256": "ecdde8dbb2827e173e45c4ed53cccbc594474ec702e6afc2565a038fee1ba6f8"
+      },
+      "refs": [
+        "sl-0034",
         "sl-0032",
         "sl-0027"
       ],

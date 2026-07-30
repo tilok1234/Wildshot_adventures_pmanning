@@ -1,7 +1,9 @@
 # Operator Queue Snapshot
 
-> **PERISHABLE — snapshot 2026-07-30 (evening refresh, post
-> world-shape session).** This page is the paper mirror of the
+> **PERISHABLE — snapshot 2026-07-31 (late-night refresh: b72 +
+> crosshair landed and swept; six-repo roadmap audit — full per-repo
+> menu at `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This page is
+> the paper mirror of the
 > Decision Deck and the open designer-owed items in the records. It
 > goes stale by design; **any session that changes the queue refreshes
 > this file + date and rebuilds the PDF** (`python3 build_pdfs.py`).
@@ -16,9 +18,10 @@ world-shape session record:
 
 ## T. Tonight (PC, post-shift — no feel verdicts, everything else legal)
 
-- **b72 game-side intake** (sl-0035 open — the "mid-intake" from this
-  morning). Game session, standard runbook. First move; unblocks the
-  rest.
+- **b72 game-side intake — DONE tonight** (sl-0043, game dde3101;
+  b71 retired in place, porosity 64). **Crosshair fix DONE too**
+  (sl-0044, game 0a7d69d) — the game is running windowed for your
+  size/contrast taste call (taste is legal tonight).
 - **b72 country-road look** — verdict pending WF-side; big-screen
   taste ruling.
 - **Deal the world-shape deck payload** — PASTE FROM AI →
@@ -39,8 +42,8 @@ world-shape session record:
   agent recommends logging 1.0 h).
 - **Onboarding copy, your voice** (constraints: no coaching, never ask
   for play duration).
-- *(Maybe phone:)* eight-holds round-12 docks verdict (WF-side);
-  tileforge REF3 v2 promotion call.
+- *(Maybe phone:)* eight-holds review, b71-grading (+6 moss re-rolls
+  vs round-18 state; WF-side); tileforge REF3 v3 promotion call.
 
 ## B. At the machine — any energy (tired counts; these are not feel)
 
@@ -62,10 +65,21 @@ world-shape session record:
   **judgeable** (starts the bar clock), judge every [T] rate.
 - **Gate-1 deck cards** staged for rested ratification (CORE-53/55
   rewrite).
+- **RF Hell Engine V2 exact-file listening verdict** — Phase 8's one
+  open box; decide before Celestial War starts.
 
 ## D. Waiting on others / later (nothing for you to do yet)
 
-- Polished boss sheets from the assembler (revalidate, then swap).
+- Polished boss sheets from the assembler (3 animation corpora +
+  Eclipse Unicorn await one-at-a-time approvals; the NEXT delivery
+  must ride the new gate).
+- **Assembler publish gate re-ask (sl-0045, paste ready)** — the
+  sl-0014 gate never landed (audit + GitHub verified); its session
+  pushes assembler main's 2 unpushed commits first.
+- **Music seam merge → main** — now 15 commits (whole Phase-8 line,
+  audit-verified pure superset); gates: npm test in apps/desktop +
+  cargo test -p audio-core --lib. The Hell Engine listening verdict
+  itself is rested-only (section C).
 - world_filler consumption — **note: today's world-shape session
   flags its timeline as likely moving UP** (zone authoring engine);
   sequencing ruling will come via the deck when concrete.

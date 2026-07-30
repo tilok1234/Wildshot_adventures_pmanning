@@ -276,6 +276,23 @@
         "tools/decision_deck_items_2026-07-30-gate1.json"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0025",
+      "ts": "2026-07-30T03:33:23Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning asks the game to build Loop v1 per the accepted spec (docs/19)",
+      "detail": "Phase 0 design conversation complete same night (session addenda 11/12): the loop spine is ruled — permadeath toggle at character creation with normal death = town respawn + gold percentage [T] + run-back (equipment never taken); loot = five tiers T1-T5 mainly from normal enemies plus boss-only boss-tied uniques (no pity, per docs/01); minimal XP/levels in; first boss = Bone Reliquary King (the proven Warden kit reskinned from the 13-boss pack, name mutable); danger gradient v1 hand-authored with world_filler data as guide. docs/19-LOOP_MILESTONE_SPEC.md is the consumable spec (talk-before-build satisfied); docs/08 CORE-53/55 amended, docs/12 superseded-bannered (sl-0024's flagged debt swept); four ratification cards staged in decision_deck_items_2026-07-30-loop.json. Implementation paste handed to the designer; the game session appends its completion line referencing this ask (compute the id inside the append) and planning sweeps the resolution.",
+      "refs": [
+        "docs/19-LOOP_MILESTONE_SPEC.md",
+        "sl-0023",
+        "sl-0024",
+        "tools/decision_deck_items_2026-07-30-loop.json"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

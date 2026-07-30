@@ -6,6 +6,16 @@
 **Authority:** This planning repo remains the design source of truth. The game repo consumes this plan; it never amends it. Conflicts resolve here, in the register (docs/08), never in game-repo commits.
 **Scope contract:** exactly the Phase A minimum content bill (docs/07 §Phase A) — one greybox arena, one class shell, three deterministic weapon frames, 5–6 enemy behaviors, one elite, one equipped-ability test slot, heavy debug tooling, **zero rewards** (CORE-55). Anything beyond this list is out of scope until Gate 1 passes.
 
+> **GATE 1 REWRITTEN 2026-07-30 — supersession notice.** This plan's
+> tester/recruitment prose (the two recruited Gate-1 cycles, the
+> vacation tester window, §4 M8 recruitment items, the zero-reward
+> law) is SUPERSEDED: cold recruitment is retired with cause, the
+> LOOP BAR precedes human contact, warm watched first-touches replace
+> recruited cohorts, and the zero-reward law is lifted for loop work.
+> The M0–M8 execution record below stands as history. Forward scope:
+> `docs/19-LOOP_MILESTONE_SPEC.md` (+ docs/08 CORE-53/55 amended
+> rows; session 2026-07-30 addenda 9/11/12; deck ratification staged).
+
 ---
 
 ## 1. Purpose

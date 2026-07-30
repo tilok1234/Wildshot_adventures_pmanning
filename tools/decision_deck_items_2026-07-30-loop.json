@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Death in normal mode: run back + gold cost",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "the loop's stakes without forcing hardcore on anyone",
+    "detail": "Already ruled by you in the loop design conversation (2026-07-30) - this click is the rested ratification. Dying WITHOUT permadeath on: you respawn in town, lose a slice of your gold (exact percentage tuned later), and the walk back to where you were is part of the price - dying deep costs real time. Your equipment is never taken in normal mode. Permadeath stays a choice made when creating a character: people who pick it want that experience, people who skip it get real-but-fair stakes. Hardcore death = the character is gone.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "The loot frame: five tiers + boss-tied uniques",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "loot that moves you forward AND gives you something to chase",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. Equipment comes in five tiers, T1 to T5, dropping mainly from normal enemies (bosses can drop it too). Unique items only come from bosses; each unique is tied to its specific boss so you can grind AIMED at the item you want, and one boss can hold several uniques in his table. Rates demand real effort but stay reachable; no pity system - the breadth of other rewards is the consolation on dry streaks, exactly as the design document already binds. Tiers are how you progress through the world; uniques are the goal you chase.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "Levels and XP are part of the loop",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "the zero-to-hero feel arriving with the first loop",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. The plan always had levels and XP, so the first loop includes them in minimal form: enemies grant XP, levels arrive on a simple curve, stats grow in small honest steps. Class skill trees wait for later - this is just the feeling of getting stronger while you hunt gear.",
+    "options": ["Ratify", "Gear-only instead"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "First boss: Bone Reliquary King wearing the proven kit",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "a real boss at the loop's edge without weeks of new boss work",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. The three-phase elite that is already built, tuned, and bot-proven dodgeable gets the Bone Reliquary King's look from your 13-boss pack (the name can change down the road). He guards the far edge of the danger gradient and carries the loop's first unique drop, per your named-challenge rule. A brand-new bespoke boss kit comes later - this gets a real boss into the loop now.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  }
+]

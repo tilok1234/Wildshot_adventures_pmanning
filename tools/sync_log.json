@@ -386,12 +386,12 @@
       "repo": "planning",
       "target": "world_filler",
       "title": "Planning asks world_filler to make region carving walkability-aware (cliff tops are walked by design)",
-      "detail": "Designer ruling 2026-07-30: the walkable cliff-top tiles are MEANT to be walked — ramps exist to climb them — and a cliff-heavy overworld is planned as the first loop test world (scale-sense goal). The recorded §1e gap goes from conditional to GO: region segmentation treats void as void-material AND unwalkable (walkable rock/ford cells get regions; unwalkable cliff edges keep separating — that behavior is correct and desirable). ANALYSIS_VERSION bump per repo doctrine; the existing route-crossing ford cells are the ready-made regression case. Same session: empirically record what material name the walkable cliff tiles carry in a current WorldForge export. The upstream adoption (fixture regen + coverage re-record on the new WF base, the documented explicit decision) happens when the test world's base settles — the wf agent sequences the two per its own §1e coordination note. Paste handed to the designer.",
+      "detail": "Designer ruling 2026-07-30: the walkable cliff-top tiles are MEANT to be walked — ramps exist to climb them — and a cliff-heavy overworld is planned as the first loop test world (scale-sense goal). The recorded §1e gap goes from conditional to GO: region segmentation treats void as void-material AND unwalkable (walkable rock/ford cells get regions; unwalkable cliff edges keep separating — that behavior is correct and desirable). ANALYSIS_VERSION bump per repo doctrine; the existing route-crossing ford cells are the ready-made regression case. Same session: empirically record what material name the walkable cliff tiles carry in a current WorldForge export. The upstream adoption (fixture regen + coverage re-record on the new WF base, the documented explicit decision) happens when the test world's base settles — the wf agent sequences the two per its own §1e coordination note. Paste handed to the designer. || RESOLVED 2026-07-30 (wf session via sl-0039; world_filler main b2d0755, 180 green, real Godot lane): segmentation is walkability-aware in both seed scan and flood join; fords/wades/piers form regions and enter adjacency; the material empiricism arrived via the b71 parity accounting (all 108 walkable-rock cells are moss-on-apron; ladder keys on the moss layer). Upstream adoption scoped separately in sl-0039 and awaits designer ratification.",
       "refs": [
         "notes/sessions/2026-07-30.md",
         "docs/19-LOOP_MILESTONE_SPEC.md"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -576,14 +576,14 @@
       "repo": "planning",
       "target": "world_filler",
       "title": "wf parity finding absorbed; sl-0026 goes live in the running wf session, bundled with behavior-71/72 walkability adoption SCOPING",
-      "detail": "The world_filler session went live on a different errand (designer asked it to view the imported b71) and returned a load-bearing parity finding, absorbed here: b71 fails wf walkability parity — pack flood 45184 vs format-1 ladder 45247, 306 cells differing in both directions (walkable-rock cells the ladder blocks, e.g. around x204,y13-x205,y16; new blocking vocab the ladder default-walks, e.g. x22,y2-x22,y12); the wf ladder and fixtures pin WF bb7832f (behavior 47) while the shipped world is behavior 71. FRAME CORRECTION riding along: the walkable-rock cells are NOT walkable cliff tops — sl-0036 proved all 1456 terraced peaks non-walkable game-side; they are the 2026-07-28 moss-carpet class (bare moss on level-0 apron rock walks). Tops+ramps stays designer-deferred; nothing shipped walkable tops. BUNDLED GO handed to the live session: (1) execute sl-0026 ruled segmentation fix now (its material-empiricism half is delivered by this very finding); (2) SCOPE — not adopt — behavior-71/72 walkability adoption: ladder vocab update, fixture regen story, coverage re-record, base candidate b72 (bbc10cdb, roads-as-bands successor; confirm identity from the release); (3) resolve the format question WITH EVIDENCE before anyone opens a WF ask — does the declared walkability format actually promise material-to-walkability derivability (then WF drifted under an unbumped format and planning opens the ask on that evidence), or is walkability.json the sole authority and the parity ladder wf-internal reconstruction to update (then no WF ask) — the sl-0028 diagnose-first precedent. Adoption itself is designer-ratified AFTER the scoping report, per wf fixture doctrine. Completion lines hands-free per the wf HANDOFF hook, referencing this ask and sl-0026. Paste handed to the designer.",
+      "detail": "The world_filler session went live on a different errand (designer asked it to view the imported b71) and returned a load-bearing parity finding, absorbed here: b71 fails wf walkability parity — pack flood 45184 vs format-1 ladder 45247, 306 cells differing in both directions (walkable-rock cells the ladder blocks, e.g. around x204,y13-x205,y16; new blocking vocab the ladder default-walks, e.g. x22,y2-x22,y12); the wf ladder and fixtures pin WF bb7832f (behavior 47) while the shipped world is behavior 71. FRAME CORRECTION riding along: the walkable-rock cells are NOT walkable cliff tops — sl-0036 proved all 1456 terraced peaks non-walkable game-side; they are the 2026-07-28 moss-carpet class (bare moss on level-0 apron rock walks). Tops+ramps stays designer-deferred; nothing shipped walkable tops. BUNDLED GO handed to the live session: (1) execute sl-0026 ruled segmentation fix now (its material-empiricism half is delivered by this very finding); (2) SCOPE — not adopt — behavior-71/72 walkability adoption: ladder vocab update, fixture regen story, coverage re-record, base candidate b72 (bbc10cdb, roads-as-bands successor; confirm identity from the release); (3) resolve the format question WITH EVIDENCE before anyone opens a WF ask — does the declared walkability format actually promise material-to-walkability derivability (then WF drifted under an unbumped format and planning opens the ask on that evidence), or is walkability.json the sole authority and the parity ladder wf-internal reconstruction to update (then no WF ask) — the sl-0028 diagnose-first precedent. Adoption itself is designer-ratified AFTER the scoping report, per wf fixture doctrine. Completion lines hands-free per the wf HANDOFF hook, referencing this ask and sl-0026. Paste handed to the designer. || RESOLVED 2026-07-30 (wf session, sl-0039; world_filler main b2d0755 verified on GitHub, 180 green incl. the real Godot lane): all three deliverables landed. sl-0026 executed — void = void-material AND unwalkable in both seed scan and flood join; fords/wades/piers form regions (fen plan 132 to 147, 15 walkable water); ANALYSIS_VERSION 3; fen-hollow dungeon-binding consequence honestly re-recorded, binding tests moved to dust-hollow. Parity FULLY accounted (306 cells): 172 = 14 new blocking props; 134 = untranscribed WYSIWYG-era walkability — 108/108 walkable-rock are moss-on-apron (sl-0036 frame CONFIRMED, walkable-tops read retracted; ladder class keys on the moss layer, no elevation predicate), +10 swamp, +20 structure pass. Format question: NO WorldForge ask — GAME_INTEGRATION_PLAN.md section 3.3 at BOTH release commits makes walkability.json the consumer runtime authority; walkabilityFormat 1 legitimately governs shape/encoding only; the divergence was wf-internal b47-era transcription age. b72 CONFIRMED base candidate. Adoption scoped NOT executed; ratification + canonical-successor choice (import released b65 vs regen) now sit with the designer.",
       "refs": [
         "sl-0026",
         "sl-0030",
         "sl-0035",
         "sl-0036"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -599,6 +599,28 @@
         "sl-0037",
         "sl-0035"
       ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0039",
+      "ts": "2026-07-30T11:28:31Z",
+      "type": "ask_resolved",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "World filler now maps walkable water crossings; every b71 map disagreement is explained; the b72 upgrade is scoped and waits for your go",
+      "detail": "sl-0026 EXECUTED on world_filler main (commit b2d0755, 180 tests green, real Godot lane): region analysis now includes walkable ground on water/rock -- fords, wadeable shallows, piers form regions and enter adjacency (void = void-material AND unwalkable). Fixture consequence reviewed and re-recorded: fen-hollow's dungeon binding dies to zero-budget regions (named per anchor); binding-dependent tests moved to dust-hollow. Canonical-world impact unverified (needs the pinned-base regen) -- flagged, not design-approved. b71 release verified end-to-end (zip+manifest+8 file hashes, GitHub digest agrees); parity divergence FULLY accounted (306 cells): 172 = 14 new blocking props (lamp, table_chairs, barrels, topiary, laundry_line, noticeboard, bench, baskets, workbench, anvil, sundial, fishingboat, bollard, cookfire); 134 = WYSIWYG-era walkability we do not transcribe yet -- ALL walkable-rock disagreements are moss-on-apron cells (108/108; sl-0036 frame CONFIRMED, refined: level is terrace-relative, raw elevation 599-662, so the ladder class keys on moss-on-rock, no elevation predicate), plus 10 walkable swamp and 20 structure pass cells. Format question resolved WITH EVIDENCE, NO WorldForge ask: GAME_INTEGRATION_PLAN.md section 3.3 (verified present at both release commits 63632716 and bbc10cdb) makes walkability.json the consumer's runtime authority; grid semantics ride generatorBehaviorVersion plus recorded rulings (WYSIWYG 2026-07-29, moss-walks 2026-07-28); walkabilityFormat 1 legitimately governs shape/encoding only. b72 CONFIRMED as base candidate (bbc10cdb093bab2bff34188eac05cd5853989fe7, behavior 72, flood 45202, same spawn/tileforge package). Adoption scoped, NOT executed: transcribe b72 ladder tables (blocking props, moss-on-rock walk rung, structure stamps), regen the three 64x64 fixtures + provenance at b72, re-record coverage + golden, decide the canonical successor (released small-cold-coastal-pack-dusk@b65 exists: import vs regen), then the dusk overworld enters world_filler's working set and content over it unblocks. Designer ratifies adoption on this report (sl-0037).",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk@b71",
+        "sourceCommit": "63632716a766ff85c1139ed0613a13007a779945",
+        "hash": "dbfd9ac43aefb151aa6a3f9543b52352895a1b9b04b9166c6a2f2a36e337658d"
+      },
+      "refs": [
+        "sl-0026",
+        "sl-0037",
+        "sl-0035",
+        "world_filler@b2d0755"
+      ],
+      "status": "resolved",
       "by": "agent"
     }
   ]

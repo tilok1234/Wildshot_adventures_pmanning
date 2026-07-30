@@ -82,18 +82,33 @@ its real enemy vocabulary, its danger-as-geography doctrine, its
 loop rules — producing worlds that arrive mostly right; the
 designer then carves the finishing layer by hand.
 
-Two standing notes on that path:
+Three standing notes on that path:
 
-- The hand-carve layer needs no new tool: wf's authoring loop
-  (lock / reroll / paint — designer shaping SURVIVES rerolls) plus
-  WorldForge terrain polish IS the carving kit, used at finishing
-  intensity.
+- **The hand-carve layer is above all AUTHORIAL, not geometric**
+  (designer clarification, same conversation): placing NAMED
+  bosses within the lore and the small storytelling details no
+  generator can invent. Generation proposes scored sites — "a
+  boss-shaped challenge here, tier 4, guarding the east approach";
+  the designer gives the site identity and meaning — WHO lives
+  there and WHY. This is doctrine, not garnish: the locked loop
+  frame rules that specials/uniques come ONLY from authored named
+  challenges (docs/19), so the lore layer is where the loot
+  economy's top end lives — every named boss placed in the lore is
+  a unique drop entering the game (the Bone Reliquary King →
+  Reliquary Coil pattern, across the 13 and beyond).
+- The mechanical carve kit for the rest already exists: wf's
+  authoring loop (lock / reroll / paint — designer shaping
+  SURVIVES rerolls) plus WorldForge terrain polish, used at
+  finishing intensity.
 - "Customized at this game" starts DATA-FIRST: game-specific
   recipes and a roster vocabulary speaking real enemy defs instead
   of placeholders — no wf format changes; the step-1 rehearsal
-  mapping is the seed of exactly this vocabulary. Feature-level wf
-  customization only if the rehearsal shows data-first cannot
-  reach pristine — decided then, on evidence, not now.
+  mapping is the seed of exactly this vocabulary. And that
+  vocabulary should carry IDENTITY, not just stats — the mapping
+  layer is where "boss site" becomes a named boss with lore.
+  Feature-level wf customization only if the rehearsal shows
+  data-first cannot reach pristine — decided then, on evidence,
+  not now.
 
 ## Gates in front of step 1 (live at writing)
 

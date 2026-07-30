@@ -534,7 +534,7 @@
       "repo": "worldforge",
       "target": "game",
       "title": "Country roads now draw as band lines - b72 release supersedes the b71 intake target",
-      "detail": "Designer-approved same session ('cool importing it to game now'): with the road band restored first-class upstream, styled worlds' COUNTRY corridors now neck to centerline and draw as the road band over restored ground - the b56 city medicine applied outside the walls, so every road (city lane, country highway, wilderness trail) is a one-tile band line. Junction flanks that trails join become band cells (the first cut severed two landmarks; the compose gate caught it and the suite now asserts gate cleanliness); restored ground grades rock per b71; style-free worlds byte-identical (canonical 33783 verified). The designer is importing NOW: intake should target THIS tag (wildshot-overworld-pack-dusk@b72), not b71 - fetch by tag, verify the zip sha, run the battery. The sl-0027/sl-0034 notes still apply (first styled pack: path layer carries value 2, an importer pinning 0..1 must accept 0/1/2 - and b72 uses value 2 on country roads too, so the volume of 2s is much higher now). Walkable flood 45202, spawn 109,182.",
+      "detail": "Designer-approved same session ('cool importing it to game now'): with the road band restored first-class upstream, styled worlds' COUNTRY corridors now neck to centerline and draw as the road band over restored ground - the b56 city medicine applied outside the walls, so every road (city lane, country highway, wilderness trail) is a one-tile band line. Junction flanks that trails join become band cells (the first cut severed two landmarks; the compose gate caught it and the suite now asserts gate cleanliness); restored ground grades rock per b71; style-free worlds byte-identical (canonical 33783 verified). The designer is importing NOW: intake should target THIS tag (wildshot-overworld-pack-dusk@b72), not b71 - fetch by tag, verify the zip sha, run the battery. The sl-0027/sl-0034 notes still apply (first styled pack: path layer carries value 2, an importer pinning 0..1 must accept 0/1/2 - and b72 uses value 2 on country roads too, so the volume of 2s is much higher now). Walkable flood 45202, spawn 109,182. || RESOLVED 2026-07-30T22:04Z: intaken as sl-0043 — game commit dde3101 verified on GitHub (b72 supersedes b71 in place; b71 pin retired by the game's per-pack call, porosity re-pinned 64 with all four new route cells accounted; full pretester ALL GREEN). Planning sweep.",
       "artifact": {
         "id": "wildshot-overworld-pack-dusk@b72",
         "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
@@ -546,7 +546,7 @@
         "sl-0032",
         "sl-0027"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -673,6 +673,41 @@
         "notes/sessions/2026-07-30.md"
       ],
       "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0043",
+      "ts": "2026-07-30T21:56:25Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "worldforge",
+      "title": "Game took in the b72 overworld - every road now draws as a thin band line; replaces the b71 world in place",
+      "detail": "Roads-only delta executed per the re-issued intake (delivery sl-0035; supersedes the b71 state intaken as sl-0036). Verified before the drop, all locally: GitHub asset digest = logged zipSha256, local zip re-hash identical, manifest seal, all 8 per-file hashes, tag target = logged sourceCommit (the manifest carries no sourceCommit field - same as b71, the check is tag-vs-log); staged git blobs re-hashed byte-true after the add. normalized-recipe.json is byte-identical to b71 (same recipe, newer generator behavior - the roads delta is generator-side). The styled-pack 0/1/2 contract accepted at b71 holds with ZERO code change at much higher band volume: path census value-2 1784 -> 2166 (+382, country roads carry the band now), value-1 trails 330 -> 361. Addon validation green: flood recompute 45202 == manifest (an independent Python BFS also lands 45202); spawn 109,182 unchanged (harbor capital). PER-PACK CALL RECORDED: b72 replaces b71 IN PLACE at the same path, so b71's lock pin RETIRES with this intake - the lock records what the consumer holds, and the game no longer holds b71 blobs; b71's release stays published as immutable archive. POROSITY RE-PINNED 60 -> 64 DELIBERATELY: exactly four new structures-on-walkable cells vs b71's set (zero removed), forming two two-wide runs under landmark footprints - structure.ruin at (182-183,190) and structure.stone_circle at (249-250,116), both on-flood, no road band beneath - reading as the delivery's own severed-landmarks fix (access restored through the outlines), WYSIWYG-legal; b65 keeps 44. CLIFF LINE RE-CONFIRMED game-side: the adapter-v4 terrace replication was re-derived from WF resolve.ts AT the source commit and CALIBRATED on the b71 blobs first (reproduced the recorded 1456 terraced-peak cells exactly) before ruling on b72 - the b72 relief is IDENTICAL (1456 cells, levels 169/820/467), zero path cells of any value on rock, zero walkable at any terrace level >= 1; the carver grading carries forward exactly as delivered. Boot ERROR-free; determinism smoke hashes unchanged; FULL pretester gate ALL GREEN (19.4 min: 17 fixed steps + 28-row battery byte-identical including world_walk - proving b65's routing untouched - + export step + lockdown probe). Game commit dde3101 pushed. Lock game pin b71 -> b72. Mechanical intake only per the ask - no feel or acceptance verdicts (designer post-shift); nothing routes to the overworld yet (the loop-routing arc stays the next natural engineering step). Planning sweeps sl-0035's resolution flip.",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk@b72",
+        "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
+        "hash": "zipSha256 6cd46753449cb033b37f2175b734fdd97372ff6fae9e1fe619cb051b1deb0c60; manifestSha256 ecdde8dbb2827e173e45c4ed53cccbc594474ec702e6afc2565a038fee1ba6f8"
+      },
+      "refs": [
+        "sl-0035",
+        "sl-0036",
+        "docs/18-AGENT_SYNC_PROTOCOL.md"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0044",
+      "ts": "2026-07-30T22:02:28Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "The crosshair now grows with the game picture - on screen for the designer's size and look call",
+      "detail": "Ask sl-0042 executed at the load site as leaned: game/main.gd scales the kit cursor texture nearest-neighbor by the live integer content scale (floor-min of window size over the 640x360 viewport base per axis, min 1 - the exact factor the integer viewport stretch applies to every sprite), re-centers the kit hotspot (5,5 to the scaled pixel center), and re-applies on window size_changed (fullscreen toggle and resize tracked; no-op when the factor is unchanged) - so the crosshair now reads at 2x windowed and 3x at 1080p fullscreen instead of an 11-physical-pixel speck. Pack assets untouched (manifest-hashed by contract); if CONTRAST still fails after sizing, that is an upstream kit ask, per the ask's own fence. Render-only: aim math reads the viewport mouse position; zero aim-mechanics or hurtbox change; determinism smoke hashes unchanged. Gates: gdformat clean, lockdown lint PASS (the main.gd one-flag pins hold), boot ERROR-free windowed AND headless. Game commit 0a7d69d pushed. The game is RUNNING windowed and fronted on the designer's machine for the taste-rule (final size/contrast is theirs; a taste ruling is fine post-shift, no feel verdicts logged tonight). Planning sweeps sl-0042's status flip.",
+      "refs": [
+        "sl-0042"
+      ],
+      "status": "resolved",
       "by": "agent"
     }
   ]

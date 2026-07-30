@@ -413,6 +413,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0028",
+      "ts": "2026-07-30T04:09:04Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "Planning asks WorldForge to diagnose the two cliff issues before anyone fixes anything (walkability provenance + roads)",
+      "detail": "Designer self-flag 2026-07-30: they recall TELLING a WF session that cliffs are walkable, road work was built on that assertion, and a road issue just surfaced. Diagnostic-first ask: (1) report how high-cliff walkability is actually derived (TileForge tile properties vs session-declared override) and what the b70 export's grid says at plateau tops / cliff edges / ramps (design intent: edges unwalkable, tops walkable, ramps the access); (2) report how the road router treats cliff terrain and what the designer's issue looks like from WF's side; (3) verdict which fixes are WF-lane (derivation/router) vs TileForge-lane (tile properties) - planning opens the TF ask on that evidence - and whether wildshot-overworld re-exports (b71). The game intake of b70 (sl-0027) WAITS for this verdict to avoid double battery/pin work. Paste handed to the designer.",
+      "refs": [
+        "sl-0027",
+        "notes/sessions/2026-07-30.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

@@ -192,7 +192,7 @@
       "type": "note",
       "repo": "assembler",
       "title": "Assembler now blocks boss packs from uncommitted or unpushed code and publishes successful ZIPs as GitHub releases",
-      "detail": "The 13-boss exporter refuses dirty or unpushed GitHub source before asset writes, records the exact source commit plus SHA-256 content and archive hashes, protects the immutable artifact tag, and publishes the ZIP plus external manifest under established-boss-pack-13-v1 with source and hash notes. Focused publisher checks and the real dirty-tree refusal passed; no release or delivery is claimed because the current 19-boss review worktree is intentionally dirty and uncommitted.",
+      "detail": "The 13-boss exporter refuses dirty or unpushed GitHub source before asset writes, records the exact source commit plus SHA-256 content and archive hashes, protects the immutable artifact tag, and publishes the ZIP plus external manifest under established-boss-pack-13-v1 with source and hash notes. Focused publisher checks and the real dirty-tree refusal passed; no release or delivery is claimed because the current 19-boss review worktree is intentionally dirty and uncommitted. || CORRECTION 2026-07-30T22:06Z (six-repo roadmap audit + GitHub verification): the gate/publisher CODE this line records as implemented and exercised was never committed — exhaustive search of assembler main's full history and both checkouts finds no publisher script and no publish-gate/SHA-256/immutable-artifact vocabulary anywhere; GitHub shows zero releases, no established-boss-pack-13-v1 tag, and only main on the remote. The no-release half was honestly disclosed at the time; the implementation itself evidently never left the Codex sandbox. The assembler therefore has NO publish gate — Addendum 6's rollout-complete count overstates by this one producer. Re-ask opened (see the ask referencing this line).",
       "refs": [
         "docs/18-AGENT_SYNC_PROTOCOL.md"
       ],
@@ -667,12 +667,12 @@
       "repo": "planning",
       "target": "game",
       "title": "Planning asks the game to make the aim crosshair readable — the hardware cursor never scales with the viewport (designer's standing complaint)",
-      "detail": "Designer flag raised at the evening seam, standing 'forever': the aim crosshair is really hard to see. Planning grounding before the ask: game/main.gd:876 sets uikit cursor_crosshair.png (11x11 per the docs/13 spec row, hotspot 5,5) via Input.set_custom_mouse_cursor — a HARDWARE cursor, drawn at native pixel size in window space, so it never inherits viewport scaling: every sprite scales up on screen while the crosshair stays an ~11-physical-pixel speck, worse at higher display resolutions. This is a readability defect against the kit's own intent (docs/13: 'light core + 1 px dark rim so it survives every floor'), not taste drift. Requirement, not implementation: the crosshair must read at a glance at real gameplay scale, against every palette including dusk, windowed and fullscreen. Recommended lean: fix at the load site in code — scale the cursor texture nearest-neighbor by the actual window content scale (hotspot scaled to match, re-applied if the window scale changes); do NOT hand-edit the uikit pack assets (manifest-hashed — art/contrast changes that sizing cannot fix are an upstream kit cut, recorded as their own ask). Render-only: zero aim-mechanics or hurtbox change. Boot it for the designer and let them taste-rule final size/contrast on screen (a taste ruling is fine post-shift; no feel verdicts tonight). Log completion hands-free referencing this ask; planning sweeps.",
+      "detail": "Designer flag raised at the evening seam, standing 'forever': the aim crosshair is really hard to see. Planning grounding before the ask: game/main.gd:876 sets uikit cursor_crosshair.png (11x11 per the docs/13 spec row, hotspot 5,5) via Input.set_custom_mouse_cursor — a HARDWARE cursor, drawn at native pixel size in window space, so it never inherits viewport scaling: every sprite scales up on screen while the crosshair stays an ~11-physical-pixel speck, worse at higher display resolutions. This is a readability defect against the kit's own intent (docs/13: 'light core + 1 px dark rim so it survives every floor'), not taste drift. Requirement, not implementation: the crosshair must read at a glance at real gameplay scale, against every palette including dusk, windowed and fullscreen. Recommended lean: fix at the load site in code — scale the cursor texture nearest-neighbor by the actual window content scale (hotspot scaled to match, re-applied if the window scale changes); do NOT hand-edit the uikit pack assets (manifest-hashed — art/contrast changes that sizing cannot fix are an upstream kit cut, recorded as their own ask). Render-only: zero aim-mechanics or hurtbox change. Boot it for the designer and let them taste-rule final size/contrast on screen (a taste ruling is fine post-shift; no feel verdicts tonight). Log completion hands-free referencing this ask; planning sweeps. || RESOLVED 2026-07-30T22:10Z: executed as sl-0044 — game commit 0a7d69d verified on GitHub (integer content-scale cursor, hotspot re-centered, resize-tracked, render-only, gates green); designer taste-rule on screen now.",
       "refs": [
         "docs/13-UI_STYLE_KIT_SPEC.md",
         "notes/sessions/2026-07-30.md"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -708,6 +708,22 @@
         "sl-0042"
       ],
       "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0045",
+      "ts": "2026-07-30T22:11:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "assembler",
+      "title": "Planning re-asks the assembler for its publish gate — the sl-0014 implementation was never committed; the repo has no gate, no releases, no artifact tag",
+      "detail": "Found by the 2026-07-30/31 six-repo roadmap audit and verified against GitHub: assembler main's full history and both checkouts contain no publisher script and no publish-gate / SHA-256 / immutable-artifact vocabulary; GitHub shows zero releases, no established-boss-pack-13-v1 tag, and only main on the remote. sl-0014 recorded the gate implemented and exercised (honestly claiming no release) — the work evidently ran and died inside the Codex sandbox without ever being committed. CORRECTION appended to sl-0014; doc 18 rollout truth: four of five producers gated (tileforge, worldforge, world_filler, resonance_forge), assembler NOT. Ask, per the ratified doc 18 section 4 letter: implement the publish gate for real — refuse dirty or unpushed source before any asset write, record sourceCommit plus SHA-256 content and archive hashes in the manifest, publish successful packs as immutable GitHub releases tagged <artifact>@<commit>; exercise a real refusal and a real clean pass; the NEXT boss-sheet delivery to the game must ride this gate (no pending delivery blocks today — the 13-boss pack predates the gate era and is grandfathered like every pre-gate pack). Session-start note for whoever takes this: assembler main sits 2 commits ahead of origin UNPUSHED (fe831a2 + 8bb18a6, boss direction authoring checkpoints from 2026-07-30 ~14:05 local) — push mainline first; unpushed mainline is the exact pattern the gate exists to catch. Log the completion hands-free referencing this ask; planning sweeps on landing.",
+      "refs": [
+        "sl-0014",
+        "docs/18-AGENT_SYNC_PROTOCOL.md",
+        "notes/ROADMAP_STATE_AUDIT_2026-07-31.md"
+      ],
+      "status": "open",
       "by": "agent"
     }
   ]

@@ -46,7 +46,8 @@ seam, all verified and pushed:
   contracts; sl-0059).
 - Opens: sl-0060 (the b75 game intake — paste with the
   designer), sl-0058 (WF re-pin to tileforge 9b8b2a2 —
-  UNBLOCKED now the round settled), sl-0041 (director loop;
+  designer-sequenced: fires on/after
+  the b75 walk verdict), sl-0041 (director loop;
   world_filler now two world versions behind), standing
   sl-0003/sl-0005. Resolved tonight: sl-0053 + sl-0057 (the
   street round, executed as b75), sl-0054 (road arc closed),

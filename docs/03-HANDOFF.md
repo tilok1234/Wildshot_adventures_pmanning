@@ -49,11 +49,17 @@ round). Board, all verified and pushed:
   — sl-0064 RESOLVED; the sl-0052/sl-0053 street-look arc
   closes on screen. Deeper-walk findings, if any, open their
   own items.**
-- **WF props round IN FLIGHT (sl-0063, W-13):** carpet / canopy
-  / solid conversion, DO NOT thin — the designer is running it
-  in WF now; the delivery becomes the game's NEXT intake
-  (b77-class, expected flood/walkability changes + the
-  props-overhang render-order flag). Planning sweeps.
+- **Props conversion SHIPPED — b77 released + verified
+  (sl-0066; sl-0063 resolved, executed in ~39 min):** carpet /
+  canopy / solid over all 84 species, density byte-identical,
+  +1328 world cells opened (903 converted debris + 425 unlocked
+  sealed pockets — the "getting blocked" cells). **THE ONE
+  THING TO SEND NEXT: the b77 GAME INTAKE paste** (verbatim in
+  `notes/sessions/2026-07-31.md`; sl-0065 dev map rides the
+  same session). Same tileforge pin, path 0..3 unchanged; the
+  one game-side check: props-overhang renders ABOVE the player.
+  The designer's navigation walk on intaken b77 = the sl-0063
+  acceptance test.
 - **Standing rule (designer, today): NO DIAGONAL ROADS for the
   moment** — road lanes orthogonal-only everywhere, direction
   changes are L-step pairs (docs/08 Tooling contracts;
@@ -82,12 +88,13 @@ round). Board, all verified and pushed:
   system stays Part II per doc 13 §3 — fog/discovery/markers =
   its own designed round (knowledge pillar interacts; icon plan
   category 11).
-- Opens: **sl-0063 (WF props conversion, in flight)**,
-  **sl-0065 (dev map — game paste with the designer)**, sl-0041
-  (director loop; world_filler still on b72 — b74/b76 behind),
-  standing sl-0003/sl-0005. Resolved today: sl-0053–sl-0058,
-  sl-0060 (superseded pre-intake), sl-0061 (intaken), sl-0064
-  (walked + look approved).
+- Opens: **sl-0066 (b77 delivery — SEND THE INTAKE PASTE)**,
+  **sl-0065 (dev map — rides the same game session)**, sl-0041
+  (director loop; world_filler still on b72 — b74/b76/b77
+  behind), standing sl-0003/sl-0005. Resolved today:
+  sl-0053–sl-0058, sl-0060 (superseded pre-intake), sl-0061
+  (intaken), sl-0063 (b77 shipped), sl-0064 (walked + look
+  approved).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "status": "ACTIVE — doc 18 ACCEPTED 2026-07-30 (Decision Deck register). Written during intakes and mainline rulings per doc 18 §10; any mismatch between this file and reality is an automatic incident.",
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "repos": {
     "planning": {
       "github": "tilok1234/Wildshot_adventures_pmanning",
@@ -64,11 +64,11 @@
     {
       "consumer": "game",
       "producer": "worldforge",
-      "artifact": "wildshot-overworld-pack-dusk@b72 (behavior 72, flood 45202, porosity pin 64)",
+      "artifact": "wildshot-overworld-pack-dusk@b74 (behavior 74, flood 45137, porosity pin 60)",
       "path": "assets/worldforge-packs/wildshot-overworld-pack-dusk/",
-      "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
-      "intake": "2026-07-30",
-      "note": "Roads-only delta (delivery sl-0035): every road — city lane, country highway, wilderness trail — is a one-tile band line; path census value-2 1784→2166, trails 330→361; the 0/1/2 contract accepted at b71 holds with zero code change (normalized-recipe.json byte-identical — the delta is generator-side). IN-PLACE SUPERSEDE of b71 at this same path — b71's pin RETIRED by the game's per-pack call (the lock records what the consumer holds; b71's release stays published as immutable archive). Release transport: GitHub digest + zip + manifest + 8-file parity + tag→sourceCommit verified locally before the drop; staged blobs re-hashed byte-true. Addon flood recompute 45202 == manifest; spawn 109,182 unchanged (harbor capital). Porosity re-pinned 60→64 deliberately: +4 route cells = two two-wide landmark footprints (structure.ruin 182-183,190; structure.stone_circle 249-250,116), both on-flood — matches sl-0035's severed-landmarks fix note; b65 keeps 44. Cliff line re-confirmed: adapter-v4 replica calibrated on b71 (reproduced the recorded 1456 terraced-peak cells exactly) then run on b72 — relief IDENTICAL ({169,820,467} by level), zero path-on-rock, zero walkable at terrace >= 1. FULL pretester ALL GREEN 19.4 min incl 28-row battery byte-identical (world_walk proves b65 untouched) + export + lockdown probe. No feel or acceptance verdicts (mechanical intake, designer post-shift); nothing routes to the overworld yet. Game commit dde3101. Completion in the sync log ref sl-0035."
+      "sourceCommit": "1ca3af8ee49130d32886be79ec4d5f46df163ceb",
+      "intake": "2026-07-31",
+      "note": "Banded settlement streets (delivery sl-0051; behavior 74, sl-0049 ruled option B): every settlement street surface is the dirtpath band, through-routes keep the road band; path census value-2 2166->640, value-1 361->1736; the 0/1/2 contract holds with zero code change. RECIPE CHANGED this delivery (recipeSha c756cc8d - W5 pins + budget 7): farm town 91,110, ruined city 149,18, world tree 41,42; the world_tree body + lighthouse tower place for real now (two silent b70-b72 gaps closed upstream). IN-PLACE SUPERSEDE of b72 at this same path - b72's pin RETIRED by the game's per-pack call (release stays immutable archive). Release transport verified locally before the drop (zip=GitHub digest=log efebe8db, manifest bef253c7, 8-file parity, tag->sourceCommit); staged blobs byte-true; independent BFS flood 45137 exact, spawn 109,182. Porosity re-pinned 64->60 with all 42 changed cells typed (relocated delve/POI/dock pass doors, one re-seated capital gate arch, +the world_tree door); b65 keeps 44. Cliff line holds (relief byte-identical 1456={169,820,467}, zero band-on-rock, zero walkable terrace>=1). Full pretester ALL GREEN 18.2 min incl world_walk (b65 untouched, battery byte-identical); Overworld Walk picker row relabeled b74 + addon probe PASS. Game commit f1474a8. Designer walk = the b74 street-look taste-rule on screen, pending at pin time."
     },
     {
       "consumer": "world_filler",

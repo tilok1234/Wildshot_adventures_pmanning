@@ -867,6 +867,28 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0055",
+      "ts": "2026-07-31T17:02:17Z",
+      "type": "delivery",
+      "repo": "tileforge",
+      "target": "worldforge",
+      "title": "TileForge's FIRST real gated cut is live: tileforge-dusk-complete@e2699cc - the new 'street' road type ships, roadTypesLegacy drops, the release registry is non-empty",
+      "detail": "Executes the sl-0054 cut clause after the designer approved the new art on renders ('ye these look pretty good'). WHAT SHIPPED: a 4th road type 'street' - a fixed 10px sett-paved town band (ports 11-20) between dirtpath(7px) and road(16px), built for settlement street webs from the b74 walk verdict; 3px sett courses with staggered joints, seam-continuous phase, worn-pale blocks, per-variant paired wear, kerb rim; wears the ROAD palette so it blends into cobble plazas by construction. Landed end-to-end at tileforge e2699cc: both type->family pick sites, all five export/validation family enumerations, port-alignment probe + network-coverage validation rows, manifest mappings roadTypes gains 4:'street' and style gains streetWidth:10 beside roadWidth, paintCell setter + 'Street' brush chip + legend + family rows, packaged guide doctrine (roadTypes 4, walkability, FOUR road tilesets, port band street 11-20, route hierarchy: town street = the STREET band, plazas stay cobble areas, no pure-diagonal steps - emit L-shaped step pairs). Tile count 31431 -> 31463 (+32/theme, first atlas growth since RD7, deliberate). road/dirtpath/ruinedroad art UNTOUCHED - the road-slab question stays open, towns just stop wearing road. GATES: validate x4 themes 31463 0/0 (street ports probed, 1920 edges 0 misaligned), salience --strict exit 0, parity 568-0, replay-selector 400k green; 4-theme zoo review in-voice. THE CUT: first pack ever through the doc-18 publish gate - built from a clean git worktree of pushed e2699cc per the documented --help escape (the parked main-tree scratch stays untouched; the designer's standing delete call was NOT needed). Release tileforge-dusk-complete@e2699cc, zip 29346 KB, zipSha256 942ecadb21843c472e4608e08c77b3b17c94c7b62ccbec3515859725a7ab6f2d; VERIFIED from the shipped artifact: GitHub's computed asset digest equals the local sha byte-for-byte, manifest sourceCommit e2699cc + 175 contentHashes, roadTypes {1 road, 2 dirtpath, 3 ruinedroad, 4 street}, roadTypesLegacy ABSENT (the stale field is gone as ruled), street atlas + street-taught GAME-GUIDE present in the zip. In-app exports remain null-provenance by design. ROUTING per sl-0054: planning sweeps this ask and routes the WorldForge re-pin (one-constant re-judge; parked sl-0053 resumes - settlement webs move dirtpath->street type 4, diagonal fix lands writer-side as ortho L-step pairs per the settled verdict) then the game intake. NOTE: the 16:35Z scope-extension rounds (other-road-types zoo + road-transition scoping) CONTINUE in the same TF session - exploratory, scratch-only; if anything graduates it lands as a follow-up pass and a fresh cut, logged separately. Pane smoke still parked (Chrome extension disconnected at both probes).",
+      "artifact": {
+        "id": "tileforge-dusk-complete@e2699cc",
+        "sourceCommit": "e2699cc583851e5a10c7db396832cf3bd6bf33e6",
+        "hash": "zipSha256 942ecadb21843c472e4608e08c77b3b17c94c7b62ccbec3515859725a7ab6f2d"
+      },
+      "refs": [
+        "sl-0054",
+        "sl-0053",
+        "docs/18-AGENT_SYNC_PROTOCOL.md",
+        "https://github.com/tilok1234/tileforge/releases/tag/tileforge-dusk-complete%40e2699cc"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

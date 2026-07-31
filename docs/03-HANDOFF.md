@@ -74,11 +74,20 @@ round). Board, all verified and pushed:
   conversion becomes the game's NEXT intake after b76). TF stays
   an art sidecar via sl-0005 only if the round finds needs.
   Planning sweeps the delivery.
-- Opens: **sl-0063 (WF props conversion, in flight — the only
-  live round)**, sl-0041 (director loop; world_filler still on
-  b72 — b74/b76 behind), standing sl-0003/sl-0005. Resolved
-  today: sl-0053–sl-0058, sl-0060 (superseded pre-intake),
-  sl-0061 (intaken), sl-0064 (walked + look approved).
+- **Dev map ROUTED (sl-0065, ~23:00Z):** dev-profile world-map
+  overlay + corner minimap rendering each pack's own
+  `minimap.png` + player dot (both picker worlds ship it; zero
+  new art, zero WF work; lockdown-probe absence like other debug
+  tools). Game paste with the designer. The PLAYER map/minimap
+  system stays Part II per doc 13 §3 — fog/discovery/markers =
+  its own designed round (knowledge pillar interacts; icon plan
+  category 11).
+- Opens: **sl-0063 (WF props conversion, in flight)**,
+  **sl-0065 (dev map — game paste with the designer)**, sl-0041
+  (director loop; world_filler still on b72 — b74/b76 behind),
+  standing sl-0003/sl-0005. Resolved today: sl-0053–sl-0058,
+  sl-0060 (superseded pre-intake), sl-0061 (intaken), sl-0064
+  (walked + look approved).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

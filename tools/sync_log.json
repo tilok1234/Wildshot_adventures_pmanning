@@ -1045,6 +1045,23 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0065",
+      "ts": "2026-07-31T23:00:51Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning routes a DEV world-map overlay + corner minimap (dev-profile only) - render each pack's own minimap.png + player dot; the PLAYER map system stays Part II per doc 13",
+      "detail": "Designer, minutes after the b76 look-approval: 'Also we should add a litteral map and minimap now that we have a huge world to test.' SCOPE SPLIT (planning recommendation, routed): (A) NOW - a dev/test map serving the huge-world walk loop, DEV-PROFILE ONLY (the two-profile rule: testers never get debug tools; lockdown probe proves absence like the other debug surfaces). Build on what exists: every WF pack SHIPS minimap.png (b76 and b65 both verified on disk) - (1) fullscreen map toggle rendering the active pack's minimap.png with the player position dot (+ facing if cheap); (2) a small corner minimap variant, toggleable, quiet (Law 6 discipline even in dev - never the brightest thing on screen); (3) works for every picker world via pack-relative mapping, hidden for packs without minimap.png. ZERO new art (raw texture + drawn dot), ZERO WF work (WF's minimap.png is the artifact; if its resolution proves insufficient on screen, that becomes a WF ask - no game-side upscaling hacks). (B) LATER - the PLAYER-FACING map/minimap system stays deferred to the Part II interface module per doc 13 section 3 (map screen + minimap explicitly out of scope; 'they sit on undecided Part II questions'): fog-of-war/discovery rules (the knowledge-as-progression pillar wants the map to FILL IN as the player explores - GDD sections 13/14: learning routes IS progression, 'essential knowledge discoverable or recordable inside the game'), markers vs learning, minimap-vs-compass, auto-travel integration, CORE-50/Law 6 HUD treatment, and the icon plan's category 11 (map & travel markers, docs/21) - one designed round when Part II opens. The dev overlay is throwaway-by-design; it graduates to player UI only through that round. Game intake of this ask = a normal game-session task (paste with the designer); hands-free logbook line references sl-0065; planning sweeps.",
+      "refs": [
+        "sl-0064",
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "docs/21-ICON_SET_PLAN.md",
+        "notes/sessions/2026-07-31.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

@@ -789,6 +789,20 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0050",
+      "ts": "2026-07-30T23:43:46Z",
+      "type": "note",
+      "repo": "worldforge",
+      "target": "planning",
+      "title": "sl-0049 round 1 SENT: diagnosis inverts the framing - settlement streets ALREADY ride the road band; the 'paving' look IS the road_network family's slab art; A/B renders (as-is vs dirtpath-band lanes) to the designer",
+      "detail": "Diagnose-first executed on the b73 world (recipe-identical streets to the intaken b72). DATA: every house-connection surface in every settlement class already rides pathLayer value 2 -> adapter 'road' family (road_network) - the b56/57 line-roads arc did this; the only cobble MATERIAL in settlements is the plazas (310 cells world-wide; town plaza 7x7=49 exactly) plus city quarter squares. WHY IT READS AS 'tiles connecting houses': the dusk road_network atlas is a near-full-cell SLAB - one-wide lanes render as slab strips and junction-dense webs fuse visually into paving, indistinguishable from plaza carving at 1:1; the dirt_path atlas is a true narrow BAND with ground visible both sides - the classic 'road tiles' look (atlas strip included in the round). Writer inventory per class (settlements.ts): through-route necking writes the corridor centerline band (line ~266, the inter-city road's continuation - candidate keeps it); street arms (~335, city+town); city ring (~365); carveApproach band paint (~1245, house lanes + civic approaches + dock lanes, all classes incl. outposts). ROUND 1 SENT: A (as-is) vs B (all settlement-written lanes remapped to the dirtpath band value 1; through-road + country roads UNTOUCHED per the ask; plaza cobble untouched - its keep/convert stays the designer's call) on capital + farm town + outpost frames, plus the three band-family atlases so the designer can point at what 'road tiles' means to their eye. B is render-only post-process for the round; the ruled option ships as behavior 74 (lamps re-key with it - b61 lamps currently seat on value-2 lanes; walkability floods INVARIANT by construction, path!=0 walks regardless of value; 0/1/2 contract unchanged, census shifts ~1434 cells 2->1). Incidental wart noted for a later round: doubled parallel lane braids render ladder-like columns (b54-style trunk-sharing gap at lane scale).",
+      "refs": [
+        "sl-0049"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

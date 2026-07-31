@@ -29,20 +29,20 @@ seam, all verified and pushed:
   `tileforge-dusk-complete@e2699cc`, planning-verified: NEW
   roadType 4 "street" (10px sett town band), roadTypesLegacy
   gone, registry non-empty (sl-0055).
-- **THE CHAIN IN FLIGHT: WF re-judge sl-0053** (re-pin e2699cc,
-  settlement webs → street type 4, ortho L-step diagonal fix,
-  renders → designer → export). **The paste lives in the
-  session-file HANDOFF — send it to a WF session first.** The
-  game intake after is a PAIRED DROP (world pack + e2699cc
-  package together — world_builder refuses mismatched identity).
-- Opens: sl-0053 (WF — paste SENT by the designer ~19:20Z,
-  round in flight; planning sweeps its lines as they land),
-  sl-0054 (road arc VERDICT-COMPLETE — joints APPROVED on
-  proper review; types 5-8 in-engine c18a52d; ONE
-  designer-triggered closing cut remains, deferred until after
-  the WF street round; sl-0056 resolved), sl-0055 (resolves
-  on WF adoption), sl-0041 (director loop), standing
-  sl-0003/sl-0005.
+- **THE CHAIN IN FLIGHT: the WF look ruling (sl-0053/sl-0057)** —
+  e2699cc re-pinned + b75 BUILT (streets wear the sett band;
+  diagonals L-stepped 14→6); renders WITH the designer, export
+  on their ruling. The game intake after is a PAIRED DROP (world
+  pack + e2699cc package — world_builder refuses mismatched
+  identity) AND carries a path-contract change: value 3 street is
+  NEW game-side vocabulary (importer accepted 0/1/2 at sl-0043).
+- Opens: sl-0053 + sl-0057 (the WF round: look ruling → export
+  @b75), sl-0058 (TF ARC-CLOSING CUT tileforge-dusk-complete@
+  9b8b2a2 released + verified — roadTypes 1-8 + the roadjoint
+  contract; WF re-pins AFTER the round settles), sl-0041
+  (director loop), standing sl-0003/sl-0005. Resolved tonight:
+  sl-0054 (road arc CLOSED end-to-end), sl-0055 (e2699cc
+  adopted per sl-0057), sl-0056.
 - **Rested-day items still legal today:** THE LOOP acceptance
   run (judgeable → L2 clock) · deck payloads (worldshape 5,
   gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·

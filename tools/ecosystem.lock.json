@@ -49,8 +49,10 @@
     {
       "consumer": "worldforge",
       "producer": "tileforge",
-      "artifact": "tileforge package dusk-ae1eecb-seed103991 (game-pack lane)",
-      "intake": "pre-2026-07-28"
+      "artifact": "tileforge package dusk-e2699cc-seed103991 (game-pack lane)",
+      "sourceCommit": "e2699cc583851e5a10c7db396832cf3bd6bf33e6",
+      "intake": "2026-07-31",
+      "note": "Re-pin sl-0057 (WF dadcb20, planning-verified): fetched by tag from the e2699cc release, digest-verified (942ecadb… = sl-0055); golden-world re-pin proof byte-identical outside the dependency identity block; old dusk-ae1eecb package retained in-repo as the b65–b74 reproducibility reference. SUCCESSOR FLAGGED: re-pin to tileforge-dusk-complete@9b8b2a2 (sl-0058, roadTypes 1-8 + roadjoint contract) once the sl-0053/sl-0057 look-ruling round settles."
     },
     {
       "consumer": "game",

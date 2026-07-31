@@ -1080,6 +1080,24 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0067",
+      "ts": "2026-07-31T23:53:36Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "worldforge",
+      "title": "Game took in the b77 overworld - prop walkability classes live, walk-under canopy proven on screen at the pixel level, every opened cell typed by species; b76 superseded in place",
+      "detail": "Delivery sl-0066 executed per doc-18 release transport + the runbook, hands-free (paste in notes/sessions/2026-07-31.md). VERIFIED BEFORE THE DROP, all locally: zip sha256 = GitHub computed digest = the logged c9083012..., manifestSha256 5166341a..., all 8 per-file hashes, tag target = the logged sourceCommit 1a20bd22 (asset exactly b76's 32,140,398 bytes - fixed-width walkability flips, as planning's own verification noted); post-copy re-hash byte-true. NORMAL in-place supersede of b76 (b76 stays immutable archive + git history; same tileforge pin dusk-9b8b2a2-seed103991 - sl-0064's per-pin registry resolve holds, ZERO TF work, proven by the b77 probe: both worlds build, b77 road layer still 2301 cells with EXACTLY 47 road_joint cells). CONTENT DELTA TYPED, walkability-only confirmed game-side: resolved tmj + map-data + normalized-recipe + minimap byte-identical to b76; tileforge-slice differs ONLY in its baseGenerationIdentitySha256 echo; world.json = exactly 3 generator identity fields; prop/material/elevation/path chunk layers byte-identical (the density-kept claim reproduced). WALKABILITY DELTA 100% TYPED BY SPECIES (sl-0052 style): 1044 grid cells OPENED, zero sealed, zero flood cells lost; every opened cell carries one of the four sl-0063 carpet conversions - stump 509, fallen_log 490, bone_pile 44, loot_pile 1 - zero cells without a prop, zero other species. Flood +1337 (45156 -> 46493, independent lsb-first BFS exact) = 905 newly-walkable + 432 unlocked stranded-pocket cells (the 'getting blocked' pockets joining the flood); 139 opened cells stay walkable-unreachable, legal under WYSIWYG. Pack-vs-world seam (905/432 vs the WF commit's 903/425) is the established world->pack class. POROSITY: the route-cell SET IS IDENTICAL - 60 -> 60 with zero adds/removes (prop conversions touch no structure cells), pin 60 stands, NO re-pin needed this drop; off-flood route cells 9 -> 6 - the dock trio (194,240)(195,240)(196,240) reconnected by unsealed pockets; b65 keeps 44; diag exit 0 on both. CLIFF: material + elevation byte-identical to b76 (terrace field carries, 1447), zero opened cells on rock, so zero walkable at terrace>=1 and zero band-on-rock both hold unchanged. THE ONE GAME-SIDE CHECK - PROVEN ON SCREEN, MECHANIZED: tests/worldforge_pack/canopy_render_probe.gd (committed, windowed) replicates main's exact construction (world_builder output, sort_layers reparented into a y-sorted ACTORS-band space, the player as an ACTORS-band ranger sprite); at the walkable crown cell (110,176), of the crown tile's screen pixels ZERO of 8525 inside its opaque mask differ between ranger-present and ranger-hidden shots - the props-overhang crown draws OVER the player with no leak-through - while 4075 pixels outside the mask differ (the player renders where crown art is transparent); evidence committed reports/canopy_render_audit_b77_{under,reference}.png (the under shot shows the ranger's lower body swallowed by the foliage, the control ranger fully visible on open ground); ACTORS 30 < CANOPY 32 is boot-asserted band law. b77 ships 2,352 reachable walkable crown cells - walk-under is live at scale. Overworld Walk picker row relabeled b77 + b77_picker_probe PASS (supersedes b76's). Boot clean. FULL pretester ALL GREEN 14.3 min (17 fixed steps + 28-row battery byte-identical incl world_walk + export + lockdown probe). Game commit 89aa034 pushed. Lock: b76 game pin superseded in place by b77 (this sweep); the game<-tileforge 9b8b2a2 pairing pin carries unchanged. NO feel verdicts (mechanical intake): the designer's NAVIGATION WALK is the acceptance per sl-0066's own terms - the 'getting blocked' complaint is the test, now walkable on screen. sl-0065 (dev map overlay ask) was NOT in this session's paste and stays open, untouched.",
+      "refs": [
+        "sl-0066",
+        "sl-0063",
+        "sl-0064",
+        "sl-0052",
+        "docs/18-AGENT_SYNC_PROTOCOL.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

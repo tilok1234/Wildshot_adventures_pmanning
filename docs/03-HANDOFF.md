@@ -53,6 +53,12 @@ round). Board, all verified and pushed:
   moment** — road lanes orthogonal-only everywhere, direction
   changes are L-step pairs (docs/08 Tooling contracts;
   sl-0059). WF implemented it structurally (turn-cost routing).
+- **Icon-set round closed (2026-07-31 late):** taxonomy approved
+  + seat ruled [P] — a one-time in-repo generated set in the
+  GAME repo (the projectiles-sphere-v0 precedent), NOT the
+  assembler, NOT a new ecosystem repo. Plan:
+  `docs/21-ICON_SET_PLAN.md`; register docs/08 Tooling contracts
+  + sl-0062. Ranked strictly behind M-FX; nothing routed.
 - Opens: **sl-0061 (b76 delivery — SEND THE INTAKE PASTE)**,
   sl-0041 (director loop; world_filler still on b72), standing
   sl-0003/sl-0005. Resolved today: sl-0053–sl-0058, sl-0060

@@ -994,6 +994,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0062",
+      "ts": "2026-07-31T21:49:35Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "RULING: the icon set is a one-time in-repo generated set in the GAME repo (projectiles-sphere-v0 precedent) - NOT the sprite assembler, NOT a new ecosystem repo; taxonomy approved (15 kinds)",
+      "detail": "Designer, in planning, closing the icon-assessment round they opened ('im working on planning an icon forge'): the screen-space icon set will be produced by an in-repo deterministic generator in the game repo, like wildshot-projectiles-sphere-v0 (the lock's only 'producer: game (in-repo generator)' entry) - explicitly NOT inside the sprite assembler ('i dont think i should risk messing up sprite assembler by putting it in there') and NOT a new ecosystem repo ('im not gonna put it in our repo collecction either i think cause icons is more a 1 time set thing like projectiles i think'). STATUS [P]: a seat lean stated twice with 'i think' - firm enough to plan on, revisit only deliberately. CONSEQUENCES: no doc 16 repo registration, no lock lane, no release transport - an in-repo producer pin only, at consumption time; the contract freezes at first game consumption like every forge. TAXONOMY APPROVED same evening ('and all of those icons sounds good ye'): 15 kinds, ~350-600 authored glyphs at launch scope before generated variants (equipment frames/ability items/armor/rings/uniques, access+quest items, currency, 9 stat icons, skill-tree nodes ~90-180, HUD status, map markers, collection book, quest+faction, chrome ALREADY SHIPPED via doc 13, input glyphs) - full table + inherited rules (CORE-50 never-hue-alone, CORE-19 no casino frames, Law 6, behaviour-communicated-before-farmed) + generation model (base glyph x T1-T5 palette ramps; states runtime-only; bestiary derives from Sprite Forge renders; world-space stays sprite territory) + 16x16 recommendation + Tier 0/1/2 phasing in docs/21-ICON_SET_PLAN.md and the docs/08 Tooling-contracts bullet. RANKED strictly behind M-FX like the UI kit; nothing routed to any repo session - the eventual Tier-0 build lands game-side when the designer triggers it.",
+      "refs": [
+        "docs/21-ICON_SET_PLAN.md",
+        "docs/08-DECISION_REGISTER.md",
+        "docs/13-UI_STYLE_KIT_SPEC.md"
+      ],
+      "by": "agent"
     }
   ]
 }

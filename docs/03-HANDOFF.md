@@ -59,15 +59,16 @@ round). Board, all verified and pushed:
   assembler, NOT a new ecosystem repo. Plan:
   `docs/21-ICON_SET_PLAN.md`; register docs/08 Tooling contracts
   + sl-0062. Ranked strictly behind M-FX; nothing routed.
-- **Props/solid-navigation round STAGED (2026-07-31 ~22:30Z,
-  not routed):** the designer's blocking complaint ("to hard to
-  navigate without getting blocked") = **W-13** (keep density,
-  CONVERT: carpet/canopy/solid). Seat = **WORLDFORGE** (the
-  designer's TF doubt concurred — TF's art plumbing already
-  exists: blocking split + `_over` canopy layer; TF is only an
-  art sidecar via sl-0005 if the round finds needs). WF paste
-  ready in `notes/sessions/2026-07-31.md`; fires on designer go
-  AFTER the b76 intake sweeps; ask id allocated at paste time.
+- **Props/solid-navigation round ROUTED — sl-0063 (2026-07-31
+  ~22:39Z, designer: "i will do this in wf now"):** W-13 fired —
+  WF converts prop walkability (carpet/canopy/solid, DO NOT
+  thin), re-exports as the next behavior; paste with the
+  designer's WF session (verbatim in
+  `notes/sessions/2026-07-31.md` + sl-0063). Fired while the b76
+  intake runs game-side — no collision (immutable tags; the
+  conversion becomes the game's NEXT intake after b76). TF stays
+  an art sidecar via sl-0005 only if the round finds needs.
+  Planning sweeps the delivery.
 - Opens: **sl-0061 (b76 delivery — intake IN FLIGHT game-side,
   observed ~22:25Z uncommitted; watcher armed for the append)**,
   sl-0041 (director loop; world_filler still on b72), standing

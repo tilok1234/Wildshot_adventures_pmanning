@@ -1009,6 +1009,24 @@
         "docs/13-UI_STYLE_KIT_SPEC.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0063",
+      "ts": "2026-07-31T22:39:03Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "Planning routes W-13: convert prop walkability instead of thinning - carpet / canopy / solid over the wilderness prop set, re-export as the next behavior (designer: 'to hard to navigate without getting blocked')",
+      "detail": "The designer fired the staged props/solid-navigation round ('ye this sounds good i think i will do this in wf now', after 'props and trees and other objects that are clustered around the world and acts as solid onbjects i mean. atm its to hard to navigate without getting blocked'). THE ASK (paste handed to the designer's WF session verbatim; also in notes/sessions/2026-07-31.md): DO NOT thin props - keep the visual density; classify wilderness props into three walkability classes and re-export as the next behavior: (1) walk-over 'carpet' for ground clutter (small rocks, tufts, debris, low bushes) - renders, never blocks; moss-carpet precedent; TF ships these species non-blocking already. (2) walk-under 'canopy' for overhangs - the package's props-overhang _over layer is the plumbing (canopies draw at y-1; ONLY the trunk cell stays solid). (3) solid reserved for what should visibly read as a blocker (trunks, boulders, built walls - CORE-32: solids look solid). Designer taste rules edge cases. Expect flood/walkability changes - normal validation + delivery protocol; porosity typing per sl-0052; the sl-0059 no-diagonal rule untouched. GAME-SIDE FLAG to carry in the delivery line: the game must render the props-overhang layer ABOVE the player for walk-under to read (tmj layer order). ORIGIN: W-13 [P] from the worldshape forklift (the designer's own map test: keep density, CONVERT instead of delete; the file's S3 drafted ask deliberately deferred id allocation to paste time - allocated here; W-13 ratification still rides the staged worldshape deck payload, and firing this ask is the designer's go regardless). SEAT: WorldForge, designer-confirmed after doubting TF ('maybe tileforge aint correct to do plan with' - planning concurred: TF's art plumbing already exists, 88 prop species with the blocking/non-blocking split + the _over canopy layer per GAME-GUIDE 2.10; TileForge is an ART SIDECAR via sl-0005 only if this round finds needs - the sl-0005 'softer hedge repaint' is exactly the solid-reads tuning class). SEQUENCING: fired while the b76 game intake is IN FLIGHT game-side - no collision (the intake fetches the immutable b76 tag; this conversion lands as the next behavior on WF main post-4291f79 and becomes the game's NEXT intake after b76). If class conversion alone doesn't clear navigation, the follow-up lever is WF clustering/corridor rules through prop fields - designer taste, its own round. Planning sweeps the delivery.",
+      "refs": [
+        "notes/sessions/2026-07-30-worldshape-forklift.md",
+        "notes/sessions/2026-07-31.md",
+        "sl-0052",
+        "sl-0059",
+        "sl-0005"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

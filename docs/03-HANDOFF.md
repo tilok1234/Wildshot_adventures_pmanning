@@ -44,10 +44,11 @@ round). Board, all verified and pushed:
   registry (b65/THE LOOP byte-untouched), path 0..3 accepted
   zero-code, porosity 60 held (±2 typed), the 47 joint cells
   DRAW (probe-proven), pretester ALL GREEN 16.9 min. b74
-  superseded in place. **THE THING NOW: the designer's on-screen
-  walk — joints + street band, Overworld Walk picker row b76
-  (the sl-0052/sl-0053 taste arc's verdict; feel-legal).
-  sl-0064 = the open taste line.**
+  superseded in place. **WALKED + LOOK APPROVED (designer,
+  ~22:51Z, first impressions: "very nice … this looks ghreat")
+  — sl-0064 RESOLVED; the sl-0052/sl-0053 street-look arc
+  closes on screen. Deeper-walk findings, if any, open their
+  own items.**
 - **WF props round IN FLIGHT (sl-0063, W-13):** carpet / canopy
   / solid conversion, DO NOT thin — the designer is running it
   in WF now; the delivery becomes the game's NEXT intake
@@ -73,11 +74,11 @@ round). Board, all verified and pushed:
   conversion becomes the game's NEXT intake after b76). TF stays
   an art sidecar via sl-0005 only if the round finds needs.
   Planning sweeps the delivery.
-- Opens: **sl-0064 (b76 taste line — WALK IT)**, **sl-0063 (WF
-  props conversion, in flight)**, sl-0041 (director loop;
-  world_filler still on b72 — b74/b76 behind), standing
-  sl-0003/sl-0005. Resolved today: sl-0053–sl-0058, sl-0060
-  (superseded pre-intake), sl-0061 (intaken as sl-0064).
+- Opens: **sl-0063 (WF props conversion, in flight — the only
+  live round)**, sl-0041 (director loop; world_filler still on
+  b72 — b74/b76 behind), standing sl-0003/sl-0005. Resolved
+  today: sl-0053–sl-0058, sl-0060 (superseded pre-intake),
+  sl-0061 (intaken), sl-0064 (walked + look approved).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

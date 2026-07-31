@@ -49,17 +49,18 @@ round). Board, all verified and pushed:
   — sl-0064 RESOLVED; the sl-0052/sl-0053 street-look arc
   closes on screen. Deeper-walk findings, if any, open their
   own items.**
-- **Props conversion SHIPPED — b77 released + verified
-  (sl-0066; sl-0063 resolved, executed in ~39 min):** carpet /
-  canopy / solid over all 84 species, density byte-identical,
-  +1328 world cells opened (903 converted debris + 425 unlocked
-  sealed pockets — the "getting blocked" cells). **THE ONE
-  THING TO SEND NEXT: the b77 GAME INTAKE paste** (verbatim in
-  `notes/sessions/2026-07-31.md`; sl-0065 dev map rides the
-  same session). Same tileforge pin, path 0..3 unchanged; the
-  one game-side check: props-overhang renders ABOVE the player.
-  The designer's navigation walk on intaken b77 = the sl-0063
-  acceptance test.
+- **b77 INTAKEN (sl-0067, game 89aa034, ~23:53Z, hands-free;
+  planning-verified):** walkability-only delta, 100% typed —
+  the four carpet species sum EXACTLY to the 1044 opened cells
+  (stump 509 / fallen_log 490 / bone_pile 44 / loot_pile 1);
+  flood 46493 exact; porosity pin 60 stands on a zero-diff
+  route set; canopy walk-under PROVEN on screen at pixel level
+  (0/8525 in-mask diffs, evidence PNGs committed; 2,352 crown
+  cells live). b76 superseded in place; TF pairing pin carries.
+  **THE THING NOW: the designer's NAVIGATION WALK on b77 — the
+  "getting blocked" complaint is the acceptance test (sl-0067 =
+  the open line). The sl-0065 dev map is still queued and would
+  make the walk nicer.**
 - **Standing rule (designer, today): NO DIAGONAL ROADS for the
   moment** — road lanes orthogonal-only everywhere, direction
   changes are L-step pairs (docs/08 Tooling contracts;
@@ -88,13 +89,13 @@ round). Board, all verified and pushed:
   system stays Part II per doc 13 §3 — fog/discovery/markers =
   its own designed round (knowledge pillar interacts; icon plan
   category 11).
-- Opens: **sl-0066 (b77 delivery — SEND THE INTAKE PASTE)**,
-  **sl-0065 (dev map — rides the same game session)**, sl-0041
-  (director loop; world_filler still on b72 — b74/b76/b77
-  behind), standing sl-0003/sl-0005. Resolved today:
-  sl-0053–sl-0058, sl-0060 (superseded pre-intake), sl-0061
-  (intaken), sl-0063 (b77 shipped), sl-0064 (walked + look
-  approved).
+- Opens: **sl-0067 (b77 NAVIGATION WALK — the acceptance)**,
+  **sl-0065 (dev map — game paste queued)**, sl-0041 (director
+  loop; world_filler still on b72 — b74/b76/b77 behind),
+  standing sl-0003/sl-0005. Resolved today: sl-0053–sl-0058,
+  sl-0060 (superseded pre-intake), sl-0061 (intaken), sl-0063
+  (b77 shipped), sl-0064 (walked + look approved), sl-0066
+  (intaken).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

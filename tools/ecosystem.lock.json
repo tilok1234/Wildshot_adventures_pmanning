@@ -75,7 +75,7 @@
     {
       "consumer": "game",
       "producer": "tileforge",
-      "artifact": "tileforge package dusk-9b8b2a2-seed103991 (paired with wildshot-overworld-pack-dusk@b76)",
+      "artifact": "tileforge package dusk-9b8b2a2-seed103991 (paired with the wildshot-overworld-pack-dusk line; current world: b77)",
       "path": "assets/tileforge/tileforge-dusk-complete-9b8b2a2/ (raw) + tileforge_packages/dusk-9b8b2a2-seed103991/ (consumed)",
       "sourceCommit": "9b8b2a2ebf9607048dc2bebe3e4cd983e4158fbe",
       "intake": "2026-08-01",

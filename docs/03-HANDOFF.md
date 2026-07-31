@@ -35,12 +35,12 @@ seam, all verified and pushed:
   session-file HANDOFF — send it to a WF session first.** The
   game intake after is a PAIRED DROP (world pack + e2699cc
   package together — world_builder refuses mismatched identity).
-- Opens: sl-0053 (WF — paste UNSENT, confirmed vs GitHub after
-  the restart: WF main + newest release both predate the seam),
-  sl-0054 + sl-0056 (TF extension rounds RENDERED + preserved
-  in-repo at TF 275e5da; designer judgement is the ONLY pending
-  step — transitions verdict already recorded, nothing to
-  re-render), sl-0055 (resolves on WF adoption), sl-0041
+- Opens: sl-0053 (WF — paste SENT by the designer ~19:20Z,
+  round in flight; planning sweeps its lines as they land),
+  sl-0054 + sl-0056 (extension arc LIVE in a TF session —
+  designer direction: hand-authored per-pair road transitions;
+  zoo graduation call still open; judgement material preserved
+  at TF 275e5da), sl-0055 (resolves on WF adoption), sl-0041
   (director loop), standing sl-0003/sl-0005.
 - **Rested-day items still legal today:** THE LOOP acceptance
   run (judgeable → L2 clock) · deck payloads (worldshape 5,

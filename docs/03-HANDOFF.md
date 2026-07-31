@@ -14,9 +14,46 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-07-30 (workday seam; designer at work, phone planning expected)
+# CURRENT HANDOFF — 2026-07-31 (restart seam; PC restarting, all local sessions ended)
 
-**This section supersedes everything below it.** Full detail: the
+**This section supersedes everything below it.** Full detail +
+the in-flight WF paste: the tail HANDOFF of
+`notes/sessions/2026-07-30.md` (now the three-day story; Addenda
+26–35 = the 07-30 evening + the rested 07-31 day). Board at this
+seam, all verified and pushed:
+
+- **The b74 overworld is live in-game** (banded settlement
+  streets era; game pin b74, porosity 60). The crosshair scales
+  with the viewport now (0a7d69d; size/contrast call still open).
+- **TileForge shipped its FIRST gated cut** —
+  `tileforge-dusk-complete@e2699cc`, planning-verified: NEW
+  roadType 4 "street" (10px sett town band), roadTypesLegacy
+  gone, registry non-empty (sl-0055).
+- **THE CHAIN IN FLIGHT: WF re-judge sl-0053** (re-pin e2699cc,
+  settlement webs → street type 4, ortho L-step diagonal fix,
+  renders → designer → export). **The paste lives in the
+  session-file HANDOFF — send it to a WF session first.** The
+  game intake after is a PAIRED DROP (world pack + e2699cc
+  package together — world_builder refuses mismatched identity).
+- Opens: sl-0053 (WF), sl-0054 (TF extension rounds — types zoo
+  + transition scoping, fresh session resumes from the ask),
+  sl-0055 (resolves on WF adoption), sl-0041 (director loop),
+  standing sl-0003/sl-0005.
+- **Rested-day items still legal today:** THE LOOP acceptance
+  run (judgeable → L2 clock) · deck payloads (worldshape 5,
+  gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·
+  M2 close + six-ordinaries · Hell Engine V2 listening · music
+  seam merge.
+
+Authorities unchanged: docs/19 · docs/20 · doc 18 · doc 16 +
+`tools/ecosystem.lock.json`. Sweep duty per incoming logbook
+line: verify vs GitHub → commit → resolve → next paste.
+
+---
+
+# PRIOR HANDOFF — 2026-07-30 (workday seam; superseded)
+
+**Superseded by the 2026-07-31 section above; kept as history.** Full detail: the
 tail HANDOFF of `notes/sessions/2026-07-30.md` — and that whole
 file is the two-day story (doc 18 RATIFIED; publish-gate +
 releases-as-transport rollout COMPLETE across all five producers;

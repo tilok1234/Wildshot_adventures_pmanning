@@ -1,8 +1,9 @@
 # Operator Queue Snapshot
 
-> **PERISHABLE — snapshot 2026-07-31 (late-night refresh: b72 +
-> crosshair landed and swept; six-repo roadmap audit — full per-repo
-> menu at `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This page is
+> **PERISHABLE — snapshot 2026-07-31 restart seam (b74 streets era;
+> TileForge's first gated cut shipped the "street" road type; WF
+> re-judge in flight — audit menu at
+> `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This page is
 > the paper mirror of the
 > Decision Deck and the open designer-owed items in the records. It
 > goes stale by design; **any session that changes the queue refreshes
@@ -16,22 +17,24 @@ world-shape session record:
 
 ---
 
-## T. Tonight (PC, post-shift — no feel verdicts, everything else legal)
+## T. Right now (post-restart — rested day, feel verdicts LEGAL)
 
-- **b72 game-side intake — DONE tonight** (sl-0043, game dde3101;
-  b71 retired in place, porosity 64). **Crosshair fix DONE too**
-  (sl-0044, game 0a7d69d) — the game is running windowed for your
-  size/contrast taste call (taste is legal tonight).
-- **b72 country-road look** — verdict pending WF-side; big-screen
-  taste ruling.
-- **Deal the world-shape deck payload** — PASTE FROM AI →
-  `decision_deck_items_2026-07-30-worldshape.json` (5 cards, all
-  confirmations of your own Tier 1 calls today).
-- **Paste the W-13 walkability ask** into the next WF session (text in
-  the session record §3; that session logs the ask_opened entry).
-- If energy: **sl-0041 rehearsal** — direct world_filler over the dusk
-  overworld (docs/20 step 1). Bring the villager test: "what is this
-  doing here?"
+- **FIRST: send the WF re-judge paste (sl-0053)** — it lives in the
+  session-file HANDOFF (`notes/sessions/2026-07-30.md`, tail).
+  Re-pin e2699cc → settlement webs get the new STREET type →
+  renders for your approval → export. The game intake after is a
+  PAIRED DROP (world pack + e2699cc tileforge package together).
+- **THE LOOP acceptance run** — the rested headliner: town → Bone
+  Reliquary King; your "judgeable" starts the L2 clock; judge the
+  [T] numbers.
+- **Deck payloads**: worldshape 5 + gate1 2 + loop 4 + the loop-bar
+  wording in your own words.
+- **Crosshair size/contrast call** (fix live since 0a7d69d).
+- Whenever: **TF extension rounds** (sl-0054 — other road types zoo
+  + transition scoping; fresh TF session resumes from the ask) ·
+  **W-13 walkability ask** (still not handed; session record §3) ·
+  **sl-0041 rehearsal** (world_filler directs the overworld; re-pins
+  to the newest world).
 
 ## A. From anywhere (phone / dead time — no game needed)
 

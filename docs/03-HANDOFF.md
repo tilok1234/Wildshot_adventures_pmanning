@@ -38,17 +38,21 @@ round). Board, all verified and pushed:
   to b75 modulo identity, 47-cell render diff all class
   switches). **b76 SUPERSEDES b75 PRE-INTAKE and IS THE INTAKE
   TARGET**; b75 stays archive only (sl-0060 resolved).
-- **THE ONE THING TO SEND NEXT: the b76 GAME INTAKE paste**
-  (verbatim in `notes/sessions/2026-07-31.md`; requirements in
-  sl-0061).
-- **That game intake is a PAIRED DROP + CONTRACT CHANGE:**
-  bundle the **9b8b2a2** tileforge package (dusk-9b8b2a2-
-  seed103991; world_builder refuses mismatched identity) AND
-  extend the path pin to 0..3 — street = value 3 (~1466 cells)
-  is NEW game-side vocabulary (the importer accepted 0/1/2 at
-  sl-0043). The WF-resolved tmj already carries the joint gids —
-  the roadJoints render rule only matters to a runtime
-  re-resolver (GAME-GUIDE 2.4/2.8).
+- **b76 INTAKEN (sl-0064, game e71b6c6+0dae664, ~22:43Z,
+  hands-free; planning-verified):** paired 9b8b2a2 bundle landed
+  — FIRST explicit game←tileforge pin, TILEFORGE_PACKAGES
+  registry (b65/THE LOOP byte-untouched), path 0..3 accepted
+  zero-code, porosity 60 held (±2 typed), the 47 joint cells
+  DRAW (probe-proven), pretester ALL GREEN 16.9 min. b74
+  superseded in place. **THE THING NOW: the designer's on-screen
+  walk — joints + street band, Overworld Walk picker row b76
+  (the sl-0052/sl-0053 taste arc's verdict; feel-legal).
+  sl-0064 = the open taste line.**
+- **WF props round IN FLIGHT (sl-0063, W-13):** carpet / canopy
+  / solid conversion, DO NOT thin — the designer is running it
+  in WF now; the delivery becomes the game's NEXT intake
+  (b77-class, expected flood/walkability changes + the
+  props-overhang render-order flag). Planning sweeps.
 - **Standing rule (designer, today): NO DIAGONAL ROADS for the
   moment** — road lanes orthogonal-only everywhere, direction
   changes are L-step pairs (docs/08 Tooling contracts;
@@ -69,11 +73,11 @@ round). Board, all verified and pushed:
   conversion becomes the game's NEXT intake after b76). TF stays
   an art sidecar via sl-0005 only if the round finds needs.
   Planning sweeps the delivery.
-- Opens: **sl-0061 (b76 delivery — intake IN FLIGHT game-side,
-  observed ~22:25Z uncommitted; watcher armed for the append)**,
-  sl-0041 (director loop; world_filler still on b72), standing
+- Opens: **sl-0064 (b76 taste line — WALK IT)**, **sl-0063 (WF
+  props conversion, in flight)**, sl-0041 (director loop;
+  world_filler still on b72 — b74/b76 behind), standing
   sl-0003/sl-0005. Resolved today: sl-0053–sl-0058, sl-0060
-  (superseded pre-intake).
+  (superseded pre-intake), sl-0061 (intaken as sl-0064).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

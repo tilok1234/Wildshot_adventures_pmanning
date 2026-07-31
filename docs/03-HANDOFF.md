@@ -37,12 +37,12 @@ seam, all verified and pushed:
   package together — world_builder refuses mismatched identity).
 - Opens: sl-0053 (WF — paste SENT by the designer ~19:20Z,
   round in flight; planning sweeps its lines as they land),
-  sl-0054 (road arc: ALL FOUR extension types in-engine at TF
-  c18a52d, no cut yet; 21 hand-authored joint pairs prototyped
-  at db79c98 — JOINTS VERDICT on the designer's desk; a yes →
-  one fresh gated cut closes the arc, then its own WF re-pin
-  decision; sl-0056 resolved), sl-0055 (resolves on WF
-  adoption), sl-0041 (director loop), standing sl-0003/sl-0005.
+  sl-0054 (road arc VERDICT-COMPLETE: types 5-8 in-engine
+  c18a52d + joints APPROVED db79c98; closing cut DEFERRED by
+  designer call until after the WF street round — one
+  designer-triggered gated cut closes the arc; sl-0056
+  resolved), sl-0055 (resolves on WF adoption), sl-0041
+  (director loop), standing sl-0003/sl-0005.
 - **Rested-day items still legal today:** THE LOOP acceptance
   run (judgeable → L2 clock) · deck payloads (worldshape 5,
   gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·

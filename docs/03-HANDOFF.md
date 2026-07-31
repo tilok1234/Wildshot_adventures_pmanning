@@ -29,24 +29,28 @@ seam, all verified and pushed:
   `tileforge-dusk-complete@e2699cc`, planning-verified: NEW
   roadType 4 "street" (10px sett town band), roadTypesLegacy
   gone, registry non-empty (sl-0055).
-- **THE CHAIN IN FLIGHT: the WF look ruling (sl-0053/sl-0057)** —
-  e2699cc re-pinned + b75 BUILT (streets wear the sett band;
-  diagonals L-stepped 14→6); renders WITH the designer, export
-  on their ruling. The game intake after is a PAIRED DROP (world
-  pack + e2699cc package — world_builder refuses mismatched
-  identity) AND carries a path-contract change: value 3 street is
-  NEW game-side vocabulary (importer accepted 0/1/2 at sl-0043).
+- **THE CHAIN IN FLIGHT: the b75 GAME INTAKE (sl-0060)** — WF
+  released wildshot-overworld-pack-dusk@b75, look-approved:
+  streets wear the street band, no road is diagonal (sl-0059
+  implemented as turn-cost routing), braids de-laddered
+  (zipSha 25f9d5c1…, sourceCommit a262620d,
+  planning-verified). PAIRED DROP + CONTRACT CHANGE: bundle the
+  e2699cc tileforge package into assets/tileforge (identity
+  refusal) AND extend the path pin to 0..3 (street = value 3,
+  1466 cells). In-place supersede of b74; porosity re-pin
+  expected (account every cell, sl-0052 precedent); recipe
+  unchanged (c756cc8d).
 - **Standing rule (designer, this seam): NO DIAGONAL ROADS for
   the moment** — road lanes are orthogonal-only everywhere;
   direction changes are L-step pairs (docs/08 Tooling
   contracts; sl-0059).
-- Opens: sl-0053 + sl-0057 (the WF round: look ruling → export
-  @b75), sl-0058 (TF ARC-CLOSING CUT tileforge-dusk-complete@
-  9b8b2a2 released + verified — roadTypes 1-8 + the roadjoint
-  contract; WF re-pins AFTER the round settles), sl-0041
-  (director loop), standing sl-0003/sl-0005. Resolved tonight:
-  sl-0054 (road arc CLOSED end-to-end), sl-0055 (e2699cc
-  adopted per sl-0057), sl-0056.
+- Opens: sl-0060 (the b75 game intake — paste with the
+  designer), sl-0058 (WF re-pin to tileforge 9b8b2a2 —
+  UNBLOCKED now the round settled), sl-0041 (director loop;
+  world_filler now two world versions behind), standing
+  sl-0003/sl-0005. Resolved tonight: sl-0053 + sl-0057 (the
+  street round, executed as b75), sl-0054 (road arc closed),
+  sl-0055, sl-0056.
 - **Rested-day items still legal today:** THE LOOP acceptance
   run (judgeable → L2 clock) · deck payloads (worldshape 5,
   gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·

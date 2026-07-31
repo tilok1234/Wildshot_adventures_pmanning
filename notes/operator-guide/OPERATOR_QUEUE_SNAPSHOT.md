@@ -1,8 +1,10 @@
 # Operator Queue Snapshot
 
-> **PERISHABLE — snapshot 2026-07-31 restart seam (b74 streets era;
-> TileForge's first gated cut shipped the "street" road type; WF
-> re-judge in flight — audit menu at
+> **PERISHABLE — snapshot 2026-07-31 account-switch seam (THE ROAD
+> ARC CLOSED: TileForge cut `@e2699cc` then the arc-closing
+> `@9b8b2a2` with the hand-authored roadjoint family; WorldForge
+> shipped b75 — street band, no diagonal roads, de-braided — and
+> the 9b8b2a2 re-pin round is the next send — audit menu at
 > `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This page is
 > the paper mirror of the
 > Decision Deck and the open designer-owed items in the records. It
@@ -17,24 +19,32 @@ world-shape session record:
 
 ---
 
-## T. Right now (post-restart — rested day, feel verdicts LEGAL)
+## T. Right now (account-switch seam — rested day, feel verdicts LEGAL)
 
-- **FIRST: send the WF re-judge paste (sl-0053)** — it lives in the
-  session-file HANDOFF (`notes/sessions/2026-07-30.md`, tail).
-  Re-pin e2699cc → settlement webs get the new STREET type →
-  renders for your approval → export. The game intake after is a
-  PAIRED DROP (world pack + e2699cc tileforge package together).
+- **FIRST: send the WF re-pin paste (sl-0058)** — it lives in the
+  session-file HANDOFF (`notes/sessions/2026-07-30.md`, tail). WF
+  re-pins the arc-closing TileForge cut `@9b8b2a2` (roadTypes 1–8
+  + the roadjoint transitions you approved), re-exports, and the
+  successor SUPERSEDES b75 pre-intake. **Do NOT intake b75 as-is**
+  — it predates the transitions. The game intake after that is a
+  PAIRED DROP (world pack + the 9b8b2a2 package) **and** needs the
+  path pin widened to 0..3 (street = value 3).
 - **THE LOOP acceptance run** — the rested headliner: town → Bone
   Reliquary King; your "judgeable" starts the L2 clock; judge the
   [T] numbers.
 - **Deck payloads**: worldshape 5 + gate1 2 + loop 4 + the loop-bar
   wording in your own words.
 - **Crosshair size/contrast call** (fix live since 0a7d69d).
-- Whenever: **TF extension rounds** (sl-0054 — other road types zoo
-  + transition scoping; fresh TF session resumes from the ask) ·
-  **W-13 walkability ask** (still not handed; session record §3) ·
-  **sl-0041 rehearsal** (world_filler directs the overworld; re-pins
-  to the newest world).
+- Whenever: **W-13 walkability ask** (still not handed; session
+  record §3) · **sl-0041 rehearsal** (world_filler directs the
+  overworld; re-pins to the newest world — now two versions
+  behind) · TF leftovers: REF3 promotion, the ashpile under-edge
+  ruling, the 30-second pane smoke.
+- **Road arc: DONE** — street type, four extra road types
+  (gravelway/flagway/corduroy/threshold, in-engine but unused by
+  writers pending their own round), the 21-pair joints, and the
+  standing **no-diagonal-roads rule (sl-0059)**. Nothing owed by
+  you here.
 
 ## A. From anywhere (phone / dead time — no game needed)
 

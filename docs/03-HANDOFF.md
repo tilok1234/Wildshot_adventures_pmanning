@@ -14,44 +14,49 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-07-31 (restart seam; PC restarting, all local sessions ended)
+# CURRENT HANDOFF — 2026-07-31 (account-switch seam; designer out of usage, hopping accounts)
 
 **This section supersedes everything below it.** Full detail +
-the in-flight WF paste: the tail HANDOFF of
-`notes/sessions/2026-07-30.md` (now the three-day story; Addenda
-26–35 = the 07-30 evening + the rested 07-31 day). Board at this
-seam, all verified and pushed:
+the WF paste to send FIRST: the tail HANDOFF of
+`notes/sessions/2026-07-30.md` (the three-day story; Addenda
+26–44 = the 07-30 evening + the whole 07-31 day). Board at
+this seam, all verified and pushed:
 
-- **The b74 overworld is live in-game** (banded settlement
-  streets era; game pin b74, porosity 60). The crosshair scales
-  with the viewport now (0a7d69d; size/contrast call still open).
-- **TileForge shipped its FIRST gated cut** —
-  `tileforge-dusk-complete@e2699cc`, planning-verified: NEW
-  roadType 4 "street" (10px sett town band), roadTypesLegacy
-  gone, registry non-empty (sl-0055).
-- **THE CHAIN IN FLIGHT: the b75 GAME INTAKE (sl-0060)** — WF
-  released wildshot-overworld-pack-dusk@b75, look-approved:
-  streets wear the street band, no road is diagonal (sl-0059
-  implemented as turn-cost routing), braids de-laddered
-  (zipSha 25f9d5c1…, sourceCommit a262620d,
-  planning-verified). PAIRED DROP + CONTRACT CHANGE: bundle the
-  e2699cc tileforge package into assets/tileforge (identity
-  refusal) AND extend the path pin to 0..3 (street = value 3,
-  1466 cells). In-place supersede of b74; porosity re-pin
-  expected (account every cell, sl-0052 precedent); recipe
-  unchanged (c756cc8d).
-- **Standing rule (designer, this seam): NO DIAGONAL ROADS for
-  the moment** — road lanes are orthogonal-only everywhere;
-  direction changes are L-step pairs (docs/08 Tooling
-  contracts; sl-0059).
-- Opens: sl-0060 (the b75 game intake — paste with the
-  designer), sl-0058 (WF re-pin to tileforge 9b8b2a2 —
-  designer-sequenced: fires on/after
-  the b75 walk verdict), sl-0041 (director loop;
-  world_filler now two world versions behind), standing
-  sl-0003/sl-0005. Resolved tonight: sl-0053 + sl-0057 (the
-  street round, executed as b75), sl-0054 (road arc closed),
-  sl-0055, sl-0056.
+- **THE ROAD ARC IS BUILT, END TO END.** TileForge shipped TWO
+  gated cuts today: `@e2699cc` (roadType 4 "street") and the
+  arc-closing **`@9b8b2a2`** (roadTypes 1–8 + the roadjoint
+  family — 84 hand-authored transitions, 21 class pairs × 4
+  orientations, auto-rendered at class switches). WorldForge
+  built and released **b75** (street band; no diagonal roads;
+  ladder-braid wart closed), designer-look-approved.
+- **b75 MUST NOT BE INTAKEN AS-IS** — it was built on the
+  e2699cc pin, BEFORE the transitions existed, so it renders
+  none of them; seeing them in the world was the whole point.
+- **THE ONE THING TO SEND NEXT: the sl-0058 WF re-pin paste**
+  (verbatim in the session-file HANDOFF). WF re-pins 9b8b2a2,
+  re-exports, and the successor SUPERSEDES b75 PRE-INTAKE
+  (b71→b72 precedent). The game then does ONE intake.
+- **That game intake is a PAIRED DROP + CONTRACT CHANGE:**
+  bundle the matching tileforge package (world_builder refuses
+  mismatched identity) AND extend the path pin to 0..3 —
+  street = value 3 (~1466 cells) is NEW game-side vocabulary
+  (the importer accepted 0/1/2 at sl-0043).
+- **Standing rule (designer, today): NO DIAGONAL ROADS for the
+  moment** — road lanes orthogonal-only everywhere, direction
+  changes are L-step pairs (docs/08 Tooling contracts;
+  sl-0059). WF implemented it structurally (turn-cost routing).
+- Opens: **sl-0058 (SEND THIS)**, sl-0060 (b75 delivery —
+  verified, superseded pre-intake), sl-0041 (director loop;
+  world_filler two world versions behind), standing
+  sl-0003/sl-0005. Resolved today: sl-0053, sl-0054, sl-0055,
+  sl-0056, sl-0057.
+- **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
+  sessions push hands-free lines and releases without the
+  designer relaying them — arm a persistent Monitor on
+  planning's origin + producer releases. GitHub's `/releases`
+  list is NOT newest-first (use `max_by(.published_at)`; the
+  by-tag endpoint is authoritative), and appends may sit
+  UNCOMMITTED in the working tree — check `git status` too.
 - **Rested-day items still legal today:** THE LOOP acceptance
   run (judgeable → L2 clock) · deck payloads (worldshape 5,
   gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·

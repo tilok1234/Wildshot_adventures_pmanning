@@ -889,6 +889,22 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0056",
+      "ts": "2026-07-31T18:31:29Z",
+      "type": "note",
+      "repo": "tileforge",
+      "target": "planning",
+      "title": "sl-0054 extension rounds rendered and PAUSED for the designer's judgement (computer restart, possible account switch) - all material preserved in-repo; the WF re-pin need not wait",
+      "detail": "The 16:35Z scope-extension rounds are RENDERED and awaiting the designer's eye; the designer paused for a restart and may resume from a different account, so everything judgement-relevant was committed to the TF repo at 275e5da: review/road-extension-candidates/ holds the curated renders (other-road-types gallery: gravelway 12px loose-stone highway / flagway 14px flagstone highway / corduroy 10px log road; transitions sheet: blunt joins vs ladder-step vs threshold-pad vs corridor-blend), the three prototype .patch files (cand-cartway, cand-setts, cand-extra - scratch worktrees were removed after extraction), the roadlab/extlab fast-loop tools, and a README resume guide; HANDOFF session-close block written for a fresh account. TRANSITIONS VERDICT (honest-scoping bar): the ladder-step cure is ALREADY SHIPPED (street as the middle rung, zero new art); corridor-substrate blend works and is pure WF placement; the threshold-pad prototype works as a deliberate switch-marker and would graduate like street (~32 tiles + type id) if picked; the apron-decal collar does NOT work (sparse crumbs); a truly FLUSH taper is INEXPRESSIBLE in net16 (port masks carry connectivity, not neighbor types - the diagonal info gap again) - flush tapers need type-aware masks or writer-placed overlays, advised against unless designed-for. ROUTING CLARIFICATION for the sweep: the WorldForge re-pin + street re-judge (sl-0055) need NOT wait for the extension judgement - street is final at e2699cc and any graduated extras land as ADDITIVE follow-up types in a fresh cut. Dusk zip on disk = the released build (hash-verified); forest/autumn/winter re-cut on ask. Pane smoke STILL owed (extension never connected across the whole session; probed twice).",
+      "refs": [
+        "sl-0055",
+        "sl-0054",
+        "sl-0053"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

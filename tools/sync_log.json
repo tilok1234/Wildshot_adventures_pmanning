@@ -944,6 +944,22 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0059",
+      "ts": "2026-07-31T20:40:39Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "RULING: no diagonal roads for the moment - road lanes are orthogonal-only everywhere, direction changes are L-step pairs (designer; standing rule out of the WF round's back-and-forth)",
+      "detail": "Designer, in planning, during the sl-0053/sl-0057 look-ruling rounds ('we need to make it a rule that we never use diagonal roads for the moment'): what was a per-round fix is now a STANDING RULE — no road lane anywhere (any WF writer, any theme, any future generator, any hand-authored road, the eventual game-side hand-carve, the world_filler director loop) may step diagonally; direction changes use orthogonal L-shaped step pairs, and class switches keep the three sanctioned moves (junction / threshold pad / ladder-step — never a bare diagonal or butt join). WHY: net16 port masks carry connectivity, not neighbor identity — diagonally-adjacent band cells cannot connect, so diagonal steps render as looping '8'/stub chains (the b74 walk artifact that opened sl-0053); no diagonal road art or system exists, TF ruled diagonals deprioritized (c18a52d: 'we wont use them in the game mainly'), and a flush diagonal system would need type-aware masks or writer overlays — its own deliberate project if ever wanted. STATUS [P] 'for the moment': revisit only as a deliberate design act, never casually. ALREADY ENCODED both sides: WF's writer-side L-step normalization pass (sl-0057, b75) and the packaged GAME-GUIDE no-pure-diagonal doctrine (e2699cc and 9b8b2a2). Recorded in docs/08 Tooling contracts + the docs/03 board. The live WF session got the instruction directly from the designer during the rounds; future sessions get it from this entry + docs/08.",
+      "refs": [
+        "sl-0053",
+        "sl-0057",
+        "sl-0054",
+        "docs/08-DECISION_REGISTER.md"
+      ],
+      "by": "agent"
     }
   ]
 }

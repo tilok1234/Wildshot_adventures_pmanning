@@ -36,6 +36,10 @@ seam, all verified and pushed:
   pack + e2699cc package — world_builder refuses mismatched
   identity) AND carries a path-contract change: value 3 street is
   NEW game-side vocabulary (importer accepted 0/1/2 at sl-0043).
+- **Standing rule (designer, this seam): NO DIAGONAL ROADS for
+  the moment** — road lanes are orthogonal-only everywhere;
+  direction changes are L-step pairs (docs/08 Tooling
+  contracts; sl-0059).
 - Opens: sl-0053 + sl-0057 (the WF round: look ruling → export
   @b75), sl-0058 (TF ARC-CLOSING CUT tileforge-dusk-complete@
   9b8b2a2 released + verified — roadTypes 1-8 + the roadjoint

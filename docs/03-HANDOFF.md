@@ -16,11 +16,12 @@
 
 # CURRENT HANDOFF — 2026-07-31 (account-switch seam; designer out of usage, hopping accounts)
 
-**This section supersedes everything below it.** Full detail +
-the WF paste to send FIRST: the tail HANDOFF of
-`notes/sessions/2026-07-30.md` (the three-day story; Addenda
-26–44 = the 07-30 evening + the whole 07-31 day). Board at
-this seam, all verified and pushed:
+**This section supersedes everything below it.** Full detail:
+the tail HANDOFF of `notes/sessions/2026-07-30.md` (the
+three-day story; Addenda 26–44) **plus
+`notes/sessions/2026-07-31.md`** (the fresh-account session:
+b76 swept, the game-intake paste verbatim, the icon-set
+round). Board, all verified and pushed:
 
 - **THE ROAD ARC IS BUILT, END TO END.** TileForge shipped TWO
   gated cuts today: `@e2699cc` (roadType 4 "street") and the
@@ -29,27 +30,33 @@ this seam, all verified and pushed:
   orientations, auto-rendered at class switches). WorldForge
   built and released **b75** (street band; no diagonal roads;
   ladder-braid wart closed), designer-look-approved.
-- **b75 MUST NOT BE INTAKEN AS-IS** — it was built on the
-  e2699cc pin, BEFORE the transitions existed, so it renders
-  none of them; seeing them in the world was the whole point.
-- **THE ONE THING TO SEND NEXT: the sl-0058 WF re-pin paste**
-  (verbatim in the session-file HANDOFF). WF re-pins 9b8b2a2,
-  re-exports, and the successor SUPERSEDES b75 PRE-INTAKE
-  (b71→b72 precedent). The game then does ONE intake.
+- **sl-0058 EXECUTED (2026-07-31 ~21:38Z, hands-free; both
+  watcher lanes caught it minutes after publish):** WF re-pinned
+  **9b8b2a2** (imported dusk-9b8b2a2-seed103991, WF 4291f79) and
+  released **b76** — planning-verified (GitHub digest = logged
+  zipSha 98c3170d…; tag→4291f79 on main; world byte-identical
+  to b75 modulo identity, 47-cell render diff all class
+  switches). **b76 SUPERSEDES b75 PRE-INTAKE and IS THE INTAKE
+  TARGET**; b75 stays archive only (sl-0060 resolved).
+- **THE ONE THING TO SEND NEXT: the b76 GAME INTAKE paste**
+  (verbatim in `notes/sessions/2026-07-31.md`; requirements in
+  sl-0061).
 - **That game intake is a PAIRED DROP + CONTRACT CHANGE:**
-  bundle the matching tileforge package (world_builder refuses
-  mismatched identity) AND extend the path pin to 0..3 —
-  street = value 3 (~1466 cells) is NEW game-side vocabulary
-  (the importer accepted 0/1/2 at sl-0043).
+  bundle the **9b8b2a2** tileforge package (dusk-9b8b2a2-
+  seed103991; world_builder refuses mismatched identity) AND
+  extend the path pin to 0..3 — street = value 3 (~1466 cells)
+  is NEW game-side vocabulary (the importer accepted 0/1/2 at
+  sl-0043). The WF-resolved tmj already carries the joint gids —
+  the roadJoints render rule only matters to a runtime
+  re-resolver (GAME-GUIDE 2.4/2.8).
 - **Standing rule (designer, today): NO DIAGONAL ROADS for the
   moment** — road lanes orthogonal-only everywhere, direction
   changes are L-step pairs (docs/08 Tooling contracts;
   sl-0059). WF implemented it structurally (turn-cost routing).
-- Opens: **sl-0058 (SEND THIS)**, sl-0060 (b75 delivery —
-  verified, superseded pre-intake), sl-0041 (director loop;
-  world_filler two world versions behind), standing
-  sl-0003/sl-0005. Resolved today: sl-0053, sl-0054, sl-0055,
-  sl-0056, sl-0057.
+- Opens: **sl-0061 (b76 delivery — SEND THE INTAKE PASTE)**,
+  sl-0041 (director loop; world_filler still on b72), standing
+  sl-0003/sl-0005. Resolved today: sl-0053–sl-0058, sl-0060
+  (superseded pre-intake).
 - **SWEEP DUTY NEEDS A REAL WATCHER** (learned tonight): repo
   sessions push hands-free lines and releases without the
   designer relaying them — arm a persistent Monitor on

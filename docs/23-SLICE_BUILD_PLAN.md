@@ -46,6 +46,24 @@ multiplication risk CORE-38 feared: per-class content stays LEAN —
 ~2–3 weapon frames + 2–3 ability items per class in-slice, patterns
 shared-tech wherever honest.
 
+**Dungeon truth (designer flag, same session):** the pack places
+dungeon ENTRANCES — four slice-marked bindings at real existing
+structures (incl. the designer-locked Wetlands beast den).
+INTERIORS (committed instance, rooms, boss arena) are chapter work
+by design: each chapter opens its zone's dungeon as a simple
+stand-in interior + boss first ("place them there for now, fix it
+later" — the designer's disposition); quality passes iterate.
+
+**Working principle (designer, same session): MANAGEABLE SLICES
+ALL THE WAY DOWN** — the chapters bound the top level, and within
+each phase work lands as SMALL SEALED SEAMS: one system per seam,
+all gates green before the next seam opens, never a big-bang
+chapter drop. Quality stays up because nothing unproven stacks on
+anything unproven (the house one-thing-per-commit discipline,
+applied to build sequencing). Boss craft gets designer ROUNDS by
+design (the rehearsal pattern) — feel iteration is scheduled work,
+not scope creep.
+
 ## Living-world plumbing v1 (the S0 core; planning's recommendation, designer-accepted)
 
 Four deterministic pieces, NOTHING more (no schedules, no ecology —

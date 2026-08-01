@@ -1664,6 +1664,23 @@
         "docs/23-SLICE_BUILD_PLAN.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0100",
+      "ts": "2026-08-01T13:27:12Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE SLICE BUILD GO (designer, opening the slice game chat): S0 FOUNDATIONS routed per docs/23 - four sealed seams, stat-frame surgery first, one seam at a time",
+      "detail": "The designer is opening a fresh game chat for the Slice v0.1 build ('im making handoff now in preperation for starting new game chat for the slice') - the doc-23 GO fires. THE ASK: execute S0 as FOUR SEALED SEAMS in this order, gates green + hands-free logbook line per seam, never two seams open at once (the designer's manageable-slices principle, doc 23): SEAM 1 - THE STAT FRAME ENTERS THE SIM (docs/22 blocks 1-8 become code; the calculator's data/balance_frame.json is the single tuning source; deliberate SERIAL bump + goldens/battery re-baseline + DodgeBot re-proofs at floor AND the 115 cap, the fit-rule-change discipline; the movement-integrator hard clamp lands here); SEAM 2 - LIVING-WORLD PLUMBING v1 (activation leash R + hysteresis / site tether + leash-back / depth-keyed respawn ticking only while the player is away / the importer reading the vendored content pack's placements+territories as spawn tables - no new authoring format; the sl-0099 density finding tunes HERE, pulls scale up once the leash exists); SEAM 3 - OVERWORLD DEATH (CORE-43: respawn at settlement + gold percentage [T] + the walk back; the b65 mechanism ports, run framing retired per sl-0098); SEAM 4 - WIRING (the 32 NPCs stationed in settlements W-8-style, icons into the UI where cheap; both packs gate-guarded already). S0 GATE: Green Country alive + walkable with the stat frame underneath, full pretester green on an exclusive seam. THEN STOP - S1 (Green chapter content) gets its own routing after the designer's word. Constraints standing: persistent world only (no run framing, sl-0098); determinism + named streams; proofs never weaken; negative-test every new gate; plain names to the designer.",
+      "refs": [
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "docs/22-STAT_SYSTEM.md",
+        "sl-0098",
+        "sl-0099",
+        "sl-0096"
+      ],
+      "by": "agent"
     }
   ]
 }

@@ -133,11 +133,16 @@ Board at this seam:
   **THE LOOP RUN** (the big one) · b65 city walk · audio-in-play ·
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
-- **Designer-gated items now on the plate** (sweep as they land):
-  **the SLICE BUILD GO** (docs/23 staged: S0 foundations → Green
-  first; the go fires the S0 paste) · the Hell Engine V2
-  exact-file listen (RF session) · the icon tool's source push
-  from the other PC. **THE FEEL SESSION IS DONE (sl-0099):**
+- **THE SLICE BUILD IS GO (sl-0100, 2026-08-01 ~13:27Z):** the
+  designer opened the slice game chat; S0 routed as FOUR SEALED
+  SEAMS (stat-frame surgery → living-world plumbing v1 →
+  overworld death → pack wiring), one seam at a time, planning
+  sweeps each; S0 gate = Green Country alive with the stat frame
+  underneath, then S1 waits on the designer's word. Doc 23
+  carries the dungeon truth (entrances placed, interiors =
+  chapter work) + the manageable-slices principle. Still idle
+  beside it: the Hell Engine V2 exact-file listen (RF session) ·
+  the icon tool's source push (designer-confirmed later-item). **THE FEEL SESSION IS DONE (sl-0099):**
   all five scenarios played — directed placement PASSES, one
   finding (density low) self-dispositioned as slice tuning =
   the same work item as the S0 leash. **sl-0041 RESOLVED — the

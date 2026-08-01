@@ -48,8 +48,11 @@ through round 11). Board:
 - **PACKS HOME:** icons v0.1 (470 glyphs 16×16, intaken sl-0085,
   gate-guarded, UNWIRED until the Loop acceptance) · the NPC slice
   roster (32 characters, **RELEASED wildshot-npc-slice-v1@bf6269c —
-  the assembler's first release**; intake paste with the designer,
-  sl-0089). Wiring order: the Loop acceptance run FIRST — the loop
+  the assembler's first release — and INTAKEN, sl-0092, game
+  9192cbf: end-to-end provenance proven publish-guard→release→
+  consumer, all shipped hashes verified, 21st fixed gate, scale
+  FULLY consistent with the enemy pack**). Both packs home +
+  unwired. Wiring order: the Loop acceptance run FIRST — the loop
   is judged as built.
 - **NEXT BIG THING: the STAT TALK, in a FRESH CHAT.** docs/22 is a
   staged nine-block skeleton (constraints pulled in, empty RULING

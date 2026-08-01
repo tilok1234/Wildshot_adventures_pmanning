@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script></head>
+<body style="margin:0"><div id="c" style="width:1120px;height:620px"></div>
+<script>
+var ch = echarts.init(document.getElementById('c'), null, {renderer:'canvas'});
+ch.setOption({
+  backgroundColor:'#ffffff',
+  title:{text:'Same 30 armor vs growing hits: where each model breaks',left:'center',top:10,textStyle:{fontSize:20,color:'#2C3E50'}},
+  legend:{bottom:12,itemWidth:26,textStyle:{fontSize:13}},
+  grid:{left:70,right:50,top:70,bottom:80},
+  xAxis:{type:'category',data:["5", "10", "15", "20", "25", "30", "40", "50", "60", "80", "100", "150", "200"],name:'Incoming hit size',nameLocation:'middle',nameGap:30,nameTextStyle:{fontSize:13},axisLabel:{fontSize:12}},
+  yAxis:{type:'value',name:'Damage taken',nameTextStyle:{fontSize:13},axisLabel:{fontSize:12}},
+  series:[
+    {name:'No mitigation',type:'line',data:[5, 10, 15, 20, 25, 30, 40, 50, 60, 80, 100, 150, 200],lineStyle:{type:'dashed',width:2,color:'#95A5A6'},itemStyle:{color:'#95A5A6'},symbol:'circle',symbolSize:5},
+    {name:'Flat −30 with 10% floor (RotMG-style)',type:'line',data:[0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 10, 20, 30, 50, 70, 120, 170],lineStyle:{width:3.5,color:'#E8572A'},itemStyle:{color:'#E8572A'},symbol:'circle',symbolSize:6},
+    {name:'Hyperbolic K=15 (Brotato)',type:'line',data:[1.7, 3.3, 5.0, 6.7, 8.3, 10.0, 13.3, 16.7, 20.0, 26.7, 33.3, 50.0, 66.7],lineStyle:{width:3.5,color:'#2E86C1'},itemStyle:{color:'#2E86C1'},symbol:'circle',symbolSize:6},
+    {name:'Hyperbolic K=100 (League/RoR2)',type:'line',data:[3.8, 7.7, 11.5, 15.4, 19.2, 23.1, 30.8, 38.5, 46.2, 61.5, 76.9, 115.4, 153.8],lineStyle:{width:3.5,color:'#7FB3D5'},itemStyle:{color:'#7FB3D5'},symbol:'circle',symbolSize:6},
+    {name:'Hit-size-dependent (PoE)',type:'line',data:[2.3, 6.2, 10.7, 15.4, 20.2, 25.0, 34.8, 44.6, 54.5, 74.4, 94.3, 144.2, 194.2],lineStyle:{width:3.5,color:'#8E44AD'},itemStyle:{color:'#8E44AD'},symbol:'circle',symbolSize:6}
+  ]
+});
+</script></body></html>

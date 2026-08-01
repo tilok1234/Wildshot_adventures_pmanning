@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script></head>
+<body style="margin:0"><div id="c" style="width:1120px;height:620px"></div>
+<script>
+var ch = echarts.init(document.getElementById('c'), null, {renderer:'canvas'});
+ch.setOption({
+  backgroundColor:'#ffffff',
+  title:{text:'One 24-damage hit, 6 points of armor: what you actually take',left:'center',top:10,textStyle:{fontSize:20,color:'#2C3E50'}},
+  grid:{left:70,right:40,top:70,bottom:110},
+  xAxis:{type:'category',data:["RotMG\n(flat, 10% floor)", "Vampire Survivors\n(flat, min 1)", "Terraria Classic\n(flat \u00d70.5)", "Brotato\nA/(A+15)", "League / RoR2\nA/(A+100)", "Path of Exile\nA/(A+5\u00b7hit)", "Diablo 3 @lv70\nA/(A+3500)"],axisLabel:{interval:0,fontSize:11.5,lineHeight:15,color:'#2C3E50'}},
+  yAxis:{type:'value',name:'Damage taken (of 24)',nameTextStyle:{fontSize:13},max:26,axisLabel:{fontSize:12}},
+  series:[{type:'bar',barWidth:'52%',
+    data:[{"value": 18, "itemStyle": {"color": "#E8572A"}}, {"value": 18, "itemStyle": {"color": "#E8572A"}}, {"value": 21, "itemStyle": {"color": "#F1948A"}}, {"value": 17.1, "itemStyle": {"color": "#2E86C1"}}, {"value": 22.6, "itemStyle": {"color": "#7FB3D5"}}, {"value": 22.9, "itemStyle": {"color": "#8E44AD"}}, {"value": 24.0, "itemStyle": {"color": "#95A5A6"}}],
+    label:{show:true,position:'top',fontSize:15,fontWeight:'bold',color:'#2C3E50',formatter:function(p){return p.value.toFixed(1);}},
+    markLine:{symbol:'none',lineStyle:{color:'#C0392B',type:'dashed',width:2},
+      label:{formatter:'No mitigation (24)',position:'insideStartTop',fontSize:12,color:'#C0392B'},
+      data:[{yAxis:24}]}
+  }]
+});
+</script></body></html>

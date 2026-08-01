@@ -216,7 +216,24 @@ TRADE from a sanctioned list (+damage/−armor, +speed/−HP,
 +range/−speed…), budget-neutral by the Block-4 table; the validator
 refuses un-paired uplifts. Archetypes are named trades (light/heavy/
 balanced), not free-form.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "yeah this reccomendation is very
+good"):** RULED AS RECOMMENDED — (1) **every armor/ring stat line
+is a PAIRED TRADE from the sanctioned list (v1):** +damage/−defense
+· +speed/−HP · +range/−attack speed · +HP/−speed · +defense/−damage
+· +mana/−HP — one up, one down, budget-neutral vs the block-4
+tables; NO un-paired uplifts exist — the block-9 validator REFUSES
+any item that gets something for nothing (the TECH-16 hook made
+real); (2) **armor archetypes are the three named trades:** light
+(+speed/damage-lean, pays HP/defense) · heavy (+HP/defense, pays
+speed) · balanced (small trades both ways) — learned once, read
+forever; (3) **rings = the pure situational slot:** each ring is
+exactly ONE sanctioned pair sharpened — a choice about the fight
+you're walking into, never a ladder; no universal ring by
+construction; (4) **ONE GRAMMAR EVERYWHERE:** tree nodes and future
+uniques speak the same pair vocabulary (Appendix A.3's grammar
+finding) — every tooltip in the game reads the same way. List
+extensions are a deliberate act (add a pair = a register row).
+Register: CORE-37 second amendment.
 
 ## Block 8 — The unique rule-break whitelist
 

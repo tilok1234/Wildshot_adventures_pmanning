@@ -1,0 +1,145 @@
+[
+  {
+    "title": "The game is the living world you described in Part I — the loop is just its first mile",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 5,
+    "unblocks": "loop bar wording, all zone work",
+    "detail": "You already ruled this in chat (2026-07-30, forklift session) — this card is the confirmation tap for the record. The Erenshor-style persistent zoned world IS the design you recorded from question 16 onward (zone bands, city-fee death, geographic quests, living hubs, collectathon endgame). The loop milestone is the first playable mile of that world, not a separate run-game. Nothing in the register needs amending.",
+    "options": ["Confirmed", "Needs more talk"],
+    "lean": "Confirmed"
+  },
+  {
+    "title": "Name it a pillar: zones intertwine — glimpses of your future self are hidden everywhere",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "zone authoring direction",
+    "detail": "Your call from the forklift session: zones keep a general level progression, but deliberately contain cross-band pockets — an endgame corner inside a starter zone (walk in, get one-shot, learn and remember), a high-level dungeon under a low-level city. Your words: 'we can potentially score a lot here.' This card asks: is this a named pillar (protected, always considered in zone work) or just a normal rule?",
+    "options": ["Pillar", "Normal rule"],
+    "lean": "Pillar"
+  },
+  {
+    "title": "Name it a pillar: everything in the world has a reason a villager could tell you",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "world_filler direction sessions, all placement work",
+    "detail": "Your call: the world must never feel like objectives placed on a map. Every camp, dungeon, rare route, and road has an in-world reason discoverable by looking at it. Working test for any placement: 'what is this doing here?' should have an answer a villager could give. Wolves denning above the sheep farms passes; 'a level-8 camp because this is the level-8 area' fails. (Extra timely: the mob/boss placement rehearsal is running RIGHT NOW — this pillar is its judging test.)",
+    "options": ["Pillar", "Normal rule"],
+    "lean": "Pillar"
+  },
+  {
+    "title": "Night and weather may never make the game harder to see or heavier to run",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "future day/night and weather work",
+    "detail": "Your recorded pet peeve turned into a standing guardrail: whenever day/night or weather get built (both deferred), night must never be a visibility tax that makes grinding feel bad, and weather must never cost framerate. Atmosphere only ever adds. Adopting this now means no future session can build a darkness-tax night by default.",
+    "options": ["Adopt as law", "Keep soft"],
+    "lean": "Adopt as law"
+  },
+  {
+    "title": "Adopt the aliveness test: organic enemies first, loot worth reading second, sound you never mute third",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "first-slice priorities",
+    "detail": "Your own definition from today, in order: (1) enemies and camps read as organic places, not generic placements — the prerequisite for caring at all; (2) drops that make you stop and read the stats; (3) music and sfx good enough that you don't mute them (already passed — you historically mute game music and haven't muted this). 'When I want to play the game, that is when it feels alive.' This orders the first-slice work.",
+    "options": ["Adopt as the first-slice test", "Rework the wording"],
+    "lean": "Adopt as the first-slice test"
+  },
+  {
+    "title": "Testers move behind the loop - Gate 1 rewritten",
+    "category": "ruling",
+    "repo": "planning",
+    "actionable": "now",
+    "weight": 4,
+    "unblocks": "the go-hard phase starting without a doomed recruitment drive",
+    "detail": "Already ruled by you in-session tonight (2026-07-30, ~04:20) - this click is the rested ratification. The old plan's Gate 1 wanted fresh outside testers judging the combat lab: 10-16 recruited candidates, at least 4 strangers per cycle. Your ruling: that is not realistic for a game at this shape in 2026. Strangers try an early build once and never twice, which means fresh eyes are spent the moment they touch it - they are the one resource you cannot renew. A failed recruitment drive produces silence, and silence always reads as 'the game is bad' when it really means 'nobody saw it'. It was also the only gate in the whole project that depended on other people's behavior instead of your own effort. So: (1) cold recruitment is RETIRED, not postponed - no public tester channel until the game can attract players on its own; (2) the go-hard phase builds THE LOOP first - the pieces already exist (world, town, bosses, sprites, audio), what is missing is the playable run that uses them; (3) human judgment returns as 2-3 warm, WATCHED first looks once the loop bar (next card) is met. The old rule's heart - 'the gate is never judged solely by the builder' - survives; it just waits until there is a game for someone to judge. This reverses the outside-tester rule from 2026-07-26 with cause: that rule assumed recruitable strangers, and the assumption fails against reality. The tester-build pipeline itself stays - tonight's clean 58.7 MB zip is exactly what will make the warm looks effortless.",
+    "options": ["Ratify the rewrite", "Roll it back - keep the old Gate 1"],
+    "lean": "Ratify the rewrite"
+  },
+  {
+    "title": "The loop bar - what earns the first fresh look (make it yours)",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "a finish line for the go-hard phase so it cannot recede forever",
+    "detail": "The draft bar, written to be rewritten in YOUR words - this is the target the go-hard phase aims at, so it has to be yours. Draft: a person can sit down unguided and get one complete run - spawn in the town, walk out, fight through rising danger where loot actually drops and matters, reach the first boss or die trying, death costs something real, and dying makes you want to press retry NOW. When that run exists and stays fun for YOU playing it every day for a week straight, the 2-3 warm watched testers get called for their one fresh look. Two honest notes baked in: the bar is about FEEL and STAKES, not polish - your genre forgives dated visuals and never forgives flat combat; and from now on test scenes should be built so they leave playable content behind where possible, so testing accretes into the game instead of leaving scaffolding (your own observation tonight: the batteries verified every system, but 'playable' was never a gated artifact - this card makes it one).",
+    "options": ["Adopt as drafted", "I will rewrite the bar in my words", "Not yet"],
+    "lean": "Adopt as drafted"
+  },
+  {
+    "title": "Death in normal mode: run back + gold cost",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "the loop's stakes without forcing hardcore on anyone",
+    "detail": "Already ruled by you in the loop design conversation (2026-07-30) - this click is the rested ratification. Dying WITHOUT permadeath on: you respawn in town, lose a slice of your gold (exact percentage tuned later), and the walk back to where you were is part of the price - dying deep costs real time. Your equipment is never taken in normal mode. Permadeath stays a choice made when creating a character: people who pick it want that experience, people who skip it get real-but-fair stakes. Hardcore death = the character is gone.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "The loot frame: five tiers + boss-tied uniques",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "loot that moves you forward AND gives you something to chase",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. Equipment comes in five tiers, T1 to T5, dropping mainly from normal enemies (bosses can drop it too). Unique items only come from bosses; each unique is tied to its specific boss so you can grind AIMED at the item you want, and one boss can hold several uniques in his table. Rates demand real effort but stay reachable; no pity system - the breadth of other rewards is the consolation on dry streaks, exactly as the design document already binds. Tiers are how you progress through the world; uniques are the goal you chase.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "Levels and XP are part of the loop",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "the zero-to-hero feel arriving with the first loop",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. The plan always had levels and XP, so the first loop includes them in minimal form: enemies grant XP, levels arrive on a simple curve, stats grow in small honest steps. Class skill trees wait for later - this is just the feeling of getting stronger while you hunt gear.",
+    "options": ["Ratify", "Gear-only instead"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "First boss: Bone Reliquary King wearing the proven kit",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 3,
+    "unblocks": "a real boss at the loop's edge without weeks of new boss work",
+    "detail": "Already ruled by you (2026-07-30) - this click is the rested ratification. The three-phase elite that is already built, tuned, and bot-proven dodgeable gets the Bone Reliquary King's look from your 13-boss pack (the name can change down the road). He guards the far edge of the danger gradient and carries the loop's first unique drop, per your named-challenge rule. A brand-new bespoke boss kit comes later - this gets a real boss into the loop now.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  },
+  {
+    "title": "Icon set lives in the game repo as a one-time generated set (not the assembler, not a new repo)",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 2,
+    "unblocks": "the icon Tier-0 build after the Loop acceptance run",
+    "detail": "You ruled this in chat tonight (2026-07-31) with 'i think' twice — this click firms the lean into a decision. The icon set (docs/21: 15 kinds approved, roughly 350–600 glyphs at launch scope) gets built by an in-repo deterministic generator in the game repo, exactly like the projectile pack — NOT inside the sprite assembler (no risk to it), NOT a new repo in the ecosystem (icons are a one-time set, like projectiles). The first small batch (~15–25 glyphs for the loop's equip surface + the 9 stat icons) fires only after your Loop acceptance run, so the loop gets judged exactly as built.",
+    "options": ["Confirm the seat", "Rethink"],
+    "lean": "Confirm the seat"
+  },
+  {
+    "title": "Crosshair: keep the live size/contrast fix",
+    "category": "ruling",
+    "repo": "game",
+    "actionable": "now",
+    "weight": 1,
+    "unblocks": "closing the oldest open nit on the board",
+    "detail": "The crosshair size/contrast fix has been live in every build since 0a7d69d and you have played on it for days without complaint — it was just never formally ruled. This click closes it. If it ever bothers you again, it reopens as a normal taste call.",
+    "options": ["Ratify", "Change it"],
+    "lean": "Ratify"
+  }
+]

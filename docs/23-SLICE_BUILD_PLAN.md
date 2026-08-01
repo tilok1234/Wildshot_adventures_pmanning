@@ -96,6 +96,30 @@ whitelist break each, numbers at build]):**
   crocodile the den literally belongs to; the den promises a
   beast, the den delivers THE beast.
 
+- **SNOW COUNTRY (ruled, "1 and 1") — the finale pair:** world
+  boss = **THE FROST WYRM** — the white wyrm under the western
+  snowfields, the thing even the Keepers won't name
+  (burrow-and-erupt spectacle; the west finale destination).
+  Dungeon = **THE BONE RELIQUARY**, boss **THE BONE RELIQUARY
+  KING** — CANONIZED: the loop's proven first boss becomes real
+  content; the reliquary his name promised is IN the ruined city,
+  the crowned skeleton variant is his sprite, the Keepers' whole
+  purpose points at his door, and he keeps the loop's first
+  unique. **The Puppeteer (Puppet Court) PARKS as the sanctioned
+  second-snow-boss enrichment candidate** (the sl-0091 one-round
+  lock-lane addition, when the designer wants it).
+- **Unique-concept sketches so far [P], one distinct break each:**
+  Old Tusk's Hide (armor over-budget w/ paired cost) · the
+  Sentinel's Beam (staff pattern replacement) · the Deep Maw's
+  Lure (rule-bending utility — light/aggro trickery, concept
+  open) · a Frost Wyrm piercing break (b-family, concept open) ·
+  the Bone Reliquary King's = the loop's first unique, carried.
+  Remainder land at chapter build inside the ~8–12 budget.
+
+**THE NAMING ACT IS COMPLETE (2026-08-01): 4 factions + all 8
+slice bosses named, every one explainable by a villager in one
+sentence. S1–S4 consume these as the chapters open.**
+
 **THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
 the [P] candidates from the icon round):** **the Wardens** (Green
 Country — the line between the farms and the roads' bandits) ·

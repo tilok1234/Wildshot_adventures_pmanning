@@ -1734,6 +1734,23 @@
         "game@098a679"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0104",
+      "ts": "2026-08-01T21:23:04Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "S1 GREEN COUNTRY IS GO (the designer's word): the first content chapter - sealed seams per doc 23; Old Tusk, the Warren, quests, the zone comes true",
+      "detail": "The designer fires S1 ('should we maybe consider starting s1?' -> planning: yes, the speed re-walk rides in parallel). Doc 23 S1 + the naming act govern; the enemy split table + boss cast are IN doc 23. Suggested sealed-seam order (the game session may re-order with cause, one seam at a time as law): SEAM 1 - THE GREEN ROSTER: the zone's 14 families (slime/goblin/boar/wolf/bat/shroom/wasp/beetle/moth/snail/porcupine/scarecrow/treant/bandit) as archetype DATA ROWS (CORE-44 role grammar - fodder/pack/ranged/support/chaser spread; new ordinaries are data rows on existing archetypes per the doc-19 rule) wearing the enemy-pack sprites, ALL VARIANTS in play within the zone (the designer variability ruling); Green territories re-tabled from archetype-everywhere to the real roster (the importer's mapping layer, not new format); density may rise now the leash exists (the sl-0099 disposition). SEAM 2 - T1 LOOT LIVE IN GREEN: drop tables per the balance_frame tier budgets, the block-4 slot jobs, tooltips per the ruled grammar. SEAM 3 - OLD TUSK: the hand-placed boss becomes THE boar (kit pass - special never a task; the Warden stand-in retires at his site; designer feel ROUNDS are scheduled work per doc 23) + the first unique OLD TUSK'S HIDE (armor over-budget defense WITH a real paired speed cost - the block-8 break (c); numbers from the block-4 tables via the validator). SEAM 4 - THE WARREN: the Green dungeon interior at its bound entrance (simple stand-in rooms first per the designer dungeon disposition - committed instance, denser/faster Green-group packs, KING GRUBB at the bottom on a kit pass). SEAM 5 - QUESTS v1: 3-5 generic quests (kill/fetch/visit) off the Green giver slots, each carrying its slot's REASON tag (the villager-reason pillar); generic-first per the designer disposition, hand-authoring reserved. SEAM 6 - FISHING/FORAGING v1: basic (the designer's word) - a fishing verb at water, a foraging verb at gather spots, small honest yields; no automation (CORE-48). NOT in S1: skill-tree content (the 20-min designer sketch moment happens planning-side during this chapter; wiring lands when it exists), T5, other zones' rosters. THE CHAPTER GATE: the designer LIVES IN GREEN for a few days - the docs/19 three sentences' first honest read; S2 does not start without the designer's word. Standing law unchanged: sealed seams, logbook line per seam (the session-file pattern accepted), proofs never weaken, negative-test new gates, plain names. The battery-parallelization tooling ask rides independently whenever the session picks it up.",
+      "refs": [
+        "sl-0101",
+        "sl-0103",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "docs/22-STAT_SYSTEM.md",
+        "sl-0099"
+      ],
+      "by": "agent"
     }
   ]
 }

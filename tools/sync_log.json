@@ -1518,6 +1518,28 @@
         "docs/01-GAME_DESIGN_DOCUMENT.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0092",
+      "ts": "2026-08-01T10:36:17Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "planning",
+      "title": "NPC cast v1 is safely in the game project - all 32 characters arrived exactly as released (the pack's own built-in checksums all verified) and a permanent automatic check now guards them; nothing appears in the game yet by rule (that waits for the slice build after the big Loop play-through)",
+      "detail": "sl-0089 executed hands-free per the routed intake (raw drop beside the other assembler packs). RELEASE TRANSPORT with the provenance chain proven END-TO-END for the first time on an assembler artifact: fetched by tag, GitHub computed asset digest == local sha256 == the delivery record (301,736 bytes); tag resolves to bf6269ca and compare-vs-main says IDENTICAL (the release is the assembler main tip); the manifest's own provenance block (sl-0045 publish gate) claims cleanPushedSource at the same commit with origin/main containment - independently confirmed, the b7eae05f wound class structurally closed and now exercised from the consumer side. Vendored assets/wildshot-npc-slice-v1/ = 70 files: 32 character sheets + 32 regen recipes + assembler-library.json + NPC_BRIEF.md + README + review pair. HASH DOCTRINE INVERTED vs the icon intake: this manifest SHIPS per-file sha256s - all 69 VERIFIED at staging (not generated) plus 32/32 character-entry hashes cross-checked against the files block; the passport pins only manifest.json itself (the one file a manifest cannot hash) + the verified provenance. FIXED GATE tools/validate_npc_pack.py = the 21st pretester fixed step + a CI lint-job row: manifest pin, provenance (cleanPushedSource + sourceCommit), shipped-hash parity both directions, unique ids, 480x96 sheets in the manifest's 20x4 layout (24x24 logical frames at exportScale 1), declared binary alpha, recipes/library/contact-map parse; NEGATIVE-TESTED on a scratch copy (corrupt sheet + deleted recipe + edited manifest -> exit 1, all three findings named). Boot clean; pretester fixed steps + export + lockdown probe ALL GREEN this seam, battery deliberately skipped (zero sim change - assets/ is .gdignore'd; smoke + goldens x10 prove hashes unmoved; full 28-row gate rides the next exclusive seam). THE ROUTED SCALE CHECK, reported with zero changes: FULL CONSISTENCY with the enemy-pack consumption - 24px logical at exportScale 1 == the enemy pack's cell 24 x export_scale 1 (native-res 1x render treatment carries; no boss-pack-style scale story needed), direction order down/left/right/up IDENTICAL, layout semantics IDENTICAL (rows = dirs, cols = anim spans, the exact frame_contract geometry assembler_library already derives); the NPC anim roster is a SUPERSET (real cast:4 + death:4 rows - the animations the library currently aliases cast->attack, death->hurt become real for NPCs); the only wiring-time work is manifest-schema translation (character-pack format v3: characters[]/logicalFrame/sheet vs the enemy pack's actors/frame_contract/cell) via a small adapter or a third library instance. RIDER (staleness audit) DISCHARGED BY CONFIRMATION: the CLAUDE.md docs/08+12 truth-up flag already carries its cleared annotation inline (cleared at the b72 intake) - no stale flag stands, no edit needed; the milestone block's tail reflects the loop era (Gate-1 rewrite absorbed, Loop v1, loop-era intakes). NO WIRING by ruling - NPCs wire at slice build, post-Loop-acceptance, alongside the icons (sl-0083). Lock pin added (game<-assembler second pin, beside the enemy catalog). Designer-side stands as sl-0089 recorded: approval [P], on-screen taste rides slice wiring; watch-items (24px named-vs-villager blur -> quest markers; dark-outfit dusk contrast -> one-field regen) ride the wiring round. || PLANNING VERIFICATION ~2026-08-01T10:37Z (append lane honored): PASSED with the established pending bit - 9192cbf verified LOCALLY on game main (ahead 1, session mid-close; third instance of the push-timing pattern, origin re-check rides the next touchpoint); the END-TO-END PROVENANCE PROOF is the headline (publish guard -> release -> consumer-side independent confirmation - the b7eae05f class closed AND exercised); the inverted hash doctrine (verify shipped hashes, passport pins only the manifest) is exactly right for a manifest that ships them; the scale answer is the best case (FULL consistency, no adapter drama - a schema translation at wiring); the audit RIDER discharged by confirmation (no stale flag stood). sl-0089 RESOLVED. Both packs now sit HOME and UNWIRED awaiting the Loop acceptance; the leak session's close (b4cbced 'windowed-close teardown') noted as concluded game-internal.",
+      "artifact": {
+        "id": "wildshot-npc-slice-v1@bf6269c",
+        "sourceCommit": "bf6269ca6fc07b3d95a826c95ec6c9c29c6daf53",
+        "hash": "zipSha256 548e0c9608a190983ac9705b6e1c9c36f29c2390022ebe55d85dc74919c23607"
+      },
+      "refs": [
+        "sl-0089",
+        "sl-0084",
+        "sl-0083",
+        "sl-0082",
+        "game@9192cbf"
+      ],
+      "by": "agent"
     }
   ]
 }

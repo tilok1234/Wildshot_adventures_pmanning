@@ -84,9 +84,18 @@ Board at this seam:
   embedded sourceCommit; GitHub digest = the logged zip sha
   13e0759d…) — 127 placements / 92 territories / all eight locks
   held / 9-of-9 gates + both consumption verifiers green.
-  world_filler is DONE with docs/20 step 1; the game-intake paste
-  (reference ONLY, no importer) is the next paste; step 2 = the
-  designer's feel verdict after the game-side reference pass.**
+  world_filler is DONE with docs/20 step 1. **THE GAME INTAKE +
+  REFERENCE PASS EXECUTED HANDS-FREE same hour (sl-0094, game
+  447b681, planning-verified; the producer committed planning
+  itself — 4264668, eleventh instance, interleave clean):**
+  vendored + passport + b77 pairing mechanized as the 22nd fixed
+  gate; FIVE hand-authored picker scenarios on real pack cells,
+  all proof-PASSED (battery 28→33); the cold finding recorded
+  (no activation leash yet — the importer's core question;
+  orbit-vs-point openness). The doc-17 NONE placeholder is now
+  the FIRST real game←world_filler pin. **STEP 2 IS ARMED: the
+  designer's feel session on the five scenarios (danger ramp,
+  boss spot, territory texture — their words).**
 - **PACKS HOME:** icons v0.1 (470 glyphs 16×16, intaken sl-0085,
   gate-guarded, UNWIRED until the Loop acceptance) · the NPC slice
   roster (32 characters, **RELEASED wildshot-npc-slice-v1@bf6269c —

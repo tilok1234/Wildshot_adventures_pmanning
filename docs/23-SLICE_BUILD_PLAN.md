@@ -240,6 +240,26 @@ re-verification is cheap; tents matter less than Old Tusk this
 week). Fires only on the designer's word; pastes get staged at
 that moment (labeled → WORLD_FILLER and → WORLDFORGE).
 
+## Tooling lane (no sim semantics; designer-approved 2026-08-01 evening)
+
+- **PARALLELIZE THE BATTERY (routed → game):** the full gate's
+  ~45 min is machine time but the designer "is starting to feel
+  it"; the runs are independent replays — run N-wide, byte-
+  identical verdicts to serial proven once, coverage untouchable
+  (the 45 min bought the ringer finding on day one — trimming
+  coverage is never the lever). Target full gate ≲10 min +
+  per-run timing table.
+- **MODEL SEATS (designer-asked, planning's recommendation):**
+  game build = Fable 5 max (sim surgery) · planning = Fable 5 ·
+  producer rounds = Opus 5 · mechanical runs = Sonnet 5. Rule:
+  the stronger the gates around a seat, the cheaper its model
+  can safely be; design-heavy rounds bump to Fable for the day.
+- **MORE-PARALLEL-AGENTS: LOOK FIRST (designer: "lets look some
+  more at that first")** — the examination when wanted: the
+  exclusive-seam law under more writers · shared-file pressure
+  (the sync-log id-guard's four catches) · planning's sweep as
+  the serialization point. A session-sized think, parked.
+
 ## Open at staging
 
 - The **build GO** (fires the S0 paste) — the designer's word.

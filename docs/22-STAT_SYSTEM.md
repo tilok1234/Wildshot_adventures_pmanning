@@ -181,7 +181,28 @@ base speed (CORE-33 + falsifier); the fit rule changed nothing here
 bases within ~10% of each other; gear +ms rare and small; HARD CAP at
 +15% over the slowest base; DodgeBot proofs run at BOTH floor and
 cap forever after. Research B sanity-checks the cap philosophy.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "we can do it as you reccomend,
+but we might have to look at it later after we tried it some"):**
+RULED AS RECOMMENDED, the cap NUMBER explicitly feel-gated [P/T] —
+(1) class bases 100 (sword, the floor) / ~105 (staff) / ~110
+(bow); (2) gear speed RARE and TINY, and speed NEVER converts to
+damage; (3) **HARD CAP +15% over the slowest base (115), counting
+everything combined, enforced IN THE MOVEMENT INTEGRATOR** —
+never in item data ("spreadsheet caps leak", Appendix A.2);
+applied after all modifiers; a quiet perk falls out: the slow
+tanky class benefits most from speed gear, the fast class starts
+near ceiling; (4) DodgeBot proofs at floor AND cap forever, plus
+the three research-earned hardenings: proofs cover pattern
+COMBINATIONS/alignments (jointly-inescapable overlaps are a
+shipped failure elsewhere), chaser enemies stay slower than the
+slowest base, and any future slow-effect re-triggers the proofs
+at its new floor — NO slows in the slice. Both engines' looser
+caps (135–150%) considered and REJECTED with cause (their own
+evidence argues tight; Appendix A.2). **THE REVISIT IS DESIGNED
+CHEAP:** the cap is one constant + a proof re-run — the
+designer's "look at it later after we tried it some" is a
+sanctioned one-line act after real play (Loop run / slice feel),
+never a redesign. Register: CORE-40 third amendment.
 
 ## Block 7 — The tradeoff grammar (armor archetypes + rings)
 

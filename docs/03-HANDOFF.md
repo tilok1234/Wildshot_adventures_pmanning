@@ -330,6 +330,7 @@ grass-slits clarification, hours-backfill numbers, Discord link.
 ## How to work with the designer (unchanged, learned over many sessions)
 
 - One focused question or task at a time; finish before moving on.
+- **Ids are for the record, not the designer (2026-08-01 feedback: "its just so hard for me to remember what for example b77 anbd sl-0065"):** lead with plain-language names — "the map task", "the props round", "the current overworld" — with b-numbers/sl-ids in parentheses once. Board answers in ≤5 plain lines. "What's live?" is always a welcome question.
 - They write informally (typos normal — ask when ambiguous rather than guess). They value momentum, honest pushback, and concrete recommendations to react to over open-ended questions. Batch approvals arrive as a short "ye sounds good"; offer 1–3 well-chosen additions, never a flood.
 - Challenge material design or production risks honestly — they explicitly want this (the day-job amendment and floor-as-claim-under-test exist because of it).
 - Status tags: [L] locked / [P] provisional / [T] test-gated / [U] unknown / [CUT] / [LATER]. Get approval before recording; commit after recording.

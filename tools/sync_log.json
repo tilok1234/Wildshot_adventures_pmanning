@@ -1115,6 +1115,24 @@
         "world_filler@c431143"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0069",
+      "ts": "2026-08-01T01:05:16Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "Dev world-map overlay live (sl-0065 executed): every pack's own minimap.png renders fullscreen + corner minimap with the player dot + facing tick, dev profile only, lint+probe-pinned; THE LOOP gets the map free (b65 ships a minimap too)",
+      "detail": "sl-0065 executed hands-free per the routed scope (paste in this session), game 87bdc15. BUILT: game/dev/map_overlay.gd - N cycles off -> corner minimap (96 px, dimmed, tucked above the hints line - Law 6 discipline even in dev) -> fullscreen map (darkened backdrop, integer nearest-neighbor upscale of the shipped pixels when the map fits, fractional fit only when it outsizes the viewport) -> off. The texture is the active pack's OWN minimap.png, raw (zero new art); exports already work because export.ps1 ships pack dirs wholesale beside the exe and the overlay resolves through the same resolve_src fallback as every other pack read. Player dot = white with black ring; facing tick = the same current-free-aim vector the fire path reads, re-normalized after map scaling so a non-square minimap could never skew it. PACK-RELATIVE BY CONSTRUCTION: mapping ratio = actual texture / actual grid per axis (b65 and b77 both ship 256x256 = 1 px per cell; nothing assumes it), so every pack-routed picker world gets the overlay - including THE LOOP itself (b65 ships minimap.png; the consumer test surfaced this bonus), while arena-built scenarios get no node at all (hidden by absence: N inert, hint absent). TWO-PROFILE LAW mechanized console-style: construction + the toggle line gated in main.gd; tools/lockdown_lint.py grew pins (MapOverlay construction sites = exactly the one gated main block + the two tests/dev_map harnesses, with tests/* tester-exclusion itself already pinned; map_toggle input line must carry the gate on the checked line) - NEGATIVE-TESTED live: ungating either site produced exactly the 2 expected findings, then re-greened. Key = N (no-F-row law; remappable action map_toggle; the HUD hint appears only when the overlay exists). NEW FIXED GATE tests/dev_map/dev_map_test.gd (18th fixed step + the CI Linux job): every pack-routed scenario ships a loadable, uniformly grid-proportional minimap.png; spawn maps in-bounds; mapping-math pins; load-refusal (hide-by-absence) contract. RENDER PROVEN (headless cannot see render bugs): windowed probe tests/dev_map/map_overlay_probe.gd captured both modes over b77 - committed reports/dev_map_audit_b77_{corner,full}.png, dot verified at the harbor-capital spawn by eyes on the PNGs. RESOLUTION LINE (the routed WF-ask tripwire): 256 px at 1 px/cell reads adequate at content scale on the builder's eyes - NO WF ask opened; the designer's on-screen verdict is the rule, and if it fails their eyes THAT becomes the WF ask (no game-side upscale hack exists or will). GATES: gdformat clean, lockdown lint PASS, smoke PASS hashes unchanged (zero sim change - view/input side only), boot clean on the persisted overworld_walk, FULL pretester ALL GREEN 17.1 min (18 fixed steps + 28-row battery byte-identical incl world_walk + export + lockdown probe on the REBUILT artifacts). Part II player map stays deferred per doc 13 section 3 - the overlay is throwaway-by-design and graduates only through that designed round (fog-of-war/discovery, markers-vs-learning, CORE-50/Law-6 treatment, icon category 11). NO feel verdicts (night engineering session); the designer's first N-press on the overworld walk is the acceptance.",
+      "refs": [
+        "sl-0065",
+        "sl-0067",
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "docs/21-ICON_SET_PLAN.md",
+        "game@87bdc15"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

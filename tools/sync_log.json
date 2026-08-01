@@ -1716,6 +1716,24 @@
         "docs/23-SLICE_BUILD_PLAN.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0103",
+      "ts": "2026-08-01T21:20:00Z",
+      "type": "ruling_executed",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0102 EXECUTED (game 5a60c35): speed anchor 3.6, both lanes re-baselined at 3.6/4.14 - ringer pin retired with the anchor, ONE new watched pin (meet_leadshot cap, the intercept sibling)",
+      "detail": "One constant moved (StatFrame.SPEED_TILES_PER_100 3.0 -> 3.6 [T]) and nothing else: sword 3.60 (the CORE-53 floor) / staff 3.78 / bow 3.96 (== the old lab feel) / cap 4.14. Full 65-run re-baseline at the new floor and cap plus solo confirms; goldens legacy-lane byte-identical x10 (the anchor only feeds class-lane derivation, by construction). WATCHED-ROW OUTCOMES, all deliberate: the 3.45 ringer-cap PINNED FAIL retired WITH the anchor (both ringer lanes PASS at 3.6/4.14 - the graze was lattice-specific, which is exactly why the row was watched; stale pin repros removed); rusher [primary] re-pinned FAIL -> PASS at the faster floor; first_contact [primary] stays FAIL; canaries FAIL at both new speeds (the cap lane stays calibrated). ONE NEW FINDING, pinned and watched: meet_leadshot cap FAIL at 4.14 (seed-invariant single graze @t647, near 0.013, repros committed) - the INTERCEPT dart aims where you are GOING, so a bot at constant full commitment is perfectly predictable: the purest member of the full-speed lattice class the ringer pin belonged to (humans tap-modulate out of it; the FLOOR row - the CORE-33 mandate - PASSES; if the designer ever feels leadshot-at-cap-gear as unfair the evidence trail starts here). Also adjudicated per the disk-outranks-console law: one battery mismatch line was a console-pipe artifact (gotcha 11). Export/lockdown-probe DEFERRED to the next exclusive seam (the designer's play window held the machine; fixed steps + lint + boot ran green individually - the recorded fallback). SAME NIGHT, view-only (game 098a679): the GIF recorder rebuilt START-TO-FINISH (G starts, G stops, frames stream to disk; the last-10s ring silently ate the front of every longer recording - the designer asked for the whole recording three times, the sl-0078 law applied). Honest note for the record: the designer's 'a tad slow' feel line was initially misread game-side as GIF playback speed - the sl-0102 routing named the real thing. The designer plays on the OLD speeds until their next game restart (both changes need one relaunch; they know).",
+      "refs": [
+        "sl-0102",
+        "sl-0101",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/sessions/2026-08-01-slice-s0.md",
+        "game@5a60c35",
+        "game@098a679"
+      ],
+      "by": "agent"
     }
   ]
 }

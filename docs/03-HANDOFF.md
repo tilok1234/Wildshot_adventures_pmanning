@@ -160,9 +160,20 @@ Board at this seam:
   shape (25% gold slice [T] at the death tick · settlement
   respawn ~4 s [T] w/ replay-honest early confirm · full refill,
   the walk back is the price · recap unpaused, no run framing ·
-  hardcore + battery untouched). Two [T] feel numbers ride the
-  designer's S0-gate play. SEAM 4 (wiring, the last) next; then
-  the S0 GATE. Doc 23
+  hardcore + battery untouched). **S0 IS COMPLETE (sl-0101
+  resolving sl-0100, ~20:55Z): SEAM 4 closed (game 5ad9dbb,
+  view-only — 32 NPCs STATIONED incl. givers at their slot
+  cells + the icon atlas in the HUD/creation screen; render
+  evidence committed) and the S0 GATE ran ALL GREEN 42.4 min
+  exclusive (26 fixed steps, 67-run battery byte-identical,
+  export carries the data file + pack). GREEN COUNTRY IS ALIVE
+  AND WALKABLE WITH THE STAT FRAME UNDERNEATH.** The designer's
+  next move: **THE S0 WALK** — the "THE SLICE: overworld" picker
+  row (leave the capital, fight the living sites, level, die,
+  walk back; class choice on the creation screen; b65 characters
+  retired). Feel flags standing: class walk speed, the 25% gold
+  sting, the ~4 s respawn. **S1 (Green chapter content) waits on
+  the designer's word after the walk.** Doc 23
   carries the dungeon truth (entrances placed, interiors =
   chapter work) + the manageable-slices principle. Still idle
   beside it: the Hell Engine V2 exact-file listen (RF session) ·

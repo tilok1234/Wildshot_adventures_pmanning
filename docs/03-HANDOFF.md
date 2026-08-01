@@ -93,22 +93,36 @@ round). Board, all verified and pushed:
   tradeoff grammar for armor/rings, authorized unique rule-breaks,
   and a deterministic balance calculator (TTK/TTD per zone band) —
   explicitly NOT the endgame balance pass (curves re-derive against
-  real content, test-gated per house style). Agenda staged on
-  designer go.
-- **Dev map ROUTED (sl-0065, ~23:00Z):** dev-profile world-map
-  overlay + corner minimap rendering each pack's own
-  `minimap.png` + player dot (both picker worlds ship it; zero
-  new art, zero WF work; lockdown-probe absence like other debug
-  tools). Game paste with the designer. The PLAYER map/minimap
-  system stays Part II per doc 13 §3 — fog/discovery/markers =
-  its own designed round (knowledge pillar interacts; icon plan
-  category 11).
-- Opens: **sl-0067 (b77 NAVIGATION WALK — the acceptance)**,
-  **sl-0065 (dev map — game paste queued)**, **sl-0041 (placement
-  rehearsal LIVE — b77 ADOPTED, sl-0068/c431143, world_filler
-  now CURRENT with an era-keyed ladder; fen-hollow deliberately
-  frozen at b72 as the regression world; recipe rounds running,
-  renders → designer, export gated)**, standing sl-0003/sl-0005.
+  real content, test-gated per house style). **AGENDA STAGED**
+  (designer: "lets sert up a plan on how we will plan this out") —
+  nine dependency-ordered blocks in the session file; fires any
+  fresh morning.
+- **Dev map LIVE (sl-0069 resolving sl-0065; game 87bdc15 +
+  471fa8c, planning-verified):** press **N** on any pack world —
+  corner minimap → fullscreen → off; player dot + facing tick;
+  **THE LOOP got the map free** (b65 ships a minimap). Dev-gated
+  + negative-tested; 18th fixed gate + CI row; proven on
+  committed captures. Acceptance = the designer's first N-press
+  (rides the walk). Part II player map stays deferred (doc 13
+  §3).
+- **Placement rehearsal RENDERS DELIVERED (sl-0041, review round
+  live):** first draft on screen — 3 world bosses (clearance-
+  proven, named), 10 dungeons bound to existing structures, 57
+  route-preferring encounter sites, honest budget-failure X's,
+  and a 7-tier damage zoning. Planning's review delivered
+  in-chat (~01:10Z): concept right; seams must snap to
+  GEOGRAPHY not generator math (villager test); tier count needs
+  a deliberate answer vs the 5 gear tiers (planning lean: 5 core
+  + safe halo + endgame-pocket band); out-of-gradient islands
+  must be typed deliberate-or-artifact. Feedback paste staged in
+  the session file; designer drives lock/reroll/paint; export
+  gated.
+- Opens: **sl-0067 (b77 NAVIGATION WALK — now WITH the map,
+  press N; the walk is the props acceptance AND the map
+  acceptance in one)**, **sl-0041 (placement rehearsal — renders
+  delivered, designer review round live; feedback paste staged)**,
+  standing sl-0003/sl-0005. Resolved this seam additionally:
+  sl-0065 (dev map, via sl-0069).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded
   pre-intake), sl-0061 (intaken), sl-0063 (b77 shipped), sl-0064
   (walked + look approved), sl-0066 (intaken).

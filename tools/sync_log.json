@@ -1168,6 +1168,24 @@
         "sl-0041"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0072",
+      "ts": "2026-08-01T01:39:30Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "Pinch diagnosis delivered (sl-0070 executed, NO fixes): the complaint class is GEOMETRY-closed corner-touch - 1,143 reachable prop pinches, ALL shortcut-denials with zero connectivity at stake; data honest (zero causeless solids), movement honest (slides on corners, exact still stop at zero-width); the lever pick is now the designer's",
+      "detail": "sl-0070 executed hands-free per the routed scope (paste in this session), game e991118, DIAGNOSIS ONLY - no fixes, no walkability/sim/pack change. DELIVERABLES: tools/diag_pinch.py (committed census baseline - re-run after whichever lever lands to measure the delta), tests/pinch_probe/pinch_move_probe.gd (movement facts on the REAL shared Kinematics at the real TERRAIN_RADIUS 0.25, 3.0 t/s), typed report reports/pinch_diagnosis_b77.md + full machine census reports/pinch_diagnosis_b77.json. Species mapping cross-checked EXACT against the sl-0067 intake (carpet cells 509/490/44/1 verbatim). (1) CENSUS: 2,003 corner-touch pinches on b77; 1,901 (94.9%) prop-involved; 1,143 with BOTH open sides on the spawn flood (811 wild / 332 settlement). CONNECTIVITY: all 1,143 are SHORTCUT-denials - component-boundary pinches = ZERO, so opening any of them changes no connectivity, only path length (lever A cannot break the flood contract by accident; there is nothing to disconnect). Detours around denied shortcuts: min/median 6, max 102 tiles; 308 sites force >10, 94 force >20, 22 force >40 (the walk-around pain tail). Top pairs: oak+oak 133, birch+oak 127, dead_tree+dead_tree 46; cactus+dead_tree 29 = the screenshot's desert class (135 cactus+boulders candidate sites). 1-wide lanes: 3,635 cells, 2,296 prop-involved on-flood. Per-region table in the report (top prop-dense 16x16 buckets, 103-144 prop-solids each, 21-32 pinches each). (2) TYPING: DATA-closed class is EMPTY - zero causeless solid cells after full attribution (two probe lessons recorded: 173 'mystery' grass solids were FENCE cells - read the fence chunk layer; 752 were wetland BOG, a de-facto solid terrain class - only 22 of 1,082 swamp-material cells walk, full-cell bog art = visible cause). GEOMETRY-closed = the entire complaint class (all 1,143). FEEL-closed = empty for the player body: the movement probe walks 1-wide lanes at open-ground speed. (3) MOVEMENT: corner-SLIDES around lone corners (24 ticks vs 15 open through the corner zone, then free - the 2026-07-28 corner slip working as shipped); 1-wide lanes 90 vs 90 ticks centered (zero overhead), +4.4% misaligned entry (slip funnels in); honest HARD-STOP only at zero-width corner-touch (exact double-tangency wedge rest, late-60-tick motion 0.0000 - stable, zero shiver, the explainable stop). No movement bug exists; the stop IS the geometry. LEVER FACTS (pick is the designer's; planning lean noted A+B): A (WF clearance re-gen, the sl-0063 recorded follow-up) addresses the source - relocate one prop per pinch, connectivity provably unchanged; pain-priority order = the 22 detour>40, then 94 detour>20, then dense regions. B (game corner-sliding) is ALREADY SHIPPED and by definition cannot open a zero-width gap - further B-tuning changes approach feel only. C (sub-cell colliders) is the only game-side opener and exactly as flagged breaks the WYSIWYG/flood contract the whole validation chain pins (pack floods, porosity diag, DodgeBot walkability, proofs) and opens the gaps to every enemy walker - deliberate design act only. Overlap note: 332 settlement-zone pinches belong to the two-wide street rule's domain if A fires; the 811 wild are the sl-0063 prop-field share. NO feel verdicts; no WF ask opened (the lever pick precedes any upstream work).",
+      "refs": [
+        "sl-0070",
+        "sl-0067",
+        "sl-0063",
+        "notes/evidence/2026-08-01-prop-pinch-walk-feedback.png",
+        "game@e991118"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

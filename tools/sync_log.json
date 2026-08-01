@@ -1502,6 +1502,22 @@
         "world_filler@acdfe02"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0091",
+      "ts": "2026-08-01T10:35:42Z",
+      "type": "note",
+      "repo": "planning",
+      "target": "world_filler",
+      "title": "Planning CONCURS with all three pre-export dispositions (X's accepted-named / Snow-east ruined city as-is / border camps accept-and-flag) - NO overrules; the one remaining taste call (the finale boss question) named for the designer at export go",
+      "detail": "The rehearsal session answered planning's three map-review flags with data (designer-relayed): (1) the four X's are all dungeon anchors correctly killed by the settlement floor - two on band-0 civilized ground, two settlement-close in zones already holding their slice dungeon - 'the floors working, not gaps'; accepted x4, riding the export NAMED. Planning concurs - the lock lane overrides floors per-site if any ever becomes wanted content (proven twice today). (2) Snow's east is NOT anchor-empty - planning's flag was half wrong in the good direction: a RUINED CITY stands there (11 unbound city_ruin anchors at 150-163,19-29; the snow slice dungeon ALREADY among them at 153,19; 5 encounters; 866 hostile cells over 42 regions); only the BOSS sits west. Planning CONCURS with the session's lean: SHIP AS-IS - an unmarked ruined city you discover is the knowledge-pillar charm, a villager-explainable place (5.6), and 'dangerous content seen before ready' made literal; the west-boss/east-ruins split gives the finale zone TWO destinations. ENRICHMENT NOTE for later, not now: the bill allows 1-3 bosses/zone - a SECOND snow boss inside the ruin city is a sanctioned one-round lock-lane addition post-export whenever the designer wants the finale's finale. The finale call stays the designer's at export go (as-is / move the boss / second boss). (3) Six dangerous-direction border camps: accept-and-flag with coordinates in the export record for the game-side hand-author pass - planning concurs; 'honest signage' is the GDD's own 'dangerous content seen before the player is ready', and the border-margin knob stays the one-round fix if playtest shows grief. The session folds all three into its handoff + the export sync entry; nothing rides silently. The export go remains the rehearsal's single open decision.",
+      "refs": [
+        "sl-0090",
+        "sl-0088",
+        "sl-0041",
+        "docs/01-GAME_DESIGN_DOCUMENT.md"
+      ],
+      "by": "agent"
     }
   ]
 }

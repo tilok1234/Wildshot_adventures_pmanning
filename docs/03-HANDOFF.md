@@ -90,10 +90,11 @@ round). Board, all verified and pushed:
   its own designed round (knowledge pillar interacts; icon plan
   category 11).
 - Opens: **sl-0067 (b77 NAVIGATION WALK — the acceptance)**,
-  **sl-0065 (dev map — game paste queued)**, **sl-0041 (director
-  loop LIVE in a wf session — base RE-PINNED b72→b77 by planning
-  ruling ~00:02Z: adopt b77 first, sl-0040 round shape, then
-  direct; export designer-gated)**, standing sl-0003/sl-0005.
+  **sl-0065 (dev map — game paste queued)**, **sl-0041 (placement
+  rehearsal LIVE — b77 ADOPTED, sl-0068/c431143, world_filler
+  now CURRENT with an era-keyed ladder; fen-hollow deliberately
+  frozen at b72 as the regression world; recipe rounds running,
+  renders → designer, export gated)**, standing sl-0003/sl-0005.
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded
   pre-intake), sl-0061 (intaken), sl-0063 (b77 shipped), sl-0064
   (walked + look approved), sl-0066 (intaken).

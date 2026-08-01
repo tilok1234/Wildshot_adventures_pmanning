@@ -1098,6 +1098,23 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0068",
+      "ts": "2026-08-01T00:23:32Z",
+      "type": "pin_change",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "World filler speaks the b77 walkability and the rehearsal base moves with it - carpet debris walks era-keyed, dusk@b77 imported parity-green (flood 46493), fixtures re-pinned with one honest exception: fen-hollow cannot re-pin",
+      "detail": "The sl-0041 || re-pin ruling executed as the sl-0040-shape adoption, hands-free. LADDER (wf behavior 15): the four sl-0063 carpet species (stump, fallen_log, bone_pile, loot_pile) leave the blocking set on worlds recorded at generatorBehaviorVersion >= 77 - era-keyed, so the b65 canonical and every pre-carpet world reproduce their reference grids bit-for-bit (proven in-suite); canopy is contract-not-code (crowns never enter the artifact prop grid); the moss any-prop rule is UNCHANGED (buildWalkability byte-identical 72->77, verified at the commit). RELEASE verified per doc 18 before any use: zip c9083012..., manifest 5166341a..., all 8 file hashes, tag -> 1a20bd22..., tileforge pin dusk-9b8b2a2-seed103991 (the package the game already bundles). FIXTURES: dust-hollow + tiny-temperate regenerated @ 1a20bd2 (59/76 real debris cells - the carpet gate is exercised by committed worlds); FEN FINDING (informational, no ask): fen-hollow CANNOT re-pin - the b75 route re-plan leaves its landmark gate at (11,12) unreachable and WF export-game-pack refuses the world; fen is no longer in WF regen-verified fixtures, so it stays deliberately frozen at b72/bbc10cdb as the format-1 + pre-carpet regression world (mixed-era roster documented). Coverage re-recorded after review (dust prop_block 495->436 = its 59 debris cells exactly; trail_walk 120->86 = the b75 re-plan); golden kernel byte-identical, payload diffs exactly directorBehaviorVersion 14->15. IMPORT: outputs/local-packs dusk replaced b72->b77, derived flood 46493 = manifest bit-identical, 101 moss + 3 crossing cells; b65 canonical untouched and green. 188 tests green incl. the REAL headless-Godot dual-verifier lane. Pushed world_filler@c431143. NEXT (same session): the sl-0041 rehearsal proceeds pinned to the b77 generation identity bd4b9317..., spawn 109,182, export designer-gated; NOT serialized behind the sl-0067 navigation walk per the ruling. || PLANNING VERIFICATION ~2026-08-01T00:27Z (append lane honored; watcher-caught minutes after push): PASSED — c431143 = world_filler main's TIP exactly (compare: identical); every hash matches planning's b77 records verbatim (zip c9083012 / manifest 5166341a / tag→1a20bd22 = sl-0066/0067; tileforge pin dusk-9b8b2a2-seed103991 = the game's own pairing pin); flood 46493 = the intaken pack's number; the era-keyed ladder design (carpet gate at gen>=77, pre-carpet worlds bit-for-bit) is the right shape for the mixed-era fixture roster. FEN FINDING acknowledged as informational: fen-hollow deliberately frozen at b72/bbc10cdb as the format-1 + pre-carpet regression world — no ask opened, roster documented; if fen is ever wanted current, that is a WF geometry question (its landmark gate at (11,12) is orphaned by the b75 route re-plan), not a wf_filler defect. Lock: world_filler working-set pin re-pinned b72→b77 + repo behavior note 14→15 (this sweep). sl-0041 stays OPEN carrying the rehearsal now running on the b77 identity.",
+      "refs": [
+        "sl-0041",
+        "sl-0066",
+        "sl-0067",
+        "sl-0040",
+        "world_filler@c431143"
+      ],
+      "by": "agent"
     }
   ]
 }

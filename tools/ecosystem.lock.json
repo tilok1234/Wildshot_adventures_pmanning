@@ -25,7 +25,7 @@
     "world_filler": {
       "github": "tilok1234/world_filler",
       "mainline": "main",
-      "note": "RE-RULED 2026-07-30 (designer, Tier 1): main = the designer's approval line. GitHub default = main. tf6bkf line archive-tagged; its dual-verifier value absorbed on main (sl-0012: battery real via headless Godot; Windows checkout issue resolved same day). Behavior 14 since the b72 walkability adoption (sl-0040, commit 44f1adb): ladder transcribed from the WF public loader @ bbc10cdb, 184 tests green incl. the real Godot lane. Segmentation walkability-aware since sl-0026/sl-0039 (b2d0755)."
+      "note": "RE-RULED 2026-07-30 (designer, Tier 1): main = the designer's approval line. GitHub default = main. tf6bkf line archive-tagged; its dual-verifier value absorbed on main (sl-0012: battery real via headless Godot; Windows checkout issue resolved same day). Behavior 14 since the b72 walkability adoption (sl-0040, commit 44f1adb): ladder transcribed from the WF public loader @ bbc10cdb, 184 tests green incl. the real Godot lane. Behavior 15 since the b77 carpet adoption (sl-0068, c431143): era-keyed carpet gate at gen≥77, 188 tests green. Segmentation walkability-aware since sl-0026/sl-0039 (b2d0755)."
     },
     "assembler": {
       "github": "tilok1234/8-bit-sprite-assembler",
@@ -93,11 +93,11 @@
     {
       "consumer": "world_filler",
       "producer": "worldforge",
-      "artifact": "wildshot-overworld-pack-dusk@b72 (working set; behavior 72, flood 45202)",
+      "artifact": "wildshot-overworld-pack-dusk@b77 (working set; behavior 77, flood 46493)",
       "path": "outputs/local-packs/",
-      "sourceCommit": "bbc10cdb093bab2bff34188eac05cd5853989fe7",
-      "intake": "2026-07-30",
-      "note": "Adoption sl-0040: IMPORTED digest-verified; parity bit-identical under the b72 ladder (behavior 14). Unblocks content packs over the dusk overworld — director-loop ask sl-0041."
+      "sourceCommit": "1a20bd2299287d4c56cd7a46e2e610b54194fcb6",
+      "intake": "2026-08-01",
+      "note": "Adoption sl-0068 (wf c431143, planning-verified; executes the sl-0041 base re-pin ruling as the sl-0040 round shape): IMPORTED digest-verified from the b77 release (zip c9083012… = the sl-0066/0067 records; tag → 1a20bd22…); derived flood 46493 = manifest bit-identical; ladder ERA-KEYED (wf behavior 15: the four sl-0063 carpet species leave blocking at generatorBehaviorVersion ≥ 77; canopy contract-not-code; moss rule unchanged — buildWalkability byte-identical 72→77); b65 canonical untouched + green; fixtures re-pinned @ 1a20bd2 EXCEPT fen-hollow — deliberately frozen at b72/bbc10cdb as the format-1 + pre-carpet regression world (the b75 route re-plan orphans its landmark gate; WF export refuses it; mixed-era roster documented, informational only). 188 tests green incl. the real headless-Godot dual-verifier lane. The sl-0041 rehearsal runs on the b77 generation identity, export designer-gated."
     },
     {
       "consumer": "game",

@@ -247,7 +247,30 @@ a whitelist — pattern replacement, sanctioned exception behaviours
 rule-bending utility; the hard exclusions (crit/evasion/lifesteal/
 resists) stay excluded even for uniques — surprise lives in
 behaviour, never in dice.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "yeah this is perfect . ye
+swapping can be easy i think"):** RULED AS RECOMMENDED — (1)
+**each unique breaks EXACTLY ONE rule**; zero = not a unique, two
+= never (two-break items go mandatory — both engines' shared
+doctrine, Appendix A.5); (2) **the whitelist is the closed
+complement of the ladder blocks 3/4/7 built:** (a) pattern
+replacement · (b) sanctioned exception behaviours
+(pierce/bounce/arc/return) · (c) over-budget stat WITH a paired
+real cost paid IN PLAY on the same axis as the benefit (never
+acquisition-priced) · (d) rule-bending utility
+(information/interaction, non-combat); (3) **the hard exclusions
+hold even for uniques** — no crit/evasion/lifesteal/resists/dice,
+surprise lives in behaviour; (4) **slice discipline: each rule
+broken AT MOST ONCE game-wide** (~8–12 slice uniques per the
+bill — every unique memorable, no rule quietly repealed); (5)
+**chassis rule: a unique's ordinary stats run ~70–90% of its
+tier's slot budget** — the break IS the premium; tiered gear
+keeps the best pure numbers, uniques are options not upgrades
+(the evergreen mechanism at any tier); (6) **souvenir touch:**
+where possible a boss's unique re-performs that boss's own
+signature mechanic. **SWAP RULING [P]:** gear swapping is EASY —
+sharp narrow niches are sanctioned (swap-in-for-the-moment is
+intended play); exact swap UX (mid-fight vs between-pulls) lands
+at slice build. Register: CORE-41 second amendment.
 
 ## Block 9 — The balance calculator (spec approval)
 

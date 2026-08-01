@@ -53,7 +53,11 @@ order:**
 4. Method: plain names first, ids in parentheses (standing
    designer rule); one focused block at a time; honest pushback;
    their informal typos are normal — ask only when truly
-   ambiguous.
+   ambiguous. **PASTE-LABELING RULE (designer, 2026-08-01
+   evening, standing):** every paste handed to the designer for
+   relay MUST name its DESTINATION REPO loudly and first (e.g.
+   "→ GAME repo (the slice chat):") — never make them guess
+   where a prompt goes.
 
 Board at this seam:
 

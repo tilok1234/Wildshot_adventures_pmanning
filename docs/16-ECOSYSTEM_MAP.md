@@ -129,14 +129,20 @@ asks, never as local patches.
   animation, one-command validated "Export game pack" (no hand-zips).
 
 ### 7. music_soundeffects — Resonance Forge (audio workstation)
-- **Owns:** procedural music + SFX, quality/rights gates, future Godot
-  audio packs (Phase 6 importer unbuilt; current Godot piece is a stress
-  scene preview only).
+- **Owns:** procedural music + SFX, quality/rights gates, Godot audio
+  packs (the v1 pack is DELIVERED and game-consumed — see the lock's
+  game←resonance_forge pin).
 - **Authority docs:** `MASTER_PLAN.md` (product contract), `CLAUDE.md`
   (non-negotiables: human listening gate, rights policy), `HANDOFF.md`
   (**do-not-regress taste profile**: 138 BPM F mixolydian, no vibrato,
   sparse fragmented lead — 9 iterations to find, fragile).
-- **State:** G1+G2 passed on human listening; UI M0–M6 done; Phases 3–9 ahead.
+- **State:** LIVE IN THE REPO'S OWN HANDOFF — this map does not
+  restate implementation status (the 2026-08-01 audit lesson: status
+  prose here drifts exactly like the pin table did; an RF session
+  caught this row still describing the G2 era while G1–G7 + UI M0–M6
+  were long complete). Ownership + authority docs + the cross-repo
+  rules below remain this map's lane; current phase/milestone truth
+  is `HANDOFF.md` in the repo itself.
 - **Env landmines:** don't edit store modules while Vite runs; hidden panes
   throttle timers.
 

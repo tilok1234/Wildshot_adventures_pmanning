@@ -148,7 +148,14 @@ Board at this seam:
   (pattern accepted). Feel flag standing for the designer: slice
   characters walk CLASS speeds now (bow 3.3 vs the old 4.0 lab
   preset) — the block-6 cap revisit is one constant if it feels
-  slow in play. SEAM 2 (plumbing) next. Doc 23
+  slow in play. **SEAM 2 CLOSED + SWEPT (~15:55Z, game 4acca00,
+  SERIAL 16): THE LIVING WORLD IS PLUMBED** — leash/tether/
+  away-only respawn/importer all landed (193-site census;
+  fold-back honesty; tether-exceeds-reach = the standing
+  no-shoot-from-safety watch-line); **docs/20 COMPLETE
+  end-to-end** (step 3 discharged); **"THE SLICE: overworld" is
+  a PICKER ROW — the living world is playable**; battery 65
+  runs. SEAM 3 (overworld death) next. Doc 23
   carries the dungeon truth (entrances placed, interiors =
   chapter work) + the manageable-slices principle. Still idle
   beside it: the Hell Engine V2 exact-file listen (RF session) ·

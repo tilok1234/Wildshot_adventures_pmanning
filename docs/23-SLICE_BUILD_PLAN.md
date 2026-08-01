@@ -248,7 +248,12 @@ that moment (labeled → WORLD_FILLER and → WORLDFORGE).
   identical verdicts to serial proven once, coverage untouchable
   (the 45 min bought the ringer finding on day one — trimming
   coverage is never the lever). Target full gate ≲10 min +
-  per-run timing table.
+  per-run timing table. **WORKER POLICY ASSESSED + RULED
+  (designer "max 10 … lets asses" → planning on the real
+  hardware, Ryzen 8745HX 8c/16t/31GB): default = physical core
+  count (8 here, auto-detect), HARD CAP 10 (the designer's
+  ceiling), longest-rows-first scheduling; RAM immaterial;
+  expected full gate ~6–8 min.**
 - **MODEL SEATS (designer-asked, planning's recommendation):**
   game build = Fable 5 max (sim surgery) · planning = Fable 5 ·
   producer rounds = Opus 5 · mechanical runs = Sonnet 5. Rule:

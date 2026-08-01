@@ -2,6 +2,15 @@
 
 **Doc:** 21-ICON_SET_PLAN
 **Status:** Assessment designer-requested 2026-07-31 ("help me asses all the different kinds of icons for like item tooltips and skills and all of that cause im working on planning an icon forge"). **Taxonomy approved** same evening ("and all of those icons sounds good ye"). **Seat ruling [P]** recorded below. Sizes and phasing are staged recommendations — consuming them is the ruling, same as every forge contract (frozen once the game consumes v1). Register: docs/08 Tooling contracts + sync log sl-0062.
+**v0.1 ARRIVED (2026-08-01 staleness-audit stamp):** the designer
+BUILT the set — `wildshot-icons-proto` 0.1.0, 470 glyphs, all
+16×16, T1–T5 complete, CORE-50 proof sheets shipped in-pack —
+assessed PASS against §3–§6 of this plan (sl-0083), intaken and
+gate-guarded game-side (sl-0085), UNWIRED until the Loop
+acceptance run. The "Tier 0 could ship as uikit v2" path in §7 is
+SUPERSEDED by the real pack; §3's table now serves as the coverage
+checklist it was assessed against. Watch-items for wiring: skill-
+node readability in the real tree UI; a deutan-sheet glance.
 **Consumer:** the game repo, at two horizons — a tiny Tier-0 set the Loop's minimal equip surface can consume near-term, and the Part II interface module (inventory/tooltips, skill trees, maps, collection book) post-Gate 1.
 **Ranking:** strictly behind M-FX and all Gate-1-critical work, exactly like the UI kit (doc 13). Planning is free; building waits.
 

@@ -4,6 +4,7 @@
 **Status:** Pre-registered optional art task, designer-committed 2026-07-27 ("i could make ui style kit i suppose"). **Ranked strictly behind M-FX (the effects pack)** — M-FX is on the Gate 1 critical path; UI chrome is not. If kit evenings would eat M-FX evenings, the kit waits and the lab ships engine-default grey UI (acceptable — zero Gate 1 evidence depends on UI looks).
 **Consumer:** the game repo wires the kit into a Godot Theme resource at M3 (options screen) and M4 (HUD, death recap); M8 tester start screen reuses the same pieces. If the kit is absent at M3, Godot defaults ship and the kit drops in later as a pure swap.
 **Contract rule (same as Sprite Forge / TileForge):** piece ids, file names, 9-slice margins, and manifest shape are FROZEN once the game repo consumes v1. Polish passes change pixels, never the contract.
+**2026-08-01 stamp:** the kit shipped and is consumed; this 12×12 chrome contract stands unchanged. The ICON SET arrived as its own pack (docs/21, `wildshot-icons-proto` — 16×16, separate manifest); §3's out-of-scope list below remains correct — those screens are still Part II.
 
 ---
 

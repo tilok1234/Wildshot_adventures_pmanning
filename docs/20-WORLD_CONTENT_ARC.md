@@ -7,6 +7,21 @@ this doc — it gets written and ratified at its planning session
 (step 3 below), which the designer already holds the reservation
 for (wf docs/IMPORTER_READINESS.md).
 
+**STEP-1 PROGRESS STAMP (2026-08-01 staleness audit):** the
+rehearsal is DEEP in designer-driven rounds (sl-0041, through
+round 11): the dusk overworld is CONFIRMED as the game's test
+slice (sl-0076); a 4-zone geography layer is the accepted working
+frame with named-and-leveled zones (Green Country 1–7 / Dry Reach
+8–15 / Wetlands 16–22 / Snow Country 23–30 — sl-0082/0087);
+danger runs zonal chapters with tier-scaled settlement belts
+(sl-0073/0074); slice dungeons + three world bosses are
+recipe-locked, 16 reason-tagged quest-giver slots + 24 gather
+spots placed (sl-0088); two hand-place items ride the viewer
+(Green boss + the Wetlands dungeon anchor); EXPORT IS
+DESIGNER-HELD pending more rounds. Step 1 is functioning exactly
+as this doc intended: rehearse by hand, designer verdicts rule,
+export gated.
+
 ## The question this answers
 
 Should the game import world_filler content packs (danger bands,

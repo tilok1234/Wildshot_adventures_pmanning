@@ -14,7 +14,63 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-07-31 (account-switch seam; designer out of usage, hopping accounts)
+# CURRENT HANDOFF — 2026-08-01 (mid-day; the marathon session's board, all verified and pushed)
+
+**This section supersedes everything below it.** The full story is
+`notes/sessions/2026-07-31.md` (the fresh-account marathon: the road
+arc closed end-to-end with the designer's eyes on it, the fit rule,
+the deck deal, six pillars, the icon + NPC packs, the rehearsal
+through round 11). Board:
+
+- **THE WORLD IS PLAYABLE THE DESIGNER'S WAY:** b77 overworld
+  intaken (road joints + carpet/canopy walkability) and **THE FIT
+  RULE is live** (SERIAL 14: props block what the ART shows, the
+  player body = the sprite's feet, projectiles share the truth,
+  combat hurtbox byte-untouched). The b77 walk (sl-0067) stays
+  formally open — the fit-rule standing walk is its acceptance.
+- **THE LOOP BAR is ruled in the designer's own words** (docs/19
+  §1, sl-0082) and **SLICE V0.1 is the named next milestone [P]:**
+  4 zones with ruled brackets (Green Country 1–7 / Dry Reach 8–15 /
+  Wetlands 16–22 / Snow Country 23–30, cap 30 — sl-0087), a dungeon
+  per zone, 1–3 world bosses per zone with uniques, simple
+  fishing/foraging/skill trees, ~5 quests/zone. **SIX PILLARS**
+  since the deck deal (docs/01 §5.5 zones-intertwine + §5.6
+  villager-reason; sl-0071).
+- **THE REHEARSAL (sl-0041) is deep in designer rounds** (through
+  round 11, wf behaviors 22–23): zone frame + danger chapters +
+  settlement belts + slice dungeons/bosses recipe-locked + 16
+  reason-tagged giver slots + 24 gather spots. **TWO HAND-PLACE
+  items wait in the viewer: the Green Country boss (~lvl 8–10) +
+  the Wetlands slice dungeon anchor.** EXPORT DESIGNER-HELD.
+- **PACKS HOME:** icons v0.1 (470 glyphs 16×16, intaken sl-0085,
+  gate-guarded, UNWIRED until the Loop acceptance) · the NPC slice
+  roster (32 characters, **RELEASED wildshot-npc-slice-v1@bf6269c —
+  the assembler's first release**; intake paste with the designer,
+  sl-0089). Wiring order: the Loop acceptance run FIRST — the loop
+  is judged as built.
+- **NEXT BIG THING: the STAT TALK, in a FRESH CHAT.** docs/22 is a
+  staged nine-block skeleton (constraints pulled in, empty RULING
+  slots); the designer runs FIVE deep researches on two engines
+  (mitigation formulas · movement-speed itemization · progression
+  pacing · behavioural skill trees · evergreen boss uniques) and
+  hands them over AT talk start. The slice bill is the customer.
+- Opens: sl-0067 (the walk) · sl-0087 (hand-places) · sl-0089 (NPC
+  intake paste out) · sl-0041 (rehearsal; export held) · sl-0005
+  (TF gate art + hedge, partial — road-band third satisfied).
+  **sl-0003 CLOSED at the 2026-08-01 staleness audit** (doc 16's
+  hand table removed; the lock is the only pin truth). Feel menu:
+  **THE LOOP RUN** (the big one) · b65 city walk · audio-in-play ·
+  M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
+  GIF · a glance at the four crosshair styles.
+- Method: plain names first, ids in parentheses (2026-08-01
+  feedback rule); the sweep watcher runs (append lane + local-HEAD
+  lane + release polls); sweep duty = verify vs GitHub → commit →
+  resolve → next paste. Authorities: docs/19 · docs/20 · doc 18 ·
+  doc 16 + `tools/ecosystem.lock.json`.
+
+---
+
+# PRIOR HANDOFF — 2026-07-31 (account-switch seam; superseded by the 2026-08-01 section above, kept as history)
 
 **This section supersedes everything below it.** Full detail:
 the tail HANDOFF of `notes/sessions/2026-07-30.md` (the

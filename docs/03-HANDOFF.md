@@ -81,6 +81,20 @@ round). Board, all verified and pushed:
   conversion becomes the game's NEXT intake after b76). TF stays
   an art sidecar via sl-0005 only if the round finds needs.
   Planning sweeps the delivery.
+- **Stat-system design pass QUEUED (designer, ~00:35Z 2026-08-01):**
+  "plan out how we do stats… simple but somewhat fancy… connect
+  combat and gear together in regards of balance" — the pass the
+  designer pre-announced at the loop build ("more structure around
+  it later when I plan", docs/19). Planning-repo design session,
+  designer-heavy, best AFTER the Loop acceptance run. Scope = the
+  loop-era stat frame: finalize the lean sheet (7 stats + 2 regen
+  candidates), ONE transparent damage/mitigation formula, T1–T5
+  per-slot budgets, movement-speed sources/caps (CORE-33-critical),
+  tradeoff grammar for armor/rings, authorized unique rule-breaks,
+  and a deterministic balance calculator (TTK/TTD per zone band) —
+  explicitly NOT the endgame balance pass (curves re-derive against
+  real content, test-gated per house style). Agenda staged on
+  designer go.
 - **Dev map ROUTED (sl-0065, ~23:00Z):** dev-profile world-map
   overlay + corner minimap rendering each pack's own
   `minimap.png` + player dot (both picker worlds ship it; zero

@@ -76,6 +76,14 @@ Dungeons, world bosses, raids, optional superbosses, and other concentrated enco
 
 Mastery does not necessarily make difficult content trivial; the hardest encounters may remain demanding even after the player understands them.
 
+### 5.5 Zones intertwine — glimpses of the player's future self are hidden everywhere *(pillar ratified 2026-08-01; from the 2026-07-30 worldshape session)*
+
+Zones keep a general level progression, but deliberately contain cross-band pockets: an endgame corner inside a starter zone (walk in, get one-shot, learn it, remember it), a high-level dungeon beneath a low-level city. These glimpses give the zero-to-hero arc physical places to aspire to, and returning with power turns remembered danger into a felt payoff — the designer's words: "we can potentially score a lot here." Pockets are authored and purposeful (see 5.6), and they never gate the surrounding zone's own progression.
+
+### 5.6 Everything in the world has a reason a villager could tell you *(pillar ratified 2026-08-01; from the 2026-07-30 worldshape session)*
+
+The world must never read as objectives placed on a map. Every camp, dungeon, rare route, road, and placement has an in-world reason discoverable by looking at it. The working test for any placement: **"what is this doing here?" should have an answer a villager could give.** Wolves denning above the sheep farms passes; "a level-8 camp because this is the level-8 area" fails. This pillar is the judging test for all generated-content direction (the world_filler director loop) and all hand placement; it generalizes the aliveness test's organic-camps prerequisite and is kin to CORE-46's "quests speak the game's own language" and the handcrafted-world rule.
+
 ## 6. Anti-pillars [L]
 
 The game must not become:
@@ -484,7 +492,7 @@ Exact regional difficulty ranges, higher-difficulty dungeon-version names, eligi
 
 ### Optional world-filling and reward activities [L/P]
 
-The four established design pillars remain Wildshot Adventures' only pillars. Non-combat activities are optional supporting systems intended to enrich the open world, provide relaxed alternative grinds, and create additional collection goals without competing with the main combat game.
+The design pillars of Section 5 — the original four plus the two world pillars ratified 2026-08-01 — remain Wildshot Adventures' only pillars. Non-combat activities are optional supporting systems intended to enrich the open world, provide relaxed alternative grinds, and create additional collection goals without competing with the main combat game.
 
 **Foraging and fishing are optional supporting systems, not design pillars or major focuses.** They should make the vast open world feel richer, livelier, and more worth exploring while offering relaxed alternatives to combat.
 

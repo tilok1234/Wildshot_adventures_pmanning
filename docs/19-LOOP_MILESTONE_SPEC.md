@@ -2,11 +2,13 @@
 
 **Status:** ACCEPTED in-session 2026-07-30 (the Phase 0 design
 conversation, designer present — session record
-`notes/sessions/2026-07-30.md` addenda 9/11/12). Deck ratification
-staged: `tools/decision_deck_items_2026-07-30-gate1.json` (the rewrite
-+ the bar) and `...-loop.json` (this spec's four rulings). **The bar's
-final wording is the designer's — owed to the staged card; the draft
-below stands until then.**
+`notes/sessions/2026-07-30.md` addenda 9/11/12). **DECK-RATIFIED
+2026-08-01** (register `tools/decision_deck_register.json`): the
+Gate-1 rewrite + this spec's four rulings (normal death = run back +
+gold slice; T1–T5 loot + boss-tied uniques; levels/XP in the loop;
+Bone Reliquary King on the proven kit) are all ratified. **The bar's
+final wording is STILL the designer's — its deck card was deliberately
+left open; the draft below stands until their words replace it.**
 **Authority:** planning repo. The game repo consumes this spec
 (ask sl-0025); it never amends it. Supersedes docs/12's tester-cycle
 prose as the forward scope (docs/12 §banner; docs/08 CORE-53/55

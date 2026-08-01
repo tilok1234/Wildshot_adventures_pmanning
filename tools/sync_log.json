@@ -1150,6 +1150,24 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0071",
+      "ts": "2026-08-01T01:28:18Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "ecosystem",
+      "title": "Deck deal swept: TWO NEW PILLARS (zones-intertwine + villager-reason purposefulness), Gate-1 rewrite RATIFIED, loop frame RATIFIED (death/loot/levels/boss), night-weather law, aliveness test, icon seat confirmed, crosshair closed; the loop bar deliberately stays with the designer",
+      "detail": "The designer dealt the 2026-08-01 deck (13 cards) and exported (~00:50Z; export committed verbatim as tools/decision_deck_register.json). TWELVE DECIDED + ONE EVIDENCE: (1) Part-I reconnection CONFIRMED (the loop = the living world's first mile; no amendments needed per the card). (2)+(3) BOTH pillar candidates named PILLARS - docs/01 gains 5.5 zones-intertwine (cross-band pockets: endgame corners in starter zones, high dungeons under low cities - authored, purposeful, never gating local progression) and 5.6 villager-reason purposefulness ('what is this doing here?' answerable by a villager - the judging test for ALL placement incl. the live sl-0041 rehearsal); the section-13 'only pillars' sentence updated to six. (4) Gate-1 rewrite RATIFIED - cold recruitment RETIRED, go-hard builds THE LOOP, human judgment = 2-3 warm watched first looks after the loop bar; docs/08 Bot-testing bullet's stale pre-rewrite phrasing FIXED (the long-standing doc-audit nit closes). (5) Night/weather guardrail = LAW. (6) Aliveness test ADOPTED as first-slice ordering. (7-10) Loop frame RATIFIED, docs/19 status stamped: normal death = run back + gold slice (equipment never taken; hardcore opt-in permadeath); T1-T5 + boss-tied uniques (aimed grinding, no pity); levels/XP minimal-form; Bone Reliquary King on the proven kit. (11) Icon-set seat CONFIRMED (sl-0062 [P] firmed; docs/08 bullet annotated). (12) Crosshair fix RATIFIED + closed - the card note spawns a LATER game item: selectable crosshair styles + size setting (queued, not routed). EVIDENCE: eyes-closed audio sanity (Law 7) CAPTURED tonight - the verdict slot in game notes/AUDIO_CUE_MAP.md owes a write at the next game session (queued). DELIBERATELY OPEN: the loop-bar card - the designer will write the bar in their own words; the docs/19 draft governs until then. Also still open in the deck: M2 formal close (feel), six-ordinaries ratification (feel), audio-cues-in-play (feel), weekly GIF, weekly hours report, boss-sheets intake (later). Register committed; docs/01 + docs/08 + docs/19 amended; sweep per the deck convention (git is the register, the deck is the UI).",
+      "refs": [
+        "tools/decision_deck_register.json",
+        "docs/01-GAME_DESIGN_DOCUMENT.md",
+        "docs/08-DECISION_REGISTER.md",
+        "docs/19-LOOP_MILESTONE_SPEC.md",
+        "sl-0062",
+        "sl-0041"
+      ],
+      "by": "agent"
     }
   ]
 }

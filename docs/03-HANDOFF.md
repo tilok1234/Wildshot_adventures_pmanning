@@ -137,11 +137,19 @@ round). Board, all verified and pushed:
   list is NOT newest-first (use `max_by(.published_at)`; the
   by-tag endpoint is authoritative), and appends may sit
   UNCOMMITTED in the working tree — check `git status` too.
-- **Rested-day items still legal today:** THE LOOP acceptance
-  run (judgeable → L2 clock) · deck payloads (worldshape 5,
-  gate1 2, loop 4 + bar wording) · b65 city walk · audio pass ·
-  M2 close + six-ordinaries · Hell Engine V2 listening · music
-  seam merge.
+- **DECK DEALT + SWEPT (2026-08-01 ~00:50Z; sl-0071):** TWO NEW
+  PILLARS (docs/01 §5.5 zones-intertwine + §5.6 villager-reason
+  purposefulness), Gate-1 rewrite RATIFIED (docs/08 bot-testing
+  nit fixed), loop frame RATIFIED (docs/19 stamped), night/
+  weather law, aliveness test, icon seat confirmed, crosshair
+  closed (note spawns LATER: selectable styles + size setting).
+  **Loop bar deliberately open — the designer's own words owed.**
+  Evidence captured: eyes-closed audio (game AUDIO_CUE_MAP slot
+  owes the write, next game session).
+- **Feel menu remaining:** THE LOOP acceptance run (judgeable →
+  L2 clock) · loop-bar wording (the open deck card) · b65 city
+  walk · audio-cues-in-play · M2 close + six-ordinaries · Hell
+  Engine V2 listening · music seam merge · weekly GIF.
 
 Authorities unchanged: docs/19 · docs/20 · doc 18 · doc 16 +
 `tools/ecosystem.lock.json`. Sweep duty per incoming logbook

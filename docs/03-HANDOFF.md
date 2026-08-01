@@ -123,13 +123,18 @@ round). Board, all verified and pushed:
   impact; rider = the AUDIO_CUE_MAP evidence-slot write. Game
   paste with the designer. Icon Tier-0 deliberately NOT included
   (stays after the Loop acceptance).
-- Opens: **sl-0075 (WALKABLE WOODS — the designer's second
-  screenshot re-scoped the pinch finding to REGION SCALE: whole
-  tree bands are walls; porosity rule + WF paste with the
-  designer — clusters ≤2 cells, detour ≤2.0×, weave lanes;
-  density preserved, renders before export; SUPERSEDES the
-  site-nudge lever pick)** · **sl-0067 (b77 walk — open; the
-  woods round is its fix arm)** · **sl-0041 (rehearsal, designer-driven,
+- Opens: **sl-0078 (THE COLLISION CHANGE — designer-invoked
+  deliberate act after three desire-line screenshots: props
+  block what the ART shows, not their full cell; player threads
+  between solids at any angle; composition stays as authored —
+  b78 spacing PARKED unreleased, sl-0075 superseded; round-1
+  scope = props only, enemies stay grid-walkers, structures/
+  terrain unchanged; goldens/battery/DodgeBot re-proof
+  deliberate; grid stays the conservative floor, upstream
+  pipelines untouched; game paste with the designer;
+  acceptance = their walk on their own red lines)** ·
+  **sl-0067 (b77 walk — open; the collision round is its fix
+  arm)** · **sl-0041 (rehearsal, designer-driven,
   round 5 done: belts built per sl-0073; watershed seams; the
   4-zone geography layer ACCEPTED as the working frame — "easier
   to work out from"; macro-zones = the doc-20 naming/lore layer.

@@ -1227,7 +1227,7 @@
       "repo": "planning",
       "target": "worldforge",
       "title": "WALKABLE WOODS [P]: wilderness prop fields must be POROUS - the designer's second walk screenshot re-scopes the pinch finding to REGION SCALE (whole tree bands are walls with rim-only routes); porosity rule routed to WF, supersedes the site-nudge lever framing",
-      "detail": "The designer's escalation overrides sl-0072's framing ('i dont think you understand the extent of it... that took me 30 sec to find... you cannot pass through any of the trees or props in the image and u can only walk in where the green is' - evidence notes/evidence/2026-08-01-tree-band-wall-feedback.png: a whole copse impassable, the only route a thin rim path). PLANNING CONCEDES THE FRAMING ERROR, recorded as a lesson: the probe's numbers were true but its UNIT (pinch sites, median detour) mismatched the UNIT OF EXPERIENCE (region-scale walls wearing forest art) - metric must match felt unit. THE MISSING RULE, now proposed as standing [P]: WALKABLE WOODS - wilderness prop fields are POROUS; the player weaves BETWEEN trees; a copse never forces rim-walking; solid WALLS are reserved for deliberate barriers (cliffs, built walls, authored hedges). MECHANICAL GATES (knobs designer-tunable, measured by the game's committed baseline tools/diag_pinch.py @ e991118): (1) connected solid-prop clusters <= 2 cells - trees never chain into walls; (2) bounded detour - between open cells around/inside any prop field, path length <= 2.0x straight-line distance; (3) a weave lane through any band at least every ~4 cells of frontage. IMPLEMENTATION: re-space/relocate solids (W-13: density PRESERVED, never delete without the designer's word); subsumes sl-0072's 22-site long-detour tail (bounded detour kills it); the 332 settlement-zone pinches ride the street-rule domain; expect flood/walkability changes typed per sl-0052; sl-0059 untouched. RENDERS TO THE DESIGNER BEFORE EXPORT - spacing is look. Next behavior on b77 (b78-class); the game intake after follows the normal lane and re-measures against the diag baseline. Paste handed to the designer for their WF session. sl-0067 (the walk) STAYS OPEN - this round is its fix arm.",
+      "detail": "The designer's escalation overrides sl-0072's framing ('i dont think you understand the extent of it... that took me 30 sec to find... you cannot pass through any of the trees or props in the image and u can only walk in where the green is' - evidence notes/evidence/2026-08-01-tree-band-wall-feedback.png: a whole copse impassable, the only route a thin rim path). PLANNING CONCEDES THE FRAMING ERROR, recorded as a lesson: the probe's numbers were true but its UNIT (pinch sites, median detour) mismatched the UNIT OF EXPERIENCE (region-scale walls wearing forest art) - metric must match felt unit. THE MISSING RULE, now proposed as standing [P]: WALKABLE WOODS - wilderness prop fields are POROUS; the player weaves BETWEEN trees; a copse never forces rim-walking; solid WALLS are reserved for deliberate barriers (cliffs, built walls, authored hedges). MECHANICAL GATES (knobs designer-tunable, measured by the game's committed baseline tools/diag_pinch.py @ e991118): (1) connected solid-prop clusters <= 2 cells - trees never chain into walls; (2) bounded detour - between open cells around/inside any prop field, path length <= 2.0x straight-line distance; (3) a weave lane through any band at least every ~4 cells of frontage. IMPLEMENTATION: re-space/relocate solids (W-13: density PRESERVED, never delete without the designer's word); subsumes sl-0072's 22-site long-detour tail (bounded detour kills it); the 332 settlement-zone pinches ride the street-rule domain; expect flood/walkability changes typed per sl-0052; sl-0059 untouched. RENDERS TO THE DESIGNER BEFORE EXPORT - spacing is look. Next behavior on b77 (b78-class); the game intake after follows the normal lane and re-measures against the diag baseline. Paste handed to the designer for their WF session. sl-0067 (the walk) STAYS OPEN - this round is its fix arm. || SUPERSEDED + CLOSED ~2026-08-01T02:45Z (sl-0078): the designer rejected the placement approach outright - 'i didnt say i wanted the composition of how trees are placed on the map [changed]'; composition is art direction and stays as authored. The want was always MOVEMENT: art-matched prop collision, now routed game-side as sl-0078 (the deliberate design act, designer-invoked). b78 PARKED UNRELEASED (WF park paste handed; the spacing work archives in-repo, possible future designer-opt-in art tooling only). The porosity gates die with this framing; the walkable-woods NAME survives as the outcome, delivered by physics instead of maps.",
       "refs": [
         "sl-0072",
         "sl-0070",
@@ -1235,7 +1235,7 @@
         "sl-0063",
         "notes/evidence/2026-08-01-tree-band-wall-feedback.png"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -1266,6 +1266,25 @@
         "sl-0071",
         "tools/decision_deck_register.json",
         "docs/13-UI_STYLE_KIT_SPEC.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0078",
+      "ts": "2026-08-01T02:44:52Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "DESIGNER-DIRECTED COLLISION CHANGE (the deliberate design act, invoked): props block what the ART shows, not their full cell - player movement threads between solids along the designer's desire lines; b78 spacing PARKED unreleased; sl-0075 superseded",
+      "detail": "The designer, after three escalating walk screenshots (all in notes/evidence/: the desert lane, the tree-band wall, and the sparse-scatter desire lines 2026-08-01-desire-lines-sparse-feedback.png) and planning twice routing PLACEMENT fixes for what was always a MOVEMENT want: 'i said i want to be able to walk between trees and props and houses and whatever solid tiles like this. i didnt say i wanted the composition of how trees are placed on the map [changed]' + 'its almost like you dont wanna fix the issue the way i want and am pretty sure it will work.' PLANNING'S MISS, owned in the record: desire lines are about movement, not maps; the WYSIWYG-contract caution flag was over-weighted against the designer's thrice-stated want - the deliberate-act clause exists exactly for this moment and the designer invoked it. THE RULING: composition is art direction and STAYS AS AUTHORED (b78's spacing pass PARKED UNRELEASED, archived in-repo; it may return someday only as designer-opt-in art tooling); the fix is GAME-SIDE ART-MATCHED PROP COLLISION - each solid prop gets a small collider matching its sprite's base footprint (thin trunk, boulder base, cactus base) instead of owning its full cell; the player brushes between solids wherever visible ground shows, at any angle. ROUND-1 SCOPE (defaults, adjustable at feel): props only (the solid roster - trees, boulders, cacti, dead trees, etc.); houses/structures/cliffs/terrain UNCHANGED (the between-house slits question rides later); enemies STAY grid-walkers (asymmetry accepted - the player may slip where mobs must go around; revisit at feel); projectiles unchanged. SIM CONSEQUENCES accepted deliberately: goldens re-record, replay/battery re-baseline, DodgeBot movement-only dodge proofs RE-RUN at the new collision (doctrine re-verified), full pretester. VALIDATION SEMANTICS RESTATED: the cell grid remains the CONSERVATIVE floor - floods/porosity/world_walk keep their meaning for coverage and upstream contracts (WF/TF/world_filler pipelines UNTOUCHED; b77 stays current; zero upstream work); player passability is now art-true, which is MORE WYSIWYG than cells ever were - the art is the truth. Acceptance = the designer's walk along their own red lines. Both pastes handed (game build + WF park). sl-0075 closes SUPERSEDED.",
+      "refs": [
+        "sl-0075",
+        "sl-0072",
+        "sl-0067",
+        "notes/evidence/2026-08-01-desire-lines-sparse-feedback.png",
+        "notes/evidence/2026-08-01-tree-band-wall-feedback.png",
+        "notes/evidence/2026-08-01-prop-pinch-walk-feedback.png"
       ],
       "status": "open",
       "by": "agent"

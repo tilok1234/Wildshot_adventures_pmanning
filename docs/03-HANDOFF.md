@@ -131,15 +131,17 @@ Board at this seam:
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
 - **Designer-gated items now on the plate** (sweep as they land):
-  **the CALCULATOR PASTE** (sl-0095, staged in the session file —
-  designer hands it to a game session) · **the CONTENT FEEL
-  SESSION** (docs/20 step 2: the five picker scenarios from
-  sl-0094 — danger ramp, boss spot, territory texture, the
-  designer's words) · the Hell Engine V2 exact-file listen (RF
-  session) · the b77/fit-rule WALK + THE LOOP RUN (the
-  acceptance, judged against the designer's own bar) · the icon
-  tool's source push from the other PC. (The rehearsal EXPORT GO
-  landed + swept: sl-0093/0094.)
+  **the CONTENT FEEL SESSION** (docs/20 step 2: the five picker
+  scenarios from sl-0094 — danger ramp, boss spot, territory
+  texture, the designer's words) · the Hell Engine V2 exact-file
+  listen (RF session) · THE LOOP RUN (the acceptance, judged
+  against the designer's own bar; **the WALK is running its
+  formal acceptance NOW, this session**) · the icon tool's
+  source push from the other PC. (Landed + swept today: the
+  rehearsal EXPORT GO sl-0093/0094 · **the CALCULATOR BUILT
+  hands-free, all five gates green, first derived numbers [P] —
+  sl-0096, planning concurred on all three flagged conventions,
+  sl-0095 closed**.)
 - Authorities: docs/19 · docs/20 · doc 18 · doc 16 +
   `tools/ecosystem.lock.json`. Planning's mainline is the standing
   branch `claude/questionnaire-note-taking-9vl2sl` (no main by

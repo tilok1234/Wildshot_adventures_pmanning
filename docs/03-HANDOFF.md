@@ -14,13 +14,48 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-01 (mid-day; the marathon session's board, all verified and pushed)
+# CURRENT HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z; the fresh chat's job is THE TALK)
 
 **This section supersedes everything below it.** The full story is
-`notes/sessions/2026-07-31.md` (the fresh-account marathon: the road
-arc closed end-to-end with the designer's eyes on it, the fit rule,
-the deck deal, six pillars, the icon + NPC packs, the rehearsal
-through round 11). Board:
+`notes/sessions/2026-07-31.md` (the fresh-account marathon; its tail
+HANDOFF mirrors this section). **The fresh session's first moves, in
+order:**
+
+1. Read this section + that session-file tail HANDOFF.
+2. Verify the board vs GitHub (planning tree clean and synced; game
+   at SERIAL 14 / b77 / both packs vendored; wf_filler at behavior
+   24, export designer-held) and **ARM THE SWEEP WATCHER** —
+   persistent Monitor, the proven v2 lanes: `tools/sync_log.json`
+   working-tree dirt (the append lane), LOCAL-HEAD moves
+   (producer sessions commit planning themselves — ~10 clean
+   instances this session), planning-origin ahead, WF/TF newest
+   release by `max_by(.published_at)`. Sweep duty = verify vs
+   GitHub → commit → resolve → next paste. Append at the FILE
+   TAIL only (anchor on the actual tail; a mid-array insert
+   happened once and was self-caught); validate count+dupes
+   before every commit; a GitHub 404 on a fresh game commit is
+   usually push-timing — check the LOCAL clone before calling
+   incident.
+3. **THE STAT TALK.** The designer hands over TEN deep researches
+   (two engines; the five commissioned topics + five more). ASSESS
+   THEM FIRST, properly and unhurried: digest into docs/22
+   Appendix A — per research: what it says, what applies, what
+   contradicts our locked constraints (research is REFERENCE; the
+   design authority stays this repo). THEN open docs/22 block 1
+   and run the nine blocks ONE AT A TIME: short brief →
+   planning's concrete recommendation → the designer's verdict →
+   fill the RULING slot → docs/08 row where register-worthy →
+   ONE COMMIT PER BLOCK. The slice bill is the customer
+   (sl-0082/0087): 4 zones bracketed Green 1–7 / Dry Reach 8–15 /
+   Wetlands 16–22 / Snow Country 23–30, T1–T5 exists in art,
+   movement caps are CORE-33-critical, block 9's calculator lands
+   as a game paste at the end.
+4. Method: plain names first, ids in parentheses (standing
+   designer rule); one focused block at a time; honest pushback;
+   their informal typos are normal — ask only when truly
+   ambiguous.
+
+Board at this seam:
 
 - **THE WORLD IS PLAYABLE THE DESIGNER'S WAY:** b77 overworld
   intaken (road joints + carpet/canopy walkability) and **THE FIT
@@ -54,12 +89,12 @@ through round 11). Board:
   FULLY consistent with the enemy pack**). Both packs home +
   unwired. Wiring order: the Loop acceptance run FIRST — the loop
   is judged as built.
-- **NEXT BIG THING: the STAT TALK, in a FRESH CHAT.** docs/22 is a
-  staged nine-block skeleton (constraints pulled in, empty RULING
-  slots); the designer runs FIVE deep researches on two engines
-  (mitigation formulas · movement-speed itemization · progression
-  pacing · behavioural skill trees · evergreen boss uniques) and
-  hands them over AT talk start. The slice bill is the customer.
+- **THE STAT TALK is THIS session's job** (see first-moves above):
+  docs/22 = the staged nine-block skeleton; TEN researches arrive
+  at talk start (the five commissioned — mitigation formulas ·
+  movement-speed itemization · progression pacing · behavioural
+  skill trees · evergreen boss uniques — plus five designer-added);
+  assess-first, then blocks. The slice bill is the customer.
 - Opens: sl-0067 (the walk) · sl-0087 (hand-places) · sl-0089 (NPC
   intake paste out) · sl-0041 (rehearsal; export held) · sl-0005
   (TF gate art + hedge, partial — road-band third satisfied).
@@ -68,11 +103,16 @@ through round 11). Board:
   **THE LOOP RUN** (the big one) · b65 city walk · audio-in-play ·
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
-- Method: plain names first, ids in parentheses (2026-08-01
-  feedback rule); the sweep watcher runs (append lane + local-HEAD
-  lane + release polls); sweep duty = verify vs GitHub → commit →
-  resolve → next paste. Authorities: docs/19 · docs/20 · doc 18 ·
-  doc 16 + `tools/ecosystem.lock.json`.
+- **Designer-gated items riding beside the talk** (sweep them as
+  they land): the rehearsal EXPORT GO (content complete, all
+  dispositions named, sl-0091) · the Hell Engine V2 exact-file
+  listen (RF session) · the b77/fit-rule WALK + THE LOOP RUN (the
+  acceptance, judged against the designer's own bar) · the icon
+  tool's source push from the other PC.
+- Authorities: docs/19 · docs/20 · doc 18 · doc 16 +
+  `tools/ecosystem.lock.json`. Planning's mainline is the standing
+  branch `claude/questionnaire-note-taking-9vl2sl` (no main by
+  design).
 
 ---
 

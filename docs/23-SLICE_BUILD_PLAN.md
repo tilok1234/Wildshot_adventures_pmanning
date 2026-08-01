@@ -60,6 +60,20 @@ readability laws · determinism/proof discipline throughout.
    pillar for free); hand-author closer only where it feels needed.
 6. **Wiring:** yes — NPCs + icons land in S0.
 
+**BOSS IDENTITIES (the designer's naming act, 2026-08-01 — name ·
+what it is · why it's there · basic unique concept [one
+whitelist break each, numbers at build]):**
+- **GREEN COUNTRY (ruled):** world boss = **OLD TUSK** — the
+  great scarred boar of the SE mud pocket (the hand-placed site),
+  the countryside's own monster; every farmer tells the story,
+  the Wardens nail warnings to the trees. Unique concept: **Old
+  Tusk's Hide** (armor; over-budget defense WITH a real paired
+  speed cost — break (c); the souvenir: his stubbornness).
+  Dungeon = **THE WARREN**, boss **KING GRUBB** — the goblin
+  tunnel-maze under the meadows; the fat little king every
+  surface goblin answers to (pack fights in tight rooms = the
+  dungeon grammar; explains the zone's goblins).
+
 **THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
 the [P] candidates from the icon round):** **the Wardens** (Green
 Country — the line between the farms and the roads' bandits) ·

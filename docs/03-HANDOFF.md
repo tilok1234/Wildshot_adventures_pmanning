@@ -81,9 +81,11 @@ round). Board, all verified and pushed:
   charm tiers color-first (designer: one glance at the deutan
   sheet). **Four faction NAME CANDIDATES captured [P]: the
   Wardens, the Prospectors, the Circle, the Free Company.**
-  GAME INTAKE PASTE with the designer (raw drop, passport,
-  validation, NO WIRING until the Loop acceptance). Tool-source
-  insurance from the other PC still owed (b7eae05f lesson).
+  **INTAKEN (sl-0085, game d7fbc16 local-verified push-pending):
+  vendored byte-true + passport per-file hashes + a
+  negative-tested 20th fixed gate + the first game←icon-forge
+  lock pin; UNWIRED until the Loop acceptance.** Tool-source
+  push from the other PC = the one open item on this thread.
 - **Props/solid-navigation round ROUTED — sl-0063 (2026-07-31
   ~22:39Z, designer: "i will do this in wf now"):** W-13 fired —
   WF converts prop walkability (carpet/canopy/solid, DO NOT
@@ -156,11 +158,15 @@ round). Board, all verified and pushed:
   (sl-0076); zonal danger CHAPTERS — Green Country [1,2] → Dry
   Reach [3,4] → Wetlands [5,6] → Snow Country [7,8] (behavior
   19); sanctuaries shrunk designer-directed with buildings as
-  the floor (behavior 20). **OPEN FLAG: Snow Country, the
-  endgame chapter, has NO BOSS — planning lean: per-zone boss
-  allocation over easing the road-distance floor.** Then
-  placements/territories verdicts → lock/reroll/paint → gated
-  export)** · standing sl-0003/sl-0005. Resolved this seam additionally: sl-0065
+  the floor (behavior 20). **Snow boss flag RESOLVED by the
+  designer's rounds — THREE ringed bosses staged (dry_grass /
+  mud / snow locks); go = lock → verify byte-stable → gated
+  b77-pinned export. Slice-quantity + light quest-giver-anchor
+  ask ROUTED (sl-0086, paste with the designer): 4 slice
+  dungeons; Green Country's boss count = the designer's open
+  call; giver-slot layer skip-if-costly; level brackets land in
+  the export record — planning rec: slice cap 25 = their own
+  5/5/5/10 numbers)** · standing sl-0003/sl-0005. Resolved this seam additionally: sl-0065
   (dev map via sl-0069), sl-0070 (diagnosed via sl-0072),
   sl-0073 (executed as behavior 17).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded

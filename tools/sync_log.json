@@ -1596,6 +1596,23 @@
         "planning@e375128"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0096",
+      "ts": "2026-08-01T12:39:18Z",
+      "type": "note",
+      "repo": "game",
+      "target": "planning",
+      "title": "The balance calculator is built and green - every stat-talk rule is now a machine check, the numbers exist on paper before any game code, and smuggled cheat-items get refused automatically; nothing in the running game changed",
+      "detail": "sl-0095 executed hands-free (docs/22 block 9, paper-first, zero sim contact). data/balance_frame.json = the ONE versioned game-owned file mirroring the docs/22 tables (game owns the file, planning owns the design; the calculator hard-codes the ruled constants as the design contract, so data drift from docs/22 FAILS loudly and docs/22 is never amended game-side). Concrete numbers DERIVED [P] inside the nine ruled blocks: weapon DPS budgets 12 x 1.4^t, frames at +/-10% (slow-heavy earns ~+7-10%, fast-light = the budget-exact reference, long-reach pays ~-9%); enemy typical hits 10/16/26/40 across the sl-0087 brackets with obtainable armor at EXACTLY 0.5x every bracket (the 0.4-0.6 rider dead-center; plateau flags all clear, incl the T5 capstone at 0.65x); trash HP 24/32/48/64 back-solved to 4 reference hits at every band; armor-slot HP 30/38/49/63/81 (+25-30% steps); class curves sword 120+16/level, staff 100+13, bow 90+11 (HP+mana+1 skill point, NO auto damage); speed 100/105/110 cap 115 (integrator-enforced at slice build, max item speed +5); XP flat-per-zone stepped 100/400/800/1400 = 20,600 to cap-30 at ~33-37 kills/level (the Kimi family, ruled block 5); the six-pair grammar verbatim; unique one-break + chassis 70-90%. THE FORMULA everywhere: taken = max(attack - armor, ceil(attack x 0.2)), one rounding step. tools/balance_calc.py = the 23rd pretester fixed step + a CI row (pure stdlib, deterministic). ALL FIVE GATES PASS: (1) TTK 2.0-3.3s trash per class (invariant across zones by back-solve) and TTD 47->26s tapering green->snow (the world sharpens faster than you toughen - the dangerous-trending shape a bullet-hell wants) inside the declared bands [1-6s / 12-90s]; (2) armor liveness clean everywhere; (3) pattern x scenario fairness holds at every tier (arc best in clumps + single, pierce owns lines, stream owns movers; none best everywhere - CORE-41's promise mechanical); (4) 4 hits at every band, all combat numbers <=3 digits (max 599); (5) the item validator refuses over-budget, un-paired, and mis-broken uniques - NEGATIVE-TESTED per the routing (a smuggled un-paired +damage ring and a two-break godblade both exit 1 with findings named; TECH-16 discharged on paper). GAME-SIDE CONVENTIONS FLAGGED [P] in the file for planning's sweep (the ruling needed three small interpretations): hits-to-kill reference = the budget-exact fast-light frame (equal-DPS frames cannot all land 3-5 hits of different sizes - the other frames satisfy the TTK band instead); class<->frame mapping sword=slow-heavy / bow=fast-light / staff=long-reach (the block-5 identity leans onto the block-3 frames); TTD model = one fully-tanked hostile stream at 1 landed hit / 1.2s (pressure grows via hit size + pattern count per the block-2 rider, never landed-rate inflation). GATE NOTE, gotcha #19 honored: the designer's play window (godot.exe --path ., opened 14:25 - possibly the sl-0094 overworld feel session) held the project, so the pretester could not run; the calculator gate + negative tests + parse checks ran individually green (same commands + exit codes, the recorded fallback); the full 23-step + 33-row gate rides the next exclusive seam. NO WIRING - the stat frame enters the sim at slice build; the numbers exist before the code does.",
+      "refs": [
+        "sl-0095",
+        "sl-0087",
+        "sl-0082",
+        "docs/22-STAT_SYSTEM.md",
+        "game@7ff3fd1"
+      ],
+      "by": "agent"
     }
   ]
 }

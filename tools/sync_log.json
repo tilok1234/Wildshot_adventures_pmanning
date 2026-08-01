@@ -1376,6 +1376,23 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0084",
+      "ts": "2026-08-01T09:18:44Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "Asset-gap rulings [P]: NPCs = assembler player-character skins (not new Sprite Forge NPCs); the 13-boss pack = THE boss roster (old SF bosses -> elite/bench); gatherable-node approach = universal stub + one ripple effect (planning suggestion, designer reaction pending)",
+      "detail": "The designer's point-by-point on the asset-gap list (~09:18Z). (1) NPC SEAT [P]: 'i was thinking we can just use player character skins from the assembler for npc' - villager/quest-giver/faction-NPC variety comes from the assembler's hero-character generation (loadout exports observed in Downloads), NOT a new Sprite Forge NPC pass. Caveats carried: NPCs need idle/walk at most (catalog-grade sprites fine for v1); solo game = player-silhouette NPCs cannot be mistaken for players; hostiles keep their own family language (Law 3 holds). Faction NPC faces (Wardens/Prospectors/Circle/Free Company) ride this seat. (2) Zone music + fishing/foraging/UI SFX gap ACCEPTED ('ye fair enough') - Resonance Forge side-menu. (3) BOSS SOURCE RULING [P]: 'we will only use the new type of bosses as actually bosses' - the established-boss-pack-13-v1 IS the boss roster; consistent with the loop's Bone Reliquary King already taking its look from that pack; the 2026-07-29 'review-only, unwired' ruling on the pack is SUPERSEDED-AT-SLICE-WIRING (the boss-sheets deck card's question is effectively answered); the 34 Sprite Forge bosses drop to elite/miniboss/bench duty. (4) GATHERABLE NODES - planning's suggestion staged (designer reaction pending): foraging = ONE universal harvested-stub tile (or two: dug-earth for flowers, cut stem for bushes), TileForge-side, prop-swap on harvest + respawn timer, gatherable-ness comes from the content plan not art, species identity lives in the catch (the 24 flower icons); fishing = ZERO species world-art - fish are zone-keyed data + the 24 fish icons at the catch; world-side just ONE subtle looping ripple effect (Sprite Forge effects family) marking spots placed by the content plan. Total gap-4 art bill: 1-2 stub tiles + 1 ripple loop.",
+      "refs": [
+        "sl-0083",
+        "sl-0082",
+        "docs/08-DECISION_REGISTER.md",
+        "notes/sessions/2026-07-31.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

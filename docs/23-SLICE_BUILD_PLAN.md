@@ -60,6 +60,18 @@ readability laws · determinism/proof discipline throughout.
    pillar for free); hand-author closer only where it feels needed.
 6. **Wiring:** yes — NPCs + icons land in S0.
 
+**THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
+the [P] candidates from the icon round):** **the Wardens** (Green
+Country — the line between the farms and the roads' bandits) ·
+**the Seekers** (Dry Reach — they go after what's buried) ·
+**the Rovers** (Wetlands — the marsh roads' freelancers) · **the
+Keepers** (Snow Country — they keep the dead down and the ruins'
+secrets kept). One parallel shape, designer-structured; "the
+Waders" rejected for audible collision with "the Wardens" (the
+readability instinct, applied to names). Each name binds its
+faction rep in the NPC roster at seam-4 wiring; faction XP/vendor
+mechanics stay the locked CORE-39/46 frame, later.
+
 **Class call (designer, same session): ALL THREE classes from the
 start** — bow / staff / sword ("we got all the infrastructure
 completed for it": three ruled base curves, calculator-generated

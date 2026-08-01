@@ -1237,6 +1237,22 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0076",
+      "ts": "2026-08-01T02:13:40Z",
+      "type": "note",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "Dusk round 5: macro-zones layer landed (behavior 18) and the designer accepts zones as the working frame; designer confirms in-round that the dusk map IS the game test slice",
+      "detail": "Round-5 verdict thread on sl-0041: the designer sketched ~4 geography-following zones over the terrain map (\"a small map like this should be like 4 zones kind of depending on the geography\"). Executed as an opt-in zones layer OVER the fine planning regions (solver units unchanged, danger gradients keep their granularity): recipe zones.count (0=off), deterministic clustering - biome-family components of the region graph (green/dry/cold/wet) seed the K heaviest cores, remaining regions join by graph BFS, honest zone_shortfall waiver, content-derived zone ids, new zones.png render. Dusk at count 4: green country 30.9k cells / wetlands 10.1k / dry southwest 9.7k / snow country 8.0k, zero waivers - matching the sketch ring for ring. Designer: \"ye i think something like this will be easier to work out from\", and confirmed the dusk map acts as the TEST SLICE for the game (consistent with docs/20 step 1 - the pack remains reference-only for the hand-rehearsal). Also in-round: the behavior-16 ANALYSIS_VERSION stamp split was caught and fixed at the root (constant now derives from the rule-pack table). 193 tests green; world_filler@ce7d29f + handoff de-stale. OPEN: round-4 danger verdict, placements/territories verdicts, lock/reroll/paint, then the designer-gated export. || PLANNING VERIFICATION ~2026-08-01T02:16Z (append lane honored; the session's id-guard caught tonight's FOURTH collision — planning took sl-0075 mid-round, the session correctly landed here as sl-0076): PASSED — ce7d29f contained in world_filler main (the ANALYSIS_VERSION stamp-fix 404822c preceding it noted: label-only defect, computations unaffected, fixed at the root per the stamp-everything doctrine, golden re-recorded — honest and correct handling). THE TEST-SLICE CONFIRMATION is planning-significant and CONSISTENT with standing doctrine (docs/20 step 1: the pack is the game's authoring REFERENCE — hand-authored spawn tables + boss sites mapped from it, never a direct import; export designer-gated; WorldForge's 'likely first production use: drafting the slice zone' line converges here): the dusk overworld = THE GAME'S TEST SLICE, recorded on the docs/03 board. Zones = the naming/lore hang-points for the doc-20 hand-carve layer (named bosses in named places). Rehearsal continues designer-driven; planning sweeps the export when it comes.",
+      "refs": [
+        "sl-0041",
+        "sl-0073",
+        "sl-0074",
+        "world_filler@ce7d29f"
+      ],
+      "by": "agent"
     }
   ]
 }

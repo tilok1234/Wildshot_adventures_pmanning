@@ -74,6 +74,20 @@ whitelist break each, numbers at build]):**
   surface goblin answers to (pack fights in tight rooms = the
   dungeon grammar; explains the zone's goblins).
 
+- **DRY REACH (ruled):** world boss = **THE LAST SENTINEL** — an
+  ancient golem in the open sand, still guarding a doorway to
+  whatever the Seekers want dug up (slow, huge, geometric
+  patterns; the Seekers' whole story in one fight). Unique
+  concept: **the Sentinel's Beam** (staff; PATTERN REPLACEMENT —
+  fires his slow sweeping line; the souvenir rule). Dungeon =
+  **THE SEALED TOMB**, boss **THE MINOTAUR** — the buried maze
+  the Seekers cracked open and regretted; the bull walks its
+  corridors (labyrinth grammar; "Karn" parked as a name candidate
+  if he ever needs one — "the Minotaur" carries its own weight).
+  Dungeon-boss uniques stay open for chapter build (the ~8–12
+  budget governs; each break distinct in kind — the Hide took the
+  armor-budget break, the Beam takes pattern replacement).
+
 **THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
 the [P] candidates from the icon round):** **the Wardens** (Green
 Country — the line between the farms and the roads' bandits) ·

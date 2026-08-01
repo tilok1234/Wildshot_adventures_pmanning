@@ -61,7 +61,21 @@ at double-digit numbers, armor feels every point, and the 20% floor
 kills both failure modes at once (armor never zeroes a hit; big hits
 never fully trivialize). Sanity-check against research A when it
 lands.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "i agree"):** THE FORMULA IS
+`taken = max(attack − armor, ceil(attack × 0.2))` — flat
+subtraction, 20% minimum-damage floor, floor rounds up (attacker's
+favor), ONE rounding step. 1 defense = 1 less damage, felt
+exactly; no hit ever zeroes; no armor ever makes immune. Both
+engines' research independently recommended this exact shape
+(Appendix A.1; floors bracketed 10–25%, ours mid). RIDER RULED
+WITH IT (the enemy-side half): enemies get stronger across zones
+by hitting BIGGER and in MORE patterns — never by becoming damage
+sponges (CORE-36 kin, now formula-bound); per-bracket obtainable
+armor budgets stay ~0.4–0.6× the bracket's typical enemy hit so
+defense stays a live choice — the block-4 tables + the block-9
+calculator inherit this as a constraint, and the calculator flags
+any bracket where obtainable armor ≥ 0.8× common attacks (the
+floor-plateau onset). Register: CORE-40 second amendment.
 
 ## Block 3 — DPS identity (damage × attack speed × range)
 

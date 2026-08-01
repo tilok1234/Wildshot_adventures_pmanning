@@ -126,7 +126,11 @@
     {
       "consumer": "game",
       "producer": "world_filler",
-      "artifact": "NONE — consumption is post-Gate-1 by doc 17 (accepted 2026-07-29; mainline note added 2026-07-30: format 1 FINAL stays the consumption basis)"
+      "artifact": "wildshot-overworld-pack-dusk-content-c0bf28638648 (127 placements / 92 territories / 9189 cells; pack format 3, director behavior 24; REFERENCE ONLY per docs/20 step 1 - no importer)",
+      "path": "assets/wildshot-overworld-pack-dusk-content/ (passport pins manifest + renders; the manifest files table pins the 4 payloads)",
+      "sourceCommit": "6be201e5710c54884aa3039dd8386b9511d8e78b",
+      "intake": "2026-08-01",
+      "note": "FIRST game<-world_filler artifact (supersedes the doc-17 NONE placeholder in place; docs/20 step 1 governs). Delivery sl-0093, intake sl-0094. GH digest == local zipSha256 13e0759d... == the record; manifest sha == the artifact-id prefix; b77 base pairing verified both identifiers (generation identity bd4b9317... + world.json sha 32f9e741...) and mechanized as a loud refusal in tools/validate_content_pack.py (22nd pretester step + CI row) with the eight designer locks pinned at exact cells. The hand-authored reference pass (notes/OVERWORLD_REFERENCE_PASS.md + five proof-PASSED picker scenarios, battery 28->33, incl the cold finding: activation-leash semantics are the importer's core question) is the docs/20 step-3 spec input; STEP 2 = the designer's feel verdict, armed in the picker. Game commit 447b681."
     },
     {
       "consumer": "game",

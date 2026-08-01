@@ -1558,6 +1558,28 @@
         "world_filler@6be201e"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0094",
+      "ts": "2026-08-01T11:59:58Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "planning",
+      "title": "The world-content delivery is in AND the first hand-built overworld encounters exist - four zone scenarios plus your hand-placed Green world-boss site, every fight machine-proven dodgeable; nothing touches the real game loop yet. Next step is yours: play it and say how directed placement feels",
+      "detail": "sl-0093 executed hands-free: intake + the docs/20 step-1 game-side reference pass, one seam. INTAKE (reference only, no importer, no sim consumption): release fetched by tag from world_filler; GH computed digest == local zipSha256 13e0759d... == the delivery record (82,592 bytes); sourceCommit 6be201e contained in wf main; manifest sha256 == the release notes == the artifact-id's own embedded prefix c0bf28638648. Vendored 8 files to assets/wildshot-overworld-pack-dusk-content/; the manifest's files table (4 payload sha256s) VERIFIED at staging; passport pins manifest.json + the 3 unhashed renders + the verified provenance. B77 BASE PAIRING VERIFIED BOTH IDENTIFIERS pre-drop (generationIdentitySha256 bd4b9317... == the vendored world's generator block AND base.artifactSha256 == sha256 of the vendored world.json 32f9e741...; format 8; 256x256 - wf verifyPack semantics replicated) and MECHANIZED as a loud refusal in the fixed gate tools/validate_content_pack.py = the 22nd pretester step + CI row (also pins: the EIGHT designer locks at their exact cells, placement rule census 112/11/4, territory cellCount total 9189, the 41-failure honest record, 23 unbound anchors, report 9/9 gates, zone census, giver/gather counts); NEGATIVE-TESTED (corrupt payload + deleted render -> exit 1, findings named). THE REFERENCE PASS (docs/20: hand-author spawn tables + a boss site or two, real defs, proofs on every authored pull, no new machinery): notes/OVERWORLD_REFERENCE_PASS.md = the step-3 importer-spec input - zone brackets per sl-0087 (Green 1-7 / Dry 8-15 / Wetlands 16-22 / Snow 23-30, zone=level flat tiers; the wf dangerBand deliberately unused), placeholder->real vocabulary (marauder->rusher, prowler->husk_archer, night_shade->leadshot w/ nightOnly recorded-not-consumed, mire_creeper->blightcaster, frost_wraith->ringer, boss sites->Warden kit stand-in with IDENTITY reserved for the designer's lore act). FIVE picker scenarios on REAL pack site cells (all 24 authored cells walkability-verified pre-authoring): overworld_green (5 sites, tier-1 pulls), overworld_dry (husk+leadshot / rusher+fanmaw / husk pair), overworld_wet (3-pressure dangerous pull deep at 204,171 + the 180,143 BORDER CAMP tuned to entry-wet blightcaster+rusher = the playable camp-tuning demo), overworld_cold (see the finding), overworld_green_boss (the hand-placed 249,244 site, Warden kit, approach outside the pack's own 6x6 arena box). PROOFS: reactive 3.0 ability-off seeds 1,2,3 x 3600 - ALL FIVE PASS; battery 28->33 rows; cold margin 0.121 == the lab solo-ringer margin exactly. THE COLD FINDING (docs/20's learn-cheaply, now with numbers - SIX failed layouts recorded in the notes doc): (1) the sim has NO ACTIVATION LEASH - every mobile pull in a world scenario converges from t0, so multi-pull zone density waits on activation/territory semantics (maxActive/respawnPressure - THE importer spawn-surface question); (2) a husk-volley alignment clips ringer orbits at fit-rule margins on b77 ground (FIRST@1350 invariant across support casts) - pairing viability is terrain-class-dependent; (3) point-openness is not orbit-openness (the 157,39 site scores 0.97 open yet pins at margin 0.000 - cliff bands outside the sample radius; wf's clearance term is the natural upstream home for a real orbit-clearance model). Snow ships as the zone-heavy solo demo; cold camps tabled (wet demonstrates the tuning playably). Ruined city: UNMARKED - zero authored content, verified no authored cell in the box. Dungeons/givers/gathers: recorded, untouched (slice-round scope). Lock: the doc-17 NONE placeholder REPLACED by the first real game<-world_filler pin. Fixed gates + export + probe ALL GREEN this seam (battery deliberately skipped, zero sim change - the five NEW rows ran at authoring; full 33-row gate rides the next exclusive seam). STEP 2 IS ARMED: the five scenarios sit in the picker for the designer's feel session - the danger ramp, the boss spot, the territory texture, in their words.",
+      "artifact": {
+        "id": "wildshot-overworld-pack-dusk-content-c0bf28638648",
+        "sourceCommit": "6be201e5710c54884aa3039dd8386b9511d8e78b",
+        "hash": "zipSha256 13e0759d1275dc55f9e17814166acfb332bdd8c0813ddb202cf1196b29863db6"
+      },
+      "refs": [
+        "sl-0093",
+        "sl-0087",
+        "sl-0082",
+        "docs/20-WORLD_CONTENT_ARC.md",
+        "game@447b681"
+      ],
+      "by": "agent"
     }
   ]
 }

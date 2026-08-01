@@ -119,7 +119,25 @@ dribble); slot weights — weapon carries offense, armor carries
 defense+HP, ability item mostly its active + minor stats, ring purely
 situational trades. Exact numbers land in the Block-9 calculator, the
 table becomes the TECH-16 validation source.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "we will go for plannings
+reccomendation this actually sounds perfect for the game"):** RULED
+AS RECOMMENDED, all four parts — (1) **the WEAPON carries the big
+step: +40% DPS budget per tier** (the tier fantasy is the weapon;
+research consensus: few tiers must be chunky or they're invisible,
+Appendix A.4); (2) **defense is ENEMY-ANCHORED, not free-floating:**
+per-tier armor lands wherever it keeps obtainable armor ≈ 0.4–0.6×
+the tier's zone's typical enemy hit (the block-2 rider); HP steps
++25–30%/tier — offense explosive, survivability steady, old zones
+never instantly trivial; (3) **slot jobs:** weapon = all offense ·
+armor = defense + HP (archetype trades live here) · ability item =
+its active + minor stats · ring = NO raw budget, purely paired
+situational trades (block 7's grammar); (4) **T5 = rare capstone
+pieces in late Snow Country (~lvl 28+), boss/dungeon-anchored** —
+not a fifth zone-tier; the ladder stays 4 zones = 4 tiers with a
+chase on top (the open sl-0082 T5 question CLOSES). Exact per-slot
+numbers generate + verify in the block-9 calculator; the table is
+the TECH-16 validator's source (over-budget items refused
+mechanically). Register: CORE-37 amended.
 
 ## Block 5 — Class base curves + the level share
 

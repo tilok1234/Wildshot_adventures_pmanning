@@ -88,7 +88,25 @@ steps [P].
 it (slow-heavy / fast-light / long-reach each ±10% of budget, paid
 for by handling). Pattern identity carries the real difference —
 numbers only set the envelope.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "ye this sounds good but we got to
+make sure we come up with a way to properly balance the different
+patterns"):** RULED AS RECOMMENDED — the tier sets a DPS BUDGET;
+frames split it (damage × attack speed lands on budget); frames sit
+within ±10% of budget, paid by handling — extra range/comfort costs
+DPS, short/awkward earns it; the PATTERN is the identity, numbers
+only set the envelope. Free block-2 synergy noted: slow-heavy
+punches through armor (fewer, bigger hits lose less to flat
+subtraction), fast-light is smoother but armor-taxed — a real trade
+with zero extra rules. **THE DESIGNER'S CONDITION, ruled in as the
+mechanism:** patterns are balanced by MEASUREMENT — a deterministic
+pattern × scenario matrix (single target / clump / line / moving
+target reference situations, bot-run, realized-DPS not paper-DPS)
+with the gate "each pattern BEST IN ≥1 scenario, best in NONE
+everywhere" — the situational-side-grade promise (CORE-41) made
+mechanical; lands in the block-9 calculator spec; the encounter
+side's showcase rule (CORE-44: clumps→spread, lines→pierce,
+distant→long shot) is the same promise's other half. Register:
+CORE-41 amended.
 
 ## Block 4 — Tier budgets (T1–T5, per slot)
 

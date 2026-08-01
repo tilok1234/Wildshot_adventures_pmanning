@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "status": "ACTIVE — doc 18 ACCEPTED 2026-07-30 (Decision Deck register). Written during intakes and mainline rulings per doc 18 §10; any mismatch between this file and reality is an automatic incident.",
-  "updated": "2026-07-31",
+  "updated": "2026-08-01",
   "repos": {
     "planning": {
       "github": "tilok1234/Wildshot_adventures_pmanning",
@@ -141,6 +141,14 @@
       "consumer": "—",
       "producer": "game",
       "artifact": "serialization SERIAL 13, goldens current (Loop v1, sl-0033: regenerated deliberately, verified 10x)"
+    },
+    {
+      "consumer": "game",
+      "producer": "icon forge (designer-built tool; source push owed - sl-0083)",
+      "artifact": "wildshot-icons-proto@0.1.0 (470 glyphs 16x16, T1-T5 complete, CORE-50 proof sheets; raw drop, unwired by ruling)",
+      "path": "assets/wildshot-icons-proto_0.1.0/ (passport with per-file sha256s beside it)",
+      "intake": "2026-08-01",
+      "note": "Delivery sl-0083 (Downloads zip handoff from the designer's other PC; planning-assessed PASS vs docs/21 before routing), intake sl-0085. zipSha256 ffc01860... verified pre-drop = the delivery record; staged files re-hashed byte-true; per-file sha256s generated at intake into the passport (the shipped manifest carries none). Fixed gate tools/validate_icon_pack.py (20th pretester step + CI row) = manifest contract + passport byte pin, negative-tested. NO WIRING until the Loop acceptance run (sl-0082) - boss-pack precedent. Tool-source push owed from the other PC (the b7eae05f lesson). Game commit d7fbc16."
     }
   ]
 }

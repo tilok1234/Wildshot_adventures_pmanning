@@ -150,7 +150,25 @@ zone-bracketed (lean 5/5/5/10).
 (mostly survivability), gear ≈ two thirds; class spreads set identity
 (sword tanky-slower, bow fast-fragile, staff mana-rich-mid) — the
 same trio the icon emblems name.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "yep its like if you read my mind
+this is perfect"):** RULED AS RECOMMENDED — (1) **the split:
+levels ≈ ⅓ of cap-30 power, gear ≈ ⅔; the level third is
+SURVIVABILITY-WEIGHTED** (research kin: weapons ~×5 across the
+campaign vs levels ~×3 carrying HP, Appendix A.4); (2) **per level:
+class HP + class mana + 1 skill point — NO automatic damage.**
+Damage is the weapon's job, full stop — the split stays honest and
+deaths stay readable (dying → you need levels; slow fights → you
+need a weapon). The block-1 boring regens ride the level lane
+(baseline, never build choices — the "if every build takes it,
+make it baseline" doctrine, Appendix A.3); (3) **class spreads =
+identity inside the same budget:** sword tanky at the slow end
+(most HP, base speed at the floor) · bow fast-fragile (top of the
+narrow band, least HP) · staff mana-rich middle — the icon trio;
+(4) **XP curve: FLAT PER ZONE, stepping at zone borders** on the
+ruled brackets (readable: "this zone asks N/level, pays ~M/kill");
+time-per-level is chosen first and XP back-solved — constants land
+in the block-9 calculator, not the talk. Register: CORE-39
+amended.
 
 ## Block 6 — MOVEMENT SPEED (the CORE-33-critical stat)
 

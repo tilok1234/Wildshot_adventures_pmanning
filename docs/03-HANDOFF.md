@@ -155,7 +155,14 @@ Board at this seam:
   no-shoot-from-safety watch-line); **docs/20 COMPLETE
   end-to-end** (step 3 discharged); **"THE SLICE: overworld" is
   a PICKER ROW — the living world is playable**; battery 65
-  runs. SEAM 3 (overworld death) next. Doc 23
+  runs. **SEAM 3 CLOSED + SWEPT (~16:40Z, game 8c0ce7a, SERIAL
+  17): OVERWORLD DEATH LIVES** — CORE-43 in the persistent
+  shape (25% gold slice [T] at the death tick · settlement
+  respawn ~4 s [T] w/ replay-honest early confirm · full refill,
+  the walk back is the price · recap unpaused, no run framing ·
+  hardcore + battery untouched). Two [T] feel numbers ride the
+  designer's S0-gate play. SEAM 4 (wiring, the last) next; then
+  the S0 GATE. Doc 23
   carries the dungeon truth (entrances placed, interiors =
   chapter work) + the manageable-slices principle. Still idle
   beside it: the Hell Engine V2 exact-file listen (RF session) ·

@@ -1428,7 +1428,7 @@
         "sl-0079",
         "notes/evidence/2026-08-01-rehearsal-placements-3bosses.png"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -1446,6 +1446,23 @@
         "notes/evidence/2026-08-01-zone-progression-map.png"
       ],
       "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0088",
+      "ts": "2026-08-01T09:55:12Z",
+      "type": "ask_resolved",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "sl-0086 executed: slice anchor layers live (16 giver slots / 24 gather spots), slice dungeons marked + locked with the bosses, zone-local dungeon floors built - and the wetlands has NO remote dungeon anchor by geography (hand-place lane per sl-0087); export HELD by the designer",
+      "detail": "All five sl-0086 items landed in dusk rounds 10-11 (wf behaviors 22-23, 200 tests green, 9/9 gates every run). (1) DUNGEONS: slice marks = grass.54237.0 (193,239) green / dry_grass.28429.0 (17,131) dry / gravel.3995.0 (153,19) cold, best purposefulness score per zone, recipe-LOCKED with the three bosses (G6 held byte-stable); WETLANDS EXCEPTION measured honestly - zoneLocalFloors (the round-8 boss rule extended to dungeon anchors, behavior 23) was built and is ON, but the zone only has two anchors: the cave (169,130) sits in a too-small zero-budget rock region and the beast den (193,163) stands ~8 cells from the crossing outpost, binding only at floor <= 80 permille vs the approved 320 (probed 280/240/200/160/120/80; at 80 the world gains 5 extra settlement-close dungeons). No remote dungeon anchor exists in the wetlands BY GEOGRAPHY - the slot joins the sl-0087 hand-place lane. (2) BOSSES: three locked (dry 50,133 / wet 198,124 / snow 118,19); GREEN COUNTRY generation-EXCLUDED per sl-0087 - the designer hand-places (~lvl 8-10), slot open, worldBossPerZone untouched. (3) QUESTS: the giver-slot layer fit within a round as allowed - plan-level optional keys (zones precedent, no pack-format change): 5 capital system-NPC slots (fisher/herbalist/crafter/banker/faction_rep) + zone hubs/waystations/landmark POIs, every slot reason-tagged; 16 slots on dusk. (4) FISHING/FORAGING: gather-spot layer - 3 fishing + 3 foraging per zone (24 total), nearest-to-routes with a spacing floor, collection-driven. (5) LEVEL BRACKETS ruled sl-0087 (designer Option B): slice cap 30 - Green 1-7 / Dry Reach 8-15 / Wetlands 16-22 / Snow Country 23-30; recorded in the handoff and this entry (the export entry will restate). EXPORT: designer chose HOLD, more rounds first - the gated b77-pinned release waits for a fresh explicit go. world_filler@f7fcec4. || PLANNING VERIFICATION ~2026-08-01T09:56Z (append lane honored): PASSED - f7fcec4 contained in wf_filler main; all five sl-0086 items landed as routed (the giver-slot layer fit within the allowed round - the skip clause unexercised; brackets restated = sl-0087 exactly); the WETLANDS EXCEPTION is honest geography measured honestly (floor-permille probe ladder documented) and joins the sl-0087 hand-place lane cleanly - TWO hand-place items now ride together for the designer's viewer sitting: the Green Country boss (~lvl 8-10) + the Wetlands slice dungeon anchor. sl-0086 RESOLVED (executed; the hand-place remainder is sl-0087's). Export stays designer-held.",
+      "refs": [
+        "sl-0086",
+        "sl-0087",
+        "sl-0082",
+        "sl-0079",
+        "world_filler@f7fcec4"
+      ],
       "by": "agent"
     }
   ]

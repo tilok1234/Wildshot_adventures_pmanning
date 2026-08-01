@@ -1681,6 +1681,25 @@
         "sl-0096"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0101",
+      "ts": "2026-08-01T20:55:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "S0 FOUNDATIONS EXECUTED (sl-0100 RESOLVED): four sealed seams, full gate ALL GREEN 42.4 min - Green Country alive and walkable with the stat frame underneath; S1 awaits its own routing",
+      "detail": "The doc-23 S0 paste executed exactly as routed - four sealed seams in order, gates green per seam, never two open, logbook line per seam (planning notes/sessions/2026-08-01-slice-s0.md is the full record). SEAM 1 (game 695f898, SERIAL 15): docs/22 blocks 1-8 in the sim on the class-backed lane (legacy lane byte-identical BY CONSTRUCTION - the whole floor battery reproduced byte-identical); THE formula integer-exact in THE damage path; balance_frame.json the single tuning source with a drift-refusing loader; class curves + stepped XP (20,600 to cap 30, no damage from levels); three class weapon frames on the tier tables; the movement-integrator HARD CAP 3.45 t/s with the game-side [P] anchor stat-100 == 3.0 t/s (the CORE-53 proof floor). THE CAP LANE IS BORN (block 6: proofs at floor AND cap forever, battery 34 floor rows + 31 cap runs) and its maiden sweep produced ONE genuine finding: proof_ringer FAILS at cap while passing the floor (seed-invariant 4-hit graze @t2033 - the full-3.45 lattice coarsens past the 0.121 solo-ringer radial gap, the research-predicted faster-is-not-easier class); a half-duty policy rescue was built, DISPROVEN at lane scale (it re-routed first_contact cap into a new 0.048 graze), and REVERTED byte-for-byte - ringer cap FAIL is PINNED as a documented baseline with committed repros (floor = the CORE-33 mandate PASSES; a verdict MOVE means the sim changed; if the designer ever feels ringer-at-cap-gear as unfair, the evidence trail starts here). SEAM 2 (4acca00, SERIAL 16): living-world plumbing v1 complete per docs/23 a-d and docs/20 step 3 DISCHARGED - the importer reads the vendored content pack's territories+placements directly as spawn tables (193 sites: 92 territories + 97 encounters inheriting territory tables + 4 world bosses on the Warden kit stand-in; 11 dungeon bindings recorded for chapter work); activation leash wake-22/sleep-30 with damage-persistent fold-by-id (kills persist, folds emit no kill events), away-only depth-keyed respawn (green 10800 to cold 5400 ticks [T], bosses x3 - nothing ever pops in a face, structurally), tether 12 (deliberately beyond every class weapon reach ~9.4 - no shoot-from-safety); THE SLICE picker row live (b77 + content pack, capital spawn verified clean); proof_slice_leash joined the battery (iterated twice under never-weaken - the layout stories are in the session file). The sl-0099 density finding is now authored DATA x the leash. SEAM 3 (8c0ce7a, SERIAL 17): CORE-43 overworld death - the [T] 25% carried-gold slice lands IN-SIM at the death tick, settlement respawn on a 240-tick timer or the ability-key early confirm (replay-honest, zero format change), full refill (the walk back is the price), the world never pauses or resets for a death (sl-0098), recap re-arms per death (Law 8 holds for death #2+), dead-in-place preserved for labs/proofs/hardcore. SEAM 4 (5ad9dbb, view-only): the sl-0098 wiring hold discharged - 32 NPCs stationed (zone givers at giver-slot cells walkability-nudged, the crowd on a golden-angle spiral, all in the y-sorted actor space; windowed render evidence committed and read - the crowd stands on the capital plaza) + icons (atlas consumed, weapon tier glyph in the HUD, class emblems on the creation screen). S0 GATE: full pretester ALL GREEN 42.4 min exclusive (26 fixed steps incl. three new negative-tested slice gates + 67-run battery byte-identical + export + lockdown probe); artifact-verified that balance_frame.json rides the export and the content pack ships loose beside the exe. FEEL FLAGS FOR THE DESIGNER (plain words): (1) your character now walks at CLASS speed - bow about 3.3 tiles/s, slower than the old lab 4.0; if the world feels slow after real play, the ruled block-6 revisit is ONE constant + a proof re-run; (2) class choice (bow/staff/sword) is on the new-character screen; (3) v1 loop characters start fresh on the new curves (the b65 test character retired with its loop - gold does not carry); (4) THE SLICE row is the S0 walk: leave the capital, fight the living sites, level, die, walk back. S1 (Green chapter content) DOES NOT START without its own routing.",
+      "refs": [
+        "sl-0100",
+        "sl-0098",
+        "sl-0099",
+        "docs/22-STAT_SYSTEM.md",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "notes/sessions/2026-08-01-slice-s0.md",
+        "game@5ad9dbb"
+      ],
+      "by": "agent"
     }
   ]
 }

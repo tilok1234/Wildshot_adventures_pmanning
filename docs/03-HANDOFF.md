@@ -117,12 +117,14 @@ round). Board, all verified and pushed:
   must be typed deliberate-or-artifact. Feedback paste staged in
   the session file; designer drives lock/reroll/paint; export
   gated.
-- **Crosshair styles + size ROUTED (sl-0077, ~02:20Z, designer-
-  pulled as a parallel game lane):** 3–4 shape-distinct styles +
-  integer size option, player-facing (both profiles), zero sim
-  impact; rider = the AUDIO_CUE_MAP evidence-slot write. Game
-  paste with the designer. Icon Tier-0 deliberately NOT included
-  (stays after the Loop acceptance).
+- **Crosshair styles + size LIVE (sl-0080 resolving sl-0077;
+  game 4b4c6ec, planning-verified):** four silhouettes (ratified
+  classic byte-pinned as default / dot / ring / cross-x) × odd
+  sizes 9–15, both profiles, options rows persisted; zero sim
+  impact proven; 19th fixed gate + preview sheet committed;
+  AUDIO_CUE_MAP eyes-closed slot WRITTEN (deck hand-off
+  discharged). Designer-eyes on the styles rides natural play —
+  no nag. Icon Tier-0 still sequenced after the Loop acceptance.
 - Opens: **sl-0078 (THE COLLISION CHANGE — designer-invoked
   deliberate act after three desire-line screenshots: props
   block what the ART shows, not their full cell; player threads

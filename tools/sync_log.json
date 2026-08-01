@@ -1322,6 +1322,25 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0081",
+      "ts": "2026-08-01T04:28:49Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE FIT RULE IS LIVE (sl-0078 executed, deliberate sim change): props block what the art shows - 7,560 b77 prop cells opened to art-measured sub-cell discs, player body = the sprite's 10px feet (5/32 t), projectiles share the truth; both census red-line classes PROVEN crossing where legacy+enemy models stay blocked; SERIAL 14, goldens re-recorded, battery re-baselined; the designer's red-line walk is the acceptance",
+      "detail": "sl-0078 executed hands-free per the routed ruling + fit rule + combat-safety addendum, game 549e587. BOTH HALVES BUILT: (1) PROP DISCS - game/arena/prop_colliders.gd measures every solid prop cell's OWN sprite base at load (lowest-opaque 6px band -> opaque width + centroid; THIN 0.85 'when in doubt thinner'; bounds 0.06-0.42): b77 opens 7,560 prop cells to discs (236 distinct tiles measured); cause guards keep structures/fences/cliffs/water/rock/bog full-cell (round-1 scope); b65 has the same chunk layers so THE LOOP and world_walk get the rule too. (2) PLAYER BODY - TERRAIN_RADIUS 0.25 -> 0.15625 = EXACTLY the ranger sprite's feet (frame-0 rows 19-22 measure 10px -> 5/32 t, art-derived not tuned); the 0.35 combat HURTBOX byte-untouched everywhere per the addendum (dodge fairness intact). PROJECTILE COHERENCE (addendum accepted): shots collide with walk_grid + the same discs - one truth for walking and shooting; a shot dies on a visible trunk and flies where the player walks. ENEMIES STAY GRID-WALKERS on the untouched conservative bitgrid (asymmetry accepted round-1 and PROVEN: the probe's enemy-model control stays blocked at both sites). ONE CODE PATH: ScenarioLoader.attach runs for main + DodgeBot + soak + replay verify alike - the bot walks byte-identical collision (dodge_policy planning walks walk_grid+discs at the new radius; disc presence forces exact slides). KINEMATICS: discs are curved contacts in the one shared slide - same most-restrictive-tangent clamp, strict-inequality tangency rest, and the corner-slip pass curls around trunks like corners (head-on = honest face-like stop); empty dict = byte-identical legacy path for every enemy walker. SEMANTICS LINE RECORDED in code + records: the cell grid remains the CONSERVATIVE FLOOR (floods/porosity/world_walk/spawn checks/upstream contracts keep their meaning; b77 stays current, zero upstream work); player passability is art-true. MECHANIZED ACCEPTANCE SHADOW (tests/pinch_probe/fit_rule_probe.gd, on-demand): the sl-0070 census's desert screenshot-class lane CROSSES t=51 and the worst tree-band oak pinch (detour 62) CROSSES t=23 at 3.0 t/s, while the legacy-0.25 model AND the enemy model stay blocked at both - the zero-width class is open exactly where art shows ground. SIM CONSEQUENCES DISCHARGED DELIBERATELY: SERIAL 13->14 (stale replays refuse honestly); goldens re-recorded + verified x10; smoke PASS with the wall floor deriving to 1.15625 by itself (the constant-derived assert working as designed); FULL BATTERY RE-BASELINED: FINAL 28/28 on-matrix: all canonical PASS incl the iterated loop_ring2 (0 hits, near 0.130); MUST-FAIL canary still FAILS; forest_walk [primary] re-pinned FAIL->PASS as the deliberate-change signature (rusher/first_contact primary stay FAIL); reports regenerated + committed; one never-weaken layout iteration (ring2/loop ringer off the thicket lip it predated, mirrored play+proof). FULL pretester ALL GREEN 16.9 min on the re-baseline (19 fixed steps + 28-row battery + export + lockdown probe on rebuilt artifacts). The game is relaunched for the designer: ACCEPTANCE = their walk along their own three red-line screenshots - they pass wherever their sprite visibly fits, or the round reopens. NO feel verdicts recorded (engineering session).",
+      "refs": [
+        "sl-0078",
+        "sl-0072",
+        "sl-0070",
+        "sl-0067",
+        "notes/evidence/2026-08-01-desire-lines-sparse-feedback.png",
+        "game@549e587"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

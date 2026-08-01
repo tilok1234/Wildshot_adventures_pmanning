@@ -105,12 +105,23 @@ Board at this seam:
   FULLY consistent with the enemy pack**). Both packs home +
   unwired. Wiring order: the Loop acceptance run FIRST — the loop
   is judged as built.
-- **THE STAT TALK is THIS session's job** (see first-moves above):
-  docs/22 = the staged nine-block skeleton; TEN researches arrive
-  at talk start (the five commissioned — mitigation formulas ·
-  movement-speed itemization · progression pacing · behavioural
-  skill trees · evergreen boss uniques — plus five designer-added);
-  assess-first, then blocks. The slice bill is the customer.
+- **THE STAT TALK IS COMPLETE (2026-08-01, this session):** the
+  TEN researches assessed into docs/22 Appendix A (skeleton
+  survived contact — two recommendations independently confirmed
+  by both engines), then ALL NINE BLOCKS designer-ruled, one
+  commit each: the lean seven + boring regens · THE damage
+  formula (flat−armor, 20% floor) + the no-sponge rider · tier
+  DPS budgets + the pattern-fairness gate · per-slot budgets
+  (weapon +40%/tier, defense enemy-anchored, T5 = late-Snow
+  capstones — the sl-0082 T5 question CLOSED) · levels ⅓
+  survivability-weighted, no auto damage, flat-stepped XP ·
+  movement bases 100/105/110 + the +15% integrator cap
+  (feel-gated [P/T]) · the six-pair tradeoff grammar · the
+  one-break unique whitelist + easy swapping [P] · the balance
+  calculator (approved; ask sl-0095; PASTE staged in the session
+  file — paper-first, no sim change). docs/22 = the standing
+  authority; register rows on CORE-37/39/40/41 + the Bot-testing
+  contract.
 - Opens: sl-0067 (the walk) · sl-0087 (hand-places) · sl-0089 (NPC
   intake paste out) · sl-0041 (rehearsal; export held) · sl-0005
   (TF gate art + hedge, partial — road-band third satisfied).
@@ -119,13 +130,16 @@ Board at this seam:
   **THE LOOP RUN** (the big one) · b65 city walk · audio-in-play ·
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
-- **Designer-gated items riding beside the talk** (sweep them as
-  they land): ~~the rehearsal EXPORT GO~~ **LANDED — swept as
-  sl-0093 (see the rehearsal bullet; the game-intake paste is
-  staged)** · the Hell Engine V2 exact-file listen (RF session) ·
-  the b77/fit-rule WALK + THE LOOP RUN (the acceptance, judged
-  against the designer's own bar) · the icon tool's source push
-  from the other PC.
+- **Designer-gated items now on the plate** (sweep as they land):
+  **the CALCULATOR PASTE** (sl-0095, staged in the session file —
+  designer hands it to a game session) · **the CONTENT FEEL
+  SESSION** (docs/20 step 2: the five picker scenarios from
+  sl-0094 — danger ramp, boss spot, territory texture, the
+  designer's words) · the Hell Engine V2 exact-file listen (RF
+  session) · the b77/fit-rule WALK + THE LOOP RUN (the
+  acceptance, judged against the designer's own bar) · the icon
+  tool's source push from the other PC. (The rehearsal EXPORT GO
+  landed + swept: sl-0093/0094.)
 - Authorities: docs/19 · docs/20 · doc 18 · doc 16 +
   `tools/ecosystem.lock.json`. Planning's mainline is the standing
   branch `claude/questionnaire-note-taking-9vl2sl` (no main by

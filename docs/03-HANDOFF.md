@@ -165,8 +165,16 @@ round). Board, all verified and pushed:
   ask ROUTED (sl-0086, paste with the designer): 4 slice
   dungeons; Green Country's boss count = the designer's open
   call; giver-slot layer skip-if-costly; level brackets land in
-  the export record — planning rec: slice cap 25 = their own
-  5/5/5/10 numbers)** · standing sl-0003/sl-0005. Resolved this seam additionally: sl-0065
+  the export record — RULED sl-0087: cap 30 EVEN split, Green
+  1–7 / Dry Reach 8–15 / Wetlands 16–22 / Snow 23–30; Green
+  Country GETS a world boss, designer HAND-PLACES it soon
+  (~lvl 8–10; generation blocked there — the hand-place is the
+  doctrinally correct path). **THE STAT TALK RUNS IN A FRESH
+  CHAT**: the designer hands over FIVE deep researches at talk
+  start (mitigation formulas, movement-speed itemization,
+  progression pacing, behavioural skill trees, evergreen boss
+  uniques — two engines); the fresh session opens on docs/22's
+  skeleton + those. )** · standing sl-0003/sl-0005. Resolved this seam additionally: sl-0065
   (dev map via sl-0069), sl-0070 (diagnosed via sl-0072),
   sl-0073 (executed as behavior 17).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded

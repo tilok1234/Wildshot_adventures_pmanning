@@ -1430,6 +1430,23 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0087",
+      "ts": "2026-08-01T09:44:35Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "world_filler",
+      "title": "RULINGS (designer): slice level brackets = cap 30, EVEN split (~7/zone - 'we dont get 10 levels in one zone and just 5 in the others') + Green Country GETS a world boss, hand-placed soon (~lvl 8-10; generation placement blocked there rn)",
+      "detail": "The designer settled both open calls from sl-0086. (1) LEVEL BRACKETS: cap 30 with the even split - 'i actually think lvl 30 is better but that we do about 7 levels in each zone' = the wf session's reflected Option B: Green Country 1-7, Dry Reach 8-15, Wetlands 16-22, Snow Country 23-30. Planning's cap-25 recommendation declined - the designer's call rules; the wf session records the brackets in its handoff + the export sync entry (relay line handed). (2) GREEN COUNTRY BOSS: yes, it gets one - 'ye i plan to add one in... it just has some issues making the generation allow it to generate a placement for it rn, so i will prolly hand place one soon', leveled '10 maybe even or like 8' - i.e. ~lvl 8-10, sitting just above Green's 1-7 bracket: the meet-early-beat-later capstone flavor (intertwine-adjacent; also squarely the handcrafted rule - progression-critical placement is ALWAYS hand-decided, so a hand-place via the viewer's paint/override lane is the doctrinally correct path, not a generation workaround). The wf session should leave the Green slot open and not force-generate. ALSO noted for the seam: the STAT TALK will run in a FRESH CHAT - the designer runs FIVE deep researches across two engines (GPT 5.6 Sol Pro + Kimi 3 Max; topics A mitigation formulas + B movement-speed itemization already handed, three more handed this turn: C progression pacing / E simple-but-behavioural skill trees / F evergreen boss uniques) and hands the results over AT talk start, not before; docs/22's skeleton + docs/03 must carry the fresh session's opening.",
+      "refs": [
+        "sl-0086",
+        "sl-0082",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/evidence/2026-08-01-zone-progression-map.png"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

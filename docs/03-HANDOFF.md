@@ -71,15 +71,19 @@ round). Board, all verified and pushed:
   assembler, NOT a new ecosystem repo. Plan:
   `docs/21-ICON_SET_PLAN.md`; register docs/08 Tooling contracts
   + sl-0062. Ranked strictly behind M-FX; nothing routed.
-  **UPDATE 2026-08-01 morning: the designer BUILT a first draft
-  themselves — ~478 icons (mid-plan-estimate), on their other
-  PC, export incoming.** On arrival: planning assesses vs the
-  docs/21 checklist (16×16 grid, 15-kind coverage, CORE-50
-  shape-first, tier ramps), then the game vendors it as a RAW
-  DROP (manifest + validation, boss-pack precedent) — WIRING
-  stays sequenced after the Loop acceptance. Reminder carried:
-  push/back up the icon tool's source with the export (the
-  assembler b7eae05f lesson — cheapest insurance).
+  **ARRIVED + ASSESSED PASS (sl-0083, 2026-08-01 ~09:05Z):**
+  wildshot-icons-proto_0.1.0 — 470 glyphs ALL 16×16, manifest
+  parity perfect, semantic ids per the docs/21 sketch, T1–T5
+  complete (doesn't force the slice's T4/T5 call), CORE-50
+  colorblind proof sheets shipped IN-PACK, coverage inside plan
+  estimates across all kinds (stat = exactly 9). Watch-items
+  for wiring only: some skill-node rows abstract at 16px; a few
+  charm tiers color-first (designer: one glance at the deutan
+  sheet). **Four faction NAME CANDIDATES captured [P]: the
+  Wardens, the Prospectors, the Circle, the Free Company.**
+  GAME INTAKE PASTE with the designer (raw drop, passport,
+  validation, NO WIRING until the Loop acceptance). Tool-source
+  insurance from the other PC still owed (b7eae05f lesson).
 - **Props/solid-navigation round ROUTED — sl-0063 (2026-07-31
   ~22:39Z, designer: "i will do this in wf now"):** W-13 fired —
   WF converts prop walkability (carpet/canopy/solid, DO NOT

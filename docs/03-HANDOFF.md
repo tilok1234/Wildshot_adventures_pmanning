@@ -86,6 +86,18 @@ round). Board, all verified and pushed:
   negative-tested 20th fixed gate + the first game←icon-forge
   lock pin; UNWIRED until the Loop acceptance.** Tool-source
   push from the other PC = the one open item on this thread.
+- **NPC slice roster APPROVED + RELEASED (sl-0089, ~10:02Z):**
+  32 characters (13 named + 10 zone givers + 9 ambient; the four
+  faction reps) from the assembler per the sl-0084 seat —
+  designer-approved ("good for the slice rosters... we will get
+  to see if it suffices" [P] on-screen taste pending);
+  **wildshot-npc-slice-v1@bf6269c = the assembler's FIRST
+  release**, published by planning on the designer's go, digest
+  byte-verified; the sl-0045 publish gate's provenance proved
+  clean pushed source (the b7eae05f wound structurally healed).
+  Game intake paste with the designer (raw drop, verify
+  manifest hashes, scale-consistency report, NO WIRING until
+  slice build).
 - **Props/solid-navigation round ROUTED — sl-0063 (2026-07-31
   ~22:39Z, designer: "i will do this in wf now"):** W-13 fired —
   WF converts prop walkability (carpet/canopy/solid, DO NOT

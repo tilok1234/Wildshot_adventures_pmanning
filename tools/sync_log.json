@@ -1464,6 +1464,28 @@
         "world_filler@f7fcec4"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0089",
+      "ts": "2026-08-01T10:02:13Z",
+      "type": "delivery",
+      "repo": "assembler",
+      "target": "game",
+      "title": "NPC slice roster APPROVED + RELEASED: wildshot-npc-slice-v1@bf6269c published (the assembler's FIRST release, the packs-as-releases rule's first planning-side execution) - 32 characters, game intake routed as a raw drop",
+      "detail": "The designer generated the slice NPC roster from the assembler per the sl-0084 seat ruling (dist/wildshot-npc-slice-v1.zip; the sl-0045 pack-publish gate's provenance block PROVED cleanPushedSource at bf6269ca - the b7eae05f wound structurally healed). PLANNING ASSESSMENT PASS: 32/32 of the NPC brief (13 named roles incl the four faction representatives Wardens/Prospectors/Circle/Free Company + capital system faces fisher/herbalist-adjacent/crafter/banker/guards + settlement-trader; 10 zone quest-givers across all four zones; 9 ambient villagers), 24x24 logical frames, 20x4 sheet (idle/walk/attack/cast/hurt/death x 4 directions), binary alpha, per-file sha256s IN the manifest, full regen recipe per character, contact sheet + NPC_BRIEF.md shipped in-pack. Eyes-on: roles read at a glance (plate+tower-shield authority; civilians hold tools not weapons - Law-3-friendly), real populace variety (builds/skins/species); watch-items for wiring only: 24px named-role-vs-villager blur (solved by overhead quest markers - the icon set has them - and interaction prompts), possible dark-outfit contrast on dusk ground (regen is a one-field change). DESIGNER APPROVAL: 'i think this is good for the slice rosters yeah and we will get to see if it suffices' - approved as the slice roster, taste rides the first on-screen standing [P]. RELEASE published BY PLANNING on the designer's go: wildshot-npc-slice-v1@bf6269c on tilok1234/8-bit-sprite-assembler, target bf6269ca6fc07b3d95a826c95ec6c9c29c6daf53, GitHub computed digest sha256:548e0c9608a190983ac9705b6e1c9c36f29c2390022ebe55d85dc74919c23607 = the local fingerprint byte-for-byte (asset 301,736 bytes) - verified by tag post-publish. GAME INTAKE routed (paste handed): fetch by tag + digest per doc 18; raw drop beside the other assembler packs; passport from the manifest's own provenance + per-file hashes VERIFIED at intake (not generated - this manifest ships them); fixed validation gate (files exist/decode, 480x96 sheets, 20x4 layout, ids unique, hash parity); CHECK + REPORT scale consistency vs the existing assembler enemy-pack consumption (24x24 logical vs that pack's scale - report, change nothing); NO WIRING - NPCs wire at slice build post-Loop-acceptance alongside the icons. Planning sweeps.",
+      "artifact": {
+        "id": "wildshot-npc-slice-v1@bf6269c",
+        "sourceCommit": "bf6269ca6fc07b3d95a826c95ec6c9c29c6daf53",
+        "hash": "zipSha256 548e0c9608a190983ac9705b6e1c9c36f29c2390022ebe55d85dc74919c23607"
+      },
+      "refs": [
+        "sl-0084",
+        "sl-0083",
+        "sl-0082",
+        "https://github.com/tilok1234/8-bit-sprite-assembler/releases/tag/wildshot-npc-slice-v1%40bf6269c"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

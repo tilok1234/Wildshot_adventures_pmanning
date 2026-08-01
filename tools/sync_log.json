@@ -1540,6 +1540,24 @@
         "game@9192cbf"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0093",
+      "ts": "2026-08-01T11:19:55Z",
+      "type": "delivery",
+      "repo": "world_filler",
+      "target": "game",
+      "title": "THE DUSK CONTENT PACK SHIPS: release wildshot-overworld-pack-dusk-content-c0bf28638648 (b77-pinned, designer-gated go) - the test slice authoring REFERENCE is live; sl-0041 rehearsal wf side COMPLETE",
+      "detail": "The designer said go after the final review; the publish-gated export ran clean (tree clean+pushed, sourceCommit 6be201e5710c embedded, pack format 3). CONTENTS: 127 placements (4 world bosses one per zone incl. the hand-placed green boss at 249,244; 11 dungeon bindings of which 4 are SLICE-MARKED one per zone - green grass.54237 (193,239) / dry dry_grass.28429 (17,131) / cold gravel.3995 (153,19) / wet mud.37835 beast den (193,163) held by designer lock; 112 encounter sites), 92 territories (9189 cells), 41 recorded failures (honest record), 16 giver slots + 24 gather spots in the plan payload, ALL EIGHT boss+slice-dungeon locks held. PROOFS: 9/9 gates PASS; BOTH consumption verifiers green - TS verify-pack and the GDScript proof in real headless Godot 4.6.2 (127 placements, 9189 territory cells against reference walkability). IDENTITIES: base generationIdentitySha256 bd4b9317... (wildshot-overworld-pack-dusk@b77), recipe dusk-overworld-direction f100dccb..., zip sha256 13e0759d1275... (full hashes in the release notes). STANDING RULINGS RESTATED FOR THE INTAKE: reference ONLY per docs/20 step 1 (hand-author spawn tables + boss sites from it, no importer); LEVEL BRACKETS Option B slice cap 30: Green 1-7 / Dry Reach 8-15 / Wetlands 16-22 / Snow Country 23-30 (sl-0087); zone=level (4 flat danger tiers); REVIEW DISPOSITIONS (designer-approved): four floor-killed dungeon Xs accepted by name; snow-east ruined city (11 unbound city_ruin anchors at 150-163,19-29) plays as UNMARKED discovery; SIX border camps flagged for the game-side pass - wet (180,143)(181,182)(183,186), cold (102,62)(68,7)(78,27) - high-level content within 3 cells of Green ground, tune at authoring. world_filler is done with docs/20 step 1; step 2 (the feel verdict) is the designers play session after the game-side reference pass.",
+      "refs": [
+        "sl-0041",
+        "sl-0086",
+        "sl-0087",
+        "sl-0090",
+        "sl-0082",
+        "world_filler@6be201e"
+      ],
+      "by": "agent"
     }
   ]
 }

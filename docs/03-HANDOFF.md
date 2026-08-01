@@ -78,8 +78,15 @@ Board at this seam:
   hand-places LANDED (Green boss at the designer's SE mud pocket;
   Wetlands den designer-locked) — THE SLICE CONTENT SET IS
   COMPLETE: 4 bosses + 4 dungeons, all eight recipe-locked
-  (sl-0090). The rehearsal's ONE remaining decision = the EXPORT
-  GO (designer's fresh explicit word).**
+  (sl-0090). THE EXPORT GO LANDED 2026-08-01 ~11:19Z (sl-0093):
+  release wildshot-overworld-pack-dusk-content-c0bf28638648
+  shipped b77-pinned, planning-verified (tag→6be201e = the
+  embedded sourceCommit; GitHub digest = the logged zip sha
+  13e0759d…) — 127 placements / 92 territories / all eight locks
+  held / 9-of-9 gates + both consumption verifiers green.
+  world_filler is DONE with docs/20 step 1; the game-intake paste
+  (reference ONLY, no importer) is the next paste; step 2 = the
+  designer's feel verdict after the game-side reference pass.**
 - **PACKS HOME:** icons v0.1 (470 glyphs 16×16, intaken sl-0085,
   gate-guarded, UNWIRED until the Loop acceptance) · the NPC slice
   roster (32 characters, **RELEASED wildshot-npc-slice-v1@bf6269c —
@@ -104,11 +111,12 @@ Board at this seam:
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
 - **Designer-gated items riding beside the talk** (sweep them as
-  they land): the rehearsal EXPORT GO (content complete, all
-  dispositions named, sl-0091) · the Hell Engine V2 exact-file
-  listen (RF session) · the b77/fit-rule WALK + THE LOOP RUN (the
-  acceptance, judged against the designer's own bar) · the icon
-  tool's source push from the other PC.
+  they land): ~~the rehearsal EXPORT GO~~ **LANDED — swept as
+  sl-0093 (see the rehearsal bullet; the game-intake paste is
+  staged)** · the Hell Engine V2 exact-file listen (RF session) ·
+  the b77/fit-rule WALK + THE LOOP RUN (the acceptance, judged
+  against the designer's own bar) · the icon tool's source push
+  from the other PC.
 - Authorities: docs/19 · docs/20 · doc 18 · doc 16 +
   `tools/ecosystem.lock.json`. Planning's mainline is the standing
   branch `claude/questionnaire-note-taking-9vl2sl` (no main by

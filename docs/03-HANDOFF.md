@@ -125,18 +125,20 @@ round). Board, all verified and pushed:
   AUDIO_CUE_MAP eyes-closed slot WRITTEN (deck hand-off
   discharged). Designer-eyes on the styles rides natural play —
   no nag. Icon Tier-0 still sequenced after the Loop acceptance.
-- Opens: **sl-0078 (THE COLLISION CHANGE — designer-invoked
-  deliberate act after three desire-line screenshots: props
-  block what the ART shows, not their full cell; player threads
-  between solids at any angle; composition stays as authored —
-  b78 spacing PARKED unreleased, sl-0075 superseded; round-1
-  scope = props only, enemies stay grid-walkers, structures/
-  terrain unchanged; goldens/battery/DodgeBot re-proof
-  deliberate; grid stays the conservative floor, upstream
-  pipelines untouched; game paste with the designer;
-  acceptance = their walk on their own red lines)** ·
-  **sl-0067 (b77 walk — open; the collision round is its fix
-  arm)** · **sl-0041 (rehearsal, designer-driven,
+- **THE FIT RULE IS LIVE (sl-0081 resolving sl-0078; game
+  549e587, SERIAL 14, planning-verified):** props block what
+  the art shows (7,560 b77 prop cells → art-measured discs;
+  b65/THE LOOP carry it), player body = the ranger sprite's
+  10px feet, projectiles share the truth, hurtbox
+  byte-untouched, enemies stay grid (asymmetry proven), goldens
+  ×10 + 28/28 re-baseline + forest_walk FAIL→PASS as the
+  deliberate-change signature; pretester green. **The game sits
+  RELAUNCHED — the acceptance is the designer's walk on their
+  own three red-line screenshots (provably crossable: desert
+  t=51, worst oak pinch t=23).** b78 stays parked (WF park line
+  still owed if that session is open).
+- Opens: **sl-0067 (b77 walk — the fit-rule walk IS its
+  acceptance now)** · **sl-0041 (rehearsal, designer-driven,
   through round 7: 4-zone frame accepted; TEST SLICE confirmed
   (sl-0076); zonal danger CHAPTERS — Green Country [1,2] → Dry
   Reach [3,4] → Wetlands [5,6] → Snow Country [7,8] (behavior

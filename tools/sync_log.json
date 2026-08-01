@@ -1288,6 +1288,22 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0079",
+      "ts": "2026-08-01T03:07:56Z",
+      "type": "note",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "Dusk rounds 6-7: zonal danger chapters (behavior 19) + sanctuary scaling (behavior 20) - each zone is now a difficulty chapter and town safe zones shrank designer-directed",
+      "detail": "Verdict-driven rounds on sl-0041 continue. ROUND 6 (designer: the danger map does not fit the new zones): danger.assignment zonal - the spawn zone is ALWAYS chapter one (a wilderness median mismeasures the safe-eaten home zone; caught live when Green Country ranked bands 5-6 with the capital inside, fixed before commit), remaining zones rank by weighted-median travel distance, wilderness bands split into contiguous per-zone windows, each zone runs its own internal quantile ramp. Dusk at bandCount 9: Green Country [1,2] -> Dry Reach [3,4] -> Wetlands [5,6] -> Snow Country [7,8]. ROUND 7 (designer: reduce the safe zones on towns where we can): safety.{city,town,outpost}RadiusPermille scale each settlement sanctuary, floored at its built-up radius (buildings never leave sanctuary - the floor IS the where-we-can); the effective mask feeds every recipe-bearing phase and gate of a run; danger relief belts stay on recorded radius (content moves closer to town, town ground does not get deadlier). Dusk at 800/600/500: band-0 22.6k -> 17.2k cells, encounters 54 -> 62, territories 81 -> 94, 3 bosses + 10 dungeons hold, 9/9 gates every round. 197 tests green; world_filler@96beb27 (r6), 7eb0dd1 (r7). FLAG for the designer rounds: SNOW COUNTRY (the endgame chapter) has no boss - its sites die on the road-distance floor; per-zone boss allocation or an eased floor are the candidate fixes. Export remains designer-gated. || PLANNING VERIFICATION ~2026-08-01T03:09Z (append lane honored): PASSED - 7eb0dd1 contained in world_filler main; the live-caught spawn-zone ranking bug (Green Country ranked 5-6 with the capital inside, fixed BEFORE commit) is exactly the right catch discipline; zone NAMES are emerging organically in the record (Dry Reach) - naming rides the designer's rounds per the lore-layer note. THE SNOW-COUNTRY BOSS FLAG is the open designer decision in the rounds; planning's lean for their consideration: PER-ZONE BOSS ALLOCATION over an eased floor - every chapter deserves its named challenge (the intertwine/named-challenge doctrine: an endgame chapter without a boss is a missing landmark), and easing the road-distance floor globally would weaken a rule that is correct everywhere else. Chapter structure [1,2][3,4][5,6][7,8] on bandCount 9 noted: band 0 = sanctuary, chapters consume 1-8 cleanly. Designer rounds continue; export gated.",
+      "refs": [
+        "sl-0041",
+        "sl-0073",
+        "sl-0076",
+        "world_filler@7eb0dd1"
+      ],
+      "by": "agent"
     }
   ]
 }

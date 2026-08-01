@@ -135,14 +135,15 @@ round). Board, all verified and pushed:
   acceptance = their walk on their own red lines)** ·
   **sl-0067 (b77 walk — open; the collision round is its fix
   arm)** · **sl-0041 (rehearsal, designer-driven,
-  round 5 done: belts built per sl-0073; watershed seams; the
-  4-zone geography layer ACCEPTED as the working frame — "easier
-  to work out from"; macro-zones = the doc-20 naming/lore layer.
-  **THE DUSK OVERWORLD IS CONFIRMED AS THE GAME'S TEST SLICE**
-  (sl-0076; docs/20 reference-only consumption). Open verdicts:
-  round-4 danger map, placements/territories re-renders, then
-  lock/reroll/paint → gated export)** · standing
-  sl-0003/sl-0005. Resolved this seam additionally: sl-0065
+  through round 7: 4-zone frame accepted; TEST SLICE confirmed
+  (sl-0076); zonal danger CHAPTERS — Green Country [1,2] → Dry
+  Reach [3,4] → Wetlands [5,6] → Snow Country [7,8] (behavior
+  19); sanctuaries shrunk designer-directed with buildings as
+  the floor (behavior 20). **OPEN FLAG: Snow Country, the
+  endgame chapter, has NO BOSS — planning lean: per-zone boss
+  allocation over easing the road-distance floor.** Then
+  placements/territories verdicts → lock/reroll/paint → gated
+  export)** · standing sl-0003/sl-0005. Resolved this seam additionally: sl-0065
   (dev map via sl-0069), sl-0070 (diagnosed via sl-0072),
   sl-0073 (executed as behavior 17).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded

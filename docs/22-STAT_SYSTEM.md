@@ -36,7 +36,17 @@ deliberately boring — health regen slow and out-of-combat-weighted
 (keeps potion-less recovery without combat sustain), mana regen a
 constant trickle (the ability economy needs a heartbeat; ability items
 already own their costs).
-**RULING:** ___
+**RULING (designer, 2026-08-01):** the SEVEN CONFIRMED — health /
+mana / attack (damage) / attack speed (dexterity) / range / armor
+(defense) / movement speed (speed) — the parentheticals are the
+designer's display-name candidates, captured [P]; final HUD naming
+is a UI decision later. BOTH regens IN, deliberately boring (the
+designer's word: "boring health and mana regain"): health regen
+slow and out-of-combat-weighted — potion-less recovery, never
+combat sustain; mana regen a constant trickle — the ability
+economy's heartbeat, ability items keep owning their costs.
+Neither regen appears on gear at first — base-stat lane only, so
+the gear sheet stays lean at seven. Register: CORE-40 amended.
 
 ## Block 2 — THE damage formula
 

@@ -88,6 +88,14 @@ whitelist break each, numbers at build]):**
   budget governs; each break distinct in kind — the Hide took the
   armor-budget break, the Beam takes pattern replacement).
 
+- **WETLANDS (ruled, "1 and 1"):** world boss = **THE DEEP MAW** —
+  an anglerfish horror in the black pool; its lure is the only
+  light in the fight (light-in-the-dark spectacle; the Rovers pole
+  wide around that water). Dungeon = **THE BEAST DEN** (the
+  designer-locked mud site), boss **LONGJAW** — the great
+  crocodile the den literally belongs to; the den promises a
+  beast, the den delivers THE beast.
+
 **THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
 the [P] candidates from the icon round):** **the Wardens** (Green
 Country — the line between the farms and the roads' bandits) ·

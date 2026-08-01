@@ -134,13 +134,15 @@ Board at this seam:
   M2 close + six-ordinaries · Hell Engine V2 · music seam · weekly
   GIF · a glance at the four crosshair styles.
 - **Designer-gated items now on the plate** (sweep as they land):
-  **the CONTENT FEEL SESSION** (docs/20 step 2: the five picker
-  scenarios from sl-0094 — danger ramp, boss spot, territory
-  texture, the designer's words) · the Hell Engine V2 exact-file
-  listen (RF session) · the icon tool's source push from the
-  other PC · **the SLICE BUILD GO** (Slice v0.1 is the one
-  milestone; Green Country first; the bar = docs/19 §1's three
-  sentences judged by PLAYING THE BUILT SLICE — sl-0098).
+  **the SLICE BUILD GO** (docs/23 staged: S0 foundations → Green
+  first; the go fires the S0 paste) · the Hell Engine V2
+  exact-file listen (RF session) · the icon tool's source push
+  from the other PC. **THE FEEL SESSION IS DONE (sl-0099):**
+  all five scenarios played — directed placement PASSES, one
+  finding (density low) self-dispositioned as slice tuning =
+  the same work item as the S0 leash. **sl-0041 RESOLVED — the
+  whole rehearsal arc closes** (rehearse → reference pass →
+  feel verdict ✓; the importer is doc-23 S0 work).
   (Resolved this session: THE WALK formally ACCEPTED sl-0097
   ("like playing another game") — sl-0067 closed · the rehearsal
   EXPORT GO sl-0093/0094 · the CALCULATOR built hands-free, five

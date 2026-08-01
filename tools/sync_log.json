@@ -1647,6 +1647,23 @@
         "docs/08-DECISION_REGISTER.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0099",
+      "ts": "2026-08-01T13:19:15Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "DOCS/20 STEP 2 VERDICT (designer, all five scenarios played): directed placement PASSES - one finding, enemy density too low, dispositioned by the designer as slice tuning; sl-0041 RESOLVES (the rehearsal arc closes)",
+      "detail": "The designer played all five sl-0094 picker scenarios ('played them all and only issue i see is that the amount of enemies i face is tow low, but i guess thats not really an issue cause we just tweak that in the test slice'). VERDICT: the danger ramp / boss spot / territory texture / border-camp feel all pass unremarked; the single finding = pull density, self-dispositioned as tuning. PLANNING'S CONNECT: the density reads low BY CONSTRUCTION - the reference pass authored small pulls deliberately because no activation leash exists yet (everything wakes at t0; the sl-0094 cold finding); the docs/23 S0 leash + the density tweak are the same work item - density scales up when activation semantics land. CONSEQUENCE: sl-0041 (the placement-rehearsal director-loop arc, open since 2026-07-30) RESOLVES - rehearse-by-hand DONE (rounds 1-12 + export sl-0093), game-side reference pass DONE (sl-0094), feel verdict DONE (this entry); docs/20 step 3 (the importer) is doc-23 S0 work under the ruled plan. The build GO remains the designer's next word.",
+      "refs": [
+        "sl-0041",
+        "sl-0093",
+        "sl-0094",
+        "sl-0098",
+        "docs/23-SLICE_BUILD_PLAN.md"
+      ],
+      "by": "agent"
     }
   ]
 }

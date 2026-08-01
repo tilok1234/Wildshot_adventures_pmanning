@@ -105,9 +105,17 @@ whitelist break each, numbers at build]):**
   content; the reliquary his name promised is IN the ruined city,
   the crowned skeleton variant is his sprite, the Keepers' whole
   purpose points at his door, and he keeps the loop's first
-  unique. **The Puppeteer (Puppet Court) PARKS as the sanctioned
-  second-snow-boss enrichment candidate** (the sl-0091 one-round
-  lock-lane addition, when the designer wants it).
+  unique. **THE PUPPETEER IS GREENLIT (designer, same session: "we
+  could do that it sounds cool") — boss #9, the ruined city's
+  SECOND boss:** the marionette-master holding court over the
+  haunted puppets in the streets the king doesn't walk (the
+  sl-0091 sanctioned one-round lock-lane addition, ACTIVATED).
+  Executes as ONE directed world_filler round (site inside the
+  ruins box, recipe-locked, gated export = the next content-pack
+  version); the game re-intakes the updated pack BEFORE S4 builds
+  Snow — zero S0–S3 impact. Slice cast = 9 bosses; the ~8–12
+  unique budget holds. The wf paste is staged in the session
+  file; the designer fires it at any convenient wf session.
 - **Unique-concept sketches so far [P], one distinct break each:**
   Old Tusk's Hide (armor over-budget w/ paired cost) · the
   Sentinel's Beam (staff pattern replacement) · the Deep Maw's

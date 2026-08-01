@@ -1304,6 +1304,24 @@
         "world_filler@7eb0dd1"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0080",
+      "ts": "2026-08-01T03:13:41Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "Crosshair styles + size live (sl-0077 executed): four silhouettes (classic/dot/ring/cross) x four odd sizes (9-15), player-facing both profiles, ratified default byte-pinned untouched; smoke hashes unmoved; AUDIO_CUE_MAP eyes-closed slot written (rider)",
+      "detail": "sl-0077 executed hands-free per the routed scope (paste in this session), game 4b4c6ec. (1) CROSSHAIR STYLES + SIZE: ui/crosshair_styles.gd - style 0 'classic' = the ratified kit cursor_crosshair.png VERBATIM at its native 11 px (the default; byte-identity is a mechanized test pin, not a promise); styles 1-3 dot / ring / cross-x drawn deterministically at request time IN THE KIT'S OWN TWO COLORS, sampled from the ratified bitmap's pixels (brightest opaque = light core, darkest = dark rim) - a future kit re-drop re-skins every style automatically, and silhouette stays the ONLY differentiator (CORE-50, doc-13 cursor spec: odd-sized, lit true-center pixel, light core + 1 px dark rim - all four contract points mechanized per style x size). Sizes: odd ladder 9/11/13/15 (11 = kit native; classic at other sizes nearest-resizes odd->odd, drawn styles render exact). Two options rows (existing cycle-row widget, options screen, BOTH profiles - player-facing, not dev-gated), persisted [ui] crosshair_style / crosshair_size, applied live and at boot through the same _apply_crosshair_scale path as the sl-0042 content-scale pass (hotspot = true center of the scaled bitmap, general formula reproduces the ratified 5*k+pad at size 11). ZERO SIM IMPACT PROVEN: smoke hashes byte-identical before/after (beaf6dce65fd6833 / aec7827a53a54bd7 - cursor/view layer only). MECHANIZED: tests/crosshair/crosshair_styles_test.gd = new fixed gate (19th step) + CI Linux row - default byte-pin, odd + lit-true-center + kit-palette + 1px-rim per every style x size combination - AND it writes the render-evidence sheet reports/crosshair_styles_preview.png (committed; eyeballed: four silhouettes distinct at every size, rims intact on a mid ground). core50_verify grew crosshair_style/crosshair_size on BOTH profiles (low 1/9, high 2/15 - applied-state asserts; render half stays designer eyes, checklist rows added); settings_persist round-trips the two [ui] keys. settings/uikit/lockdown gates green; FULL pretester ALL GREEN 16.8 min (19 fixed steps + 28-row battery byte-identical + export + lockdown probe on rebuilt artifacts). (2) RIDER DONE: notes/AUDIO_CUE_MAP.md eyes-closed slot carries the line - 2026-08-01 Decision Deck evidence (sl-0071 sweep): the seven classes distinguishable against the RF cues; the sl-0071 queued hand-off is discharged. DESIGNER-EYES pending (natural play, do not nag): the four styles on screen (preview sheet committed for a quick look); icon Tier-0 stays sequenced after the Loop acceptance run per the ask's own note. NO feel verdicts.",
+      "refs": [
+        "sl-0077",
+        "sl-0071",
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "tools/decision_deck_register.json",
+        "game@4b4c6ec"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

@@ -1700,6 +1700,22 @@
         "game@5ad9dbb"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0102",
+      "ts": "2026-08-01T19:56:52Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "SPEED ANCHOR RE-RULED 3.0 -> 3.6 t/s (designer, after the S0 walk): the block-6 feel reservation exercised as designed - one constant, proofs re-run",
+      "detail": "The designer's block-6 reservation ('we might have to look at it later after we tried it some') FIRED after real S0 play ('i think classes are a tad slow... a little bit higher since we got so low cap'). RULING [T]: the game-side anchor becomes speed stat 100 == 3.6 t/s (was 3.0). Everything else UNCHANGED - class proportions 100/105/110, hard cap 115, the integrator clamp, the balance_frame.json shape. Resulting speeds: sword 3.60 (the floor) / staff 3.78 / bow 3.96 (== the old lab feel) / cap 4.14 (the max-speed build now exceeds the old lab - the chase has a prize). The designer's cap logic recorded: with only +15% headroom the BASES carry the pace. EXECUTION: one constant + the full proof re-run at the new floor AND new cap per the block-6 law (floor rises = margins grow = the safe direction); the pinned ringer cap-FAIL row re-checks at 4.14 - its verdict is WATCHED either way (a move = the sim changed, per the pinned-row discipline); goldens/battery re-baseline as the house deliberate-change act. The designer relays to the slice chat; planning sweeps the seam.",
+      "refs": [
+        "sl-0101",
+        "sl-0100",
+        "docs/22-STAT_SYSTEM.md",
+        "docs/23-SLICE_BUILD_PLAN.md"
+      ],
+      "by": "agent"
     }
   ]
 }

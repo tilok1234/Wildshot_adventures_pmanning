@@ -203,6 +203,14 @@ CHEAP:** the cap is one constant + a proof re-run — the
 designer's "look at it later after we tried it some" is a
 sanctioned one-line act after real play (Loop run / slice feel),
 never a redesign. Register: CORE-40 third amendment.
+**REVISIT EXERCISED (2026-08-01 evening, after the S0 walk;
+sl-0102):** "classes are a tad slow… a little bit higher since we
+got so low cap" — the game-side ANCHOR re-ruled 3.0 → **3.6 t/s
+at stat 100** [T]; proportions/cap ratio untouched (sword 3.60 /
+staff 3.78 / bow 3.96 = the old lab feel / cap 4.14 exceeds it —
+the chase has a prize). Proofs re-run at the new floor + cap; the
+pinned ringer row re-checks; exactly the one-constant act this
+ruling promised.
 
 ## Block 7 — The tradeoff grammar (armor archetypes + rings)
 

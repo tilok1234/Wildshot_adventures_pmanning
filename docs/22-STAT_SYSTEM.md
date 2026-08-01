@@ -10,10 +10,11 @@ RULING slot is decided until the designer says it.
 **Customer:** Slice v0.1 (sl-0082) — 4 zones, levels 1–30
 zone-bracketed, tiers bracket zones, 3 classes (bow/staff/sword per
 the icon set's vocabulary).
-**Reference inputs pending:** designer-run deep research A (mitigation
-formula survey) + B (movement-speed itemization in dodge-centric
-games) — attach as an appendix when they land; reference only, the
-design authority stays here.
+**Reference inputs:** LANDED 2026-08-01 at talk start — TEN
+designer-run deep researches (the five commissioned topics × TWO
+engines: GPT 5.6 Sol Pro + Kimi Agent), vendored verbatim at
+`notes/research/2026-08-01-stat-talk/`, assessed into Appendix A
+below. Reference only, the design authority stays here.
 **Standing constraints inherited (not re-decidable here):** no
 accuracy/evasion/crit/lifesteal/resist-matrices (docs/01 §9 [L]);
 combat resolves through position and patterns; every number visible on
@@ -148,7 +149,402 @@ not a vibe.
 
 ---
 
-## Appendix A — Deep research (designer-run, reference only)
+## Appendix A — Deep research (designer-run, reference only; assessed 2026-08-01)
 
-- Research A (mitigation formula survey): PENDING — attach summary.
-- Research B (movement-speed itemization): PENDING — attach summary.
+**What landed:** TEN deep researches at talk start — the five
+commissioned topics × two engines (GPT 5.6 Sol Pro = "GPT" below;
+Kimi Agent = "Kimi"). Sources vendored verbatim at
+`notes/research/2026-08-01-stat-talk/` (its README maps the files).
+Each topic pair was read in full against the locked constraints.
+**Research is REFERENCE — nothing in this appendix is a decision;
+the design authority stays this repo, and every RULING slot above
+stays the designer's.**
+
+### A.0 Cross-cutting verdict (the headline)
+
+- **The skeleton survives contact.** No research overturned any
+  locked constraint or planning recommendation. The two strongest
+  independent convergences are exactly our shapes: block 2's
+  flat-subtraction-with-floor (both engines recommend it unprompted)
+  and block 8's exactly-one-rule-break whitelist (both engines state
+  it as THE doctrine — GPT nearly verbatim to our draft).
+- **Where the engines disagree with us:** both movement-speed docs
+  recommend looser caps (135–150% vs our 115%) — but their own
+  evidence argues our way (A.2). The two pacing docs bracket our
+  +35–40% tier-step lean from opposite sides, and the engine arguing
+  CHUNKY is the one aligned with the ruled taste (A.4).
+- **Bracket-shift warning for every quoted table:** both pacing
+  researches assumed zone brackets 1–7 / 8–14 / 15–21 / 22–30. Ours
+  are RULED 1–7 / 8–15 / 16–22 / 23–30 (even split, sl-0087). Every
+  level-indexed number quoted from them shifts accordingly.
+- **Contamination filtered:** neither engine knew our locks; survey
+  material carries the expected crit/proc/RNG/dash vocabulary, all
+  flagged per topic below. Notably both engines' ORIGINAL designs
+  (vs their survey sections) are mostly clean of it.
+- **Sourcing honesty:** GPT's citations are unresolvable engine
+  tokens (claims plausible, unverifiable as delivered); Kimi cites
+  real URLs but leans on community sources, with footnote gaps and
+  dangling figure references. Where both engines independently agree
+  on a number, trust rises sharply (they corroborate each other on
+  nearly every shared case). One direct factual clash — RotMG's
+  minimum-damage constant (GPT ~15%, Kimi 10%) — means we cite no
+  reference-game constant as fact in the talk.
+
+### A.1 Damage mitigation (feeds block 2)
+
+Sources: `gpt-sol-pro/damage-mitigation.md` ·
+`kimi-agent/damage-mitigation/Damage_Mitigation_Models_Survey.md`
+
+**GPT says:** surveys four families with formulas — flat subtraction
+w/ floor (RotMG, Vampire Survivors), direct % (Hades, multiplicative
+stacking), rating curves (D3's `A/(A+50L)` — EHP grows LINEARLY
+despite the "diminishing returns" look), partial absorption (Grim
+Dawn 70%), hit-size-dependent (PoE's `A/(A+5·hit)`, rejected as
+tooltip-opaque). **Recommends flat subtraction with a 25% floor:**
+`taken = max(ceil(0.25·attack), attack − armor)`. Tuning frames:
+armor bands stay below typical hit size; value armor by
+prevented-DPS = hit-rate × armor; ≤70–75% total sustained
+reduction; a failure-mode table (floor plateaus, one-shot cliffs,
+single-rounding rule).
+
+**Kimi says:** same families + the pipeline-ordering lesson
+(flat-AFTER-percentage is the hybrid that works; D2's opposite order
+makes flat rolls junk). **Recommends
+`final = max(hit − armor, ceil(hit × 10%))`** — integer math,
+floor rounds in the attacker's favor. Budget rule: obtainable armor
+≈ **0.4–0.6× the bracket's typical enemy hit**. Doctrine: scale
+enemy hit size/count across brackets, NOT enemy HP sponges.
+Graduation path if numbers ever inflate: small-K hyperbola
+`A/(A+15)`. Parks three deterministic "dials" (elite Pierce N,
+one conditional %, one per-hit-cap relic).
+
+**Convergence:** both independently recommend our exact block-2
+shape; our 20% floor sits between their 10% and 25%. Same failure
+triad named; both reject evasion-style and hit-size models; both:
+round once, publish the direction, worked-example tooltips; same
+fallback (small-K hyperbola, K 15–20) if hit ranges widen.
+
+**Applies to Wildshot:** block-2 recommendation CONFIRMED twice
+over; the floor argument brackets 20% as defensible middle ground
+(GPT: higher shrinks plateau zones; Kimi: lower keeps the negation
+fantasy). New adoptables for the talk: armor budget 0.4–0.6× typical
+hit per bracket (feeds block 4 + the calculator); the calculator
+flags any bracket where obtainable armor ≥ 0.8× common attacks
+(plateau onset = attack × (1 − floor)); classify enemy attacks by
+RATE not just size; tooltip carries one worked example + an "armor
+still helps vs stronger hits" line. Enemy-side doctrine adoptable:
+scale hit size/count across brackets, not HP. Park, don't adopt:
+elite Pierce N (deterministic and legal, but enemy-side and out of
+slice scope).
+
+**Contradicts locks:** Kimi's conditional-% relic and per-hit-cap
+relic = mitigation stages beyond armor, off the lean-seven sheet
+(second-HP pools likewise — fine as enemy presentation only). GPT's
+optional post-armor % buff layer = the same soft conflict. Neither
+engine's core recommendation violates the hard exclusions or
+determinism; both floors satisfy no-immunity-cliffs by construction.
+
+**Trust:** the engines contradict each other on RotMG's floor
+constant — don't cite it. GPT grades its own source confidence
+(good); Kimi asserts specifics on dangling footnotes.
+
+### A.2 Movement-speed itemization (feeds block 6)
+
+Sources: `gpt-sol-pro/movement-speed.md` ·
+`kimi-agent/movement-speed/Movement-Speed Itemization in
+Pure-Movement Dodging Games.md`
+
+**GPT says:** speed is contained by MECHANISM, not tuning: RotMG's
+affine formula (nonzero intercept = a free soft cap — a 50% stat gap
+compresses to ~24% real speed), Gungeon's encounter-local caps,
+Nuclear Throne's structural scarcity (ONE +12.5% item in the game),
+Touhou's no-speed-loot purity pole. Recommends class bases 105–115%
+of slowest; items +5–15%; a hard clamp at 140% applied AFTER all
+modifiers; formal dodgeability = reachability/safe-set proofs at the
+floor, at SEQUENCE level (patterns A+B jointly, not separately);
+perturbation suite (−5% speed, +10% hitbox, −100 ms telegraph);
+telegraph budgets 250–300 ms simple / 500–700 ms arena-crossing.
+
+**Kimi says:** "+speed is the single most dangerous stat to
+itemize — simultaneously defense, mobility, and encounter-skip."
+Deep RotMG anatomy: endgame consensus settles at ~110% of slowest
+(micro-dodging beats speed); Potion of Speed = the game's
+most-consumed item (speed-as-tax evidence); ADMITTED inescapable
+beam-wall overlaps shipped (the ensemble failure). Cross-genre cap
+table (D3 itemized cap +25%; "caps that live only in the item
+spreadsheet will leak" — Nova Drift). Margin math:
+`M(v) = T_w − (R+L) − d/v`, dM/dv = d/v² — sharply diminishing.
+Recommends spread ≤1.12×, itemized ≤1.40×, hard-clamp computed
+velocity IN THE MOVEMENT INTEGRATOR, freeze v_min as a design
+constant forever, proofs over all phase ALIGNMENTS.
+
+**Convergence:** narrow class spread (~10–15%) · gear speed small
+and rare · ONE hard clamp in movement code applied last · travel
+speed = separate out-of-combat axis · faster ≠ easier (overshoot
+kills gap-threading) · per-pattern proofs are INSUFFICIENT —
+sequences/alignments must be verified (both derive this
+independently). They diverge on the cap number (140 / 135–150) and
+on buff/dash layers we don't have.
+
+**Applies to Wildshot:** our ~10% class spread is validated by both
+bands. Our +15% cap is TIGHTER than either engine recommends — and
+should STAY: their higher caps exist to preserve loot-feel under
+buff/dash layers we don't have, and their own evidence (RotMG ~110%
+consensus, D3's +25% itemized cap, dM/dv = d/v²) says speed above
+the floor buys comfort, not access; a tighter cap = cheaper proofs
++ less pattern trivialization. Direct pickups for block 6 + the
+DodgeBot spec: the margin receipt
+`M(v_min) = T_w − (R+L) − d/v_min ≥ buffer` (R≈0.25 s human
+reaction, L≤0.1 s latency, buffer 0.15–0.5 s) as a per-pattern
+acceptance artifact; the telegraph budgets; the perturbation suite;
+sequence/alignment proofs (RotMG's inescapable overlaps = the
+shipped counterexample); the clamp lives in the movement
+integrator; chaser enemies stay slower than the slowest base; build
+base difficulty from speed-INsensitive pattern families (aimed
+streams/spirals/zones), reserve gap-walls as deliberate checks;
+NEVER let speed convert to damage. If slows ever enter the game the
+floor proof re-runs at the new floor — a new proof lane, designer
+decision, not slice scope.
+
+**Contradicts locks:** GPT's dash budget (160–200% instantaneous)
+and Touhou-style focus mode; Kimi's burst-mobility layer (~2×,
+citing a dash-with-iframes approvingly) — all violate movement-only
+dodging / no iframes. GPT's rational diminishing-returns curve
+fails tooltip-computable (it concedes this). Both engines' sustained
+buff layers sit outside the lean-seven sheet. Kimi's slow-debuff
+designs break the floor proof unless re-proven (it says so itself).
+Netcode/anti-cheat sections inapplicable (local deterministic sim).
+
+**Trust:** GPT's citations unresolvable BUT its numbers match
+Kimi's independently sourced ones almost exactly — good
+corroboration. Kimi's own cap recommendation is undercut by its own
+evidence and never reconciled. Both correctly discount Gungeon
+(iframe dodge carries its defense — weak comparator for us).
+
+### A.3 Behavioural skill trees (feeds blocks 5/7; tree design itself = slice-build territory)
+
+Sources: `gpt-sol-pro/skill-trees.md` ·
+`kimi-agent/skill-trees/Behaviour-First Skill Tree Design - Survey
+and 30-Node Blueprint.md`
+
+**GPT says:** behaviour-first = nodes change targeting / cadence /
+resource flow / hit consequences / skill relationships — never
+"+more damage" in flavors. Surveys PoE keystones (~3% of tree =
+behaviour), Last Epoch (39–59%), Hades (~80%). Recommends 30 nodes
+at 17 behaviour / 13 support; a finished build carries only 3–5
+ACTIVE behaviour changes. Ships three complete 30-node example
+trees — genuinely clean of crit/proc/RNG — plus a 12-axis behaviour
+taxonomy, a per-node compatibility contract
+(Replaces/Preserves/Suppresses/Triggers), and a 13-trap table.
+
+**Kimi says:** build identity lives in **2–4 pivotal picks**; ratio
+anchors : synergists : conditionals ≈ 20:55:25; the "verb test" (a
+node is behaviour only if it changes what you press, when, where
+you stand, what you target, or how resource flows — otherwise it's
+"+% in a trench coat"). Wider 12-game survey (Balatro's ≤3-lines
+rule; WoW-Cataclysm as the negative control). Blueprint: 5 anchors /
+3 exclusive converter pairs / flow + trigger + resource layers / 2
+capstones take-≤1; tiers gated by POINTS INVESTED, not geography;
+4–8 feel-distinct builds per class. Strongest original idea:
+classes differ GRAMMATICALLY — one resource-engine class, one
+flow/geometry class, one conversion/trigger class. Rule worth
+framing: "if every build takes it, make it baseline."
+
+**Convergence:** identity = few picks (3–5 / 2–4) — the transferable
+core; anchors orthogonal with real costs; no travel/path-tax nodes
+in small trees; gate by investment, not geography; ~⅓ conditional
+scaffolding; near-identical trap lists. The headline ratio clash
+(57% vs ~20% behaviour) is mostly DEFINITIONAL — Kimi's middle
+layers count as behaviour under GPT's test; quote neither number
+without its definition.
+
+**Applies to Wildshot:** the slice bill says SIMPLE trees and gear
+is the build system — so we adopt the principles and REJECT both
+node budgets. Scaled-down shape both engines' logic supports:
+~12–18 nodes/class, 2–3 genuine behaviour anchors each (binary
+exclusive pairs = the cheapest implementation), the rest small
+conditional supports — still yields 3–4 recognizable variants per
+class. Kimi's grammar-per-class maps straight onto our block-5
+identity lean: sword = guard/hit-consequence grammar, bow =
+projectile-geometry/cadence grammar, staff = resource-engine
+grammar — identity without touching the power share. For block 5:
+"if every build takes it, make it baseline" IS the argument for
+levels carrying HP/mana while trees carry only choices —
+structurally protects gear-primacy. For block 7: Kimi's six
+grammars (conversion / flow / inversion the safest three) = a ready
+vocabulary; GPT's compatibility contract = the determinism
+constraint expressed as documentation discipline — adopt when nodes
+get written at slice build. Both engines' "screenshot test" (a node
+you can't SEE in play fails) is our behaviour-communicated law
+restated. GPT's three trees are a legal idea-quarry for node
+writing later (returning projectile + catch window, every-Nth-shot
+line attack, visible fuses, barrier-catches-projectiles).
+
+**Contradicts locks:** BOTH engines assume the tree IS the build
+system — gear-primary says no; principles yes, counts no. Survey
+material is saturated with crit/evasion/proc nodes (Resolute
+Technique, Second Sight, chance-to-bleed, Snecko Eye) — none
+importable (hard exclusions + no dice). Dash/blink/backflip nodes
+violate movement-only dodging; any speed or range node must clear
+CORE-33 — neither document knows that constraint exists. Their
+point budgets (~20 points on 30 nodes) are theirs, not ours —
+block-5 territory.
+
+**Trust:** GPT self-flags its behaviour-share percentages as
+estimates; its 17/13 ratio is asserted, not derived. Kimi's
+20:55:25 is pattern-matched, not counted (its own Hades arithmetic
+gives ~35%); real URLs but weak sources among them. Both unusually
+honest about their own uncertainty.
+
+### A.4 Gear-tier + XP pacing (feeds blocks 4/5/9)
+
+Sources: `gpt-sol-pro/gear-xp-pacing.md` ·
+`kimi-agent/gear-xp-pacing/ARPG_Gear-Tier_and_XP_Pacing_Guide.md`
+
+**GPT says:** decompose loot into volume × tier composition. XP:
+smooth geometric ~×1.12/level (~21,450 total to 30; ~11 h campaign;
+6→35 min/level, resetting slightly downward at zone entries).
+Tiers: logistic onset + exponential retirement with a zone-entry
+shock; ship table Z1 95/5/0/0 → Z4 1/4/28/67 (current-tier plateau
+58–67%; next-tier teaser 4–5% in a zone's final third). Cadence:
+meaningful upgrade every 35–70 min by zone, 14–18 per campaign
+("meaningful" = +8–12% damage or +6–10% survivability). Tier power:
++18%/tier base index; full-item gain **15–22%**.
+
+**Kimi says:** XP flat-per-zone, STEPPED ~×2.2 at boundaries
+(50–150 / 400 / 800 / 1,400 per level; ~22,000 total; ~9.4 h) —
+"nobody successful uses a single clean curve"; tune
+kills-per-level (~45 trash/level) and back-solve mob XP. Tiers: a
+trapezoid per tier vs distance-from-home-zone — sealed → preview
+3–8% → plateau ~55% (deliberately never >60%, D2's below-max bias)
+→ legacy taper. Power: weapon damage **×1.7/tier**; player HP
+100→700; **trash hits-to-kill invariant 3–5 at ALL 30 levels**
+(back-solve enemy HP from intended fight length); all frequent
+combat numbers ≤3 digits. Cadence: ~12 felt upgrades/campaign; the
+zone boss is the TIER ANCHOR (first kill guarantees a current-tier
+piece).
+
+**Convergence:** one tier per zone, T1–T4 = zones 1–4 — both;
+current-tier plateau capped ~55–67%, never 100% — both; next-tier
+preview late in the prior zone — both; legacy taper, never a
+cliff — both; zone-boss first-clear guarantees a current-tier
+piece — both; fix cadence via COMPOSITION, never raw drop volume —
+both; pick time-per-level first and back-solve XP — both. THE
+genuine disagreement: tier step 15–22% (GPT) vs ×1.7 weapon
+(Kimi) — 3× apart; Kimi's argument (few tiers ⇒ chunky or
+invisible) is the one aligned with the ruled taste.
+
+**Applies to Wildshot:** block 5 — Kimi's flat-per-zone stepped XP
+family fits our zone-authored brackets best and is
+tooltip-computable ("this zone asks 400/level, pays 9/kill"); GPT's
+smooth ×1.12 is the named fallback. Level-vs-gear share — Kimi's
+budget (weapons ~×5 over the campaign vs levels ~×3, levels
+carrying HP) is the closest evidence for our ⅓-levels / ⅔-gear
+lean. Block 4 — our +35–40% lean sits BETWEEN the engines and reads
+as safe; Kimi's logic suggests deliberate asymmetry: the weapon
+slot carries the big tier step, armor/accessories take half-steps
+(RotMG's asymmetric tier spreads). T5's seam gets named: late Snow
+Country (~L28+) as boss/dungeon-anchored capstone pieces — a
+concrete option for the open T5 call. Cadence — ~12–18 felt
+upgrades per campaign, ~1 per 1.5–2.5 levels, schedulable
+DETERMINISTICALLY via quest/boss/dungeon beats (authored placement
+replaces pity RNG; worst case bounded at ≤ one boss kill per zone).
+Block 9 — adopt as calculator assertions: trash hits-to-kill 3–5 at
+every band; boss TTD anchored to the biggest telegraphed hit vs the
+visible HP bar; ≤3-digit frequent values; GPT's acceptance criteria
+(median time-to-first-current-tier-item after zone entry, etc.)
+convert cleanly into checks.
+
+**Contradicts locks:** BOTH engines' zone brackets are
+1–7/8–14/15–21/22–30 — ours are RULED 1–7/8–15/16–22/23–30; shift
+every quoted level-indexed table. Both are RNG-itemization
+end-to-end (droprates, pity timers, roll variance) — the MECHANISMS
+don't survive our determinism; the TARGETS do (authored drops hit
+the same cadence bands). GPT assumes a crafting economy, Kimi a
+vendor/gambling economy — neither is in scope. GPT's 15–22% step
+undershoots the ruled "chunky, felt steps" taste. Slot counts
+(GPT 8, Kimi 6) are theirs — block 4 redoes per-slot math against
+our actual loadout. Neither models a 3-class base-curve split.
+
+**Trust:** GPT explicit that its tables are
+reconstructions/engineering targets (good). Kimi has real URLs but
+weak sources and arithmetic wobbles (its zone XP sums don't quite
+reconcile — don't quote its cumulative totals unchecked; its
+per-tier percentage math DOES check out). Strongest signal = the
+independent convergences listed above.
+
+### A.5 Evergreen boss uniques (feeds block 8)
+
+Sources: `gpt-sol-pro/boss-uniques.md` ·
+`kimi-agent/boss-uniques/boss-unique-item-design.md`
+
+**GPT says:** a boss unique is a persistent OPTION, not a superior
+item. Central pattern, near-verbatim to our draft: "break exactly
+one normal equipment or combat rule, grant a conditional advantage,
+and charge an explicit cost." Split budgets: the unique's chassis
+runs at 70–92% of the slot budget — the break is the premium.
+Envelope: 90–98% of regular gear in ordinary play, 105–115%
+in-niche; ~60% broad adoption = the alarm threshold; nerf
+coverage/cost before identity; fix the weak ladder before nerfing
+the unique (RotMG Enforcer). Plus a 5-question tooltip contract and
+a 12-item / 4-zone illustrative library, each item breaking exactly
+one rule.
+
+**Kimi says:** uniques sell VERBS, the ladder sells numbers; flat
+capabilities are inflation-immune (RotMG's Oreo unchanged since
+2010), fixed-stat premiums expire ("denomination error"). Twelve
+"ladder laws" as a CLOSED menu of legal breaks — zero breaks =
+trash, two = unpriceable → mandatory. Anatomy per item: chassis /
+break / cost / echo — the "souvenir principle": the unique
+re-performs its boss's own mechanic. Tuning identity **f × a ≈ k**
+(niche frequency × in-niche advantage held roughly constant across
+the roster). The cost must be paid IN PLAY, taxing the same axis as
+the benefit (Enigma/Melding lessons); no content gating
+(Gjallarhorn's LFG walls).
+
+**Convergence:** exactly-one-rule-break as THE doctrine — both,
+independently. Tiered gear stays the unconditional numeric
+baseline — both. Visible, always-paid cost — both. The same
+frequency × magnitude budget identity in different notation — both.
+The ~60% adoption alarm — both. They even invented nearly the same
+item twice (an information-lens unique). Diverge on the evergreen
+mechanism (GPT: sublinear scaling curves; Kimi: flat capabilities /
+percent-of-own-investment) and on roll pools (GPT endorses;
+determinism forbids).
+
+**Applies to Wildshot:** block-8 recommendation CONFIRMED twice,
+once nearly verbatim. Upgrades worth bringing to the talk:
+(1) enumerate the ladder's actual rules (they fall out of blocks
+4 + 7) and make the whitelist the closed COMPLEMENT of them —
+Kimi's twelve-law menu is the template; our four draft categories
+map onto it cleanly. (2) Each law broken AT MOST ONCE game-wide in
+the slice — cheap discipline that stops any rule being effectively
+repealed; supports ~8–12 slice uniques, matching the bill (1–3
+world bosses/zone + 4 dungeon bosses). (3) The chassis-fraction
+rule — a unique pays ~8–30% of its slot budget for its break —
+plugs directly into block-4 tables and is simpler than scaling
+curves at a 30 cap. (4) The souvenir principle = free flavor +
+tutorialization for our zone bosses. (5) f × a as a spreadsheet
+check: narrow niche ⇒ big edge, broad niche ⇒ sliver. One designer
+question surfaced for the talk: is mid-fight gear swapping
+intended? Kimi argues cheap swapping is load-bearing for
+situational uniques; if swapping is costly, niches must widen.
+
+**Contradicts locks:** GPT's roll pools (compatibility randomness)
+die to determinism — the underlying principle (many uniques serving
+different builds) survives without rolls. GPT's survey vocabulary
+(crit echoes, proc chains, internal cooldowns, accuracy/resist
+costs) is hard-excluded; the structural advice (cap interaction
+surfaces, no recursive triggers) survives deterministically.
+Low-health-payoff designs skirt the sustain exclusion's intent —
+designer vets case by case. Kimi's projectile-curving-aura example
+needs vetting against readable movement-only dodging before any
+import. Both frameworks assume live-ops retuning — for us those
+become design-review checklists, not patch plans.
+
+**Trust:** the mildest contamination of the five topics; the
+engines corroborate each other on every shared case. Kimi's
+f × a ≈ k is an asserted heuristic, not an empirical law (its
+worked numbers are invented illustrations); GPT self-flags its
+guardrail numbers as starting targets. Same citation caveats as
+A.0.

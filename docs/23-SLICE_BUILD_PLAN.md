@@ -217,6 +217,29 @@ trading/economy · vendors beyond W-8 presence · cosmetics/collection
 log · Part II modules · anything the six pillars don't need for the
 bar.
 
+## Parked direction — THE FURNISHED-WORLD ROUND (designer finding from the S0 test, 2026-08-01; NOT scheduled)
+
+The S0 walk surfaced a pipeline gap (designer: "world forge should
+kind of build camps and dungeons etc from the positions world
+filler makes" — "a result from the test"): the pipe is one-way, so
+camps are spawn data on bare ground — no tents, no dungeon mouths,
+no arena dressing. RECORDED SHAPE (planning's recommendation,
+designer-acknowledged, act-later): (1) world_filler exports a
+FURNITURE PLAN (positions + kinds only, from the locked content —
+it keeps owning WHERE); (2) WorldForge consumes it as a pinned
+input layer and builds the physical camps/entrances/dressing into
+the next world version (it keeps owning HOW IT LOOKS); (3) the
+cycle-trap is handled as a staged waterfall — furniture changes
+walkability, so world_filler RE-VERIFIES its placements against
+the furnished ground (walk laws hold: no sealed lanes, arena boxes
+clear, W-13 relocate-never-delete) and the game re-intakes the
+furnished world with the SAME content pack. One new pinned edge,
+no domain crossing, road-joints-arc discipline pointed the other
+way. **Timing lean: after S1, before S2** (one furnished zone's
+re-verification is cheap; tents matter less than Old Tusk this
+week). Fires only on the designer's word; pastes get staged at
+that moment (labeled → WORLD_FILLER and → WORLDFORGE).
+
 ## Open at staging
 
 - The **build GO** (fires the S0 paste) — the designer's word.

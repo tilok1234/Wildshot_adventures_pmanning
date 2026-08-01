@@ -1253,6 +1253,22 @@
         "world_filler@ce7d29f"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0077",
+      "ts": "2026-08-01T02:20:06Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "Planning routes crosshair styles + size setting (the designer's deck-note spawn, pulled now as a parallel lane) + the AUDIO_CUE_MAP evidence-slot write rider",
+      "detail": "The designer asked for a game-agent task to run while driving the rehearsal ('anything i can run in the game agent while doing this?'); two queued items ride one session. (1) CROSSHAIR STYLES + SIZE (from the designer's deck note on the ratified crosshair card: 'we could also maybe add in to settings a few different crosshair looks, aswell as add the option to adjust its size'): 3-4 selectable crosshair SHAPES distinguishable by silhouette not hue (CORE-50), each odd-pixel true-center with light core + 1px dark rim per the doc-13 cursor spec (current ratified fix = the default, untouched); an integer size option (odd sizes only, small bounded range); settings rows built from existing uikit pieces (dropdown/slider); PLAYER-FACING feature - ships in BOTH profiles (options screen, not dev-gated); zero sim impact (cursor/view layer only - smoke hashes must not move). (2) RIDER: write the eyes-closed audio evidence into the verdict slot at the bottom of notes/AUDIO_CUE_MAP.md (deck evidence captured 2026-08-01, the seven cues distinguishable - the sl-0071 deck sweep's queued hand-off; one line + date). Gates: gdformat + lockdown lint + settings/uikit checks + full pretester; hands-free logbook line referencing sl-0077; planning sweeps. NOTE: icon Tier-0 deliberately NOT included - it stays sequenced after the Loop acceptance run (the loop is judged as built).",
+      "refs": [
+        "sl-0071",
+        "tools/decision_deck_register.json",
+        "docs/13-UI_STYLE_KIT_SPEC.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

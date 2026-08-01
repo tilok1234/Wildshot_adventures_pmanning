@@ -117,6 +117,12 @@ round). Board, all verified and pushed:
   must be typed deliberate-or-artifact. Feedback paste staged in
   the session file; designer drives lock/reroll/paint; export
   gated.
+- **Crosshair styles + size ROUTED (sl-0077, ~02:20Z, designer-
+  pulled as a parallel game lane):** 3–4 shape-distinct styles +
+  integer size option, player-facing (both profiles), zero sim
+  impact; rider = the AUDIO_CUE_MAP evidence-slot write. Game
+  paste with the designer. Icon Tier-0 deliberately NOT included
+  (stays after the Loop acceptance).
 - Opens: **sl-0075 (WALKABLE WOODS — the designer's second
   screenshot re-scoped the pinch finding to REGION SCALE: whole
   tree bands are walls; porosity rule + WF paste with the

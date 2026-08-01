@@ -167,13 +167,17 @@ asks, never as local patches.
 
 ---
 
-## Current pinned-version snapshot (2026-07-28)
+## Pinned versions — LIVE IN THE LOCK (section superseded 2026-08-01; incident sl-0003 CLOSED here)
 
-| Producer | Artifact | Consumer expects |
-|---|---|---|
-| tileforge | package `dusk-ae1eecb-seed103991` | WorldForge (game-pack lane) |
-| tileforge | package `a5baf52` (forest, older, deliberate) | WorldForge (reference lane) |
-| WorldForge | packFormat 1, artifact format 8 | game importer + world_filler |
-| world_filler | content pack format 1 FINAL (format 2 in dev on main) | (no consumer yet; docs/17 post-Gate-1) |
-| assembler | game pack v0, tool commit `b7eae05f…` (57/202, 1×; in main since 2026-07-30) | game `assets/assembler-pack` |
-| game | SERIAL 12, goldens current | — |
+The hand-maintained snapshot table that lived here drifted within a
+day of being written (incident sl-0003, opened 2026-07-29) and was
+found badly drifted again at the 2026-08-01 staleness audit (it
+still named a tileforge package three re-pins old and SERIAL 12
+against a live SERIAL 14). The lesson is structural, not clerical:
+**a second hand-written copy of pin truth always drifts.**
+
+**The single live source of pinned versions is
+`tools/ecosystem.lock.json`** — written during intakes and mainline
+rulings per doc 18 §10, verified at every planning sweep, and any
+mismatch between the lock and reality is an automatic incident.
+Read pins there; never restate them here or anywhere else.

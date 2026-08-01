@@ -36,12 +36,12 @@
       "type": "incident",
       "repo": "planning",
       "title": "Doc 16's version-snapshot table drifted within a day of being written",
-      "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited. || 2026-07-30: doc 18 is now ACCEPTED and the table + lock were hand-truthed tonight; converting the table to a lock-rendered view is sanctioned future work — until then the lock file is the authority on pins (doc 18 §10).",
+      "detail": "The hand-kept table still shows the pre-WYSIWYG dusk pack, SERIAL 12 as the only current line, and 'M7 all but export.ps1'. Fix: once doc 18 is accepted, the table is generated from ecosystem.lock.json instead of hand-edited. || 2026-07-30: doc 18 is now ACCEPTED and the table + lock were hand-truthed tonight; converting the table to a lock-rendered view is sanctioned future work — until then the lock file is the authority on pins (doc 18 §10). || RESOLVED 2026-08-01 (the staleness audit): the doc-16 hand table was found badly drifted AGAIN (a tileforge package three re-pins old; SERIAL 12 vs live 14) — proving the incident's diagnosis structural, not clerical. FIX: the table is REMOVED from doc 16 and replaced with a pointer to tools/ecosystem.lock.json as the single live pin source ('read pins there; never restate them'). No second hand copy exists to drift; the incident's failure mode is designed out. The lock-rendered-view idea remains sanctioned future tooling if ever wanted.",
       "refs": [
         "docs/16-ECOSYSTEM_MAP.md",
         "tools/ecosystem.lock.json"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -67,7 +67,7 @@
       "repo": "worldforge",
       "target": "tileforge",
       "title": "WorldForge needs three art improvements from TileForge",
-      "detail": "Better road-band art, vertical (east/west) gate art, and an optional softer hedge repaint. Recorded in WorldForge's handoff but not visible in TileForge's own queue — this entry is the tracked record until the GitHub-issue half of the ask protocol is ruled.",
+      "detail": "Better road-band art, vertical (east/west) gate art, and an optional softer hedge repaint. Recorded in WorldForge's handoff but not visible in TileForge's own queue — this entry is the tracked record until the GitHub-issue half of the ask protocol is ruled. || PARTIAL 2026-08-01 (the staleness audit): the ROAD-BAND ART third is SATISFIED — the road arc (e2699cc street band + 9b8b2a2 roadTypes 1-8 + the roadjoint family, sl-0054→sl-0064) delivered far beyond the original ask. REMAINING: vertical (E/W) gate art + the optional softer hedge repaint (the hedge is also the CORE-32 solid-reads tuning class per sl-0070's chain). Entry stays open on those two; they ride the next designed TF round.",
       "status": "open",
       "by": "agent"
     },

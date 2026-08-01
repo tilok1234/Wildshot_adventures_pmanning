@@ -1445,7 +1445,7 @@
         "docs/22-STAT_SYSTEM.md",
         "notes/evidence/2026-08-01-zone-progression-map.png"
       ],
-      "status": "open",
+      "status": "resolved",
       "by": "agent"
     },
     {
@@ -1485,6 +1485,22 @@
         "https://github.com/tilok1234/8-bit-sprite-assembler/releases/tag/wildshot-npc-slice-v1%40bf6269c"
       ],
       "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0090",
+      "ts": "2026-08-01T10:13:34Z",
+      "type": "note",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "Dusk round 12: both hand-place slots CLOSED - the green boss stands at the designer-picked SE mud pocket (lock-steered home budget, behavior 24) and the wetlands beast den is held by designer lock; the slice content set is complete (4 bosses + 4 slice dungeons, all locked)",
+      "detail": "The sl-0087 hand-place lane executed mechanically, designer-driven in-session. GREEN BOSS: three gate-validated candidates probed and rendered; designer chose the far-SE mud pocket; new budgets.homeZoneBosses knob (behavior 24, plan 12 - lock-steered: a home-zone world_boss lock pulls the budget to its named region, band >= 1 eligibility, requires zones, named refusal) landed it at (249,244) region.mud.57087. Honest note: two hand-built lock attempts were diagnosed cell_not_walkable (my clearance-anchor assumption was wrong both ways); the held lock is the lock verb's own entry for the solver's arena-proven site in the same pocket - the designed workflow won. WETLANDS SLICE DUNGEON: the beast den (193,163, region.mud.37835, anchor poi 67) bound validly in the 80-permille probe; its verb-extracted lock now rides the recipe as designer authority - lock validation checks ground truth (walkable/reachable/anchor agreement/no safe or overlap violations), NOT generation floors. STATE: 4 world bosses (one per zone) + 4 slice dungeons (one per zone), ALL EIGHT recipe-locked, held byte-stable, G6 PASS clean, 9/9 gates, 11 dungeons total (7 world texture), 62 encounters, 93 territories, 16 giver slots, 24 gather spots. 201 tests green. world_filler@acdfe02. EXPORT still HELD per the designer - the gated b77-pinned release (which will restate the Option-B brackets Green 1-7 / Dry 8-15 / Wet 16-22 / Snow 23-30) waits for a fresh explicit go. || PLANNING VERIFICATION ~2026-08-01T10:14Z (append lane honored): PASSED - acdfe02 contained in wf_filler main; both sl-0087 hand-place items executed designer-driven (the Green boss at their picked pocket via the lock-steered budget, the Wetlands den by designer lock); the honest cell_not_walkable diagnosis of the two hand-built lock attempts is the ground-truth validator doing its job - the designed lock-verb workflow won, which is exactly the handcrafted rule made mechanical. sl-0087 RESOLVED (brackets recorded everywhere + both hand-places landed). THE REHEARSAL'S ONE REMAINING DECISION IS THE EXPORT GO - the designer's fresh explicit word releases the gated b77-pinned content pack; planning sweeps that export when it comes.",
+      "refs": [
+        "sl-0087",
+        "sl-0086",
+        "sl-0088",
+        "world_filler@acdfe02"
+      ],
       "by": "agent"
     }
   ]

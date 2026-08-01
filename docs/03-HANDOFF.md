@@ -39,9 +39,12 @@ through round 11). Board:
 - **THE REHEARSAL (sl-0041) is deep in designer rounds** (through
   round 11, wf behaviors 22–23): zone frame + danger chapters +
   settlement belts + slice dungeons/bosses recipe-locked + 16
-  reason-tagged giver slots + 24 gather spots. **TWO HAND-PLACE
-  items wait in the viewer: the Green Country boss (~lvl 8–10) +
-  the Wetlands slice dungeon anchor.** EXPORT DESIGNER-HELD.
+  reason-tagged giver slots + 24 gather spots. **ROUND 12: both
+  hand-places LANDED (Green boss at the designer's SE mud pocket;
+  Wetlands den designer-locked) — THE SLICE CONTENT SET IS
+  COMPLETE: 4 bosses + 4 dungeons, all eight recipe-locked
+  (sl-0090). The rehearsal's ONE remaining decision = the EXPORT
+  GO (designer's fresh explicit word).**
 - **PACKS HOME:** icons v0.1 (470 glyphs 16×16, intaken sl-0085,
   gate-guarded, UNWIRED until the Loop acceptance) · the NPC slice
   roster (32 characters, **RELEASED wildshot-npc-slice-v1@bf6269c —

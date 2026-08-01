@@ -117,12 +117,16 @@ round). Board, all verified and pushed:
   must be typed deliberate-or-artifact. Feedback paste staged in
   the session file; designer drives lock/reroll/paint; export
   gated.
-- Opens: **sl-0067 (b77 NAVIGATION WALK — now WITH the map,
-  press N; the walk is the props acceptance AND the map
-  acceptance in one)**, **sl-0041 (placement rehearsal — renders
-  delivered, designer review round live; feedback paste staged)**,
-  standing sl-0003/sl-0005. Resolved this seam additionally:
-  sl-0065 (dev map, via sl-0069).
+- Opens: **sl-0067 (b77 NAVIGATION WALK — in progress, first
+  finding filed)**, **sl-0070 (walk finding: corner-touch
+  pinches between SOLID props refuse visually-open lanes —
+  diagnosis probe with the designer for a game session; levers
+  A: WF clearance re-gen / B: game corner-sliding / C: sub-cell
+  colliders = contract-break, deliberate-act only; planning
+  lean A+B)**, **sl-0041 (placement rehearsal — renders
+  delivered, designer review round live; feedback paste
+  staged)**, standing sl-0003/sl-0005. Resolved this seam
+  additionally: sl-0065 (dev map, via sl-0069).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded
   pre-intake), sl-0061 (intaken), sl-0063 (b77 shipped), sl-0064
   (walked + look approved), sl-0066 (intaken).

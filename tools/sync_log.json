@@ -1100,6 +1100,23 @@
       "by": "agent"
     },
     {
+      "id": "sl-0070",
+      "ts": "2026-08-01T01:20:57Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "Walk finding: visual gaps between SOLID props refuse passage (corner-touch pinches) - diagnosis probe routed; the sl-0063 follow-up lever may fire (designer screenshot in notes/evidence)",
+      "detail": "First finding from the designer's b77 navigation walk (sl-0067, in progress): 'i must say it would be alot better if i actually could walk between props like this' - screenshot notes/evidence/2026-08-01-prop-pinch-walk-feedback.png (ranger between a cactus and two boulders, red lines marking the desired diagonal lane through the visual gap). PLANNING'S READ: the carpet/canopy conversion (sl-0063/b77) is not implicated - boulders/cacti are CORRECTLY solid per the carpet ruling; the issue is that two solid cells touching corner-to-corner leave a geometrically ZERO-WIDTH gap for any collision circle, while the art (smaller than the cell) shows an apparently walkable lane - a 'collision matches visible geometry' violation in feel (docs/01 explicitly warns against corner snagging). TYPE-FIRST: three candidate levers with different owners, so a DIAGNOSIS PROBE routes to the game before any fix: (1) quantify b77's pinch patterns - diagonal solid-solid pairs whose two shared orthogonal neighbors are BOTH open (the corner-touch pinch), plus 1-cell near-pinch lanes, per prop-dense region; (2) determine for samples whether the desired lanes are DATA-closed (gap cells actually solid), GEOMETRY-closed (cells open, corner-touch), or FEEL-closed (path exists, movement snags); (3) report whether movement corner-slides along blocked-cell corners or hard-stops. NO fixes in the probe; typed report back hands-free referencing sl-0070. THE LEVERS (designer picks after the numbers): (A) WF clearance/corridor re-gen - the follow-up lever sl-0063 explicitly recorded ('if conversion alone doesn't clear navigation'): kill corner-touch pinches at generation by relocating one prop a cell (density preserved, W-13 spirit - relocate, never delete); (B) game-side corner-sliding for movement feel (no contract change, helps everywhere); (C) sub-cell prop colliders - EXPLICITLY FLAGGED as a WYSIWYG/flood contract break (sim passability would diverge from the 4-connected cell flood the whole validation chain pins) - deliberate design act only, not a default. Planning's lean pending numbers: A+B together, C never by default. Planning sweeps.",
+      "refs": [
+        "sl-0067",
+        "sl-0063",
+        "sl-0066",
+        "notes/evidence/2026-08-01-prop-pinch-walk-feedback.png"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
       "id": "sl-0068",
       "ts": "2026-08-01T00:23:32Z",
       "type": "pin_change",

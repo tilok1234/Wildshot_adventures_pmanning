@@ -138,7 +138,17 @@ Board at this seam:
   SEAMS (stat-frame surgery → living-world plumbing v1 →
   overworld death → pack wiring), one seam at a time, planning
   sweeps each; S0 gate = Green Country alive with the stat frame
-  underneath, then S1 waits on the designer's word. Doc 23
+  underneath, then S1 waits on the designer's word. **SEAM 1
+  CLOSED + SWEPT (~14:55Z, game 695f898, SERIAL 15): the stat
+  frame is IN THE SIM** — class lane w/ legacy byte-identity,
+  integer-exact formula, integrator clamp, 63-row battery (30-row
+  cap lane born: ringer cap-FAIL pinned w/ repros as its first
+  genuine finding — floor mandate passes; planning concurred).
+  Seam logbook = `notes/sessions/2026-08-01-slice-s0.md`
+  (pattern accepted). Feel flag standing for the designer: slice
+  characters walk CLASS speeds now (bow 3.3 vs the old 4.0 lab
+  preset) — the block-6 cap revisit is one constant if it feels
+  slow in play. SEAM 2 (plumbing) next. Doc 23
   carries the dungeon truth (entrances placed, interiors =
   chapter work) + the manageable-slices principle. Still idle
   beside it: the Hell Engine V2 exact-file listen (RF session) ·

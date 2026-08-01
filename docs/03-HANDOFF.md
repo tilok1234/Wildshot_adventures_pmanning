@@ -61,8 +61,10 @@ Board at this seam:
   intaken (road joints + carpet/canopy walkability) and **THE FIT
   RULE is live** (SERIAL 14: props block what the ART shows, the
   player body = the sprite's feet, projectiles share the truth,
-  combat hurtbox byte-untouched). The b77 walk (sl-0067) stays
-  formally open — the fit-rule standing walk is its acceptance.
+  combat hurtbox byte-untouched). **THE WALK IS FORMALLY ACCEPTED
+  (sl-0097, 2026-08-01, the designer's words: "like playing
+  another game, very good") — sl-0067 RESOLVED, the fit-rule
+  acceptance discharged.**
 - **THE LOOP BAR is ruled in the designer's own words** (docs/19
   §1, sl-0082) and **SLICE V0.1 is the named next milestone [P]:**
   4 zones with ruled brackets (Green Country 1–7 / Dry Reach 8–15 /

@@ -1613,6 +1613,23 @@
         "game@7ff3fd1"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0097",
+      "ts": "2026-08-01T12:41:31Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE WALK IS ACCEPTED (designer, formal): the b77 world + the fit rule pass the designer's own bar - sl-0067 RESOLVED, the fit-rule acceptance discharged",
+      "detail": "Formal acceptance run in the stat-talk session at the designer's request ('lets do the walk and the loop test or review now... lets do it formally'). The bar was the designer's own: the getting-blocked complaint as the test (sl-0067), the sprite-fits-passes rule on their three red-line screenshots (sl-0078/0081), walkable woods porous not rim-walked (sl-0075 kin via the b77 carpet classes, sl-0067). VERDICT, the designer's words: 'yeah this is like playing another game, very good' - a clean feel PASS, no findings named; the opposite-failure probe (squeezing through visually-solid props) surfaced nothing. sl-0067 RESOLVES (the fit-rule standing walk was its acceptance, per the board); the sl-0078/0081 fit-rule acceptance (walk the red lines) DISCHARGES. Per the sl-0064 precedent: deeper-walk findings, if any, open their own items. THE LOOP RUN formal acceptance opens next in-session (judged against the docs/19 s1 ruled bar).",
+      "refs": [
+        "sl-0067",
+        "sl-0078",
+        "sl-0081",
+        "sl-0075",
+        "planning@674b8d1"
+      ],
+      "by": "agent"
     }
   ]
 }

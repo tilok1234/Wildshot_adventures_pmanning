@@ -34,15 +34,34 @@ their notepad, typos preserved in the session record):
 3. **"The game must have a hard but a reasonable difficulty where
    effort spent getting stronger translate to the progression."**
 
-Judged through the run mechanism (the retained draft): an
-unguided complete run — spawn in the b65 town → walk out → fight
-through rising danger where loot actually drops and matters →
-reach the first boss or die trying → death costs something real →
-dying pulls you to retry immediately. The bar holds when that run
-exists, passes the three sentences above, and stays fun for the
-DESIGNER playing it daily for a week. Then — and only then — 2–3
-warm, WATCHED first-touches judge it (silent watching; the
-quiet-lab law holds).
+**JUDGING VEHICLE RE-AIMED (designer ruling 2026-08-01, sl-0098 —
+"ye the world is the test … its a small scale over what im
+mimagiuneing the fuyll game to be," typos preserved per house
+rule):** THE TEST SLICE IS THE VEHICLE. The bar's three sentences
+are judged by PLAYING THE BUILT SLICE — the four-zone small world
+(sl-0082/0087, the dusk overworld) lived in as the persistent
+world it is: leave a settlement, fight, loot, level inside the
+zone brackets, die to the CORE-43 city-fee death and walk back;
+the world persists and refills (W-3), nothing resets, NO run
+framing anywhere (the worldshape reconnection governs). The bar
+holds when the slice, played as a world, passes the three
+sentences and stays worth walking daily for the designer's week —
+then the 2–3 warm WATCHED first-touches judge it (silent
+watching; the quiet-lab law holds — unchanged). Consequences of
+the ruling: the separate "Loop acceptance" gate DISSOLVES — the
+b65 town loop retires with honor as the mechanism proof (run
+lifecycle, death cost, loot-that-matters: proven, done); the
+pack-wiring hold ("unwired until the Loop acceptance") lifts —
+icons + NPCs wire INTO the slice build they were made for; Slice
+v0.1 is the one milestone and its build order stands (chapter by
+chapter, Green Country first).
+
+*(Retired draft, kept as history — the pre-reconnection run
+mechanism this section previously carried: unguided complete run,
+spawn in the b65 town → walk out → rising danger with loot that
+matters → first boss or die trying → real death cost → immediate
+retry pull. Superseded by the re-aim above; b65 remains the
+mechanism proof.)*
 
 ## 2. Rulings (designer, Tier 1, 2026-07-30 — deck cards staged)
 

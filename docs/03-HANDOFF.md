@@ -104,9 +104,10 @@ Board at this seam:
   the assembler's first release — and INTAKEN, sl-0092, game
   9192cbf: end-to-end provenance proven publish-guard→release→
   consumer, all shipped hashes verified, 21st fixed gate, scale
-  FULLY consistent with the enemy pack**). Both packs home +
-  unwired. Wiring order: the Loop acceptance run FIRST — the loop
-  is judged as built.
+  FULLY consistent with the enemy pack**). Both packs home.
+  **WIRING HOLD LIFTED (sl-0098, the world-is-the-test ruling):
+  both packs wire INTO the Slice v0.1 build** — the separate Loop
+  gate dissolved; nothing wires until the slice build starts.
 - **THE STAT TALK IS COMPLETE (2026-08-01, this session):** the
   TEN researches assessed into docs/22 Appendix A (skeleton
   survived contact — two recommendations independently confirmed
@@ -136,14 +137,16 @@ Board at this seam:
   **the CONTENT FEEL SESSION** (docs/20 step 2: the five picker
   scenarios from sl-0094 — danger ramp, boss spot, territory
   texture, the designer's words) · the Hell Engine V2 exact-file
-  listen (RF session) · THE LOOP RUN (the acceptance, judged
-  against the designer's own bar; **the WALK is running its
-  formal acceptance NOW, this session**) · the icon tool's
-  source push from the other PC. (Landed + swept today: the
-  rehearsal EXPORT GO sl-0093/0094 · **the CALCULATOR BUILT
-  hands-free, all five gates green, first derived numbers [P] —
-  sl-0096, planning concurred on all three flagged conventions,
-  sl-0095 closed**.)
+  listen (RF session) · the icon tool's source push from the
+  other PC · **the SLICE BUILD GO** (Slice v0.1 is the one
+  milestone; Green Country first; the bar = docs/19 §1's three
+  sentences judged by PLAYING THE BUILT SLICE — sl-0098).
+  (Resolved this session: THE WALK formally ACCEPTED sl-0097
+  ("like playing another game") — sl-0067 closed · the rehearsal
+  EXPORT GO sl-0093/0094 · the CALCULATOR built hands-free, five
+  gates green, sl-0095/0096 · **THE LOOP GATE DISSOLVED by the
+  world-is-the-test ruling sl-0098** — b65 retired with honor as
+  the mechanism proof, pack wiring unblocked into the slice.)
 - Authorities: docs/19 · docs/20 · doc 18 · doc 16 +
   `tools/ecosystem.lock.json`. Planning's mainline is the standing
   branch `claude/questionnaire-note-taking-9vl2sl` (no main by

@@ -1630,6 +1630,23 @@
         "planning@674b8d1"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0098",
+      "ts": "2026-08-01T12:53:55Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE WORLD IS THE TEST (designer, Tier 1): the test slice = a small scale of the full game and IS the bar's judging vehicle - the separate Loop-acceptance gate DISSOLVES, the pack-wiring hold LIFTS",
+      "detail": "Ruled during the formal acceptance session (the designer's words, typos preserved: 'ye the world is the test ... its a small scale over what im mimagiuneing the fuyll game to be'). The ruling: Slice v0.1 (sl-0082/0087, the four-zone dusk-overworld small world) is not staged through the old loop milestone - THE SLICE IS THE LOOP: living in the built small world (leave a settlement, fight, loot, level in-bracket, die to the CORE-43 city-fee death and walk back; the world persists and refills, nothing resets, NO run framing per the worldshape reconnection) is what the docs/19 s1 three-sentence bar judges, over the designer's week, then the 2-3 warm watched first-touches. CONSEQUENCES: (1) the separate Loop-acceptance gate dissolves - the b65 town loop RETIRES WITH HONOR as the mechanism proof (run lifecycle/death cost/loot-that-matters proven; the b65 city walk stays a feel-menu item, not a gate); (2) the pack-wiring hold lifts - wildshot-icons-proto@0.1.0 and wildshot-npc-slice-v1@bf6269c wire INTO the slice build they were made for (lock notes updated this commit; wiring itself remains slice-build work, nothing wires today); (3) Slice v0.1 is the ONE milestone; build order stands (chapter by chapter, Green Country first); (4) docs/19 s1 judging paragraph re-aimed in place (the retired run draft kept as history); CORE-55 amendment carries the register row. Earlier this same session THE WALK was formally accepted (sl-0097). The Gate-1 week clock now keys on the slice becoming playable-as-a-world, not on any b65 run.",
+      "refs": [
+        "sl-0082",
+        "sl-0087",
+        "sl-0097",
+        "docs/19-LOOP_MILESTONE_SPEC.md",
+        "docs/08-DECISION_REGISTER.md"
+      ],
+      "by": "agent"
     }
   ]
 }

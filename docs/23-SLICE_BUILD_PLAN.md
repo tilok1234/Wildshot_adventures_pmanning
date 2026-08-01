@@ -24,6 +24,29 @@ readability laws · determinism/proof discipline throughout.
 1. **Enemy rosters:** split all enemy mobs into FOUR groups — each
    zone owns one group, and its dungeon draws from the same group
    (dungeon variants = denser/faster, never sponges — CORE-36).
+   **THE SPLIT IS RULED (designer, 2026-08-01, "yeah this seems
+   very good", off the sprite montage
+   `notes/evidence/2026-08-01-slice-enemy-groups-proposal.png`)**
+   — all 57 families / 202 variants assigned, and **ALL VARIANTS
+   PLAY within their zone** (the designer's variability ruling —
+   ~45–54 distinct looks per zone, zero new assets):
+   - **Green Country (14):** slime · goblin · boar · wolf · bat ·
+     shroom · wasp · beetle · moth · snail · porcupine ·
+     scarecrow · treant · bandit (the roads' humans)
+   - **Dry Reach (14):** scorpion · snake · kobold · gnoll ·
+     harpy · minotaur · cyclops · golem · imp · bigcat ·
+     gargoyle · eyemonster · mantis · mole
+   - **Wetlands (14):** frog · crocodile · turtle · jellyfish ·
+     anglerfish · octopus · crab · centipede · carniplant ·
+     lizardfolk · ratfolk · troll · zombie · spider
+   - **Snow Country (15):** bear · griffin · drake · elemental ·
+     worm (frost wyrm) · orc · ogre · dwarf · elf · skeleton
+     (incl. the crowned variant — the Bone Reliquary King's kin) ·
+     ghost · cultist · demon · puppet + mimic (the ruined city's
+     own)
+   Combat ROLES ride archetype data rows per family (CORE-44
+   grammar) — the split assigns identity, not behaviour; S1–S4
+   consume it chapter by chapter.
 2. **Living-world plumbing:** keep it simple (ruled on planning's
    recommendation, below) — v1 is four small pieces, built FIRST.
 3. **Bosses:** every boss feels SPECIAL — an engaging fight, never

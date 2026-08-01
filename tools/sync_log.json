@@ -1341,6 +1341,24 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0082",
+      "ts": "2026-08-01T08:59:17Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE LOOP BAR IS RULED IN THE DESIGNER'S OWN WORDS (the open deck card discharges) + SLICE V0.1 named as the next milestone [P, refinement rounds open] + the zone progression order confirmed by the designer's labeled map",
+      "detail": "The designer's morning notepad draft (captured verbatim in the session file) settled through back-and-forth ('ye this seems good. we might hgave to go over andf refine the test slice but i think its good ye'). THREE THINGS RULED: (1) THE LOOP BAR, in the designer's three sentences (docs/19 section 1 rewritten; the run mechanism + week test retained beneath them): know your goals and genuinely want them; enough content to not go stale; hard but reasonable, effort becomes progression. The deliberately-open deck card (a1zgppav) discharges - git is the register, the deck is the UI. The bar is judged on the CURRENT loop; the acceptance run remains the designer's next big play session. (2) SLICE V0.1 = the named NEXT MILESTONE [P], the designer's bill (draft, refinement rounds open by their own word): 4 zones / 1 dungeon per zone / 1-3 world bosses per zone by size with at least 1 unique each / simple fishing + simple foraging / simple per-class skill trees / ~5 quests per zone / levels 1-30 zone-bracketed (designer lean 5/5/5/10) / tiers T1-T4 bracketing the zones (planning's reconciliation lean: T5 = the post-cap chase tier beyond the slice; to settle in refinement) / uniques boss-leveled but always useful at max. Build shape: chapter-by-chapter in the labeled order, Green Country first as a playable mini-slice. The bill maps 1:1 onto the rehearsal's accepted 4-zone frame and the designer's fresh ~478-icon set. (3) ZONE PROGRESSION ORDER confirmed by the designer's labeled map (notes/evidence/2026-08-01-zone-progression-map.png): Green Country LV1 -> Dry Reach LV2 -> Wetlands LV3 -> Snow Country LV4 - identical to the rehearsal's travel-distance chapter ranking (machine and gut agree); the journey rings the green heart. OPEN REFINEMENT QUEUE (the promised go-over): exact level brackets, T4-vs-T5 reconciliation, world-boss counts per zone, 'simple' scope for fishing/foraging/skill trees, quest shapes, the slice's relationship to the Gate-2 slice definition. The stat session (queued) now has its content frame - the slice bill is the stat system's first customer.",
+      "refs": [
+        "docs/19-LOOP_MILESTONE_SPEC.md",
+        "notes/sessions/2026-07-31.md",
+        "notes/evidence/2026-08-01-zone-progression-map.png",
+        "sl-0076",
+        "sl-0071"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

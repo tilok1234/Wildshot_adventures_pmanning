@@ -21,15 +21,28 @@ re-aims accordingly ("is the first mile of my world worth walking
 daily"); the staged wording card absorbs this when the designer words
 it.
 
-## 1. The bar (draft standing in for the designer's words)
+## 1. The bar (THE DESIGNER'S WORDS — ruled 2026-08-01, sl-0082; the open deck card discharges)
 
-An unguided complete run: spawn in the b65 town → walk out → fight
-through rising danger where loot actually drops and matters → reach
-the first boss or die trying → death costs something real → dying
-pulls you to retry immediately. The bar holds when that run exists
-and stays fun for the DESIGNER playing it daily for a week. Then —
-and only then — 2–3 warm, WATCHED first-touches judge it (silent
-watching; the quiet-lab law holds).
+The bar, in the designer's own three sentences (verbatim from
+their notepad, typos preserved in the session record):
+
+1. **"i must know and be aware of possible goals and also
+   genuinly real weant to reach that goal."** — the player always
+   knows what they're chasing and honestly wants it.
+2. **"There must be enough content to play in order for the game
+   not to go stale."**
+3. **"The game must have a hard but a reasonable difficulty where
+   effort spent getting stronger translate to the progression."**
+
+Judged through the run mechanism (the retained draft): an
+unguided complete run — spawn in the b65 town → walk out → fight
+through rising danger where loot actually drops and matters →
+reach the first boss or die trying → death costs something real →
+dying pulls you to retry immediately. The bar holds when that run
+exists, passes the three sentences above, and stays fun for the
+DESIGNER playing it daily for a week. Then — and only then — 2–3
+warm, WATCHED first-touches judge it (silent watching; the
+quiet-lab law holds).
 
 ## 2. Rulings (designer, Tier 1, 2026-07-30 — deck cards staged)
 

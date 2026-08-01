@@ -178,10 +178,24 @@ round). Board, all verified and pushed:
   **Loop bar deliberately open — the designer's own words owed.**
   Evidence captured: eyes-closed audio (game AUDIO_CUE_MAP slot
   owes the write, next game session).
+- **THE LOOP BAR IS RULED (sl-0082, 2026-08-01 morning):** the
+  designer's own three sentences (docs/19 §1 rewritten; the open
+  deck card discharges) — know your goals and want them / enough
+  content to not go stale / hard but fair, effort = progression;
+  run mechanism + week test retained beneath. **SLICE V0.1 =
+  the named next milestone [P]** (the designer's bill: 4 zones /
+  dungeon each / 1–3 world bosses each w/ uniques / simple
+  fishing+foraging+skill trees / ~5 quests each / levels 1–30
+  zone-bracketed / T1–T4; refinement rounds open; build
+  chapter-by-chapter, Green Country first). Zone order confirmed
+  by the designer's labeled map (Green Country → Dry Reach →
+  Wetlands → Snow Country = the rehearsal's own ranking). The
+  stat session's first customer is this bill.
 - **Feel menu remaining:** THE LOOP acceptance run (judgeable →
-  L2 clock) · loop-bar wording (the open deck card) · b65 city
-  walk · audio-cues-in-play · M2 close + six-ordinaries · Hell
-  Engine V2 listening · music seam merge · weekly GIF.
+  L2 clock; now judged against the RULED bar) · the fit-rule
+  walk (red lines) · b65 city walk · audio-cues-in-play · M2
+  close + six-ordinaries · Hell Engine V2 listening · music seam
+  merge · weekly GIF.
 
 Authorities unchanged: docs/19 · docs/20 · doc 18 · doc 16 +
 `tools/ecosystem.lock.json`. Sweep duty per incoming logbook

@@ -284,7 +284,33 @@ chapters); outputs = TTK and TTD per zone × class × expected-tier
 state; gate = every zone's intended-level TTK/TTD inside declared
 target bands, run in CI beside the battery. Balance becomes a check,
 not a vibe.
-**RULING:** ___
+**RULING (designer, 2026-08-01, "approved"):** THE CALCULATOR IS
+APPROVED as specced — a small deterministic script in the game
+repo, CI-run beside the battery, gates named: (1) TTK/TTD per
+zone × class × expected gear inside declared target bands at the
+intended level; (2) the armor liveness flag (obtainable armor ≥
+0.8× common hits = plateau warning, block 2); (3) the pattern
+fairness matrix (realized DPS per pattern × scenario — best
+somewhere, best nowhere-everywhere, block 3); (4) the chunky-hits
+assertion (ordinary enemies die in 3–5 hits at every band;
+frequent numbers ≤3 digits); (5) the ITEM VALIDATOR (tier budgets
++ paired-trade grammar + unique one-break/chassis rules refused
+mechanically — TECH-16 discharged). Data lives in a versioned file
+in the game repo mirroring the docs/22 tables; the design
+authority stays here. PAPER-FIRST scope: NO sim change rides this
+— the stat frame enters the sim at slice build; the calculator
+comes first so the numbers exist before the code does. Endgame
+curves re-derive against real content later (scoped out, header
+rule). **THE GAME PASTE is the talk's closing deliverable**
+(routed sl-0095; verbatim in the session file).
+
+---
+
+**ALL NINE BLOCKS RULED 2026-08-01 — the loop-era stat frame is
+COMPLETE.** One commit per block (see the session file for the
+designer's words per ruling); register amendments on
+CORE-37/39/40/41. The slice bill (sl-0082/0087) was the customer
+throughout; the calculator paste is the hand-off to the game repo.
 
 ---
 

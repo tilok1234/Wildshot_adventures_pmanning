@@ -117,18 +117,19 @@ round). Board, all verified and pushed:
   must be typed deliberate-or-artifact. Feedback paste staged in
   the session file; designer drives lock/reroll/paint; export
   gated.
-- Opens: **sl-0067 (b77 NAVIGATION WALK — in progress)** ·
-  **PINCH LEVER PICK with the designer (sl-0072 diagnosed: all
-  1143 pinches are shortcut-denials, nothing sealed; corner-
-  sliding already shipped; picks = A-full / A-targeted at the
-  long-detour tail [planning lean; 22 sites >40 steps] /
-  accept)** · **sl-0041 (placement rehearsal ROUND 4 = the
-  designer-ruled settlement-safety blended model, sl-0073;
-  reply paste with the designer; tier-scaled belts
-  recommended)** · **sl-0073 (the model ruling — open until
-  round 4 renders it)** · standing sl-0003/sl-0005. Resolved
-  this seam additionally: sl-0065 (dev map via sl-0069),
-  sl-0070 (diagnosed via sl-0072).
+- Opens: **sl-0075 (WALKABLE WOODS — the designer's second
+  screenshot re-scoped the pinch finding to REGION SCALE: whole
+  tree bands are walls; porosity rule + WF paste with the
+  designer — clusters ≤2 cells, detour ≤2.0×, weave lanes;
+  density preserved, renders before export; SUPERSEDES the
+  site-nudge lever pick)** · **sl-0067 (b77 walk — open; the
+  woods round is its fix arm)** · **sl-0041 (rehearsal — belts
+  BUILT as behavior 17 exactly per the sl-0073 ruling +
+  planning's shaping, sl-0074 verified; designer reviewing the
+  blended map; watershed seams landed in round 2)** · standing
+  sl-0003/sl-0005. Resolved this seam additionally: sl-0065
+  (dev map via sl-0069), sl-0070 (diagnosed via sl-0072),
+  sl-0073 (executed as behavior 17).
   Resolved today: sl-0053–sl-0058, sl-0060 (superseded
   pre-intake), sl-0061 (intaken), sl-0063 (b77 shipped), sl-0064
   (walked + look approved), sl-0066 (intaken).

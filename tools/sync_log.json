@@ -1194,12 +1194,46 @@
       "repo": "planning",
       "target": "world_filler",
       "title": "RULING (designer): safety radiates from EVERY settlement - the danger field blends settlement proximity; replaces pure spawn-distance as the rehearsal's assignment mode ('i think we should change that rule')",
-      "detail": "The wf rehearsal session surfaced the model question at round 3 (designer-relayed verbatim): by doctrine danger = distance from spawn, so a remote city's doorstep is red country (safe inside the walls, deadly one step out); the alternative is safety radiating from every settlement - a green belt around each city fading outward - 'a real model change (a new assignment mode blending settlement distance in), not a render tweak.' THE DESIGNER'S CALL: change it - settlement-proximity safety is the model. PLANNING ENDORSES with one shaping recommendation for the taste rounds: scale belt radius/strength by settlement TIER (capital = wide belt, remote outpost = thin pocket) so deep country stays genuinely deadly and remote settlements read as waystation POCKETS - belts must never chain into safe corridors that neuter the danger gradient ('entering a late region early should feel genuinely dangerous' survives). The model also serves both new pillars: a villager can explain every belt ('the guards keep the near fields safe' - 5.6), and safe waystation pockets deep in red country are the intertwine glimpse inverted (5.2/5.5). SCOPE: this rules the FIELD MODEL for the generated-draft era (the sl-0041 rehearsal + future drafts) - NOT a docs/01 amendment; the eventual multi-zone world still authors per-zone bands at GDD altitude. IMPLEMENTATION per the reply paste: the blended assignment mode becomes ROUND 4's model with pure spawn-distance retained as a fallback knob; radii/fade/tier-scaling = designer taste in the viewer; the geography-seam ask (round 3) still applies to the blended field's tier boundaries; export stays gated. Reply paste handed to the designer for the wf session.",
+      "detail": "The wf rehearsal session surfaced the model question at round 3 (designer-relayed verbatim): by doctrine danger = distance from spawn, so a remote city's doorstep is red country (safe inside the walls, deadly one step out); the alternative is safety radiating from every settlement - a green belt around each city fading outward - 'a real model change (a new assignment mode blending settlement distance in), not a render tweak.' THE DESIGNER'S CALL: change it - settlement-proximity safety is the model. PLANNING ENDORSES with one shaping recommendation for the taste rounds: scale belt radius/strength by settlement TIER (capital = wide belt, remote outpost = thin pocket) so deep country stays genuinely deadly and remote settlements read as waystation POCKETS - belts must never chain into safe corridors that neuter the danger gradient ('entering a late region early should feel genuinely dangerous' survives). The model also serves both new pillars: a villager can explain every belt ('the guards keep the near fields safe' - 5.6), and safe waystation pockets deep in red country are the intertwine glimpse inverted (5.2/5.5). SCOPE: this rules the FIELD MODEL for the generated-draft era (the sl-0041 rehearsal + future drafts) - NOT a docs/01 amendment; the eventual multi-zone world still authors per-zone bands at GDD altitude. IMPLEMENTATION per the reply paste: the blended assignment mode becomes ROUND 4's model with pure spawn-distance retained as a fallback knob; radii/fade/tier-scaling = designer taste in the viewer; the geography-seam ask (round 3) still applies to the blended field's tier boundaries; export stays gated. Reply paste handed to the designer for the wf session. || EXECUTED + RESOLVED ~2026-08-01T01:57Z (planning sweep of sl-0074): the wf session built the blend as behavior 17 (danger.settlementRelief{Reach,Depth}Permille, tier-scaled, max-never-sum overlaps, byte-identical fallback) — the ruling's implementation condition is met; the designer's taste rounds (radii/fade knobs, lock/reroll/paint) continue under sl-0041; export gated.",
       "refs": [
         "sl-0041",
         "sl-0071",
         "docs/20-WORLD_CONTENT_ARC.md",
         "docs/01-GAME_DESIGN_DOCUMENT.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0074",
+      "ts": "2026-08-01T01:54:31Z",
+      "type": "note",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "Dusk rehearsal rounds 2-4 executed: organic watershed seams (behavior 16), honest band-0 rendering, and the sl-0073 settlement-relief blend (behavior 17) - designer reviewing the blended danger map",
+      "detail": "Rehearsal rounds on sl-0041 (base b77), designer-driven in-session. ROUND 2 (verdict: seams so very square): oversized-patch subdivision moved from midline bisection to a two-seed distance watershed (diameter-endpoint seeds, equidistance seams) - behavior 16 / analysis 4, the behavior-12 recorded polish executed; plus recipe bandCount 5->7 for a finer ramp. ROUND 3 (verdict: danger map does not follow the zones): diagnosed with numbers - a third of walkable ground is band 0 and 15 of its 20 wilderness borders jumped to band >=3 because every settlement painted ramp-blue; band 0 now renders pale neutral (render-only). The remaining model question (does safety radiate from every settlement?) went to planning. ROUND 4 = sl-0073 ruling EXECUTED (behavior 17, plan 6): opt-in danger.settlementRelief{Reach,Depth}Permille subtract tier-scaled relief belts from the spawn-distance field before bands rank - reach scales each settlement recorded radius (capital wide, outpost thin waystation pocket), linear honest fade, overlaps take max never sum (no safe corridors), deep country untouched, both-0 fallback = pure spawn distance proven byte-identical. Dusk recipe at reach 3000 / depth 250. Every round: 9/9 gates PASS, 3/3 bosses, 10 dungeons held; 54 encounters / 81 territories after the region reshape. 191 tests green; pushed world_filler@ac87f03 (r2), f58fca3 (r3), a036cdd (r4). Export remains designer-gated per sl-0041; lock/reroll/paint rounds continue on the blended map. || PLANNING VERIFICATION ~2026-08-01T01:57Z (append lane honored): PASSED — a036cdd = world_filler main's tip (compare: identical); the round-4 implementation matches the sl-0073 ruling AND planning's shaping recommendation exactly (tier-scaled reach, linear honest fade, overlaps max-never-sum = no safe corridors, deep country untouched, pure-distance fallback byte-identical); the round-2 watershed seams answer the round-3 geography-seam ask's spirit organically. sl-0073 RESOLVED (executed as behavior 17; the designer's taste rounds continue under sl-0041). Designer review of the blended map = the live line.",
+      "refs": [
+        "sl-0073",
+        "sl-0041",
+        "sl-0068",
+        "world_filler@a036cdd"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0075",
+      "ts": "2026-08-01T01:55:38Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "worldforge",
+      "title": "WALKABLE WOODS [P]: wilderness prop fields must be POROUS - the designer's second walk screenshot re-scopes the pinch finding to REGION SCALE (whole tree bands are walls with rim-only routes); porosity rule routed to WF, supersedes the site-nudge lever framing",
+      "detail": "The designer's escalation overrides sl-0072's framing ('i dont think you understand the extent of it... that took me 30 sec to find... you cannot pass through any of the trees or props in the image and u can only walk in where the green is' - evidence notes/evidence/2026-08-01-tree-band-wall-feedback.png: a whole copse impassable, the only route a thin rim path). PLANNING CONCEDES THE FRAMING ERROR, recorded as a lesson: the probe's numbers were true but its UNIT (pinch sites, median detour) mismatched the UNIT OF EXPERIENCE (region-scale walls wearing forest art) - metric must match felt unit. THE MISSING RULE, now proposed as standing [P]: WALKABLE WOODS - wilderness prop fields are POROUS; the player weaves BETWEEN trees; a copse never forces rim-walking; solid WALLS are reserved for deliberate barriers (cliffs, built walls, authored hedges). MECHANICAL GATES (knobs designer-tunable, measured by the game's committed baseline tools/diag_pinch.py @ e991118): (1) connected solid-prop clusters <= 2 cells - trees never chain into walls; (2) bounded detour - between open cells around/inside any prop field, path length <= 2.0x straight-line distance; (3) a weave lane through any band at least every ~4 cells of frontage. IMPLEMENTATION: re-space/relocate solids (W-13: density PRESERVED, never delete without the designer's word); subsumes sl-0072's 22-site long-detour tail (bounded detour kills it); the 332 settlement-zone pinches ride the street-rule domain; expect flood/walkability changes typed per sl-0052; sl-0059 untouched. RENDERS TO THE DESIGNER BEFORE EXPORT - spacing is look. Next behavior on b77 (b78-class); the game intake after follows the normal lane and re-measures against the diag baseline. Paste handed to the designer for their WF session. sl-0067 (the walk) STAYS OPEN - this round is its fix arm.",
+      "refs": [
+        "sl-0072",
+        "sl-0070",
+        "sl-0067",
+        "sl-0063",
+        "notes/evidence/2026-08-01-tree-band-wall-feedback.png"
       ],
       "status": "open",
       "by": "agent"

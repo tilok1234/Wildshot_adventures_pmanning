@@ -111,7 +111,7 @@ Test the complete friction budget: travel + enemy availability + portal chance +
 
 ## Stage 8 — World, quests, hub, and recognition
 
-The purposes of quests (CORE-46), factions (CORE-39/46), hubs and recognition (CORE-47) are decided; implement the slice's share of them. Implement only enough fishing, foraging, limited non-combat crafting, collection presentation, pets (cosmetic-only), and authored settlement change to test their locked supporting roles. Build one dense region with several overlapping goals — the slice zone doubles as the quest-density test.
+The purposes of quests (CORE-46), factions (CORE-39/46), hubs and recognition (CORE-47) are decided; implement the slice's share of them. Implement only enough fishing, foraging, limited non-combat crafting, collection presentation, pets (cosmetic-only), and authored settlement change to test their locked supporting roles. *(2026-08-02: fishing is now STARHOOKING — land rifts, the starhook INDEX is law; water fishing (sl-0111) is parked; starhook v2 is already live in the slice.)* Build one dense region with several overlapping goals — the slice zone doubles as the quest-density test.
 
 **Gate:** The world supplies meaningful reasons to explore and grind beyond isolated combat rooms.
 

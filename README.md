@@ -1,37 +1,44 @@
 # Wildshot Adventures
 
-Top-down 2D open-world fantasy action RPG: a single-player MMO-scale adventure with
-freely aimed projectile combat. Currently in guided concept definition / early
-pre-production, driven by a structured design questionnaire (the CORE interview).
+Top-down 2D open-world fantasy action RPG: a single-player MMO-scale adventure
+with freely aimed projectile combat. **Era: Slice v0.1 is BUILDING** — the world
+is the test (four zones, cap 30, all three classes; `docs/23-SLICE_BUILD_PLAN.md`
+governs); S0 + S1 engineering complete, the designer's Green days are open,
+starhook v2 live in the slice.
 
-**This repository is the source of truth for the project's design documentation and
-interview state.** ZIP snapshots and chat transcripts are transfer conveniences only.
+**This repository is the DESIGN AUTHORITY of a seven-repo ecosystem** (planning ·
+game · tileforge · worldforge · world_filler · sprite assembler · resonance
+forge). Who owns what: [`docs/16-ECOSYSTEM_MAP.md`](docs/16-ECOSYSTEM_MAP.md).
+Cross-repo events and pins: `tools/sync_log.json` + `tools/ecosystem.lock.json`.
 
 ## Where things stand
 
-Read **[`notes/INTERVIEW_STATE.md`](notes/INTERVIEW_STATE.md)** first — it always holds
-the current active question, the full question-status table, and the note-taking
-protocol for continuing the interview.
+Read **[`docs/03-HANDOFF.md`](docs/03-HANDOFF.md)** first — its CURRENT section
+(top of the file) is always the live board and names the fresh session's first
+moves. The chronological day-by-day story lives in `notes/sessions/`.
 
 ## Layout
 
-- `docs/` — the living design documentation set (GDD, decision register, living
-  questionnaire, risk register, roadmap, prototype spec, systems map, and more).
-  See [`docs/06-DOCS_README.md`](docs/06-DOCS_README.md) for the document map and
-  source hierarchy.
-- `notes/INTERVIEW_STATE.md` — always-current interview position and continuation
-  instructions.
-- `notes/sessions/` — dated per-session working notes.
+- `docs/` — the living design documentation set: GDD (01), decision register
+  (08), stat-system authority (22), slice build plan (23), ecosystem map (16),
+  and more. See [`docs/06-DOCS_README.md`](docs/06-DOCS_README.md) for the
+  document map.
+- `notes/sessions/` — dated per-session working notes (the chronological record).
+- `notes/reference/` — designer-delivered artifacts preserved verbatim (e.g. the
+  starhook prototype; its `INDEX.md` is starhook law).
+- `tools/` — sync log, ecosystem lock, decision-deck register and viewers.
 
 ## Continuing in a new session (any device or account)
 
 Tell the assistant:
 
-> Continue the guided design interview and development work for Wildshot Adventures.
-> Read `notes/INTERVIEW_STATE.md` in this repo first, then `docs/03-HANDOFF.md`, and
-> follow the note-taking protocol: one question or task at a time, and commit the
-> documentation updates after every approved decision before moving on.
+> Resume the planning seat for Wildshot Adventures. Read
+> `docs/03-HANDOFF.md`'s CURRENT section in this repo first and follow its
+> first moves.
 
-No attachments needed — everything required is in the repo. **Part I of the design
-interview (CORE-01 through CORE-55) is complete as of 2026-07-26**; next steps are the
-Part II combat modules and/or building the Phase A combat laboratory in Godot.
+No attachments needed — everything required is in the repo.
+
+**History:** the project began as a guided design interview (Part I, CORE-01
+through CORE-55, complete 2026-07-26 — register: `docs/08`). The interview era
+ended with the Gate-1 rewrite (2026-07-30, `docs/19`) and the world-is-the-test
+ruling (sl-0098); `notes/INTERVIEW_STATE.md` is that era's record.

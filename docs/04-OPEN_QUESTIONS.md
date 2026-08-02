@@ -61,7 +61,7 @@
 - Exact authored settlement changes; recognition beats and NPC behaviour tiers.
 
 ### Supporting systems
-- Fishing/foraging mechanics, curves, locations, rarity, rewards; crafting recipes, requirements, sources, interfaces, eligible reward types.
+- Fishing/foraging mechanics, curves, locations, rarity, rewards; crafting recipes, requirements, sources, interfaces, eligible reward types. *(2026-08-02: fishing is now STARHOOKING — land rifts, the starhook INDEX is law; water fishing (sl-0111) is parked. Starhooking's SHAPE is ruled; its open remainder is feel-tuning, not mechanics.)*
 - Collection-menu categories, metadata, previews, completion presentation.
 - Pet acquisition, collection structure, presentation (cosmetic-only is decided).
 

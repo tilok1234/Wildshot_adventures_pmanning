@@ -494,6 +494,21 @@ Exact regional difficulty ranges, higher-difficulty dungeon-version names, eligi
 
 The design pillars of Section 5 — the original four plus the two world pillars ratified 2026-08-01 — remain Wildshot Adventures' only pillars. Non-combat activities are optional supporting systems intended to enrich the open world, provide relaxed alternative grinds, and create additional collection goals without competing with the main combat game.
 
+> **SUPERSESSION (2026-08-02): fishing is now STARHOOKING.** The designer's
+> starhook v2 (live in the slice since sl-0115) replaced the water-based
+> fishing concept wholesale: rifts spawn on LAND — authored nodes plus an
+> ambient anywhere-chance — and casting (the interact verb at a rift) starts
+> a boss fight: the small bait fighter battles in the galaxy-side arena
+> while the line (= HP, three hard lives) strains; the WIN is the kill (no
+> reeling phase exists), and the catch pays gold + per-species fish (a
+> species-currency) + rare cosmetics. Correction #5 also rules rifter gear
+> IN: rods and very simple equipment drop from starhook bosses, gated by
+> starhook levels (the gear seam, docs/23). The law is
+> `notes/reference/starhook-proto2/INDEX.md` (corrections 1–9 override all
+> older text); water fishing (sl-0111) is PARKED — revive only on the
+> designer's word. Where this section says "fishing," read starhooking; the
+> progression-level and rare-collection roles below carry over unchanged.
+
 **Foraging and fishing are optional supporting systems, not design pillars or major focuses.** They should make the vast open world feel richer, livelier, and more worth exploring while offering relaxed alternatives to combat.
 
 - **Foraging** has its own progression level and a long-term collection grind centered on uncommon and rare flowers.

@@ -156,3 +156,10 @@ Build early tools for:
 [P] The vertical slice is built around one class — provisionally the **Archer** — with roughly three to five genuinely distinct weapon frames, three to four ability items covering different roles (at minimum mobility, defense, and burst), and two to three build directions through the skill tree. The slice must prove the locked combat pillar in practice: movement-only dodging, the single equipped active, weapon-owned patterns, honest boss design, and armor and ring tradeoffs. Three classes remain locked for the full game; per-class full-game content counts are explicitly deferred until CORE-20 resolves production constraints.
 
 CORE-52 fills in the full content bill: one zone (outskirts to dangerous pocket) plus a hub; 8–10 enemy types with an elite and a roaming rare; one portal enemy, one 10–20 minute committed dungeon and boss; tiered and cosmetic drops plus one unique weapon; a main-quest slice with one level gap, 10–15 side quests, and one faction set with vendor; roughly 3–5 hours plus a repeatable boss farm; co-op, raids, hardcore, gathering, and mounts excluded. The slice ships with explicit gate questions (voluntary post-completion farming, dry-streak feel with the attempt counter, gap-as-invitation, explainable deaths) and one authored secret as the discovery-pillar test.
+
+> **SUPERSEDED (2026-08-01; recorded at the 2026-08-02 audit):** both rows
+> above were amended — Slice v0.1 ships ALL THREE classes (the CORE-38
+> amendment; per-class content lean) across FOUR zones at cap 30 with a
+> dungeon per zone and 1–3 world bosses per zone with uniques (the CORE-52
+> amendment). `docs/23-SLICE_BUILD_PLAN.md` (ACTIVE) is the slice build
+> authority; this section stays as the pre-worldshape record.

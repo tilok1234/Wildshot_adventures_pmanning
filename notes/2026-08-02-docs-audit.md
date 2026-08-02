@@ -66,9 +66,11 @@ pastes for the other repos. Nothing here is lost if a chat dies.
 
 ## 2. STILL OWED planning-side (next session picks up here)
 
-Ranked. None are blocking; all are truth-up work.
+Ranked. None are blocking; all are truth-up work. **Progress
+(2026-08-02 evening, the fresh seat): items 1–4 DONE + docs/07's
+slice-scope nit from item 9; 5–9 remain.**
 
-1. **`docs/08-DECISION_REGISTER.md`** — CORE-25 row still says "the four
+1. **DONE (evening seat).** **`docs/08-DECISION_REGISTER.md`** — CORE-25 row still says "the four
    current design pillars remain the only pillars" (SIX since
    2026-08-01, recorded in this same file's deck bullet); CORE-52 row
    carries the old one-zone/one-class slice bill with NO amendment
@@ -78,7 +80,9 @@ Ranked. None are blocking; all are truth-up work.
    equipment formulas — ALL ruled 2026-08-01 (docs/22); header line
    still says "the interview proceeds to Part II modules alongside the
    Phase A combat laboratory".
-2. **Fishing → starhooking supersession notes** across the design set:
+2. **DONE (evening seat; docs/10 deliberately untouched — interview
+   transcript = marked history).** **Fishing → starhooking
+   supersession notes** across the design set:
    `docs/01` §13 (primary — fishing still described as the water-based
    progression system; "starhook" appears nowhere in the GDD), plus
    one-line notes in `docs/02`, `docs/04` line 64, `docs/05` line 114,
@@ -86,12 +90,14 @@ Ranked. None are blocking; all are truth-up work.
    53/99/110. Standard note: *"fishing is now STARHOOKING — land
    rifts, the starhook INDEX is law; water fishing (sl-0111) is
    parked."*
-3. **Root `README.md`** — the front door is two eras stale: "guided
+3. **DONE (evening seat — rebooted on doc 03 CURRENT + the Slice
+   v0.1 era; interview material demoted to a History note).**
+   **Root `README.md`** — the front door is two eras stale: "guided
    concept definition / early pre-production", "read
    notes/INTERVIEW_STATE.md first", "next steps are the Part II combat
    modules and/or building the Phase A combat laboratory". Should boot
    on doc 03 CURRENT + name the Slice v0.1 era.
-4. **`docs/09-SYSTEMS_MAP.md` line 103** — "One small optional pet may
+4. **DONE (evening seat).** **`docs/09-SYSTEMS_MAP.md` line 103** — "One small optional pet may
    provide a modest passive benefit" → superseded 2026-07-26 (pets are
    purely cosmetic, no benefit of any kind).
 5. **Executed-plan banners** (the doc-12 pattern): `docs/15` §3/§5
@@ -114,7 +120,8 @@ Ranked. None are blocking; all are truth-up work.
    October vacation lab sprint + retired recruited cycles) and Stage 9,
    `docs/06` header + document map (inventories only docs 01–12 — docs
    13–23 including the ruling authorities are missing), `docs/07`
-   vertical-slice scope, `docs/14` §0 "pending amendment" vs its own
+   vertical-slice scope (DONE — superseded banner added with items
+   1–4), `docs/14` §0 "pending amendment" vs its own
    applied status, `docs/18` §2 tail (doc 16's pin table "becomes a
    rendering" — it was abolished), `docs/19` status block vs §1 (the
    loop bar IS ruled; deck card a1zgppav is the open item),

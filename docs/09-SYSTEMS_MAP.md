@@ -57,6 +57,8 @@ A later system should not be used to hide a failure in an earlier one. Loot must
 | Co-op | Optional shared adventure | Defining solo balance or gating content |
 | Session goal / attempt | Player-chosen objective, attempt completion, pause/abandon boundaries, run telemetry | Guaranteeing a permanent upgrade on a fixed timer |
 
+*(2026-08-02: the "Fishing / foraging" row's fishing is now STARHOOKING — land rifts, the starhook INDEX is law; water fishing (sl-0111) is parked.)*
+
 ## 3. Core reward architecture
 
 ```text
@@ -96,18 +98,18 @@ The exact number of reward layers is not yet locked. The principle is that a fai
 
 ### CORE-25 supporting-system boundary [L/P]
 
-- Fishing and foraging are the only currently planned non-combat activities with their own progression levels. Their main rewards are collections, cosmetics, and world-enrichment value.
+- Fishing and foraging are the only currently planned non-combat activities with their own progression levels. Their main rewards are collections, cosmetics, and world-enrichment value. *(2026-08-02: fishing is now STARHOOKING — land rifts, the starhook INDEX is law; water fishing (sl-0111) is parked. Correction #5 adds rifter gear drops from starhook bosses, starhook-level-gated.)*
 - Limited crafting is a deterministic requirement-to-known-reward system for non-combat outcomes. It is not a profession level or equipment economy.
 - Collections primarily use polished dedicated interfaces.
 - Housing and player-managed settlement growth are not currently planned. Selected authored settlement changes may follow quests, victories, or events.
-- One small optional pet may provide a modest passive benefit but never participates as a combat actor.
+- One small optional pet is purely cosmetic — no combat or statistic benefit of any kind (revised 2026-07-26; pets never heal, buff, attack, draw aggro, tank, or cast).
 - New professions or supporting activities require a distinct purpose that the accepted systems cannot already serve.
 
 ### CORE-26 through CORE-30 world and travel boundary [L/P]
 
 - The world is a coherent network of many large outdoor zone maps connected through physical routes. Interiors use separate maps when appropriate.
 - Geography, routes, settlements, landmarks, secrets, major interiors, bosses, and progression-critical content are handcrafted.
-- Controlled procedural variation may refresh enemy groups, events, rare spawns, resources, fishing, foraging, and other repeatable details without making targetable pursuits unreliable.
+- Controlled procedural variation may refresh enemy groups, events, rare spawns, resources, starhook rift nodes (was "fishing"), foraging, and other repeatable details without making targetable pursuits unreliable.
 - Outdoor zones rely on soft danger gating rather than level locks. Dungeons, raids, and selected instances use explicit minimum levels and may have other clear, meaningful prerequisites.
 - Regions, outdoor enemies, and world bosses retain fixed authored difficulty. Only selected instanced dungeons may later receive separate fixed higher-difficulty versions.
 - Selected discovered destinations support paid teleportation from safe outdoor situations after an interruptible three-to-five-second cast. Many special destinations and final routes remain manual, and there is no separate free recall.

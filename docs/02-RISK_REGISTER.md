@@ -3,6 +3,8 @@
 **Snapshot:** 2026-07-26; integrated through CORE-55 (Part I complete).  
 **Status:** Early pre-production. Ratings are qualitative until production constraints are known.
 
+*(Reading note, 2026-08-02: where this register says "fishing," fishing is now STARHOOKING — land rifts; the starhook INDEX is law; water fishing (sl-0111) is parked.)*
+
 | Risk | Likelihood | Impact | Early warning | Mitigation / gate |
 |---|---|---|---|---|
 | Combat is not enjoyable without rewards | Medium | Critical | Testers stop engaging when loot/XP are removed | No-reward combat lab before world/content production |

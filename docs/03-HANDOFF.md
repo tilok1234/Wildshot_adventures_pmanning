@@ -110,7 +110,13 @@ corrections 1–9).
 > line amended, right-click-drop confirm/toast + hint-caption
 > honesty joined the paste. Log 156/0/tail sl-0156. **The
 > designer drops zip + paste into a fresh game session; planning
-> sweeps per seam.**
+> sweeps per seam.** *(Completeness audit ~23:45, paste hardened
+> in place, same asks no new ids: toast/confirm sanctioned as
+> small new surfaces if absent · options carry-every-row + the
+> ability-row demo-guard · tracked persists view-side · one
+> surface at a time · the chrome overlay restyles pause/recap/
+> creation for free · statchips bind existing stats only — the
+> "starhook lv" chip skips-and-reports until that stat exists.)*
 
 ## The fresh session's first moves, in order
 

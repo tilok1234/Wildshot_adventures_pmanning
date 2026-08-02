@@ -141,6 +141,15 @@ with different bullet patterns kind of". Recorded as:
   def — the new-ordinaries-are-data-rows doctrine applied
   player-side.
 
+Second-exchange additions (the designer, ~02:35):
+
+- **THE SPLIT LEANS GALAXY:** during a rift fight the galaxy view
+  takes ~2/3–3/4 of the screen [T] (the designer's lean); the
+  world sliver stays as the anchor.
+- **STARHOOK v1 REPLACES S1's FISHING** ("we would replace
+  fishing with this") — un-parked and ROUTED as sl-0105; foraging
+  v1 stays basic as sl-0104 routed.
+
 **Planning's effort read, updated:** "very little effort" is now
 an honest claim for THIS v1 shape, because the slice built the
 parts without knowing it: portal = walk-on door (seam 4), rift =
@@ -151,13 +160,16 @@ stat-frame row, rods = attack-def data rows. Genuinely NEW code
 is short: the cast/reel verb, the split-screen view, node
 spawning. A week ago none of that was true.
 
-## Status: PARKED
+## Status: ROUTED INTO S1 (sl-0105 — the designer's word)
 
-No sync_log ask opened. NOT S1 — seam 6 stays the basic
-fishing/foraging verb exactly as routed in sl-0104. One optional
-seam-6 nudge (designer's call to paste): build the fishing verb
-portal-agnostic — spots are placed nodes, the cast targets a
-node, catch resolution sits behind one interface — same basic
-yields, zero scope change, keeps the door open. Starhooking
-itself fires only on the designer's word after Green days; strong
-candidate to headline a future chapter (the star chapter).
+sl-0105 OPENED (2026-08-02 ~02:36 local): the designer's word —
+"we would replace fishing with this" — un-parks the kernel and
+routes STARHOOK v1 as S1's seam 6 in fishing's place; foraging v1
+stays basic as sl-0104 routed. The v1 constraint set (one sim,
+stat-frame rifter, two rods, one kit at two rarities, cosmetics
+via variants, main-economy drops) is LAW in the ask's detail.
+Still deferred to later chapters: the rifter skill tree (after
+the class trees), functional rifter gear, more rods/kits/
+rarities, any generator, any pity. Every feel verdict — the
+fight, the split ratio, rod feel, rarities, node cadence — is
+the designer's Green-days material.

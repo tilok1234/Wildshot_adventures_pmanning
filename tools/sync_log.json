@@ -1751,6 +1751,22 @@
         "sl-0099"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0105",
+      "ts": "2026-08-02T00:36:34Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "SEAM 6 REPLACED: STARHOOK v1 (the designer's word) - the rift fight becomes S1's fishing; foraging stays basic",
+      "detail": "The designer REPLACES seam 6's fishing with STARHOOK v1 ('we would replace fishing with this' + the 2/3-3/4 galaxy-view lean; notes/2026-08-02-starhook-idea.md carries the full capture, planning's honest assessment, and the ruled dispositions - read it). FORAGING v1 stays EXACTLY as sl-0104 routed (a foraging verb at gather spots, small honest yields, no automation CORE-48) - the gather work already in flight is untouched by this ask. STARHOOK v1, super simple by the designer's word: rift NODES spawn in the world like resource nodes [T count/placement/respawn]; casting into one starts a RIFT FIGHT in a small far-side arena where the RIFTER - the bait fighter riding the line - fights the catch; win = the catch. v1 CONSTRAINTS (the designer's dispositions + planning's standing shape; the designer couriering this paste is the ratification): ONE SIM - the world pauses/vignettes during a rift fight, the split screen is PRESENTATION ONLY (galaxy view ~2/3-3/4 of screen [T], the world sliver stays as the anchor), replay/battery/byte-gate discipline untouched; the RIFTER = a fixed mini-class ROW on the existing stat frame (starhook level = that row's level; no new progression system); RODS = attack-def data rows with distinct bullet patterns (two at v1: a starter + one unlock [T]; the rod IS the rifter's class); THE FIGHT = ONE rift kit on the house boss recipe at TWO rarity steps [T] (small arena; the pattern->lead law, Law-4 ordering, the CVD hue map, and the audio cue map apply IN THE RIFT exactly as everywhere - the starfield gets no exemption); DROPS feed the MAIN economy in the one item grammar + rifter COSMETICS as rare catches via the variants machinery (view-only); NOT in v1: functional rifter gear (deferred by the designer's word), the rifter skill tree (waits for the class trees), fight generators, pity systems. Mechanism freedom stays with the session (the sl-0104 clause); the Warren's door/instance machinery and the loot walk-over language are the obvious parents; if any basic-fishing thinking already started, keep what serves (spots->nodes, verb->cast). ALSO OWED with this seam, the swept flags: push origin main (seven S1 commits local-only); a narrating line on the canary repro re-records (seed 3 515->1312 in the seam-5 wave) + confirm the canary scenario still proves undodgeable-reactive. And planning RETRACTS its timestamp flag - the game commits' ~02:xx stamps were correct; planning's midday assumption was the error (it is ~02:36 local as this routes). Chapter gate unchanged: the designer's Green days follow seam 6; every feel verdict (the fight, the split ratio, rod feel, rarities, node cadence) is Green-days material. Standing law unchanged: sealed seam, logbook line, proofs never weaken, negative-test new gates, plain names.",
+      "refs": [
+        "sl-0104",
+        "notes/2026-08-02-starhook-idea.md",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "docs/22-STAT_SYSTEM.md"
+      ],
+      "by": "agent"
     }
   ]
 }

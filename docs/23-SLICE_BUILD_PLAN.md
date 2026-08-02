@@ -198,7 +198,11 @@ full-game later):
   hand-placed world boss made special (kit pass) + the first
   unique(s) · the Green dungeon + boss · 3–5 reason-tagged generic
   quests · fishing/foraging v1 (basic) · all three classes
-  playable. **Gate:** the designer lives in Green a few days — the
+  playable. **SEAM 6 AMENDED (sl-0105, the designer's word
+  mid-S1): fishing v1 → STARHOOK v1 — the rift fight replaces the
+  fishing minigame (capture + dispositions in
+  notes/2026-08-02-starhook-idea.md); foraging v1 unchanged.**
+  **Gate:** the designer lives in Green a few days — the
   three sentences' first honest read while fixing is cheap.
 - **S2 — DRY REACH · S3 — WETLANDS · S4 — SNOW COUNTRY:** the same
   chapter recipe (zone group + boss/es + dungeon + ~5 quests + tier

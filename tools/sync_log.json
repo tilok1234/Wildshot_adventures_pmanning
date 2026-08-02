@@ -1918,6 +1918,23 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0115",
+      "ts": "2026-08-02T10:16:06Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "HOLD LIFTED - sl-0110 REVIVED on prototype #2 (the designer's build): the prototype rules the SHAPE, every number [T]; sl-0111 releases after",
+      "detail": "The designer's prototype landed (built overnight, 'done before i went to bed'; delivered as C:/Users/headc/Downloads/Starhook Prototype Build.zip - a self-contained HTML/JS build with its own DESIGN/TUNING/HANDOFF docs, preserved verbatim planning-side at notes/reference/starhook-proto2/ with planning's INDEX.md reconciliation ON TOP - read INDEX FIRST, then the three docs, then extract the zip and read engine.js; the two clips 044051/044205 in Videos/Screen Recordings are the look). THE DESIGNER'S CALIBRATION: the prototype is the overall CONCEPT, made in haste - it rules the SHAPE (verbs, split, the living line, undertow, kill-then-reel, biomes); EVERY number is [T]; refinement rounds are expected scheduled work. THE SHAPE (sl-0110 re-scoped to build it faithfully): 50/50 split, the line crossing both panes (sag/taut/red + the travelling spark); INSTANT cast = interact (F) at the portal, no stillness, the cast IS the aggro; LINE STABILITY = HP = 60, one resource (hits + 0.4/s passive clock + deep-edge strain; 0 = snap, dive lost, wake at the shore); the UNDERTOW arena-wide current (player 1.0 / boss 0.3 / bullets 0.15, oscillating - 'worth a real .tres'); the built kit's fight STANDS (the prototype VALIDATES its [repo] numbers: patterns/phases/leads confirmed) + biome pattern-parameter twists as per-biome .tres variants (Nebula Drift baseline / Hollow Void ring 12x3.4 / Comet Field spray 6.3 + dart cd x0.8); KILL THEN REEL: boss 0 -> bullets clear -> hooked -> the reel state machine (calm +28/s hold, telegraphed thrash punishes greed 6 stability/s, undertow x1.35 hooked, 100 = banked + the catch card); FOUR RODS (Cane/Splitwillow confirmed + Heavyline/Twinreed as two new weapon_frame rows, same schema; R swap [T]; autofire = E as ratified, holds trigger only, aim never automated); named fish tables per biome (flavor rows); gold 30-60/80-150 [repo]. MERGE FLAGS (planning): overworld 4.2 t/s is [proto] convenience - the game's speed law STANDS; the Starlit Cast cosmetic STAYS (the prototype omitted it); arena 15x12 shrinks or the rift camera guarantees full visibility (Law 1, no off-screen bullets EVER); tick-rate conversion checked before porting counts (HANDOFF section 7); keys map to the game's bindings. Canonical items the prototype didn't cover stay [T] later: node drift/despawn, rifter gear + tree (the standing rulings govern), water fishing = sl-0111 RELEASES AFTER this seam on the same verb machinery. Gates: the usual law (never-weaken, deliberate re-baselines with the seam, negative-test, windowed evidence PNG of the finished rift MANDATORY - the brick-room precedent); the prototype's __shk debug API pattern is a fine model for the proofs. Every feel verdict = the designer's refinement rounds + Green days.",
+      "refs": [
+        "sl-0110",
+        "sl-0111",
+        "sl-0113",
+        "notes/reference/starhook-proto2/INDEX.md",
+        "notes/2026-08-02-starhook-idea.md"
+      ],
+      "by": "agent"
     }
   ]
 }

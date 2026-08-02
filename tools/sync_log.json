@@ -2510,6 +2510,24 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0154",
+        "ts": "2026-08-02T21:24:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "ABANDON + THE OFFER'S 'LATER' RULED (designer's word) - abandon returns the quest to its giver; the offer's non-accept = ONE 'Later' button this pass (the spec's Decline deferred); THE GO on the rewrite: THE MENU PASS v2 PASTE IS CUT - the sl-0153 hold discharges",
+        "detail": "The designer, verbatim (incl. the interrupted tail): 'abandon goes back to quest giver we can use either only later. ye go ahead and reasses the gamechats plan for menus in regards to this while i get the other export package' / 'or the fixed one'. RULINGS: (1) ABANDON RETURNS THE QUEST TO ITS GIVER - available again through the normal offer dialogue, no cooldown unless a later word adds one; leaves the log, clears the tracker if tracked; rides recorded ops like accept. (2) THE OFFER'S NON-ACCEPT = 'LATER' ONLY THIS PASS - planning's reading of 'we can use either only later' (both candidate parses converge on building ONE dismiss now): Later closes the window, the quest stays with the giver; Esc/walk-away identical; the v2 spec's Decline button is NOT BUILT this pass, deferred until a distinct meaning exists; flagged to the designer for a one-word correction if misread. (3) THE GO: the game-chat menu plan reassessed NOW - THE MENU PASS v2 paste cut at the session file tail, REPLACING the held batch-#3 paste (superseded marker left on the old block); intake-first (sha verify vs planning's record, raw vendor + passport, icon-atlas 470-id parity check vs the wired wildshot-icons-proto with NO double-vendor, font license recorded designer-self-produced on their confirm), menu-specs.json = the layout truth, six suggested seams (A chrome overlay 20-piece pixels-only swap with unshipped-ids-stay-v1 stated loud; B the two-tab C menu - dollslots paper-doll + slot-grid bag + proper-info errands tab + per-quest tracked toggle + abandon-to-giver; C the offer dialogue - accept-as-decision + Later-only; D stations on F interact - click baseline, drag ONLY if the recorded-op space covers it without format growth; E bars-left HUD per sl-0149; F options/confirm/toast/tooltip restyles), standing rules (view-only expected, full-gate if any op byte moves, Law 6 band on-screen, no-flash, states-never-hue-alone, absorb the nine repro .wsr + two .uid strays at the first commit, sl-0146 hitbox STILL DEFERRED). THE SHA CAVEAT rides in the paste: a fixed/other export is in flight designer-side (the five bare-stage captures) - the accepted zip takes its own delivery id and one sha line amends at handover; the current zip's sha (6BDB0DDD...C157B4CA) stands until then.",
+        "refs": [
+            "sl-0153",
+            "sl-0152",
+            "sl-0144",
+            "sl-0121",
+            "sl-0148",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
     }
   ]
 }

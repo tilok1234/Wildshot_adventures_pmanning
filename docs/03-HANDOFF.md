@@ -79,6 +79,24 @@ corrections 1–9).
 > chrome · bars-left · theme-swappable). Full assessment: THE UI
 > PACKAGE ARRIVES section.
 
+> **TRUTH-UP ~23:24: THE MENU PASS v2 PASTE IS CUT AND LIVE
+> (sl-0154, log 154/0) — the sl-0153 hold discharges.** The
+> designer ruled: ABANDON returns the quest to its giver; the
+> offer's non-accept = ONE "Later" button this pass (the spec's
+> Decline deferred; planning's parse of "we can use either only
+> later" — one-word correction invited). THE DROPPABLE PASTE is
+> **"THE MENU PASS v2"** at the session file's tail (the old
+> batch-#3 block carries a SUPERSEDED marker — do not copy it):
+> intake-first (sha verify · raw vendor + passport · icon-atlas
+> parity, no double-vendor · font license), menu-specs.json as
+> the layout truth, six suggested seams (chrome overlay → the
+> two-tab C menu → offer dialogue → stations → bars-left HUD →
+> surfaces), view-only expected, hitbox still deferred. A
+> FIXED/OTHER EXPORT is in flight designer-side — the accepted
+> zip takes its own delivery id and ONE sha line in the paste
+> amends at handover; drop = zip + paste together into a fresh
+> game session.
+
 ## The fresh session's first moves, in order
 
 1. Read this section → the session file's tail (from "THE

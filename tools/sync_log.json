@@ -2429,6 +2429,21 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0149",
+      "ts": "2026-08-02T18:58:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "HP + MANA BARS TO THE LEFT CORNER (first-touch word #7): the HUD bar stack moves right -> left [T exact placement]; the tracker/minimap stack re-anchors sensibly - rides the menu pass",
+      "detail": "The designer, playing, verbatim: 'also hp and mana bar is in wrong corner it should be in the lleft corner'. THE ASK, view-only: the HP + mana bar stack moves to the LEFT corner (top-left read [T - exact inset/stacking the session's call under Law 6 and the ui-scale-aware inset discipline]). CONSEQUENCE HANDLED SENSIBLY, not inferred: the HUD tracker currently anchors top-right under the bars/minimap stack (sl-0121) - with the bars gone left, the tracker either follows the left stack or stays under the minimap [session's call, designer's hands rule the look]; giver icons / map markers / the loot readout untouched. Rides the menu pass as a small view seam. GATE: two-scale render evidence (the letterbox-aware standard), smoke hash unchanged, pretester green.",
+      "refs": [
+        "sl-0121",
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

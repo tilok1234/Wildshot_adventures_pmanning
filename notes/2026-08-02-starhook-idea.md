@@ -160,6 +160,46 @@ stat-frame row, rods = attack-def data rows. Genuinely NEW code
 is short: the cast/reel verb, the split-screen view, node
 spawning. A week ago none of that was true.
 
+## THE CANONICAL SPEC (the designer's words, 2026-08-02 ~03:55 — THIS IS LAW)
+
+> A rift portal spawns randomly in the overworld like a resource
+> node — same rules as a fishing school, it drifts and can
+> despawn. But instead of water, it's a tear into space. You cast
+> your line into the portal, and the screen splits: your shore on
+> one side, a galaxy field on the other.
+>
+> In there you're not fishing water, you're fishing stars. Astral
+> fish swim through depth bands, and the rift pulls on your line —
+> that's the undertow, the thing you're constantly fighting while
+> you aim and reel. Hook something big enough and it turns into a
+> proper boss fight: it shoots bolt patterns at you, you dodge,
+> you find the vulnerable window, you win by damage or by
+> out-reeling it before your line snaps.
+>
+> The payoff is that it drops gear — rods, lines, charms — that
+> changes how your rifter plays, plus celestial catches that feed
+> a small skill tree. So it's a rare, high-stakes side activity
+> layered on top of normal fishing: same verb, completely
+> different place and pressure.
+
+What this settles: (1) the win is DUAL — damage OR out-reel
+before the line snaps; the UNDERTOW is the constant pressure and
+the reel is core, not garnish. (2) Starhooking LAYERS OVER normal
+water fishing — the base verb exists (schools at water, calm) and
+the rift is its rare violent sibling. (3) Fish are astral fauna
+in DEPTH BANDS; only BIG hooks escalate to the boss fight. (4)
+Nodes drift and despawn (school rules) — the static twelve are
+scaffolding [T]. (5) The destination economy is rifter gear
+(rods/lines/CHARMS) + the celestial small tree — the standing
+sequencing rulings (gear deferred, cosmetics first, tree after
+the class trees) govern WHEN; this spec governs WHAT.
+
+The v1 gap vs canon: the built rift is the boss fight only, in
+Warren brick — the plumbing right, the soul absent. Routed as
+sl-0110 (THE SOUL SEAM) + sl-0111 (water fishing base). Lesson
+recorded: reference media rides feature asks AS LAW, not context
+— the brick-room miss is the precedent.
+
 ## Status: ROUTED INTO S1 (sl-0105 — the designer's word)
 
 sl-0105 OPENED (2026-08-02 ~02:36 local): the designer's word —

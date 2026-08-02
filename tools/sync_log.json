@@ -1835,6 +1835,37 @@
         "notes/evidence/2026-08-02-green-walk-hud-feedback.png"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0110",
+      "ts": "2026-08-02T01:59:58Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE STARHOOK SOUL SEAM (the designer's canonical spec - LAW): undertow + reel + dual win + the galaxy identity; the built kit retires into the big-hook role",
+      "detail": "The designer played the built rift and ruled it missed the soul ('i dont think it understood starhooking at all' - the audit PNG shows a Warren-brick room with the player's own body and a white speck; the plumbing was right, the soul was never asked). THE CANONICAL SPEC, the designer's words verbatim, IS THE LAW OF THIS SEAM: \"A rift portal spawns randomly in the overworld like a resource node - same rules as a fishing school, it drifts and can despawn. But instead of water, it's a tear into space. You cast your line into the portal, and the screen splits: your shore on one side, a galaxy field on the other. In there you're not fishing water, you're fishing stars. Astral fish swim through depth bands, and the rift pulls on your line - that's the undertow, the thing you're constantly fighting while you aim and reel. Hook something big enough and it turns into a proper boss fight: it shoots bolt patterns at you, you dodge, you find the vulnerable window, you win by damage or by out-reeling it before your line snaps. The payoff is that it drops gear - rods, lines, charms - that changes how your rifter plays, plus celestial catches that feed a small skill tree. So it's a rare, high-stakes side activity layered on top of normal fishing: same verb, completely different place and pressure.\" BUILD, within the standing engineering law (one sim, committed instance, never-weaken, Law-4/CVD/cue laws hold in space - no starfield exemption): IDENTITY (view layer): the rift renders as a GALAXY FIELD (starfield, energy edges - never dungeon brick); a PORTAL RING in the rift view with the LINE drawn portal->rifter, alive; the RIFTER SPRITE (the little green fighter) replaces the player body in rift worlds (the sim row already is the rifter - only the picture is wrong); astral FISH SPRITES (the white speck goes); the CAST BEAT world-side (press -> the line arcs to the node -> 'the line sinks into the rift...' in the one grammar -> the screen tears); the CATCH MOMENT (the line yanks it back through the portal + the grammar toast). MECHANICS (sim - the rift proofs re-baseline DELIBERATELY with this seam, the re-baseline law applies): THE UNDERTOW - the rift pulls on the line constantly [T strength]; the thing you fight while you aim and reel. THE REEL - progress toward the catch that the player actively drives; fighting back serves the vulnerable window. DUAL WIN: damage to zero OR reel complete before the line snaps. LOSS: the line snaps (integrity consumed by undertow + the fish's fury [T]) = lose the catch, wake at the shore (shk1loss as shipped - now with the snap earned in-fight, not just on defeat). DEPTH BANDS: astral fish swim in bands [T count] - aiming across them is the fishing. ESCALATION: regular hooks = quick reel-catches (small astral fish - small new rows); BIG hooks (the rarity roll) = the proper boss fight - THE BUILT KIT (rift_catch/rare, the hooked-fish law, all its proofs) RETIRES INTO the big-hook role: reuse, do not discard. ECONOMY UNCHANGED THIS SEAM: gold + the Starlit Cast stand [T]; rods/lines/charms gear + the celestial tree are the RECORDED DESTINATION (the canonical spec), sequenced by the standing rulings (gear deferred wait-and-see, cosmetics first, tree after the class trees) - the designer flips them by deck tap or word, not this seam. Nodes: the static twelve stand [T]; drift/despawn by school rules = its own later small seam. EVIDENCE IS LAW: the designer's prototype frames (planning scratchpad captures; ask planning if needed) + the canonical paragraph override ANY prior compression of starhooking; a windowed evidence PNG of the finished rift is MANDATORY gate material (the brick-room miss is the precedent; the seam-6 sliver catch before it). Feel verdicts (undertow strength, reel pace, band count, the split, all rates) = the designer's Green-days material.",
+      "refs": [
+        "sl-0105",
+        "sl-0108",
+        "notes/2026-08-02-starhook-idea.md",
+        "notes/evidence/2026-08-02-green-walk-hud-feedback.png"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0111",
+      "ts": "2026-08-02T01:59:58Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "WATER FISHING BASE (the canonical spec's other half): the calm sibling - schools at water, same cast verb, reel-only catches",
+      "detail": "The canonical spec's closing law: starhooking is 'a rare, high-stakes side activity layered on top of NORMAL FISHING: same verb, completely different place and pressure.' The base layer therefore exists: WATER FISHING - fishing SCHOOLS at water edges (drift + despawn, the school rules the spec names; counts/cadence [T]), the SAME cast verb (press -> the line arcs -> hook), reel-only catches (no undertow, no split screen, no boss - the calm version that makes the rift violent by contrast), small honest yields (fish->gold [T] + xp [T]) in the one grammar. CORE-48: no automation - the cast and reel are always the player's hands. Shares every mechanism sl-0110 builds (cast beat, line, reel) - the session may order sl-0111 BEFORE sl-0110 with cause (build the calm verb first, add the storm) or after; one seam each either way. Gate: new fixed step or the gather/quest pattern (the session's call), windowed evidence, battery rows for any sim-visible surface, smoke hash proof for view pieces. All rates/feel = Green-days material.",
+      "refs": [
+        "sl-0110",
+        "sl-0104",
+        "notes/2026-08-02-starhook-idea.md"
+      ],
+      "by": "agent"
     }
   ]
 }

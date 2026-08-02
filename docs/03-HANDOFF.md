@@ -29,12 +29,13 @@ pastes still designer-carried + the game paste's remainder) ·
 corrections 1–9).
 
 > **TRUTH-UP 2026-08-02 ~22:20, in place (the fresh seat's boot
-> sweep — ANOTHER account switch: the post-restart session on the
-> old account ran out of usage with NO handoff written).** The
-> board below re-verified TRUE end to end (game 7afe187
-> local+GitHub · log 152/0/sl-0152 · planning synced 1980bf7 ·
-> menu-pass paste still cut, final, UNDROPPED). The dead session's
-> one durable act: the assembler's floating f5476a2 (the
+> sweep — ANOTHER account switch: the post-restart sessions on the
+> old account ran out of usage with NO handoff written; the
+> designer's word: a live ASSEMBLER session was going there as
+> well).** The board below re-verified TRUE end to end (game
+> 7afe187 local+GitHub · log 152/0/sl-0152 · planning synced
+> 1980bf7 · menu-pass paste still cut, final, UNDROPPED). The dead
+> assembler session's one durable act: its floating f5476a2 (the
 > enemy-expansion plan + its own handoff refresh, authored ~15:07,
 > committed-unpushed through the restart) got PUSHED to GitHub
 > main at ~22:11 — the audit §3 assembler paste was audited AT

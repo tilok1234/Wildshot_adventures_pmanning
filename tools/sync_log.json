@@ -2200,6 +2200,141 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0134",
+      "ts": "2026-08-02T20:10:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "C SHEET ON SCREEN (sl-0119 resolved, game 42d8260): screen-anchored + viewport-clamped + errand scroll; three-scale evidence; the onboarding screen carried the same latent bug (rider-fixed)",
+      "detail": "Root cause typed: the zero-size PRESET_CENTER call in _ready pinned the panel's TOP-LEFT at screen center (the camera holds the player there - hence 'player-anchored') and fit_content grew it past the viewport. Fix: explicit center anchors+offsets from a computed size - ui-scale-aware (theme base scale), clamped inside the viewport, errand overflow SCROLLS [T: centered placement, scroll]. RIDER: ui/onboarding_screen.gd had the same zero-size-center artifact - the sibling grow-BOTH pattern applied. Evidence at THREE scales (probe grew desktop screen-crop + ui-scale-2 legs, letterbox-aware honesty guard): reports/character_sheet_audit{,_desktop,_scale2}.png. Parity tests untouched PASS; smoke byte-identical; pretester -SkipBattery ALL GREEN (zero sim bytes; the icon-intake precedent - the next sim seam's full gate covered).",
+      "refs": [
+        "sl-0119",
+        "notes/evidence/2026-08-02-csheet-offscreen-bug.png",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0135",
+      "ts": "2026-08-02T20:10:10Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "QUEST PULL LIVE (sl-0121 resolved, game e0dbe1f): quest.available/quest.turn_in glyphs at giver cells + corner/full map markers + the HUD tracker; C stays the one log; three honest gaps reported",
+      "detail": "View-only, zero sim bytes. (a) Overhead icons: icon-pack glyphs quest.available / quest.turn_in [T - the obvious pair as named] at the AUTHORED giver cells (the interact truth); pure model mirrors quest_step exactly (turn-in wins per cell; available hides at the hands cap). (b) Markers on the dev overlay corner AND fullscreen: active VISIT objective = amber diamond, complete errand's turn-in giver = green ring (shape-first CORE-50), drawn through the player-dot mapping chain. (c) HUD tracker top-right under the bars/minimap [T]: one short line per carried errand (id-slug names, 'DONE - return' cue, cap 5); the bottom-left readout keeps the bare errand count [T]. GAPS FOR PLANNING: (1) KILL/COLLECT quests carry NO objective cell in data (VISIT-only target_cell) - no marker is the honest v1; an authored area cell on QuestDef is planning's data call if wanted. (2) The capital zone-hub giver has NO NPC body (its slot cell IS the settlement spawn, filtered by npc_view) - the icon marks bare ground; a body is a content call. (3) The ONLY minimap is dev-only (lint-pinned) - the designer plays dev so markers reach them; a tester-facing map stays the doc-13 Part II designed round. Lint's MapOverlay site pin grown deliberately with the new probe. Evidence: quest_pull_audit_{waystation_base,capital_base,full_map,capital_desktop}.png; the desktop honesty guard caught its own naive letterbox mapping live (fixed in both probes).",
+      "refs": [
+        "sl-0121",
+        "sl-0119",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0136",
+      "ts": "2026-08-02T20:10:20Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "BOSS SPRITES LIVE (sl-0122 resolved, game 34c9035): King Grubb wears boss:goblin-war-crown; per-def render scale [T 1.25] - Old Tusk bigger on his own sheet; sim/hurtbox untouched",
+      "detail": "View-only, ZERO sim bytes (the ask's stop-condition never fired). Grubb rebinds to the 48px war-crown sheet - import_boss_actor.py run with BOTH ids (the importer rebuilds actors[] from argv; BRK survives); real cast/death rows ride along unplayed (the recorded alias note); goblin:chief stays imported via enemy_goblin's variants. actor_sheet_map grew a view-side `scales` dict folded into the per-(def,variant) cache; enemy_old_tusk = 1.25 [T] - the ~1.3 ask taken to the nearest PIXEL-EVEN step under the integer stretch (24->30 px exact; 1.3 would shimmer). Bars still ride the sim radius (the 48px-skin honesty note stands, visible in evidence). Evidence with a same-family CONTROL boar + the ranger: boss_sprites_audit_{base,desktop}.png. The 13-pack dealing stays doc-23 record as routed.",
+      "refs": [
+        "sl-0122",
+        "sl-0104",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0137",
+      "ts": "2026-08-02T20:10:30Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "NPC DESYNC LIVE (sl-0132 resolved, game a446a30): deterministic per-cell phase offsets + rate wobble; lockstep mechanically dead with a loud regression guard",
+      "detail": "View-only, zero sim bytes. Cause: all 32 stationed sprites played idle-down from progress 0 at identical fps. Fix at the one construction site: set_frame_and_progress from a stable station-cell hash (the arena_builder variant_hash fold - NOT RNG, no stream, same look every boot) + speed_scale wobble 0.9-1.1 [T]; future vendor/banker bodies inherit the loop (and did, same session). Evidence: npc_render_audit_capital.png re-rendered + a mechanical spread readout - 32 sprites / 15 distinct phases / 28 distinct speeds; the probe now EXITS 1 on a lockstep read.",
+      "refs": [
+        "sl-0132",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0138",
+      "ts": "2026-08-02T20:10:40Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "FIRING RATE UP x1.25 EXACT (sl-0120 resolved, game cdee9ea): the ruled hits-band caps the raise at ~1.3x - 1.5x is IMPOSSIBLE under docs/22 as ruled; damage re-derived, all five calculator gates PASS; the designer's lever recorded",
+      "detail": "THE CONSTRAINT FINDING: the routed ~1.5x start is mathematically incompatible with docs/22's hits-to-kill band [3,5] vs the fast_light reference - at 3.0 shots/s the +/-10% DPS band forces bow T1 damage 4 and ceil(24/4)=6 hits fails EVERY zone band; the contract ceiling is ~1.304x. Landed x1.25 - the largest EXACTLY-EVEN step ('increase the same to keep it even' held to the tick): cadences 100/30/50 -> 80/24/40, rates 0.75/2.5/1.5 exact. Damage via THE CALCULATOR, all five gates PASS: slow_heavy [17,24,34,48,67], fast_light [5,7,10,13,18], long_reach [8,11,15,20,28] (T1-T3 discount erodes toward 1.0 by integer granularity - band notes record it). TTK before->after per band (TTD untouched): sword 3.33->2.67s all bands; staff 2.50->2.00 green/dry, 2.67 wet/snow; bow 2.00->2.00 (5 hits @2.5/s). ~25% more shots in the air at held TTK. Travel speed / rods / starhook / E autofire / zero-RNG fire path untouched; enemy armor is 0 on every live def (the per-hit armor subtlety is vacuous today - recorded). THE LEVER IF 1.25 STILL FEELS SLOW: raise trash_hp (24/32/48/64) or widen the hits band - planning-side only, never amended in the game repo. FEEL FLAG STANDS (no agent feel verdicts). Full gate green; goldens untouched (lab weapons); battery byte-identical.",
+      "refs": [
+        "sl-0120",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0139",
+      "ts": "2026-08-02T20:10:50Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE BAG LANDS (sl-0116 + sl-0128 resolved, game 36a70b3): pick up INTO the bag, decide what to equip; the equipment pane with tooltip==grammar test-pinned; SERIAL 23, WSR v3",
+      "detail": "The floor-is-the-inventory doctrine retires on the class lane. Bag = flat (kind,a,b) triples, cap 20 [T], hashed; F picks the nearest drop INTO the bag (auto-equip + upgrades-only filter retired; downgrades collect; gold stays walk-over; BAG_FULL refuses loudly, drop stays). EQUIP IS A DECISION: one recorded bag_op byte (InputFrame 16->17, WSR v2->v3 refuse-loudly; UI queues on the sampler, bots never emit - replay-honest); replaced items return TO the bag (the sl-0112 ground-swap retires); armor/ring de-equip two-way; weapon replace-only [T: bare hands aren't a build]; the Hide bags on pickup (mask = collection truth) and wears on the op. THE PANE (all four sl-0128 terms): worn slots + bag buttons in the C sheet, hover tooltips = THE grammar lines (tooltip==drop_line TEST-PINNED), click equip/de-equip, right-click drops at the feet; mouse sanctioned WITH the safety - gameplay input suppresses under the cursor over the open pane (a click never fires the weapon). DEATH KEEPS THE BAG test-pinned; profile 'bag' by id/kind; legacy lane never bags (battery byte-identical BY CONSTRUCTION). Goldens + the nine pinned-FAIL repros re-recorded v3 deliberately; ledger #16 amended; full gate per gotcha-32 (the one red = the byte-gate listing this seam's own re-baselined evidence, the sl-0123 shape).",
+      "refs": [
+        "sl-0116",
+        "sl-0128",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0140",
+      "ts": "2026-08-02T20:11:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "LOOT BAGS LIVE (sl-0129 resolved, game 29b1e14): a kill drops ONE bag; walk-over panel; click-to-loot-one; [B] loot-all [T - G is the GIF key]; SERIAL 24",
+      "detail": "A kill's whole non-gold roll lands in ONE serialized ground bag at the corpse - CLASS-LANE WORLDS ONLY (legacy worlds keep per-item drops verbatim, the seam-6 doctrine extended; the legacy negative test forced this split honestly). The rng_loot DRAW SEQUENCE is byte-untouched - only the landing moved. Gold stays its own walk-over drop. WALK-OVER PANEL (no press): rows in the one grammar, click a row to loot that item, [B] loot-all [T - the routed G suggestion collided with the ratified GIF key; remappable action loot_all]; both are recorded bag_op codes; empty bags despawn; bag TTL = 2x drop TTL [T]; a full player bag leaves leftovers (BAG_FULL; nothing destroyed silently); duplicate uniques stay and expire (mask = pickup truth); LOOT_PICKED per looted item so COLLECT quests keep counting. Same-seed bag determinism pinned. Evidence: loot_bag_audit_{base,desktop}.png (sack + panel + separate gold). Full gate ALL GREEN 13.2 min, battery byte-identical.",
+      "refs": [
+        "sl-0129",
+        "sl-0116",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0141",
+      "ts": "2026-08-02T20:11:10Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE BANK LIVE (sl-0130 resolved, game 4be7e75): walk-up stash at the pinned keeper station; two-way recorded ops; death never touches it; SERIAL 25",
+      "detail": "STATION [T call]: a walk-up panel at the stash keeper's PINNED body (112.5,182.5) - the walk-over language rather than an F chest; the cell chosen CLEAR of the quest-giver radius because the pack's own giver.system.banker slot sits ON the spawn cell and would collide with the zone_hub giver (recorded for content routing). ScenarioDef.bank_cell routes it (ZERO = none; every proof world). Deposit/withdraw = recorded ops (52+bag-slot / 72+bank-slot), legal only within radius 1.2 SIM-SIDE regardless of the view; BANK_CAP 12 [T] distinct from the bag's 20; capacities refuse loudly both ways (new BANK_FULL event; nothing half-happens); DEATH NEVER TOUCHES THE BANK (no death-path writes - test-pinned; the gold slice stays the one death cost); account-wide per character (profile 'bank' rides the by-id encoder). Panel: bank rows (click withdraw) + bag rows (click deposit), tooltips in the one grammar. Grammar note recorded: the one-decimal rate line shows 0.75/s as '0.8/s' (display rounding). Evidence: bank_panel_audit_{base,desktop}.png. Full gate ALL GREEN 13.1 min.",
+      "refs": [
+        "sl-0130",
+        "sl-0116",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0142",
+      "ts": "2026-08-02T20:11:20Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "VENDORS v1 LIVE (sl-0131 resolved, game 912049f): sell anything at 50 pct, buy from fixed catalogs at 200 pct [T]; two capital vendors on pinned bodies; NO serial bump",
+      "detail": "The doc-23 vendor deferral superseded as routed. 'vendors' balance_frame block (the starhook new-top-level-key precedent; loader tolerant, calculator ignores): sell_fraction 50 pct, buy_multiplier 200 pct, values weapon/armor by tier [10,16,26,40,64], rings by items-tier [12,20,32,50,80], ability 20, unique 100 - every number [T], integer math throughout the one serialized gold field. Fixed CATALOG with infinite quantity v1 [T - 'small FIXED stock' read as catalog; finite counts = a future call]; stocks: general (T1 armor / haste ring / T2 weapon) + trader (T2 armor / reach ring) - equipment only, the no-consumables flag honored. STATIONS: capital-general-merchant (106.5,182.5) + settlement-trader (106.5,180.5) bodies pinned west of spawn; nearest-vendor resolution; cross-system separations >= 2.83 tiles. SELL/BUY = recorded ops (84+bag-slot / 104+stock-row); buy refuses poor AND full-bag with gold UNTOUCHED (bag_add-first order). NO SERIAL BUMP: stock is setup config; trades mutate gold+bag (already serialized) - goldens untouched, battery byte-identical. Panel with prices in the grammar + gold header. Evidence: vendor_panel_audit_{base,desktop}.png. Fish-currency explicitly FUTURE, as routed. THE WHOLE NINE-SEAM GREEN-DAYS PASS IS LANDED with this entry - every number [T]; the designer's Green days own every feel verdict.",
+      "refs": [
+        "sl-0131",
+        "sl-0116",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "notes/sessions/2026-08-02-green-days-batches.md"
+      ],
+      "by": "agent"
     }
   ]
 }

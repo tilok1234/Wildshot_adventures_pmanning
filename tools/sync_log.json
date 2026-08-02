@@ -2070,6 +2070,21 @@
         "notes/sessions/2026-08-02-starhook-v2.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0125",
+      "ts": "2026-08-02T13:19:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "SPLIT RATIO GOES [T]: the world/galaxy split becomes a live-flippable view constant (1/2 as built vs 2/3-galaxy, the designer's float) - view-only, arena cells identical; four-capture evidence discharges the twins debt",
+      "detail": "The designer (~15:55, mid refinement window): 'also maybe we should consider making 2/3s of the screen galaxy view instead of 1/2?' - a float, not a ruling; the INDEX's prototype-ruled 50/50 (item 1) becomes the DEFAULT of a [T] ratio pending the designer's in-play pick. THE ASK, view-only, zero sim bytes: the split ratio becomes a live view constant - 1/2 (as built) and 2/3-galaxy selectable (options row or dev toggle, session's call); THE ARENA CELLS STAY IDENTICAL - only the render scale changes so the galaxy interior fills its pane 1:1 at either ratio (Law 1 by construction both ways); the world pane keeps the line + the player body + the portal readable at 1/3 width. The designer flips it in play and rules; the INDEX amends only when they pick (no law churn on a maybe). GATE: windowed render evidence at TWO scales PER RATIO (four distinct captures - this also discharges the evidence-twins owed item with REAL distinct files) + smoke hash unchanged. Planning's honest read attached in-chat: the fight deserves the room (the galaxy side is the sim; the world pane is presentation - the capture, the line, the fiction), so 2/3 is plausible; the caution is the signature image - the line crossing BOTH panes needs the world side to survive, and ~1/3 is the floor before it cramps.",
+      "refs": [
+        "sl-0123",
+        "sl-0115",
+        "notes/reference/starhook-proto2/INDEX.md"
+      ],
+      "by": "agent"
     }
   ]
 }

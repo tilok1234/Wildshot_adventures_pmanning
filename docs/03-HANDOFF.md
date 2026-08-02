@@ -14,7 +14,132 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
+# CURRENT HANDOFF — 2026-08-02 late evening (PC-RESTART SEAM · THE MENU PASS ROUTED AND WAITING · NINE-SEAM PASS LANDED 9/9 · SERIAL 25)
+
+**This section supersedes everything below it.** Written at a
+PC-restart seam: the designer rebooted the machine, so every
+session (planning + game) and the sweep watcher died together —
+cleanly, everything committed and pushed at both ends. Full
+story: `notes/sessions/2026-08-02-slice-s1.md` (the whole day —
+its tail holds the per-seam sweeps, the first-touch words, and
+THE FINAL MENU-PASS PASTE) · `notes/2026-08-02-docs-audit.md`
+(the audit: §2 planning items ALL DONE; §3 = five per-seat
+pastes still designer-carried + the game paste's remainder) ·
+`notes/reference/starhook-proto2/INDEX.md` (starhook law,
+corrections 1–9).
+
+## The fresh session's first moves, in order
+
+1. Read this section → the session file's tail (from "THE
+   NINE-SEAM PASS — COMPLETE" onward — the first-touch words
+   #1–#10 and the paste live there).
+2. Verify the board yourself: planning tree clean + synced; game
+   main pushed at **7afe187** (the old game session's own close:
+   docs sweep + hours bracket); sync log **152 entries / 0
+   dupes, tail sl-0152** — re-run the dupes check.
+3. **ARM THE SWEEP WATCHER** (it died with the restart) —
+   persistent Monitor, events on change only: game HEAD moves ·
+   this session-note file · `tools/sync_log.json` · a ~6-min
+   GitHub check on game main AND planning origin. Expect
+   self-noise from your own edits/pushes; verify only when in
+   doubt.
+4. **THE MENU PASS IS ROUTED AND WAITING** — the paste bundle is
+   CUT AND FINAL at the session file's tail: sl-0143/0144/0145/
+   0147/0149 + the shape amendments 0150/0151/0152. THE FINAL
+   SHAPE: the C menu = ONE menu, TWO TABS (CHARACTER = inventory
+   + equipment + stats on one screen · QUEST LOG = the
+   proper-info log), C opens it, a second hotkey [T, suggest L]
+   deep-links into the log tab; quest DIALOGUE with explicit
+   ACCEPT (sl-0144); stations open on F INTERACT — bank AND
+   vendors (sl-0145/0147, loot bags stay walk-over by the
+   designer's own word); every menu a close button + ESC-closes-
+   menu-first; HP/mana bars to the LEFT corner (sl-0149); ALL
+   THEME-SWAPPABLE (the designer authors cool UI art EXTERNALLY
+   once the menus land — sl-0147). **sl-0146 (hitbox ≥half) is
+   EXPLICITLY DEFERRED — do not build it in the menu pass
+   (sl-0148).** The designer drops the paste into a game
+   session; planning sweeps per seam.
+5. Between seams: nothing owed — the audit §2 list is CLEAR.
+   Watch for the designer's play findings and route them (the
+   live-batch rhythm: verbatim → fresh id → paste amendment →
+   commit each step).
+
+## THE BOARD
+
+**THE NINE-SEAM GREEN-DAYS PASS LANDED NINE FOR NINE in one
+evening (17:35–19:49) and is RESOLVED AT BOTH ENDS** — view
+family (0119 C-sheet fix · 0121 quest pull · 0122 boss sprites/
+war-crown · 0132 NPC desync), the sim pass (0120 firing rate
+x1.25 EXACT — the calculator PROVED ~1.5x impossible under the
+ruled hits band [3,5], ceiling ~1.304x; THE DESIGNER'S LEVER if
+faster is wanted: raise trash_hp or widen the band, planning-
+side first), and the inventory-economy family (0116+0128 THE BAG
+· 0129 loot bags · 0130 the bank · 0131 vendors v1). SERIAL
+**25** / WSR **v3** / next bump 26; three SERIAL bumps each
+truthed in the lock SAME-SWEEP (the sl-0133 rule held at
+23/24/25). Game main: 912049f the pass → 3ff7c6b the close →
+**7afe187** the game session's own docs sweep (README + HANDOFF
+truthed — the audit game-paste's top share organically done; its
+REMAINDER stays worth delivering: AUDIO_CUE_MAP telegraph +
+walk-over lines, CLAUDE.md GIF F9→G, TECH_DEBT #16 tail,
+PACK_INTAKE since-line). Nine resolutions sl-0134–0142 written
+hands-free by the game seat.
+
+**THE FIRST-TOUCH WORDS (#1–#10) are all routed** — the menu
+pass above plus: the recorded first-touch datum (the bag pane
+went UNRECOGNIZED as an inventory — the icon-grid look is future
+material for the designer's external art), and THE LONG-
+PLAYGROUND LEAN (verbatim in the session file: after all slice
+chapters, stay and refine — a directional lean, NOT yet a
+ruling; firms → amends doc 23).
+
+**GAME-SIDE LEFTOVERS (flagged three times, not defects):** nine
+repro_*.wsr files float modified-uncommitted + two .uid strays
+(bank_panel/vendor_panel) — the next game seam should absorb
+them.
+
+**DESIGNER-OWED:** drop the menu paste into a game session ·
+play more Green (the x1.25 feel word · the drag-free test cast ·
+the split flip-and-pick — all still open) · the external UI art
+pack AFTER the menus land · the assembler's cut-off intake
+sentence ("Families that may wor…") · the five other per-seat
+pastes (audit §3) · the bait-fighter concept + outlines question
++ fresh-hands cards + deck export (unchanged from the morning).
+
+**PARKED / FUTURE:** unchanged — fish-offs · water fishing
+sl-0111 · node drift/despawn · the furnished-world round · the
+Puppeteer directed round (staged, before S4 Snow) · vendors
+beyond v1 / fish-currency / mounts · **sl-0146 the hitbox (queued,
+deferred by word)** · the icon-grid inventory look.
+
+## LAWS THIS ERA ADDED (unchanged + two staged amendments)
+
+All the morning's laws stand (no coined names · reference media
+rides as law · full gate before commit · re-baseline discipline
+· hands before cuts · a plan is not a delivery · the key map:
+F interact · E autofire · C sheet+log · O/Esc pause · N dev map
+· R rod swap · J replay-save · B loot-all · G GIF). **STAGED,
+amend only when the menu pass LANDS:** the key-map line gains
+the quest-log hotkey + C-becomes-the-two-tab-menu; O/Esc gains
+the menu-first Esc priority; stations = F-interact-always.
+
+## THE SEAT'S CONVENTIONS (one addition)
+
+Unchanged from the morning (sweep per seam · verbatim designer
+words, typos preserved · every tunable [T] · no agent feel
+verdicts · fresh ids for amendments · tail-append + count/dupes
+before every commit) **plus the two-writers lesson: this
+checkout is SHARED — other seats commit here (c23b7b6, 214bf23
+tonight). Commit EXPLICIT PATHS ONLY, never add -A; check the
+tip + tree before every commit; expect watcher self-noise from
+your own writes.** This machine profile carries the planning-
+seat memory files — they auto-recall in a fresh chat.
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
+
+**Superseded by the section above; kept as history.**
 
 > **TRUTH-UP ~20:00, in place (the full CURRENT rewrite rides the
 > session close): THE NINE-SEAM PASS LANDED NINE FOR NINE and is
@@ -190,7 +315,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# PREVIOUS HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
+# PRIOR HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
 
 **Superseded by the section above; kept as history.** The full story:
 `notes/sessions/2026-08-02-slice-s1.md` (the S1 overnight + the
@@ -263,7 +388,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# PRIOR HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
+# EARLIER HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
 
 **Superseded by the section above; kept as history.** The full story is
 `notes/sessions/2026-07-31.md` (the fresh-account marathon; its tail

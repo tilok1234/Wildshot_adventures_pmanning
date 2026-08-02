@@ -2186,6 +2186,20 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0133",
+      "ts": "2026-08-02T15:45:00Z",
+      "type": "incident",
+      "repo": "planning",
+      "title": "LOCK MISMATCH (found + fixed same sweep): the serialization entry sat at SERIAL 13/Loop-v1 through six re-baselines (reality SERIAL 22) - the lock's own mismatch-is-an-incident rule applied to itself",
+      "detail": "Found by the 2026-08-02 seven-repo staleness audit (five parallel read-only auditors vs a verified truth snapshot). The lock's serialization entry still read 'SERIAL 13, goldens current (Loop v1, sl-0033)' while the game ran SERIAL 22 - six deliberate re-baselines (14 fit rule, 15-17 S0, 18-21 S1/interact, 22 starhook v2) never touched the entry. Also truthed in the same sweep: icons + NPC pins said 'unwired by ruling' (wired since S0 seam 4), the world_filler content pin said 'REFERENCE ONLY - no importer' (importer live since S0), the b77 pin still framed the navigation walk as pending (accepted sl-0097), the boss-pack artifact string still said 'review-only, unwired' (wiring opened sl-0122). RESOLVED in place; a maintenance rule now lives in the serialization entry itself: every deliberate SERIAL bump updates the entry in the same planning sweep. The audit's cross-repo findings route as per-seat doc-fix pastes (game/assembler/tileforge/worldforge/world_filler/resonance) - see the session file.",
+      "refs": [
+        "tools/ecosystem.lock.json",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

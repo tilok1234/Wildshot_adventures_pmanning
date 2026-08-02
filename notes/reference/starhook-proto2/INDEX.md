@@ -39,7 +39,7 @@ refining happens on the real thing, in Green hands, not on paper.
 3. **Line stability = HP = 60** — one resource: bullet hits,
    passive drain 0.4/s (the session clock), deep-edge strain
    +2.2/s; 0 = snap, dive lost.
-4. ~~Kill THEN reel~~ **SUPERSEDED by correction #8: THE REEL IS
+4. ~~Kill THEN reel~~ **SUPERSEDED by correction #7: THE REEL IS
    CUT.** Win = kill. Boss to 0 → the loot from the starhooking
    drops/banks → the dive is over. No reeling phase exists; the
    prototype's reel state machine and its tuning rows
@@ -60,10 +60,16 @@ refining happens on the real thing, in Green hands, not on paper.
 ## Still-live canonical items the prototype didn't cover ([T] later)
 
 - Node drift/despawn (school rules) — static nodes stand.
-- Rifter gear (rods/lines/charms) + the celestial tree — the
-  recorded destination; the standing sequencing rulings govern.
-- Normal water fishing (sl-0111) — releases after the soul seam,
-  reusing its cast/reel machinery.
+- ~~Rifter gear (rods/lines/charms) + the celestial tree — the
+  recorded destination; the standing sequencing rulings govern.~~
+  **SUPERSEDED by correction #5: gear is IN — rods + very simple
+  equipment DROP from starhook bosses; the GEAR SEAM routes after
+  the inventory family (doc 23).**
+- ~~Normal water fishing (sl-0111) — releases after the soul seam,
+  reusing its cast/reel machinery.~~ **SUPERSEDED by corrections
+  #3 + #7: water fishing is PARKED (starhooking has nothing to do
+  with water; revive only on the designer's say) and no reel
+  machinery exists to reuse.**
 
 ## Merge notes for the seam (planning's flags)
 
@@ -169,7 +175,7 @@ refining happens on the real thing, in Green hands, not on paper.
    felt by THE LINE ONLY: the strain clock (passive drain), the
    deep-edge strip, bullet hits on the line, and the line's
    visual tension. Supersedes the merge-note "constant pull"
-   entity system below (the ×1.0/×0.3/×0.15 multipliers do not
+   entity system above (the ×1.0/×0.3/×0.15 multipliers do not
    survive) and the prototype's arena drag. The plain-words rule
    stands: what remains is still just "the rift pulls on the
    line."

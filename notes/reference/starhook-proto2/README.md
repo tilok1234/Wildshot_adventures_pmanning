@@ -1,5 +1,13 @@
 # STARHOOK — prototype
 
+> **PRESERVED VERBATIM — the prototype's own doc. READ INDEX.md
+> FIRST:** the INDEX's corrections block is LAW over everything in
+> this file. Known superseded content below: the retired word
+> "undertow" (never use it anywhere), the reel/"HOOKED" win (the
+> reel is CUT — win = the kill), the entity drag (cut — the pull
+> lives in the line only), and the prototype's reversed keys
+> (game truth: F = cast/interact, E = autofire).
+
 A playable prototype of **starhooking** for Wildshot Adventures: fishing rifts that spawn anywhere on land — cast your line into one and the screen splits 50/50, your body stays in the world while your star-projected self fights the catch in another galaxy.
 
 **Play:** open `Starhook Prototype.dc.html` in a browser. Everything is client-side; progress saves to localStorage.

@@ -6,8 +6,12 @@
 BUILT the set — `wildshot-icons-proto` 0.1.0, 470 glyphs, all
 16×16, T1–T5 complete, CORE-50 proof sheets shipped in-pack —
 assessed PASS against §3–§6 of this plan (sl-0083), intaken and
-gate-guarded game-side (sl-0085), UNWIRED until the Loop
-acceptance run. The "Tier 0 could ship as uikit v2" path in §7 is
+gate-guarded game-side (sl-0085), and WIRED since S0 seam 4
+(2026-08-01: the atlas lives in the HUD + creation screen; the
+Loop-acceptance hold dissolved with sl-0098; quest icons extend
+use via sl-0121). Known dormant glyph: item.unique.undertow
+carries a retired word — never bound, tripwired game-side,
+purges at the next icons release. The "Tier 0 could ship as uikit v2" path in §7 is
 SUPERSEDED by the real pack; §3's table now serves as the coverage
 checklist it was assessed against. Watch-items for wiring: skill-
 node readability in the real tree UI; a deutan-sheet glance.

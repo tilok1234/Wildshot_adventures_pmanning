@@ -14,9 +14,162 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-02 (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
+# CURRENT HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
 
-**This section supersedes everything below it.** The full story:
+**This section supersedes everything below it.** Written at an
+account switch: the designer ran out of Fable 5 usage while a game
+pass was in flight, so the fresh planning seat inherits a LIVE
+board. Full story: `notes/sessions/2026-08-02-slice-s1.md` (the
+whole day, chronological) · `notes/reference/starhook-proto2/
+INDEX.md` (starhook LAW — corrections 1–9 override everything
+older) · `notes/2026-08-02-docs-audit.md` (today's seven-repo
+staleness audit: what planning fixed, what it still owes, and six
+ready-to-copy per-seat pastes).
+
+## The fresh session's first moves, in order
+
+1. Read this section → the session file's tail (from "GREEN-DAYS
+   PAPER BATCH #2" onward) → the starhook INDEX.
+2. Verify the board yourself: planning tree clean + synced; game
+   main pushed at **38b7d8e** with a session LIVE (its working
+   tree had the view family in flight at 16:50 — expect new
+   commits); sync log **133 entries / 0 dupes, tail sl-0133** —
+   re-run the dupes check.
+3. **ARM THE SWEEP WATCHER** — persistent Monitor, events on
+   change only: game HEAD moves · the S1 session-note file ·
+   `tools/sync_log.json` · a ~6-min GitHub check (`git ls-remote
+   origin main` vs last seen). A second one-shot watch on the
+   assembler's GitHub main is worth arming if the designer says a
+   release is coming.
+4. **SWEEP EACH SEAM AS IT LANDS** (the nine-seam pass, below) —
+   verify local + GitHub → annotate the session note → commit →
+   push → plain-words report to the designer.
+5. Between seams, work the audit's STILL-OWED list
+   (`notes/2026-08-02-docs-audit.md` §2) — truth-up work, never
+   blocking.
+
+## THE BOARD
+
+**STARHOOK v2 IS LIVE AND REFINED** (game 0a71a6b..3f34a19, all
+pushed, all resolved sl-0115/0123/0125): land-only rifts, instant
+F-cast, the bait fighter is the star, the living line INTO the
+world rift and OUT of the galaxy rift, LINE = HP with THREE hard
+lives, **WIN = THE KILL (the reel is CUT)**, three biomes, four
+rods (R swaps; replay-save moved R→**J**), per-species fish,
+ambient rift spawns, **THE DRAG IS CUT** (arena = normal combat;
+the pull lives in the LINE only — `rift_pull.*` retired as
+`rift_line.*`), and the split ratio is a live-flippable **options
+row** ("rift split": half ↔ two-thirds galaxy). SERIAL 22 ·
+battery 43 rows / 83 runs · 30 fixed gates. The drag cut PROVED
+itself in the numbers: the tightest rift dodge margin relaxed
+0.079 → 0.121.
+
+**THE NINE-SEAM PASS IS RUNNING** (the designer's big drop before
+a dog walk; a game session opened 16:44 and had the view family
+in flight). Land order as routed, each its own sealed seam:
+sl-0119 C-sheet screen-anchor fix · sl-0121 quest-pull kit (giver
+icons, map markers, HUD tracker; C stays the one log) · sl-0122
+boss sprites (Grubb → boss:goblin-war-crown; per-def render scale
+[T]; Old Tusk stays the scarred boar, bigger) · sl-0132 NPC
+animation desync (deterministic id-hash phase offset, no new RNG)
+· **sl-0120 the firing-rate pass** (one uniform multiplier for
+all three classes ~1.5× [T]; per-hit damage RE-DERIVED VIA THE
+CALCULATOR — flat−armor's 20% floor makes naive dmg/rate wrong vs
+armored rows) · then **THE INVENTORY FAMILY**: sl-0116+0128 the
+bag core (real inventory, hover tooltips, the C-menu EQUIPMENT
+PANE with two-way equip/de-equip; floor-is-the-inventory RETIRED;
+mouse sanctioned on the C surfaces) · sl-0129 loot bags (one
+ground bag per kill, walk-over panel, loot-all hotkey [T] +
+click-individual; supersedes one-per-press for ENEMY drops only)
+· sl-0130 the bank (small capital stash, death never touches it)
+· sl-0131 vendors v1 (sell-anything gold sink + small fixed stock
+[T]; **the doc-23 vendor deferral is NARROWED by the designer's
+word**; no consumables system exists, so stock is equipment).
+
+**NEXT AFTER THE FAMILY:** the GEAR SEAM (rods + very simple
+equipment DROP from starhook bosses, level-gated) — deliberately
+re-sequenced to AFTER the inventory family, because drops need a
+bag to land in. Then simple class trees v1.
+
+**THE WAY-FORWARD RULING (today, designer-agreed — the era's
+frame):** refinement splits in two. STRUCTURAL work (missing
+systems, wrong shapes) lands NOW in Green, because every fix here
+is built correctly three more times for free. NUMBER TUNING and
+polish defer to ONE whole-game pass after S4, when the 1–30 curve
+exists end to end. **The S2 gate bar: Green days end at
+SYSTEMS-COMPLETE, not Green-perfect** — the designer can play
+Green start to finish and never hit "this doesn't exist yet."
+
+**THE SEVEN-REPO DOCS AUDIT IS DONE** (five parallel read-only
+auditors vs a verified truth snapshot). Planning fixed its own
+worst items — the **lock's SERIAL sat at 13 through six
+re-baselines** (incident sl-0133, truthed to 22 with a standing
+maintenance rule), doc 16 restructured to ownership+authority
+only (it never restates status or pins again), the Green-days
+agenda's "the feature's real name" line (a live collision with
+the no-coined-names law), doc 20/21/22/23 stamps, the starhook
+INDEX's renumber fallout, the prototype README's banner. Six
+per-seat pastes for the OTHER repos are cut and waiting in
+`notes/2026-08-02-docs-audit.md` §3 — hand them over when each
+seat next opens. The planning-side leftovers are §2 of that file.
+
+**DESIGNER-OWED:** the first real test cast into the drag-free
+rift · **flip the split in play and pick** (the INDEX amends item
+#1 on the pick, not before) · the assembler's cut-off intake
+sentence ("Families that may wor…") · the bait-fighter concept
+exploration (standalone brief in the session file) · the outlines
+question (planning's lean: hostiles outlined, NPCs lighter/none,
+tested in-game at real scale; ship outlines + the 80-mob
+expansion as ONE release → ONE intake) · fresh-hands feel cards ·
+the next deck export (card evl8ekrt = boss sheets, answered
+in-chat by sl-0122; a1zgppav = the loop bar, close-with-note).
+
+**PARKED / FUTURE (do not build toward):** fish-offs (a player
+and an NPC cast into the same portal, 1v1 — the designer's idea,
+"some way into the future IF we do it") · water fishing sl-0111 ·
+node drift/despawn · the furnished-world round · the Puppeteer
+directed round is STAGED but NOT FIRED (world_filler; before S4
+Snow) · vendors beyond v1, fish-currency pricing, mounts.
+
+## LAWS THIS ERA ADDED
+
+Reference media rides feature asks AS LAW (the brick-room
+precedent) · **parts of features get NO coined names** — plain
+descriptions only, and a retired word is purged with no
+replacement coinage ("undertow" is retired everywhere; one
+dormant icon-pack glyph remains, never bound, tripwired
+game-side, purges at the next icons release) · a re-baseline is
+not done until the FULL GATE runs on it (and the gate runs
+BEFORE the commit) · no chaser phase in a one-room arena · packs
+beyond aggro of the previous room's fight zone · turn-in wins
+over accept · the interact verb is general-purpose (**F**
+interact · **E** autofire · **C** sheet+log · **O/Esc** the one
+pause menu · **N** dev map · **R** rod swap · **J** replay-save)
+· hands before cuts (the designer tests a landed seam before its
+refinement paste drops) · a plan is not a delivery (no sync-log
+entry until something ships).
+
+## THE SEAT'S CONVENTIONS
+
+Sweep per seam (verify commits + GitHub + dupes → annotate the
+session note → commit → push → plain-words report) · pastes
+labeled "→ GAME repo" etc., destination named LOUDLY and FIRST ·
+designer words recorded verbatim, typos preserved · every tunable
+[T] · **NO feel verdicts from agents** — the designer's hands
+rule · ids are for the record, not the designer (plain names
+first) · one focused thing at a time, honest pushback, concrete
+recommendations · sync-log ids are one-per-entry (amendments take
+FRESH ids — planning slipped on this today and caught it
+pre-commit) · append at the FILE TAIL only, validate count+dupes
+before every commit. This machine profile carries the
+planning-seat memory files (project map · the designer ·
+conventions) — they auto-recall in a fresh chat.
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
+
+**Superseded by the section above; kept as history.** The full story:
 `notes/sessions/2026-08-02-slice-s1.md` (the S1 overnight + the
 Green-days morning) and `notes/reference/starhook-proto2/INDEX.md`
 (the starhook law — its corrections block is the designer's word
@@ -87,7 +240,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# PREVIOUS HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
+# PRIOR HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
 
 **Superseded by the section above; kept as history.** The full story is
 `notes/sessions/2026-07-31.md` (the fresh-account marathon; its tail

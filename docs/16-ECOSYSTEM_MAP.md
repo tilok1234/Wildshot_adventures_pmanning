@@ -6,9 +6,12 @@ never do, and where its plan lives. If you (human or agent) are working in
 one of these repos and have not read its "authority docs" row below, stop
 and read them.
 
-Once the designer approves this map, a short pointer block goes at the TOP
-of each repo's agent-facing doc (CLAUDE.md / AGENTS.md / HANDOFF.md) so no
-session can miss it. Until then this file is the draft under review.
+The map is ACCEPTED and pointer blocks live at the TOP of every repo's
+agent-facing doc (CLAUDE.md / AGENTS.md / HANDOFF.md) so no session can
+miss it. STRUCTURAL RULE (learned twice, sl-0003 + the 2026-08-02 audit):
+this map states OWNERSHIP, AUTHORITY DOCS, and CROSS-REPO RULES only —
+it never restates a repo's implementation status or pins; those live in
+each repo's own HANDOFF and in `tools/ecosystem.lock.json`.
 
 ---
 
@@ -21,7 +24,7 @@ tileforge ──► WorldForge ──► world_filler ──► Wildshot-Adventu
               8-bit-sprite-assembler ───────────────┘        │
                    (actor packs)                             │
               music_soundeffects (Resonance Forge) ──────────┘
-                   (music/SFX — future importer, Phase 6)
+                   (music/SFX — v1 pack delivered + consumed)
 
  Wildshot_adventures_pmanning (planning repo) = DESIGN AUTHORITY over all of it
 ```
@@ -39,17 +42,15 @@ asks, never as local patches.
 - **Owns:** all design decisions, the build plan, the decision register,
   session records. Conflicts anywhere in the ecosystem resolve HERE, never
   in an implementing repo.
-- **Authority docs:** `docs/12-PHASE_A_LAB_BUILD_PLAN.md` (build plan),
-  `docs/07-PROTOTYPE_SPEC.md` (SPEC-A), `docs/08-DECISION_REGISTER.md`,
-  `docs/15-WORLDFORGE_INTEGRATION_PLAN.md`, `notes/sessions/` (daily truth).
-- **State (2026-07-30):** M0–M7 closed; M8 engineering exhausted —
-  remaining M8 is designer-side (taste answers, copy pass, laptop pass).
-  **Gate 1 REWRITTEN 2026-07-30** (session addendum 9 + the gate1 deck
-  payload): stranger recruitment + tester-channel push RETIRED; the
-  Loop milestone (unguided run — loot, stakes, retry pull; designer-fun
-  daily for a week) precedes 2–3 warm watched first-touches. Critical
-  path is the Loop + designer items.
-- **Doc debt:** cleared 2026-07-29 (03-HANDOFF + INTERVIEW_STATE truthed).
+- **Authority docs:** `docs/03-HANDOFF.md` CURRENT section (the live
+  boot), `docs/08-DECISION_REGISTER.md`, `docs/23-SLICE_BUILD_PLAN.md`
+  (the running milestone), `docs/22-STAT_SYSTEM.md`, `docs/19` + `docs/20`,
+  `notes/sessions/` (daily truth). `docs/12` = the retired lab plan
+  (supersession-bannered history); `docs/07` = SPEC-A record.
+- **State:** LIVE IN `docs/03-HANDOFF.md`'s CURRENT section — this map
+  does not restate planning status (the repo-7 lesson, applied at the
+  2026-08-02 audit: this row was still M8/Loop-era while the Slice v0.1
+  era ran).
 
 ### 2. Wildshot-Adventures — the game (Godot 4.6.2, pinned)
 - **Owns:** implementation only. Never reinterprets design.
@@ -57,9 +58,11 @@ asks, never as local patches.
   digest, no-RNG rule, determinism scope), `notes/DESIGNER_QUEUE.md`,
   `notes/TECH_DEBT_LEDGER.md`, `notes/HANDOFF.md`, `notes/PACK_INTAKE_RUNBOOK.md`.
 - **Consumes:** tileforge (in-project importer), WorldForge packs
-  (`addons/worldforge_importer`, packFormat 1), assembler actor pack
-  (`assets/assembler-pack`, docs/14 contract), projectile sphere pack,
-  placeholder audio. world_filler content packs: NOT yet consumed.
+  (`addons/worldforge_importer`), assembler packs (enemy catalog +
+  NPC slice + boss pack, docs/14 contract), the icons proto pack,
+  projectile sphere pack, resonance_forge audio v1 (via the game's
+  own cue map), and world_filler content packs (the importer is LIVE
+  since S0). Live pin truth: `tools/ecosystem.lock.json` only.
 - **Hard rules for any session:** no RNG under `sim/`; every pack intake
   runs the battery; gates read exit codes; scope tripwire → ledger.
 
@@ -67,49 +70,34 @@ asks, never as local patches.
 - **Owns:** 32×32 tile families, themed packages, Godot/Tiled exports.
 - **Authority docs:** `HANDOFF.md` (current truth), `ROADMAP.md` (complete —
   all waves closed), `DOCS.md`.
-- **State:** feature-complete, consumption phase. 31,431 tiles/theme,
-  0 fail/0 warn. Gates run LOCALLY only (private repo, no CI).
-- **Pins/versions:** clean packages at `ae1eecb`; **WorldForge deliberately
-  still pins the older `a5baf52` forest package** (locks by sourceCommit).
-- **Open:** REF3 v2 promotion is user-gated (and blocks the sprite-forge
-  start); active interface-improvement thread; 4 recorded upstream asks
-  from WorldForge (temple art, roof-overhang field, ruined-road band, dock
-  pass-cells).
+- **State:** LIVE IN THE REPO'S OWN HANDOFF (road arc closed; art-sidecar
+  consumption era). Gates run LOCALLY only (private repo, no CI). Pins:
+  the lock only. Standing designer rule: NO diagonal roads (sl-0059).
+- **Open:** REF3 v2 promotion (user-gated) · sl-0005 partial (gate art +
+  hedge; the road-band third satisfied).
 
 ### 4. WorldForge — world generator
 - **Owns:** deterministic world planning → engine-neutral artifact →
   game packs (packFormat 1) with reachability gate.
 - **Authority docs:** `HANDOFF.md` (account-switch #6, includes the merge
   runbook §1a), `AGENTS.md`, `docs/GAME_INTEGRATION_PLAN.md`.
-- **State (truthed up 2026-07-29):** behaviors 49–50 MERGED (`ae924e3`,
-  full §1a duty executed: 226 tests green, goldens drift-free, both
-  consumers verified); behavior 56, artifact format 8. The dusk game
-  pack was RE-EXPORTED under the v50 identity (flood unchanged 34556,
-  byte-stable double export) — **the game-side intake of that
-  re-export is the remaining step** (Godot-gated, in the armed queue).
-- **Open:** the-eight-holds round-3 verdict, slit-seal ruling, moss-as-solid
-  semantic ruling (designer), ferry routing decided-but-unbuilt.
+- **State:** LIVE IN THE REPO'S OWN HANDOFF (b77 = the current world,
+  game-intaken + walk-accepted; b78 free; scenery loop paused at eleven
+  ratified compositions). Pins: the lock only.
+- **Open:** see the repo HANDOFF; planning-side, the furnished-world
+  round is PARKED (doc 23) and fires only on the designer's word.
 
 ### 5. world_filler — world director / content compiler (newest)
 - **Owns:** content decisions WorldForge refuses to make (bosses, spawns,
   territories, danger bands) → content pack format 1.
 - **Authority docs:** `HANDOFF.md`, `docs/ROADMAP.md` (F0–F8),
   `docs/FREEZE_REVIEW_FINDINGS.md` (**read before trusting the freeze**).
-- **State (re-ruled 2026-07-30, janitor session):** mainline is
-  **`main`** (GitHub default) = the designer's approval line — first
-  arc F0–F9 COMPLETE, **all visual verdicts approved** (rounds 1–4,
-  F2–F5, F8) at behavior 12, 135 tests green on a byte-exact checkout,
-  format-2 work (encounter sites) in development. **Content pack
-  format 1 FINAL** stays the consumption basis (docs/17). The parallel
-  `freeze-review-resolution-tf6bkf` line (its own 38/38 freeze fix,
-  dual-verifier battery, 149 tests) is archive-tagged; porting its
-  battery onto main is a recorded ask. Old area-share banding verdict
-  SUPERSEDED by rounds 1–4 (designer, 2026-07-30). Game-side
-  consumption plan: planning docs/17 (ACCEPTED — post-Gate-1).
-- **Windows env warning: RESOLVED same night** — the designer's
-  world_filler agent landed `.gitattributes` (LF pin) + the guard-test
-  fix (`dce666b`) and ported the archived line's test battery
-  (`3c66a6c`) within ~35 min of the ask (sync log sl-0012).
+- **State:** LIVE IN THE REPO'S OWN HANDOFF (mainline `main` = the
+  designer's approval line, re-ruled 2026-07-30). The content pack
+  shipped + is game-consumed (the importer is live; docs/20 arc
+  COMPLETE end-to-end); the next milestone is the staged-NOT-fired
+  Puppeteer directed round (boss #9 → the next pack version, before
+  S4 Snow). Pins: the lock only.
 - **Env notes:** canonical 256² pack not committed (regenerate); Node ≥24.15.
 
 ### 6. 8-bit-sprite-assembler — actor sprite tool
@@ -118,15 +106,14 @@ asks, never as local patches.
   designer-approved 2026-07-27 — assembler supersedes Sprite Forge).
 - **Authority docs:** `ROADMAP.md`, `ARCHITECTURE.md`; the pack contract
   lives in planning `docs/14-ASSEMBLER_GAME_PACK_SPEC.md`.
-- **State drift RESOLVED (2026-07-30 janitor session):** `main` is now
-  the consolidated line (`c6dcdc5` — all four codex branches merged,
-  build gate green); the game pack's source commit `b7eae05f` is in
-  main's history on GitHub. The actor pipeline is reproducible from the
-  repo again. Known env nit: `npm run check` requires local review-draft
-  PNGs that are not tracked — it cannot pass from a clean clone
-  (recorded ask: skip missing review drafts).
-- **Open tool work per the spec:** cast animation (CORE-34 needs it), death
-  animation, one-command validated "Export game pack" (no hand-zips).
+- **State:** LIVE IN THE REPO'S OWN HANDOFF + ENEMY_EXPANSION_PLAN.md
+  (the active lane: the 80-proposal expansion, plan-only, per-slice
+  designer gates). Three packs shipped and game-consumed (enemy
+  catalog / NPC slice v1 with real cast+death rows / the 13-boss pack
+  — wiring opened sl-0122). Pins: the lock only.
+- **Open:** the clean-clone `npm run check` ask (reads untracked review
+  drafts) · the designer's cut-off intake sentence ("Families that may
+  wor…") owed to the expansion plan.
 
 ### 7. music_soundeffects — Resonance Forge (audio workstation)
 - **Owns:** procedural music + SFX, quality/rights gates, Godot audio
@@ -154,14 +141,15 @@ asks, never as local patches.
    tools). No implementing repo amends a design decision.
 2. **Pack boundaries are hard:** consumers validate and refuse; producers
    version and freeze; nobody hand-edits an exported artifact.
-3. **Pins are deliberate:** a repo pinning an older upstream version
-   (WorldForge→a5baf52, game→dusk-ae1eecb) is a recorded choice — check the
-   pin's doc before "helpfully" upgrading it.
+3. **Pins are deliberate:** a repo pinning an older upstream version is
+   a recorded choice — read `tools/ecosystem.lock.json` (the only pin
+   truth) before "helpfully" upgrading anything.
 4. **Session end = handoff current:** update the repo's HANDOFF/state doc
    before closing; stale state docs are how agents miss plans (this file
    exists because of that).
-5. **Verdicts are designer-only** and follow the verdict system (ruling
-   pending — see planning repo once recorded).
+5. **Verdicts are designer-only** and follow the verdict system (RULED
+   2026-07-29 via the Decision Deck — docs/08 + the deck register carry
+   it; NO feel verdicts from agents, ever).
 6. **All work on designated branches; commit+push before the container/
    session dies.** Unpushed work on a dev machine is issue-class (see
    assembler drift, resolved 2026-07-30).

@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "status": "ACTIVE — doc 18 ACCEPTED 2026-07-30 (Decision Deck register). Written during intakes and mainline rulings per doc 18 §10; any mismatch between this file and reality is an automatic incident.",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "repos": {
     "planning": {
       "github": "tilok1234/Wildshot_adventures_pmanning",
@@ -70,7 +70,7 @@
       "path": "assets/worldforge-packs/wildshot-overworld-pack-dusk/",
       "sourceCommit": "1a20bd2299287d4c56cd7a46e2e610b54194fcb6",
       "intake": "2026-08-01",
-      "note": "Prop walkability classes (delivery sl-0066, intake sl-0067, game commit 89aa034): carpet/canopy/solid over all 84 prop species, density byte-identical - the b77 delta is walkability-only (tmj byte-identical to b76; every opened grid cell typed by species: stump 509 / fallen_log 490 / bone_pile 44 / loot_pile 1 = the four sl-0063 carpet conversions exactly, zero sealed; flood 45156->46493 = +905 newly-walkable + 432 unlocked stranded pockets, independent BFS exact; 139 opened cells stay legal walkable-unreachable). NORMAL in-place supersede of b76 at this path (b76's pin retired; release stays immutable archive). SAME tileforge pin dusk-9b8b2a2-seed103991 - the game<-tileforge pairing pin carries unchanged, zero TF work (b77 probe: both worlds resolve, road 2301 cells / 47 joints carried). Release transport verified locally pre-drop (zip = GitHub digest = logged c9083012, manifest 5166341a, 8-file parity, tag -> 1a20bd22, asset byte-size exactly b76's); post-copy re-hash byte-true. Porosity route-cell SET IDENTICAL (pin 60 stands, no re-pin; off-flood 9->6, the dock trio 194-196,240 reconnected); b65 keeps 44. Cliff invariants carry (material/elevation byte-identical, zero opened cells on rock). THE sl-0066 GAME-SIDE CHECK PROVEN ON SCREEN: props-overhang renders ABOVE the player - canopy_render_probe replicates main's construction, pixel-mask verdict 0/8525 in-mask diffs with/without the ranger under the crown at (110,176), evidence reports/canopy_render_audit_b77_{under,reference}.png; 2,352 reachable walkable crown cells shipped. Full pretester ALL GREEN 14.3 min. Designer's NAVIGATION WALK = the acceptance (sl-0066's own terms: the 'getting blocked' complaint is the test)."
+      "note": "Prop walkability classes (delivery sl-0066, intake sl-0067, game commit 89aa034): carpet/canopy/solid over all 84 prop species, density byte-identical - the b77 delta is walkability-only (tmj byte-identical to b76; every opened grid cell typed by species: stump 509 / fallen_log 490 / bone_pile 44 / loot_pile 1 = the four sl-0063 carpet conversions exactly, zero sealed; flood 45156->46493 = +905 newly-walkable + 432 unlocked stranded pockets, independent BFS exact; 139 opened cells stay legal walkable-unreachable). NORMAL in-place supersede of b76 at this path (b76's pin retired; release stays immutable archive). SAME tileforge pin dusk-9b8b2a2-seed103991 - the game<-tileforge pairing pin carries unchanged, zero TF work (b77 probe: both worlds resolve, road 2301 cells / 47 joints carried). Release transport verified locally pre-drop (zip = GitHub digest = logged c9083012, manifest 5166341a, 8-file parity, tag -> 1a20bd22, asset byte-size exactly b76's); post-copy re-hash byte-true. Porosity route-cell SET IDENTICAL (pin 60 stands, no re-pin; off-flood 9->6, the dock trio 194-196,240 reconnected); b65 keeps 44. Cliff invariants carry (material/elevation byte-identical, zero opened cells on rock). THE sl-0066 GAME-SIDE CHECK PROVEN ON SCREEN: props-overhang renders ABOVE the player - canopy_render_probe replicates main's construction, pixel-mask verdict 0/8525 in-mask diffs with/without the ranger under the crown at (110,176), evidence reports/canopy_render_audit_b77_{under,reference}.png; 2,352 reachable walkable crown cells shipped. Full pretester ALL GREEN 14.3 min. Designer's NAVIGATION WALK = the acceptance (sl-0066's own terms: the 'getting blocked' complaint is the test) - ACCEPTED 2026-08-01 (sl-0097, 'like playing another game, very good'; sl-0067 closed)."
     },
     {
       "consumer": "game",
@@ -111,7 +111,7 @@
     {
       "consumer": "game",
       "producer": "assembler",
-      "artifact": "established-boss-pack-13-v1 (48x48, review-only, unwired by ruling)",
+      "artifact": "established-boss-pack-13-v1 (48x48; wiring OPENED 2026-08-02 by sl-0122)",
       "path": "assets/assembler-boss-pack/",
       "intake": "2026-07-29",
       "note": "Raw drop kept by Tier 1 ruling 2026-07-29 ~12:50; wiring OPENED by word 2026-08-02 (sl-0122 - the boss-sheets card answered in-chat, 'yyeah it works'): Grubb rebinds to boss:goblin-war-crown now, the rest deal per chapter (doc 23); wires as the game lands sl-0122."
@@ -126,11 +126,11 @@
     {
       "consumer": "game",
       "producer": "world_filler",
-      "artifact": "wildshot-overworld-pack-dusk-content-c0bf28638648 (127 placements / 92 territories / 9189 cells; pack format 3, director behavior 24; REFERENCE ONLY per docs/20 step 1 - no importer)",
+      "artifact": "wildshot-overworld-pack-dusk-content-c0bf28638648 (127 placements / 92 territories / 9189 cells; pack format 3, director behavior 24; CONSUMED - the importer is LIVE since S0)",
       "path": "assets/wildshot-overworld-pack-dusk-content/ (passport pins manifest + renders; the manifest files table pins the 4 payloads)",
       "sourceCommit": "6be201e5710c54884aa3039dd8386b9511d8e78b",
       "intake": "2026-08-01",
-      "note": "FIRST game<-world_filler artifact (supersedes the doc-17 NONE placeholder in place; docs/20 step 1 governs). Delivery sl-0093, intake sl-0094. GH digest == local zipSha256 13e0759d... == the record; manifest sha == the artifact-id prefix; b77 base pairing verified both identifiers (generation identity bd4b9317... + world.json sha 32f9e741...) and mechanized as a loud refusal in tools/validate_content_pack.py (22nd pretester step + CI row) with the eight designer locks pinned at exact cells. The hand-authored reference pass (notes/OVERWORLD_REFERENCE_PASS.md + five proof-PASSED picker scenarios, battery 28->33, incl the cold finding: activation-leash semantics are the importer's core question) is the docs/20 step-3 spec input; STEP 2 = the designer's feel verdict, armed in the picker. Game commit 447b681."
+      "note": "FIRST game<-world_filler artifact (supersedes the doc-17 NONE placeholder in place; docs/20 step 1 governs). Delivery sl-0093, intake sl-0094. GH digest == local zipSha256 13e0759d... == the record; manifest sha == the artifact-id prefix; b77 base pairing verified both identifiers (generation identity bd4b9317... + world.json sha 32f9e741...) and mechanized as a loud refusal in tools/validate_content_pack.py (22nd pretester step + CI row) with the eight designer locks pinned at exact cells. The hand-authored reference pass (notes/OVERWORLD_REFERENCE_PASS.md + five proof-PASSED picker scenarios, battery 28->33, incl the cold finding: activation-leash semantics are the importer's core question) is the docs/20 step-3 spec input; STEP 2 = the designer's feel verdict, armed in the picker. Game commit 447b681. TRUTHED 2026-08-02: the feel verdict PASSED (sl-0099), the IMPORTER is LIVE since S0 seam 2 (plumbing piece d - placements/territories read directly as spawn tables; 'THE SLICE: overworld' is a picker row; docs/20 COMPLETE end-to-end), and S1 consumed Green's group at its sites. Next pack version = the staged-not-fired Puppeteer directed round (before S4)."
     },
     {
       "consumer": "game",
@@ -144,24 +144,25 @@
     {
       "consumer": "—",
       "producer": "game",
-      "artifact": "serialization SERIAL 13, goldens current (Loop v1, sl-0033: regenerated deliberately, verified 10x)"
+      "artifact": "serialization SERIAL 22, goldens current (STARHOOK v2 era: re-baselined deliberately behind full gates, verified 10x)",
+      "note": "Truthed 2026-08-02 at the staleness audit (the entry had sat at SERIAL 13/Loop-v1 through six re-baselines - itself an instance of the lock's own mismatch-is-an-incident rule, recorded here). Chain: 13 Loop v1 (sl-0033) -> 14 fit rule (sl-0081) -> 15-17 S0 seams 1-3 -> 18-21 S1 seams + the interact era (WSR v2 at SERIAL 21) -> 22 STARHOOK v2 (sl-0115; sl-0123/0125 re-records at 22). Maintenance rule going forward: every deliberate SERIAL bump updates this entry in the same planning sweep."
     },
     {
       "consumer": "game",
       "producer": "icon forge (designer-built tool; source push owed - sl-0083)",
-      "artifact": "wildshot-icons-proto@0.1.0 (470 glyphs 16x16, T1-T5 complete, CORE-50 proof sheets; raw drop, unwired by ruling)",
+      "artifact": "wildshot-icons-proto@0.1.0 (470 glyphs 16x16, T1-T5 complete, CORE-50 proof sheets; WIRED since S0 seam 4)",
       "path": "assets/wildshot-icons-proto_0.1.0/ (passport with per-file sha256s beside it)",
       "intake": "2026-08-01",
-      "note": "Delivery sl-0083 (Downloads zip handoff from the designer's other PC; planning-assessed PASS vs docs/21 before routing), intake sl-0085. zipSha256 ffc01860... verified pre-drop = the delivery record; staged files re-hashed byte-true; per-file sha256s generated at intake into the passport (the shipped manifest carries none). Fixed gate tools/validate_icon_pack.py (20th pretester step + CI row) = manifest contract + passport byte pin, negative-tested. Wiring hold LIFTED 2026-08-01 (sl-0098, the world-is-the-test ruling): wires INTO the Slice v0.1 build (no wiring landed yet at note time). Tool-source push owed from the other PC (the b7eae05f lesson). Game commit d7fbc16."
+      "note": "Delivery sl-0083 (Downloads zip handoff from the designer's other PC; planning-assessed PASS vs docs/21 before routing), intake sl-0085. zipSha256 ffc01860... verified pre-drop = the delivery record; staged files re-hashed byte-true; per-file sha256s generated at intake into the passport (the shipped manifest carries none). Fixed gate tools/validate_icon_pack.py (20th pretester step + CI row) = manifest contract + passport byte pin, negative-tested. Wiring hold LIFTED 2026-08-01 (sl-0098) and WIRED at S0 seam 4 (game 5ad9dbb, 2026-08-01): the atlas lives in the HUD + creation screen; later surfaces (quest icons sl-0121 etc.) extend use. KNOWN DORMANT GLYPH: item.unique.undertow carries a retired word - never bound, tripwired game-side (the sl-0123 wiring test), purges at the next icons release. Tool-source push owed from the other PC (the b7eae05f lesson). Game commit d7fbc16."
     },
     {
       "consumer": "game",
       "producer": "assembler",
-      "artifact": "wildshot-npc-slice-v1@bf6269c (32 NPCs: 13 named roles / 10 zone quest-givers / 9 ambient villagers; 24x24 logical at 1x, 20x4 sheets incl real cast+death rows; raw drop, unwired by ruling)",
+      "artifact": "wildshot-npc-slice-v1@bf6269c (32 NPCs: 13 named roles / 10 zone quest-givers / 9 ambient villagers; 24x24 logical at 1x, 20x4 sheets incl real cast+death rows; WIRED since S0 seam 4 - all 32 stationed)",
       "path": "assets/wildshot-npc-slice-v1/ (passport pins the manifest; the manifest pins every other file)",
       "sourceCommit": "bf6269ca6fc07b3d95a826c95ec6c9c29c6daf53",
       "intake": "2026-08-01",
-      "note": "Delivery sl-0089, intake sl-0092 - the assembler's FIRST release and the first consumer-side proof of its sl-0045 publish gate: tag == main tip (compare identical), manifest cleanPushedSource independently confirmed (the sl-0001/b7eae05f class closed end-to-end). GH digest == local zipSha256 548e0c96... == the delivery record. Manifest ships per-file sha256s - 69/69 verified at intake + 32/32 character cross-checks (verified, not generated); passport pins manifest.json. Fixed gate tools/validate_npc_pack.py (21st pretester step + CI row), negative-tested. Scale vs the enemy pack: IDENTICAL treatment (cell 24 @ 1x, same direction order, same rows=dirs/cols=anims semantics; anim superset with real cast/death). Wiring hold LIFTED 2026-08-01 (sl-0098, the world-is-the-test ruling): wires INTO the Slice v0.1 build alongside the icons (no wiring landed yet at note time). Game commit 9192cbf."
+      "note": "Delivery sl-0089, intake sl-0092 - the assembler's FIRST release and the first consumer-side proof of its sl-0045 publish gate: tag == main tip (compare identical), manifest cleanPushedSource independently confirmed (the sl-0001/b7eae05f class closed end-to-end). GH digest == local zipSha256 548e0c96... == the delivery record. Manifest ships per-file sha256s - 69/69 verified at intake + 32/32 character cross-checks (verified, not generated); passport pins manifest.json. Fixed gate tools/validate_npc_pack.py (21st pretester step + CI row), negative-tested. Scale vs the enemy pack: IDENTICAL treatment (cell 24 @ 1x, same direction order, same rows=dirs/cols=anims semantics; anim superset with real cast/death). Wiring hold LIFTED 2026-08-01 (sl-0098) and WIRED at S0 seam 4 (game 5ad9dbb, 2026-08-01): all 32 NPCs STATIONED in settlements incl. the givers at their slot cells; interactable since the interact era (sl-0112); NPC anim desync routed sl-0132. Game commit 9192cbf."
     }
   ]
 }

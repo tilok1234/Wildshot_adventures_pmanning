@@ -22,6 +22,17 @@ DESIGNER-HELD pending more rounds. Step 1 is functioning exactly
 as this doc intended: rehearse by hand, designer verdicts rule,
 export gated.
 
+**ARC COMPLETE STAMP (2026-08-02 staleness audit):** every step
+of this doc EXECUTED end to end — the export GO fired same-day
+(sl-0093, release c0bf28638648, b77-pinned), the game intook it
+(sl-0094), the designer's feel verdict PASSED (sl-0099, sl-0041
+RESOLVED — the whole rehearsal arc closed), and the IMPORTER is
+LIVE since S0 (plumbing piece d; "THE SLICE: overworld" is a
+picker row). This doc is now the arc's RECORD; the living
+consumption truth is the lock + doc 23. The next content-pack
+version = the staged-NOT-fired Puppeteer directed round (boss
+#9, before S4 Snow).
+
 ## The question this answers
 
 Should the game import world_filler content packs (danger bands,

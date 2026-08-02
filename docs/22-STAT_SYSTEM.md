@@ -1,11 +1,13 @@
 # Wildshot Adventures — Doc 22: The Stat System (loop-era frame)
 
 **Doc:** 22-STAT_SYSTEM
-**Status:** DRAFT SKELETON (staged 2026-08-01 pre-talk, sl-0082 queue).
-The nine blocks below get ruled ONE AT A TIME in the designer session
-("the talk"): short brief → planning's recommendation → the designer's
-verdict → the RULING slot fills → one commit per block. Nothing in a
-RULING slot is decided until the designer says it.
+**Status:** THE STANDING STAT AUTHORITY — ALL NINE BLOCKS RULED
+2026-08-01 (one commit per block; docs/08 carries the register rows;
+the balance calculator is built and green). The skeleton framing
+below is the talk's record; every RULING slot is filled and
+designer-ruled. Number changes since ride the sync log (e.g. the
+sl-0120 firing-rate pass re-derives per-hit damage via the
+calculator against these bands).
 **Authority:** planning repo. The game consumes; it never amends.
 **Customer:** Slice v0.1 (sl-0082) — 4 zones, levels 1–30
 zone-bracketed, tiers bracket zones, 3 classes (bow/staff/sword per

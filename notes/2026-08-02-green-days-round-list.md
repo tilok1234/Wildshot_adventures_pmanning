@@ -35,26 +35,35 @@ routed — each round fires on the designer's word.
   session builds under the laws, the gates verify. Later zones'
   dungeons may be hand-authored from the start — the designer's
   call at each zone's word.
-- **Boss art round**: Old Tusk wears boar:blood (stand-in; no
-  boar in the 13-boss pack), Grubb wears goblin:chief. Real boss
-  art is its own pass.
+- **Boss art round**: RULED 2026-08-02 (sl-0122) — the 13-boss
+  pack IS the slice boss art where it fits: Grubb rebinds to
+  boss:goblin-war-crown; Old Tusk STAYS the scarred blood boar,
+  rendered a little bigger (per-def render scale [T]); the wider
+  dealing is doc 23's record.
 - **Quest voice**: the five errands are PLACEHOLDER VOICE,
   data-only — rewrite every line at will.
-- **STARHOOK rounds** (once seam 6 lands): the rift fight's feel,
-  the split ratio (~2/3–3/4 galaxy [T]), rod feel (starter + the
-  unlock), the two rarities, node cadence. Plus the read-back's
-  OPEN questions, still nobody's-ruled: what ends a fight besides
-  winning (line breaks / rifter defeat / walking away — what does
-  each cost) · where rifts spawn (land + water? zone-scaled?) ·
-  what a catch IS (currency, items, both) · rift death vs CORE-43
-  · the feature's real name.
+- **STARHOOK rounds** (STARHOOK v2 is LANDED + refined — the
+  INDEX corrections 1–9 are LAW; this bullet's old open
+  questions are ALL RULED, updated 2026-08-02 at the staleness
+  audit): what ends a fight = three hard line lives, three snaps
+  = dive lost, win = purely the kill (the reel is CUT) · rifts
+  spawn on LAND anywhere incl. ambient (water = nothing to do
+  with starhooking; sl-0111 parked) · a catch = gold + biome
+  fish as SPECIES-CURRENCY items + rare cosmetics · THE FEATURE
+  HAS ITS NAME (STARHOOKING, locked by tap) and the arena part
+  carries NO name by law — never propose names for it.
+  REMAINING rounds = feel only: the split pick (flip the "rift
+  split" options row in play — 1/2 vs 2/3 galaxy; the INDEX
+  amends on the pick), rod feel across the four rods, biome
+  twists, node/ambient cadence [T].
 
 ## 3. The [T] table (numbers awaiting feel, by seam)
 
 - Roster: Green-band hp/speeds/xp, density ×1.5.
 - Loot: drop chances (0.03/0.06/0.10–0.12), T2 trickle, ring
-  numbers (Haste +2 spd/−8 hp · Claws +2 dmg/−2 def), walk-over
-  equip rule, toast/ground-label taste.
+  numbers (Haste +2 spd/−8 hp · Claws +2 dmg/−2 def),
+  toast/ground-label taste. (Walk-over equip RETIRED by the
+  interact era + the bag — equip is a C-screen decision now.)
 - Quests: rates + rewards.
 - Foraging/starhook: yields, node counts, respawn cadence, rarity
   steps — as landed by seam 6.

@@ -1,10 +1,12 @@
 # Wildshot Adventures — Doc 23: Slice v0.1 Build Plan
 
 **Doc:** 23-SLICE_BUILD_PLAN
-**Status:** STAGED [P] 2026-08-01 — the shape, the six dispositions,
-and the class call are the designer's (this session, sl-0098 seam);
-the build GO fires the S0 paste. **Authority:** planning repo; the
-game repo consumes and never amends.
+**Status:** ACTIVE — the build GO fired 2026-08-01 (sl-0100); S0 +
+S1 engineering COMPLETE; GREEN DAYS OPEN under the way-forward
+ruling below (the S2 gate bar governs). The shape, the six
+dispositions, and the class call are the designer's (sl-0098 seam).
+**Authority:** planning repo; the game repo consumes and never
+amends.
 **The milestone:** Slice v0.1 — THE WORLD IS THE TEST (sl-0098):
 a small-scale of the full game on the dusk overworld. Four zones,
 cap 30 (Green 1–7 / Dry Reach 8–15 / Wetlands 16–22 / Snow 23–30,
@@ -344,8 +346,10 @@ that moment (labeled → WORLD_FILLER and → WORLDFORGE).
   (the sync-log id-guard's four catches) · planning's sweep as
   the serialization point. A session-sized think, parked.
 
-## Open at staging
+## Open at staging (both EXECUTED — kept as record)
 
-- The **build GO** (fires the S0 paste) — the designer's word.
-- The **feel session** verdict on the five scenarios (docs/20 step
-  2, running at staging time) — findings fold into S0/S1 tuning.
+- The **build GO** — FIRED 2026-08-01 (sl-0100; S0 routed as four
+  sealed seams, complete same day).
+- The **feel session** verdict — PASSED 2026-08-01 (sl-0099;
+  density finding folded into the S0 leash tuning; sl-0041
+  resolved).

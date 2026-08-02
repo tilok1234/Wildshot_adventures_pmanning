@@ -117,6 +117,15 @@ corrections 1–9).
 > surface at a time · the chrome overlay restyles pause/recap/
 > creation for free · statchips bind existing stats only — the
 > "starhook lv" chip skips-and-reports until that stat exists.)*
+> *(~23:55, sl-0157: SEAMS H + I join the paste — H = THE
+> INTERACTABILITY SWEEP (verify every class in a real walk:
+> stations/givers/NPCs/rifts/dropped-items on F · loot-bags/gold
+> walk-over · disambiguation sane · rift F-cast untouched by the
+> Esc changes) · I = MINIMAL FORAGING, the pass's ONE sanctioned
+> sim seam (24 gather spots have no interaction yet — F-forage
+> into the bag, deplete+respawn [T], full re-baseline, sized
+> first, splits out rather than stall). THE GATE WORD: when the
+> pass + sweep are IN, the designer STARTS THE GAME AGENT.)*
 
 ## The fresh session's first moves, in order
 

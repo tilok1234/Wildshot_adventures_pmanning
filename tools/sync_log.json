@@ -2560,6 +2560,24 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0157",
+        "ts": "2026-08-02T21:55:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE INTERACTABILITY SWEEP + MINIMAL FORAGING SANCTIONED (designer's word) - everything that should respond, responds: rifts, gather spots, NPCs, bank, vendors, loot bags; SEAM H (verify) + SEAM I (conditional foraging sim seam) join THE MENU PASS v2; THE GATE WORD recorded: when all this is in, the designer starts the game agent",
+        "detail": "The designer, verbatim: 'and we should make sure everything that should be interactable like rift and foragingn stuff and npcs and bank and vendor and stuff like that is interactable. also loot bags., when all this is put in we can start game agent i think'. ROUTED TWO WAYS: (1) SEAM H - THE INTERACTABILITY SWEEP (verify-only, closes the view work): walk the world and prove every interactable class responds - F INTERACT: bank keeper -> bank menu, vendors -> vendor menu, quest givers -> offer dialogue when available / TURN-IN WINS at dual-state (undialogued), every other stationed NPC -> its existing interact response (nothing dead among the 32), rifts -> INSTANT F-CAST (starhook law - verify unaffected by the menu/Esc-first changes), dropped items -> F picks back up; WALK-OVER class stays by design: loot bags -> panel (sl-0129), gold -> auto-pickup (the interact-era survivor); DISAMBIGUATION: multiple targets in one radius resolve sanely (nearest/priority [T]) with no dead zones; any future station inherits F (sl-0147 standing). (2) SEAM I - MINIMAL FORAGING, CONDITIONAL: the world data carries 24 gather spots; no foraging interaction exists in the game record - the designer's 'make sure foraging stuff is interactable' SANCTIONS the minimal build: F at a gather spot -> yield into the bag (species per spot type [T]), spot depletes + respawns [T]; THIS IS A SIM SEAM - runs AFTER the view seams under FULL re-baseline discipline (goldens, battery, rng honesty: new draws get their own stream or none [T]); the game seat SIZES it and reports scope honestly before building; if it balloons, it splits out of the pass and the sweep just reports the gap. The pass stays view-only by construction EXCEPT seam I. (3) THE GATE WORD (recorded as the designer's milestone): when the menu pass + sweep are IN, the designer starts the GAME AGENT - the pass landing is the start line.",
+        "refs": [
+            "sl-0156",
+            "sl-0154",
+            "sl-0147",
+            "sl-0129",
+            "sl-0112",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
     }
   ]
 }

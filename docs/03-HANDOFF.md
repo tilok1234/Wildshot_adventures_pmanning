@@ -16,6 +16,29 @@
 
 # CURRENT HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
 
+> **TRUTH-UP ~20:00, in place (the full CURRENT rewrite rides the
+> session close): THE NINE-SEAM PASS LANDED NINE FOR NINE and is
+> RESOLVED AT BOTH ENDS.** Game main pushed through **912049f**
+> (0119 C-sheet · 0121 quest pull · 0122 boss sprites · 0132 NPC
+> desync · 0120 firing rate x1.25 · 0116+0128 THE BAG · 0129 loot
+> bags · 0130 the bank · 0131 vendors v1); sync log **142 / 0
+> dupes, tail sl-0142** (the game seat's nine resolutions
+> sl-0134–0142 + its narrative file committed at 214bf23);
+> **SERIAL 25**, the lock truthed at every bump (23/24/25) and
+> verified-unchanged at the no-bump seams. Move 5's audit §2 owed
+> list is **CLEAR** — all nine items done and pushed (two waves).
+> The board hashes in the moves below are the switch-time
+> snapshot; the session file's tail holds the per-seam sweeps.
+> **Next on the systems-complete queue:** THE GEAR SEAM (now
+> unblocked — drops have a bag to land in) → simple class trees
+> v1. **Designer-owed tonight:** play the evening's systems (bag
+> + equipment pane + loot bags [B] + bank + vendors + quest
+> pull), the drag-free test cast, the split flip-and-pick, and
+> the x1.25 feel word (want faster → the lever is planning's:
+> trash_hp or the hits band). The designer's long-playground lean
+> (~19:40) is recorded in the session file — firms into a ruling
+> → amends doc 23.
+
 **This section supersedes everything below it.** Written at an
 account switch: the designer ran out of Fable 5 usage while a game
 pass was in flight, so the fresh planning seat inherits a LIVE

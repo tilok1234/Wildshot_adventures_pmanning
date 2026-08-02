@@ -2399,6 +2399,36 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0147",
+      "ts": "2026-08-02T18:48:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE INTERACT RULE GOES GENERAL (answers the vendor question): every station menu opens on F interact, never walk-over - vendors match the bank; loot bags stay walk-over per the designer's own sl-0129 word; + external UI art incoming, menus build THEME-SWAPPABLE",
+      "detail": "The designer, verbatim: 'everything like this should always require pressing interract to interact with it. also when we get all these menus into game i will go ahead and create some cool UI for it externally'. TWO RULINGS: (1) THE STANDING RULE - station-class surfaces (the bank, VENDORS, and every future station that opens a menu) ALWAYS open on F INTERACT, never walk-over; the sl-0145 vendor question is answered (vendors match the bank). SCOPE READ HONESTLY, not inferred: LOOT BAGS stay walk-over - their walk-over display was the designer's own explicit sl-0129 design ('when you walk onto the loot bag trhe loot in the bag will be displayed'); this word targets the bank/vendor station class. If the designer ever wants loot bags F-gated too, that is a new word. (2) EXTERNAL UI ART INCOMING (designer-owed, future): once the menus land, the designer authors cool UI art EXTERNALLY (the icon-forge / uikit precedent - designer-built, delivered as a pack). ENGINEERING CONSEQUENCE FOR THE SEAM, binding: the new menu surfaces build THEME-SWAPPABLE (the doc-13 kit pipeline - frozen structure, swappable chrome) so the designer's external art drops in as a pixels-only pack swap with zero code churn; when it arrives it is a normal delivery -> intake per the lane.",
+      "refs": [
+        "sl-0145",
+        "sl-0129",
+        "docs/13-UI_STYLE_KIT_SPEC.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0148",
+      "ts": "2026-08-02T18:49:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "sl-0146 HITBOX DEFERRED from the current pass by the designer's word - stays queued for its own later SIM seam; the pass now runs VIEW work only (0143/0144/0145/0147)",
+      "detail": "The designer, verbatim: 'lets not add in the hitbox in this pass we gonna do now tho'. THE RULING: sl-0146 (player shot-hurtbox at least half) does NOT ride the upcoming game pass - it stays ROUTED AND QUEUED, landing later as its own SIM seam with the full re-baseline discipline already specced on its entry. The current pass is therefore VIEW-ONLY by construction: sl-0143 (menu split) + sl-0144 (quest dialogue + accept) + sl-0145/0147 (interact-gated stations + menu close chrome + Esc priority). The bundle paste amended - the hitbox section replaced with an explicit DO-NOT-BUILD-NOW marker so the game session cannot mistake the queue for the pass.",
+      "refs": [
+        "sl-0146",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

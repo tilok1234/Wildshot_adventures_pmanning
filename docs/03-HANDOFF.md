@@ -28,23 +28,35 @@ pastes still designer-carried + the game paste's remainder) ·
 `notes/reference/starhook-proto2/INDEX.md` (starhook law,
 corrections 1–9).
 
-> **TRUTH-UP 2026-08-02 ~22:20, in place (the fresh seat's boot
-> sweep — ANOTHER account switch: the post-restart sessions on the
-> old account ran out of usage with NO handoff written; the
-> designer's word: a live ASSEMBLER session was going there as
-> well).** The board below re-verified TRUE end to end (game
+> **TRUTH-UP 2026-08-02 ~22:20, amended ~22:55 in place (the
+> fresh seat's boot sweep — ANOTHER account switch: the CLAUDE
+> sessions on the old account ran out of usage with NO handoff
+> written).** The board below re-verified TRUE end to end (game
 > 7afe187 local+GitHub · log 152/0/sl-0152 · planning synced
-> 1980bf7 · menu-pass paste still cut, final, UNDROPPED). The dead
-> assembler session's one durable act: its floating f5476a2 (the
-> enemy-expansion plan + its own handoff refresh, authored ~15:07,
-> committed-unpushed through the restart) got PUSHED to GitHub
-> main at ~22:11 — the audit §3 assembler paste was audited AT
-> that commit and stays FULLY OWED. Anything else said in the dead
-> chat is gone; the designer re-says what mattered. CAVEAT for
-> fresh seats: the memory-profile line at this section's tail is
-> PER ACCOUNT — this account's profile opened EMPTY and the seat
-> basics were re-banked. Full reconstruction: the session file's
-> THE USAGE SEAM section.
+> 1980bf7 · menu-pass paste still cut, final, UNDROPPED) — PLUS
+> ONE LIVE LANE the board didn't carry: **THE ASSEMBLER'S
+> ENEMY-EXPANSION SESSION IS ALIVE** (a codex-branch lane, the RF
+> codex/g3-g5 precedent; it spans the PC restart and the account
+> switch) and shipped all day on top of main's f5476a2 (the
+> expansion plan + the assembler handoff refresh, pushed 15:07 —
+> the boot sweep's first read "pushed 22:11 by a dying session"
+> was WRONG, corrected ~22:55): EN-F00 foundation → EN-E01
+> (candidates → registration → consumers → outline/shade →
+> presentation approval = the 22:11 push) → EN-E02 Idle gate +
+> approval (codex/en-e02 @ 9836a31, 22:46, 12 ahead / 0 behind
+> main). NO sync-log entry — branch work is not a delivery; the
+> entry comes at release/intake. The game's enemy-pack pin stays
+> 57/202 @ b7eae05f. Next lane gate (separately authorized, the
+> designer's call): full motion + the ten specialist/elite
+> variants. The audit §3 assembler paste stays owed AS WRITTEN
+> AGAINST MAIN (the branch rewrites HANDOFF/README — re-check at
+> merge). THE WATCHER now also covers all five producer repos
+> (heads+tags, ~5-min) besides the handoff's game+planning lanes.
+> CAVEAT for fresh seats: the memory-profile line at this
+> section's tail is PER ACCOUNT — this account's profile opened
+> EMPTY and the seat basics were re-banked. Full story: the
+> session file's THE USAGE SEAM + THE ENEMY-EXPANSION LANE
+> SURFACES sections.
 
 ## The fresh session's first moves, in order
 

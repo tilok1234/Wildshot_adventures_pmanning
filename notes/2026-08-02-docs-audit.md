@@ -227,12 +227,16 @@ f5476a2). Documentation-only:
    qualifications become requirements.
 ```
 
-*(Accounting 2026-08-02 ~22:20: f5476a2 — the commit this paste was
-audited AT — reached GitHub main at 22:11 local, pushed by the old
-account's post-restart session as its one durable act before usage
-death (no handoff; planning reconstructed the seam from the repos —
-session file, THE USAGE SEAM section). Items 1–6 unchanged, still
-owed — drop the paste when the assembler seat next opens.)*
+*(Accounting 2026-08-02 ~22:20, corrected ~22:55: f5476a2 — the
+commit this paste was audited AT — hit main at 15:07 local (events
+API; the earlier "pushed 22:11 by a dying session" read was wrong)
+and is the BASE of a LIVE enemy-expansion branch lane: codex/en-e02
+@ 9836a31, EN-F00 → EN-E01 → EN-E02 Idle approved, 12 ahead / 0
+behind main. Items 1–6 still owed AS WRITTEN AGAINST MAIN; the
+branch rewrites HANDOFF/README/ARCHITECTURE and may have fixed some
+organically — re-check when the lane merges. The seat is OPEN and
+LIVE — the paste can drop into it any time; full story: the session
+file's THE ENEMY-EXPANSION LANE SURFACES section.)*
 
 ### → TILEFORGE repo
 

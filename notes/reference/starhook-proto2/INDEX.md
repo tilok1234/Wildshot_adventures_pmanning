@@ -84,6 +84,33 @@ refining happens on the real thing, in Green hands, not on paper.
 - The undertow is a NEW system (player ×1.0 / boss ×0.3 /
   bullets ×0.15, oscillating ±25° ~26s) — "worth a real .tres."
 
+## Deck-tap refinements (the designer's taps, swept ~12:20 — ride this seam)
+
+1. **THE LINE HAS THREE LIVES** (shk1loss: "Line durability pays
+   (line ×3)" + "if we go for three lives … make them pretty
+   hard"): a dive survives up to three snaps; each line is HARD
+   to lose (per-line stability generous [T]). Refines the
+   prototype's single-pool snap — the seam builds lives ×3 [T].
+2. **RIFTS SPAWN ANYWHERE, ANYTIME** (shk3spwn: "a chance to
+   spawn anywhere while traveling or fighting … special rare
+   encounters down the line"): an ambient spawn chance [T] joins
+   the authored nodes; rare-encounter variants are future
+   material.
+3. **THE ZONE CONTENT TARGET: 4–6 unique starhook boss fights
+   per zone** (the designer's scaling word; the kit recipe makes
+   rift kits cheap, so the target is honest). v1 ships one kit +
+   biome twists; the target governs the chapters.
+4. **FISH ARE SPECIES-CURRENCY ITEMS** (shk2ctch note): city
+   vendors will someday price goods in specific fish ("30 fish X,
+   50 fish Z, 10 fish Y for a cool mount"). Fish persist
+   PER-SPECIES from this seam on; vendors/mounts are a future
+   chapter's system.
+5. Locked by tap: the name is STARHOOKING · the rifter v1 = one
+   fixed micro character (cosmetics + weapons down the line) ·
+   ring swap decided during Green days (the bag supersedes) ·
+   the dungeon hand-author pass lands after Green days, beside
+   S2.
+
 ## Evidence
 
 - Clips: `Screen Recording 2026-08-02 044051.mp4` (46s, the full

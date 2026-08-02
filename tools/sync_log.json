@@ -1882,6 +1882,23 @@
         "notes/2026-08-02-green-days-round-list.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0113",
+      "ts": "2026-08-02T02:25:02Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "HOLD sl-0110 + sl-0111 (the designer's word): prototype #2 first - 'so we get it correct'; the UI/interaction family proceeds now",
+      "detail": "The designer (~04:15): 'lets do everything but starhooking first. im making another prototype first so we get it correct.' SEQUENCING RULED: sl-0110 (the starhook soul seam) and sl-0111 (water fishing base) go ON HOLD - planning includes sl-0111 in the hold because it shares the cast/line/reel verb the prototype exists to define (building the verb from spec and rebuilding it after the prototype would repeat the brick-room miss; the designer may release sl-0111 early with a word). The canonical spec stands as LAW meanwhile; the built rift v1 stays as-is - spend NO time on it until the prototype lands. WHEN the prototype sings, the designer hands planning a clip; its frames + the canonical paragraph route into the revived sl-0110 as law (the reference-media-is-law rule). PROCEED NOW: the UI/INTERACTION FAMILY - sl-0112 (the general-purpose INTERACT verb: pickup + interactable givers + the quest log first; signs/POI flavor/villager one-liners hang off it incrementally [T]; auto-pickup and auto-quests retire; gold stays auto; doors/gather stay walk-native; interact-on-worn-ring swaps) + sl-0106 (the character sheet) + sl-0109 (the HUD relayout + options/pause on O and Esc) - one or two sealed seams, the session's call with cause; tests re-author to the interact verb as deliberate re-baselines; every key/layout/rate [T]; all feel = Green days.",
+      "refs": [
+        "sl-0110",
+        "sl-0111",
+        "sl-0112",
+        "sl-0106",
+        "sl-0109"
+      ],
+      "by": "agent"
     }
   ]
 }

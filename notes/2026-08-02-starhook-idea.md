@@ -117,6 +117,40 @@ non-negotiable at v1.
   currencies each invite growth; the seam law ("one sealed seam
   at a time") is the containment.
 
+## Designer dispositions (2026-08-02, the post-capture exchange)
+
+The designer read planning's assessment and ruled, in their
+words: "we could wait and see if we wanna introduce gear later,
+but we could just do it super simpel, and then we could also have
+cosmetic gear for the RIFTER" + "fishing rods acts like weapons
+with different bullet patterns kind of". Recorded as:
+
+- **v1 is SUPER SIMPLE** (the designer's word). Functional rifter
+  gear DEFERRED — wait and see; planning's second-progression-
+  universe pushback accepted.
+- **COSMETIC gear for the RIFTER instead, first.** This rides the
+  seam-1 VARIANTS pattern exactly (view-only, deterministic pick,
+  zero sim bytes): rifter skins/cosmetics as fish drops give the
+  collection joy with no parallel stat universe. The machinery
+  exists as of this week.
+- **RODS ACT LIKE WEAPONS with different bullet patterns** — the
+  rod IS the rifter's class. The prototype already shows the
+  split (Cane starter / Splitwillow 3-bolt fan / Old Thornreel
+  heavy dmg-2 = spread vs heavy, the sword/staff/bow feel at rift
+  scale). Mechanism: a rod = a data row on the rifter's attack
+  def — the new-ordinaries-are-data-rows doctrine applied
+  player-side.
+
+**Planning's effort read, updated:** "very little effort" is now
+an honest claim for THIS v1 shape, because the slice built the
+parts without knowing it: portal = walk-on door (seam 4), rift =
+committed instance (seam 4), rift fight = boss kit on the recipe
+(seams 3–4), drops = the loot machinery + one grammar (seam 2),
+cosmetics = the variants system (seam 1), starhook level = a
+stat-frame row, rods = attack-def data rows. Genuinely NEW code
+is short: the cast/reel verb, the split-screen view, node
+spawning. A week ago none of that was true.
+
 ## Status: PARKED
 
 No sync_log ask opened. NOT S1 — seam 6 stays the basic

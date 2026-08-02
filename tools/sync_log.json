@@ -2335,6 +2335,70 @@
         "notes/sessions/2026-08-02-green-days-batches.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0143",
+      "ts": "2026-08-02T18:20:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE MENU SPLIT (first-touch word): quest log = its OWN menu with proper info; inventory = its OWN menu; equipment + stats = a tab - supersedes the C-is-the-one-log condition by the designer's own word",
+      "detail": "The designer, playing the landed pass at first touch (verbatim): 'i would prefer it if the quest log was its own menu, so we can put in proper info there. inventory should also be its own menu and equipment and stats can be its own tab'. Context: minutes earlier the bag pane went unrecognized as an inventory (verbatim: 'oh ok im sorry i didnt recognize that as the inventry') - the surfaces WORK but do not READ; the word RESTRUCTURES them. THE ASK, view-only expected (all ops/state exist; panes re-home): (1) QUEST LOG = ITS OWN MENU with room for proper info - per-errand rows: name, giver, full objective text, progress n/m, turn-in state (the sl-0121 at-a-glance duty, now with space); own key [T - suggest L, remappable; the no-F-row law holds]. (2) INVENTORY = ITS OWN MENU - the bag list moves out of the C sheet; own key [T - suggest I, remappable]; presentation may stay rows v1 (the icon-grid/glyph upgrade = its own later paste on the designer's word; the first-touch unrecognized datum stands recorded in the session file). (3) EQUIPMENT + STATS = ONE TAB - planning's proposed shape [structure T, the session's call + the designer's hands rule]: one tabbed character menu (tabs: Inventory | Equipment & Stats), C opens it (muscle memory preserved), I opens it on the Inventory tab; the QUEST LOG stays a separate menu per the designer's explicit split. Two-way equip/de-equip + tooltips ride unchanged wherever the bag lists live; the mouse-sanction + suppress-under-cursor rule extends to every new surface. HUD tracker + giver icons + map markers UNTOUCHED (sl-0121's other pieces stand). SUPERSEDES BY THE DESIGNER'S WORD: the 'C stays THE one log' condition (sl-0121 - their own earlier word, now evolved) and the C-hosted equipment-pane placement (sl-0128); the era key-map law line amends when this LANDS, not before. Boundaries: zero sim bytes expected (view re-homing; recorded ops unchanged); if any op/input byte must move, the full-gate re-baseline discipline applies instead. GATE: render evidence at two scales PER SURFACE (the letterbox-aware two-point standard), smoke hash unchanged (the view-only proof), pretester green; the designer's hands rule the feel.",
+      "refs": [
+        "sl-0116",
+        "sl-0121",
+        "sl-0128",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0144",
+      "ts": "2026-08-02T18:28:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "QUEST DIALOGUE + EXPLICIT ACCEPT (first-touch word #2): F at a giver opens a brief what-and-where dialogue; ACCEPT is a decision (mouse or hotkey); accepted quests carry full reread info into the sl-0143 log incl. giver + deliver-to",
+      "detail": "The designer, playing, verbatim: 'also when interacting with a quest npc, a quest dialouge window should open with some brief text you can read if u want that says what and where to go etc, and you have to press accept with mouse or an hotkey for accept and then the quest goes into quest log where you can reread the text and objective and see ur progress aswell as see who u got it from and where to deliuver it when ur done'. THE ASK: (1) F at a quest giver with an available quest opens a DIALOGUE WINDOW - brief readable text, what to do + where to go (generated from the quest template + the slot's reason tag; the data exists), kit chrome, read-if-you-want. (2) ACCEPT IS A DECISION: mouse button or hotkey [T - F-as-confirm is natural (the interact verb doubles), Esc/walk-away closes with NO accept; the session's call]; the hands-cap refusal stays loud; declining leaves the quest available to re-open. REPLAY HONESTY: the accept rides the RECORDED-op machinery - expected inside the EXISTING op byte space (the pane-click queue precedent; op codes have room), format untouched = no SERIAL; if the input format must grow instead, the bag-seam full re-baseline discipline applies. (3) ON ACCEPT the quest enters the quest-log MENU (sl-0143) carrying PROPER INFO: reread the text + objective, progress n/m, WHO gave it (giver + where), WHERE TO DELIVER when done (the turn-in giver + location - the sl-0121 marker data already knows the cells). (4) THE TURN-IN LAW STANDS: turn-in wins over accept at a dual-state giver - turn-in fires first, the next F offers the dialogue; turn-in itself stays undialogued this seam (a completion line = the session's taste, not required). GATE: render evidence at two scales (dialogue open + the log detail view), smoke hash unchanged if view-only (full gate regardless); the designer's hands rule the feel. Pairs with sl-0143 as one paste bundle.",
+      "refs": [
+        "sl-0143",
+        "sl-0121",
+        "sl-0106",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0145",
+      "ts": "2026-08-02T18:33:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "BANK OPENS ON INTERACT + EVERY MENU GETS A CLOSE BUTTON + ESC CLOSES THE MENU FIRST (first-touch word #3): the bank's walk-up [T] re-ruled to F; menu-first Esc priority joins the O/Esc law when it lands",
+      "detail": "The designer, playing, verbatim: 'also banks should require you to interract with them for you to open them not just walk on them, also it needs a close button aswell as pressing esc while ur inside a menu should close the menu'. THE ASK: (1) THE BANK opens on F INTERACT at the keeper - the walk-up open was the sl-0141 seam's own [T] call, now re-ruled by the designer's hands; the radius/ops/caps/death-proofing all STAND, only the OPEN gesture changes. (2) EVERY OPENED MENU carries a visible CLOSE BUTTON (mouse; the kit ships icon_close) - bank, vendor, C sheet, and the coming inventory / quest-log / dialogue surfaces (sl-0143/0144); walk-over ambient panels (the loot bag) keep walk-away dismissal, close button optional there. (3) ESC PRIORITY: Esc while a menu is open CLOSES THAT MENU and is consumed; Esc with nothing open = the one pause menu, unchanged - the O/Esc era law survives with a menu-first priority rule (the law line amends when this LANDS, not before). OPEN QUESTION flagged for the designer, not inferred: VENDORS share the walk-up-open pattern today - should they match the bank (F-to-open) or stay walk-up? One word routes it. View-only expected (open-gesture gating + UI chrome; recorded ops unchanged); if anything sim-side must move, the full-gate discipline applies. GATE: two-scale evidence; smoke hash unchanged if view-only; pretester green.",
+      "refs": [
+        "sl-0130",
+        "sl-0131",
+        "sl-0143",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0146",
+      "ts": "2026-08-02T18:35:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "PLAYER HITBOX AT LEAST HALF (first-touch word #4): the shot-hurtbox radius halves [T start 0.5x, license smaller] - a SIM change on the dodge core; full re-baseline discipline; DodgeBot re-proofs with a margins table",
+      "detail": "The designer, playing, verbatim: 'also the player hitbox should be atleast half the size of what it is now'. THE ASK: the player's SHOT-HURTBOX (the circle hostile shots test) shrinks to AT LEAST half - start radius x0.5 [T]; 'at least' is license to go smaller if feel wants; the designer's hands rule the final value. SCOPE READING (flagged, not inferred): the BULLET hurtbox halves; the terrain/movement body and interact radii STAY unless the session finds them coupled - if coupled, honest report BEFORE moving them (door widths and chokepoints were tuned against the movement body). Genre-true: the tiny player hitbox is the RotMG tradition the combat core descends from (CORE-31/33) - dodging gets honestly easier everywhere, movement-only dodging gains room, readable-death stays intact (the hurtbox is still spatial truth). SIM DATA CHANGE: collision outcomes move -> deliberate goldens/battery re-baseline per house discipline, FULL GATE BEFORE COMMIT (gotcha-32 order); DodgeBot floor/cap proofs re-run - margins should RISE, and a before/after MARGINS TABLE is the honest evidence (the sl-0123 comet-floor precedent); no SERIAL expected (a value, not a format). The way-forward lane sanctions it: dodge feel blocks fun = rough-tune NOW. GATE: full gate green + the margins table + the feel flag standing for the designer.",
+      "refs": [
+        "sl-0120",
+        "sl-0123",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

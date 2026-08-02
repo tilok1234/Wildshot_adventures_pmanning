@@ -97,6 +97,21 @@ corrections 1–9).
 > amends at handover; drop = zip + paste together into a fresh
 > game session.
 
+> **TRUTH-UP ~23:35: THE DROP IS GO.** The fixed export ACCEPTED
+> — delivery **sl-0155** (zip sha F20F9076…4FF315A1, 2,047,892
+> b): character ×4 hues FIXED and verified on screen; hud/toast
+> captures accepted-from-spec (workbench special-surface
+> limitation; specs stand). NEW: **THE UNIQUE REVEAL routed
+> sl-0156** (the designer's cinematic — fires ONLY on picking up
+> a boss-dropped UNIQUE; legendary3 staging ~7s, gold word-mark
+> + ribbon; rails: one-shot, NO-STROBE hard check, CORE-19 noted
+> with the rarity gate as the defense, pause-world + skip
+> suggested [T]) = **SEAM G** in THE MENU PASS v2 paste; sha
+> line amended, right-click-drop confirm/toast + hint-caption
+> honesty joined the paste. Log 156/0/tail sl-0156. **The
+> designer drops zip + paste into a fresh game session; planning
+> sweeps per seam.**
+
 ## The fresh session's first moves, in order
 
 1. Read this section → the session file's tail (from "THE

@@ -2528,6 +2528,38 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0155",
+        "ts": "2026-08-02T21:31:00Z",
+        "type": "delivery",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE v2 UI PACKAGE ACCEPTED (the fixed export): 'Bullet Hell RPG Menu System.zip' sha256 F20F907610154E0FB81E065B64B92AD11BFDD81BEA45C938671FF3C64FF315A1, 2,047,892 bytes - supersedes the first zip (6BDB0DDD...) whole; character x4 hues FIXED; hud/toast captures accepted-from-spec; + cinematics/stampede-1-ring-howl.png NEW",
+        "detail": "The designer re-exported from the external menu workbench (Downloads handoff, 23:28 local; same filename overwritten). Planning's diff vs the first zip: character.png now DISTINCT in all four hues (C2CBFEBF/C967AEAF/1161F42B/37EB5DB9 - the five-slot defect's main share FIXED and the headline two-tab menu verified on screen: portrait + xp, big hp/mana bars, stat chips incl. starhook, equipment column w/ empty-state text, bag 3/20 slot grid, hint line 'drag to move / click equips / right-click drops'); surfaces/hud.png REMAINS the bare-stage capture and surfaces/toast.png was REMOVED rather than re-cut - both ACCEPTED-FROM-SPEC (the workbench's special-surface capture path is the culprit, not the data: spec ids 'hud' and 'toast_demo' stand in menu-specs.json and the build truth is the spec per the package's own README; sl-0149 bars-left is unambiguous without a capture). ADDED: cinematics/stampede-1-ring-howl.png (the unique-reveal stage-1 look target) + README/manifest/menu-specs updated with the legendary action grammar (legendary3 stampede ~7s + rarity word-mark; toast/confirm/drop:<slot> flows enumerated). The MENU PASS v2 paste's sha line amended to this zip; the first delivery record retires. The reveal itself routed sl-0156.",
+        "refs": [
+            "sl-0153",
+            "sl-0154",
+            "sl-0156",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0156",
+        "ts": "2026-08-02T21:32:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE UNIQUE REVEAL (designer's word): a loot cinematic that fires ONLY on picking up a UNIQUE drop from a BOSS - SEAM G added to the MENU PASS v2 paste (legendary3 stampede ~7s; no-strobe hard check; pause-world + any-input-skip suggested [T]; view-only expected)",
+        "detail": "The designer, verbatim: 'i also added a unique loot animation drop that should only activate when u get an unique drop from a boss'. THE GATE: unique-rarity items from BOSS sources only, trigger on PICKUP ('when u get'), never drop-spawn, never lower rarities or non-boss sources - rare by construction. THE PLAY (menu-specs legendary3 + the shipped stage-1 frame): the mob pack rings the screen + the wolf howl -> the dragon spawns -> flamebreath clears the ring -> the plaque (rarity WORD 'UNIQUE' as a gold word-mark + tattoo-ribbon with item icon + name + stat line); dimmed-world glow-on-dark staging per the target frame. STAGING SUGGESTION [T]: build in-engine with existing sprites (the pack ships ONE target frame, not a reel); shorter than ~7s is fine if honest. RAILS (planning's law reads, recorded): one-shot, never looping/ambient; HARD CHECK no strobing/rapid luminance flips between stages (photosensitivity baseline - doc 13 rule 4's spirit; the glow-on-dark frame is the right model); CORE-19 note: the gold radial halo brushes the no-gold-burst line - the boss-unique-only gate + one-shot + dim staging is the defense, the designer owns the taste. WORLD STATE during the play [T, session's call + the designer's hands]: suggest PAUSE the world + ANY-INPUT SKIP - never let a ~7s overlay ride over live danger. View-only expected (overlay on a pickup-event predicate rarity==unique AND source==boss); if trigger/skip must touch the op/input space, full re-baseline discipline instead. Hint-caption honesty rides the pass: rendered hint lines state only what ships.",
+        "refs": [
+            "sl-0155",
+            "sl-0154",
+            "sl-0129",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
     }
   ]
 }

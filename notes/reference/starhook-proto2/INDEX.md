@@ -39,11 +39,11 @@ refining happens on the real thing, in Green hands, not on paper.
 3. **Line stability = HP = 60** — one resource: bullet hits,
    passive drain 0.4/s (the session clock), deep-edge strain
    +2.2/s; 0 = snap, dive lost.
-4. **Kill THEN reel** — resolves the canonical either/or: damage
-   wins the fight (boss to 0 → bullets clear → hooked), the REEL
-   wins the catch (hold +28/s in calm, thrash bursts punish
-   greed at 6 stability/s; the pull strengthens ×1.35 while
-   hooked; 100 = banked).
+4. ~~Kill THEN reel~~ **SUPERSEDED by correction #8: THE REEL IS
+   CUT.** Win = kill. Boss to 0 → the loot from the starhooking
+   drops/banks → the dive is over. No reeling phase exists; the
+   prototype's reel state machine and its tuning rows
+   (calm/thrash, +28/s, decay) do not port.
 5. **The deep edge replaces depth bands** — depth became spatial:
    the far strip strains the line.
 6. **Every cast is a fight** — the big-hook-only escalation did
@@ -140,7 +140,15 @@ refining happens on the real thing, in Green hands, not on paper.
    behaves" (the prototype's STARHOOK SELF tree is the
    reference). Scheduling stays post-class-trees unless the
    designer calls it earlier.
-7. **THE ARENA PART HAS NO NAME — at all** (the designer, twice):
+7. **THE REEL IS CUT** (the designer, ~13:05: "there should be no
+   reeling in. when you kill the boss you get the loot from the
+   starhooking and its over"): the win is purely the KILL — boss
+   to 0, loot lands, dive over. Overrides the prototype's reel
+   finisher AND the canonical paragraph's "or by out-reeling"
+   clause. The LOSS side stands unchanged: the line's three
+   lives, each hard to lose — bullets and the rift's pull strain
+   it, three snaps = dive lost.
+8. **THE ARENA PART HAS NO NAME — at all** (the designer, twice):
    the boss-fight part of starhooking is not a named thing — no
    coined title, and no coined replacement either. It is just
    part of starhooking: write "the arena", "the galaxy view",

@@ -1966,6 +1966,21 @@
         "notes/reference/starhook-proto2/INDEX.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0118",
+      "ts": "2026-08-02T10:39:11Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE REEL IS CUT (the designer's word): win = kill, loot lands, dive over; the loss side (three line lives) stands - amends the sl-0115 shape via INDEX",
+      "detail": "The designer (~13:05): 'there should be no reeling in. when you kill the boss you get the loot from the starhooking and its over.' THE WIN IS PURELY THE KILL: boss to 0 -> the loot from the starhooking drops/banks (fish per the biome tables, gold, and - come the gear seam - rod/equipment drops) -> the dive is over. No reeling phase exists; the prototype's reel state machine and all its tuning rows (calm/thrash, +28/s, decay, hooked multipliers) DO NOT PORT. Overrides the prototype DESIGN.md reel finisher AND the canonical paragraph's 'or by out-reeling' clause. THE LOSS SIDE STANDS UNCHANGED: the line's three lives, each hard to lose (the deck tap) - bullets and the rift's pull strain the line; three snaps = dive lost, wake at the shore. The INDEX corrections block (now items 1-8) carries this; the sl-0115 paste reads INDEX first, so the amendment rides automatically. Also recorded: the arena part of starhooking carries NO name of any kind - plain descriptions only, in every surface.",
+      "refs": [
+        "sl-0115",
+        "sl-0117",
+        "notes/reference/starhook-proto2/INDEX.md"
+      ],
+      "by": "agent"
     }
   ]
 }

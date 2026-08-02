@@ -202,6 +202,12 @@ full-game later):
   mid-S1): fishing v1 → STARHOOK v1 — the rift fight replaces the
   fishing minigame (capture + dispositions in
   notes/2026-08-02-starhook-idea.md); foraging v1 unchanged.**
+  **S1 ENGINEERING COMPLETE 2026-08-02** (six seams + the
+  parallel battery in one overnight, game 91b1037..b2167a2, all
+  swept + pushed; the post-S1 Green-days era — interact verb, UI
+  family, inventory, the starhook soul re-route — lives in the
+  sync log sl-0106–0119 and notes/reference/starhook-proto2/
+  INDEX.md, which is the starhook LAW).
   **Gate:** the designer lives in Green a few days — the
   three sentences' first honest read while fixing is cheap.
 - **S2 — DRY REACH · S3 — WETLANDS · S4 — SNOW COUNTRY:** the same

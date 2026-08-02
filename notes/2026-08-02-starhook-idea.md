@@ -200,7 +200,18 @@ sl-0110 (THE SOUL SEAM) + sl-0111 (water fishing base). Lesson
 recorded: reference media rides feature asks AS LAW, not context
 — the brick-room miss is the precedent.
 
-## Status: ROUTED INTO S1 (sl-0105 — the designer's word)
+## Status: SUPERSEDED AS LAW — see notes/reference/starhook-proto2/INDEX.md
+
+This file is the idea's HISTORY (capture → assessment →
+dispositions → canonical paragraph). The LIVING LAW is the
+prototype reference folder's INDEX.md, whose corrections block
+(the designer's word, 2026-08-02) overrides everything here where
+they touch: land-only, the small bait fighter as the star, the
+two-portal line, three hard line lives, WIN = THE KILL (the reel
+is cut), no coined names for any part. The build ask is
+sl-0115-as-amended (sl-0117/0118).
+
+## Historical status: ROUTED INTO S1 (sl-0105 — the designer's word)
 
 sl-0105 OPENED (2026-08-02 ~02:36 local): the designer's word —
 "we would replace fishing with this" — un-parks the kernel and

@@ -14,9 +14,82 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z; the fresh chat's job is THE TALK)
+# CURRENT HANDOFF — 2026-08-02 (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
 
-**This section supersedes everything below it.** The full story is
+**This section supersedes everything below it.** The full story:
+`notes/sessions/2026-08-02-slice-s1.md` (the S1 overnight + the
+Green-days morning) and `notes/reference/starhook-proto2/INDEX.md`
+(the starhook law — its corrections block is the designer's word
+and overrides everything older, including the prototype's own
+docs). The fresh planning session's first moves, in order:
+
+1. Read this section → the session file's PLANNING SWEEP sections
+   → the starhook INDEX.
+2. Verify the board: planning tree clean + synced to origin; game
+   main pushed through S1 complete (91b1037..b2167a2) + the
+   UI/interaction family (69cef0c, bccfae6) + housekeeping
+   (e242d00); sync log at 119 entries / 0 dupes, tail sl-0119 —
+   re-run the dupes check yourself.
+3. ARM THE SWEEP WATCHER — persistent Monitor, events on change
+   only: game HEAD moves · the S1 session-note file changes ·
+   tools/sync_log.json changes · a ~6-min GitHub push check
+   (git ls-remote origin main vs last seen).
+4. Stand by for the designer; sweep every seam that lands.
+
+**THE BOARD:** S1 Green Country engineering is COMPLETE and swept
+whole (six seams + the parallel battery in one overnight; roster
+8→26 defs, battery 41 rows / 79 runs, 30 fixed gates, goldens at
+SERIAL 21, every seam ALL GREEN, all GitHub-verified). The chapter
+gate is LIVE: the designer is in their Green days — S2 does not
+start without their word. THE QUEUE (three pastes cut, in the
+designer's hands, undropped as of this handoff): sl-0115-as-
+amended THE STARHOOK SOUL SEAM (the INDEX is its law: land-only,
+the small BAIT FIGHTER is the star, the two-portal line, the
+rift's pull, LINE = HP = 60 with three hard lives, WIN = the kill
+— the reel is CUT, no coined names anywhere) · sl-0116 THE
+INVENTORY (the bag; floor-is-the-inventory retired; equip is a
+decision in the C screen) · sl-0119 the C-sheet offscreen fix
+(screen-anchor + clamp, two-scale evidence). NEXT-AFTER-SOUL: the
+GEAR SEAM (rods + very simple equipment DROP from starhook
+bosses, level-gated — route it when the soul lands). PARKED:
+sl-0111 water fishing (starhooking has nothing to do with water —
+revive only on the designer's word). DEFERRED: the small
+behavior-first starhook tree (post-class-trees), node
+drift/despawn, vendors/mounts (fish are SPECIES-currency,
+recorded), rifter cosmetics growth. GREEN-DAYS MATERIAL:
+`notes/2026-08-02-green-days-round-list.md` is the designer's
+agenda; the deck register holds 55 items (45 done / 10 open —
+fresh-gated feel cards + the tester gonogo open BY DESIGN; the
+loop-bar card a1zgppav open with a standing close suggestion).
+DESIGNER-OWED: the minute-one O/Esc both-ways check · the
+fresh-hands cards when rested · Green days proper · starhook
+refinement rounds when the soul lands.
+
+**LAWS THIS ERA ADDED:** reference media rides feature asks AS
+LAW (the brick-room precedent) · parts of features get NO coined
+names — plain descriptions only, and a retired word is purged
+completely with no replacement coinage (it took three tries; do
+not repeat it) · a re-baseline is not done until the full gate
+runs on it · no chaser phase in a one-room arena · packs beyond
+aggro of the previous room's fight zone · turn-in wins over
+accept · the interact verb is general-purpose (F; E = autofire;
+C = sheet; O/Esc = the one pause menu).
+
+**THE SEAT'S CONVENTIONS:** sweep per seam (verify commits +
+GitHub + dupes → annotate the session note → commit → push →
+plain-words report to the designer); pastes labeled "→ GAME repo"
+ready-to-copy; designer words recorded verbatim, typos preserved;
+every tunable [T]; NO feel verdicts from agents — the designer's
+hands rule; the deck loop (PASTE FROM AI → taps → EXPORT JSON →
+sweep into the register). This machine profile carries the
+planning-seat memory files (project map · the designer ·
+conventions) — they auto-recall in a fresh chat.
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
+
+**Superseded by the section above; kept as history.** The full story is
 `notes/sessions/2026-07-31.md` (the fresh-account marathon; its tail
 HANDOFF mirrors this section). **The fresh session's first moves, in
 order:**

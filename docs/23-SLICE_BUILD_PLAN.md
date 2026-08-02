@@ -210,6 +210,9 @@ full-game later):
   INDEX.md, which is the starhook LAW).
   **Gate:** the designer lives in Green a few days — the
   three sentences' first honest read while fixing is cheap.
+  **The gate's bar is RULED (2026-08-02) — see THE WAY-FORWARD
+  RULING below: Green days end at SYSTEMS-COMPLETE, not
+  Green-perfect.**
 - **S2 — DRY REACH · S3 — WETLANDS · S4 — SNOW COUNTRY:** the same
   chapter recipe (zone group + boss/es + dungeon + ~5 quests + tier
   bracket), faster each time; Snow adds the T5 capstone pieces and
@@ -217,6 +220,34 @@ full-game later):
 - **S5 — THE BAR:** the designer's week living in the whole small
   world → 2–3 warm watched first-touches → Gate 1 verdict per
   CORE-55 as amended.
+
+## THE WAY-FORWARD RULING (designer-agreed 2026-08-02 — governs the S1→S5 arc)
+
+Refinement is TWO different things with two different right times
+(planning's recommendation; the designer: "yeah i agree"):
+
+- **Structural refinement — missing systems, wrong shapes — happens
+  NOW, in Green.** Green is the template: anything structural fixed
+  here is built correctly three more times for free; anything broken
+  carried forward duplicates into four zones and gets re-fixed four
+  times. The designer's own bar: "we should get everything
+  funcitoning like we do starhookingf bwefore we move on".
+- **Number tuning + polish waits for ONE whole-game refinement pass
+  after S4** — the 1–30 curve runs across all four zones and only
+  tunes when the whole curve exists. Green-days tuning goes only as
+  deep as "roughly right where it blocks fun"; every number stays
+  [T] meanwhile.
+
+**The S2 gate bar, concrete: Green days end at SYSTEMS-COMPLETE,
+not Green-perfect** — the designer can play Green start to finish
+and never hit "this system doesn't exist yet." The known
+systems-complete queue: the starhook soul seam (sl-0115, INDEX as
+law) · the inventory (sl-0116) · the C-sheet fix (sl-0119) · the
+gear seam (routes when the soul lands) · simple class trees v1
+(the slice-tree scope below) · whatever the designer's Green notes
+surface as missing systems. Then S2–S4 run at full speed on stable
+systems (content stamping), then THE REFINEMENT PASS (whole game,
+whole curve) leads into S5's bar week.
 
 ## Deferred by name (the tripwire has teeth)
 

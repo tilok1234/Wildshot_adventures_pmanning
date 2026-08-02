@@ -1899,6 +1899,25 @@
         "sl-0109"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0114",
+      "ts": "2026-08-02T06:05:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE UI/INTERACTION FAMILY SHIPPED (sl-0112 + sl-0106 + sl-0109 per the sl-0113 order) - two sealed seams; sl-0110/0111 untouched on hold",
+      "detail": "TWO SEALED SEAMS with cause (A = the input-format + sim semantics, provable alone; B = the screens on top). SEAM A - THE INTERACT VERB (game 69cef0c; SERIAL 21, WSR VERSION 2): one new recorded input interact (F [T] - the ask's E is the ratified autofire toggle; remappable), a tick-accurate edge through sampler/replay/bot alike; InputFrame 15->16 bytes; v1 replays refuse loudly; goldens re-recorded x10. DELIBERATE HANDS: item walk-over auto-equip RETIRED (gold stays auto); interact takes the nearest eligible drop ONE per press; upgrades-only holds for weapon/armor; the worn-ring press SWAPS (the old ring drops EXACTLY where the new one lay, position-pinned). QUESTS: walk-up auto-accept/turn-in RETIRED - givers answer the press, turn-in wins over accept; MULTI-ACTIVE re-pins the seam-5 one-active law deliberately (cap 5 [T]; taken mask + per-quest progress array; kills/pickups count for every carried errand at once); profiles key taken+progress BY ID with a free migration for the pre-interact active_quest_id (the designer's live mid-quest save carries). Ground labels carry the [F] cue. Tests re-authored as deliberate re-baselines (standing-never-accepts/-turns-in/-equips negatives, the cap, one-action-per-press, interact-on-nothing). Gate ALL GREEN 13.5 min. SEAM B - THE UI FAMILY (game bccfae6): THE CHARACTER SHEET + QUEST LOG (C [T], read-only, never pauses) - rows from PURE MODEL functions over live state, screen==recompute parity EXACT BY CONSTRUCTION and test-pinned (30th fixed step + CI row; perturbation tracking incl. the worn Hide naming itself; quest-log mirroring with reason tags + the hands/done line; legacy negative); one item grammar; the starhook row rides from the profile. THE HUD RELAYOUT: hp+mana = a SHORT top-right stack - the reported full-width look was the bars stretching to the longest HUD text label in the shared VBox, fixed STRUCTURALLY by splitting stacks; corner minimap top-right beneath them (ui-scale-aware inset); text readouts bottom-left; PAUSE + OPTIONS = ONE MENU on BOTH O and Esc (the driver keeps the pause bit per CORE-31, pause_locked owners keep priority, the menu rides pause_changed); the fps/spikes readout behind an options toggle [T] default off. Windowed evidence: reports/hud_relayout_audit.png + character_sheet_audit.png. The O/Esc-both-ways negative is designer-hands material (main cannot compile under --script, the recorded limit). Gate ALL GREEN 13.1 min; smoke hash unchanged; battery byte-identical both seams. HOLD honored: zero time on the built rift; sl-0110/0111 await the prototype clip. Every key/layout/rate [T]; all feel = Green days.",
+      "refs": [
+        "sl-0113",
+        "sl-0112",
+        "sl-0106",
+        "sl-0109",
+        "game@69cef0c",
+        "game@bccfae6",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

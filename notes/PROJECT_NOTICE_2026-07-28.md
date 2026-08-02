@@ -1,5 +1,10 @@
 # Wildshot — Project Notice: Biggest Issues (2026-07-28)
 
+> **HISTORICAL (banner added 2026-08-02).** This is the 2026-07-28
+> snapshot. Its P1 frame — the stranger-tester pipeline — was retired
+> by the Gate-1 rewrite (docs/19, 2026-07-30); the era moved on to the
+> slice build (docs/23). Kept as the record of that day's issues.
+
 Snapshot after the full seven-repo assessment. Engineering is ~10 weeks ahead
 of the docs/12 schedule (M0–M6 complete, M7 done except export.ps1). Every
 issue below is what stands between here and Gate 1, ranked by risk.

@@ -85,9 +85,10 @@ recording is not optional diligence but part of the job.
 | Tech debt | the owning repo's ledger (game: `notes/TECH_DEBT_LEDGER.md`) | that repo's agent |
 | Mechanical evidence (proofs, batteries, reports) | the producing repo's `reports/` | tooling; never re-homed, only linked |
 
-Cross-references are by path/id, never by copying content. Doc 16's
-prose pin table becomes a *rendering* of the lock file once this doc is
-accepted (regenerate, don't hand-edit).
+Cross-references are by path/id, never by copying content. *(2026-08-02:
+doc 16's prose pin table was ABOLISHED at the seven-repo audit — doc 16
+now carries ownership + authority + rules only and never restates pins;
+the lock file is the one pin home, with no rendered copies anywhere.)*
 
 ## 3. Session rituals (every agent, every repo)
 

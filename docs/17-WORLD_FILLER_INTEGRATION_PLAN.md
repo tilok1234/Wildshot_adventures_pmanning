@@ -17,6 +17,18 @@ authorization — this doc plans; the scope ladder in §5 gates building.
 > remains the game-side consumption target post-Gate-1; format 2 is not
 > consumed by anything in this plan.
 
+> **EXECUTED — supersession notice, 2026-08-02 (the doc-12 pattern).**
+> §4/§5's tripwire ("no game-side world_filler code before Gate 1") is
+> SPENT — executed end to end: the content pack shipped (release
+> `wildshot-overworld-pack-dusk-content-c0bf28638648`), intaken as the
+> FIRST game←world_filler pin (delivery sl-0093 / intake sl-0094, game
+> 447b681), the designer's feel verdict PASSED (sl-0099), and the
+> game-side IMPORTER is LIVE since S0 seam 2 — placements/territories
+> read directly as spawn tables; docs/20 records the arc COMPLETE end
+> to end. Next pack version: the staged-not-fired Puppeteer directed
+> round (before S4 Snow). The ladder below stands as history; current
+> pins: `tools/ecosystem.lock.json`.
+
 ## 1. What world_filler is (state as read, 2026-07-29)
 
 The **world director**: reads a finished WorldForge world pack plus a

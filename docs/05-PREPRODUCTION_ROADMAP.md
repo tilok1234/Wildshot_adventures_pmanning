@@ -28,6 +28,13 @@ CORE-21 through CORE-30 now define:
 
 ## Stage 2 — Solo combat laboratory
 
+> *(2026-08-02: Stage 2 EXECUTED AND SUPERSEDED — the lab was built
+> ~10 weeks ahead of schedule, then the Gate-1 rewrite (docs/19)
+> retired the recruited-cycle/October-vacation-sprint frame and
+> lifted the zero-reward law for loop work; the world-is-the-test
+> ruling (sl-0098) made the built slice the vehicle. Kept as the
+> design-level record.)*
+
 **Build plan: `12-PHASE_A_LAB_BUILD_PLAN.md` (approved 2026-07-27)** — architecture bundle, v0 tuning hypotheses, milestones M0–M8 + M-FX with the pre-vacation/vacation split and slip ladder. The plan implements everything below; this stage description remains the design-level statement.
 
 CORE-31 through CORE-36 and CORE-44/50/51/53 fully specify this stage. Implement:
@@ -129,7 +136,7 @@ The slice should demonstrate the full promise in miniature:
 - learning physical routes and unlocking one selective teleport destination or permanent shortcut;
 - returning visibly stronger and more recognized.
 
-The full content bill is decided in CORE-52 (Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, one zone + hub, 8–10 enemy types, complete portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, one authored secret, ~3–5 hours plus repeatable farm).
+The full content bill is decided in CORE-52 (Archer, ~cap 10, 4 frames × ~3 tiers, 4 ability items, one zone + hub, 8–10 enemy types, complete portal→dungeon→boss→unique chain, main-quest slice with one level gap, 10–15 side quests, one faction set, one authored secret, ~3–5 hours plus repeatable farm). *(2026-08-02: that bill is SUPERSEDED — Slice v0.1 (docs/23, ACTIVE) ships all three classes across four zones at cap 30; see the CORE-38/52 amendments. This stage stays as the pre-worldshape record; Gate 2 itself is unchanged.)*
 
 **Gate (CORE-55 Gate 2):** Voluntary post-completion boss farming; dry streaks read as dedication with the attempt counter; the level gap reads as invitation; explainable-death rate stays high at density; builds feel distinct; and slice production velocity extrapolates to a viable full-game plan under the CORE-20 constraints. Failure means scope cuts in the planned order. Pre-registered order (2026-07-27): slice-as-v1.0 → shrink the content bill (capacity-raise moot after PROD-01). "Viable" is defined (2026-07-27): the remaining full-game bill at measured slice velocity extrapolates to ≤ 5 years at the then-current PROD-01 floor (see the effort model below and the decision register).
 

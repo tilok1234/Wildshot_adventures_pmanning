@@ -12,6 +12,19 @@ Decision Register, Tooling contracts.
 contract drafts (pack layout, manifest, walkability grid, CLI, authored
 placement extension). This doc is the game-side view.
 
+> **EXECUTED — supersession notice, 2026-08-02 (the doc-12 pattern).**
+> This plan's holds are SPENT: §3's "Nothing lands in the game repo
+> before Gate 1" and §4.3's post-Gate-1 importer timing are history —
+> Gate 1 itself was rewritten (docs/19) and the world-is-the-test
+> ruling (sl-0098) made the built slice the vehicle. The game repo
+> consumes AND renders WorldForge worlds: b65 intaken 2026-07-30 (game
+> 5cb0e3b, first release-transport intake), superseded in place by
+> **b77, intaken 2026-08-01 — the dusk overworld the slice plays on**
+> (canopy render proven on screen; the designer's navigation walk
+> ACCEPTED, sl-0097). Importer and consumption halves are both live.
+> The record below stands as history; current pins:
+> `tools/ecosystem.lock.json`.
+
 ---
 
 ## 1. Why now

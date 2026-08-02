@@ -1,16 +1,30 @@
 # Operator Queue Snapshot
 
-> **PERISHABLE — snapshot 2026-07-31 account-switch seam (THE ROAD
-> ARC CLOSED: TileForge cut `@e2699cc` then the arc-closing
-> `@9b8b2a2` with the hand-authored roadjoint family; WorldForge
-> shipped b75 — street band, no diagonal roads, de-braided — and
-> the 9b8b2a2 re-pin round is the next send — audit menu at
-> `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This page is
-> the paper mirror of the
-> Decision Deck and the open designer-owed items in the records. It
-> goes stale by design; **any session that changes the queue refreshes
-> this file + date and rebuilds the PDF** (`python3 build_pdfs.py`).
-> The deck itself is always the live truth.
+> **RETIRED 2026-08-02 (was: PERISHABLE snapshot, 2026-07-31).** The
+> refresh rule below went unmet for two eras while the project moved:
+> the WF re-pin it says to send EXECUTED 2026-07-31 (sl-0058→0061);
+> the Loop acceptance it headlines DISSOLVED into the
+> world-is-the-test ruling (sl-0098, b65 retired with honor); Green
+> days opened, starhook v2 landed. A paper queue mirror cannot keep
+> this project's pace — the repo-7 lesson applies (status lives in
+> ONE place): **the live board + designer-owed list is
+> `docs/03-HANDOFF.md` CURRENT; the deck register is the decision
+> truth.** No future session refreshes this file; the body below
+> stays as the 2026-07-31 era's record. (OPERATOR_MANUAL and the
+> quick card beside this file are marked digests — regenerate only
+> on the designer's ask; the era has added laws since.)
+
+> *(Original banner, kept as history:)* **PERISHABLE — snapshot
+> 2026-07-31 account-switch seam (THE ROAD ARC CLOSED: TileForge cut
+> `@e2699cc` then the arc-closing `@9b8b2a2` with the hand-authored
+> roadjoint family; WorldForge shipped b75 — street band, no diagonal
+> roads, de-braided — and the 9b8b2a2 re-pin round is the next send —
+> audit menu at `notes/ROADMAP_STATE_AUDIT_2026-07-31.md`).** This
+> page is the paper mirror of the Decision Deck and the open
+> designer-owed items in the records. It goes stale by design; any
+> session that changes the queue refreshes this file + date and
+> rebuilds the PDF (`python3 build_pdfs.py`). The deck itself is
+> always the live truth.
 
 Items are grouped by **where you can actually do them**. Today's
 world-shape session record:

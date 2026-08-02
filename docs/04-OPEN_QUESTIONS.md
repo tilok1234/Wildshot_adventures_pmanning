@@ -7,7 +7,7 @@
 
 - All 55 Part I core questions are answered (see `08-DECISION_REGISTER.md` for status per question; `notes/INTERVIEW_STATE.md` for the live position).
 - CORE-14 (optional two-player co-op) remains provisional and prototype-gated on the Phase E network test.
-- The interview proceeds to Part II modules (combat and controls first), alongside building the Phase A combat laboratory.
+- *(2026-08-02)* The interview era is OVER: the Phase A lab was superseded by the Gate-1 rewrite (docs/19) and the world-is-the-test ruling (sl-0098); rulings now land as designer word during the Slice v0.1 build (docs/23 ACTIVE; docs/22 closed the stat/progression numbers — see docs/08's updated do-not-infer list).
 
 ## Test-gated decisions awaiting prototypes [T]
 

@@ -1,4 +1,4 @@
-# 2026-08-02 — STARHOOK (designer idea capture, PARKED)
+# 2026-08-02 — STARHOOK (designer idea capture — HISTORY: built the same day as sl-0115; the starhook INDEX is law)
 
 Captured by planning from the designer's ~01:50 message (the old
 planning seat died mid-answer — account swap; this capture is the

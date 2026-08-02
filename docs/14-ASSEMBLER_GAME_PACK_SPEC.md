@@ -15,7 +15,7 @@ pattern: raw drop in `assets/`, validating importer, frozen contract.
 
 ---
 
-## 0. Pending §2.14 amendment (designer to approve in docs/12)
+## 0. §2.14 amendment — APPLIED (docs/12 Amendment v2; heading truthed 2026-08-02, was "Pending … designer to approve")
 
 > **Amendment v2 (proposed):** the 8-bit sprite assembler's game-pack
 > export supersedes the Sprite Forge full pack as the actor/effects

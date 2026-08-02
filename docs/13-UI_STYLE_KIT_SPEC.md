@@ -4,7 +4,7 @@
 **Status:** Pre-registered optional art task, designer-committed 2026-07-27 ("i could make ui style kit i suppose"). **Ranked strictly behind M-FX (the effects pack)** — M-FX is on the Gate 1 critical path; UI chrome is not. If kit evenings would eat M-FX evenings, the kit waits and the lab ships engine-default grey UI (acceptable — zero Gate 1 evidence depends on UI looks).
 **Consumer:** the game repo wires the kit into a Godot Theme resource at M3 (options screen) and M4 (HUD, death recap); M8 tester start screen reuses the same pieces. If the kit is absent at M3, Godot defaults ship and the kit drops in later as a pure swap.
 **Contract rule (same as Sprite Forge / TileForge):** piece ids, file names, 9-slice margins, and manifest shape are FROZEN once the game repo consumes v1. Polish passes change pixels, never the contract.
-**2026-08-01 stamp:** the kit shipped and is consumed; this 12×12 chrome contract stands unchanged. The ICON SET arrived as its own pack (docs/21, `wildshot-icons-proto` — 16×16, separate manifest); §3's out-of-scope list below remains correct — those screens are still Part II.
+**2026-08-01 stamp:** the kit shipped and is consumed; this 12×12 chrome contract stands unchanged. The ICON SET arrived as its own pack (docs/21, `wildshot-icons-proto` — 16×16, separate manifest). **2026-08-02 truth-up:** §3's out-of-scope hold is no longer current — the slice era reached those screens: inventory + the equipment pane routed (sl-0116/0128), loot-bag panel (sl-0129), bank (sl-0130), vendors v1 (sl-0131), the C sheet is the live quest log with the quest-pull kit building (sl-0121), and boss + line bars are live in play. Collection book and the skill-tree screen remain future. New surfaces reuse this kit's chrome + the icon pack under the frozen contract.
 
 ---
 
@@ -40,7 +40,7 @@
 
 Tabs (selected/unselected styleboxes) for the options categories · dropdown (reuses button states + `icon_arrow_down` + a popup panel + item-hover stylebox) · vertical scrollbar (track + grabber) · LineEdit normal/focus (comments box, seed field) · tooltip panel · `icon_export.png`, `icon_replay.png`.
 
-**Explicitly OUT of kit scope (post-Gate 1, interface module):** map screen, minimap, collection book, inventory/equipment, skill tree, quest journal, vendor/crafting screens, boss bars. Do not design these yet — they sit on undecided Part II questions.
+**Explicitly OUT of kit scope (post-Gate 1, interface module):** map screen, minimap, collection book, inventory/equipment, skill tree, quest journal, vendor/crafting screens, boss bars. Do not design these yet — they sit on undecided Part II questions. *(2026-08-02: this hold is SPENT for inventory/equipment, quest log/tracker, vendor, bank, and boss bars — routed or live in the slice (sl-0116/0128/0129/0130/0131/0121). Map screen, minimap, collection book, and the skill-tree screen remain future.)*
 
 ## 4. Manifest (machine-readable, ships in the kit root)
 

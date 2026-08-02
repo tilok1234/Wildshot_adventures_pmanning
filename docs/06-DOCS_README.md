@@ -1,10 +1,10 @@
 # Wildshot Adventures — Project Documentation
 
-**Documentation snapshot:** 2026-07-26  
-**Project stage:** Guided concept definition / early pre-production  
-**Current questionnaire position:** **Part I complete — CORE-01 through CORE-55 all answered** (CORE-14 remains provisional/test-gated). The interview proceeds to Part II modules alongside the Phase A combat laboratory. (For the live position, `notes/INTERVIEW_STATE.md` is authoritative.)
+**Documentation snapshot:** 2026-07-26; header truthed + map extended 2026-08-02.  
+**Project stage:** Slice v0.1 BUILD — the world is the test (S0 + S1 engineering complete, Green days open). The live board is `docs/03-HANDOFF.md`'s CURRENT section.  
+**Current questionnaire position:** **Part I complete — CORE-01 through CORE-55 all answered** (CORE-14 remains provisional/test-gated). The interview era is over; rulings now land as designer word during the build (`docs/22` is the stat authority, `docs/23` the slice plan). `notes/INTERVIEW_STATE.md` is the interview-era record.
 
-This documentation set lives in the project git repository, which is the source of truth (see `notes/INTERVIEW_STATE.md` for the live position and note-taking protocol). The July 21 handoff is retained as a historical provenance record. The living documents integrate all approved Part I answers — CORE-01 through CORE-55 — as of 2026-07-26.
+This documentation set lives in the project git repository, which is the source of truth (the live position: `docs/03-HANDOFF.md` CURRENT; the interview-era record: `notes/INTERVIEW_STATE.md`). The July 21 handoff is retained as a historical provenance record. The living documents integrate all approved Part I answers — CORE-01 through CORE-55 — as of 2026-07-26, amended in place as later rulings land.
 
 ## Source hierarchy
 
@@ -40,7 +40,18 @@ When documents disagree, use this order:
 - `09-SYSTEMS_MAP.md` — system responsibilities, dependencies, and critical interactions.
 - `10-LIVING_DESIGN_QUESTIONNAIRE.md` — authoritative detailed interview record.
 - `11-HANDOFF_2026-07-21_HISTORICAL.md` — unchanged July 21 provenance source.
-- `12-PHASE_A_LAB_BUILD_PLAN.md` — approved Phase A lab build plan (2026-07-27): Godot architecture bundle [P], v0 tuning hypotheses [T], 12 milestones with the vacation-sprint split, slip ladder, session workflow.
+- `12-PHASE_A_LAB_BUILD_PLAN.md` — approved Phase A lab build plan (2026-07-27): Godot architecture bundle [P], v0 tuning hypotheses [T], 12 milestones with the vacation-sprint split, slip ladder, session workflow. (Executed ahead of schedule; tester prose superseded — see its Gate-1 banner.)
+- `13-UI_STYLE_KIT_SPEC.md` — UI chrome kit contract (shipped + consumed; frozen ids, 12×12 chrome).
+- `14-ASSEMBLER_GAME_PACK_SPEC.md` — the sprite-assembler enemy-pack contract (pack intaken; pins in the lock file).
+- `15-WORLDFORGE_INTEGRATION_PLAN.md` — WorldForge→game integration plan (EXECUTED — see its banner; b77 is the live overworld).
+- `16-ECOSYSTEM_MAP.md` — seven-repo ownership, authority docs, and cross-repo rules (never status or pins).
+- `17-WORLD_FILLER_INTEGRATION_PLAN.md` — world_filler→game integration plan (EXECUTED end to end — see its banner).
+- `18-AGENT_SYNC_PROTOCOL.md` — the cross-repo sync protocol: sync log + ecosystem lock (ACCEPTED 2026-07-30).
+- `19-LOOP_MILESTONE_SPEC.md` — the Gate-1 rewrite: the loop bar + world-is-the-test (deck-ratified 2026-08-01).
+- `20-WORLD_CONTENT_ARC.md` — the world_filler content arc (COMPLETE end to end).
+- `21-ICON_SET_PLAN.md` — the icon-set plan (pack delivered, WIRED since S0 seam 4).
+- `22-STAT_SYSTEM.md` — **THE STANDING STAT AUTHORITY** (all nine blocks ruled 2026-08-01).
+- `23-SLICE_BUILD_PLAN.md` — **Slice v0.1 build plan (ACTIVE — the era's governing doc).**
 
 ## Current integration summary
 

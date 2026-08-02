@@ -67,8 +67,12 @@ pastes for the other repos. Nothing here is lost if a chat dies.
 ## 2. STILL OWED planning-side (next session picks up here)
 
 Ranked. None are blocking; all are truth-up work. **Progress
-(2026-08-02 evening, the fresh seat): items 1–4 DONE + docs/07's
-slice-scope nit from item 9; 5–9 remain.**
+(2026-08-02 evening, the fresh seat): ALL NINE ITEMS DONE — the
+planning-side owed list is CLEAR. Two commit waves (1–4, then
+5–9), each verified + pushed; the sl-0121 seam sweep landed
+between them. Remaining from this audit: only §3's six per-seat
+pastes (designer hands them over as each seat opens) and the
+optional operator manual/quick-card regeneration (on ask).**
 
 1. **DONE (evening seat).** **`docs/08-DECISION_REGISTER.md`** — CORE-25 row still says "the four
    current design pillars remain the only pillars" (SIX since
@@ -100,23 +104,23 @@ slice-scope nit from item 9; 5–9 remain.**
 4. **DONE (evening seat).** **`docs/09-SYSTEMS_MAP.md` line 103** — "One small optional pet may
    provide a modest passive benefit" → superseded 2026-07-26 (pets are
    purely cosmetic, no benefit of any kind).
-5. **Executed-plan banners** (the doc-12 pattern): `docs/15` §3/§5
+5. **DONE (evening seat — top banners, doc-12 pattern).** **Executed-plan banners** (the doc-12 pattern): `docs/15` §3/§5
    ("nothing lands in the game repo before Gate 1" — b65…b77 all
    intaken) and `docs/17` §4/§5 ("no game-side world_filler code before
    Gate 1" — executed end to end).
-6. **`docs/13-UI_STYLE_KIT_SPEC.md`** — its 2026-08-01 stamp says "§3's
+6. **DONE (evening seat).** **`docs/13-UI_STYLE_KIT_SPEC.md`** — its 2026-08-01 stamp says "§3's
    out-of-scope list remains correct — those screens are still Part
    II"; inventory/equipment/quest-log/vendor/bank surfaces are now live
    or routed.
-7. **`notes/INTERVIEW_STATE.md`** — top "ALWAYS CURRENT" block is one
+7. **DONE (evening seat — new 2026-08-02 top block, era declared over; next-steps menu marked SPENT).** **`notes/INTERVIEW_STATE.md`** — top "ALWAYS CURRENT" block is one
    era behind (SERIAL 14, stat talk "about to answer"); "Next steps"
    still offers "start building the Phase A combat laboratory".
-8. **`notes/operator-guide/OPERATOR_QUEUE_SNAPSHOT.md`** — marked
+8. **DONE (evening seat — RETIRED, not refreshed: the refresh rule failed two eras running; the live board is doc 03 CURRENT + the deck register; body kept as the era's record; manual/quick card stay as digests, regenerate on ask).** **`notes/operator-guide/OPERATOR_QUEUE_SNAPSHOT.md`** — marked
    PERISHABLE with a refresh rule that has been violated two eras; its
    "Right now" still says to send the sl-0058 WF re-pin paste and run
    the Loop acceptance. Refresh or retire. (The manual + quick card are
    marked digests; regenerate when convenient — the era added laws.)
-9. **Header/era nits:** `docs/04` line 10, `docs/05` Stage 2 (the
+9. **DONE (evening seat — all nine nits).** **Header/era nits:** `docs/04` line 10, `docs/05` Stage 2 (the
    October vacation lab sprint + retired recruited cycles) and Stage 9,
    `docs/06` header + document map (inventories only docs 01–12 — docs
    13–23 including the ruling authorities are missing), `docs/07`

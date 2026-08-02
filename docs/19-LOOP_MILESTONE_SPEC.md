@@ -6,9 +6,11 @@ conversation, designer present — session record
 2026-08-01** (register `tools/decision_deck_register.json`): the
 Gate-1 rewrite + this spec's four rulings (normal death = run back +
 gold slice; T1–T5 loot + boss-tied uniques; levels/XP in the loop;
-Bone Reliquary King on the proven kit) are all ratified. **The bar's
-final wording is STILL the designer's — its deck card was deliberately
-left open; the draft below stands until their words replace it.**
+Bone Reliquary King on the proven kit) are all ratified. **The bar IS
+worded — the designer's own three sentences, ruled 2026-08-01 (sl-0082;
+§1 below). Deck card a1zgppav remains open only as the register
+formality (standing suggestion: close-with-note). Status truthed
+2026-08-02; this block previously said the wording was still owed.**
 **Authority:** planning repo. The game repo consumes this spec
 (ask sl-0025); it never amends it. Supersedes docs/12's tester-cycle
 prose as the forward scope (docs/12 §banner; docs/08 CORE-53/55

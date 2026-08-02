@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "status": "ACTIVE — doc 18 ACCEPTED 2026-07-30 (Decision Deck register). Written during intakes and mainline rulings per doc 18 §10; any mismatch between this file and reality is an automatic incident.",
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "repos": {
     "planning": {
       "github": "tilok1234/Wildshot_adventures_pmanning",
@@ -163,6 +163,14 @@
       "sourceCommit": "bf6269ca6fc07b3d95a826c95ec6c9c29c6daf53",
       "intake": "2026-08-01",
       "note": "Delivery sl-0089, intake sl-0092 - the assembler's FIRST release and the first consumer-side proof of its sl-0045 publish gate: tag == main tip (compare identical), manifest cleanPushedSource independently confirmed (the sl-0001/b7eae05f class closed end-to-end). GH digest == local zipSha256 548e0c96... == the delivery record. Manifest ships per-file sha256s - 69/69 verified at intake + 32/32 character cross-checks (verified, not generated); passport pins manifest.json. Fixed gate tools/validate_npc_pack.py (21st pretester step + CI row), negative-tested. Scale vs the enemy pack: IDENTICAL treatment (cell 24 @ 1x, same direction order, same rows=dirs/cols=anims semantics; anim superset with real cast/death). Wiring hold LIFTED 2026-08-01 (sl-0098) and WIRED at S0 seam 4 (game 5ad9dbb, 2026-08-01): all 32 NPCs STATIONED in settlements incl. the givers at their slot cells; interactable since the interact era (sl-0112); NPC anim desync routed sl-0132. Game commit 9192cbf."
+    },
+    {
+      "consumer": "game",
+      "producer": "menu workbench (designer-built external tool; the icon-forge class — tool-source push owed same as sl-0083)",
+      "artifact": "Bullet Hell RPG Menu System v2 pack (7 menus x 4 hues + hud/confirm/tooltip surfaces + menu-specs.json AS THE LAYOUT SOURCE OF TRUTH + 20-piece chrome overlay + 470-glyph icon atlas + wildshot_pixel.ttf + the stampede cinematic frame)",
+      "path": "assets/wildshot-ui-v2/ (raw drop; passport with per-file sha256s beside it)",
+      "intake": "2026-08-03",
+      "note": "Delivery sl-0155 (Downloads handoff, zip sha256 F20F907610154E0FB81E065B64B92AD11BFDD81BEA45C938671FF3C64FF315A1, 2,047,892 B; the FIRST export 6BDB0DDD... was superseded pre-intake and never vendored), intake sl-0158, game commit 3240c00 (pushed, planning-verified local+GitHub). Zip verified against the delivery record BEFORE extraction; 56 files re-hashed byte-true post-copy. ICON PARITY: the pack's assets/icons/ is BYTE-IDENTICAL to the wired wildshot-icons-proto (470/470 ids, atlas.png AND atlas.json byte-equal) - deliberately NOT re-vendored; res://icons/ stays the ONE icon source and the parity is re-checked live by the gate. FONT: wildshot_pixel.ttf recorded PROD-03 self-produced (designer-authored; confirm-at-drop flag stands - one designer word closes it). Fixed gate tools/validate_menu_pack.py = 31st pretester step + CI row (passport byte pin both directions, manifest identity/4 palettes/pinned gold anchors, 13 required spec ids, 20 chrome pieces at planning-verified dims + binary alpha, font+license, every png decodes, live icon parity), negative-tested both directions. CHROME CONTRACT: the 20 shipped pieces are a pixels-only overlay over the consumed v1 kit ids (dims = v1 EXACT, planning-verified; the ~20 unshipped ids keep v1 pixels - deliberate partial re-skin recorded in the passport). Captures: character x4 hues good; hud bare-stage + toast absent, accepted (specs are the build truth). THE MENU PASS v2 (sl-0143-0157: nine seams A-I incl. the unique reveal, the interactability sweep, and conditional minimal foraging) builds on this pin; zero sim change at intake (assets .gdignore'd, pretester -SkipBattery ALL GREEN 3.2 min)."
     }
   ]
 }

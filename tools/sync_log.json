@@ -2578,6 +2578,24 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0158",
+        "ts": "2026-08-02T22:22:00Z",
+        "type": "intake",
+        "repo": "game",
+        "target": "planning",
+        "title": "THE v2 UI PACKAGE INTAKEN (game 3240c00, pushed; resolves the sl-0155 delivery into the game): vendored byte-true at assets/wildshot-ui-v2/ + passport; icon parity BYTE-IDENTICAL 470/470 (NOT re-vendored); font recorded PROD-03 self-produced; 31st fixed gate negative-tested; pretester ALL GREEN 3.2 min, zero sim change - THE MENU PASS v2 IS OPEN",
+        "detail": "The game agent opened on the designer's drop (path-read per the amended paste head) and its first acts ran the paste exactly: (1) commit 0a5edd2 ABSORBED THE FLOATING LEFTOVERS (nine repro_*.wsr re-records + the two .uid siblings bank_panel/vendor_panel - flagged four sessions running, now committed); (2) commit 3240c00 THE INTAKE: zip sha256 F20F9076..15A1 verified against the sl-0155 delivery record BEFORE extraction (the first export 6BDB0DDD.. superseded pre-intake, never vendored); vendored raw at assets/wildshot-ui-v2/ (56 files, every copy re-hashed byte-true) + passport with per-file sha256s; ICON PARITY: the zip's assets/icons/ is BYTE-IDENTICAL to the wired wildshot-icons-proto pack (470/470 ids, frame geometry, atlas.png AND atlas.json byte-equal) - NOT re-vendored per the pass routing, the game keeps consuming res://icons/, and the parity claim is re-checked LIVE by the new gate; FONT wildshot_pixel.ttf recorded PROD-03 self-produced (designer-authored per the sl-0155 drop; the confirm-at-drop flag stands in the game session report - one designer word closes it); capture state accepted as delivered (character x4 hues good; hud bare-stage + toast absent -> specs are the build truth); NEW FIXED GATE tools/validate_menu_pack.py = the 31st pretester step + CI row (passport byte pin both directions, manifest identity + 4 palettes + pinned gold anchors, 13 required spec ids, the 20 chrome pieces at planning-verified dims with binary alpha, font + license record, every png decodes, live icon parity), NEGATIVE-TESTED (corrupt byte -> 3 named findings exit 1; deleted file -> 2 named findings exit 1); pretester -SkipBattery ALL GREEN 3.2 min (zero sim change - assets/ .gdignore'd, smoke + goldens x10 prove hashes unmoved; the icon-intake precedent). PLANNING-VERIFIED local AND GitHub (origin main = 3240c00). The lock gains the game<-menu-workbench pin this same sweep. The nine seams (A chrome overlay .. I minimal foraging) now build on this pin; planning sweeps each as it lands.",
+        "refs": [
+            "sl-0155",
+            "sl-0153",
+            "sl-0154",
+            "sl-0156",
+            "sl-0157",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
     }
   ]
 }

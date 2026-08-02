@@ -127,6 +127,22 @@ corrections 1–9).
 > first, splits out rather than stall). THE GATE WORD: when the
 > pass + sweep are IN, the designer STARTS THE GAME AGENT.)*
 
+> **TRUTH-UP 2026-08-03 ~00:30: THE MENU PASS IS RUNNING.** The
+> game agent opened on the drop and its first acts ran the paste
+> exactly (all pushed, origin = **3240c00**, planning-verified):
+> 0a5edd2 ABSORBED THE FLOATING LEFTOVERS (nine repro .wsr + two
+> .uid strays — four sessions closed) · 3240c00 THE INTAKE —
+> **sl-0158** (zip sha-verified pre-extraction, vendored
+> assets/wildshot-ui-v2/ 56 files byte-true + passport, ICON
+> PARITY 470/470 byte-identical → NOT re-vendored, font PROD-03
+> self-produced w/ confirm-at-drop flag standing, 31st fixed
+> gate negative-tested, pretester ALL GREEN 3.2 min, ZERO sim
+> change). **THE LOCK carries the game←menu-workbench pin**
+> (same-sweep; icon-forge class, tool-source push owed). Log
+> **158/0/tail sl-0158**. The nine seams build on this pin —
+> planning sweeps each as it lands; the key-map + Esc law
+> amendments fire when the pass LANDS whole.
+
 ## The fresh session's first moves, in order
 
 1. Read this section → the session file's tail (from "THE

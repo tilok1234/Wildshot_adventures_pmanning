@@ -28,6 +28,23 @@ pastes still designer-carried + the game paste's remainder) ·
 `notes/reference/starhook-proto2/INDEX.md` (starhook law,
 corrections 1–9).
 
+> **TRUTH-UP 2026-08-02 ~22:20, in place (the fresh seat's boot
+> sweep — ANOTHER account switch: the post-restart session on the
+> old account ran out of usage with NO handoff written).** The
+> board below re-verified TRUE end to end (game 7afe187
+> local+GitHub · log 152/0/sl-0152 · planning synced 1980bf7 ·
+> menu-pass paste still cut, final, UNDROPPED). The dead session's
+> one durable act: the assembler's floating f5476a2 (the
+> enemy-expansion plan + its own handoff refresh, authored ~15:07,
+> committed-unpushed through the restart) got PUSHED to GitHub
+> main at ~22:11 — the audit §3 assembler paste was audited AT
+> that commit and stays FULLY OWED. Anything else said in the dead
+> chat is gone; the designer re-says what mattered. CAVEAT for
+> fresh seats: the memory-profile line at this section's tail is
+> PER ACCOUNT — this account's profile opened EMPTY and the seat
+> basics were re-banked. Full reconstruction: the session file's
+> THE USAGE SEAM section.
+
 ## The fresh session's first moves, in order
 
 1. Read this section → the session file's tail (from "THE

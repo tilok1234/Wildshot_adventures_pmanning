@@ -227,6 +227,13 @@ f5476a2). Documentation-only:
    qualifications become requirements.
 ```
 
+*(Accounting 2026-08-02 ~22:20: f5476a2 — the commit this paste was
+audited AT — reached GitHub main at 22:11 local, pushed by the old
+account's post-restart session as its one durable act before usage
+death (no handoff; planning reconstructed the seam from the repos —
+session file, THE USAGE SEAM section). Items 1–6 unchanged, still
+owed — drop the paste when the assembler seat next opens.)*
+
 ### → TILEFORGE repo
 
 ```

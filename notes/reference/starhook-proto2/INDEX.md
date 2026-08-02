@@ -174,6 +174,22 @@ refining happens on the real thing, in Green hands, not on paper.
    stands: what remains is still just "the rift pulls on the
    line."
 
+## Parked future material (the designer's own words, dated)
+
+- **FISH-OFFS (2026-08-02, "down the line", verbatim: "what if
+  down the line we could have like 'fish offs' where there would
+  be some npcs or tournaments or something where two characters
+  aka a player and a npc, throws their starhook line into the
+  same portal and it becomes a 1vs1 fight lol"):** two lines
+  into ONE portal → two bait fighters in the same galaxy arena →
+  a 1v1 duel. Strictly single-player (the rival is an NPC — a
+  scripted bait fighter on the existing pattern machinery; never
+  netplay, the co-op deferral stands). Natural hooks when it
+  wakes: village tournaments (the villager-reason pillar),
+  entry/prizes in species-currency fish, rival-angler NPCs as
+  chapter flavor. Parked well behind the soul refinement + the
+  gear seam; wakes on the designer's word only.
+
 ## Evidence
 
 - Clips: `Screen Recording 2026-08-02 044051.mp4` (46s, the full

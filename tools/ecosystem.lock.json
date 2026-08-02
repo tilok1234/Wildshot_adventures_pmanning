@@ -111,10 +111,10 @@
     {
       "consumer": "game",
       "producer": "assembler",
-      "artifact": "established-boss-pack-13-v1 (48x48; wiring OPENED 2026-08-02 by sl-0122)",
+      "artifact": "established-boss-pack-13-v1 (48x48; WIRED for Grubb 2026-08-02 - sl-0122 landed; the rest deal per chapter)",
       "path": "assets/assembler-boss-pack/",
       "intake": "2026-07-29",
-      "note": "Raw drop kept by Tier 1 ruling 2026-07-29 ~12:50; wiring OPENED by word 2026-08-02 (sl-0122 - the boss-sheets card answered in-chat, 'yyeah it works'): Grubb rebinds to boss:goblin-war-crown now, the rest deal per chapter (doc 23); wires as the game lands sl-0122."
+      "note": "Raw drop kept by Tier 1 ruling 2026-07-29 ~12:50; wiring OPENED by word 2026-08-02 (sl-0122 - the boss-sheets card answered in-chat, 'yyeah it works'). WIRED 2026-08-02 (game 34c9035, sl-0122 landed): boss:goblin-war-crown imported with BOTH ids (Bone Reliquary King carried through the argv rebuild), goblin:chief stays via enemy_goblin's variant list, per-def boss render scale rides the view (Old Tusk 1.25 [T]); the seven dealt spares land per chapter via directed world_filler rounds, three hellish HELD post-slice (doc 23; the sl-0122 entry records the dealing)."
     },
     {
       "consumer": "game",

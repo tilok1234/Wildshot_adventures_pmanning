@@ -4,11 +4,20 @@ Captured by planning from the designer's ~01:50 message (the old
 planning seat died mid-answer — account swap; this capture is the
 resumed seat's first act) plus the designer's recording
 `Screen Recording 2026-08-02 014852.mp4` (65s, Videos\Screen
-Recordings) plus the JUNE PROTOTYPE discovered at
-`C:\Users\headc\Documents\starhooking_sim\starhook_simulator`
-(standalone Godot sim, last touched 2026-06-03 — the recording is
-that sim running). This is not a napkin idea; the kernel is
-already playable outside Wildshot.
+Recordings).
+
+PROVENANCE (corrected by the designer's word, then code-verified):
+the recording shows a build WITH the fight in it — and none of
+its fight strings (RIFTER / "fight the fish" / "the white core is
+your true hitbox" / Splitwillow) exist in the June
+`starhooking_sim\starhook_simulator` code. The June folder proves
+the starhook NAME and fishing-shell theme predate tonight; THE
+FIGHTING IS THE DESIGNER'S NEW INVENTION (the night of
+2026-08-02). The recorded build's home is unconfirmed
+(starhooking_sim, prompt_spriter, the queue launcher, and
+generated games all checked and ruled out) — pin the path here
+when the designer names it. Either way the recording proves the
+kernel is playable outside Wildshot.
 
 ## The designer's words (~01:50, lightly condensed)
 
@@ -23,7 +32,7 @@ fighter could have a skill tree + equipment as somewhat-rare
 drops from starhook fish. "i just got this idea rn so we can prob
 refine it."
 
-## What the June prototype already proves (read from the frames)
+## What the recorded prototype already proves (read from the frames)
 
 - Split screen live: world left (shore, cast, line), THE RIFT
   right — a starfield arena where the RIFTER (LV 1→3 across the
@@ -56,6 +65,17 @@ instead of a bolted-on minigame. Rarity→fight-difficulty maps
 onto the existing tier/budget frame. Portal nodes give overworld
 walking another payoff (same pillar as gather spots). CORE-48
 safe: this is the most active fishing system conceivable.
+
+**The chronology is the argument for it.** In June the fight
+could not have been built in Wildshot's language — the game had
+no boss grammar yet. The fighting half arrived the same week the
+boss recipe went three-deep (Warden → Old Tusk → King Grubb): the
+idea completed itself when its missing half came true. It also
+means the fight is the UNPROVEN half as well as the best half —
+so the design round's first act is standing up ONE rift kit in
+the house grammar (a rift fight is a boss kit at small scale; the
+recipe makes that cheap) and tasting it before anything else gets
+built.
 
 **The expensive part is the second progression universe.** Rifter
 levels + rifter tree + rifter equipment from fish drops = a

@@ -2055,6 +2055,21 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0124",
+      "ts": "2026-08-02T12:54:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "STARHOOK v2 MERGED (sl-0115): the prototype IS the built game — instant cast, 50/50 split + the living line, THE PULL, three-lives stability, biomes + per-species fish, four rods on R, ambient rifts; full gate ALL GREEN 15.0 min",
+      "detail": "Game commits 0a71a6b + 65a2df7 + f4bd7d2 (SERIAL 21->22; WSR stays v2 - rod swap rides the recorded weapon_select byte). Read order honored: INDEX corrections treated as law over everything older; engine.js + both clips' frames were the build reference. THE SHAPE AS RULED, all numbers [T]: instant interact-cast at land portals showing their biome; 50/50 split (world capture LEFT, line drawn INTO the world rift; galaxy RIGHT under a FIXED camera - the new 12x13 arena's 10x11 interior fills the pane 1:1, Law 1 by construction); data/rift_pull.tres = the pull (1.35 t/s, +/-0.45 rad osc ~26 s, player x1.0 / catch x0.3 / hostile shots x0.15 - friendly bolts fly true) + the line's drains/lives; stability = HP with THREE hard lives (drains through THE damage path pattern -5, integer-exact: passive 1 hp per exactly 150 ticks, deep-edge strip 0.8 t; snap = life + re-spool + grace + LINE_SNAPPED; third snap = dive lost; 30 t hit grace blocks bullets only); WIN = THE KILL (reel cut per correction 7): gold banks directly, biome fish drawn via rng_loot (45/35/20; rare rarity = the rare species), auto-exit after 150 t, mouth door = flee; fish persist PER-SPECIES (starhook_fish{}); three biomes as pattern-variant .tres (void ring 12x30 @3.4, comet spray 6.3 + dart cd x0.8 - same ids, same leads) on roster 26-29 + six rift_<biome>_<rarity> scenarios; FOUR RODS (Heavyline/Twinreed converted 30->60 tps; unlocks 1/3/5/8; locked selects refused sim-side; equipped rod persists by id; replay_save R->J for the ruled R-swap); AMBIENT RIFTS on the slice (rng_misc's first consumer; starhook.ambient); the BAIT FIGHTER micro sprite + the star-fish pixel map render the galaxy; overworld portals render at last with the [F] prompt. CONSTRAINT REFUSALS RECORDED: Heavyline's prototype hitstop+shake (CORE-32) and boss drift while telegraphing (Law 4) did not ride. PROOFS: all four rift rows PASS floor+cap seeds 1,2,3 x 3600 FIRST RUN with the pull aboard (margins 0.120-0.122; comet floor 0.079); battery 41->43 rows / 83 runs; goldens x10; gather_test rebuilt with negatives; dodge_proof counts bullet hits only (the drain is the clock - the first proof run's 97-hit 'FAIL' was drain chunks read as hits, fixed with evidence). Windowed evidence committed + read: reports/rift_galaxy_audit_{base,desktop}.png (integer stretch = desktop pixel-exact 3x). FULL PRETESTER ALL GREEN 15.0 min (30 fixed + 83-run battery byte-identical + export + lockdown probe); one mid-gate catch fixed loudly: the projectile importer's pid<10 friendly-namespace range rule died at rod pattern 29 - the map now DECLARES player_patterns, undeclared = hostile under the covers_hitbox guard (fail-safe, proven live). NOT THIS SEAM per routing: the GEAR SEAM (next-after-soul, correction 5, own routing), skill tree (post-class-trees), node drift/despawn, vendors; water fishing PARKED (correction 3). NO feel verdicts - every number is the designer's refinement rounds + Green days. Session record: notes/sessions/2026-08-02-starhook-v2.md. Noted, not absorbed: sl-0116..0123 landed concurrently (incl. the sl-0121/0122 asks targeting game) - they route on their own.",
+      "refs": [
+        "sl-0115",
+        "notes/reference/starhook-proto2/INDEX.md",
+        "notes/sessions/2026-08-02-starhook-v2.md"
+      ],
+      "by": "agent"
     }
   ]
 }

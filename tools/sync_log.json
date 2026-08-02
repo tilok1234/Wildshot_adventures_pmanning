@@ -1995,6 +1995,51 @@
         "notes/evidence/2026-08-02-csheet-offscreen-bug.png"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0120",
+      "ts": "2026-08-02T11:51:10Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "FEEL: firing rate up for ALL classes (one uniform multiplier); per-hit damage re-derived via the calculator to hold TTK bands (the armor floor makes naive division wrong)",
+      "detail": "Green-days paper batch #1, finding 1 (the designer, verbatim: 'Projectiles feels boringly slow. we should adjust thge atk spd up but try to keepthe dfps the same byy reducing the dmg accordingly' - clarified: 'yeah im talking about firing rate sorry. its really slow rn and feels messy and janky and boring to play with'; scope: 'i think it is for all classes they should all have the firing rate increase the same to keep it even'). THE ASK: raise attack cadence for all three classes by ONE uniform multiplier [T] (start ~1.5x [T]; the designer's hands rule the final value); per-hit damage RE-DERIVED VIA THE BALANCE CALCULATOR to hold the docs/22 zone TTK bands - NOT naive dmg/rate: the flat-minus-armor formula (20% floor) subtracts armor PER HIT, so faster-weaker shots lose more to armor and DPS-neutral-at-zero-armor is not TTK-neutral against armored rows; the calculator's data file is the tuning source. Projectile TRAVEL speed untouched (the designer's word was firing rate). E autofire and the zero-RNG fire path unchanged. Sim data change: deliberate goldens/battery re-baseline per house discipline (a re-baseline is not done until the full gate runs on it). GATE: full gate green + a before/after TTK table per zone band out of the calculator + the feel flag standing for the designer (no agent feel verdicts). Sits in the way-forward ruling's rough-tune-what-blocks-fun lane.",
+      "refs": [
+        "docs/22-STAT_SYSTEM.md",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0121",
+      "ts": "2026-08-02T11:51:20Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "QUEST PULL: overhead giver icons (two states) + objective/turn-in map markers + at-a-glance HUD tracker; the C screen stays the one log (pairs with the sl-0119 fix)",
+      "detail": "Green-days paper batch #1, finding 2 (the designer, verbatim: 'quests needs to ve more inviting and catalyst for general gameplay we need icons over quest npcs and we should consider having quest objective locations displayed on the map aswell as wgere you deliver it when you are done with the objective. aswell as we need a quest log that opens by the press of a button and is easy to read and to see what ur objective is aswell as the name of a glance of an eye'; on the log after planning noted C already carries it behind the sl-0119 offscreen bug: 'i mean i didnt get to look at c screen properly yet since its broken and off screen. but if c screen just shows info about quests, that already is the quest log you know'). THE ASK, all view-only, zero sim bytes: (a) OVERHEAD GIVER ICONS, two states - quest-available and turn-in-ready - from the icon pack's glyphs (pick the obvious pair; report which); (b) OBJECTIVE MARKERS on the minimap AND the fullscreen map - the active quest's objective site while active, the turn-in giver once the objective completes; (c) THE HUD TRACKER near the minimap stack [T]: active quest name + objective + progress count, readable at a glance; multi-active shows up to the cap sensibly [T]. The C screen remains THE full log - no new log key; the sl-0119 screen-anchor fix already in hand makes it readable, natural to land both in one view session. This ask ANSWERS BY WORD the decked map-icons card (zone map v1) - markers ride now. GATE: windowed render evidence at TWO scales (the render-probe discipline) + smoke hash unchanged (the view-only proof). The why is the loop bar's first sentence: know your goals and want them.",
+      "refs": [
+        "sl-0119",
+        "sl-0106",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0122",
+      "ts": "2026-08-02T11:51:30Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "BOSS SPRITES: King Grubb rebinds to boss:goblin-war-crown; per-def boss render scale [T] for small-sheet bosses (Old Tusk stays the scarred boar, scaled); the 13-pack dealing recorded in doc 23",
+      "detail": "Green-days paper batch #1, finding 3 (the designer: 'are we actually using the correct bosses? like the 13-14 new bosses i made'). Planning verified in-repo: the 13-boss assembler pack is intaken (assets/assembler-boss-pack) but only bone-reliquary-king is wired (the boss: grammar in actor_sheet_map, loop era); the live S1 bosses draw enemy-family variants (enemy_old_tusk=boar:blood, enemy_king_grubb=goblin:chief). THE DESIGNER'S RULING: use the pack; where a boss keeps a small enemy-family sheet, 'we just got to scale them up alittle when we render them in game'. THIS SEAM, view-side and small: (1) rebind enemy_king_grubb -> boss:goblin-war-crown (tools/import_boss_actor.py + tools/validate_boss_pack.py; the bone-reliquary-king precedent); (2) a per-def boss RENDER SCALE [T] (start ~1.3 [T]) for bosses drawing enemy-family sheets - Old Tusk stays the scarred blood boar, rendered a little bigger; sim/hurtbox bytes UNTOUCHED (if any sim byte must move to do this honestly, stop and say so - full re-baseline discipline applies instead). NOT THIS SEAM (doc-23 record): Longjaw -> ancient-mirejaw at the Wetlands chapter; SEVEN spares dealt as extra world bosses per zone flavor, landing per chapter via directed world_filler rounds (the Puppeteer precedent): dryad-of-nature -> Green, scorpion-empress + cyclops-forge-titan -> Dry Reach, abyssal-crown-kraken + tide-man-the-blue -> Wetlands, sun-crown-griffin + royal-night-elf-prince -> Snow; HELD post-slice: living-pyre, lava-core-colossus, pit-fiend-juggernaut (no slice zone owns the hellish three honestly). Dealt bosses owe NO automatic uniques - the ~8-12 budget stays law. GATE: render evidence at two scales (Grubb in the war-crown sheet; Old Tusk scaled) + smoke hash unchanged.",
+      "refs": [
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "sl-0104",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

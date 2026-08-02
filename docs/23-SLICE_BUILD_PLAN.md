@@ -128,6 +128,34 @@ whitelist break each, numbers at build]):**
 slice bosses named, every one explainable by a villager in one
 sentence. S1–S4 consume these as the chapters open.**
 
+**THE BOSS-SPRITE ROSTER RULING (2026-08-02, Green-days batch #1
+finding 3, sl-0122):** the designer's 13-boss assembler pack
+(intaken at the game's `assets/assembler-boss-pack`; only
+bone-reliquary-king wired until now — the live S1 bosses drew
+enemy-family variants) IS the slice's boss art wherever it fits
+(the designer: "yyeah it works"):
+- **Rebinds:** King Grubb → boss:goblin-war-crown (now, sl-0122) ·
+  Longjaw → ancient-mirejaw (at the Wetlands chapter) · the Bone
+  Reliquary King already exact.
+- **Small-sheet bosses render SCALED:** where a boss keeps an
+  enemy-family sheet, it renders a little bigger (per-def render
+  scale [T]; the designer: "we just got to scale them up alittle
+  when we render them in game") — Old Tusk stays the scarred
+  blood boar, scaled; sim/hurtbox bytes untouched.
+- **THE DEALING [P]** (extra world bosses, landing per chapter via
+  directed world_filler rounds — the Puppeteer precedent): Green +
+  dryad-of-nature · Dry Reach + scorpion-empress +
+  cyclops-forge-titan · Wetlands + abyssal-crown-kraken +
+  tide-man-the-blue · Snow + sun-crown-griffin +
+  royal-night-elf-prince. Every zone lands at 2–3 world bosses —
+  inside the bill's 1–3. Identities/names extend the naming act
+  at each chapter.
+- **HELD post-slice:** living-pyre · lava-core-colossus ·
+  pit-fiend-juggernaut (the hellish three; no slice zone owns
+  them honestly).
+- **No automatic uniques for dealt bosses** — the ~8–12 budget
+  stays law; uniques only where a concept earns one.
+
 **THE FOUR FACTIONS ARE NAMED (designer, 2026-08-01, supersedes
 the [P] candidates from the icon round):** **the Wardens** (Green
 Country — the line between the farms and the roads' bandits) ·

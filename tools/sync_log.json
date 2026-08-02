@@ -1981,6 +1981,20 @@
         "notes/reference/starhook-proto2/INDEX.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0119",
+      "ts": "2026-08-02T10:40:34Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "BUG: the C sheet renders player-anchored and unclamped - offscreen at desktop scale (designer screenshot); screen-anchor + clamp + multi-scale evidence",
+      "detail": "Designer screenshot (planning notes/evidence/2026-08-02-csheet-offscreen-bug.png, ~12:24): the character sheet panel draws anchored to the PLAYER'S position and extends past the viewport bottom-right at desktop fullscreen scale - the errands section is clipped offscreen. The Seam B audit passed at base 640x360; the bug lives at scaled/fullscreen view - the same class as the minimap's ui-scale-aware inset. FIX: the sheet is a SCREEN-anchored panel (fixed placement [T - centered or docked, session's call]), never player-anchored, always fully on-screen at every window size/scale; the errands list fully visible (scroll or fit [T]). GATE: windowed evidence at TWO scales minimum (base 640x360 AND a desktop fullscreen capture) - the render-probe discipline; parity tests unchanged (content is correct - the designer's shot shows the grammar lines and the starhook row exactly right). Small, view-only, ride-anytime: before/with/after whichever seam is in flight.",
+      "refs": [
+        "sl-0106",
+        "notes/evidence/2026-08-02-csheet-offscreen-bug.png"
+      ],
+      "by": "agent"
     }
   ]
 }

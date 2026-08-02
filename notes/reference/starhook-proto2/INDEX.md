@@ -139,6 +139,15 @@ refining happens on the real thing, in Green hands, not on paper.
    behaves" (the prototype's STARHOOK SELF tree is the
    reference). Scheduling stays post-class-trees unless the
    designer calls it earlier.
+7. **THE NAME "UNDERTOW" IS RETIRED** (the designer, ~12:50:
+   "just dont use the name undertow, its just the galaxy view of
+   starhooking"). The MECHANIC stays — the rift's constant pull
+   on the line is core — but it carries no special name: the
+   right pane is "the galaxy view", the pull is "the rift's
+   pull". No player-facing text ever says "undertow". This
+   overrides the canonical paragraph's own "that's the undertow"
+   clause and the prototype DESIGN.md's section name; where the
+   sl-0115 ask text says UNDERTOW, read "the rift's pull".
 
 ## Evidence
 

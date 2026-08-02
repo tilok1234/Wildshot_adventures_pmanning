@@ -1820,6 +1820,21 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0109",
+      "ts": "2026-08-02T01:47:38Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "HUD & MENUS PASS v1 (the first Green-walk feedback) - short top-right bars, minimap top-right, pause/options on O + Esc; pairs with sl-0106",
+      "detail": "THE FIRST GREEN-WALK FEEDBACK (the designer, ~03:44 local, playing lv 7 staff mid-errand; screenshot committed planning-side: notes/evidence/2026-08-02-green-walk-hud-feedback.png): HUD & MENUS PASS v1 - PAIRS with sl-0106, and the session may run both as ONE UI seam with cause (the sheet + the HUD relayout are one surface pass). The designer's words: (1) hp + mana bars WAY SHORTER and moved to the TOP-RIGHT corner (today they span the full screen width at the bottom); (2) the minimap moves to the TOP-RIGHT corner (it lives bottom-right today); (3) OPTIONS MENU + PAUSE = the SAME menu, opening on BOTH O and Esc. Constraints: view/input layer only, zero sim bytes (pause = stop feeding ticks outside the sim; recorder/replay discipline untouched); the ability line, quest line, and lv/xp/gold text stay readable wherever they land [T layout - the session's freedom, Green judges]; the debug line (fps/spikes/speed) tucks behind a toggle [T]. Law 1 holds: bars/minimap must never cover threat near the player - top-right placement is FOR this. Gate: windowed evidence PNG (this pass is exactly the class the render probe exists for - the seam-6 sliver catch is the precedent), smoke hash unchanged, existing pins byte-identical; negatives: O and Esc both open AND close the same menu, pause verifiably stops the world, unpause resumes clean. Feel of the final layout = Green-days material; this ask lands the layout, the designer's eye finishes it.",
+      "refs": [
+        "sl-0106",
+        "sl-0104",
+        "notes/evidence/2026-08-02-green-walk-hud-feedback.png"
+      ],
+      "by": "agent"
     }
   ]
 }

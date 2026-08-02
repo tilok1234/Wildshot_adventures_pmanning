@@ -1935,6 +1935,22 @@
         "notes/2026-08-02-starhook-idea.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0116",
+      "ts": "2026-08-02T10:18:21Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE INVENTORY (the designer's word - the bag card answered in chat): pick up INTO the bag, DECIDE what to equip; the floor-is-the-inventory doctrine retires",
+      "detail": "The designer (~10:2x, playing): 'still got no inventories and no ability to pick up loot and put it in inventory and decide what i equip etc' - this ANSWERS the staged inv1bagq deck card in chat (Tier 1: in-session words are decisions, no ceremony): Wildshot gets a REAL INVENTORY. BUILD: (1) THE BAG - carried items, capacity [T] (suggest 20 slots), profiles persist contents BY ID (the id doctrine; serial bump with the seam); gold and fish stay counters, never bag items; legacy (class -1) stays inert (negative). (2) PICKUP CHANGES: F (the interact verb, reused) picks the nearest eligible drop INTO the bag - NOTHING equips on pickup; the upgrades-only auto-filter RETIRES (the bag holds downgrades happily - collection is a joy); bag-full = the item stays grounded with a toast [T]; ground labels + the one grammar unchanged. (3) EQUIP IS A DECISION: the C screen grows the INVENTORY surface (the sheet family - one screen, the session's layout call): browse the bag, equip to the slot (weapon/armor/ring/unique per the existing slot rules), the replaced item returns TO THE BAG (not the floor - the bag supersedes the ground-swap language from Seam A for bagged equips; the interact ground-swap may stay as a shortcut [T] or retire, session's call flagged for the designer); drop-from-bag returns an item to the ground at the feet (the world persists it as any drop). (4) DEATH: the bag does NOT drop - CORE-43's gold slice stays the one death cost [T] (open for the designer later). (5) NO vendors/selling this seam (no vendor system exists; later chapter). Tests: loop_test re-authored again as deliberate re-baselines (pickup-to-bag, explicit equip, replaced-to-bag, bag-full, drop-from-bag, legacy inert, death keeps bag); sheet parity extends to the bag list (exact by construction). ORDER vs sl-0115 (the starhook soul seam): the designer's call by which paste lands first - both are routed and independent; suggested: soul seam first as staged, inventory immediately after. Every capacity/rule [T]; layout + feel = Green days.",
+      "refs": [
+        "sl-0112",
+        "sl-0106",
+        "sl-0115",
+        "notes/2026-08-02-green-days-round-list.md"
+      ],
+      "by": "agent"
     }
   ]
 }

@@ -1866,6 +1866,22 @@
         "notes/2026-08-02-starhook-idea.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0112",
+      "ts": "2026-08-02T02:03:37Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE INTERACTION PASS (Green-walk feedback #3): deliberate hands - no auto-pickup, no auto-quests; interactable givers + a quest log",
+      "detail": "The designer's words (~04:05, playing): 'we got to make stuff not be auto picked up and auto take quests. should be interactable quest givers where u pick up quests and then they get into a quest log that shows progress and what to do etc'. This DELIBERATELY revises two ruled languages under the designer's Green-days authority - the revision is the system working, not drift. BUILD: (1) THE INTERACT VERB - one new input action (key = the session's pick [T]; E suggested), entering the recorded input stream properly (recorder/replay format handled with the discipline; bot scenarios gain the action). (2) LOOT: walk-over AUTO-EQUIP RETIRES for items - walking near shows the ground label (already exists), INTERACT picks up/equips; GOLD stays auto (the silent counter is its readout); with a worn ring, INTERACT on a ground ring SWAPS (the old ring drops where the new one lay) - this supersedes the rng6swap walk-over lean pending the designer's deck tap; legacy refusals unchanged; walk-over door/gather/cast verbs UNTOUCHED (doors and stillness verbs are movement-native, only pickup/accept go deliberate). (3) QUESTS: giver walk-up auto-accept/turn-in RETIRES - givers become INTERACTABLE: interact to accept (the offer shows its reason tag in the one grammar), interact to turn in (the payoff is a moment, not a footstep). (4) THE QUEST LOG - a surface listing taken quests: name, progress n/m, what to do, the reason tag; lives with the UI family (a character-sheet tab or its own key, the session's call [T]). ACTIVE-QUEST CAPACITY becomes [T]: the seam-5 one-active law RE-PINS DELIBERATELY - the designer's sentence leans multiple-active (suggest cap = all five Green quests [T]); reward/progress semantics unchanged. Tests: quest + loot scenarios re-authored to the interact verb (deliberate re-baselines WITH the seam - the re-baseline law); negatives: nothing auto-equips, nothing auto-accepts, the log matches sim state exactly, interact on nothing does nothing. PAIRS with sl-0106 + sl-0109 as the UI/INTERACTION family - the session may cut one seam or two with cause. Key choice, log layout, capacity feel = Green-days material.",
+      "refs": [
+        "sl-0106",
+        "sl-0109",
+        "sl-0104",
+        "notes/2026-08-02-green-days-round-list.md"
+      ],
+      "by": "agent"
     }
   ]
 }

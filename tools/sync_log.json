@@ -2115,6 +2115,77 @@
         "notes/sessions/2026-08-02-starhook-v2.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0128",
+      "ts": "2026-08-02T14:40:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE INVENTORY WIDENS (batch #2 items 2a+3): hover tooltips on bag items + the C-menu EQUIPMENT PANE made concrete (two-way equip/de-equip between pane and bag)",
+      "detail": "Green-days paper batch #2 (the designer, pre-dog-walk, verbatim): 2a 'we need inventory where all the items we loot are equipable and we can see their tooltip when hovering over etc.' + 3 'C-menu needs an equipment pane where the equipment the player has on is displayed and the player can deequip equipment and weapons into their inventory and they can also equip equipment and weapons into their equipment pane from their inventory.' AMENDS the sl-0116 shape: the bag as routed PLUS (a) HOVER TOOLTIPS on bag + equipment items (name, slot, the docs/22 grammar lines - every number visible; the C-sheet parity discipline extends to tooltips); (b) the EQUIPMENT PANE in the C menu: worn gear displayed by slot; DE-EQUIP moves worn -> bag; EQUIP moves bag -> worn slot (replaced item returns to the bag - already routed, now the pane is its concrete surface). Mouse interaction on the C surfaces is sanctioned for this (hover + click); the sheet stays read-only for STATS, the equipment pane is the one interactive region. Everything else in sl-0116 stands (capacity [T], F picks into the bag, death keeps the bag, no vendors THIS ask - vendors are sl-0130 now). Still its own session-sized seam; the equipment pane may land as its own sub-seam after the bag core.",
+      "refs": [
+        "sl-0119",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0129",
+      "ts": "2026-08-02T14:40:20Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "LOOT BAGS (batch #2 item 2b): enemy kills drop ONE ground bag; walk-over shows its contents; hotkey loots all, click loots one - supersedes per-item ground drops for enemy loot",
+      "detail": "The designer (verbatim): 'lootbags that drops on the ground when you kill an enemy and it drops loot, when you walk onto the loot bag trhe loot in the bag will be displayed and you can either press a hotkey to loot all or press the item you want to loot induvidually.' THE ASK (sim + view; depends on the sl-0116 bag core landing first): an enemy kill that drops loot spawns ONE LOOT BAG entity at the corpse (multi-item capable); WALK-OVER displays the bag's contents as a small panel (no press needed to open); LOOT-ALL on a hotkey [T - session picks the key, G suggested] moves everything to the inventory; CLICKING an individual row loots just that item; empty bag despawns; gold stays auto-pickup as ruled. Supersedes the Seam-A one-pickup-per-press grammar FOR ENEMY DROPS ONLY (world/quest ground items keep the F verb); the ground-swap fate question from sl-0116 dissolves for enemy loot (bags hold items, nothing swaps on the ground). Bag persistence/despawn timer [T]; determinism: bag contents drawn at kill time via the existing loot rolls, no new RNG streams. GATE: full re-baseline discipline (sim change) + windowed evidence at two scales of the walk-over panel + the C-sheet parity untouched.",
+      "refs": [
+        "sl-0116",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0130",
+      "ts": "2026-08-02T14:40:40Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE BANK (batch #2 item 2c): a small settlement stash - deposit/withdraw between bank and inventory; capacity [T]",
+      "detail": "The designer (verbatim): 'maybe a small bank storage where the player can store items that he doesnt need to have on him at all times but doesnt want to get rid of.' THE ASK (sim state + view; depends on the sl-0116 bag core): a SMALL BANK STORAGE reachable in the capital settlement first [T - a banker NPC or a chest object on the interact verb F, session's call]; deposit moves inventory -> bank, withdraw moves bank -> inventory (the same two-way grammar as the equipment pane); capacity [T - small, distinct from bag capacity]; by-id persistence, serial bump rides the inventory family's; death never touches the bank (the gold slice stays the one death cost). One bank shared account-wide per character (no per-settlement splits in v1). GATE: full re-baseline discipline + the parity/tooltip grammar extends to bank rows + windowed evidence at two scales.",
+      "refs": [
+        "sl-0116",
+        "sl-0129",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0131",
+      "ts": "2026-08-02T14:41:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "VENDORS v1 (batch #2 item 4): the vendor INFRASTRUCTURE + a few simple vendors - the doc-23 vendor deferral superseded by the designer's word",
+      "detail": "The designer (verbatim): 'Aswell as we should make in the infrastructure for vendors and just add in some simple ones i guess.' THE DEFERRAL SUPERSEDED: doc 23's deferred list ('vendors beyond W-8 presence', 'trading/economy') narrows - VENDOR INFRASTRUCTURE + simple v1 vendors pull INTO Green-days scope by the Green-days authority; the full economy (fish species-currency pricing, mounts, faction vendors per CORE-39/46) stays future. THE ASK (sim + view; depends on the sl-0116 bag core): vendor NPCs on the interact verb (F opens the vendor panel); v1 = TWO vendor behaviors - SELL-TO: the vendor buys anything from the inventory for gold (the loot->gold sink; price = a simple fraction of item value [T]); BUY-FROM: a small FIXED stock per vendor [T - a few T1/T2 equipment pieces; honest flag: no consumables system exists, so stock is equipment until consumables are ever designed]. A couple of vendors stationed in the capital (reuse existing NPC roster bodies; the W-8 presence NPCs gain purpose). Gold integer-exact through the existing paths; stock static v1 (no restocking system); prices [T] everywhere; fish-currency explicitly NOT this seam (recorded future). GATE: full re-baseline discipline + windowed evidence at two scales + tooltip grammar on vendor rows.",
+      "refs": [
+        "sl-0116",
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0132",
+      "ts": "2026-08-02T14:41:20Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "NPC ANIMATION DESYNC (batch #2 item 1): per-NPC deterministic phase offset - the stationed NPCs stop moving in lockstep; view-only",
+      "detail": "The designer (verbatim): 'npc animations should not all be synced the same way cause now it looks weird that they all move in sync.' THE ASK, view-only, zero sim bytes: every stationed NPC animates with a DETERMINISTIC PER-NPC PHASE OFFSET (derive from a stable hash of the NPC id or station cell - NO new RNG stream, the rng discipline holds; same offset every boot, replay-honest); optionally a tiny per-NPC frame-rate wobble [T] if the offset alone still reads uniform. Applies to the 32 stationed NPCs (and future vendors/bankers inherit it). GATE: smoke hash unchanged (view-only proof) + a short capture or two showing the crowd out of lockstep; goldens untouched.",
+      "refs": [
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

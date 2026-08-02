@@ -269,11 +269,16 @@ Refinement is TWO different things with two different right times
 **The S2 gate bar, concrete: Green days end at SYSTEMS-COMPLETE,
 not Green-perfect** — the designer can play Green start to finish
 and never hit "this system doesn't exist yet." The known
-systems-complete queue: the starhook soul seam (sl-0115, INDEX as
-law) · the inventory (sl-0116) · the C-sheet fix (sl-0119) · the
-gear seam (routes when the soul lands) · simple class trees v1
-(the slice-tree scope below) · whatever the designer's Green notes
-surface as missing systems. Then S2–S4 run at full speed on stable
+systems-complete queue (updated 2026-08-02 evening): the starhook
+soul seam LANDED + refined same day (sl-0115/0123/0125, all
+resolved) · THE INVENTORY FAMILY (the bag sl-0116 as amended by
+sl-0128 tooltips+equipment-pane · loot bags sl-0129 · the bank
+sl-0130 · vendors v1 sl-0131) · the view/feel batch (C-sheet
+sl-0119 · fire rate sl-0120 · quest pull sl-0121 · boss sprites
+sl-0122 · NPC desync sl-0132) · the GEAR SEAM (routes AFTER the
+inventory family — starhook drops need a bag to land in) · simple
+class trees v1 (the slice-tree scope below) · whatever further
+Green notes surface as missing systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.
 
@@ -282,9 +287,14 @@ whole curve) leads into S5's bar week.
 Full skill trees (slice trees = 2–3 real choices per class, the
 block-7 grammar) · bespoke endgame balance (calculator bands govern;
 curves re-derive against real content later) · co-op · raids ·
-trading/economy · vendors beyond W-8 presence · cosmetics/collection
-log · Part II modules · anything the six pillars don't need for the
-bar.
+trading/economy **(NARROWED 2026-08-02 by the designer's word,
+sl-0131: vendor INFRASTRUCTURE + simple v1 vendors pull INTO
+Green-days scope — sell-to-vendor gold sink + small fixed stock;
+the FULL economy, fish species-currency pricing, and faction
+vendors stay deferred)** · ~~vendors beyond W-8 presence~~
+**(SUPERSEDED by sl-0131 — simple vendors land in Green)** ·
+cosmetics/collection log · Part II modules · anything the six
+pillars don't need for the bar.
 
 ## Parked direction — THE FURNISHED-WORLD ROUND (designer finding from the S0 test, 2026-08-01; NOT scheduled)
 

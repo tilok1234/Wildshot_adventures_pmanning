@@ -2040,6 +2040,21 @@
         "notes/sessions/2026-08-02-slice-s1.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0123",
+      "ts": "2026-08-02T12:47:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE DRAG IS CUT (the designer's first starhook refinement word): galaxy-arena combat is NORMAL combat - the rift's pull lives in THE LINE only; amends sl-0115 via INDEX correction #9",
+      "detail": "The designer, minutes after casting into the landed soul seam (verbatim): 'like there should not be any drag in the gfalaxy view arena for star hgooking it should just be normal combat'. THE RULING: no movement drag on the bait fighter, the catch, or any shots in the galaxy arena - normal combat, full responsiveness. The rift's pull is felt by THE LINE ONLY: the strain clock (passive drain), the deep-edge strip, bullet hits straining the line, and the line's visual tension (sag/taut/red/spark). The rift_pull entity-drag system RETIRES (remove clean - zeroed multipliers left behind is not the shape); the x1.0/x0.3/x0.15 multipliers and the oscillator do not survive; DodgeBot drops its pull model (self + hostile-shot projection); the hostile-only and Law-4 deviations from the seam become moot. Deep edge stays [T]; backdrop flow arrows = session's call, keep as ambience or drop [T]. Sim change: dodge proofs + goldens re-record deliberately, FULL GATE BEFORE COMMIT (gotcha-32 order); the sweep's owed items ride along (real desktop-scale evidence re-capture, full-gate-green confirmation). Planning concurs honestly: movement drag fights dodge fairness; the fishing identity survives fully in the line + three lives + the deep edge. INDEX corrections now 1-9; the merge-note pull bullet superseded in place.",
+      "refs": [
+        "sl-0115",
+        "notes/reference/starhook-proto2/INDEX.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

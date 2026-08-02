@@ -81,9 +81,11 @@ refining happens on the real thing, in Green hands, not on paper.
 - **Tick-rate conversion (HANDOFF §7)**: prototype sims 30 t/s
   treating repo tick counts 1:1 — re-check cadence math against
   the game's rate before porting numbers.
-- The constant pull in the arena is a NEW system (player ×1.0 /
+- ~~The constant pull in the arena is a NEW system (player ×1.0 /
   boss ×0.3 / bullets ×0.15, oscillating ±25° ~26s) — "worth a
-  real .tres."
+  real .tres."~~ **SUPERSEDED by correction #9: the entity-drag
+  system is cut — arena combat is normal combat; the pull lives
+  in the line only.**
 
 ## Deck-tap refinements (the designer's taps, swept ~12:20 — ride this seam)
 
@@ -158,6 +160,19 @@ refining happens on the real thing, in Green hands, not on paper.
    the prototype's DESIGN.md, the sl-0115 ask) uses the old
    word, read it as plain description — and never carry it into
    player-facing text, UI, identifiers, or docs.
+9. **THE DRAG IS CUT** (the designer, 2026-08-02 ~14:45, the
+   first refinement word after the soul seam landed: "there
+   should not be any drag in the gfalaxy view arena for star
+   hgooking it should just be 'normal' combat"): arena combat in
+   the galaxy view is NORMAL combat — no movement drag on the
+   bait fighter, the catch, or any shots. The rift's pull is
+   felt by THE LINE ONLY: the strain clock (passive drain), the
+   deep-edge strip, bullet hits on the line, and the line's
+   visual tension. Supersedes the merge-note "constant pull"
+   entity system below (the ×1.0/×0.3/×0.15 multipliers do not
+   survive) and the prototype's arena drag. The plain-words rule
+   stands: what remains is still just "the rift pulls on the
+   line."
 
 ## Evidence
 

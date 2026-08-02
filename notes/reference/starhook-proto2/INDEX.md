@@ -42,8 +42,8 @@ refining happens on the real thing, in Green hands, not on paper.
 4. **Kill THEN reel** — resolves the canonical either/or: damage
    wins the fight (boss to 0 → bullets clear → hooked), the REEL
    wins the catch (hold +28/s in calm, thrash bursts punish
-   greed at 6 stability/s; undertow ×1.35 while hooked; 100 =
-   banked).
+   greed at 6 stability/s; the pull strengthens ×1.35 while
+   hooked; 100 = banked).
 5. **The deep edge replaces depth bands** — depth became spatial:
    the far strip strains the line.
 6. **Every cast is a fight** — the big-hook-only escalation did
@@ -81,8 +81,9 @@ refining happens on the real thing, in Green hands, not on paper.
 - **Tick-rate conversion (HANDOFF §7)**: prototype sims 30 t/s
   treating repo tick counts 1:1 — re-check cadence math against
   the game's rate before porting numbers.
-- The undertow is a NEW system (player ×1.0 / boss ×0.3 /
-  bullets ×0.15, oscillating ±25° ~26s) — "worth a real .tres."
+- The constant pull in the arena is a NEW system (player ×1.0 /
+  boss ×0.3 / bullets ×0.15, oscillating ±25° ~26s) — "worth a
+  real .tres."
 
 ## Deck-tap refinements (the designer's taps, swept ~12:20 — ride this seam)
 
@@ -139,15 +140,16 @@ refining happens on the real thing, in Green hands, not on paper.
    behaves" (the prototype's STARHOOK SELF tree is the
    reference). Scheduling stays post-class-trees unless the
    designer calls it earlier.
-7. **THE NAME "UNDERTOW" IS RETIRED** (the designer, ~12:50:
-   "just dont use the name undertow, its just the galaxy view of
-   starhooking"). The MECHANIC stays — the rift's constant pull
-   on the line is core — but it carries no special name: the
-   right pane is "the galaxy view", the pull is "the rift's
-   pull". No player-facing text ever says "undertow". This
-   overrides the canonical paragraph's own "that's the undertow"
-   clause and the prototype DESIGN.md's section name; where the
-   sl-0115 ask text says UNDERTOW, read "the rift's pull".
+7. **THE ARENA PART HAS NO NAME — at all** (the designer, twice):
+   the boss-fight part of starhooking is not a named thing — no
+   coined title, and no coined replacement either. It is just
+   part of starhooking: write "the arena", "the galaxy view",
+   "the boss fight", and describe the pull plainly ("the rift
+   pulls on the line"). A fishing minigame doesn't get its own
+   brand name. Where any older text (the canonical paragraph,
+   the prototype's DESIGN.md, the sl-0115 ask) uses the old
+   word, read it as plain description — and never carry it into
+   player-facing text, UI, identifiers, or docs.
 
 ## Evidence
 

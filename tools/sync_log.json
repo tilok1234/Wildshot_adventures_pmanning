@@ -1951,6 +1951,21 @@
         "notes/2026-08-02-green-days-round-list.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0117",
+      "ts": "2026-08-02T10:31:57Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "GRASP-CHECK CORRECTIONS (the designer's word): sl-0111 PARKED - starhooking is land-only; the BAIT FIGHTER is the protagonist; gear drops confirmed as the next starhook seam",
+      "detail": "The designer corrected planning's read-back (~12:45); the corrections block in notes/reference/starhook-proto2/INDEX.md is LAW and overrides everything it touches. (1) STARHOOKING HAS NOTHING TO DO WITH WATER - rifts spawn on land, anywhere; sl-0111 (water fishing base) is PARKED by this word, revive only on the designer's say; the canonical 'layered over normal fishing' line is superseded. (2) The PROTAGONIST is the BAIT FIGHTER ('the blubber bait guy') - the line is his tether, not the star; presentation emphasis follows HIM; he renders SMALLER than the prototype shows (a simple fighter, [T] size). (3) The two-portal topology is load-bearing: the line goes INTO the world-side rift and OUT of the galaxy-side rift, always drawn that way. (4) RIFTER GEAR DEFERRAL SUPERSEDED: rods + very-simple equipment DROP from starhook bosses, starhook LEVELS gate their use - the soul seam (sl-0115/0110) stays scoped as-is (rods by level per the prototype); THE GEAR SEAM is next-after-soul, routed when the soul lands. (5) The small behavior-first starhook TREE is confirmed (the prototype's STARHOOK SELF is the reference); scheduling stays post-class-trees unless the designer calls it. Everything else in planning's read-back the designer ratified ('rest u say is basicly correct').",
+      "refs": [
+        "sl-0115",
+        "sl-0111",
+        "notes/reference/starhook-proto2/INDEX.md"
+      ],
+      "by": "agent"
     }
   ]
 }

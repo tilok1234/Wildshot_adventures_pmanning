@@ -111,6 +111,35 @@ refining happens on the real thing, in Green hands, not on paper.
    the dungeon hand-author pass lands after Green days, beside
    S2.
 
+## The designer's grasp-check corrections (~12:45 — these override everything above where they touch)
+
+1. **The protagonist is the BAIT FIGHTER, not the line** — "the
+   little guy that is used as bait at the end of the line" (the
+   designer's own name: THE BLUBBER BAIT GUY). The line is his
+   tether and the tension-teller; HE is the star. Presentation
+   emphasis follows him. (This overrides the prototype DESIGN.md's
+   "the line is the star of the show.")
+2. **He renders SMALLER than the prototype shows** — "just a
+   simple fighter": a small, simple sprite [T size].
+3. **STARHOOKING HAS NOTHING TO DO WITH WATER** — rifts/portals
+   spawn on LAND (anywhere, per the deck tap). The water-fishing
+   base (sl-0111) is PARKED by this word — revive only on the
+   designer's say. The canonical paragraph's "layered on top of
+   normal fishing" line is superseded.
+4. **The two-portal topology is load-bearing**: the line goes
+   INTO the world-side rift and comes OUT of the galaxy-side
+   rift. Always drawn that way, both panes.
+5. **Rifter gear is IN the design — the deferral is superseded:
+   rods AND very-simple equipment DROP from starhook bosses;
+   starhook LEVELS gate their use.** The soul seam stays as
+   scoped (rods by level, per the prototype); the GEAR SEAM rides
+   next, routed when the soul lands.
+6. **The small starhook skill tree is CONFIRMED** — behavior-
+   first: it "improves or changes the way the bait fighter
+   behaves" (the prototype's STARHOOK SELF tree is the
+   reference). Scheduling stays post-class-trees unless the
+   designer calls it earlier.
+
 ## Evidence
 
 - Clips: `Screen Recording 2026-08-02 044051.mp4` (46s, the full

@@ -1767,6 +1767,21 @@
         "docs/22-STAT_SYSTEM.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0106",
+      "ts": "2026-08-02T01:06:16Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "CHARACTER SHEET v1 (the designer's word) - a read-only equip/stats screen; docs/22 'every number visible' gets its surface",
+      "detail": "The designer's word (~03:0x, 'we do need an inventory and equipment screen'): CHARACTER SHEET v1 - read-only, VIEW-ONLY, zero sim bytes. Sequencing: AFTER seam 6 closes (do not interrupt the starhook seam) - rides as its own small sealed seam or the next session's opener, the session's call. One key opens it (the session picks the key; no other input changes). Shows, in the one item-text grammar: class + level/XP; the four stats WITH the gear math visible (the recompute's own numbers, never re-derived); weapon row; armor row (the tier ladder OR the worn unique by name - Old Tusk's Hide shows as itself); ring row or the empty-slot line; gold; and - once seam 6 has landed - the starhook row (rifter level, rod, worn cosmetic). NO bag, NO carried items, NO drag/drop: the game has no carried-item state and the floor-is-the-inventory language stays law until the designer rules otherwise (a 'does Wildshot want a bag at all' ruling card is in the designer's deck; ring swap semantics likewise stay with the deck card). Gate: screen==recompute parity pins EXACT, grammar lines test-pinned, legacy (class -1) shown honestly, smoke hash unchanged (the view-only proof). Layout, key, and what's on the sheet are Green-days feel material - the screen exists to serve the Green walk (judging loot with your loadout finally visible). A possible zone-map v1 rides SEPARATELY on a deck tap - not part of this ask.",
+      "refs": [
+        "sl-0104",
+        "sl-0105",
+        "docs/22-STAT_SYSTEM.md"
+      ],
+      "by": "agent"
     }
   ]
 }

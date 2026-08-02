@@ -1782,6 +1782,44 @@
         "docs/22-STAT_SYSTEM.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0107",
+      "ts": "2026-08-02T03:55:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "S1 GREEN COUNTRY ENGINEERING COMPLETE - all six seams + the battery tooling, sealed and pushed; the chapter gate is the designer's Green days",
+      "detail": "sl-0104 executed in one hands-free session as sealed seams, every seam behind a full pretester ALL GREEN: (1) the Green roster 91b1037 (14 families as archetype data rows, all 54 variants play, territories re-tabled at density x1.5; the pattern->lead law mechanized roster-wide); (tooling) the parallel battery 770f36a (8 workers cap 10, gate 40+ -> ~13 min, byte-identical adoption proof; its FIRST full run caught the sl-0102 committed red row - loop_ring2 floor, husk pinch - fixed f40decf under never-weaken; gotcha #32: a re-baseline is not done until the full gate runs on it); (2) T1 loot b1090fd (tables, the ring slot with two T1 rings, profiles key items BY ID, the one item-text grammar on toasts + ground labels); (3) OLD TUSK d0a09f8 (charger/rage/mire kit, SERIAL 18, the Hide = break (c) armor def 12 / -6 speed, ZONE_BOSS green, overworld_green_boss re-baselined); (4) THE WARREN 5b68aee (distance-disciplined tunnels after the entrance-killbox lesson - aggro crosses walls; walk-on doors at the giant-skeleton access cell 194,240; KING GRUBB court/tantrum/panic; TWO DUNGEON LAWS: packs beyond aggro of the previous fight zone, one radial per boss room); (5) QUESTS v1 fa0969a (SERIAL 19; five errands off the three giver slots, reason tags visible, walk-up accept/turn-in in-sim; the capital slot sits ON the spawn - leaving town hands you the errand, coming home is the turn-in); (6) seam 6 per sl-0105, entry sl-0108. Battery 24->41 rows / 79 runs; fixed gates 23->29; goldens re-recorded at SERIAL 18/19/20 each behind a green gate. Origin pushed through b2167a2. NO feel verdicts anywhere - every [T] (drops, rings, boss numbers, density, node/cast/forage rates, quest rewards, the split ratio, the line-snap rule) is the designer's Green-days surface. S2 does not start without the word.",
+      "refs": [
+        "sl-0104",
+        "game@91b1037",
+        "game@770f36a",
+        "game@f40decf",
+        "game@b1090fd",
+        "game@d0a09f8",
+        "game@5b68aee",
+        "game@fa0969a",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0108",
+      "ts": "2026-08-02T03:56:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "STARHOOK v1 LIVE (sl-0105) - fishing is a boss fight; the one-sim law held; the render probe caught the split twice; the hooked-fish law joined the house",
+      "detail": "Seam 6 shipped b2167a2 (SERIAL 20) exactly on the v1 constraint set: twelve authored rift nodes on the slice (script-verified walkable, >=26 from the capital); THE CAST = 120-tick stillness -> in-sim CAST_COMPLETE consumes the node (respawn 10800 [T]; in-instance - round trips refill like camps, the doctrine) + draws rarity (20% rare [T], rng_loot); the driver descends via the Warren door machinery. ONE SIM: the rift = a committed-instance scenario; the split screen is presentation only (galaxy left ~3/4 [T], captured-world sliver right 1/4). THE RENDER PROBE EARNED ITS KEEP TWICE: the first arena (22 wide, authored against an assumed 1152 view) hid SEVEN TILES under the sliver at the real 640x360 base viewport - a Law-1 violation no headless gate could see; the rift resized to 15x12 = exactly the left 3/4 (evidence reports/rift_split_audit.png). THE RIFTER = the mini-class row on balance_frame's starhook block riding the legacy lane (the loop XP curve levels it - no new progression system); rods = attack-def rows (Cane starter / Splitwillow fan at starhook 3 [T], newest unlock auto-equips); the rift gold pot lands in the MAIN wallet; THE LINE SNAPS [T]: rift death costs nothing but the catch (no hardcore stake). ONE kit at two rarities (roster 24/25, elite amber, Law-4 20 rows; the pattern->lead law bound in the rift by the roster-wide test for free). The kit earned its small-room shape across never-weaken iterations ending in a STRUCTURAL law now recorded beside the Grubb-room lesson: P3 KEEP_RANGE - A HOOKED FISH NEVER CHASES (no chaser phase in a one-room arena); ALL FOUR proof lanes PASS at 0.120-0.122, NO pin (the mid-seam draft pin retired before ever shipping in a green gate). Starlit Cast cosmetic (0.35 on the rare, no pity, variants doctrine). Foraging v1 as sl-0104 routed (90-tick stillness at WYSIWYG gather-species cells, 1-2 gold + 2 xp, one yield per 4-tile walk). gather_test = 29th fixed step + CI row. SWEPT FLAGS: origin pushed (all S1 commits); the canary seed-3 repro 515->1312 narrated - the cap lane racing the floor lane on shared repro filenames in the parallel pool (benign, diagnostic-only; lane-suffixed repro names recorded as a tooling candidate); a fresh serial canary run re-verified FAIL 10 hits @t23 all seeds (undodgeable-reactive still proven). The first cast is the designer's.",
+      "refs": [
+        "sl-0105",
+        "sl-0104",
+        "game@b2167a2",
+        "notes/2026-08-02-starhook-idea.md",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     }
   ]
 }

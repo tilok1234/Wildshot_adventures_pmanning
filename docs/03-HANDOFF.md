@@ -58,6 +58,27 @@ corrections 1–9).
 > session file's THE USAGE SEAM + THE ENEMY-EXPANSION LANE
 > SURFACES sections.
 
+> **TRUTH-UP ~23:14: THE MENU PASS GOES ON HOLD — THE UI PACKAGE
+> IS HERE (sl-0153, log 153/0).** The designer exported "Bullet
+> Hell RPG Menu System.zip" tonight (sha256 6BDB0DDD…C157B4CA,
+> 2.06 MB): the v2 menu system — 7 menus × 4 hues + HUD/confirm/
+> toast/tooltip surfaces, menu-specs.json as the layout SOURCE OF
+> TRUTH, a 20-piece chrome overlay whose dims match the consumed
+> v1 kit EXACTLY (legal pixels-only swap; unshipped ids stay v1),
+> the 470-glyph icon atlas (parity-check at intake, no
+> double-vendor), the pixel font (license word owed). Planning
+> assessed PASS WITH ONE DEFECT: five captures are the bare stage
+> (character ×4 hues + hud + toast — re-cut asked of the
+> designer) — plus routable ADDITIONS (abandon · decline/later ·
+> per-quest track · givers-have-work · drag-or-click · options/
+> confirm/toast restyles). **DO NOT DROP the menu-pass paste — it
+> is marked ON HOLD at the session file's tail**; the spec-driven
+> rewrite replaces it when the accepted export lands (delivery id
+> then — the icon-pack precedent). The routed shape itself STANDS
+> unchanged (two tabs · dialogue/accept · F-interact stations ·
+> chrome · bars-left · theme-swappable). Full assessment: THE UI
+> PACKAGE ARRIVES section.
+
 ## The fresh session's first moves, in order
 
 1. Read this section → the session file's tail (from "THE

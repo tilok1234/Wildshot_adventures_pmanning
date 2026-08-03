@@ -295,9 +295,10 @@ designer's word ("ye lets do it functionally now and visually
 later. just some placeholder for now") — real stats + slots +
 placeholder looks; the visibly-worn modular armor layers ride
 the designer's prototype handoff whenever it arrives; every
-number [T]; takes the NEXT free SERIAL at build (the sl-0168
-"26 = foraging" reservation amends to whichever seam builds
-first) · simple
+number [T]; BUILT 2026-08-03 AT SERIAL 26 (sl-0177/0178
+resolved at the game seam's close — the sl-0168 reservation
+amended exactly as written: the gear seam built first and took
+26; foraging takes the next free number) · simple
 class trees v1 (the slice-tree scope below) · the FORAGING build
 (split from the menu pass onto three designer words — ALL THREE
 ANSWERED 2026-08-03, Tier 1, sl-0168: F-press → short gather bar
@@ -308,8 +309,9 @@ future round; nodes SPAWN AMBIENTLY like starhook rifts (capped,
 rng_misc, consumed on gather — the everywhere-forage's ~1.9k
 standing cells retire as direct gather cells; session lean [P]:
 they become the spawner's candidate pool so nodes sit on real
-props) — SPEC COMPLETE, SERIAL 26 reserved, builds at the next
-build slot) · whatever further Green notes surface as missing
+props) — SPEC COMPLETE, builds at the next free SERIAL (27 —
+the gear seam took 26) at the next build slot) · whatever
+further Green notes surface as missing
 systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.

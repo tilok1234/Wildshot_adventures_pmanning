@@ -51,9 +51,9 @@ designer-carried) · `notes/reference/starhook-proto2/INDEX.md`
    movement fast) and re-bank the seat basics (project map ·
    the designer · conventions · watcher pattern).
 5. THE FORAGING SEAM IS SPEC-COMPLETE (sl-0168, the at-work
-   words — builds at SERIAL 26 under full discipline at the
-   next build slot: the designer opens a game session and says
-   go). Class trees v1 PARTIALLY RULED (sl-0169 — the pattern
+   words — builds at the next free SERIAL (27; the gear seam
+   took 26) under full discipline at the next build slot: the
+   designer opens a game session and says go). Class trees v1 PARTIALLY RULED (sl-0169 — the pattern
    law + the 5/15/25 skeleton + the sword L5 pair; the rest
    waits on the designer's testing rounds). THE STARHOOK
    EXPANSION CHARTER is recorded (sl-0170, doc 23 — directs
@@ -112,7 +112,8 @@ at ~1.9k cells, gold+xp, anti-AFK rule) and the "24 gather
 spots" = 12 water-fishing markers (PARKED, sl-0111) + 12 forage
 POIs. **THE THREE QUESTIONS ANSWERED (designer, 2026-08-03
 at-work chat session, Tier 1 — sl-0168; the seam builds at
-SERIAL 26 under full discipline at the next build slot):**
+the next free SERIAL — 27, the gear seam took 26 — under full
+discipline at the next build slot):**
 (1) VERB = F-press → a SHORT GATHERING BAR (~0.5–1 s [T]) →
 a LOOT BAG drops from the node (the sl-0129 bag machinery
 reused); the bar INTERRUPTS on movement or getting hit (the
@@ -229,11 +230,12 @@ drag-to-move.
 > the bait fighter [P/T] · rare-catch drops zone-gated ·
 > unique rods FUTURE. A SIM seam
 > — next free SERIAL at build; the sl-0168 "26 = foraging"
-> reservation amends to whichever seam builds first. **TWO
-> PASTES now stand drop-ready at the session file's tail**
-> ("QUEST-PULL FINDINGS x2" + "THE GEAR SEAM") — the designer
-> picks the order; both can share one game session, findings
-> first. Doc 23's queue line carries the gear shape. The
+> reservation amends to whichever seam builds first. **THE
+> GEAR SEAM PASTE DROPPED AND LANDED 2026-08-03 (SERIAL 26;
+> sl-0179 carries the resolution + shape findings). The
+> QUEST-PULL FINDINGS x2 paste did NOT ride that session —
+> it stands drop-ready at the session file's tail;
+> sl-0175/0176 stay open for its own drop.** Doc 23's queue line carries the gear shape. The
 > starhook expansion menu (rift-type ladder v1 next · species
 > design rounds chat-side · uniques/event-rifts/dungeon-rift
 > later) is offered, unruled — AND HELD by the designer's

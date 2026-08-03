@@ -2890,6 +2890,23 @@
             "sl-0170"
         ],
         "by": "agent"
+    },
+    {
+      "id": "sl-0179",
+      "ts": "2026-08-03T21:35:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE GEAR SEAM LANDED (sl-0177 + sl-0178 RESOLVED; game 0fdaa2f, SERIAL 26, WSR v3 unchanged): rods are starhooking weapons (12-rod catalog over the four family norms, 3 per tier), rift chest+helm, the fish-priced tackle vendor at the harbor capital, rare-catch drops - full gate green, every number [T]",
+      "detail": "SHAPE FINDINGS NAMED AT CLOSE, per the rails: (1) the open shape point resolved AS THE LEAN [P] - rod families carry their OWN patterns as NORMS (the built four already WERE that shape: line 7 / fan 8 / sinker 9 / twin 29; every new rod reuses its family's PatternDef VERBATIM - zero new patterns, sl-0169's law untouched); tiers WITHIN a family are stat flavors; flipping to per-rod uniqueness later is a data change, the designer's word in play picks. (2) The four originals KEEP their level-grant (sl-0177's own 'may stay the one leveled ladder') - the free spine, one identity per tier; the 8 new rods are purchase/drop-only behind ownership bits; flipping the spine to shop-only later is one price row per rod. (3) Chest/helm v1 rows are SINGLE-STAT (chest +12/16/21/28 line hp, steps in [1.25,1.35]; helm +4/5/6/7 defense vs BULLET strain through THE formula - the 1-hp drain chunks ride the formula's floor untouched, test-pinned: the strain clock never mitigates); a drain/grace/lives gear-stat family is NAMED FUTURE (touches the line's clock semantics, deserves its own designed round). (4) The equip surface v1 = the tackle station (first piece auto-equips an empty slot; equip op swaps among owned; no de-equip - gear carries no downside); a C-menu rift-gear pane is a future round. (5) The rare-drop pool = PRICED rows only within zone tier bounds [1,2 for Green, T] - the free spine never drops (already free); dup-protected by construction. MECHANICS: fish wallet IN-SIM (SERIAL 26: fish counts + rod/tackle owned masks + chest/helm equips on PlayerState; profile keys everything BY ID, absent-key tolerant, no version bump - the designer's save carries; harvest PRESERVES unknown fish species keys, honoring the fish-first word with a ghost-species test pin); recorded ops 144..175 tackle-buy / 176..191 tackle-equip on the existing bag_op byte (zero format growth); tackle_cell 110.5,178.5 pinned in slice_overworld (walkable, >=4.1 t from every station; the pack's own dock-fisher-teacher body marks it); R-swap feeds a SELECTABLE MASK mirroring the sim gate (recorded byte semantics unchanged). VALIDATOR: balance_calc GATE 6 parses the rod .tres frames against family norms, exact-pins the four proto originals, enforces family DPS tier-monotonicity + the sl-0115 tier ladder + price-species existence + rare-species-T4-only + every-species-priced + tier-totals-never-shrink + chest step band + helm obtainable band vs the PARSED star-spray hit; negative-tested x4; its FIRST run caught the seam's own helm_t4 price shrinking (fixed - the gate worked). Tests: gather_test +7 sections; goldens re-recorded + verified x10; full pretester ALL GREEN with the battery byte-identical. THE LOCK TRUTHED AT THE BUMP same-sweep: docs/23 + docs/03 serial lines amended (26 = the gear seam, built; foraging takes 27). NOTE: the QUEST-PULL FINDINGS x2 warm-up paste did NOT ride this session - sl-0175/0176 stay OPEN for their own drop. NO feel verdicts; the designer plays before refinement pastes drop; the tackle catalog numbers, prices, drop rates, and the two acquisition-shape calls above are the designer's to flip.",
+      "refs": [
+        "sl-0177",
+        "sl-0178",
+        "sl-0170",
+        "sl-0169",
+        "sl-0168"
+      ],
+      "by": "agent"
     }
   ]
 }

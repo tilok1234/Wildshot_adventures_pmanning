@@ -127,6 +127,31 @@ corrections 1–9).
 > first, splits out rather than stall). THE GATE WORD: when the
 > pass + sweep are IN, the designer STARTS THE GAME AGENT.)*
 
+> **TRUTH-UP 2026-08-03 ~02:35: THE MENU PASS v2 HAS LANDED
+> WHOLE (game 3838f60, all pushed + verified both ends).** Eight
+> seams in one game session, every gate green: A the chrome
+> no-op finding (the v2 look = drawn panel2 from tokens; font
+> license self-closed) · B the two-tab C menu (bag as slot grid;
+> abandon in the op byte, zero format growth) · C the offer
+> dialogue (accept = a recorded op; Later-only) · D stations on
+> F + ESC-MENU-FIRST whole · E bars LEFT (tracker stays right
+> [T] — one word flips) · F options carry-all (the ability row
+> was the LIVE M4 hot-swap; toast chip built) · G THE UNIQUE
+> REVEAL (~3.8s honest, no-strobe MECHANIZED, boss gate pinned
+> structural) · H the world audited (findings: capital giver has
+> NO BODY — word owed; crowd one-liners future; station+drop
+> double-answer watch item). **SEAM I SPLIT OUT by its own
+> escape hatch — planning's premise corrected: foraging EXISTS
+> (sl-0105 stillness v1) and the 24 spots = 12 parked
+> water-fishing + 12 forage POIs; THREE one-line questions to
+> the designer route it (verb F-vs-stillness · yield items-vs-
+> gold · rich-spots-vs-everywhere), then it builds at SERIAL 26
+> under full discipline.** THE STAGED LAW AMENDMENTS FIRED (the
+> laws block above). Designer-owed: the proper play · panel2
+> chrome word · tracker side · capital giver body · the three
+> forage answers. Planning watches for the game seat's close
+> (resolutions batch + handoff).
+
 > **TRUTH-UP 2026-08-03 ~00:30: THE MENU PASS IS RUNNING.** The
 > game agent opened on the drop and its first acts ran the paste
 > exactly (all pushed, origin = **3240c00**, planning-verified):
@@ -232,11 +257,13 @@ deferred by word)** · the icon-grid inventory look.
 All the morning's laws stand (no coined names · reference media
 rides as law · full gate before commit · re-baseline discipline
 · hands before cuts · a plan is not a delivery · the key map:
-F interact · E autofire · C sheet+log · O/Esc pause · N dev map
-· R rod swap · J replay-save · B loot-all · G GIF). **STAGED,
-amend only when the menu pass LANDS:** the key-map line gains
-the quest-log hotkey + C-becomes-the-two-tab-menu; O/Esc gains
-the menu-first Esc priority; stations = F-interact-always.
+F interact — STATIONS ALWAYS F-OPEN, loot bags/gold walk-over ·
+E autofire · **C THE TWO-TAB MENU (character | quest log) · L
+quest-log deep-link [T remappable]** · **O/Esc MENU-FIRST, then
+the one pause** · N dev map · R rod swap · J replay-save · B
+loot-all · G GIF). *(The staged amendments FIRED 2026-08-03 at
+the pass landing — seams A–H whole at game 3838f60; seam I
+split out to the designer's three forage questions.)*
 
 ## THE SEAT'S CONVENTIONS (one addition)
 

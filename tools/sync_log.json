@@ -2832,6 +2832,34 @@
             "sl-0012"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0175",
+        "ts": "2026-08-03T15:57:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "MAP MARKERS MISSING ON THE MAP (designer play finding, screenshot on record with planning): the fullscreen map shows NO quest glyphs - only black squares + the player dot; the quest-pull kit's corner/full map markers (sl-0121/sl-0135) don't read in real play",
+        "detail": "The designer, verbatim: 'i dont see any map markers on map tbh'. The screenshot (fullscreen map overlay, dusk world): several BLACK SQUARES of varying sizes scattered (NW, NE, center, south, SW) + the white player dot with facing tick - no quest.available/quest.turn_in glyphs, no objective/turn-in markers anywhere. Planning's observation FOR THE PROBE, not a diagnosis: the black squares could be placements baked into the pack's own minimap.png OR markers rendering without their art - the game probe should first name WHICH surface this is (the sl-0069 fullscreen dev overlay vs the corner minimap vs both) and where the sl-0135 markers actually draw, with a capture at a giver. Expected end state: available/turn-in givers + tracked-quest objectives read on BOTH map surfaces. View-only fix expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
+        "refs": [
+            "sl-0121",
+            "sl-0135"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0176",
+        "ts": "2026-08-03T15:57:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "GIVER QUEST ICON RENDERS UNDER THE NPC (designer play finding): the overhead quest glyph draws BELOW/UNDER the giver sprite instead of overhead - z-order or anchor defect in the sl-0121/sl-0135 kit",
+        "detail": "The designer, verbatim: 'also i think quest icon is bugged and actualy shows up under the npc atm'. Expected per sl-0135: overhead giver icons, two states (quest.available / quest.turn_in), drawn ABOVE the giver at its cell. Likely render-order or anchor offset. Fix = overhead, never occluded by the giver's own sprite (nor by adjacent props at rare geometry - check while in there). Evidence: probe captures at both scales, before/after (the two-scale convention). View-only expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
+        "refs": [
+            "sl-0121",
+            "sl-0135"
+        ],
+        "by": "agent"
     }
   ]
 }

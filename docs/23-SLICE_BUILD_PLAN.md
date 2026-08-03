@@ -282,7 +282,13 @@ bag + paper-doll + proper-info errands log w/ track+abandon) ·
 the offer dialogue (accept-as-decision, Later-only) · stations
 F-open + Esc-menu-first · bars left · options/toast restyles ·
 the boss-unique reveal · the interactability audit** ·
-REMAINING: the GEAR SEAM — ROUTED 2026-08-03 evening, sl-0177,
+REMAINING: the STARHOOK-GEAR SEAM (the designer's post-land
+clarification, verbatim: "we put in gear for starhooking" —
+THIS seam is the RIFT lane only; the OVERWORLD gear lane is
+separate, loop-era, and was ALREADY LIVE before Green days:
+tiered weapon/armor/ring/ability drops + boss uniques from
+normal enemies since Loop v1/S1 — untouched today) — ROUTED
+2026-08-03 evening, sl-0177,
 the designer's two shaping words in: charter-shaped rifter gear
 (rod + chest + helm; RODS = STARHOOKING WEAPONS with SEVERAL
 per level tier, sl-0178 — the rift lane's weapon family, each

@@ -232,7 +232,13 @@ drag-to-move.
 > — next free SERIAL at build; the sl-0168 "26 = foraging"
 > reservation amends to whichever seam builds first. **THE
 > GEAR SEAM PASTE DROPPED AND LANDED 2026-08-03 (SERIAL 26;
-> sl-0179 carries the resolution + shape findings). The
+> sl-0179 carries the resolution + shape findings). NAMING
+> TRUTH (the designer's post-land word, verbatim: "we put in
+> gear for starhooking"): this is THE STARHOOK-GEAR SEAM — the
+> RIFT lane only; the loop-era OVERWORLD gear lane (tiered
+> weapon/armor/ring/ability drops + boss uniques from normal
+> enemies, live since Loop v1/S1, shown on the C-doll) is a
+> SEPARATE lane, untouched today. The
 > QUEST-PULL FINDINGS x2 paste did NOT ride that session —
 > it stands drop-ready at the session file's tail;
 > sl-0175/0176 stay open for its own drop.** Doc 23's queue line carries the gear shape. The

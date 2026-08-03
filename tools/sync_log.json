@@ -2970,6 +2970,34 @@
         "sl-0177"
       ],
       "by": "agent"
+    },
+    {
+        "id": "sl-0184",
+        "ts": "2026-08-03T21:24:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "MAP MARKERS RESOLVED (sl-0175; game 078283c, view-only, zero sim bytes, -SkipBattery ALL GREEN 3.1 min): the markers ALWAYS drew on both surfaces - the empty map was MODEL COVERAGE (available givers never marked; KILL/COLLECT carry no objective cell); the black squares = baked POI footprints in the pack's own minimap.png, NOT broken markers",
+        "detail": "Diagnosis proven with before-captures: one _draw_markers on the shared rect chain serves corner minimap AND fullscreen map; only turn-in rings + carried-VISIT diamonds ever drew. THE FIX = model coverage: gold BANG (available giver) / green RING (turn-in) via QuestGiverIcons.giver_states (ONE model - world + both maps), amber DIAMOND (VISIT objective) bound to [ui] tracked_quest exactly like the HUD tracker. THE HONEST REMAINING GAP, planning-owned by design: KILL/COLLECT quests carry NO objective cell - nothing marks where to hunt (options when the designer wants it: zone/region hint vs nothing; route on their word). Evidence before/after at reports/quest_pull_{before_,audit_}*.png, read by eyes. Executed by a routed hands-free game-seat session on the designer's 'do it now' word; planning wrote this resolution (the seat was instructed zero planning writes).",
+        "refs": [
+            "sl-0175",
+            "sl-0135"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0185",
+        "ts": "2026-08-03T21:24:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "GIVER ICON RESOLVED (sl-0176; same commit): the icon anchored the AUTHORED cell at LIFT 34 (detached air over 24px bodies) and at the bodiless capital slot it landed at the FEET of a crowd NPC two tiles north of spawn - the literal 'under the npc'; fix = anchor the BODY cell + LIFT 18, occlusion structurally impossible",
+        "detail": "Measured on b77: three zone givers stand walkability-nudged off their authored cells (dry-scout 1N / cold-trapper 1N / cold-wayfinder 1NW) with icons not following - icons now anchor the giver's BODY cell (compute_stations def_cell -> NpcView.giver_cell_map; bodiless slots keep the authored interact cell); LIFT 34->18 (attached overhead read); occlusion structural by layer order (HP_BARS 35 > CANOPY 32 > ACTORS 30 - sprite/props/crowns can never cover it). Test pins: dev_map marker model + npc icon wiring (incl. the dry-scout 1N per-pack pin) + the quest_pull probe. Handoff gotcha 42 recorded game-side (a Windows toast rode ALWAYS_ON_TOP into two capture attempts - kept out of committed evidence; set_size ignored while maximized). Game 078283c + 2f42e92 (hours close), pushed + ls-remote verified. NOTE: the post-push lint glance (gotcha 26) was blocked in the executing seat by the permission layer - planning ran it at sweep instead. THE CAPITAL GIVER BODY stays the standing designer-owed word (unchanged).",
+        "refs": [
+            "sl-0176",
+            "sl-0135"
+        ],
+        "by": "agent"
     }
   ]
 }

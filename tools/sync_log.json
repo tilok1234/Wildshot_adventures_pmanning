@@ -2760,6 +2760,22 @@
             "docs/22-STAT_SYSTEM.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0170",
+        "ts": "2026-08-03T07:24:00Z",
+        "type": "ruling",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE STARHOOK EXPANSION CHARTER (designer, at-work chat, Tier 1): playful-space law; rifter gear rod+chest+helm (modular armor ALREADY IN THE DESIGNER'S HANDS); fish-priced vendor + rare drops; NO depth - the overworld is the geography; visible rift types w/ encounter/dungeon pools; rifts RARE",
+        "detail": "Seven rulings in one arc, recorded in docs/23 as THE STARHOOK EXPANSION CHARTER. Intent re-anchored: NOT an economy system, never a money sink - a bullet-hell minigame with its own character; THE BAIT IS THE FIGHTER. (1) PLAYFUL SPACE: rifts may break main-game STYLE laws (patterns/density/spectacle); the FAIRNESS FLOOR never relaxes (explainable, deterministic, dodgeable, no-strobe); rift = pattern R&D, graduates may enter main-game boss work. (2) GEAR: 3 slots rod+chest+helm, MODULAR armor on the code-drawn fighter - the designer has already started building it their side; prototype handoff expected (starhook-proto2 INDEX precedent). (3) ACQUISITION BOTH: tackle vendor sells the tiered ladder priced in FISH (species-currency = the money, loop self-contained); rare catches drop specials; unique rods = future chase under the uniques law. (4) NO DEPTH ('this is not fishing') - rift danger rides the zone it opens over; the overworld is the progression geography, soft-gated by danger, no level locks. (5) RIFT TYPES with content pools (encounter or dungeon per type's pool, rng_loot in-sim; sketch [P]: catch/shoal/dungeon/strange kinds - dungeon rifts = the Warren machinery in galaxy skin). (6) TYPES VISIBLE at the tear - informed risk; surprise lives inside the pool. (7) RIFTS RARE - a sighting is an event ('oooooo rift'), never furniture; cadence [T]. OPEN threads: zone species rosters, per-species pattern identities, legendary naming (the designer's naming act), tackle vendor home. The built S1 starhook stands as-is; the charter directs future rounds only.",
+        "refs": [
+            "docs/23-SLICE_BUILD_PLAN.md",
+            "sl-0115",
+            "sl-0123",
+            "sl-0125"
+        ],
+        "by": "agent"
     }
   ]
 }

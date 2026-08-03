@@ -299,6 +299,72 @@ systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.
 
+## THE STARHOOK EXPANSION CHARTER (designer rulings, 2026-08-03 at-work chat session; sl-0170)
+
+The designer's framing, opening the arc: starhooking is the idea
+"we really can make bank on" — original, instantly explainable,
+and worth sustained refinement. The intent re-anchored hard
+mid-session: starhooking is NOT an economy system and never a
+money sink — it is **a bullet-hell minigame with its own
+character**; the bait is not a resource, THE BAIT IS THE FIGHTER
+("the bait is kind of the fighter, at least visually"); the
+rifter is a real second progression lane. Rulings, in order:
+
+1. **THE PLAYFUL-SPACE CHARTER [RULED]:** rifts may break the
+   main game's STYLE laws — wild pattern vocabularies, densities,
+   and mechanics the overworld would never allow. The FAIRNESS
+   FLOOR never relaxes: deaths explainable, patterns
+   deterministic and honestly dodgeable, no-strobe/
+   photosensitivity absolute. Rider: the rift doubles as pattern
+   R&D — a rift pattern that proves great may graduate into
+   main-game boss work later.
+2. **RIFTER GEAR = 3 SLOTS [RULED]: rod + chest armor + helm.**
+   Real gear, not abstract upgrades; a MODULAR armor system on
+   the code-drawn layered bait fighter (pieces = drawn layers,
+   cheap by construction, visibly worn). The designer has
+   ALREADY STARTED building the modular armor system on their
+   side — expect a prototype handoff that becomes the law of the
+   build (the starhook-proto2 INDEX precedent).
+3. **GEAR ACQUISITION = BOTH [RULED]:** a tackle vendor sells
+   the tiered rod/armor ladder priced in FISH (the per-species
+   currency is the money — the loop stays self-contained; the
+   small gold trickle to the main wallet stays flavor), while
+   rare catches DROP the special pieces; unique rods (pattern
+   deviants, the uniques law applied inside the pond) = the
+   future chase.
+4. **NO DEPTH DIMENSION [RULED — the metaphor correction]:**
+   "this is not fishing" — there is no down. Rift danger RIDES
+   THE ZONE the rift tears open over: Green rifts hold
+   Green-grade fish, Snow rifts hold monsters. The overworld IS
+   starhooking's progression geography, soft-gated by danger
+   exactly like the world itself (no level locks on access; a
+   brave low rifter can try a Wetlands rift and the fish is the
+   lock). Rod unlocks may stay the one leveled ladder.
+5. **RIFT TYPES WITH CONTENT POOLS [RULED]:** a few distinct
+   rift kinds, each with a chance to spawn an encounter or
+   dungeon from its respective pool; the cast draws in-sim
+   (rng_loot, deterministic). Type-ladder sketch [P]: the common
+   CATCH rift (today's single fish fight) · a SHOAL/swarm rift
+   (playful-space license) · a DUNGEON rift (the Warren
+   committed-instance machinery in galaxy skin) · rare strange
+   kinds (twin-fish / unstable / wandering legendary) as event
+   spice.
+6. **TYPES ARE VISIBLE AT THE TEAR [RULED]:** each kind wears
+   its own look at the portal — informed risk, the readability
+   soul; the surprise lives inside the pool, never in what you
+   walked into.
+7. **RIFTS ARE RARE [RULED]:** rare enough that a sighting is an
+   event ("oooooo rift") — never ambient furniture. Testable by
+   feel: if you see one and don't detour, it spawns too often.
+   All cadence/spawn numbers [T].
+
+Zone-flavored species rosters, per-species pattern identities,
+legendary fish naming, and the tackle vendor's home are OPEN
+threads for the designer's continued refinement; every number
+throughout stays [T] for Green days. The S1 starhook build
+(sl-0115/0123/0125) stands as-is — this charter directs the
+FUTURE rounds, no immediate re-work implied.
+
 ## Class trees v1 — the ruled shape (designer, 2026-08-03 at-work chat session; sl-0169)
 
 - **THE PATTERN LAW (the session's defining correction):** tree

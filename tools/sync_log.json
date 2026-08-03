@@ -2860,6 +2860,21 @@
             "sl-0135"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0177",
+        "ts": "2026-08-03T17:16:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE GEAR SEAM ROUTED (the designer's starhook lean firmed + both shaping words in): charter-shaped rifter gear rod+chest+helm, FUNCTIONAL-FIRST ('ye lets do it functionally now and visually later. just some placeholder for now'), tackle vendor v1 in the HARBOR CAPITAL priced in fish, rare-catch drops; a SIM seam at the next free SERIAL",
+        "detail": "The designer's words: 'maybe we should work on the starhooking' (the lean) then '1.sure sounds good.' (vendor home = harbor capital, planning's routed lean accepted) + '2. ye lets do it functionally now and visually later. just some placeholder for now' (functional-first ruled - real stats/slots/placeholder looks; the visibly-worn modular armor layers ride the designer's prototype handoff whenever it arrives). THE SHAPE (doc 23 queue line amended in place): 3 slots rod+chest+helm (sl-0170 ruling 2); the four rods fold in as the vendor's tiered ladder (R-swap stays; rod unlocks may stay the one leveled ladder); chest+helm = rift-side defensive stats on the bait fighter/the line, overworld combat untouched (planning lean [P], numbers [T], block-9-style validation); TACKLE VENDOR v1 = ONE vendor in the harbor capital, stock = the tiered ladder PRICED IN FISH via the starhook_fish{} per-species counts (spend = recorded/deterministic, the fish-wallet shows in the vendor UI; rides sl-0131 vendor machinery + the v2 chrome); rare catches DROP special pieces (rng_loot, deterministic, zone/danger-gated per no-depth); unique rods (pattern deviants) = FUTURE, do not build. SERIAL: takes the NEXT free number at build under full re-baseline; the sl-0168 '26 = foraging' reservation amends to whichever seam builds first (the designer picks drop order; both pastes stand at the session file's tail - QUEST-PULL FINDINGS x2 can ride the same game session first as view-only warm-up). Resolve sl-0177 at close.",
+        "refs": [
+            "sl-0170",
+            "sl-0131",
+            "sl-0168"
+        ],
+        "by": "agent"
     }
   ]
 }

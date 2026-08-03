@@ -217,6 +217,25 @@ drag-to-move.
 > wait-til-slice-end lean stands and the experiment carries no
 > governance weight while it stays one.
 
+> **TRUTH-UP ~19:16: THE GEAR SEAM IS ROUTED (sl-0177).** The
+> designer's starhook lean firmed and both shaping words are
+> in: TACKLE VENDOR v1 = THE HARBOR CAPITAL · FUNCTIONAL-FIRST
+> ("ye lets do it functionally now and visually later. just
+> some placeholder for now" — modular armor visuals ride the
+> future prototype handoff). Charter-shaped: rod+chest+helm ·
+> rods fold in as the vendor's fish-priced tiered ladder ·
+> chest/helm = rift-side stats on the bait fighter [P/T] ·
+> rare-catch drops zone-gated · unique rods FUTURE. A SIM seam
+> — next free SERIAL at build; the sl-0168 "26 = foraging"
+> reservation amends to whichever seam builds first. **TWO
+> PASTES now stand drop-ready at the session file's tail**
+> ("QUEST-PULL FINDINGS x2" + "THE GEAR SEAM") — the designer
+> picks the order; both can share one game session, findings
+> first. Doc 23's queue line carries the gear shape. The
+> starhook expansion menu (rift-type ladder v1 next · species
+> design rounds chat-side · uniques/event-rifts/dungeon-rift
+> later) is offered, unruled — doc 23 amends when picked.
+
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 
 No coined names · reference media rides as law · full gate

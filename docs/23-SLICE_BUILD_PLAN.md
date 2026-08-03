@@ -282,7 +282,19 @@ bag + paper-doll + proper-info errands log w/ track+abandon) ·
 the offer dialogue (accept-as-decision, Later-only) · stations
 F-open + Esc-menu-first · bars left · options/toast restyles ·
 the boss-unique reveal · the interactability audit** ·
-REMAINING: the GEAR SEAM (starhook drops into the bag) · simple
+REMAINING: the GEAR SEAM — ROUTED 2026-08-03 evening, sl-0177,
+the designer's two shaping words in: charter-shaped rifter gear
+(rod + chest + helm), acquisition BOTH ways (the TACKLE VENDOR
+v1 lives in the HARBOR CAPITAL, priced in FISH via the
+starhook_fish{} per-species counts; rare catches DROP the
+special pieces, in-sim rng_loot), FUNCTIONAL-FIRST by the
+designer's word ("ye lets do it functionally now and visually
+later. just some placeholder for now") — real stats + slots +
+placeholder looks; the visibly-worn modular armor layers ride
+the designer's prototype handoff whenever it arrives; every
+number [T]; takes the NEXT free SERIAL at build (the sl-0168
+"26 = foraging" reservation amends to whichever seam builds
+first) · simple
 class trees v1 (the slice-tree scope below) · the FORAGING build
 (split from the menu pass onto three designer words — ALL THREE
 ANSWERED 2026-08-03, Tier 1, sl-0168: F-press → short gather bar

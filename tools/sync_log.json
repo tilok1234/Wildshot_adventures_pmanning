@@ -3055,6 +3055,20 @@
             "sl-0188"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0190",
+        "ts": "2026-08-03T23:01:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "NAMES OVER FUNCTIONAL NPCS (the designer's word): vendors/givers/stations-with-bodies are hard to spot - a nameplate over every NPC you can at some point interact with; crowd NPCs stay unlabeled - 'would also bring more life to the world'",
+        "detail": "Designer verbatim: 'Also vendors and quest npcs and the alike is really hard to spot. i think a easy fix for this that would also bring more life to the world would be to have a name over the respective npc, and we will only have names on npcs that actually have a function that you at some point can interact with'. THE SHAPE [P leans, seat refines]: WHO = the interactable class exactly (givers, vendors, the bank, the tackle keeper, any future trainers - the seam-H audit's F-responders with bodies); crowd/villager NPCs (CORE-35 pure view) stay UNLABELED by the designer's own scoping. WHAT v1 = ROLE LABELS auto-derived from the interact registry (plain descriptions - 'Trader', 'Banker', 'Tackle Keeper', giver role/reason-tag words; zero authoring, law-clean) with a DATA NAME TABLE underneath so the designer's own proper-name pass replaces/augments any label whenever (their naming act, data-only swap - the fish-designs-era natural companion). DISPLAY: small nameplate over the head coexisting with the sl-0176 overhead quest icons (stack order name-vs-icon [T]; suggest icon above name); readable at both scales; always-on vs distance-fade [T, lean always-on for spotting - the ask IS visibility]; the structural occlusion layer (the HP-bar band, the sl-0176 precedent). View-only, zero sim bytes expected. May ride the LIVE round-1 session as an addendum or the next session - the designer's drop.",
+        "refs": [
+            "sl-0176",
+            "sl-0179"
+        ],
+        "by": "agent"
     }
   ]
 }

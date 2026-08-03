@@ -253,6 +253,23 @@ drag-to-move.
 > STANDS meanwhile — species are DATA; the fish designs
 > re-roster later with zero rework.
 
+> **TRUTH-UP ~20:55: THE STARHOOK BOSS EXPANSION + DUNGEON
+> TEST IS ROUTED (sl-0180, the designer's word before going
+> out for some hours).** 12–24 new starhook boss FIGHTS (2–4
+> telegraphed phases · unique-ish patterns and/or unique
+> compositions · 1–5 min [T] · placeholder art + placeholder
+> descriptive ids, NO lore names — the fish designs re-skin
+> later) + 1–2 DUNGEON-RIFT TESTS (the designer's shape: a
+> 1–5 min walked path, mobs scattered, boss at the end; the
+> Warren committed-instance machinery in rift skin;
+> dev-entrance access first [P]). The playful-space license
+> rides WITH the fairness floor absolute (no-strobe mechanized
+> on every new pattern). SIZE-FIRST sanctioned — waves split
+> honestly. **THE PASTE is cut at the session file's tail**
+> beside the still-standing QUEST-PULL FINDINGS x2 paste
+> (which may ride the same session as warm-up). A SIM seam —
+> next free SERIAL; foraging's number floats accordingly.
+
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 
 No coined names · reference media rides as law · full gate

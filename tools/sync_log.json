@@ -2907,6 +2907,22 @@
         "sl-0168"
       ],
       "by": "agent"
+    },
+    {
+        "id": "sl-0180",
+        "ts": "2026-08-03T18:52:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE STARHOOK BOSS EXPANSION + DUNGEON TEST ROUTED (the designer's word, pre-outing): 12-24 new starhook boss FIGHTS (2-4 phases, unique-ish patterns and/or unique compositions, 1-5 min, placeholder art) + 1-2 dungeon-rift tests (a 1-5 min walked path, mobs scattered, boss at the end) - the playful-space charter's first content batch",
+        "detail": "The designer, verbatim: 'lets try to set up a \"starhook Boss expansion and dungeon test\" where we could create like maybe 12-24 new starhooking bosses, or mostly their boss fight. and remember starhooking is a place where we are allowed to be a tad experimental, and i think the boss fights with 2-4 phases and unique ish projectile patterns and atleast unique compositions of different ones. for like some 1-5 min boss fights wont be that hard to make. and we just use placeholder art for now.' + 'Also if we could create 1 or two dungeon tests. a dungeon is pretty much just a 1-5 min long \"path\" (its larger then a path ofc but u walk through it like a path with boss at end) with enemy mobs scattered along the way and a boss at the end.' THE SHAPE ROUTED: bosses populate the rift fight pool alongside the existing fish (charter ruling 5's encounter pool made real); each = 2-4 telegraphed phases, playful-space pattern license WITH the fairness floor ABSOLUTE (deterministic/dodgeable/explainable/no-strobe mechanized on every new pattern), 1-5 min [T] vs the rod DPS ladder (a fight-length bound row suggested for balance_calc, the GATE 6 precedent); Warden three-phase recipe = the floor, stat walls never; PLACEHOLDER art + PLACEHOLDER DESCRIPTIVE IDS only (no lore names - naming + looks re-skin when the designer's fish designs land, the fish-first word; keep identities data-keyed for the re-skin, the ghost-species precedent). Dungeons = committed-instance machinery (the Warren precedent) in rift/galaxy skin, 1-2 test instances, dev-entrance access first [P] (ambient dungeon-rift spawns wire later behind [T] once the test proves). SIZE-FIRST CHECK SANCTIONED: split into waves rather than stall (the seam-I precedent) - waves resolve honestly. A SIM seam: next free SERIAL, full re-baseline, lock truthed at the bump. The QUEST-PULL FINDINGS x2 paste may ride the same session as warm-up. Resolve sl-0180 at close.",
+        "refs": [
+            "sl-0170",
+            "sl-0179",
+            "sl-0175",
+            "sl-0176"
+        ],
+        "by": "agent"
     }
   ]
 }

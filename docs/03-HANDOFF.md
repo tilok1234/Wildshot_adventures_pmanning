@@ -14,9 +14,111 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-03 early morning (THE MENU PASS v2 LANDED WHOLE · THE DESIGNER'S UI PACKAGE IN · THE THREE FORAGE WORDS IN — SEAM I SPEC-COMPLETE · SERIAL 25)
+# CURRENT HANDOFF — 2026-08-04 early morning (THE STARHOOK ERA RUNS: GEAR + THE BOSS BATCH LANDED · REFINEMENT ROUND 1 ROUTED AND WAITING · SERIAL 26)
 
-**This section supersedes everything below it.** Written at the
+**This section supersedes everything below it.** Written
+mirroring the game seat's own post-play docs sweep (game
+81bbe78/679fbd0 — its HANDOFF is the fresh-chat continuation
+game-side; this is it planning-side). Full story:
+`notes/sessions/2026-08-02-slice-s1.md` (the tail runs the gear
+seam → the boss batch → the findings → refinement round 1) ·
+`docs/23` charter section (starhook law, rulings 1–8).
+
+## The fresh session's first moves, in order
+
+1. Read this section → the session file's tail (from "THE GEAR
+   SEAM ROUTED" onward).
+2. Verify the board yourself: game main pushed at **679fbd0**
+   (its post-play docs sweep — truthed to the refinement-round-1
+   threshold); sync log **189 entries / 0 dupes, tail sl-0189**
+   — re-run the dupes check.
+3. **ARM BOTH WATCHERS** (the four-lane sweep watcher + the
+   producer watcher, the standing pattern) — expect self-noise
+   from your own writes.
+4. **MEMORY IS PER ACCOUNT** — if this chat opened with no
+   recalled memories, rebuild from THIS file + repo forensics.
+5. **REFINEMENT ROUND 1 IS ROUTED AND WAITING** (sl-0186–0189;
+   the paste at the session file's tail): the designer drops it
+   into a fresh game session; planning sweeps per item. The
+   spawned-seat precedent stands (sl-0184/0185 ran hands-free on
+   the designer's word with a ZERO-PLANNING-WRITES rail) — offer
+   it when the designer wants speed.
+
+## THE BOARD
+
+**LANDED 2026-08-03 EVENING, ALL SWEPT (SERIAL 26 the whole
+way, zero serialized growth):** THE STARHOOK-GEAR SEAM (sl-0179
+— the 12-rod catalog over four family norms, the free spine
+level-grants, the fish-priced tackle vendor at the harbor
+capital, rift chest/helm, rare-catch drops) · THE BOSS BATCH,
+three waves (sl-0183 — eight kits with eight playful patterns
+under the absolute fairness floor, the weighted fight pool, THE
+CONSTELLATION fish stacks, the rifter panel, the dungeon path
+test) · the creel→constellation rename (the sl-0182 cosmic
+rail applied) · THE QUEST-PULL FINDINGS (sl-0184/0185 — the
+marker model was COVERAGE not breakage: gold bang / green ring
+/ amber diamond on both maps; giver icons body-anchored
+overhead, occlusion structurally impossible; executed
+HANDS-FREE by a spawned seat on the designer's word).
+
+**REFINEMENT ROUND 1 (sl-0186–0189) — the designer's first play
+verdicts, ROUTED AND WAITING:** the dungeon BROKEN in real play
+(normal-sized room, half unwalkable — diagnose-first; the
+DESIGNER RE-WALK gates resolution; lesson candidate: script
+proofs don't prove the WALK) · fight length RE-RULED 20–60 s
+max, intense (gate 7 re-pins [20,60]; all eight kits re-derive
+— 117–148 s all fail the new bar) · BOSS LIFE (the
+standing-there verdict: kits split ROOM-PATTERN vs BEHAVIOURAL
+families; the keep-range law amends for rift bosses AT the
+landing, fairness floor absolute) · dev jump commands for every
+instanced encounter. **THE POOL EXTENSION** (the remaining of
+the routed 12–24 fights) queues AFTER round 1 lands so new
+bosses are born in the corrected shape — planning's standing
+recommendation.
+
+**THE STANDING HOLDS:** fish-first (the designer designs
+starhook fish before species/expansion rounds — their artifact
+becomes the law) · the naming rail (sl-0182: cosmic family
+inside the lane, plain names everywhere else) · the stray
+branches parked by word (sl-0173, until branch-handling
+protocols exist) · tile-world-filler = an EXPERIMENT only ·
+chibi_forge + prompt_spriter = other-project lanes, chase
+nothing there · the assembler enemy-expansion lane alive on
+codex/en-e03 (EN-E03 v2 visual REJECTED at its gate mid-flight;
+no release, no log entry until it ships).
+
+**DESIGNER-OWED (the hands list):** drop round 1 · replay the
+batch after it lands (the dungeon RE-WALK + the line-drain word
+ride it) · the words: panel2 chrome · tracker side · capital
+giver body · free-four shop-only · family-pattern vs per-rod ·
+x1.25 firing feel · kill/collect map hints · the fish designs
+(their own lane, whenever) · weekly GIF (fresh material
+everywhere: a boss fight, the dungeon, the constellation).
+
+## LAWS THIS ERA (additions to the standing set)
+
+All menu-pass-era laws stand unchanged. NEW: the STARHOOK
+NAMING EXCEPTION (sl-0182 — names WANTED inside the lane on the
+cosmic rail; the plain-names law untouched elsewhere) · the
+keep-range law's rift-boss amendment is STAGED and fires when
+round 1 lands (sl-0188) · fight-length bounds are
+designer-ruled 20–60 s (sl-0187, supersedes the 1–5 min word).
+
+## THE SEAT'S CONVENTIONS (two additions)
+
+Unchanged from the menu-pass era, plus: **log appends anchor on
+the document's LAST `]`** (mixed entry indents live in the file
+now — a closer-pattern anchor mismatched once; caught by
+validate-before-write, which stays mandatory) · **spawned game
+seats run with the ZERO-PLANNING-WRITES rail** (planning writes
+the resolutions at sweep; the seat verifies its own push and
+reports raw data).
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-03 early morning (THE MENU PASS v2 LANDED WHOLE · THE DESIGNER'S UI PACKAGE IN · THE THREE FORAGE WORDS IN — SEAM I SPEC-COMPLETE · SERIAL 25)
+
+**Superseded by the section above; kept as history.** Written at the
 designer's ask right after the menu-pass marathon closed clean
 at both ends — the seat that wrote it STAYS ON WATCH; this
 handoff is insurance, the night's own lesson (two sessions died
@@ -303,7 +405,7 @@ log timestamps AFTER checking the clock.
 
 ---
 
-# PREVIOUS HANDOFF — 2026-08-02 late evening (PC-RESTART SEAM · THE MENU PASS ROUTED AND WAITING · NINE-SEAM PASS LANDED 9/9 · SERIAL 25)
+# PRIOR HANDOFF — 2026-08-02 late evening (PC-RESTART SEAM · THE MENU PASS ROUTED AND WAITING · NINE-SEAM PASS LANDED 9/9 · SERIAL 25)
 
 **Superseded by the section above; kept as history.** Written at a
 PC-restart seam: the designer rebooted the machine, so every
@@ -581,7 +683,7 @@ seat memory files — they auto-recall in a fresh chat.
 
 ---
 
-# PRIOR HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
+# EARLIER HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
 
 **Superseded by the section above; kept as history.**
 
@@ -759,7 +861,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# EARLIER HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
+# PRIOR HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
 
 **Superseded by the section above; kept as history.** The full story:
 `notes/sessions/2026-08-02-slice-s1.md` (the S1 overnight + the

@@ -3041,6 +3041,20 @@
             "sl-0187"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0189",
+        "ts": "2026-08-03T21:59:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "DEV COMMANDS FOR EVERY INSTANCED ENCOUNTER (the designer's add, joins refinement round 1): the console jumps directly into ANY instanced encounter - each of the eight boss kits by id, the dungeon(s), a plain catch - the `dungeon` one-flag precedent generalized",
+        "detail": "Designer verbatim: 'also maybe add dev commands for all the different instanced encounters'. Shape [P, seat refines per console conventions]: a command family on the dev console - jump straight into any rift boss kit by its id (e.g. the eight at roster 30-37), the dungeon path(s), a plain catch; a list/help form naming what's jumpable; include any other committed-instance content reachable only by play (the Warren class) if not already picker-covered. Dev-layer only, rides the same jump machinery as the existing `dungeon` command (the one-flag law); zero sim semantics. Joins the round-1 paste as item 4.",
+        "refs": [
+            "sl-0186",
+            "sl-0188"
+        ],
+        "by": "agent"
     }
   ]
 }

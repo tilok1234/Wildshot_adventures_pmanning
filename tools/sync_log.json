@@ -2776,6 +2776,21 @@
             "sl-0125"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0171",
+        "ts": "2026-08-03T14:35:00Z",
+        "type": "incident",
+        "repo": "planning",
+        "target": "planning",
+        "title": "STALE-LINEAGE BRANCH SURFACED + MISDIAGNOSED, THEN RESOLVED: claude/operator-protocols-guidelines-ruyu4q = a 2026-07-30 snapshot of the PRE-REBOOTSTRAP full history (184 commits, root = the 2026-07-26 bootstrap), pushed up at an old session's close - ZERO unique files vs the mainline; the designer's PC checkout confirmed HEALTHY on the mainline",
+        "detail": "FACTS, verified: the mainline (claude/questionnaire-note-taking-9vl2sl) roots at a FRESH 2026-08-02 ~15:43 re-bootstrap (53 commits; the pre-Aug-2 git history is not on it - the docs carry the record). The surfaced branch carries the ORIGINAL 184-commit lineage through 2026-07-30 20:55 (tip = the PC-seam handoff commit) and is git-disjoint from the mainline (no common ancestor - NEVER git-merge it; a blind merge would regress ~64 newer mainline files). File-level audit: zero files unique to the branch; the mainline strictly supersedes (even the operator-guide files continued evolving mainline-side). THE MISDIAGNOSIS, on the record honestly: the session first read the branch as 'the designer's PC being 4 days stale' and advised a hard reset of the PC checkout - WRONG and RETRACTED before any harm (the designer never ran it); the PC checkout was then verified directly (git remote -v + log pasted): origin = this repo, HEAD = the mainline at 3498a9c - healthy, one ordinary git pull behind. LESSON (the gotcha shape): verify the actual remote + HEAD of a machine's checkout BEFORE theorizing about lineage; a disjoint branch push at session-close is a SNAPSHOT surfacing, not evidence any working copy is stale. DISPOSITION: the branch preserves the only on-GitHub copy of the pre-Aug-2 history - archive it as a tag (archive/claude/operator-protocols-guidelines-ruyu4q) then delete the branch pointer; the tag push is designer-hands (the session proxy 403s non-branch refs). Today's rulings (sl-0168/0169/0170) merged to the mainline at 94f704e; the designer pulls and is current.",
+        "refs": [
+            "sl-0168",
+            "sl-0169",
+            "sl-0170"
+        ],
+        "by": "agent"
     }
   ]
 }

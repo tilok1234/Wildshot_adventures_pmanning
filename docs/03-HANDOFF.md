@@ -152,6 +152,19 @@ corrections 1–9).
 > forage answers. Planning watches for the game seat's close
 > (resolutions batch + handoff).
 
+> **TRUTH-UP ~02:40: THE GAME SEAT CLOSED CLEAN (origin 9891e7e —
+> its HANDOFF truthed for the menu-pass era + the hours bracket
+> closed) and PLANNING WROTE THE RESOLUTIONS BATCH** (sl-0159–
+> 0167; log **167/0/tail sl-0167** — this close, unlike the
+> nine-seam one, wrote none hands-free, noted honestly): every
+> menu-pass ask carries its outcome; sl-0157's foraging half
+> stays OPEN on the three designer questions; SERIAL 25
+> UNCHANGED (the whole pass moved zero sim-format bytes; 26
+> reserved for the foraging build). The board rests on the
+> designer's hands: the proper play + the words (panel2 chrome ·
+> tracker side · capital giver body · 3× forage). The
+> systems-complete queue stands: THE GEAR SEAM → class trees v1.
+
 > **TRUTH-UP 2026-08-03 ~00:30: THE MENU PASS IS RUNNING.** The
 > game agent opened on the drop and its first acts ran the paste
 > exactly (all pushed, origin = **3240c00**, planning-verified):

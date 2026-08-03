@@ -2596,6 +2596,140 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0159",
+        "ts": "2026-08-03T00:36:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0152 (and the superseded-in-flight 0143/0150/0151 shape line): THE TWO-TAB C MENU LANDED (seam B, game cf9826b)",
+        "detail": "ONE menu, TWO TABS exactly the final shape: CHARACTER (portrait + bigbars + statchips + dollslots paper-doll + THE BAG AS A SLOT GRID with 16px atlas icons - the first-touch didnt-recognize datum answered) and QUEST LOG (carried cards + givers-have-work + parchment detail with proper info + per-quest TRACKED toggle + ABANDON). C opens last-used [T]; the NEW quest_log action deep-links (L [T], remappable, no-F-row); tabs mouse-click; suppress rules held; right-click drop = confirm -> recorded op -> toast. DRAG DEFERRED honestly (a gesture never grows the recorded format; hints state only what ships). Built on the DRAWN panel2 chrome per the seam-A finding (menu_palette.gd = the one doc-13 swap point). Evidence matches the workbench captures at both scales; x2 overflow scrolls (sl-0119 law generalized). FULL GATE 15.8 min, goldens verify-unchanged.",
+        "refs": [
+            "sl-0152",
+            "sl-0143",
+            "sl-0150",
+            "sl-0151",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0160",
+        "ts": "2026-08-03T00:37:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0144: QUEST DIALOGUE + EXPLICIT ACCEPT LANDED (seam C, game f1757a3)",
+        "detail": "The press NEVER accepts: F = turn-in first (law held) else QUEST_OFFERED pure event -> the offer window (panel2 plaque w/ giver name [T voice], reread text, objective, reward, gold-framed Accept + Later). ACCEPT = the recorded op (the reserved 128..143 range live), sim-guarded radius/capacity/taken-done regardless of view; F-as-confirm [T]; hands-cap refusal loud pre-op; on accept the quest enters the errands tab with proper info. FULL GATE 13.6 min.",
+        "refs": [
+            "sl-0144",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0161",
+        "ts": "2026-08-03T00:38:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0145: BANK-ON-INTERACT + MENU CLOSE CHROME LANDED (seam D, game 713085a)",
+        "detail": "The bank opens on F at the keeper (walk-over retired; radius/ops/caps/death-proofing untouched). EVERY opened menu carries the close button (panel2). ESC-CLOSES-MENU-FIRST landed WHOLE via driver esc_intercept: a consumed press closes the TOPMOST menu (sheet confirm, offer, C menu, stations); pause always legal on the NEXT press (CORE-31 untouched); O runs the same close-first law; nothing open = the one pause menu. The seam-C one-seam quirk (Esc pausing over an open offer) closed here exactly as recorded.",
+        "refs": [
+            "sl-0145",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0162",
+        "ts": "2026-08-03T00:39:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0147: THE INTERACT RULE GENERAL + THE THEME-SWAP BINDING HELD (seams A/D/H)",
+        "detail": "Every STATION opens on F INTERACT, never walk-over - bank AND vendor rebuilt on the v2 specs (vault two-grid + death-never-touches footer; trader shelves + price chips); LOOT BAGS STAY WALK-OVER by the designer's own sl-0129 word (panel restyled to loot_v2 w/ gold-framed B loot-all); future stations inherit (verified in the seam-H audit). THE THEME-SWAPPABLE BINDING: the v2 look = drawn chrome from manifest tokens (menu_palette.gd = the ONE swap point) - the designer's future external re-skin is a token/capture swap, stronger than the texture model (the seam-A byte-identity finding).",
+        "refs": [
+            "sl-0147",
+            "sl-0129",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0163",
+        "ts": "2026-08-03T00:40:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0149: HP+MANA BARS LEFT LANDED (seam E, game 1a74a01) - the tracker STAYS RIGHT by the session's call [T], one designer word flips",
+        "detail": "Vitals LEFT (4,4 inset [T], Law 6 + ui-scale inset discipline, autofire beside); the right corner = the world-info cluster (weapon row, corner minimap, errand tracker beneath). The routed tracker re-anchor [T] exercised as STAYS-RIGHT; follows-left was the alternative - the designer's play word flips it in one line if wanted. Giver icons / map markers / loot readout untouched. ui_family probe re-baselined (the batched one-re-record promise from seam B honored).",
+        "refs": [
+            "sl-0149",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0164",
+        "ts": "2026-08-03T00:41:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0153: THE SPEC-DRIVEN REPLAN EXECUTED WHOLE - THE MENU PASS v2 LANDED (eight seams, game 3240c00..3838f60, every gate green)",
+        "detail": "The pass built FROM menu-specs.json on the intaken package (delivery sl-0155, intake sl-0158): A the chrome no-op finding -> B the two-tab menu -> C the offer -> D stations + Esc-first -> E bars left -> F options carry-all (the spec's ability row = the LIVE M4 hot-swap; toast chip built from spec) -> G the unique reveal -> H the world audit. The pass NEVER STALLED: seam I split out by its own size-first construction (sl-0167). The game handoff truthed for the menu-pass era at its close (99ece6b + 9891e7e, hours bracket closed). The doc-03 staged law amendments FIRED at the landing (C = the two-tab menu, L = deep-link, stations F-always, O/Esc menu-first).",
+        "refs": [
+            "sl-0153",
+            "sl-0155",
+            "sl-0158",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0165",
+        "ts": "2026-08-03T00:42:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0154: ABANDON + THE OFFER'S LATER-ONLY LANDED (seams B+C)",
+        "detail": "ABANDON = recorded op (112..127): taken+unfinished -> back to its giver, progress ZEROED, event emitted; done/untaken refuse; leaves the log, clears the tracker. THE LOOP TEST-PROVEN END-TO-END: abandoned errands re-offer through the normal dialogue and re-accept FRESH. The offer's non-accept = ONE Later button (closes, the errand stays; Esc/walk-away identical); the spec's Decline deliberately NOT built per the designer's word. Zero format growth (WSR v3, InputFrame 17 B).",
+        "refs": [
+            "sl-0154",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0166",
+        "ts": "2026-08-03T00:43:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVED sl-0156: THE UNIQUE REVEAL LANDED (seam G, game 2b70588) - ~3.8s by asset honesty; the no-strobe rail MECHANIZED; the dragon stage = refinement-round material",
+        "detail": "Trigger exactly the rule: UNIQUE rarity + PICKED UP + boss-sourced STRUCTURALLY (unique tables ride phased-boss defs only, PINNED in green_roster_test - a future non-boss source goes red first). The play: wolf pack rings the dimmed screen (real assembler wolf:gray frames = the look target), ONE golden wash stands in for the flamebreath (NO dragon sheet exists - honestly staged, not faked; the full dragon reel is a refinement round when a sheet exists, possibly from the held hellish spares - the designer's call), then the UNIQUE word-mark + parchment ribbon. NO-STROBE MECHANIZED: the luminance path probe-verified (3 direction flips across 38 samples PASS, >3 FAILS). The sim pauses SILENTLY for the play (pause_locked, the menu never opens over it); ANY INPUT SKIPS. CORE-19 note carried; the designer owns the taste.",
+        "refs": [
+            "sl-0156",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0167",
+        "ts": "2026-08-03T00:44:00Z",
+        "type": "resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "RESOLVING sl-0157 IN PART: THE INTERACTABILITY SWEEP DONE (seam H, game 73aaced); THE FORAGING HALF STAYS OPEN on three designer questions (seam I split out, game 3838f60)",
+        "detail": "THE SWEEP: every class verified with mechanized proof pointers (game notes/INTERACT_SWEEP.md) - F: bank/vendors(nearest-wins)/givers(turn-in-wins)/rifts INSTANT CAST untouched by the Esc changes/drops; walk-over by design: loot bags/gold/doors; disambiguation MEASURED (cross-class pairs disjoint min 3.00 vs 2.4; merchant-trader same-class resolves nearest sim-side). THREE FINDINGS: crowd NPCs = CORE-35 pure view by design (villager one-liners future [T]) AND THE CAPITAL GIVER HAS NO BODY (designer word owed - content fix or hold); station+drop both-layers single-press = rare-geometry watch item [T]; foraging = stillness-v1 confirmed. THE FORAGING HALF: the size-first check SPLIT IT OUT for design authority (game notes/FORAGE_SEAM_SIZING.md) - planning's premise corrected (foraging EXISTS: sl-0105 90-tick stillness at ~1.9k cells w/ anti-AFK rule; the 24 spots = 12 water-fishing markers PARKED with sl-0111 + 12 forage POIs); the routed build would flip three sl-0105 designer-ruled models (verb stillness->F, yield gold->bag items, pacing anti-AFK->depletion/respawn) + SERIAL 26 + full re-baseline. THE THREE QUESTIONS (one word each routes the build): (1) F replace the stand-still cast at forage spots, or both? (2) items in the bag instead of/beside the gold+xp? (3) the 12 marked spots = rich deplete-and-respawn spots on top of/instead of the everywhere-forage? The ask stays OPEN on this half.",
+        "refs": [
+            "sl-0157",
+            "sl-0105",
+            "sl-0111",
+            "notes/sessions/2026-08-02-slice-s1.md"
+        ],
+        "by": "agent"
     }
   ]
 }

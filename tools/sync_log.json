@@ -2998,6 +2998,49 @@
             "sl-0135"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0186",
+        "ts": "2026-08-03T21:56:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE DUNGEON IS BROKEN IN REAL PLAY (designer walk): 'its just a normal sized room and half of it doesnt work to walk in' - the bot proofs passed but the designer's walk contradicts the built serpentine; diagnose-first routed",
+        "detail": "Designer verbatim: 'the dungeon is tottaly broken its just a normal sized room and half of it doesnt work to walk in'. The wave-2 proofs walked the path script-side, so the defect is between the data and the real load: diagnose FIRST with a capture of what actually loads vs data/arena_rift_path.json (did the serpentine scenario load at all, or did the default arena rect win? walkability mask vs render mismatch? the end shafts blocking?), name the cause honestly, fix, commit real-walk evidence captures - and the DESIGNER RE-WALKS before this resolves. The lesson candidate for the record at resolution: script proofs prove the sim's fights; they do not prove the designer's WALK - a human-shaped load check belongs in the gate for walked content.",
+        "refs": [
+            "sl-0180",
+            "sl-0183"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0187",
+        "ts": "2026-08-03T21:56:00Z",
+        "type": "ruling",
+        "repo": "planning",
+        "target": "game",
+        "title": "FIGHT LENGTH RE-RULED: 20-60 s MAX, INTENSE (the designer's own correction, supersedes sl-0180's 1-5 min word: 'i think i exagurated the length... more of an intense combat like maybe 20-60 sec max') - gate 7 re-pins [20,60]; all eight kits' HP re-derive (117-148 s all fail the new bar)",
+        "detail": "The designer's honest self-correction in play. Re-pin balance_calc gate 7 bounds to [20,60] s vs the free-spine rod ladder; re-derive all eight kits' hp through the calculator; INTENSE is the direction - shorter AND denser; every number [T]; goldens re-record per the re-baseline discipline if any recorded run shifts.",
+        "refs": [
+            "sl-0180",
+            "sl-0183"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0188",
+        "ts": "2026-08-03T21:56:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "BOSS LIFE - THE STANDING-THERE PROBLEM (designer verdict): 'most of them just stand there if u dont approach them. some should have like static patterns moving around the room and others should have like bnehavioural ones' - the eight kits split into ROOM-PATTERN vs BEHAVIOURAL families; the keep-range law amends for rift bosses by this word",
+        "detail": "Designer verbatim above. THE SHAPE: (a) ROOM-PATTERN bosses - choreographed patterns that MOVE AROUND THE ROOM (sweeps, rotations, traveling walls - the room is the canvas, active regardless of player position); (b) BEHAVIOURAL bosses - movement/AI-driven life (reposition, dash, orbit, react). Assign each of the eight to a family [P lean at build], rebuild their life, re-run proofs. THE KEEP-RANGE ONE-ROOM LAW AMENDS by the designer's word FOR RIFT BOSSES: they may move and behave; the fairness floor stays ABSOLUTE (deterministic, honestly dodgeable, deaths explainable, no-strobe re-probe per changed kit). Every number [T].",
+        "refs": [
+            "sl-0180",
+            "sl-0183",
+            "sl-0187"
+        ],
+        "by": "agent"
     }
   ]
 }

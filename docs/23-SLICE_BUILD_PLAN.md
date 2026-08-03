@@ -284,10 +284,18 @@ F-open + Esc-menu-first · bars left · options/toast restyles ·
 the boss-unique reveal · the interactability audit** ·
 REMAINING: the GEAR SEAM (starhook drops into the bag) · simple
 class trees v1 (the slice-tree scope below) · the FORAGING build
-(split from the menu pass onto three designer words —
-F-vs-stillness / items-vs-gold / rich-spots-vs-everywhere;
-SERIAL 26 reserved) · whatever further Green notes surface as
-missing systems. Then S2–S4 run at full speed on stable
+(split from the menu pass onto three designer words — ALL THREE
+ANSWERED 2026-08-03, Tier 1, sl-0168: F-press → short gather bar
+[~0.5–1 s, T] interrupting on move/hit → a LOOT BAG drops (sl-0129
+machinery); yield = forage MATERIALS as per-species profile
+currency on the starhook_fish{} doctrine, cosmetic trade-in sink a
+future round; nodes SPAWN AMBIENTLY like starhook rifts (capped,
+rng_misc, consumed on gather — the everywhere-forage's ~1.9k
+standing cells retire as direct gather cells; session lean [P]:
+they become the spawner's candidate pool so nodes sit on real
+props) — SPEC COMPLETE, SERIAL 26 reserved, builds at the next
+build slot) · whatever further Green notes surface as missing
+systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.
 

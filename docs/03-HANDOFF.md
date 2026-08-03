@@ -103,12 +103,27 @@ DID) — check which way before writing a batch.
 premise corrected: foraging EXISTS (sl-0105: 90-tick STILLNESS
 at ~1.9k cells, gold+xp, anti-AFK rule) and the "24 gather
 spots" = 12 water-fishing markers (PARKED, sl-0111) + 12 forage
-POIs. **THE THREE QUESTIONS (one designer word each → the seam
-builds at SERIAL 26 under full discipline):** (1) F replace the
-stand-still cast at forage spots, or both? (2) items into the
-bag instead of / beside gold+xp? (3) the 12 spots = rich
-deplete-and-respawn spots on top of / instead of the
-everywhere-forage?
+POIs. **THE THREE QUESTIONS ANSWERED (designer, 2026-08-03
+at-work chat session, Tier 1 — sl-0168; the seam builds at
+SERIAL 26 under full discipline at the next build slot):**
+(1) VERB = F-press → a SHORT GATHERING BAR (~0.5–1 s [T]) →
+a LOOT BAG drops from the node (the sl-0129 bag machinery
+reused); the bar INTERRUPTS on movement or getting hit (the
+designer's own rider); stillness + anti-AFK retire from
+foraging. (2) YIELD = FORAGE MATERIALS keyed by species,
+persisted per-species in the profile EXACTLY like the fish
+(the starhook_fish{} species-currency doctrine) — "trade in
+different foraging materials for cosmetics"; the cosmetic
+trade-in sink is a FUTURE round ("might work on it later"),
+the counts store correctly from day one. (3) SPOTS = NEITHER
+routed option — the designer's own shape: forage nodes SPAWN
+RANDOMLY around the world "much like starhooking rifts"
+("1900 is too many") = the ambient-rift machinery's second
+consumer (interval/chance/cap [T], rng_misc, consumed on
+gather); session lean [P]: candidate pool = the ~1.9k forage
+prop cells so nodes always sit ON a stump/log/bush with a
+visible shimmer (WYSIWYG); the 12 forage POIs retire or fold
+into the pool at build.
 
 **THE ENEMY-EXPANSION LANE (assembler, codex-branch, ALIVE — it
 survives PC restarts and Claude usage limits):** EN-E01 +

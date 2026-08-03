@@ -2730,6 +2730,22 @@
             "notes/sessions/2026-08-02-slice-s1.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0168",
+        "ts": "2026-08-03T06:47:00Z",
+        "type": "resolved",
+        "repo": "planning",
+        "target": "game",
+        "title": "RESOLVING sl-0157's FORAGING HALF: ALL THREE QUESTIONS ANSWERED (designer, at-work chat, Tier 1) - F-press gather bar -> loot bag; materials = per-species profile currency (cosmetics trade-in later); nodes spawn ambiently like starhook rifts",
+        "detail": "The designer's words, one per routed question: (1) VERB - 'pressing F should activate a small gathering bar like 1 sec or 0.5 sec and then a loot bag drops from the forage node' + 'interrupt when u move or get attacked' - the sl-0129 loot-bag machinery reused; stillness + anti-AFK retire from foraging. (2) YIELD - 'it should kind of work like starhooking where you can trade in different foraging materials for cosmetics. might work on it later' - materials keyed by species, persisted per-species in the profile on the starhook_fish{} species-currency doctrine; the cosmetic trade-in sink is a FUTURE round, counts store from day one. (3) SPOTS - neither routed option; the designer's own shape: 'we will have to create a system that spawns them randomly around the world much like starhooking rifts, 1900 is too many' - the ambient-rift machinery's second consumer (interval/chance/cap [T], rng_misc, consumed on gather). Session lean [P] for the build: candidate pool = the ~1.9k forage prop cells so nodes sit ON real stumps/logs/bushes with a visible shimmer (WYSIWYG); the 12 forage POIs retire or fold into the pool. Bar length ~0.5-1 s [T] with every other number. SPEC COMPLETE - the seam builds at SERIAL 26 under full discipline at the next build slot. Recorded from the claude/progress-review-plan-h69wyq planning session (docs/23 queue + doc 03 board amended same commit).",
+        "refs": [
+            "sl-0157",
+            "sl-0105",
+            "sl-0129",
+            "docs/23-SLICE_BUILD_PLAN.md"
+        ],
+        "by": "agent"
     }
   ]
 }

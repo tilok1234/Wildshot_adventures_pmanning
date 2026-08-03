@@ -271,16 +271,23 @@ Refinement is TWO different things with two different right times
 **The S2 gate bar, concrete: Green days end at SYSTEMS-COMPLETE,
 not Green-perfect** — the designer can play Green start to finish
 and never hit "this system doesn't exist yet." The known
-systems-complete queue (updated 2026-08-02 evening): the starhook
-soul seam LANDED + refined same day (sl-0115/0123/0125, all
-resolved) · THE INVENTORY FAMILY (the bag sl-0116 as amended by
-sl-0128 tooltips+equipment-pane · loot bags sl-0129 · the bank
-sl-0130 · vendors v1 sl-0131) · the view/feel batch (C-sheet
-sl-0119 · fire rate sl-0120 · quest pull sl-0121 · boss sprites
-sl-0122 · NPC desync sl-0132) · the GEAR SEAM (routes AFTER the
-inventory family — starhook drops need a bag to land in) · simple
-class trees v1 (the slice-tree scope below) · whatever further
-Green notes surface as missing systems. Then S2–S4 run at full speed on stable
+systems-complete queue (updated 2026-08-03, the menu-pass
+landing): the starhook soul seam LANDED + refined
+(sl-0115/0123/0125) · THE INVENTORY FAMILY LANDED (the bag
+sl-0116+0128 · loot bags sl-0129 · the bank sl-0130 · vendors v1
+sl-0131) · the view/feel batch LANDED (sl-0119/0120/0121/0122/
+0132) · **THE MENU PASS v2 LANDED 2026-08-03 (sl-0159–0167, on
+the designer's own v2 UI package): the two-tab C menu (slot-grid
+bag + paper-doll + proper-info errands log w/ track+abandon) ·
+the offer dialogue (accept-as-decision, Later-only) · stations
+F-open + Esc-menu-first · bars left · options/toast restyles ·
+the boss-unique reveal · the interactability audit** ·
+REMAINING: the GEAR SEAM (starhook drops into the bag) · simple
+class trees v1 (the slice-tree scope below) · the FORAGING build
+(split from the menu pass onto three designer words —
+F-vs-stillness / items-vs-gold / rich-spots-vs-everywhere;
+SERIAL 26 reserved) · whatever further Green notes surface as
+missing systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.
 

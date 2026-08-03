@@ -14,9 +14,163 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-02 late evening (PC-RESTART SEAM · THE MENU PASS ROUTED AND WAITING · NINE-SEAM PASS LANDED 9/9 · SERIAL 25)
+# CURRENT HANDOFF — 2026-08-03 early morning (THE MENU PASS v2 LANDED WHOLE · THE DESIGNER'S UI PACKAGE IN · FORAGING WAITS ON THREE WORDS · SERIAL 25)
 
-**This section supersedes everything below it.** Written at a
+**This section supersedes everything below it.** Written at the
+designer's ask right after the menu-pass marathon closed clean
+at both ends — the seat that wrote it STAYS ON WATCH; this
+handoff is insurance, the night's own lesson (two sessions died
+of usage without one). Full story:
+`notes/sessions/2026-08-02-slice-s1.md` (the whole two-day arc;
+its tail runs THE USAGE SEAM → the UI package → nine routed
+seams → eight landed → the close) ·
+`notes/2026-08-02-docs-audit.md` (per-seat pastes still
+designer-carried) · `notes/reference/starhook-proto2/INDEX.md`
+(starhook law, corrections 1–9).
+
+## The fresh session's first moves, in order
+
+1. Read this section → the session file's tail (from "THE USAGE
+   SEAM" onward — the account-switch forensics, the v2 package
+   assessment, the pass, every seam sweep).
+2. Verify the board yourself: game main pushed at **9891e7e**
+   (the menu-pass close — its HANDOFF truthed + hours closed);
+   sync log **167 entries / 0 dupes, tail sl-0167** — re-run
+   the dupes check; planning synced with origin.
+3. **ARM BOTH WATCHERS** (they die with the session): the
+   four-lane sweep watcher (game HEAD moves · the session-note
+   file · tools/sync_log.json · ~6-min GitHub check on game
+   main AND planning origin) PLUS the PRODUCER WATCHER (all
+   five producer repos' heads+tags, ~5-min ls-remote — the
+   night's lesson: producer codex lanes push without the
+   designer relaying; a game+planning-only watch missed a whole
+   live lane). Expect self-noise from your own writes.
+4. **MEMORY IS PER ACCOUNT** — if this chat opened with no
+   recalled memories, rebuild from THIS file + repo forensics
+   (`gh api repos/tilok1234/<repo> --jq .pushed_at` finds
+   movement fast) and re-bank the seat basics (project map ·
+   the designer · conventions · watcher pattern).
+5. Nothing is routed-and-waiting. THE BOARD RESTS ON THE
+   DESIGNER'S HANDS (the words list below) — route what they
+   say, sweep what lands.
+
+## THE BOARD
+
+**THE MENU PASS v2 LANDED WHOLE 2026-08-03 (~00:20–02:30, game
+3240c00..9891e7e, every gate green, resolved sl-0159–0167).**
+The designer's own UI package ("Bullet Hell RPG Menu System"
+zip, the fixed v2 export) — delivery sl-0155 → intake sl-0158
+(lock pin game←menu-workbench: assets/wildshot-ui-v2/
+byte-true + passport; the icon atlas = the wired 470 EXACTLY,
+deliberately NOT re-vendored; the font CC0 self-produced since
+v1; tools/validate_menu_pack.py = the 31st fixed gate). EIGHT
+SEAMS: **A** the chrome NO-OP FINDING (the v2 look lives in
+DRAWN panel2 chrome from manifest palette tokens —
+`ui/menu_palette.gd` is THE ONE doc-13 swap point; the zip's
+kit pieces were byte-identical to v1) · **B** THE TWO-TAB C
+MENU (character = portrait/bigbars/statchips/DOLLSLOTS/bag-as-
+SLOT-GRID — the didnt-recognize-the-inventory datum answered;
+errands = carried + givers-have-work + parchment proper-info
+detail + TRACKED toggle + ABANDON; C opens, L deep-links [T
+remappable]; drag DEFERRED honestly — no format bump for a
+gesture) · **C** THE OFFER DIALOGUE (the press never accepts;
+accept = recorded op 128..143, sim-guarded; LATER-only, the
+spec's Decline unbuilt by word; F-as-confirm [T]) · **D**
+STATIONS ON F + ESC-MENU-FIRST WHOLE (bank/vendor/loot rebuilt
+on the v2 specs; LOOT BAGS STAY WALK-OVER; one-surface-at-a-
+time; every menu a close button; CORE-31 untouched) · **E**
+BARS LEFT (vitals left 4,4 [T] · world-info right; THE TRACKER
+STAYS RIGHT — the session's call, ONE designer word flips) ·
+**F** OPTIONS CARRY-ALL (the spec's ability row = the LIVE M4
+hot-swap, not a demo; the TOAST chip born from spec) · **G**
+THE UNIQUE REVEAL (boss-unique PICKUPS only — pinned STRUCTURAL
+in green_roster_test; ~3.8 s honest staging: wolf ring → golden
+wash → UNIQUE plaque; NO dragon sheet exists so the full reel =
+refinement material; NO-STROBE MECHANIZED in a probe; silent
+world-pause + any-input skip) · **H** THE WORLD AUDITED (every
+interact class verified, disambiguation MEASURED; findings: THE
+CAPITAL GIVER HAS NO BODY [word owed] · crowd one-liners future
+[T] · station+drop double-answer watch [T]; the audit: game
+notes/INTERACT_SWEEP.md). ABANDON = op 112..127 (quest returns
+to its giver, the loop test-proven end-to-end). **SERIAL 25
+UNCHANGED — the whole pass moved ZERO sim-format bytes; 26 is
+RESERVED for the foraging build.** Note for sweeps: THIS game
+close wrote NO hands-free log resolutions (the nine-seam close
+DID) — check which way before writing a batch.
+
+**SEAM I / FORAGING SPLIT OUT by its own size-first check**
+(the sizing: game notes/FORAGE_SEAM_SIZING.md) — planning's
+premise corrected: foraging EXISTS (sl-0105: 90-tick STILLNESS
+at ~1.9k cells, gold+xp, anti-AFK rule) and the "24 gather
+spots" = 12 water-fishing markers (PARKED, sl-0111) + 12 forage
+POIs. **THE THREE QUESTIONS (one designer word each → the seam
+builds at SERIAL 26 under full discipline):** (1) F replace the
+stand-still cast at forage spots, or both? (2) items into the
+bag instead of / beside gold+xp? (3) the 12 spots = rich
+deplete-and-respawn spots on top of / instead of the
+everywhere-forage?
+
+**THE ENEMY-EXPANSION LANE (assembler, codex-branch, ALIVE — it
+survives PC restarts and Claude usage limits):** EN-E01 +
+EN-E02 approved/registered/consumer-integrated on branches;
+walk + seam repairs promoted; EN-E03 Idle in progress
+(codex/en-e03). Assembler main still f5476a2. NO release yet —
+the sync-log entry comes at release/intake, nothing before. The
+audit §3 assembler paste stays owed AS WRITTEN vs main (the
+branches may have organically fixed items — re-check at merge).
+
+**DESIGNER-OWED (the hands list):** the PROPER PLAY of the menu
+pass (the first look was love — "i do love how they look this
+far" — brief only) · the PANEL2 CHROME-WEIGHT word (in-engine
+came out lighter/flatter than the workbench mock; two ready
+paths: refine-by-eye vs a workbench texture export as a pixels
+swap) · the TRACKER side (stays right vs follows left) · the
+CAPITAL GIVER body · THE THREE FORAGE ANSWERS · the standing
+items: the x1.25 firing feel · the drag-free test cast · the
+split flip-and-pick · the audit game-paste remainder (CLAUDE.md
+GIF F9→G, AUDIO_CUE_MAP telegraph+walk-over rows, TECH_DEBT #16
+tail — RE-VERIFIED STILL STALE 2026-08-03) + the other per-seat
+pastes (audit §3).
+
+**PARKED / FUTURE:** the DRAGON stage of the reveal (wants a
+sheet; the held hellish spares are the natural candidate —
+designer's call) · sl-0146 the hitbox (queued, deferred by
+word) · water fishing sl-0111 (now with 12 known marker cells)
+· fish-offs · node drift/despawn · the furnished-world round ·
+the Puppeteer directed round (staged, before S4 Snow) · vendors
+beyond v1 / fish-currency / mounts · villager one-liners ·
+drag-to-move.
+
+## LAWS THIS ERA (the menu-pass amendments BAKED IN)
+
+No coined names · reference media rides as law · full gate
+before commit · re-baseline discipline · hands before cuts · a
+plan is not a delivery · TALK-BEFORE-BUILD (the seam-I proof:
+design authority outranks a routed build) · THE KEY MAP: **F
+interact (STATIONS ALWAYS F-OPEN; loot bags/gold walk-over) · E
+autofire · C THE TWO-TAB MENU (character | quest log) · L
+quest-log deep-link [T remappable] · O/Esc MENU-FIRST then the
+one pause (CORE-31: pause always legal on the next press) · N
+dev map · R rod swap · J replay-save · B loot-all · G GIF.**
+
+## THE SEAT'S CONVENTIONS
+
+Sweep per seam (verify local+GitHub → annotate the session note
+→ commit EXPLICIT PATHS → push → plain-words report) · verbatim
+designer words, typos preserved · every tunable [T] · no agent
+feel verdicts · fresh ids for amendments; resolutions are their
+own entries · tail-append + count/dupes before EVERY log commit
+· the shared-checkout two-writers rule (never add -A; check
+tip+tree first) · watcher self-noise is normal, verify only
+when in doubt · MEMORY IS PER ACCOUNT (re-bank on a fresh
+account; the repos are the only cross-account truth) · stamp
+log timestamps AFTER checking the clock.
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-02 late evening (PC-RESTART SEAM · THE MENU PASS ROUTED AND WAITING · NINE-SEAM PASS LANDED 9/9 · SERIAL 25)
+
+**Superseded by the section above; kept as history.** Written at a
 PC-restart seam: the designer rebooted the machine, so every
 session (planning + game) and the sweep watcher died together —
 cleanly, everything committed and pushed at both ends. Full
@@ -292,7 +446,7 @@ seat memory files — they auto-recall in a fresh chat.
 
 ---
 
-# PREVIOUS HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
+# PRIOR HANDOFF — 2026-08-02 evening (ACCOUNT SWITCH MID-PASS · STARHOOK v2 LIVE · THE NINE-SEAM PASS RUNNING · SEVEN-REPO AUDIT DONE)
 
 **Superseded by the section above; kept as history.**
 
@@ -470,7 +624,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# PRIOR HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
+# EARLIER HANDOFF — 2026-08-02 morning (GREEN DAYS OPEN · S1 ENGINEERING COMPLETE · STARHOOK SOUL QUEUED)
 
 **Superseded by the section above; kept as history.** The full story:
 `notes/sessions/2026-08-02-slice-s1.md` (the S1 overnight + the
@@ -543,7 +697,7 @@ conventions) — they auto-recall in a fresh chat.
 
 ---
 
-# EARLIER HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
+# PRIOR HANDOFF — 2026-08-01 (STAT-TALK SEAM, ~10:45Z)
 
 **Superseded by the section above; kept as history.** The full story is
 `notes/sessions/2026-07-31.md` (the fresh-account marathon; its tail

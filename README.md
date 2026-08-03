@@ -3,8 +3,10 @@
 Top-down 2D open-world fantasy action RPG: a single-player MMO-scale adventure
 with freely aimed projectile combat. **Era: Slice v0.1 is BUILDING** — the world
 is the test (four zones, cap 30, all three classes; `docs/23-SLICE_BUILD_PLAN.md`
-governs); S0 + S1 engineering complete, the designer's Green days are open,
-starhook v2 live in the slice.
+governs); S0 + S1 engineering complete and the designer's Green days run deep:
+starhook v2, the nine-seam systems pass, and the menu-system v2 pass (built on
+the designer's own UI package, 2026-08-03) are all IN. Systems-complete
+remainder: the gear seam → class trees v1 (+ foraging on three designer words).
 
 **This repository is the DESIGN AUTHORITY of a seven-repo ecosystem** (planning ·
 game · tileforge · worldforge · world_filler · sprite assembler · resonance

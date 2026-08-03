@@ -2746,6 +2746,20 @@
             "docs/23-SLICE_BUILD_PLAN.md"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0169",
+        "ts": "2026-08-03T07:20:00Z",
+        "type": "ruling",
+        "repo": "planning",
+        "target": "game",
+        "title": "CLASS TREES v1 PARTIALLY RULED (designer, at-work chat, Tier 1): stat trades + behavior riders ONLY - trees NEVER touch patterns (pattern deviation IS the uniques' job); 3 picks at 5/15/25; RESPECCABLE; sword L5 pair ruled; the rest parked pending designer testing",
+        "detail": "THE PATTERN LAW is the session's defining correction - the designer, verbatim: 'the main job of unique weapons is weapon patterns... in a way that deviates from the projectile patterns of the tiered weapon of same type... THATS the job of uniques and we don't wanna modify how they already deviate from the norm.' An earlier pattern-shaping lean was superseded in-flight and never recorded anywhere (verified against the committed record before this entry). SKELETON: three pick-1-of-2 choice points at levels 5/15/25 ('reasonable without being excessive'). RESPECCABLE ('this is gonna be a long game so we don't want to lock in potential mistakes') - session lean [P]: rides the vendor/station infrastructure, gold price, full reset together, numbers [T]. SWORD L5 RULED: Ironside (+armor +max hp / -move speed) vs Skirmisher (+move speed / -max hp) - numbers [T], block-9 validator prices at build. PARKED on the designer's own word ('I wanna do some more testing before doing these questions'): sword 15/25 drafts, staff/bow rows, the build itself. docs/23 carries the ruled shape as its own section.",
+        "refs": [
+            "docs/23-SLICE_BUILD_PLAN.md",
+            "docs/22-STAT_SYSTEM.md"
+        ],
+        "by": "agent"
     }
   ]
 }

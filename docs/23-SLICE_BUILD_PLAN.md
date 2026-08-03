@@ -299,6 +299,32 @@ systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,
 whole curve) leads into S5's bar week.
 
+## Class trees v1 — the ruled shape (designer, 2026-08-03 at-work chat session; sl-0169)
+
+- **THE PATTERN LAW (the session's defining correction):** tree
+  choices are STAT TRADES + BEHAVIOR RIDERS ONLY — trees NEVER
+  touch firing patterns. The designer's own words: pattern
+  deviation from the tiered norm "is THE job of uniques" (a bow
+  that fires 2 instead of 1, a 4-wide arc) "and we don't wanna
+  modify how they already deviate from the norm." Tiered weapons
+  = the norm; uniques = the deviants; a tree pick must never do
+  a unique's job. (The session's earlier pattern-shaping lean
+  was superseded in-flight and never recorded anywhere.)
+- **Skeleton:** three pick-1-of-2 choice points at levels
+  5 / 15 / 25 ("reasonable without being excessive").
+- **RESPECCABLE** (designer: "this is gonna be a long game so we
+  don't want to lock in potential mistakes") — session lean [P]:
+  respec rides the existing vendor/station infrastructure, gold
+  price, all picks reset together; every number [T].
+- **Sword level-5 pair RULED:** Ironside (+armor +max hp /
+  −move speed — the wade-in tank) vs Skirmisher (+move speed /
+  −max hp — hit-and-run). Numbers [T]; the block-9 validator
+  prices the pairs at build.
+- **Everything else OPEN pending the designer's testing rounds**
+  (their word: "I wanna do some more testing before doing these
+  questions") — sword 15/25 drafts exist in the session record;
+  staff/bow rows unstarted. The build waits.
+
 ## Deferred by name (the tripwire has teeth)
 
 Full skill trees (slice trees = 2–3 real choices per class, the

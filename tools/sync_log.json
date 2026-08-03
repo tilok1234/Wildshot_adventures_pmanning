@@ -2923,6 +2923,21 @@
             "sl-0176"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0181",
+        "ts": "2026-08-03T18:54:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "TWO ADDS TO THE STARHOOK BATCH (the designer's word, amends sl-0180 pre-drop): (1) caught fish LAND IN THE INVENTORY ('starhooking fish should be added to inventory when you get them') + (2) a STARHOOK EQUIPMENT PANEL in the C menu (fires the rift-gear-pane round sl-0179 named FUTURE)",
+        "detail": "The designer, verbatim: 'oh also can you add that starhooking fish should be added to inventory when you get them, also a equipment panel for starhooking in the c menu'. THE SHAPE: (6) FISH TO THE BAG - a catch is VISIBLE in the inventory; planning lean [P]: fish stack PER-SPECIES in the bag grid while the starhook_fish{} species counts STAY the one pricing truth (the bag renders the counts as stacked items - one source, no dual truth; the seat proposes exact mechanics, sizes the bag-cap impact, per-species tooltips; forage materials later follow the same representation for consistency, sl-0168 doctrine). (7) THE STARHOOK EQUIPMENT PANEL IN C - the character tab gains a rifter section: rod/chest/helm doll slots showing worn gear, equip/swap among owned from the menu (the tackle station stays the buy surface); a view surface over the existing recorded equip ops (144..191); evidence at both scales. Both ride the sl-0180 session (or its first wave) - the paste amended IN PLACE at the session file's tail; the size-first check covers the widened batch.",
+        "refs": [
+            "sl-0180",
+            "sl-0179",
+            "sl-0168"
+        ],
+        "by": "agent"
     }
   ]
 }

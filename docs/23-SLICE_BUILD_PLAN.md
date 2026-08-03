@@ -380,6 +380,17 @@ rifter is a real second progression lane. Rulings, in order:
    event ("oooooo rift") — never ambient furniture. Testable by
    feel: if you see one and don't detour, it spawns too often.
    All cadence/spawn numbers [T].
+8. **THE NAMING DIRECTION [RULED 2026-08-03 evening, sl-0182]:**
+   inside the starhook lane, names are WANTED — the
+   no-coined-names law relaxes here to a VOCABULARY RAIL. The
+   designer's word verbatim: "we should have more names with
+   word likethis but not limited to: galaxy, dimension, nebula,
+   constellation, starhooking, rift. stuff like that."
+   Fishing-metaphor words FAIL the rail (the lane is galaxy,
+   not water — the wave-1B "creel" renames on this ruling); the
+   law stands unchanged outside the lane; placeholder
+   descriptive ids stay until the designer's naming act, which
+   now carries this rail.
 
 Zone-flavored species rosters, per-species pattern identities,
 legendary fish naming, and the tackle vendor's home are OPEN

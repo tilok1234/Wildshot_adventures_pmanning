@@ -2938,6 +2938,20 @@
             "sl-0168"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0182",
+        "ts": "2026-08-03T20:30:00Z",
+        "type": "ruling",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE STARHOOK NAMING DIRECTION (designer ruling): the lane WANTS names, drawn from the COSMIC word family - 'galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that' - the no-coined-names law relaxes INSIDE starhooking to this rail; fishing-metaphor words fail it (the creel rename routed)",
+        "detail": "The designer, verbatim (responding to planning's creel flag): 'ye I think we should have more names with word likethis but not limited to: galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that'. THE RULING AS RECORDED: (1) inside the starhook lane, names are WANTED - the no-coined-names law relaxes to a VOCABULARY RAIL: names ride the cosmic family (galaxy / dimension / nebula / constellation / star / rift / ...; open-ended, 'not limited to'); (2) fishing-metaphor words FAIL the rail (creel = a fishing basket; the lane's identity is GALAXY not water - the designer's standing 'this is not fishing' correction applied to naming); (3) the law stands UNCHANGED outside the lane (overworld feature parts stay plain-description); (4) the designer's NAMING ACT still rules - placeholder descriptive ids stay until they name (boss/fish naming remains their act, now with the cosmic direction as its rail). ROUTED to the live/next game session: rename the creel surface to a cosmic-family name (seat proposes 2-3 candidates, the designer picks - or the designer names directly); apply the direction to future starhook surfaces. Docs 23 (charter ruling 8) + 03 (laws block exception) amended.",
+        "refs": [
+            "sl-0181",
+            "sl-0170"
+        ],
+        "by": "agent"
     }
   ]
 }

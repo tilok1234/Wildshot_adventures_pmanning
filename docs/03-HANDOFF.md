@@ -272,7 +272,13 @@ drag-to-move.
 
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 
-No coined names · reference media rides as law · full gate
+No coined names **(STARHOOK EXCEPTION, sl-0182 2026-08-03: inside
+the starhook lane names are WANTED, on the COSMIC vocabulary rail
+— galaxy / dimension / nebula / constellation / star / rift /
+"stuff like that"; fishing-metaphor words fail the rail — the
+lane is galaxy, not water; the law stands unchanged overworld;
+the designer's naming act still rules)** · reference media rides
+as law · full gate
 before commit · re-baseline discipline · hands before cuts · a
 plan is not a delivery · TALK-BEFORE-BUILD (the seam-I proof:
 design authority outranks a routed build) · THE KEY MAP: **F

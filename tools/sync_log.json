@@ -3069,6 +3069,19 @@
             "sl-0179"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0191",
+        "ts": "2026-08-03T23:06:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE DEV TOOLBELT (the designer's word): max level, best equipment, teleport to cities/zones, 'and stuff like that' - a general dev command family beside the sl-0189 encounter jumps",
+        "detail": "Designer verbatim: 'also we should add in a toolbelt of different dev commands like max level , best equipment teleport to the different cities or zones and stuff like that'. THE SHAPE [P, seat proposes the full belt + exact syntax per console conventions]: level set/max (profile-keyed) - gear grants (best-in-slot overworld tiers + the tackle catalog owned/equipped masks + fish counts for shop testing) - teleport family (the capital, each zone's anchor, named stations; rides the same machinery as scenario spawns) - gold - plus the obvious kin the seat proposes with a list/help form (the sl-0189 pattern). RAILS: dev-layer ONLY with the tester-safe discipline (dev grants must never corrupt recorded replays or feel-verdict eligibility - the verdict system already rejects edited runs; keep that contract: a dev-granted session marks itself); zero format growth; determinism untouched. PURPOSE SYNERGY: makes testing the 20-60s boss re-derives at proper gear instant. Joins round 1 as an addendum or its own drop - the designer's choice.",
+        "refs": [
+            "sl-0189"
+        ],
+        "by": "agent"
     }
   ]
 }

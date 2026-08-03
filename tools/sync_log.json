@@ -2875,6 +2875,21 @@
             "sl-0168"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0178",
+        "ts": "2026-08-03T17:22:00Z",
+        "type": "ask_updated",
+        "repo": "planning",
+        "target": "game",
+        "title": "RODS ARE STARHOOKING WEAPONS - SEVERAL PER LEVEL TIER (the designer's word, amends sl-0177 point 2 pre-drop): 'we should have several rods for each level tier, remember to consider them more like starhooking weapons instead of rods'",
+        "detail": "The word landed BEFORE the paste dropped - the paste amended in place at the session file's tail. THE SHAPE: rods = the rift lane's WEAPON FAMILY, each rod a real fight identity for the bait fighter, SEVERAL choices at every level tier (not one-per-tier); the existing four rods re-home into this frame [P]; R-swap stays; the tackle vendor stocks the tiered catalog. THE ONE OPEN SHAPE QUESTION (planning lean [P], the designer's word in the drop session picks): rod families may carry their OWN firing patterns - the pond's parallel to sword/staff/bow, each family a NORM (honest-dodgeable, fairness floor absolute), with UNIQUE rods staying the deviants-from-norm per sl-0169's pattern law - versus same-pattern rods differentiated by stat/behavior trades only. Every number and pattern [T].",
+        "refs": [
+            "sl-0177",
+            "sl-0169",
+            "sl-0170"
+        ],
+        "by": "agent"
     }
   ]
 }

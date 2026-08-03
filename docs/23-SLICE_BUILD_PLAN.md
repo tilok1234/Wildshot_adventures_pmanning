@@ -284,7 +284,10 @@ F-open + Esc-menu-first · bars left · options/toast restyles ·
 the boss-unique reveal · the interactability audit** ·
 REMAINING: the GEAR SEAM — ROUTED 2026-08-03 evening, sl-0177,
 the designer's two shaping words in: charter-shaped rifter gear
-(rod + chest + helm), acquisition BOTH ways (the TACKLE VENDOR
+(rod + chest + helm; RODS = STARHOOKING WEAPONS with SEVERAL
+per level tier, sl-0178 — the rift lane's weapon family, each
+rod a fight identity; per-family patterns vs stat flavors =
+the drop session's word), acquisition BOTH ways (the TACKLE VENDOR
 v1 lives in the HARBOR CAPITAL, priced in FISH via the
 starhook_fish{} per-species counts; rare catches DROP the
 special pieces, in-sim rng_loot), FUNCTIONAL-FIRST by the

@@ -223,9 +223,11 @@ drag-to-move.
 > ("ye lets do it functionally now and visually later. just
 > some placeholder for now" — modular armor visuals ride the
 > future prototype handoff). Charter-shaped: rod+chest+helm ·
-> rods fold in as the vendor's fish-priced tiered ladder ·
-> chest/helm = rift-side stats on the bait fighter [P/T] ·
-> rare-catch drops zone-gated · unique rods FUTURE. A SIM seam
+> RODS = STARHOOKING WEAPONS, SEVERAL PER LEVEL TIER (sl-0178,
+> pre-drop amendment; per-family patterns vs stat flavors =
+> the drop session's word) · chest/helm = rift-side stats on
+> the bait fighter [P/T] · rare-catch drops zone-gated ·
+> unique rods FUTURE. A SIM seam
 > — next free SERIAL at build; the sl-0168 "26 = foraging"
 > reservation amends to whichever seam builds first. **TWO
 > PASTES now stand drop-ready at the session file's tail**
@@ -234,7 +236,14 @@ drag-to-move.
 > first. Doc 23's queue line carries the gear shape. The
 > starhook expansion menu (rift-type ladder v1 next · species
 > design rounds chat-side · uniques/event-rifts/dungeon-rift
-> later) is offered, unruled — doc 23 amends when picked.
+> later) is offered, unruled — AND HELD by the designer's
+> fish-first word (~19:35, verbatim: "i will design some
+> starhook fish and stuff first i think before we do anything
+> with that planning"): their OWN fish designs come first (the
+> design-first precedent — proto2 / the UI package: the
+> artifact arrives and becomes the law). THE GEAR SEAM PASTE
+> STANDS meanwhile — species are DATA; the fish designs
+> re-roster later with zero rework.
 
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 

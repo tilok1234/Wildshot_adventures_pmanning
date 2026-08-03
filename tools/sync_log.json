@@ -2818,6 +2818,20 @@
             "sl-0172"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0174",
+        "ts": "2026-08-03T15:36:00Z",
+        "type": "note",
+        "repo": "world_filler",
+        "target": "planning",
+        "title": "THE WORLD_FILLER TWO-LINEAGE DISCOVERY VERIFIED (relayed by the designer from another agent's consolidation proposal): TRUE in substance - the Director Studio (F8/F9), four .bat launchers, and the Godot importer addon live ONLY on the archived tf6bkf line (16 unique commits vs main's 48); CORRECTED - the janitor-night recorded ask WAS executed same-night (sl-0012's test-battery port); porting the Studio itself was NEVER a recorded task",
+        "detail": "Verified on the local clone vs origin (fetch fresh): main = 119 files / 48 unique commits (the newest engine work - zones, zonal danger, per-zone bosses, verdict rounds); archived claude/freeze-review-resolution-tf6bkf = 170 files / 16 unique commits carrying START-HERE.bat + STUDIO.bat + open-viewer.bat + setup.bat, consumers/godot_addon/worldfiller_importer/, committed dist/ builds (incl. src/serve server.js), DESIGN_BRIEF 1+2, F8 director UX loop (read-only viewer, reroll/unlock verbs) and F9 phases A+B (manual-intent server, Director Studio front-end). The branch survives LOCALLY in the clone; origin has only main + the archive tag (janitor sweep, sl-0011). THE CORRECTION: sl-0012 executed the only recorded port ask same-night (tests onto main, 160/160 green; serve.test deliberately NOT ported - 'porting it would port implementation'); no ask ever covered porting the Studio/launchers/addon - main was promoted as the approval line and the Studio stayed behind by the promotion's shape, not by a dropped task. STILL OPEN from sl-0012: the viewer row-crossing permissiveness ruling (archived viewer refused row-crossing territory runs; main's worldfiller-viewer.html:269 draws them permissively) - dormant designer flag, relevant to any future port. THE PROPOSAL ITSELF (one Node app: unified server + Tiles|World|Content SPA + a Pipeline view w/ staleness flags; 'Bake' actions replacing the GitHub-release ceremony w/ hash-pinning kept; five migration phases gated on byte-parity; Phase 0 = scaffold + vendor engines + CI parity net) is a PLAN, not a delivery - it gets NO entry per doc 18's law, and its doc exists only in the proposing agent's chat (verified: no repo push since assembler 2026-08-02 23:43 / game 04:22 / planning's own sweeps). ROUTING IS THE DESIGNER'S: it reverses the designer-adopted release transport (sl-0009 doc 18 adoption; sl-0013-0019 five-of-five rollout) and restructures the doc 16 seven-repo map - talk-before-build applies. Planning's recommendation on the record: the doc lands IN PLANNING for a proper assessment before any ruling; the natural customers of a revived Studio are the parked directed/furnished-world rounds (staged pre-S4).",
+        "refs": [
+            "sl-0011",
+            "sl-0012"
+        ],
+        "by": "agent"
     }
   ]
 }

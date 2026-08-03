@@ -2791,6 +2791,19 @@
             "sl-0170"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0172",
+        "ts": "2026-08-03T15:14:00Z",
+        "type": "note",
+        "repo": "planning",
+        "target": "planning",
+        "title": "CORRECTION to sl-0171's lineage facts (PC seat, measured vs live ls-remote): the mainline was NEVER re-bootstrapped - 413 commits rooted at the ORIGINAL 2026-07-26 bootstrap (4560d9c); claude/operator-protocols-guidelines-ruyu4q (efcc7ec, the 2026-07-30 PC-seam handoff, 184 commits) is a plain ANCESTOR 229 behind with ZERO unique commits - NOT disjoint; never-merge MOOT, archive-tag preserves nothing",
+        "detail": "FACTS re-measured on the designer's PC against origin (git ls-remote + full local history): merge-base(efcc7ec, mainline) = efcc7ec ITSELF (a textbook ancestor); rev-list --count efcc7ec = 184 (matches sl-0171's branch-side reading); rev-list --count mainline@7616d47 = 413, root = 4560d9c 'Bootstrap design docs repo at CORE-32 snapshot' authored 2026-07-26 15:56Z - the full pre-Aug-2 history lives ON the mainline. sl-0171's contrary claims (mainline = fresh 2026-08-02 ~15:43 re-bootstrap, 53 commits, no common ancestor, a merge would regress ~64 files) were artifacts of the phone sandbox's SHALLOW CLONE - a grafted false root at the fetch horizon makes healthy history look disjoint. The designer, on the phone agent (verbatim): 'it was extremelyt confused about our repos and it did wrong first'. WHAT STANDS from sl-0171: the PC-checkout health verification, the retracted hard-reset advice on the record, and the lesson - which THIS correction applies (verify remote+HEAD before lineage theories; addendum: from a FULL clone). The phone confusion was GIT-LEVEL ONLY - nothing wrong was ever merged; the three ruling commits' content (sl-0168/0169/0170) is sound and correctly on the mainline. DISPOSITION REVISED: operator-protocols-guidelines-ruyu4q AND today's claude/progress-review-plan-h69wyq (sits AT the tip 7616d47, zero unique - today's phone session pointer) are both ordinary designer-clicked branch deletions, whenever wanted; NO archive tag needed (nothing exists only on either; the four existing archive/* tags cover older branches). Same sweep: the at-work arc verified merged; PC pulled 3498a9c->7616d47; game repo clean+synced af92b90 both ends, single branch; doc 03 truthed (header, first-moves, owed list, truth-up block).",
+        "refs": [
+            "sl-0171"
+        ],
+        "by": "agent"
     }
   ]
 }

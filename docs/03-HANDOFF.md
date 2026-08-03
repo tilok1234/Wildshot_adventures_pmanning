@@ -14,7 +14,7 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-03 early morning (THE MENU PASS v2 LANDED WHOLE · THE DESIGNER'S UI PACKAGE IN · FORAGING WAITS ON THREE WORDS · SERIAL 25)
+# CURRENT HANDOFF — 2026-08-03 early morning (THE MENU PASS v2 LANDED WHOLE · THE DESIGNER'S UI PACKAGE IN · THE THREE FORAGE WORDS IN — SEAM I SPEC-COMPLETE · SERIAL 25)
 
 **This section supersedes everything below it.** Written at the
 designer's ask right after the menu-pass marathon closed clean
@@ -50,9 +50,16 @@ designer-carried) · `notes/reference/starhook-proto2/INDEX.md`
    (`gh api repos/tilok1234/<repo> --jq .pushed_at` finds
    movement fast) and re-bank the seat basics (project map ·
    the designer · conventions · watcher pattern).
-5. Nothing is routed-and-waiting. THE BOARD RESTS ON THE
-   DESIGNER'S HANDS (the words list below) — route what they
-   say, sweep what lands.
+5. THE FORAGING SEAM IS SPEC-COMPLETE (sl-0168, the at-work
+   words — builds at SERIAL 26 under full discipline at the
+   next build slot: the designer opens a game session and says
+   go). Class trees v1 PARTIALLY RULED (sl-0169 — the pattern
+   law + the 5/15/25 skeleton + the sword L5 pair; the rest
+   waits on the designer's testing rounds). THE STARHOOK
+   EXPANSION CHARTER is recorded (sl-0170, doc 23 — directs
+   future rounds, no immediate rework). Otherwise the board
+   rests on the designer's hands (the words list below) —
+   route what they say, sweep what lands.
 
 ## THE BOARD
 
@@ -140,7 +147,8 @@ far" — brief only) · the PANEL2 CHROME-WEIGHT word (in-engine
 came out lighter/flatter than the workbench mock; two ready
 paths: refine-by-eye vs a workbench texture export as a pixels
 swap) · the TRACKER side (stays right vs follows left) · the
-CAPITAL GIVER body · THE THREE FORAGE ANSWERS · the standing
+CAPITAL GIVER body · the class-tree TESTING ROUNDS (sword
+15/25 + staff/bow parked on them, sl-0169) · the standing
 items: the x1.25 firing feel · the drag-free test cast · the
 split flip-and-pick · the audit game-paste remainder (CLAUDE.md
 GIF F9→G, AUDIO_CUE_MAP telegraph+walk-over rows, TECH_DEBT #16
@@ -155,6 +163,35 @@ word) · water fishing sl-0111 (now with 12 known marker cells)
 the Puppeteer directed round (staged, before S4 Snow) · vendors
 beyond v1 / fish-currency / mounts · villager one-liners ·
 drag-to-move.
+
+> **TRUTH-UP 2026-08-03 ~17:10 (the PC seat — the designer's
+> "make sure my phone work merged" ask): THE AT-WORK ARC IS ON
+> THE MAINLINE AND EVERY CHECKOUT IS CURRENT.** The phone
+> session's four commits verified on origin and pulled to the
+> PC (734b4ab sl-0168 THE FORAGE WORDS → e759775 sl-0169 CLASS
+> TREES v1 PARTIAL → 94f704e sl-0170 THE STARHOOK EXPANSION
+> CHARTER → 7616d47 sl-0171; PC fast-forwarded 3498a9c →
+> 7616d47); game repo clean and synced at af92b90 both ends,
+> single branch; log **172/0/tail sl-0172**. Doc 23 carries the
+> charter (seven rulings) + the trees' ruled shape; this doc's
+> seam-I block already carries the forage spec. **sl-0172
+> CORRECTS sl-0171's lineage facts (re-measured on the PC vs
+> live ls-remote):** the mainline was NEVER re-bootstrapped —
+> 413 commits rooted at the ORIGINAL 2026-07-26 bootstrap
+> (4560d9c); `claude/operator-protocols-guidelines-ruyu4q`
+> (efcc7ec = the 2026-07-30 PC-seam handoff, 184 commits) is a
+> plain ANCESTOR of the mainline, 229 behind, ZERO unique
+> commits — NOT disjoint; the disjoint/53-commit/re-bootstrap
+> reading was the phone session's sandbox measuring through a
+> shallow clone (a grafted false root at the fetch horizon).
+> The never-merge warning is MOOT (a merge is a no-op) and the
+> archive tag would preserve NOTHING the mainline lacks.
+> DISPOSITION REVISED: both stray branches — operator-protocols
+> AND today's `claude/progress-review-plan-h69wyq` (sits AT the
+> tip, zero unique) — are ordinary designer-clicked deletions,
+> whenever wanted, no tag needed. sl-0171's PC-health
+> verification and its lesson STAND (this correction is that
+> lesson applied).
 
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 

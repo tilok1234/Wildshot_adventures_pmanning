@@ -206,15 +206,16 @@ drag-to-move.
 > **THE PASTE ("QUEST-PULL FINDINGS x2") is cut at the session
 > file's tail** — the designer drops it into a game session;
 > view-only fixes expected, zero sim bytes. SURFACED same
-> sweep: `Documents/chibi_forge` (overnight 1182×1330 modular
-> chibi workshop — likely the charter's rifter-armor prototype,
-> designer word pending) · `prompt_spriter` = a LIVE automated
-> enemy-sprite production loop (own repo, enemy-mob-32 assets,
-> 546-prompt catalog — NOT on the doc 16 map; map/lock question
-> pending) · the consolidation doc FOUND at
-> `Documents/tile-world-filler/UNIFICATION_ASSESSMENT.md` with
-> that workspace ACTIVELY scaffolding ~17:45 (the parking/
-> timing word from the designer still pending).
+> sweep, then ANSWERED by the designer (~18:10, verbatim: "1
+> and 2 is project for something else and 3 is just an
+> experiment"): `chibi_forge` and `prompt_spriter` are
+> OTHER-PROJECT lanes, NOT Wildshot — no doc 16 / lock entries,
+> chase nothing there (the charter's rifter-armor prototype
+> remains un-surfaced; expect its handoff whenever the designer
+> brings it) · `tile-world-filler` (holds the consolidation
+> doc, UNIFICATION_ASSESSMENT.md) = an EXPERIMENT only — the
+> wait-til-slice-end lean stands and the experiment carries no
+> governance weight while it stays one.
 
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 

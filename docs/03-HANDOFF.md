@@ -198,6 +198,24 @@ drag-to-move.
 > sl-0171's PC-health verification and its lesson STAND (this
 > correction is that lesson applied).
 
+> **TRUTH-UP ~17:57: TWO PLAY FINDINGS ROUTED (sl-0175/0176) +
+> THE DESIGNER-TOOL LANES SURFACE.** The designer played the
+> quest pull: map markers ABSENT on the fullscreen map (only
+> black squares + the player dot — screenshot with planning)
+> and the giver quest icon renders UNDER the NPC. Both routed;
+> **THE PASTE ("QUEST-PULL FINDINGS x2") is cut at the session
+> file's tail** — the designer drops it into a game session;
+> view-only fixes expected, zero sim bytes. SURFACED same
+> sweep: `Documents/chibi_forge` (overnight 1182×1330 modular
+> chibi workshop — likely the charter's rifter-armor prototype,
+> designer word pending) · `prompt_spriter` = a LIVE automated
+> enemy-sprite production loop (own repo, enemy-mob-32 assets,
+> 546-prompt catalog — NOT on the doc 16 map; map/lock question
+> pending) · the consolidation doc FOUND at
+> `Documents/tile-world-filler/UNIFICATION_ASSESSMENT.md` with
+> that workspace ACTIVELY scaffolding ~17:45 (the parking/
+> timing word from the designer still pending).
+
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 
 No coined names · reference media rides as law · full gate

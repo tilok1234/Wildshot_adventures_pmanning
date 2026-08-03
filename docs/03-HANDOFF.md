@@ -188,10 +188,15 @@ drag-to-move.
 > archive tag would preserve NOTHING the mainline lacks.
 > DISPOSITION REVISED: both stray branches — operator-protocols
 > AND today's `claude/progress-review-plan-h69wyq` (sits AT the
-> tip, zero unique) — are ordinary designer-clicked deletions,
-> whenever wanted, no tag needed. sl-0171's PC-health
-> verification and its lesson STAND (this correction is that
-> lesson applied).
+> tip, zero unique) — are ordinary deletions with no tag
+> needed, AND THE DESIGNER'S WORD (~17:25) PARKS THEM: "lets
+> let them sit there until we make proper protocols on this"
+> (sl-0173) — no deletions until a branch-handling protocol
+> exists (a named doc 18 edit-pass candidate: the claude/*
+> session-branch lifecycle · the disposition ladder · the
+> full-clone verification discipline; talk-before-build).
+> sl-0171's PC-health verification and its lesson STAND (this
+> correction is that lesson applied).
 
 ## LAWS THIS ERA (the menu-pass amendments BAKED IN)
 

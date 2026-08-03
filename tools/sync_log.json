@@ -2804,6 +2804,20 @@
             "sl-0171"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0173",
+        "ts": "2026-08-03T15:26:00Z",
+        "type": "ruling",
+        "repo": "planning",
+        "target": "planning",
+        "title": "STRAY BRANCHES PARKED BY THE DESIGNER'S WORD: no deletions until proper branch-handling protocols exist - 'lets let them sit there until we make proper protocols on this' (verbatim); amends sl-0172's delete-ready disposition; the protocol = a doc 18 edit-pass candidate",
+        "detail": "Both strays stay standing on origin by the designer's word: claude/operator-protocols-guidelines-ruyu4q (efcc7ec, 229 behind) and claude/progress-review-plan-h69wyq (at-tip 7616d47 at parking time). Zero risk in sitting - both are fully contained in the mainline (sl-0172's verified facts); the only cost is branch-list clutter. PROTOCOL SCOPE CANDIDATES for the doc 18 edit-pass (planning drafts, the designer accepts - talk-before-build applies): the claude/* session-branch lifecycle (phone/web seats create one per session; when a branch is redundant vs carries unique work), the disposition ladder (merge-if-forked-from-tip / park / archive-tag / delete, and who clicks what), and the verification discipline sl-0171/0172 proved (full clone + live ls-remote before ANY lineage claim - never trust a shallow sandbox's root). Until that protocol lands: the standing janitor convention holds for everything else (archive-tag before surgery; deletions/force-pushes designer-clicked), and these two strays are PARKED BY NAME.",
+        "refs": [
+            "sl-0171",
+            "sl-0172"
+        ],
+        "by": "agent"
     }
   ]
 }

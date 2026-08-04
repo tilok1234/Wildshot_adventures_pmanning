@@ -3382,6 +3382,22 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0212",
+      "ts": "2026-08-04T18:28:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE QUICK THREE ACCEPTED (the designer's same-night play verdict): sl-0204/0205/0206 close WHOLE - the plaza walk, the plates, the console all pass in real hands; PASTE B (sl-0208 hitbox -> sl-0207 cadence) is CLEAR TO DROP",
+      "detail": "The designer, verbatim (2026-08-04 evening, minutes after the seat's push): 'i tested all these and they all seem to work' - the acceptance condition sl-0210 named (the plaza walk) plus the other two verdicts land in one word. The full round-trip: screenshot findings -> routed -> built + resolved by the game seat (game a01bbe5/563eb32/5ca812c + docs 2931071 + hours 4680f14; planning c445b44 = the seat's own resolutions commit, two-writers interleave clean) -> designer-accepted, all inside one evening. STANDING [T] RIDERS (not blocking, the designer's word whenever): the capital giver's CASTING (Wardens' Representative is provisional - a one-line swap) and its body cell; the plate metrics. PASTE B unblocked per the split's own rule (drop after A closes): sl-0208 the hitbox halving FIRST, then sl-0207 the cadence re-composition.",
+      "refs": [
+        "sl-0209",
+        "sl-0210",
+        "sl-0211",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "by": "agent"
     }
   ]
 }

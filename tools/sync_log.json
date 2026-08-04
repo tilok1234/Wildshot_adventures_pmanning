@@ -3448,6 +3448,22 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0216",
+      "ts": "2026-08-04T20:44:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE DUNGEON VOCABULARY GUARD (the designer's first-touch word on the new build): dungeons and STARHOOK dungeons are NOT the same thing and must never share a bare name - the built path lane is the RIFT DUNGEON everywhere; the plain word 'dungeon' is RESERVED for future overworld dungeons",
+      "detail": "The designer, verbatim (2026-08-04 night, testing): 'one thing i noticed immediadly while testing is that dungeon in commands takes you to a rift dungeon. we must be very carefull to make it very obvious that dungeons and starhookiing dunbgeoins are not the same to not confuse ourselves'. THE GUARD: (1) every surface that means the starhook path lane says RIFT DUNGEON - picker row, toasts, help text, docs; (2) the bare `dungeon` console command RETIRES in favor of the existing `rift dungeon` form (the bare word becomes an error hint pointing at `rift dungeon` so muscle memory re-trains; dev-layer, zero sim); (3) the plain word 'dungeon' is reserved for the future overworld dungeon lane (the Warren-precedent committed instances, unbuilt); (4) file/test ids (rift_dungeon_path.tres already correctly prefixed; dungeon_walk_test) stay data-keyed or rename at the seat's judgment [P]. PLANNING LEAN: the compound 'rift dungeon' NOW (instant clarity, zero coinage); a cosmic proper name for the lane (the sl-0182 rail invites one) rides the designer's own naming act whenever. Vocabulary layer joins sl-0213's melee line as doc 23 glossary candidates. TIMING: drop-ready one-liner; recommended to ride the NEXT game session, not interrupt tonight's testing (the designer's own muscle memory currently uses `dungeon` for the RE-WALK).",
+      "refs": [
+        "sl-0182",
+        "sl-0213",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

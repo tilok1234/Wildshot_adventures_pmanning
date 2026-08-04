@@ -1,0 +1,2 @@
+# Binary pins (the Windows CRLF landmine): PDFs must checkout byte-true.
+*.pdf binary

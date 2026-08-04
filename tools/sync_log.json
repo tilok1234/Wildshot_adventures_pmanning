@@ -3616,6 +3616,20 @@
             "tests/chase_leash/chase_leash_probe.gd"
         ],
         "by": "agent"
+    },
+    {
+      "id": "sl-0227",
+      "ts": "2026-08-04T23:26:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE CLAUDE.MD DIET (the designer's size catch: 186,974 chars, 86% = the milestone tail): the contract keeps a compact CURRENT block; the append-only history moves WHOLE to a pointer file - the doc 03 ladder cure applied game-side",
+      "detail": "The designer, verbatim (2026-08-05 ~01:3x, pre-bed): 'damn i noticed the claud md file of the game is 150k characters? isnt that a tad much or?' - MEASURED TRUTH: 186,974 chars / 2,896 lines; the binding contract = lines 1-413 (~14%); '## Milestone position' line 414-end = ~2,480 lines (86%) of append-only history; every game seat pays ~45k tokens at boot (CLAUDE.md auto-loads) - a quarter of a context window before work starts. THE SHAPE (a small docs-only seam, NOT riding the in-flight paste D): (1) the milestone tail moves VERBATIM to a named history file (lean: notes/MILESTONE_HISTORY.md) - byte-preserved, diff-proven nothing lost; (2) CLAUDE.md keeps the contract untouched + a compact CURRENT-position block (the live era only, ~40 lines) + the pointer line ('the full append-only history lives at <file>; append THERE at each close'); (3) the game HANDOFF's tracker-pointer line truths; (4) the append discipline continues in the new file; the CURRENT block truths at each seam close exactly like planning's doc 03 ladder. Boot tax drops ~45k -> ~8k tokens; every future seat gets ~20% of its window back. Routed as a one-liner for the NEXT game session (morning).",
+      "refs": [
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

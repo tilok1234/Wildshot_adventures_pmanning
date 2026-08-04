@@ -3414,6 +3414,40 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0214",
+      "ts": "2026-08-05T00:40:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0208 RESOLVED: THE HITBOX HALVING - combat hurtbox 0.35 -> 0.175, every rift-kit margin rose EXACTLY +0.175",
+      "detail": "sl-0146 executed as written: PlayerState.HURTBOX_RADIUS 0.175 [T] ('at least' = license smaller; the smoke pins the CEILING, never a floor). SCOPE AUDIT clean: zero coupled radii - locomotion/doors/pickups/stations/quests all live on their own constants; terrain and interact behavior byte-untouched. THE BOT: PLAN_ENVELOPE 0.175 - plans at the proven 0.35 envelope, takes hits on the true body (the sl-0078 conservative-positioning doctrine's ranged sibling; planning tighter re-rolled every deterministic dance and three radial/chase proofs found fresh seed-invariant pockets - with the envelope the survival predicate is numerically the record's and a conservative planner surviving is a STRONGER proof). MARGINS TABLE committed (reports/hitbox_margins_sl0208.md): all 15 rift kits floor+cap rose exactly +0.175; whole battery 114 rose / 12 held / 1 'fell' (the MUST-FAIL canary's diagnostic; the box still fails both lanes). meet_leadshot cap RE-PINNED FAIL->PASS: the sl-0102 1-hit INTERCEPT graze lands inside the old shell and misses the true body - same dance, no hit. THE MELEE FINDING measured and pinned (rusher_lethality_probe + the smoke's re-pinned contract): lone rusher vs a STANDING player - 0.35: 13 hits, dead t307; 0.175: 4 hits over 63 volleys, ALIVE at t2400 (arc gaps outsize the body, windup-frozen aim, regen heals the gaps) - the sl-0213 projectile-ecosystem word owns the tuning round; a slash re-tune that kills again REDs the pin and re-pins deliberately. SERIAL 27 stands (a serialized VALUE, not format); goldens re-recorded + verified x10; battery re-baselined; seal ALL GREEN 14.1 min on the committed tree.",
+      "refs": [
+        "sl-0208",
+        "sl-0146",
+        "sl-0213",
+        "game df624d4"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0215",
+      "ts": "2026-08-05T00:40:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0207 RESOLVED: THE CADENCE RE-COMPOSITION - x1.51/1.54/1.6 baselines + level-grown dexterity, DPS-budget-neutral; the hits-band re-pins [3,5]->[5,8] (reported)",
+      "detail": "The designer's three quotes carried verbatim in the seam commit. (a) BASELINES: sword 0.75->1.132/s (cadence 53, x1.509), staff 1.5->2.308/s (26, x1.538), bow 2.5->4.0/s (15, x1.6 - THE INTEGER CRAMP the routing anticipated: the x1.5 target's 16 ticks has NO in-band damage integer at T2; cadence 15 is integer-clean at all five tiers; the cleaner derive ships). Damage tables re-derived - every tier in the +/-10% band, DPS within 2.6-8.6% of the sl-0120 tables, TTK 1.77-2.65s. (b) DEXTERITY [T]: per-class ladders on the cadence integer lattice, breakpoints at zone entries (sword 100/110/123/139, staff 100/108/124/137, bow 100/107/136 - bow has NO wet-entry step: cadences 13/12 carry no in-ripple integers at its small T1/T3, the granularity finding); tier_damage normalizes per-shot damage by THE one effective cadence (StatFrame.effective_cadence, shared with the fire path) so DPS(level) ripples <= 9.5% and never creeps - calc GATE 8 bounds it. (c) +attack_speed/-damage joins the pair grammar + one proof ring (t2-ring-quick-hand, +10/-1) [T]; the second pair stays [P] unshipped. (d) RODS UNTOUCHED, verified - the rifter is legacy-lane, gates 6/7 green, proto pins intact. (e) QUICKDRAW stacks reported: bow peaks 7.5/s at L23 (was 3.75 quickdrawn); peak on-screen friendly stream measured at 3 bolts in flight (short ttl - screen density barely moves; evidence friendly_stream_audit_sl0207.png, Law 2 read by eyes; strobe re-probed 15 kits ZERO flips). (f) HITS-BAND RE-PIN [3,5]->[5,8] REPORTED LOUDLY: hits = TTK x rate - the ruled band is mathematically inseparable from firing rate at held TTK (the sl-0120 impossibility); the routed player-damage-down lever ships; all four zones land exactly 8 reference hits (the x1.6 image of the old uniform 5); trash HP untouched. STRUCTURAL: smoke pair unmoved, goldens verify unchanged (no re-record), battery byte-identical - the seam provably never touches the legacy lane; SERIAL 27 stands, zero format growth. Ledger #2 (quickdraw fold) stays ledgered - folding would change stacking semantics. Seal ALL GREEN 13.9 min. NO feel verdicts: rates, ladders, breakpoints, the ring, the band - all [T], the designer's trigger finger rules.",
+      "refs": [
+        "sl-0207",
+        "sl-0120",
+        "game 1f6e964",
+        "game 5a87cca"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

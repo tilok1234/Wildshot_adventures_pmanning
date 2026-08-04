@@ -315,8 +315,12 @@ future round; nodes SPAWN AMBIENTLY like starhook rifts (capped,
 rng_misc, consumed on gather — the everywhere-forage's ~1.9k
 standing cells retire as direct gather cells; session lean [P]:
 they become the spawner's candidate pool so nodes sit on real
-props) — SPEC COMPLETE, builds at the next free SERIAL (27 —
-the gear seam took 26) at the next build slot) · whatever
+props) — **BUILT 2026-08-04 AT SERIAL 27 (sl-0198/0199, the
+remote day's hands-free seat: the spec whole, five for five —
+cap 15 of the 1873-cell pool, stillness retired, materials
+visible in the inventory on the fish doctrine; the lock healed
+of the 26-era miss same sweep)** — the designer's play verdict
+owed tonight) · whatever
 further Green notes surface as missing
 systems. Then S2–S4 run at full speed on stable
 systems (content stamping), then THE REFINEMENT PASS (whole game,

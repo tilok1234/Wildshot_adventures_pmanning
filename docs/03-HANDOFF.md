@@ -14,7 +14,7 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-04 early morning (THE STARHOOK ERA RUNS: GEAR + THE BOSS BATCH LANDED · REFINEMENT ROUND 1 ROUTED AND WAITING · SERIAL 26)
+# CURRENT HANDOFF — 2026-08-04 early morning (THE STARHOOK ERA RUNS: ROUND 1 + FORAGING IN · THE POOL EXTENSION BUILDING · SERIAL 27)
 
 **This section supersedes everything below it.** Written
 mirroring the game seat's own post-play docs sweep (game
@@ -113,6 +113,27 @@ validate-before-write, which stays mandatory) · **spawned game
 seats run with the ZERO-PLANNING-WRITES rail** (planning writes
 the resolutions at sweep; the seat verifies its own push and
 reports raw data).
+
+> **TRUTH-UP 2026-08-04 ~13:45 (THE REMOTE DAY — implementations
+> hands-free, the designer tests tonight):** ROUND 1 LANDED six
+> for six (sl-0192–0197: the dungeon was INVISIBLE not small —
+> the walk-check gate step born; fights 30–45s dense; ANCHOR vs
+> FLANKER life w/ no-phase-chases; nameplates + the empty name
+> table; ONE console family — jumps + belt). FORAGING BUILT
+> HANDS-FREE (sl-0198/0199: SERIAL 26→27, zero format growth
+> verified, cap 15 of 1873, stillness retired whole, materials
+> visible in inventory; gate + seal green; **THE LOCK HEALED of
+> the 26-era miss — THE LOCK FILE IS THE ENTRY, docs are not**).
+> THE CI HANG found + routed (sl-0201: three 6h0m auto-cancels,
+> first = the dungeon_walk_test row's push — rides the extension
+> as warm-up). **THE POOL EXTENSION IS BUILDING** (sl-0200: +8 →
+> 16 kits, corrected shape, THE PURSUER EXPERIMENT — 1–2 true
+> chasers by the designer's word, fairness structural, wall-pin
+> audited). Log **201/0/tail sl-0201**. Systems-complete
+> remainder: **CLASS TREES v1 ONLY** (parked on the designer's
+> testing). Designer-owed tonight: foraging play · the dungeon
+> RE-WALK (gates sl-0192's acceptance) · the sixteen bosses ·
+> the standing words list.
 
 ---
 

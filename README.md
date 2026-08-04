@@ -5,10 +5,11 @@ with freely aimed projectile combat. **Era: Slice v0.1 is BUILDING** — the wor
 is the test (four zones, cap 30, all three classes; `docs/23-SLICE_BUILD_PLAN.md`
 governs); S0 + S1 engineering complete and the designer's Green days run deep:
 starhook v2, the nine-seam systems pass, the menu-system v2 pass (built on the
-designer's own UI package), and the starhook-gear + boss-expansion batch
-(2026-08-03) are all IN. Systems-complete remainder: class trees v1 (parked on
-the designer's testing) + the foraging build (spec-complete, ready); the
-starhook refinement rounds run alongside (round 1 routed).
+designer's own UI package), the starhook-gear + boss-expansion batch, and
+foraging (built 2026-08-04 at SERIAL 27) are all IN. Systems-complete
+remainder: class trees v1 only (parked on the designer's testing); the
+starhook refinement rounds run alongside (round 1 in; the pool extension
+building).
 
 **This repository is the DESIGN AUTHORITY of a seven-repo ecosystem** (planning ·
 game · tileforge · worldforge · world_filler · sprite assembler · resonance

@@ -3526,6 +3526,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0221",
+      "ts": "2026-08-04T21:24:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE HOME + RECALL BUILD GO (the sl-0220 shape designer-firmed: 'yeah this sounds good'): home-bind at stations serves BOTH settable death-respawn AND the 2s interruptible recall cast - THE SERIAL 28 SEAM; paste D cut, recommended order C then D",
+      "detail": "The designer's firm, verbatim (2026-08-04 night): 'yeah this sounds good' on planning's shape-back. THE SHAPE ROUTED: (1) HOME BIND - every settlement station offers SET HOME [T surface]; PlayerState gains home_town = THE SERIAL 28 FIELD (default capital, ghost-tolerant on old saves); DEATH-RESPAWN MOVES TO HOME - the CORE-43 city-fee death respawns at the set home; the seat REPORTS the current respawn truth in its resolution and preserves fee semantics exactly. (2) THE RECALL CAST - a button [T binding, no-F-row law] starts a 2 s [T] cast on the target+ticks pattern (the gather machinery): moving cancels, a hit cancels; completion teleports home; OVERWORLD-ONLY v1 (refused in rifts/dungeons with a plain line - committed instances keep their frame); FREE + cooldown [T lean 30-60 s]; a recorded deterministic op. (3) Surfaces: the cast bar (gather's sibling), the refusal line, a HUD binding hint; plain name RECALL (overworld lane - no cosmic rail). Rails: format growth = the home field ONLY (exact bytes reported); WSR v3 untouched expected; goldens re-record + verified x10 under full re-baseline; THE LOCK'S SERIALIZATION ENTRY UPDATES AT PLANNING'S SWEEP SAME-DAY (the lock file is the entry - the 26-era lesson); the designer plays before refinement. ORDER: paste C (sl-0216/0218/0219) first, D after its close - each session owns its own full gates.",
+      "refs": [
+        "sl-0220",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

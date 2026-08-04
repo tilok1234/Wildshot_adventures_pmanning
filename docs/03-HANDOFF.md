@@ -14,9 +14,90 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-04 early morning (THE STARHOOK ERA RUNS: ROUND 1 + FORAGING IN · THE POOL EXTENSION BUILDING · SERIAL 27)
+# CURRENT HANDOFF — 2026-08-04 night (THE PLAY NIGHT: THE QUICK THREE + THE COMBAT RESHAPE LANDED, VERDICT-POSITIVE · PASTE C CUT · SERIAL 27)
 
-**This section supersedes everything below it.** Written
+**This section supersedes everything below it.** Written at the
+night's docs mirror (game 02c3a30/b85bf66 = its own post-reshape
+cold-start truth-up; this is planning's). Full story:
+`notes/sessions/2026-08-04-evening.md` (the WHOLE night: boot → the
+test brief → the firing round → two designer-dropped sessions →
+the sweeps → the words).
+
+## The fresh session's first moves, in order
+
+1. Read this section → the session file
+   `notes/sessions/2026-08-04-evening.md` top to bottom.
+2. Verify the board yourself: game main pushed at **b85bf66** (the
+   post-reshape docs sweep close); sync log **220 entries / 0
+   dupes, tail sl-0220** — re-run the dupes check.
+3. **ARM BOTH WATCHERS** (the multi-lane sweep watcher + the
+   producer watcher — they die with each session; expect
+   self-noise from your own writes).
+4. **MEMORY IS PER ACCOUNT** — no recalled memories = rebuild from
+   THIS file + repo forensics.
+5. **THE LIVE BOARD:** PASTE C is CUT AND WAITING (sl-0216 the
+   dungeon vocabulary guard + sl-0218 quest activity indicators +
+   sl-0219 the chase-leash diagnose-first; the paste text is in the
+   session file's record and the planning chat — the designer drops
+   it into a fresh game session). THE RECALL CONSIDER is OPEN
+   (sl-0220 — home-bind + 2 s recall cast; the designer's word
+   firms or drops; NOT folded into C by the size-check law; a firm
+   = its own routing at SERIAL 28). sl-0213 (close fighters as
+   projectile contributors) queues on the designer's word AFTER
+   play. Two-writers note: designer-dropped game seats write their
+   own planning-side resolutions and push (c445b44/7549f32 tonight,
+   both clean) — planning sweeps AROUND them, validate-before-write
+   always.
+
+## THE BOARD (the night's tally, all pushed + verified)
+
+**THE QUICK THREE (sl-0204/0205/0206 → resolutions sl-0209/0210/
+0211, game a01bbe5..4680f14) LANDED AND ACCEPTED** (sl-0212, the
+designer's hands: "i tested all these and they all seem to work"):
+the console swallows input (33rd fixed step), the capital giver has
+a body (casting = Wardens' Representative [T], one-line swap), the
+nameplates render the kit font on its 10px grid (license line
+mechanized). **THE COMBAT RESHAPE (sl-0208 + sl-0207 → resolutions
+sl-0214/0215, game df624d4..d53295a) LANDED — hitbox 0.175**
+(ceiling-pinned, scope audit clean, the bot plans at the proven
+0.35 envelope) **+ the cadence re-composition** (sword 1.132/staff
+2.308/bow 4.0 per sec; per-class dexterity ladders w/ zone-entry
+breakpoints; ONE effective-cadence formula; t2-ring-quick-hand;
+rods verified untouched, gates 6/7 green; goldens UNCHANGED — the
+seam proved class-lane-only; SERIAL 27 stands). **THE CADENCE
+VERDICT IS POSITIVE** (sl-0217: "the game feels alot better now
+with more fire rate"). **THE HITS-BAND RE-PINNED [3,5]→[5,8]**
+(sl-0207 reported loudly; doc 22 amended in place; the designer's
+bless = the standing word). **THE MELEE-HARMLESS FINDING + THE
+PROJECTILE-ECOSYSTEM WORD converge** (sl-0213: no enemy is
+"melee" — the word names engagement DISTANCE; close fighters
+re-arm as short-range projectile contributors in a FUTURE round on
+the designer's word; wolf 4-of-63-swings pinned loudly meanwhile).
+**THE ASSET PACK exported** (Documents\wildshot-asset-pack-
+2026-08-04.zip, 62.5 MB whole-packs build, provenance README).
+
+**DESIGNER-OWED (the hands list):** drop paste C · the recall word
+(firm/reshape/drop) · the dungeon RE-WALK (still gates sl-0192) ·
+the fifteen bosses (tide_stalker the headline) · foraging play ·
+the hitbox feel + the [5,8] bless · the standing words (panel2
+chrome · tracker side · capital giver casting+cell · free-four
+shop-only · family-pattern vs per-rod · fish designs · weekly GIF).
+
+## LAWS THIS ERA (additions tonight)
+
+All standing laws hold. NEW: **the vocabulary layer** — "melee"
+names engagement RANGE, never weapon type (sl-0213); "dungeon"
+NEVER bare for the starhook lane — RIFT DUNGEON on every lane
+surface, the plain word reserved for future overworld dungeons
+(sl-0216). The chunky-hits band is **[5,8]** pending the bless
+(doc 22 amended, sl-0207). Quest philosophy: most quests promote
+ACTIVITY; story is optional per quest (sl-0218).
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-04 early morning (THE STARHOOK ERA RUNS: ROUND 1 + FORAGING IN · THE POOL EXTENSION BUILDING · SERIAL 27)
+
+**Superseded by the section above; kept as history.** Written
 mirroring the game seat's own post-play docs sweep (game
 81bbe78/679fbd0 — its HANDOFF is the fresh-chat continuation
 game-side; this is it planning-side). Full story:

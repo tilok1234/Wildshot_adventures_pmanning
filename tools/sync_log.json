@@ -3511,6 +3511,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0220",
+      "ts": "2026-08-04T21:20:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE RECALL CONSIDER (design round open, the designer's word firms or drops): press a button -> ~2 s cast -> return to THE ONE town set as your respawn - a home-bind + recall-cast system; planning's shape-back delivered in chat",
+      "detail": "The designer, verbatim (2026-08-04 night): 'i think we should consider adding in some sort of return to town system, where u can press a button and cast a skill that takes like 2 sec to cast and you go back to the 1 town you yhave set as your respawn'. A CONSIDER - talk-before-build holds; nothing routes until the designer firms. PLANNING'S SHAPE-BACK (in chat): the 2 s cast is the load-bearing choice - WITH interrupt-on-hit (the gather-bar target+ticks machinery, freshly proven by foraging) it is a TRAVEL TOOL, not a combat escape valve (RotMG's nexus is instant BECAUSE permadeath needs the valve; Wildshot's three-lives line + CORE-43 city-fee death already own that job) - recommend keeping it a travel tool. THE HOME BIND: 'the town you have SET as your respawn' also rules death-respawn is player-settable - ONE home concept serves both (set by touching a station in any settlement [T surface], default = the capital). Shape v1: overworld-legal only (committed instances - rifts/dungeons - keep their frame [P]); free + modest cooldown [T] to start (the walk OUT stays; recall shortcuts only the RETURN leg, so the docs/19 living-in-the-world bar keeps its walking); SIM SEAM honestly sized: a home-town field on PlayerState = the SERIAL 28 bump (the documented next number), the cast verb rides the target+ticks pattern, recorded op, full re-baseline. NOT folded into paste C (C already carries a sim item; the size-check law stands) - routes as its own item on the firm word.",
+      "refs": [
+        "sl-0219",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

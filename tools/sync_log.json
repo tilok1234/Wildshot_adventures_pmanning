@@ -3335,6 +3335,53 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0209",
+      "ts": "2026-08-04T18:25:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0206 RESOLVED: THE INPUT-SWALLOW LAW - console-open swallows ALL non-console input, mechanized as the 33rd fixed step",
+      "detail": "ROOT: the `typing` predicate (main.gd) knew only the M8 comments box - the console's focus never joined it, so every `not typing` hotkey guard passed while typing a command (T = scenario_reset = the designer's world reloading mid-word) AND sampler.suppress stayed false (WASD/fire/F/R leaked into the sim as real frames). Two bindings had no guard at all: fullscreen_toggle (Alt+Enter) and gif_dump - a bare Input poll INSIDE gif_recorder._process, outside main entirely. FIX (view+input wiring, ZERO sim bytes): typing := console_open OR box_typing; the suppress line rides it (neutral frames, edges trained - no stale edge when the swallow lifts); the gif poll MOVED into main (pollers live where the guard lives - game handoff gotcha 48); sanctioned exceptions deliberate: backtick still closes the open console (box-typing-only guard), Esc closes the console FIRST via esc_intercept (the sl-0145 menu-first law extended). MECHANIZED: tests/console_swallow = 33rd fixed step + CI row - the real sampler's suppress contract, the guard replica over the REAL binding table (the routed 'type every bound hotkey letter' negative at the mechanized layer), and source pins: every main poll site guard-checked (reflow-proof span walk), ZERO device polls outside {main, human_sampler, realtime_driver} repo-wide, the esc-first block, the driver's single pause poll. lockdown_lint's DebugConsole ctor pin grew the harness site. Gate -SkipBattery ALL GREEN (view/input seam); smoke + goldens byte-identical; CI green 54s with the new row aboard.",
+      "refs": [
+        "sl-0206",
+        "game a01bbe5"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0210",
+      "ts": "2026-08-04T18:25:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0204 RESOLVED: the capital hub giver has a BODY - the errand bang rides the Wardens' representative's head",
+      "detail": "DIAGNOSED AT THE CAPITAL (the bodiless-slot history): sl-0176's body-anchor worked exactly as built, and the built behavior was the bug - compute_stations EXCLUDES giver slots within 2.0 of the settlement spawn (the capital zone_hub slot sits ON the spawn by design: coming home IS the turn-in), so no body ever answered for it, the giver map had no entry, and the icon fell back to the authored cell: a gold bang over BARE PLAZA GROUND ringed by crowd bodies at spiral radius 1.8+ - 'under the mob'. The three nudged zone givers verified correct throughout. FIX (view-only, quest data UNTOUCHED - the authored cell stays the sim's interact truth): NpcView.HUB_GIVERS pins the WARDENS' REPRESENTATIVE (the capital pair ARE the Wardens' errands; casting provisional, designer swap = one line) one cell north of the spawn [T] on verified-walkable b77 ground, def_cell = the authored slot cell; the existing cell_map + LIFT-18 + HP_BARS machinery does the rest, and the sl-0190 plate derives 'Quest Giver' with zero authoring. Standing at the body keeps the player inside the 1.2 interact radius (the accepted nudged-giver geometry). PINS: wiring test +3 (map entry 109.5,182.5 -> 109.5,181.5; the representative's def_cell identity; the plate label). EVIDENCE both scales committed + read - the exact plaza: quest_pull_audit_{capital_base,capital_desktop,waystation_base,full_map}.png; the waystation before reproduced byte-identical (deterministic render - the fix touched only the capital). The designer's plaza walk is the acceptance; body cell + casting [T].",
+      "refs": [
+        "sl-0204",
+        "sl-0176",
+        "game 563eb32"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0211",
+      "ts": "2026-08-04T18:25:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0205 RESOLVED: nameplates render the kit pixel font ON ITS GRID - 10px native; the license line mechanized",
+      "detail": "DIAGNOSED AT SOURCE: the kit font (uikit/font/wildshot_pixel.ttf, theme default since v1) is a strict-grid pixel TTF whose own LICENSE rules it - '10 px em ... use at 10 px (or integer multiples)' - and the sl-0190 plates rendered at 8, the game's ONLY off-grid consumer. With AA/hinting/subpixel all OFF (the kit import, correct for a pixel font), 0.8-scale rasterization drops and merges stem rows: letterforms genuinely mutate - Banker's 'k' collapsed toward 'b', Trader lost its T-arm, Tackle's 'l' smeared into neighbors ('Tack:Je') - the designer's exact letters, reproduced in the committed befores. The strings were always right; every HUD/menu surface renders at 10 x ui-scale and was never affected. FIX (view-only): FONT_SIZE 8 -> 10 (native grid), PLATE_H 9 -> 12 (the font's own line), baseline at PLATE_TOP + 9 (7px cap under 2px pad, 1px clear of the 2px descender); metrics stay [T]. PIN: the wiring test REDs any off-grid plate size (>= 10 and % 10 == 0 - the license line as code). EVIDENCE re-shot both scales, same plaza, every plate letter-perfect (Trader / Merchant / Quest Giver / Banker), the sl-0204 anchor visible in the same frames. Seal gate -SkipBattery ALL GREEN 2.9 min (33 fixed + export + probe) covering both view seams; CI green 54s.",
+      "refs": [
+        "sl-0205",
+        "sl-0190",
+        "game 5ca812c"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

@@ -3187,6 +3187,50 @@
             "sl-0105"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0199",
+        "ts": "2026-08-04T11:39:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "THE FORAGING BUILD LANDED (sl-0198 RESOLVED; game 4c88ed3 + dd0b01c, pushed+verified both ends; SERIAL 26->27, WSR v3 / InputFrame 17 UNTOUCHED - zero recorded-format growth VERIFIED; full gate 16.9 min + SEAL 16.8 min both ALL GREEN; hours 11:05-13:33): the sl-0168 spec whole, five for five, zero divergences",
+        "detail": "Hands-free seat, zero planning writes (this resolution + the lock truthing are planning's, per the rail). THE VERB: F at a live node -> 45t bar [T] -> ONE loot bag (sl-0129 verbatim) -> node consumed; interrupts on move/hit/reach-loss sim-side; STILLNESS + ANTI-AFK RETIRED WHOLE (stillness-yields-nothing test-pinned; rift wins a shared press, test-pinned). THE SPOTS: the ambient spawner's second rng_misc consumer (interval 300 / chance 500 / cap 15 [T], rolled after the rift roll, fixed order); pool = 1873 forage-prop cells on b77 (per-cell species, deterministic order); shimmer view (glow+arc+motes); slice opts in, proof worlds inert by construction; the 12 old POIs = ordinary members. THE YIELD: DropKinds.FORAGE -> the forage_mats wallet (starhook_fish doctrine exactly - zero bag capacity, full-bag-still-takes test-pinned, ghost-species preserved); VISIBLE IN THE INVENTORY (the forage-materials section under the bag, plain-named, count badges); yields 1-2 [T]. Console kin: forage grant (dirty like the belt) / forage tp. Tests rebuilt (gather/char-sheet/probe); goldens re-recorded + verified x10 at SERIAL 27; the 9 standing-pin repros re-recorded; evidence reports/forage_gather series read by eyes. TWO SWEEP FINDINGS RIDE THIS RESOLUTION: (1) THE LOCK MISS - the serialization entry sat at SERIAL 25 through the 26 bump (the gear-era sweep truthed docs and called it the lock); acknowledged per the lock's own mismatch-is-an-incident rule and HEALED this sweep (chain extended 26+27; the rule re-affirmed: the LOCK FILE is the entry). (2) THE CI HANG - routed as sl-0201. Systems-complete remainder after this seam: CLASS TREES v1 ONLY (parked on the designer's testing). The designer tests foraging tonight; watch-item carried: the both-layers press class extends to forage (drop directly under a node - geometry-rare).",
+        "refs": [
+            "sl-0198",
+            "sl-0168"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0200",
+        "ts": "2026-08-04T11:39:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE POOL EXTENSION ROUTED (+8 kits -> 16 of the routed 12-24, born in the corrected shape) WITH THE PURSUER EXPERIMENT (the designer's word: 'i think we could experiment with maybe 1 or 2 pursuiters at least' - the no-chase law amends to sanction exactly 1-2 experimental true-pursuers, fairness structural)",
+        "detail": "Runs hands-free on the remote day (the designer's implementations-today word). +8 new fights at the next roster slots: 20-60s intense (gate 7 governs), 2-4 telegraphed phases on the Warden floor, split across ANCHOR/FLANKER families [P balance], playful-space patterns (new programs and/or compositions; one lead per pattern; Law-4 monotone; no-strobe per kit), PLACEHOLDER descriptive ids (cosmic-rail-ready), pool weights keep sightings events. THE PURSUERS: 1-2 of the +8 are TRUE PURSUERS - the no-chase law AMENDS for exactly these as sanctioned experiments; fairness STRUCTURAL: pursuit speed strictly below the 3.6 player floor (pressure, never cornering), lunge/stamina cycles [T] if the shape wants them, the WALL-PIN proof class audits cornering explicitly, floor/cap proofs + no-strobe as ever; if a pursuer proves un-fair under proofs, REPORT honestly rather than shipping it weakened-into-boring. SERIAL untouched expected (defs are data - verify). Full gate + seal; evidence per wave; resolve at close; zero planning writes.",
+        "refs": [
+            "sl-0180",
+            "sl-0183",
+            "sl-0187",
+            "sl-0188"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0201",
+        "ts": "2026-08-04T11:39:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE CI WORKFLOW HANGS AT 6H (found at planning's sweep glance): the last three main pushes' CI runs each sat exactly 6h0m and auto-cancelled - the first hung run is the push that added the dungeon_walk_test CI row (prime suspect: a Godot-running row hanging in the Actions environment / the detach gotcha's CI sibling)",
+        "detail": "Run ids 30865226030 / 30865488285 / 30865522667 all completed-cancelled at 6h0m; the foraging-close run 30905293375 was in_progress at the sweep glance (its outcome confirms/denies). Diagnose from the workflow logs (gh run view), fix the row honestly - headless flags / a step timeout / skip-in-CI are the candidate shapes; THE LOCAL GATE STEP STAYS regardless (the walk check's value is local) - and verify the next push's run completes green. Routed to ride the extension session as its warm-up item. NOTE: the executing seat's permission layer may deny gh - if so, diagnose via the workflow FILE + local reproduction and report; planning verifies the run outcome at sweep.",
+        "refs": [
+            "sl-0192",
+            "sl-0198"
+        ],
+        "by": "agent"
     }
   ]
 }

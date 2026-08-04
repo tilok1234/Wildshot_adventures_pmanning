@@ -27,9 +27,9 @@ the sweeps → the words).
 
 1. Read this section → the session file
    `notes/sessions/2026-08-04-evening.md` top to bottom.
-2. Verify the board yourself: game main pushed at **b85bf66** (the
-   post-reshape docs sweep close); sync log **220 entries / 0
-   dupes, tail sl-0220** — re-run the dupes check.
+2. Verify the board yourself: game main pushed at **01d4801** (the
+   activity-pass hours close); sync log **226 entries / 0 dupes,
+   tail sl-0226** — re-run the dupes check.
 3. **ARM BOTH WATCHERS** (the multi-lane sweep watcher + the
    producer watcher — they die with each session; expect
    self-noise from your own writes).

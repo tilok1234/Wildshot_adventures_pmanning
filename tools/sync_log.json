@@ -3231,6 +3231,34 @@
             "sl-0198"
         ],
         "by": "agent"
+    },
+    {
+        "id": "sl-0202",
+        "ts": "2026-08-04T13:26:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "THE POOL EXTENSION LANDED (sl-0200 RESOLVED; game e5a5f30 + d47a7a8 + a72b6ab, pushed+verified; SERIAL 27 / WSR v3 UNTOUCHED, goldens verified x10 ZERO shifted; seal ALL GREEN 17.5 min): +8 routed, SEVEN SHIP (pool 8->15, roster 40-46) - the eighth pursuer FAILED THE FLOOR HONESTLY across seven iterations and is REPORTED NOT SHIPPED; the no-chase amendment pins EXACTLY ONE sanctioned pursuer",
+        "detail": "The seven, corrected-shape (25-50s, gate 7 green, Warden floor, descriptive cosmic-rail-ready ids): gap_carousel ANCHOR g1 32s (walking-gap rotor ring) / sickle_weaver FLANKER g1 25s (sign-alternating sine) / dart_skirmisher FLANKER g2 30s / decel_orchard ANCHOR g3 33s / halo_lasher FLANKER g3 28s (two-phase halo surge) / TIDE_STALKER THE TRUE PURSUER g3 45s (policy 0, per-phase 2.4/2.8/3.2 strictly under the 3.6 floor, wake rings off the advance; the corner audit MECHANIZED - bait spawned IN the worst stub pocket w/ pursuit on top, zero hits floor AND cap, seeds x3; gather_test pins the sanction list + per-phase ceiling + ONE-CHASER-MAX) / pulse_cross ANCHOR g4 50s (four-phase rotor lighthouse). THE HONEST FAILURE: shadow_hound (pursuit + close-materializing 120-degree snap fan) grazed the floor lane seed-invariantly at the P2 entry volley across SEVEN iterations (margins 0.004-0.016; every lever slid the razor, never dissolved it); STRUCTURAL VERDICT: a close-range-materializing fan from a pursuing body cannot be proven floor-fair in the 10x11 stub room under the record policy; UNWIRED WHOLE pre-ship, roster recompacted, gotcha 46 amended w/ the pursuer corollary - THE DESIGNER'S WORD ROUTES ANY REMATCH (lesson: pursuit is fine, close-materializing weapons on a chaser are not). Pool-wide balance 7 ANCHOR / 7 FLANKER / 1 PURSUER, biomes 5/5/5, catch weights 70/80 held. Lunge/stamina deliberately not taken (experiment kept data-pure). Battery 121 runs; strobe worst flips 0 across all 15 kits. The designer judges all fifteen tonight.",
+        "refs": [
+            "sl-0200",
+            "sl-0187",
+            "sl-0188"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0203",
+        "ts": "2026-08-04T13:26:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "THE CI HANG RESOLVED (sl-0201; game 24a0cac/ed77943/8f2bd7d): planning's suspect was WRONG - the hang was the CROSSHAIR row (sl-0077 era), hanging EVERY main push since 2026-08-01, masked behind fast lint-reds; three-layer fix; runs 30908801389 + 30911971956 + 30913642999 = the first fully-green pipeline runs in the repo's visible history (~50s each), planning-verified independently",
+        "detail": "Root cause (gotcha-47's CI sibling, clone-reproduced): load() of the crosshair PNG rides .godot/imported; a fresh CI checkout has none -> null -> abort under --script -> SceneTree idles -> GitHub's 6h default kill. The dungeon_walk row NEVER EXECUTED (downstream) - the briefing's suspect exonerated by evidence; the seat followed evidence over briefing, the wanted discipline. THREE LAYERS: kit_image() load-first w/ raw-PNG-bytes fallback (byte-identical where cache exists) + timeout-minutes 15/30/45 on all jobs (any future wedge = fast red, never 6h silence) / a --headless --import pass before pixel-match rows / feedback_bundle_test provisions absent files (it had ridden the developer's REAL session.jsonl - a test-honesty hole). With CI alive, the never-executed rows (stat frame, living world, green roster, quests, gather, dungeon walk, char sheet, npc wiring) all ran and PASSED. The local walk-check gate step untouched (never the problem).",
+        "refs": [
+            "sl-0201"
+        ],
+        "by": "agent"
     }
   ]
 }

@@ -126,14 +126,21 @@ reports raw data).
 > the 26-era miss — THE LOCK FILE IS THE ENTRY, docs are not**).
 > THE CI HANG found + routed (sl-0201: three 6h0m auto-cancels,
 > first = the dungeon_walk_test row's push — rides the extension
-> as warm-up). **THE POOL EXTENSION IS BUILDING** (sl-0200: +8 →
-> 16 kits, corrected shape, THE PURSUER EXPERIMENT — 1–2 true
-> chasers by the designer's word, fairness structural, wall-pin
-> audited). Log **201/0/tail sl-0201**. Systems-complete
-> remainder: **CLASS TREES v1 ONLY** (parked on the designer's
-> testing). Designer-owed tonight: foraging play · the dungeon
-> RE-WALK (gates sl-0192's acceptance) · the sixteen bosses ·
-> the standing words list.
+> as warm-up). **THE POOL EXTENSION LANDED (sl-0202): the pool
+> stands at FIFTEEN** (seven new kits; TIDE_STALKER = the ONE
+> sanctioned true pursuer, corner-audit proven; SHADOW_HOUND
+> failed the floor honestly across seven iterations and shipped
+> NOWHERE — one-chaser-max law pinned, the designer's word
+> routes any rematch; balance 7 anchor / 7 flanker / 1 pursuer,
+> biomes 5/5/5). **CI IS ALIVE (sl-0203)** — the crosshair row
+> had hung EVERY push since 08-01 (planning's dungeon-walk
+> suspect exonerated by evidence); three layers + job timeouts;
+> three consecutive ~50s SUCCESS runs, planning-verified. Log
+> **203/0/tail sl-0203**. Systems-complete remainder: **CLASS
+> TREES v1 ONLY** (parked on the designer's testing).
+> Designer-owed tonight: foraging play · the dungeon RE-WALK
+> (gates sl-0192's acceptance) · the FIFTEEN bosses (the
+> pursuer especially) · the standing words list.
 
 ---
 

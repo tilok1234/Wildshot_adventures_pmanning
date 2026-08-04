@@ -35,18 +35,24 @@ the sweeps → the words).
    self-noise from your own writes).
 4. **MEMORY IS PER ACCOUNT** — no recalled memories = rebuild from
    THIS file + repo forensics.
-5. **THE LIVE BOARD:** PASTE C is CUT AND WAITING (sl-0216 the
-   dungeon vocabulary guard + sl-0218 quest activity indicators +
-   sl-0219 the chase-leash diagnose-first; the paste text is in the
-   session file's record and the planning chat — the designer drops
-   it into a fresh game session). THE RECALL CONSIDER is OPEN
-   (sl-0220 — home-bind + 2 s recall cast; the designer's word
-   firms or drops; NOT folded into C by the size-check law; a firm
-   = its own routing at SERIAL 28). sl-0213 (close fighters as
-   projectile contributors) queues on the designer's word AFTER
-   play. Two-writers note: designer-dropped game seats write their
-   own planning-side resolutions and push (c445b44/7549f32 tonight,
-   both clean) — planning sweeps AROUND them, validate-before-write
+5. **THE LIVE BOARD:** PASTE C LANDED WHOLE past midnight
+   (sl-0216/0218/0219 → the seat's resolutions sl-0224/0225/0226,
+   game aa65ec7..1da1f9d pushed: RIFT DUNGEON everywhere w/ a
+   mechanized vocabulary scan · amber-dot quest-mob marks w/ THREE
+   style options awaiting the designer's eyes + nearest-cluster map
+   regions — planning's whole-species-centroid shape REFUTED BY
+   DATA p50=106t · the chase leash DIAGNOSED with numbers then
+   tuned: GIVE_UP 18 [T] + full RETURN-HOME 5 [T], site members
+   only, the 121-run battery BYTE-IDENTICAL, zero re-baseline).
+   **PASTE D v3 FINAL WAITS** (sl-0221 home+recall at SERIAL 28 +
+   sl-0222/0223 the zoom accessibility option; the paste text is in
+   the planning chat + session file; the lock's serialization entry
+   updates at planning's sweep when it lands). THE RECALL is FIRMED
+   (sl-0221); sl-0213 (close fighters as projectile contributors)
+   queues on the designer's word AFTER play. Two-writers note:
+   designer-dropped game seats write their own planning-side
+   resolutions and push (c445b44 / 7549f32 / 39f42b5 tonight, all
+   clean) — planning sweeps AROUND them, validate-before-write
    always.
 
 ## THE BOARD (the night's tally, all pushed + verified)
@@ -76,12 +82,14 @@ the designer's word; wolf 4-of-63-swings pinned loudly meanwhile).
 **THE ASSET PACK exported** (Documents\wildshot-asset-pack-
 2026-08-04.zip, 62.5 MB whole-packs build, provenance README).
 
-**DESIGNER-OWED (the hands list):** drop paste C · the recall word
-(firm/reshape/drop) · the dungeon RE-WALK (still gates sl-0192) ·
-the fifteen bosses (tide_stalker the headline) · foraging play ·
-the hitbox feel + the [5,8] bless · the standing words (panel2
-chrome · tracker side · capital giver casting+cell · free-four
-shop-only · family-pattern vs per-rod · fish designs · weekly GIF).
+**DESIGNER-OWED (the hands list):** drop paste D v3 · the
+amber-dot STYLE PICK (three options in the sl-0225 evidence) · the
+road-shed feel + the leash [T]s (18/5) · the RIFT-DUNGEON RE-WALK
+(still gates sl-0192) · the fifteen bosses (tide_stalker the
+headline) · foraging play · the hitbox feel + the [5,8] bless · the
+standing words (panel2 chrome · tracker side · capital giver
+casting+cell · free-four shop-only · family-pattern vs per-rod ·
+fish designs · weekly GIF).
 
 ## LAWS THIS ERA (additions tonight)
 

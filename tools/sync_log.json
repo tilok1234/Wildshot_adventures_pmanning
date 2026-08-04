@@ -3172,6 +3172,21 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+        "id": "sl-0198",
+        "ts": "2026-08-04T09:04:00Z",
+        "type": "ask_opened",
+        "repo": "planning",
+        "target": "game",
+        "title": "THE FORAGING BUILD GO (the designer's remote-day word: 'yes please run it' - implementations today, testing tonight): the sl-0168 spec builds at the next SERIAL via a routed hands-free seat; TWO fresh designer words fold in (live cap never the pool: 'we not gonna have 1900 nodes at once' confirmed - candidacy vs simultaneity; materials VISIBLE in the inventory 'like starhooking')",
+        "detail": "THE RULED SHAPE WHOLE: (1) VERB - F-press at a live node -> short gathering bar ~0.5-1s [T] drawn at the node -> a LOOT BAG drops (sl-0129 machinery, walk-over + B); the bar interrupts on movement or getting hit (sim-side, the designer's rider); the sl-0105 stillness verb + anti-AFK retire. (2) SPOTS - the ambient-rift spawner's SECOND CONSUMER (interval/chance/cap on rng_misc, consumed on gather, no per-node timers); candidate pool = the ~1.9k forage prop cells (nodes sit ON real props, visible shimmer, WYSIWYG - screen-checked by the walked-content gate step); LIVE CAP [T] start 12-18 world-wide; the 12 old forage POIs become ordinary pool members. (3) YIELD - forage materials keyed per-species from the prop's own family (data-derived, zero authoring, PLAIN overworld names - the cosmic rail is starhook-only), persisted per-species in the profile exactly like starhook_fish{} (ghost-species tolerant); ON PICKUP VISIBLE IN THE INVENTORY (the designer's word) - per-species stacked tiles w/ count badges in a plain-named section under the bag grid, zero bag capacity, ONE wallet truth; the cosmetic trade-in = future, counts correct from day one. SERIAL bump expected (node lifecycle + gather progress + forage_materials{}); zero recorded-INPUT growth expected (existing inputs only) - verify; goldens re-record; THE LOCK TRUTHING RIDES PLANNING'S SWEEP (the zero-planning-writes rail holds; the seat reports the bump loudly). Every number [T]. Executed hands-free per the sl-0184/0185 precedent.",
+        "refs": [
+            "sl-0168",
+            "sl-0129",
+            "sl-0105"
+        ],
+        "by": "agent"
     }
   ]
 }

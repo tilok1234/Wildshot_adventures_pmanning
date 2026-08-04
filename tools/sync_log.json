@@ -3541,6 +3541,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0222",
+      "ts": "2026-08-04T21:57:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE ZOOM OPTION (rides paste D as a view item, the amend-in-place precedent): an options row for game camera zoom [T levels 1x/1.5x/2x] - pixel-integrity path proposed by the seat, the designer's eyes pick",
+      "detail": "The designer, verbatim (2026-08-04 night, while paste C ran): 'also i think we should have the option to change what zoom level you are playing the game on like 1.5x and 2x'. Shape: an options-menu row (the M3 options + settings.cfg persistence machinery) scaling the GAME camera only - HUD/menus stay on ui-scale; default = the current scale; view-only, zero sim. THE PIXEL-INTEGRITY POINT [P->T]: 1.5x is non-integer over pixel art - the seat proposes the scaling path (integer viewport scaling vs fractional nearest-neighbor w/ shimmer vs filtered w/ blur), captures side-by-side evidence, and the designer's eyes pick. HONEST NOTE for the resolution: zoom changes visible warning distance for incoming patterns; the fairness floor is sim-level and unchanged; readability evidence to date was captured at the current scale - the option is the player's choice. ROUTED onto paste D as item 4 (D re-issued amended pre-drop, the sl-0178/0181 copy-the-amended-paste precedent).",
+      "refs": [
+        "sl-0221",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

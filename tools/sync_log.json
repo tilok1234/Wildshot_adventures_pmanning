@@ -3571,6 +3571,51 @@
         "notes/sessions/2026-08-04-evening.md"
       ],
       "by": "agent"
+    },
+    {
+        "id": "sl-0224",
+        "ts": "2026-08-04T23:52:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "sl-0216 RESOLVED: THE DUNGEON VOCABULARY GUARD - every starhook surface says RIFT DUNGEON, the bare `dungeon` console jump retired into a reservation hint, the inverted phrase banned by mechanized scan",
+        "detail": "The designer's carefulness ('very obvious that dungeons and starhookiing dunbgeoins are not the same') built as words + a guard. SURFACES: picker row 'STARHOOK DUNGEON: the path (test)' -> 'RIFT DUNGEON: the path (test)'; both console toasts now say 'descending the rift dungeon'; the bare `dungeon` command RETIRED into a hint ('dungeon' is reserved (overworld dungeons). starhook: rift dungeon) - the rift-family `rift dungeon` jump is the one route left; the help row dropped the bare word. THE INVERTED PHRASE (dungeon-before-rift) purged from 12 living-source sites (console strings, .tres headers, comments, pretester comment) and BANNED: dungeon_walk_test section 4 scans game/ui/sim/data/tests/tools (.gd/.tres/.py/.ps1; pattern built by concatenation so the scan never trips itself - the sl-0123 never-bind precedent), pins the starhook display_name rule (says 'dungeon' only as 'RIFT DUNGEON'; the Warren keeps the plain word - overworld dungeons own it), and text-pins main.gd (rift_dungeon_path routed from exactly ONE site + the reservation hint present). NEGATIVE-TESTED x3: planted phrase / broken display name / second route site - each RED with the finding named. File/test ids STAY [P] per the seat judgment: already rift_dungeon_* prefixed, unambiguous under the new vocabulary. Gate: pretester -SkipBattery ALL GREEN 3.0 min (view/console seam; smoke + goldens prove sim bytes unmoved). Game aa65ec7.",
+        "refs": [
+            "sl-0216",
+            "tests/rift_dungeon/dungeon_walk_test.gd"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0225",
+        "ts": "2026-08-04T23:54:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "sl-0218 RESOLVED: QUEST ACTIVITY INDICATORS - amber-dot quest-mob marks (three style options captured for the designer's eyes) + nearest-cluster map regions; the routed whole-species centroid REFUTED BY DATA (p50=106t)",
+        "detail": "The activity-promotion model built cheap and legible, zero sim bytes. (a) QUEST-MOB MARK: game/views/quest_mob_marks.gd (both profiles) - a mob whose def serves a carried unfinished KILL errand wears a small mark above its HP bar; pure view, CORE-35 general presentation, HP_BARS band (never occludes a threat); binding mirrors the HUD tracker + map objectives EXACTLY (tracked narrows; none tracked = all carried [T]); a finished-but-unturned errand un-marks its mobs; KILL only (COLLECT would mark everything = noise; VISIT has the map diamond). THE LANGUAGE FLAG honored: ships AMBER DOT (sl-0184 objective family - green belongs to turn-in); the designer's spoken green-dot lean AND an amber chevron captured side-by-side in committed evidence; style flips by one line [T], their eyes pick. (b) GENERAL-POSITION MAP REGION on both map scales (map_overlay.quest_regions, soft amber wash, never an exact pin - the sl-0184 honest gap closes): THE ROUTED LITERAL MEASURED IMPOSSIBLE-AS-USEFUL - whole-species territory centroid+radius spreads p50=106 t on live b77 (93 sites match the cull; re-tabled species live zone-wide; one disc washes the entire map). The honest neighbor keeps the mechanism on the NEAREST CLUSTER: single-linkage growth from the nearest matching site to the quest's OWN giver cell (the errand's narrative anchor - west_road's blob lands WEST of the station, the data agreeing with the fiction), LINK 15 / CAP 10 / PAD 4 / clamp [10,30], all [T]; COLLECT (any-kind) matches every populated site = the countryside around the giver; site-less worlds render nothing by construction. Tests: dev_map_test exact-geometry region pins on synthetic sites + mob-mark model pins (tracker-identical binding, finished-un-marks, legacy/VISIT/COLLECT negatives); lockdown lint's MapOverlay ctor allowlist grew with the new probe (the lint's catch, grown deliberately). EVIDENCE committed + read (real slice world, the woken meadow camp - a marked bandit beside unmarked ranged kin shows the discrimination in one frame; regions on corner + fullscreen + 2x desktop crop): reports/quest_activity_*.png x6. Gate: -SkipBattery ALL GREEN 3.0 min. Game 7b6b9a7. NO feel verdicts - mark style + region params are the designer's eyes [T].",
+        "refs": [
+            "sl-0218",
+            "sl-0184",
+            "reports/quest_activity_desktop.png"
+        ],
+        "by": "agent"
+    },
+    {
+        "id": "sl-0226",
+        "ts": "2026-08-04T23:56:00Z",
+        "type": "ask_resolved",
+        "repo": "game",
+        "target": "planning",
+        "title": "sl-0219 RESOLVED: THE CHASE-LEASH - diagnosed with numbers first (the gang-train mechanism named), then GIVE_UP 18 [T] + full RETURN-HOME 5 [T], site members only; zero format growth; the full 121-run battery BYTE-IDENTICAL (zero re-baseline)",
+        "detail": "DIAGNOSE FIRST honored (committed instrument tests/chase_leash/chase_leash_probe.gd - a 3.6 t/s class-floor walker, BFS-routed, lapping a real five-site b77 corridor; committed report reports/chase_leash_diagnosis.md). THE CURRENT TRUTH MEASURED: aggro 12.0 UNIFORM on every ordinary def (bosses 14), Euclidean, IDLE-only; NO give-up by player distance or timer EXISTED; the tether walk-home STOPPED AT THE RIM (census max home-dist EXACTLY 12.0 = the tether line; 10/20 live members rim-parked facing the road); the gang train = wake(22) + aggro(12) + no-give-up + every-speed-under-3.6 + the rim ratchet: engagement saturates in 6 s (15->28), holds 27-30 of 30-39 live for 48 s with ZERO decay, the near-8 gang re-forms at 24/24/24 identically every lap, 21 sustained standing mid-road ('ganging unreasonably' quantified), and 15 mobs stayed engaged through a 5-s hold 20+ t away - terrain-wedged chasers press forever. THE TUNE (sim values, zero serialized-state growth - SERIAL 27 / WSR v3 unchanged): SiteStep.GIVE_UP_RADIUS 18.0 [T] (an ENGAGED site member beyond it from every living player disengages; hysteresis structural - 18 > aggro 12/14, re-engaging means the player came back; a windup in flight completes, Law 8) + SiteStep.RETURN_RADIUS 5.0 [T] (the disengaged member walks ALL the way home past the rim; 5.0 > outermost spawn ring 4.4 so fresh wakes never shuffle). SITE MEMBERS ONLY: labs, the Warren, the rift dungeon and every authored proof keep chase-forever BY CONSTRUCTION (site_index < 0). AFTER (same probe, same seed): off-road engaged 15 -> 4 (each explainable as live territory proximity), rim-parked 10 -> 3, max home-dist 12.0-parked -> 10.2-transient, standing near-8 21 -> 22 (pressure UNCHANGED by design) - the fairness frame exactly: kiting sheds honestly, standing still pressured, no permanent trains. living_world_test +8 pins (engage/band-hold/give-up/full-return-and-stand/windup-uninterrupted/wake-never-shuffles/non-site-chases-forever/real-roster aggro-under-give-up scan). BATTERY: the FULL 121-run battery reproduced BYTE-IDENTICAL under the tuned sim - zero rows re-recorded, zero re-baseline needed (the bot never strays 18+ t from an engaged site mob in any proof; the three canary repro .wsr strays were the recorded pool-race noise class, restored to the record; goldens + smoke byte-identical - the site-members-only scope proven end to end). Game d2900e8 (diagnosis 3f2a996).  sl-0213 (close-fighter re-arm) NOT folded in, exactly as routed - its own word pending. TICK-RATE LESSON recorded: seconds claims derive from DT=1/60 (60 tps since sl-0115) - the report's first cut said 95 s/12 s and was corrected to 48 s/6 s. Acceptance = the designer's run around the map.",
+        "refs": [
+            "sl-0219",
+            "sl-0213",
+            "reports/chase_leash_diagnosis.md",
+            "tests/chase_leash/chase_leash_probe.gd"
+        ],
+        "by": "agent"
     }
   ]
 }

@@ -3556,6 +3556,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0223",
+      "ts": "2026-08-04T22:00:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE ZOOM ACCESSIBILITY FRAMING (amends sl-0222, fresh id per the law): zoom is an ACCESSIBILITY option first - it joins the doc 01 required-accessibility family; try-it-honestly posture ruled, removal licensed but the keep-lean rises",
+      "detail": "The designer, verbatim (2026-08-04 night, answering planning's warning-distance flag): 'yeah i think its healthy for the game that we atleast try it, we may have to remove it lkater you are correct there, but also people can have reduced vision etc and it might be smart to just leave it in as an optional option'. THE FRAMING: game-camera zoom is a VISION-ACCESSIBILITY option - it extends the doc 01 required-from-the-start accessibility block (which already mandates UI and text scaling; camera zoom is that family's gameplay-view sibling). THE POSTURE RULED: ship it honestly and try it; removal stays licensed on the designer's later word - but the accessibility framing raises the keep-lean: if warning-distance implications bite, planning's lean [P] is CAP or ADJUST the levels before removing the option entirely (accessibility options are not removed lightly). Paste D item 4 amended in place with the framing (D v3 FINAL re-issued; the copy-the-amended-paste precedent).",
+      "refs": [
+        "sl-0222",
+        "docs/01-GAME_DESIGN_DOCUMENT.md",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "by": "agent"
     }
   ]
 }

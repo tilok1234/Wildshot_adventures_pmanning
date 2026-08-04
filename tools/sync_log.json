@@ -3259,6 +3259,82 @@
             "sl-0201"
         ],
         "by": "agent"
+    },
+    {
+      "id": "sl-0204",
+      "ts": "2026-08-04T17:19:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "QUEST GIVER ICON STILL MISPLACED IN REAL PLAY (follow-up: the sl-0176/0185 fix does not hold on the designer's screen) - diagnose-first, the proof-didnt-prove-the-LOOK class",
+      "detail": "The designer, verbatim (2026-08-04 evening play, capital plaza screenshot in chat): 'the quest icon is still under the mob itr seems'. The screenshot shows the gold bang floating mid-plaza attached to NO giver while the ringed giver stands elsewhere - the icon anchors somewhere other than the giver's body despite sl-0176's body-cell anchor + LIFT 18 (which passed script-side; the sl-0186 lesson class again: the proof didn't prove the LOOK). DIAGNOSE FIRST at the capital (the bodiless-slot case was this plaza's own history) AND the nudged givers; fix = the icon rides the GIVER'S BODY overhead at both scales, occlusion structurally impossible; evidence screenshots at both scales including this exact plaza.",
+      "refs": [
+        "sl-0176",
+        "sl-0185",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0205",
+      "ts": "2026-08-04T17:19:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "NPC NAMEPLATES RENDER BROKEN GLYPHS in real play (follow-up on the sl-0190 plates) - the strings are right, the letterforms are wrong",
+      "detail": "The designer, verbatim: 'the npc names are really broken-.' The capital screenshot shows wrong glyphs mid-word on the role plates: 'Tackle Keeper' reads like 'Tack:Je Keeper', 'Trader' like 'Tnader', 'Banker' like 'Banber' - consistent with a font/glyph-atlas mapping defect in the plate label path (substitution/kerning), NOT the name data. DIAGNOSE FIRST; fix view-only; evidence = the same plaza re-shot clean at both scales.",
+      "refs": [
+        "sl-0190",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0206",
+      "ts": "2026-08-04T17:19:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "CONSOLE INPUT LEAKS TO GAME HOTKEYS - typing in the console fires bound keys (T reloads the world mid-typing)",
+      "detail": "The designer, verbatim: 'hotkeys activate when you write in console so i cant write stuff with T without console restarting whenm i load new world.' While the console is open, typed characters must NEVER reach gameplay/dev hotkey bindings (T evidently triggers a world-reload-adjacent binding). Law: console-open swallows ALL non-console input; close restores. Negative test: type every bound hotkey letter into the console - nothing may fire.",
+      "refs": [
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0207",
+      "ts": "2026-08-04T17:19:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE CADENCE RE-COMPOSITION RULED (the firing-feel round): baseline x1.5 = the Quickdraw start, dexterity grows with level, gear trades for it - ALL DPS-BUDGET-NEUTRAL by docs/22 block 3 (budget = damage x attack speed; every step RE-SPLITS, never raises); answers the owed x1.25-firing-feel word (sl-0120 superseded)",
+      "detail": "The designer's words verbatim across the round: 'i still feel fire rate is way to low tbh. even on level 30 with better gear. like dont u think it will be boring if projectile fire rate is that slow the whole game?' + 'it must be options available to icnrease fire rate while adjusting other stuff to keep stuff somewhat the saem' + 'yeah playing with quick draw is how the game should start and then increase atk speed with levels and gear from there. its so boring when you shoot 1 shot like every 0.5 sec' + 'but we shouldnt break the game either with increasing total dps like alot so idk how to move forward'. THE SHAPE ROUTED: (a) baseline family cadences x1.5 [T] (slow_heavy 0.75->1.125/s, long_reach 1.5->2.25/s, fast_light 2.5->3.75/s), per-shot damage re-derived to hold every block-4 DPS budget EXACTLY (T1 integer cramping: the calc reports player-damage-down vs enemy-HP-up, both TTK-neutral, inside the +-10% band + the <=3-digit law); (b) dexterity grows with level [T] (lean 100->~140 at 30) with damage tables re-derived so TOTAL DPS(level) equals today's curve at every level; (c) the sanctioned pair list extends +attack_speed/-damage [T] (optional second +attack_speed/-range [P]), block-9 validator enforcing as ever; (d) rift rods ride the same re-composition - rod DPS ladder unchanged, gate 7 untouched, calc-verified; (e) Quickdraw stacks on the new baseline (peak ~2.25x today) - report, re-tune only on the designer's later word; ledger #2 fold-in rides if cheap. Zero recorded-format growth expected (computed stats, data values; SERIAL 27 stands unless the seat finds otherwise - any bump truths the lock at planning's sweep); goldens re-record under full re-baseline discipline; readability sanity on the raised friendly-bullet counts. The attack-speed machinery already exists sim-side (attack_speed_stat, hashed + tested + char-sheet row + icon glyph) - nothing feeds it upward today; the only touching item (reach ring) trades it DOWN.",
+      "refs": [
+        "sl-0120",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0208",
+      "ts": "2026-08-04T17:20:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE HITBOX HALVING UN-DEFERS (sl-0146 re-activated by the designer's word): the queued-then-deferred shot-hurtbox x0.5 rides tonight's session - the original entry's shape carries whole",
+      "detail": "The designer, verbatim (2026-08-04 evening): 'oh also we have forgotten to redude player character hitbox to half the size'. Correct - sl-0146 (2026-08-02, ask_opened: 'also the player hitbox should be atleast half the size of what it is now') was QUEUED and then deferred behind the menu pass and never built; doc 03 carried it on the deferred list. RE-ACTIVATED: the sl-0146 shape executes as written - shot-hurtbox radius x0.5 start [T], 'at least' = license smaller, the designer's hands rule the final value; SCOPE: the BULLET hurtbox only (terrain/movement body + interact radii STAY unless found coupled - honest report BEFORE moving them); DodgeBot floor/cap proofs re-run with a before/after MARGINS TABLE (margins should RISE across all 15 kits); deliberate goldens/battery re-baseline, full gate before commit; no SERIAL expected (a value, not a format). Rides the same game session as sl-0204-0207.",
+      "refs": [
+        "sl-0146",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

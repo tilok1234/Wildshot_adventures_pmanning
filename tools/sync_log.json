@@ -3464,6 +3464,53 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0217",
+      "ts": "2026-08-04T20:56:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE CADENCE FEEL VERDICT LANDS POSITIVE (sl-0207 first-touch): 'the game feels alot better now with more fire rate' - the firing-feel arc closed same-night, word-to-verdict; the [T]s stand as shipped pending deeper play",
+      "detail": "The designer, verbatim (2026-08-04 night, minutes into testing the reshaped build): 'the game feels alot better now with more fire rate'. The arc in one line: the way-too-low word (~17:4x) -> options in chat -> the Quickdraw-start ruling -> the DPS-neutral shape -> built hands-off-planning by the designer-dropped seat -> POSITIVE first verdict, same night. The hits-band [5,8] bless and the ladder/breakpoint re-tunes stay open [T] on deeper play; the hitbox feel verdict rides the same play.",
+      "refs": [
+        "sl-0207",
+        "sl-0214",
+        "sl-0215"
+      ],
+      "by": "agent"
+    },
+    {
+      "id": "sl-0218",
+      "ts": "2026-08-04T20:56:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "QUEST ACTIVITY INDICATORS (the owed kill/collect-map-hints word LANDS with shape + a quest philosophy ruling): quest-needed mobs get a world indicator ('a green dot or something like that' [T]) + objectives get a GENERAL-POSITION map hint (region, not pin); most quests exist to PROMOTE PLAYER ACTIVITY, not carry story",
+      "detail": "The designer, verbatim (2026-08-04 night, after the first quest): 'i did the first quest: and its not obvious where quests objectives are, and i think our goal with most of quests is to just promote player activity and not all quest will have a story etc. so if we give quest mobs for example an indicator that you need that mob for a quest. like a green dot or something like that. also the option to have their general position on map would be pretty cool.' TWO SHAPES + A PHILOSOPHY: (1) QUEST-MOB INDICATOR: mobs whose deaths/drops serve an active quest carry a world-space mark; the designer's lean is a green dot; HONEST LANGUAGE FLAG for the seat: the sl-0184 marker language already binds green = turn-in and amber diamond = tracked objective - the seat proposes a mark CONSISTENT with that grammar (amber-family for tracked-quest mobs is the language-true candidate) and the designer's eyes pick [T]; (2) GENERAL-POSITION MAP HINT: kill/collect objectives render a soft REGION on both map scales (species territory centroid + radius [T] - the content pack's 92 territories are the data), 'general position' NOT an exact pin - closes the honest gap standing since sl-0184 (kill/collect quests carry no objective cell); (3) THE PHILOSOPHY RULED: most quests promote ACTIVITY, story is optional per quest - a doc 23 quest-design line candidate; indicator/hint design should assume the activity-promotion model (cheap, legible, everywhere) not bespoke story staging. All view-layer over existing quest data expected; every choice [T]; the designer plays.",
+      "refs": [
+        "sl-0184",
+        "sl-0185",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0219",
+      "ts": "2026-08-04T20:56:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE CHASE-LEASH LOOK (diagnose-first): 'how long enemies chases you' - kiting the map accumulates an unreasonable gang; measure the current aggro/chase/give-up semantics, report, then tune behind [T]s",
+      "detail": "The designer, verbatim (2026-08-04 night): 'Also i think we need to look at how long enemies chases you and stuff like that, cause rn i feel like they start cluttering up and ganging unreasonably up on you if you run around the map not killing everything.' DIAGNOSE FIRST (the semantics were never explicitly designed - the reference-pass cold finding named activation-leash semantics as the importer's core question, sl-0093 era): measure and report the CURRENT truth - aggro trigger radius, chase persistence (do chasers ever give up?), return-home behavior, cross-territory accumulation when kiting (the gang-train mechanism). THEN propose+build behind [T]s: leash radius / give-up distance-or-timer / return-home / any cap on simultaneous chasers - fairness frame: a kiting player sheds pursuers honestly; a standing player still gets pressured; no permanent trains. ADJACENCY NOTED, SEPARATELY ROUTED: sl-0213 (close fighters as projectile contributors) touches the same families later - the leash pass is pure pursuit-duration tuning and goes first; sl-0213 stays queued on its own designer word after play. The designer's play = acceptance.",
+      "refs": [
+        "sl-0213",
+        "sl-0093",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

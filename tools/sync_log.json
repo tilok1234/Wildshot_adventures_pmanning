@@ -3398,6 +3398,22 @@
         "notes/sessions/2026-08-04-evening.md"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0213",
+      "ts": "2026-08-04T19:10:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE PROJECTILE-ECOSYSTEM WORD (dropped live in the paste-B game session, planning-captured): NO enemy is 'melee' - all are projectile fighters; 'melee' names ENGAGEMENT DISTANCE only; close fighters must CONTRIBUTE bullets to the hell, not just chase - THE DIRECTION for the close-fighter round that the hitbox finding makes necessary",
+      "detail": "Context: the sl-0208 hitbox halving surfaced a structural finding mid-session (the seat's measurement, honest and pinned-not-smuggled: at hurtbox 0.175 the slash-class arc gaps exceed the player's body - a lone wolf lands 4 of 63 swings over 40s vs 13-hits-kill-in-5s before; regen out-heals the connects; ~half of Green's families near-harmless vs a standing player). The designer's words in that session, verbatim: 'we shouldnt think of any enemies as melee they are all projectile based fighters kind of, and melee i think should kind of only MOSTLY refer to how close a enemy wants to be to you kind of but i think saying melee might get confusing when it comes to only using projectiles' + 'cause we wanna increase the way the current melee enemies contribute to the projectile ecosystem like ofc they have a role to put pressure on player, but they should also contribute to the natural proectile ways of a bullet hell game. like dont get me wrong and over do it, but atm their projectiles are mostly nothing at all its just that they run after u that u notice'. THE CONVERGENCE: the finding and the word solve each other - the fix for slash-class harmlessness is NOT tighter slash arcs (the seat's placeholder option) but RE-ARMING close fighters as short-range projectile contributors (close-pressure role kept, bullets real, 'dont overdo it' = the density rail; every number [T]). ROUTING: a FUTURE round, queued AFTER the combat reshape lands + the designer plays it - NOT added to paste B (the size check that split the night stands). The seat's in-session choices already align (patterns untouched, behavior pinned loudly in tests). Vocabulary note for all future records: 'melee' describes preferred engagement RANGE, never weapon type - candidate glossary line for the next docs pass.",
+      "refs": [
+        "sl-0208",
+        "sl-0146",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

@@ -28,9 +28,9 @@ seam → the boss batch → the findings → refinement round 1) ·
 
 1. Read this section → the session file's tail (from "THE GEAR
    SEAM ROUTED" onward).
-2. Verify the board yourself: game main pushed at **679fbd0**
-   (its post-play docs sweep — truthed to the refinement-round-1
-   threshold); sync log **189 entries / 0 dupes, tail sl-0189**
+2. Verify the board yourself: game main pushed at **a72b6ab**
+   (the remote day's close: foraging SERIAL 27 + the pool at 15
+   + CI alive); sync log **203 entries / 0 dupes, tail sl-0203**
    — re-run the dupes check.
 3. **ARM BOTH WATCHERS** (the four-lane sweep watcher + the
    producer watcher, the standing pattern) — expect self-noise

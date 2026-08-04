@@ -303,7 +303,13 @@ intended level; (2) the armor liveness flag (obtainable armor ≥
 fairness matrix (realized DPS per pattern × scenario — best
 somewhere, best nowhere-everywhere, block 3); (4) the chunky-hits
 assertion (ordinary enemies die in 3–5 hits at every band;
-frequent numbers ≤3 digits); (5) the ITEM VALIDATOR (tier budgets
+frequent numbers ≤3 digits — **AMENDED 2026-08-04, sl-0207,
+reported loudly at the cadence re-composition: the band re-pins
+[5,8]**; hits = TTK × rate is inseparable from firing rate at held
+TTK (the exact impossibility that capped sl-0120 at ×1.25), so the
+×1.5–1.6 baseline maps the old uniform 5 to 8 with TTK and enemy
+HP untouched; the designer's bless is the standing word — a
+re-rule re-derives through the calculator); (5) the ITEM VALIDATOR (tier budgets
 + paired-trade grammar + unique one-break/chassis rules refused
 mechanically — TECH-16 discharged). Data lives in a versioned file
 in the game repo mirroring the docs/22 tables; the design

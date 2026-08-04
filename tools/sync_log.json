@@ -2494,403 +2494,403 @@
       "by": "agent"
     },
     {
-        "id": "sl-0153",
-        "ts": "2026-08-02T21:14:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE MENU PASS REPLANS AROUND THE DESIGNER'S UI PACKAGE (v2 menu system, exported tonight) - the paste bundle goes ON HOLD; the pass becomes a spec-driven build consuming the package; the rewritten paste lands at the accepted export",
-        "detail": "The designer, verbatim: 'also im exporting the menu and ui package atm. so we got to replan the next game plan we gonna do with the menus according to that, but i made it for this game so it shouldnt be much to change rather more to add'. The sequencing FLIPS: sl-0147 recorded art-AFTER-menus; the package lands FIRST and the pass replans around it. THE ARTIFACT (delivered minutes later, Downloads handoff, icon-pack precedent): 'Bullet Hell RPG Menu System.zip', 2,063,634 bytes, sha256 6BDB0DDDC1CD1424896D4D5822BF9FD22DB116A161F6899EFA39382C8157B4CA - export/v2-pack/: menu-specs.json = THE LAYOUT SOURCE OF TRUTH (declarative specs, v1 ids kept + _v2 ids beside, action grammar accept:<q>/decline/close/loot_all), manifest.json (images index + four full hue palettes with pinned accent keys), 7 menus x 4 hues (dusk/teal/slate/moss) at 640x360 @1x, surfaces hud/confirm/toast/tooltip, 20-piece chrome overlay whose dimensions match the consumed v1 kit EXACTLY (legal pixels-only swap under the doc-13 frozen contract; the ~20 unshipped ids stay v1), the 470-glyph icon atlas (= the wired set's count; parity-check at intake, no double-vendor), wildshot_pixel.ttf (license word owed - self-produced expected). PLANNING'S ASSESSMENT: PASS WITH DEFECTS - it maps 1:1 onto the routed pass (character+errands = the sl-0152 two tabs EXACT; quest-offer = the sl-0144 dialogue with plaque 'ERRAND - THE WARDENS'; bank/vendor = the sl-0145/0147 F-interact stations; loot-bag; options; the slot-grid presentation designs away the didnt-read-as-inventory first-touch datum) BUT FIVE CAPTURES ARE THE BARE STAGE (no overlay drawn): character.png in all four hues byte-identical + surfaces/hud.png + toast.png = the same file (hash FC702386...) - the headline two-tab menu and the HUD (the sl-0149 bars-left anchor) have no visual reference. ASKED: re-cut those five (or the designer words go-as-is; specs stay the build truth either way). ADDITIONS to route in the rewrite: quest ABANDON (rule owed) - DECLINE vs LATER semantics (spec: Later=close) - per-quest TRACKED toggle - 'givers have work' pull section - DRAG-or-click at bank/bag (replay-honesty: recorded-op coverage or click-first) - options/confirm/toast/tooltip restyles - portrait/bigbars/statchips/dollslots blocks. Rarity/legendary reveal animations EXCLUDED by the README (in progress; no-flashing law applies when they come). THE HELD PASTE: marked ON HOLD in the session file - DO NOT DROP; the two-tab shape, dialogue/accept, F-interact stations, chrome rules, bars-left, theme-swappable binding all STAND (the package implements them). The delivery gets its own sync-log id on acceptance.",
-        "refs": [
-            "sl-0152",
-            "sl-0147",
-            "sl-0149",
-            "sl-0144",
-            "sl-0145",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0153",
+      "ts": "2026-08-02T21:14:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE MENU PASS REPLANS AROUND THE DESIGNER'S UI PACKAGE (v2 menu system, exported tonight) - the paste bundle goes ON HOLD; the pass becomes a spec-driven build consuming the package; the rewritten paste lands at the accepted export",
+      "detail": "The designer, verbatim: 'also im exporting the menu and ui package atm. so we got to replan the next game plan we gonna do with the menus according to that, but i made it for this game so it shouldnt be much to change rather more to add'. The sequencing FLIPS: sl-0147 recorded art-AFTER-menus; the package lands FIRST and the pass replans around it. THE ARTIFACT (delivered minutes later, Downloads handoff, icon-pack precedent): 'Bullet Hell RPG Menu System.zip', 2,063,634 bytes, sha256 6BDB0DDDC1CD1424896D4D5822BF9FD22DB116A161F6899EFA39382C8157B4CA - export/v2-pack/: menu-specs.json = THE LAYOUT SOURCE OF TRUTH (declarative specs, v1 ids kept + _v2 ids beside, action grammar accept:<q>/decline/close/loot_all), manifest.json (images index + four full hue palettes with pinned accent keys), 7 menus x 4 hues (dusk/teal/slate/moss) at 640x360 @1x, surfaces hud/confirm/toast/tooltip, 20-piece chrome overlay whose dimensions match the consumed v1 kit EXACTLY (legal pixels-only swap under the doc-13 frozen contract; the ~20 unshipped ids stay v1), the 470-glyph icon atlas (= the wired set's count; parity-check at intake, no double-vendor), wildshot_pixel.ttf (license word owed - self-produced expected). PLANNING'S ASSESSMENT: PASS WITH DEFECTS - it maps 1:1 onto the routed pass (character+errands = the sl-0152 two tabs EXACT; quest-offer = the sl-0144 dialogue with plaque 'ERRAND - THE WARDENS'; bank/vendor = the sl-0145/0147 F-interact stations; loot-bag; options; the slot-grid presentation designs away the didnt-read-as-inventory first-touch datum) BUT FIVE CAPTURES ARE THE BARE STAGE (no overlay drawn): character.png in all four hues byte-identical + surfaces/hud.png + toast.png = the same file (hash FC702386...) - the headline two-tab menu and the HUD (the sl-0149 bars-left anchor) have no visual reference. ASKED: re-cut those five (or the designer words go-as-is; specs stay the build truth either way). ADDITIONS to route in the rewrite: quest ABANDON (rule owed) - DECLINE vs LATER semantics (spec: Later=close) - per-quest TRACKED toggle - 'givers have work' pull section - DRAG-or-click at bank/bag (replay-honesty: recorded-op coverage or click-first) - options/confirm/toast/tooltip restyles - portrait/bigbars/statchips/dollslots blocks. Rarity/legendary reveal animations EXCLUDED by the README (in progress; no-flashing law applies when they come). THE HELD PASTE: marked ON HOLD in the session file - DO NOT DROP; the two-tab shape, dialogue/accept, F-interact stations, chrome rules, bars-left, theme-swappable binding all STAND (the package implements them). The delivery gets its own sync-log id on acceptance.",
+      "refs": [
+        "sl-0152",
+        "sl-0147",
+        "sl-0149",
+        "sl-0144",
+        "sl-0145",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0154",
-        "ts": "2026-08-02T21:24:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "ABANDON + THE OFFER'S 'LATER' RULED (designer's word) - abandon returns the quest to its giver; the offer's non-accept = ONE 'Later' button this pass (the spec's Decline deferred); THE GO on the rewrite: THE MENU PASS v2 PASTE IS CUT - the sl-0153 hold discharges",
-        "detail": "The designer, verbatim (incl. the interrupted tail): 'abandon goes back to quest giver we can use either only later. ye go ahead and reasses the gamechats plan for menus in regards to this while i get the other export package' / 'or the fixed one'. RULINGS: (1) ABANDON RETURNS THE QUEST TO ITS GIVER - available again through the normal offer dialogue, no cooldown unless a later word adds one; leaves the log, clears the tracker if tracked; rides recorded ops like accept. (2) THE OFFER'S NON-ACCEPT = 'LATER' ONLY THIS PASS - planning's reading of 'we can use either only later' (both candidate parses converge on building ONE dismiss now): Later closes the window, the quest stays with the giver; Esc/walk-away identical; the v2 spec's Decline button is NOT BUILT this pass, deferred until a distinct meaning exists; flagged to the designer for a one-word correction if misread. (3) THE GO: the game-chat menu plan reassessed NOW - THE MENU PASS v2 paste cut at the session file tail, REPLACING the held batch-#3 paste (superseded marker left on the old block); intake-first (sha verify vs planning's record, raw vendor + passport, icon-atlas 470-id parity check vs the wired wildshot-icons-proto with NO double-vendor, font license recorded designer-self-produced on their confirm), menu-specs.json = the layout truth, six suggested seams (A chrome overlay 20-piece pixels-only swap with unshipped-ids-stay-v1 stated loud; B the two-tab C menu - dollslots paper-doll + slot-grid bag + proper-info errands tab + per-quest tracked toggle + abandon-to-giver; C the offer dialogue - accept-as-decision + Later-only; D stations on F interact - click baseline, drag ONLY if the recorded-op space covers it without format growth; E bars-left HUD per sl-0149; F options/confirm/toast/tooltip restyles), standing rules (view-only expected, full-gate if any op byte moves, Law 6 band on-screen, no-flash, states-never-hue-alone, absorb the nine repro .wsr + two .uid strays at the first commit, sl-0146 hitbox STILL DEFERRED). THE SHA CAVEAT rides in the paste: a fixed/other export is in flight designer-side (the five bare-stage captures) - the accepted zip takes its own delivery id and one sha line amends at handover; the current zip's sha (6BDB0DDD...C157B4CA) stands until then.",
-        "refs": [
-            "sl-0153",
-            "sl-0152",
-            "sl-0144",
-            "sl-0121",
-            "sl-0148",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0154",
+      "ts": "2026-08-02T21:24:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "ABANDON + THE OFFER'S 'LATER' RULED (designer's word) - abandon returns the quest to its giver; the offer's non-accept = ONE 'Later' button this pass (the spec's Decline deferred); THE GO on the rewrite: THE MENU PASS v2 PASTE IS CUT - the sl-0153 hold discharges",
+      "detail": "The designer, verbatim (incl. the interrupted tail): 'abandon goes back to quest giver we can use either only later. ye go ahead and reasses the gamechats plan for menus in regards to this while i get the other export package' / 'or the fixed one'. RULINGS: (1) ABANDON RETURNS THE QUEST TO ITS GIVER - available again through the normal offer dialogue, no cooldown unless a later word adds one; leaves the log, clears the tracker if tracked; rides recorded ops like accept. (2) THE OFFER'S NON-ACCEPT = 'LATER' ONLY THIS PASS - planning's reading of 'we can use either only later' (both candidate parses converge on building ONE dismiss now): Later closes the window, the quest stays with the giver; Esc/walk-away identical; the v2 spec's Decline button is NOT BUILT this pass, deferred until a distinct meaning exists; flagged to the designer for a one-word correction if misread. (3) THE GO: the game-chat menu plan reassessed NOW - THE MENU PASS v2 paste cut at the session file tail, REPLACING the held batch-#3 paste (superseded marker left on the old block); intake-first (sha verify vs planning's record, raw vendor + passport, icon-atlas 470-id parity check vs the wired wildshot-icons-proto with NO double-vendor, font license recorded designer-self-produced on their confirm), menu-specs.json = the layout truth, six suggested seams (A chrome overlay 20-piece pixels-only swap with unshipped-ids-stay-v1 stated loud; B the two-tab C menu - dollslots paper-doll + slot-grid bag + proper-info errands tab + per-quest tracked toggle + abandon-to-giver; C the offer dialogue - accept-as-decision + Later-only; D stations on F interact - click baseline, drag ONLY if the recorded-op space covers it without format growth; E bars-left HUD per sl-0149; F options/confirm/toast/tooltip restyles), standing rules (view-only expected, full-gate if any op byte moves, Law 6 band on-screen, no-flash, states-never-hue-alone, absorb the nine repro .wsr + two .uid strays at the first commit, sl-0146 hitbox STILL DEFERRED). THE SHA CAVEAT rides in the paste: a fixed/other export is in flight designer-side (the five bare-stage captures) - the accepted zip takes its own delivery id and one sha line amends at handover; the current zip's sha (6BDB0DDD...C157B4CA) stands until then.",
+      "refs": [
+        "sl-0153",
+        "sl-0152",
+        "sl-0144",
+        "sl-0121",
+        "sl-0148",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0155",
-        "ts": "2026-08-02T21:31:00Z",
-        "type": "delivery",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE v2 UI PACKAGE ACCEPTED (the fixed export): 'Bullet Hell RPG Menu System.zip' sha256 F20F907610154E0FB81E065B64B92AD11BFDD81BEA45C938671FF3C64FF315A1, 2,047,892 bytes - supersedes the first zip (6BDB0DDD...) whole; character x4 hues FIXED; hud/toast captures accepted-from-spec; + cinematics/stampede-1-ring-howl.png NEW",
-        "detail": "The designer re-exported from the external menu workbench (Downloads handoff, 23:28 local; same filename overwritten). Planning's diff vs the first zip: character.png now DISTINCT in all four hues (C2CBFEBF/C967AEAF/1161F42B/37EB5DB9 - the five-slot defect's main share FIXED and the headline two-tab menu verified on screen: portrait + xp, big hp/mana bars, stat chips incl. starhook, equipment column w/ empty-state text, bag 3/20 slot grid, hint line 'drag to move / click equips / right-click drops'); surfaces/hud.png REMAINS the bare-stage capture and surfaces/toast.png was REMOVED rather than re-cut - both ACCEPTED-FROM-SPEC (the workbench's special-surface capture path is the culprit, not the data: spec ids 'hud' and 'toast_demo' stand in menu-specs.json and the build truth is the spec per the package's own README; sl-0149 bars-left is unambiguous without a capture). ADDED: cinematics/stampede-1-ring-howl.png (the unique-reveal stage-1 look target) + README/manifest/menu-specs updated with the legendary action grammar (legendary3 stampede ~7s + rarity word-mark; toast/confirm/drop:<slot> flows enumerated). The MENU PASS v2 paste's sha line amended to this zip; the first delivery record retires. The reveal itself routed sl-0156.",
-        "refs": [
-            "sl-0153",
-            "sl-0154",
-            "sl-0156",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0155",
+      "ts": "2026-08-02T21:31:00Z",
+      "type": "delivery",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE v2 UI PACKAGE ACCEPTED (the fixed export): 'Bullet Hell RPG Menu System.zip' sha256 F20F907610154E0FB81E065B64B92AD11BFDD81BEA45C938671FF3C64FF315A1, 2,047,892 bytes - supersedes the first zip (6BDB0DDD...) whole; character x4 hues FIXED; hud/toast captures accepted-from-spec; + cinematics/stampede-1-ring-howl.png NEW",
+      "detail": "The designer re-exported from the external menu workbench (Downloads handoff, 23:28 local; same filename overwritten). Planning's diff vs the first zip: character.png now DISTINCT in all four hues (C2CBFEBF/C967AEAF/1161F42B/37EB5DB9 - the five-slot defect's main share FIXED and the headline two-tab menu verified on screen: portrait + xp, big hp/mana bars, stat chips incl. starhook, equipment column w/ empty-state text, bag 3/20 slot grid, hint line 'drag to move / click equips / right-click drops'); surfaces/hud.png REMAINS the bare-stage capture and surfaces/toast.png was REMOVED rather than re-cut - both ACCEPTED-FROM-SPEC (the workbench's special-surface capture path is the culprit, not the data: spec ids 'hud' and 'toast_demo' stand in menu-specs.json and the build truth is the spec per the package's own README; sl-0149 bars-left is unambiguous without a capture). ADDED: cinematics/stampede-1-ring-howl.png (the unique-reveal stage-1 look target) + README/manifest/menu-specs updated with the legendary action grammar (legendary3 stampede ~7s + rarity word-mark; toast/confirm/drop:<slot> flows enumerated). The MENU PASS v2 paste's sha line amended to this zip; the first delivery record retires. The reveal itself routed sl-0156.",
+      "refs": [
+        "sl-0153",
+        "sl-0154",
+        "sl-0156",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0156",
-        "ts": "2026-08-02T21:32:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE UNIQUE REVEAL (designer's word): a loot cinematic that fires ONLY on picking up a UNIQUE drop from a BOSS - SEAM G added to the MENU PASS v2 paste (legendary3 stampede ~7s; no-strobe hard check; pause-world + any-input-skip suggested [T]; view-only expected)",
-        "detail": "The designer, verbatim: 'i also added a unique loot animation drop that should only activate when u get an unique drop from a boss'. THE GATE: unique-rarity items from BOSS sources only, trigger on PICKUP ('when u get'), never drop-spawn, never lower rarities or non-boss sources - rare by construction. THE PLAY (menu-specs legendary3 + the shipped stage-1 frame): the mob pack rings the screen + the wolf howl -> the dragon spawns -> flamebreath clears the ring -> the plaque (rarity WORD 'UNIQUE' as a gold word-mark + tattoo-ribbon with item icon + name + stat line); dimmed-world glow-on-dark staging per the target frame. STAGING SUGGESTION [T]: build in-engine with existing sprites (the pack ships ONE target frame, not a reel); shorter than ~7s is fine if honest. RAILS (planning's law reads, recorded): one-shot, never looping/ambient; HARD CHECK no strobing/rapid luminance flips between stages (photosensitivity baseline - doc 13 rule 4's spirit; the glow-on-dark frame is the right model); CORE-19 note: the gold radial halo brushes the no-gold-burst line - the boss-unique-only gate + one-shot + dim staging is the defense, the designer owns the taste. WORLD STATE during the play [T, session's call + the designer's hands]: suggest PAUSE the world + ANY-INPUT SKIP - never let a ~7s overlay ride over live danger. View-only expected (overlay on a pickup-event predicate rarity==unique AND source==boss); if trigger/skip must touch the op/input space, full re-baseline discipline instead. Hint-caption honesty rides the pass: rendered hint lines state only what ships.",
-        "refs": [
-            "sl-0155",
-            "sl-0154",
-            "sl-0129",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0156",
+      "ts": "2026-08-02T21:32:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE UNIQUE REVEAL (designer's word): a loot cinematic that fires ONLY on picking up a UNIQUE drop from a BOSS - SEAM G added to the MENU PASS v2 paste (legendary3 stampede ~7s; no-strobe hard check; pause-world + any-input-skip suggested [T]; view-only expected)",
+      "detail": "The designer, verbatim: 'i also added a unique loot animation drop that should only activate when u get an unique drop from a boss'. THE GATE: unique-rarity items from BOSS sources only, trigger on PICKUP ('when u get'), never drop-spawn, never lower rarities or non-boss sources - rare by construction. THE PLAY (menu-specs legendary3 + the shipped stage-1 frame): the mob pack rings the screen + the wolf howl -> the dragon spawns -> flamebreath clears the ring -> the plaque (rarity WORD 'UNIQUE' as a gold word-mark + tattoo-ribbon with item icon + name + stat line); dimmed-world glow-on-dark staging per the target frame. STAGING SUGGESTION [T]: build in-engine with existing sprites (the pack ships ONE target frame, not a reel); shorter than ~7s is fine if honest. RAILS (planning's law reads, recorded): one-shot, never looping/ambient; HARD CHECK no strobing/rapid luminance flips between stages (photosensitivity baseline - doc 13 rule 4's spirit; the glow-on-dark frame is the right model); CORE-19 note: the gold radial halo brushes the no-gold-burst line - the boss-unique-only gate + one-shot + dim staging is the defense, the designer owns the taste. WORLD STATE during the play [T, session's call + the designer's hands]: suggest PAUSE the world + ANY-INPUT SKIP - never let a ~7s overlay ride over live danger. View-only expected (overlay on a pickup-event predicate rarity==unique AND source==boss); if trigger/skip must touch the op/input space, full re-baseline discipline instead. Hint-caption honesty rides the pass: rendered hint lines state only what ships.",
+      "refs": [
+        "sl-0155",
+        "sl-0154",
+        "sl-0129",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0157",
-        "ts": "2026-08-02T21:55:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE INTERACTABILITY SWEEP + MINIMAL FORAGING SANCTIONED (designer's word) - everything that should respond, responds: rifts, gather spots, NPCs, bank, vendors, loot bags; SEAM H (verify) + SEAM I (conditional foraging sim seam) join THE MENU PASS v2; THE GATE WORD recorded: when all this is in, the designer starts the game agent",
-        "detail": "The designer, verbatim: 'and we should make sure everything that should be interactable like rift and foragingn stuff and npcs and bank and vendor and stuff like that is interactable. also loot bags., when all this is put in we can start game agent i think'. ROUTED TWO WAYS: (1) SEAM H - THE INTERACTABILITY SWEEP (verify-only, closes the view work): walk the world and prove every interactable class responds - F INTERACT: bank keeper -> bank menu, vendors -> vendor menu, quest givers -> offer dialogue when available / TURN-IN WINS at dual-state (undialogued), every other stationed NPC -> its existing interact response (nothing dead among the 32), rifts -> INSTANT F-CAST (starhook law - verify unaffected by the menu/Esc-first changes), dropped items -> F picks back up; WALK-OVER class stays by design: loot bags -> panel (sl-0129), gold -> auto-pickup (the interact-era survivor); DISAMBIGUATION: multiple targets in one radius resolve sanely (nearest/priority [T]) with no dead zones; any future station inherits F (sl-0147 standing). (2) SEAM I - MINIMAL FORAGING, CONDITIONAL: the world data carries 24 gather spots; no foraging interaction exists in the game record - the designer's 'make sure foraging stuff is interactable' SANCTIONS the minimal build: F at a gather spot -> yield into the bag (species per spot type [T]), spot depletes + respawns [T]; THIS IS A SIM SEAM - runs AFTER the view seams under FULL re-baseline discipline (goldens, battery, rng honesty: new draws get their own stream or none [T]); the game seat SIZES it and reports scope honestly before building; if it balloons, it splits out of the pass and the sweep just reports the gap. The pass stays view-only by construction EXCEPT seam I. (3) THE GATE WORD (recorded as the designer's milestone): when the menu pass + sweep are IN, the designer starts the GAME AGENT - the pass landing is the start line.",
-        "refs": [
-            "sl-0156",
-            "sl-0154",
-            "sl-0147",
-            "sl-0129",
-            "sl-0112",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0157",
+      "ts": "2026-08-02T21:55:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE INTERACTABILITY SWEEP + MINIMAL FORAGING SANCTIONED (designer's word) - everything that should respond, responds: rifts, gather spots, NPCs, bank, vendors, loot bags; SEAM H (verify) + SEAM I (conditional foraging sim seam) join THE MENU PASS v2; THE GATE WORD recorded: when all this is in, the designer starts the game agent",
+      "detail": "The designer, verbatim: 'and we should make sure everything that should be interactable like rift and foragingn stuff and npcs and bank and vendor and stuff like that is interactable. also loot bags., when all this is put in we can start game agent i think'. ROUTED TWO WAYS: (1) SEAM H - THE INTERACTABILITY SWEEP (verify-only, closes the view work): walk the world and prove every interactable class responds - F INTERACT: bank keeper -> bank menu, vendors -> vendor menu, quest givers -> offer dialogue when available / TURN-IN WINS at dual-state (undialogued), every other stationed NPC -> its existing interact response (nothing dead among the 32), rifts -> INSTANT F-CAST (starhook law - verify unaffected by the menu/Esc-first changes), dropped items -> F picks back up; WALK-OVER class stays by design: loot bags -> panel (sl-0129), gold -> auto-pickup (the interact-era survivor); DISAMBIGUATION: multiple targets in one radius resolve sanely (nearest/priority [T]) with no dead zones; any future station inherits F (sl-0147 standing). (2) SEAM I - MINIMAL FORAGING, CONDITIONAL: the world data carries 24 gather spots; no foraging interaction exists in the game record - the designer's 'make sure foraging stuff is interactable' SANCTIONS the minimal build: F at a gather spot -> yield into the bag (species per spot type [T]), spot depletes + respawns [T]; THIS IS A SIM SEAM - runs AFTER the view seams under FULL re-baseline discipline (goldens, battery, rng honesty: new draws get their own stream or none [T]); the game seat SIZES it and reports scope honestly before building; if it balloons, it splits out of the pass and the sweep just reports the gap. The pass stays view-only by construction EXCEPT seam I. (3) THE GATE WORD (recorded as the designer's milestone): when the menu pass + sweep are IN, the designer starts the GAME AGENT - the pass landing is the start line.",
+      "refs": [
+        "sl-0156",
+        "sl-0154",
+        "sl-0147",
+        "sl-0129",
+        "sl-0112",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0158",
-        "ts": "2026-08-02T22:22:00Z",
-        "type": "intake",
-        "repo": "game",
-        "target": "planning",
-        "title": "THE v2 UI PACKAGE INTAKEN (game 3240c00, pushed; resolves the sl-0155 delivery into the game): vendored byte-true at assets/wildshot-ui-v2/ + passport; icon parity BYTE-IDENTICAL 470/470 (NOT re-vendored); font recorded PROD-03 self-produced; 31st fixed gate negative-tested; pretester ALL GREEN 3.2 min, zero sim change - THE MENU PASS v2 IS OPEN",
-        "detail": "The game agent opened on the designer's drop (path-read per the amended paste head) and its first acts ran the paste exactly: (1) commit 0a5edd2 ABSORBED THE FLOATING LEFTOVERS (nine repro_*.wsr re-records + the two .uid siblings bank_panel/vendor_panel - flagged four sessions running, now committed); (2) commit 3240c00 THE INTAKE: zip sha256 F20F9076..15A1 verified against the sl-0155 delivery record BEFORE extraction (the first export 6BDB0DDD.. superseded pre-intake, never vendored); vendored raw at assets/wildshot-ui-v2/ (56 files, every copy re-hashed byte-true) + passport with per-file sha256s; ICON PARITY: the zip's assets/icons/ is BYTE-IDENTICAL to the wired wildshot-icons-proto pack (470/470 ids, frame geometry, atlas.png AND atlas.json byte-equal) - NOT re-vendored per the pass routing, the game keeps consuming res://icons/, and the parity claim is re-checked LIVE by the new gate; FONT wildshot_pixel.ttf recorded PROD-03 self-produced (designer-authored per the sl-0155 drop; the confirm-at-drop flag stands in the game session report - one designer word closes it); capture state accepted as delivered (character x4 hues good; hud bare-stage + toast absent -> specs are the build truth); NEW FIXED GATE tools/validate_menu_pack.py = the 31st pretester step + CI row (passport byte pin both directions, manifest identity + 4 palettes + pinned gold anchors, 13 required spec ids, the 20 chrome pieces at planning-verified dims with binary alpha, font + license record, every png decodes, live icon parity), NEGATIVE-TESTED (corrupt byte -> 3 named findings exit 1; deleted file -> 2 named findings exit 1); pretester -SkipBattery ALL GREEN 3.2 min (zero sim change - assets/ .gdignore'd, smoke + goldens x10 prove hashes unmoved; the icon-intake precedent). PLANNING-VERIFIED local AND GitHub (origin main = 3240c00). The lock gains the game<-menu-workbench pin this same sweep. The nine seams (A chrome overlay .. I minimal foraging) now build on this pin; planning sweeps each as it lands.",
-        "refs": [
-            "sl-0155",
-            "sl-0153",
-            "sl-0154",
-            "sl-0156",
-            "sl-0157",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0158",
+      "ts": "2026-08-02T22:22:00Z",
+      "type": "intake",
+      "repo": "game",
+      "target": "planning",
+      "title": "THE v2 UI PACKAGE INTAKEN (game 3240c00, pushed; resolves the sl-0155 delivery into the game): vendored byte-true at assets/wildshot-ui-v2/ + passport; icon parity BYTE-IDENTICAL 470/470 (NOT re-vendored); font recorded PROD-03 self-produced; 31st fixed gate negative-tested; pretester ALL GREEN 3.2 min, zero sim change - THE MENU PASS v2 IS OPEN",
+      "detail": "The game agent opened on the designer's drop (path-read per the amended paste head) and its first acts ran the paste exactly: (1) commit 0a5edd2 ABSORBED THE FLOATING LEFTOVERS (nine repro_*.wsr re-records + the two .uid siblings bank_panel/vendor_panel - flagged four sessions running, now committed); (2) commit 3240c00 THE INTAKE: zip sha256 F20F9076..15A1 verified against the sl-0155 delivery record BEFORE extraction (the first export 6BDB0DDD.. superseded pre-intake, never vendored); vendored raw at assets/wildshot-ui-v2/ (56 files, every copy re-hashed byte-true) + passport with per-file sha256s; ICON PARITY: the zip's assets/icons/ is BYTE-IDENTICAL to the wired wildshot-icons-proto pack (470/470 ids, frame geometry, atlas.png AND atlas.json byte-equal) - NOT re-vendored per the pass routing, the game keeps consuming res://icons/, and the parity claim is re-checked LIVE by the new gate; FONT wildshot_pixel.ttf recorded PROD-03 self-produced (designer-authored per the sl-0155 drop; the confirm-at-drop flag stands in the game session report - one designer word closes it); capture state accepted as delivered (character x4 hues good; hud bare-stage + toast absent -> specs are the build truth); NEW FIXED GATE tools/validate_menu_pack.py = the 31st pretester step + CI row (passport byte pin both directions, manifest identity + 4 palettes + pinned gold anchors, 13 required spec ids, the 20 chrome pieces at planning-verified dims with binary alpha, font + license record, every png decodes, live icon parity), NEGATIVE-TESTED (corrupt byte -> 3 named findings exit 1; deleted file -> 2 named findings exit 1); pretester -SkipBattery ALL GREEN 3.2 min (zero sim change - assets/ .gdignore'd, smoke + goldens x10 prove hashes unmoved; the icon-intake precedent). PLANNING-VERIFIED local AND GitHub (origin main = 3240c00). The lock gains the game<-menu-workbench pin this same sweep. The nine seams (A chrome overlay .. I minimal foraging) now build on this pin; planning sweeps each as it lands.",
+      "refs": [
+        "sl-0155",
+        "sl-0153",
+        "sl-0154",
+        "sl-0156",
+        "sl-0157",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0159",
-        "ts": "2026-08-03T00:36:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0152 (and the superseded-in-flight 0143/0150/0151 shape line): THE TWO-TAB C MENU LANDED (seam B, game cf9826b)",
-        "detail": "ONE menu, TWO TABS exactly the final shape: CHARACTER (portrait + bigbars + statchips + dollslots paper-doll + THE BAG AS A SLOT GRID with 16px atlas icons - the first-touch didnt-recognize datum answered) and QUEST LOG (carried cards + givers-have-work + parchment detail with proper info + per-quest TRACKED toggle + ABANDON). C opens last-used [T]; the NEW quest_log action deep-links (L [T], remappable, no-F-row); tabs mouse-click; suppress rules held; right-click drop = confirm -> recorded op -> toast. DRAG DEFERRED honestly (a gesture never grows the recorded format; hints state only what ships). Built on the DRAWN panel2 chrome per the seam-A finding (menu_palette.gd = the one doc-13 swap point). Evidence matches the workbench captures at both scales; x2 overflow scrolls (sl-0119 law generalized). FULL GATE 15.8 min, goldens verify-unchanged.",
-        "refs": [
-            "sl-0152",
-            "sl-0143",
-            "sl-0150",
-            "sl-0151",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0159",
+      "ts": "2026-08-03T00:36:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0152 (and the superseded-in-flight 0143/0150/0151 shape line): THE TWO-TAB C MENU LANDED (seam B, game cf9826b)",
+      "detail": "ONE menu, TWO TABS exactly the final shape: CHARACTER (portrait + bigbars + statchips + dollslots paper-doll + THE BAG AS A SLOT GRID with 16px atlas icons - the first-touch didnt-recognize datum answered) and QUEST LOG (carried cards + givers-have-work + parchment detail with proper info + per-quest TRACKED toggle + ABANDON). C opens last-used [T]; the NEW quest_log action deep-links (L [T], remappable, no-F-row); tabs mouse-click; suppress rules held; right-click drop = confirm -> recorded op -> toast. DRAG DEFERRED honestly (a gesture never grows the recorded format; hints state only what ships). Built on the DRAWN panel2 chrome per the seam-A finding (menu_palette.gd = the one doc-13 swap point). Evidence matches the workbench captures at both scales; x2 overflow scrolls (sl-0119 law generalized). FULL GATE 15.8 min, goldens verify-unchanged.",
+      "refs": [
+        "sl-0152",
+        "sl-0143",
+        "sl-0150",
+        "sl-0151",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0160",
-        "ts": "2026-08-03T00:37:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0144: QUEST DIALOGUE + EXPLICIT ACCEPT LANDED (seam C, game f1757a3)",
-        "detail": "The press NEVER accepts: F = turn-in first (law held) else QUEST_OFFERED pure event -> the offer window (panel2 plaque w/ giver name [T voice], reread text, objective, reward, gold-framed Accept + Later). ACCEPT = the recorded op (the reserved 128..143 range live), sim-guarded radius/capacity/taken-done regardless of view; F-as-confirm [T]; hands-cap refusal loud pre-op; on accept the quest enters the errands tab with proper info. FULL GATE 13.6 min.",
-        "refs": [
-            "sl-0144",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0160",
+      "ts": "2026-08-03T00:37:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0144: QUEST DIALOGUE + EXPLICIT ACCEPT LANDED (seam C, game f1757a3)",
+      "detail": "The press NEVER accepts: F = turn-in first (law held) else QUEST_OFFERED pure event -> the offer window (panel2 plaque w/ giver name [T voice], reread text, objective, reward, gold-framed Accept + Later). ACCEPT = the recorded op (the reserved 128..143 range live), sim-guarded radius/capacity/taken-done regardless of view; F-as-confirm [T]; hands-cap refusal loud pre-op; on accept the quest enters the errands tab with proper info. FULL GATE 13.6 min.",
+      "refs": [
+        "sl-0144",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0161",
-        "ts": "2026-08-03T00:38:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0145: BANK-ON-INTERACT + MENU CLOSE CHROME LANDED (seam D, game 713085a)",
-        "detail": "The bank opens on F at the keeper (walk-over retired; radius/ops/caps/death-proofing untouched). EVERY opened menu carries the close button (panel2). ESC-CLOSES-MENU-FIRST landed WHOLE via driver esc_intercept: a consumed press closes the TOPMOST menu (sheet confirm, offer, C menu, stations); pause always legal on the NEXT press (CORE-31 untouched); O runs the same close-first law; nothing open = the one pause menu. The seam-C one-seam quirk (Esc pausing over an open offer) closed here exactly as recorded.",
-        "refs": [
-            "sl-0145",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0161",
+      "ts": "2026-08-03T00:38:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0145: BANK-ON-INTERACT + MENU CLOSE CHROME LANDED (seam D, game 713085a)",
+      "detail": "The bank opens on F at the keeper (walk-over retired; radius/ops/caps/death-proofing untouched). EVERY opened menu carries the close button (panel2). ESC-CLOSES-MENU-FIRST landed WHOLE via driver esc_intercept: a consumed press closes the TOPMOST menu (sheet confirm, offer, C menu, stations); pause always legal on the NEXT press (CORE-31 untouched); O runs the same close-first law; nothing open = the one pause menu. The seam-C one-seam quirk (Esc pausing over an open offer) closed here exactly as recorded.",
+      "refs": [
+        "sl-0145",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0162",
-        "ts": "2026-08-03T00:39:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0147: THE INTERACT RULE GENERAL + THE THEME-SWAP BINDING HELD (seams A/D/H)",
-        "detail": "Every STATION opens on F INTERACT, never walk-over - bank AND vendor rebuilt on the v2 specs (vault two-grid + death-never-touches footer; trader shelves + price chips); LOOT BAGS STAY WALK-OVER by the designer's own sl-0129 word (panel restyled to loot_v2 w/ gold-framed B loot-all); future stations inherit (verified in the seam-H audit). THE THEME-SWAPPABLE BINDING: the v2 look = drawn chrome from manifest tokens (menu_palette.gd = the ONE swap point) - the designer's future external re-skin is a token/capture swap, stronger than the texture model (the seam-A byte-identity finding).",
-        "refs": [
-            "sl-0147",
-            "sl-0129",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0162",
+      "ts": "2026-08-03T00:39:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0147: THE INTERACT RULE GENERAL + THE THEME-SWAP BINDING HELD (seams A/D/H)",
+      "detail": "Every STATION opens on F INTERACT, never walk-over - bank AND vendor rebuilt on the v2 specs (vault two-grid + death-never-touches footer; trader shelves + price chips); LOOT BAGS STAY WALK-OVER by the designer's own sl-0129 word (panel restyled to loot_v2 w/ gold-framed B loot-all); future stations inherit (verified in the seam-H audit). THE THEME-SWAPPABLE BINDING: the v2 look = drawn chrome from manifest tokens (menu_palette.gd = the ONE swap point) - the designer's future external re-skin is a token/capture swap, stronger than the texture model (the seam-A byte-identity finding).",
+      "refs": [
+        "sl-0147",
+        "sl-0129",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0163",
-        "ts": "2026-08-03T00:40:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0149: HP+MANA BARS LEFT LANDED (seam E, game 1a74a01) - the tracker STAYS RIGHT by the session's call [T], one designer word flips",
-        "detail": "Vitals LEFT (4,4 inset [T], Law 6 + ui-scale inset discipline, autofire beside); the right corner = the world-info cluster (weapon row, corner minimap, errand tracker beneath). The routed tracker re-anchor [T] exercised as STAYS-RIGHT; follows-left was the alternative - the designer's play word flips it in one line if wanted. Giver icons / map markers / loot readout untouched. ui_family probe re-baselined (the batched one-re-record promise from seam B honored).",
-        "refs": [
-            "sl-0149",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0163",
+      "ts": "2026-08-03T00:40:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0149: HP+MANA BARS LEFT LANDED (seam E, game 1a74a01) - the tracker STAYS RIGHT by the session's call [T], one designer word flips",
+      "detail": "Vitals LEFT (4,4 inset [T], Law 6 + ui-scale inset discipline, autofire beside); the right corner = the world-info cluster (weapon row, corner minimap, errand tracker beneath). The routed tracker re-anchor [T] exercised as STAYS-RIGHT; follows-left was the alternative - the designer's play word flips it in one line if wanted. Giver icons / map markers / loot readout untouched. ui_family probe re-baselined (the batched one-re-record promise from seam B honored).",
+      "refs": [
+        "sl-0149",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0164",
-        "ts": "2026-08-03T00:41:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0153: THE SPEC-DRIVEN REPLAN EXECUTED WHOLE - THE MENU PASS v2 LANDED (eight seams, game 3240c00..3838f60, every gate green)",
-        "detail": "The pass built FROM menu-specs.json on the intaken package (delivery sl-0155, intake sl-0158): A the chrome no-op finding -> B the two-tab menu -> C the offer -> D stations + Esc-first -> E bars left -> F options carry-all (the spec's ability row = the LIVE M4 hot-swap; toast chip built from spec) -> G the unique reveal -> H the world audit. The pass NEVER STALLED: seam I split out by its own size-first construction (sl-0167). The game handoff truthed for the menu-pass era at its close (99ece6b + 9891e7e, hours bracket closed). The doc-03 staged law amendments FIRED at the landing (C = the two-tab menu, L = deep-link, stations F-always, O/Esc menu-first).",
-        "refs": [
-            "sl-0153",
-            "sl-0155",
-            "sl-0158",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0164",
+      "ts": "2026-08-03T00:41:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0153: THE SPEC-DRIVEN REPLAN EXECUTED WHOLE - THE MENU PASS v2 LANDED (eight seams, game 3240c00..3838f60, every gate green)",
+      "detail": "The pass built FROM menu-specs.json on the intaken package (delivery sl-0155, intake sl-0158): A the chrome no-op finding -> B the two-tab menu -> C the offer -> D stations + Esc-first -> E bars left -> F options carry-all (the spec's ability row = the LIVE M4 hot-swap; toast chip built from spec) -> G the unique reveal -> H the world audit. The pass NEVER STALLED: seam I split out by its own size-first construction (sl-0167). The game handoff truthed for the menu-pass era at its close (99ece6b + 9891e7e, hours bracket closed). The doc-03 staged law amendments FIRED at the landing (C = the two-tab menu, L = deep-link, stations F-always, O/Esc menu-first).",
+      "refs": [
+        "sl-0153",
+        "sl-0155",
+        "sl-0158",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0165",
-        "ts": "2026-08-03T00:42:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0154: ABANDON + THE OFFER'S LATER-ONLY LANDED (seams B+C)",
-        "detail": "ABANDON = recorded op (112..127): taken+unfinished -> back to its giver, progress ZEROED, event emitted; done/untaken refuse; leaves the log, clears the tracker. THE LOOP TEST-PROVEN END-TO-END: abandoned errands re-offer through the normal dialogue and re-accept FRESH. The offer's non-accept = ONE Later button (closes, the errand stays; Esc/walk-away identical); the spec's Decline deliberately NOT built per the designer's word. Zero format growth (WSR v3, InputFrame 17 B).",
-        "refs": [
-            "sl-0154",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0165",
+      "ts": "2026-08-03T00:42:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0154: ABANDON + THE OFFER'S LATER-ONLY LANDED (seams B+C)",
+      "detail": "ABANDON = recorded op (112..127): taken+unfinished -> back to its giver, progress ZEROED, event emitted; done/untaken refuse; leaves the log, clears the tracker. THE LOOP TEST-PROVEN END-TO-END: abandoned errands re-offer through the normal dialogue and re-accept FRESH. The offer's non-accept = ONE Later button (closes, the errand stays; Esc/walk-away identical); the spec's Decline deliberately NOT built per the designer's word. Zero format growth (WSR v3, InputFrame 17 B).",
+      "refs": [
+        "sl-0154",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0166",
-        "ts": "2026-08-03T00:43:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVED sl-0156: THE UNIQUE REVEAL LANDED (seam G, game 2b70588) - ~3.8s by asset honesty; the no-strobe rail MECHANIZED; the dragon stage = refinement-round material",
-        "detail": "Trigger exactly the rule: UNIQUE rarity + PICKED UP + boss-sourced STRUCTURALLY (unique tables ride phased-boss defs only, PINNED in green_roster_test - a future non-boss source goes red first). The play: wolf pack rings the dimmed screen (real assembler wolf:gray frames = the look target), ONE golden wash stands in for the flamebreath (NO dragon sheet exists - honestly staged, not faked; the full dragon reel is a refinement round when a sheet exists, possibly from the held hellish spares - the designer's call), then the UNIQUE word-mark + parchment ribbon. NO-STROBE MECHANIZED: the luminance path probe-verified (3 direction flips across 38 samples PASS, >3 FAILS). The sim pauses SILENTLY for the play (pause_locked, the menu never opens over it); ANY INPUT SKIPS. CORE-19 note carried; the designer owns the taste.",
-        "refs": [
-            "sl-0156",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0166",
+      "ts": "2026-08-03T00:43:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVED sl-0156: THE UNIQUE REVEAL LANDED (seam G, game 2b70588) - ~3.8s by asset honesty; the no-strobe rail MECHANIZED; the dragon stage = refinement-round material",
+      "detail": "Trigger exactly the rule: UNIQUE rarity + PICKED UP + boss-sourced STRUCTURALLY (unique tables ride phased-boss defs only, PINNED in green_roster_test - a future non-boss source goes red first). The play: wolf pack rings the dimmed screen (real assembler wolf:gray frames = the look target), ONE golden wash stands in for the flamebreath (NO dragon sheet exists - honestly staged, not faked; the full dragon reel is a refinement round when a sheet exists, possibly from the held hellish spares - the designer's call), then the UNIQUE word-mark + parchment ribbon. NO-STROBE MECHANIZED: the luminance path probe-verified (3 direction flips across 38 samples PASS, >3 FAILS). The sim pauses SILENTLY for the play (pause_locked, the menu never opens over it); ANY INPUT SKIPS. CORE-19 note carried; the designer owns the taste.",
+      "refs": [
+        "sl-0156",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0167",
-        "ts": "2026-08-03T00:44:00Z",
-        "type": "resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "RESOLVING sl-0157 IN PART: THE INTERACTABILITY SWEEP DONE (seam H, game 73aaced); THE FORAGING HALF STAYS OPEN on three designer questions (seam I split out, game 3838f60)",
-        "detail": "THE SWEEP: every class verified with mechanized proof pointers (game notes/INTERACT_SWEEP.md) - F: bank/vendors(nearest-wins)/givers(turn-in-wins)/rifts INSTANT CAST untouched by the Esc changes/drops; walk-over by design: loot bags/gold/doors; disambiguation MEASURED (cross-class pairs disjoint min 3.00 vs 2.4; merchant-trader same-class resolves nearest sim-side). THREE FINDINGS: crowd NPCs = CORE-35 pure view by design (villager one-liners future [T]) AND THE CAPITAL GIVER HAS NO BODY (designer word owed - content fix or hold); station+drop both-layers single-press = rare-geometry watch item [T]; foraging = stillness-v1 confirmed. THE FORAGING HALF: the size-first check SPLIT IT OUT for design authority (game notes/FORAGE_SEAM_SIZING.md) - planning's premise corrected (foraging EXISTS: sl-0105 90-tick stillness at ~1.9k cells w/ anti-AFK rule; the 24 spots = 12 water-fishing markers PARKED with sl-0111 + 12 forage POIs); the routed build would flip three sl-0105 designer-ruled models (verb stillness->F, yield gold->bag items, pacing anti-AFK->depletion/respawn) + SERIAL 26 + full re-baseline. THE THREE QUESTIONS (one word each routes the build): (1) F replace the stand-still cast at forage spots, or both? (2) items in the bag instead of/beside the gold+xp? (3) the 12 marked spots = rich deplete-and-respawn spots on top of/instead of the everywhere-forage? The ask stays OPEN on this half.",
-        "refs": [
-            "sl-0157",
-            "sl-0105",
-            "sl-0111",
-            "notes/sessions/2026-08-02-slice-s1.md"
-        ],
-        "by": "agent"
+      "id": "sl-0167",
+      "ts": "2026-08-03T00:44:00Z",
+      "type": "resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "RESOLVING sl-0157 IN PART: THE INTERACTABILITY SWEEP DONE (seam H, game 73aaced); THE FORAGING HALF STAYS OPEN on three designer questions (seam I split out, game 3838f60)",
+      "detail": "THE SWEEP: every class verified with mechanized proof pointers (game notes/INTERACT_SWEEP.md) - F: bank/vendors(nearest-wins)/givers(turn-in-wins)/rifts INSTANT CAST untouched by the Esc changes/drops; walk-over by design: loot bags/gold/doors; disambiguation MEASURED (cross-class pairs disjoint min 3.00 vs 2.4; merchant-trader same-class resolves nearest sim-side). THREE FINDINGS: crowd NPCs = CORE-35 pure view by design (villager one-liners future [T]) AND THE CAPITAL GIVER HAS NO BODY (designer word owed - content fix or hold); station+drop both-layers single-press = rare-geometry watch item [T]; foraging = stillness-v1 confirmed. THE FORAGING HALF: the size-first check SPLIT IT OUT for design authority (game notes/FORAGE_SEAM_SIZING.md) - planning's premise corrected (foraging EXISTS: sl-0105 90-tick stillness at ~1.9k cells w/ anti-AFK rule; the 24 spots = 12 water-fishing markers PARKED with sl-0111 + 12 forage POIs); the routed build would flip three sl-0105 designer-ruled models (verb stillness->F, yield gold->bag items, pacing anti-AFK->depletion/respawn) + SERIAL 26 + full re-baseline. THE THREE QUESTIONS (one word each routes the build): (1) F replace the stand-still cast at forage spots, or both? (2) items in the bag instead of/beside the gold+xp? (3) the 12 marked spots = rich deplete-and-respawn spots on top of/instead of the everywhere-forage? The ask stays OPEN on this half.",
+      "refs": [
+        "sl-0157",
+        "sl-0105",
+        "sl-0111",
+        "notes/sessions/2026-08-02-slice-s1.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0168",
-        "ts": "2026-08-03T06:47:00Z",
-        "type": "resolved",
-        "repo": "planning",
-        "target": "game",
-        "title": "RESOLVING sl-0157's FORAGING HALF: ALL THREE QUESTIONS ANSWERED (designer, at-work chat, Tier 1) - F-press gather bar -> loot bag; materials = per-species profile currency (cosmetics trade-in later); nodes spawn ambiently like starhook rifts",
-        "detail": "The designer's words, one per routed question: (1) VERB - 'pressing F should activate a small gathering bar like 1 sec or 0.5 sec and then a loot bag drops from the forage node' + 'interrupt when u move or get attacked' - the sl-0129 loot-bag machinery reused; stillness + anti-AFK retire from foraging. (2) YIELD - 'it should kind of work like starhooking where you can trade in different foraging materials for cosmetics. might work on it later' - materials keyed by species, persisted per-species in the profile on the starhook_fish{} species-currency doctrine; the cosmetic trade-in sink is a FUTURE round, counts store from day one. (3) SPOTS - neither routed option; the designer's own shape: 'we will have to create a system that spawns them randomly around the world much like starhooking rifts, 1900 is too many' - the ambient-rift machinery's second consumer (interval/chance/cap [T], rng_misc, consumed on gather). Session lean [P] for the build: candidate pool = the ~1.9k forage prop cells so nodes sit ON real stumps/logs/bushes with a visible shimmer (WYSIWYG); the 12 forage POIs retire or fold into the pool. Bar length ~0.5-1 s [T] with every other number. SPEC COMPLETE - the seam builds at SERIAL 26 under full discipline at the next build slot. Recorded from the claude/progress-review-plan-h69wyq planning session (docs/23 queue + doc 03 board amended same commit).",
-        "refs": [
-            "sl-0157",
-            "sl-0105",
-            "sl-0129",
-            "docs/23-SLICE_BUILD_PLAN.md"
-        ],
-        "by": "agent"
+      "id": "sl-0168",
+      "ts": "2026-08-03T06:47:00Z",
+      "type": "resolved",
+      "repo": "planning",
+      "target": "game",
+      "title": "RESOLVING sl-0157's FORAGING HALF: ALL THREE QUESTIONS ANSWERED (designer, at-work chat, Tier 1) - F-press gather bar -> loot bag; materials = per-species profile currency (cosmetics trade-in later); nodes spawn ambiently like starhook rifts",
+      "detail": "The designer's words, one per routed question: (1) VERB - 'pressing F should activate a small gathering bar like 1 sec or 0.5 sec and then a loot bag drops from the forage node' + 'interrupt when u move or get attacked' - the sl-0129 loot-bag machinery reused; stillness + anti-AFK retire from foraging. (2) YIELD - 'it should kind of work like starhooking where you can trade in different foraging materials for cosmetics. might work on it later' - materials keyed by species, persisted per-species in the profile on the starhook_fish{} species-currency doctrine; the cosmetic trade-in sink is a FUTURE round, counts store from day one. (3) SPOTS - neither routed option; the designer's own shape: 'we will have to create a system that spawns them randomly around the world much like starhooking rifts, 1900 is too many' - the ambient-rift machinery's second consumer (interval/chance/cap [T], rng_misc, consumed on gather). Session lean [P] for the build: candidate pool = the ~1.9k forage prop cells so nodes sit ON real stumps/logs/bushes with a visible shimmer (WYSIWYG); the 12 forage POIs retire or fold into the pool. Bar length ~0.5-1 s [T] with every other number. SPEC COMPLETE - the seam builds at SERIAL 26 under full discipline at the next build slot. Recorded from the claude/progress-review-plan-h69wyq planning session (docs/23 queue + doc 03 board amended same commit).",
+      "refs": [
+        "sl-0157",
+        "sl-0105",
+        "sl-0129",
+        "docs/23-SLICE_BUILD_PLAN.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0169",
-        "ts": "2026-08-03T07:20:00Z",
-        "type": "ruling",
-        "repo": "planning",
-        "target": "game",
-        "title": "CLASS TREES v1 PARTIALLY RULED (designer, at-work chat, Tier 1): stat trades + behavior riders ONLY - trees NEVER touch patterns (pattern deviation IS the uniques' job); 3 picks at 5/15/25; RESPECCABLE; sword L5 pair ruled; the rest parked pending designer testing",
-        "detail": "THE PATTERN LAW is the session's defining correction - the designer, verbatim: 'the main job of unique weapons is weapon patterns... in a way that deviates from the projectile patterns of the tiered weapon of same type... THATS the job of uniques and we don't wanna modify how they already deviate from the norm.' An earlier pattern-shaping lean was superseded in-flight and never recorded anywhere (verified against the committed record before this entry). SKELETON: three pick-1-of-2 choice points at levels 5/15/25 ('reasonable without being excessive'). RESPECCABLE ('this is gonna be a long game so we don't want to lock in potential mistakes') - session lean [P]: rides the vendor/station infrastructure, gold price, full reset together, numbers [T]. SWORD L5 RULED: Ironside (+armor +max hp / -move speed) vs Skirmisher (+move speed / -max hp) - numbers [T], block-9 validator prices at build. PARKED on the designer's own word ('I wanna do some more testing before doing these questions'): sword 15/25 drafts, staff/bow rows, the build itself. docs/23 carries the ruled shape as its own section.",
-        "refs": [
-            "docs/23-SLICE_BUILD_PLAN.md",
-            "docs/22-STAT_SYSTEM.md"
-        ],
-        "by": "agent"
+      "id": "sl-0169",
+      "ts": "2026-08-03T07:20:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "CLASS TREES v1 PARTIALLY RULED (designer, at-work chat, Tier 1): stat trades + behavior riders ONLY - trees NEVER touch patterns (pattern deviation IS the uniques' job); 3 picks at 5/15/25; RESPECCABLE; sword L5 pair ruled; the rest parked pending designer testing",
+      "detail": "THE PATTERN LAW is the session's defining correction - the designer, verbatim: 'the main job of unique weapons is weapon patterns... in a way that deviates from the projectile patterns of the tiered weapon of same type... THATS the job of uniques and we don't wanna modify how they already deviate from the norm.' An earlier pattern-shaping lean was superseded in-flight and never recorded anywhere (verified against the committed record before this entry). SKELETON: three pick-1-of-2 choice points at levels 5/15/25 ('reasonable without being excessive'). RESPECCABLE ('this is gonna be a long game so we don't want to lock in potential mistakes') - session lean [P]: rides the vendor/station infrastructure, gold price, full reset together, numbers [T]. SWORD L5 RULED: Ironside (+armor +max hp / -move speed) vs Skirmisher (+move speed / -max hp) - numbers [T], block-9 validator prices at build. PARKED on the designer's own word ('I wanna do some more testing before doing these questions'): sword 15/25 drafts, staff/bow rows, the build itself. docs/23 carries the ruled shape as its own section.",
+      "refs": [
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "docs/22-STAT_SYSTEM.md"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0170",
-        "ts": "2026-08-03T07:24:00Z",
-        "type": "ruling",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE STARHOOK EXPANSION CHARTER (designer, at-work chat, Tier 1): playful-space law; rifter gear rod+chest+helm (modular armor ALREADY IN THE DESIGNER'S HANDS); fish-priced vendor + rare drops; NO depth - the overworld is the geography; visible rift types w/ encounter/dungeon pools; rifts RARE",
-        "detail": "Seven rulings in one arc, recorded in docs/23 as THE STARHOOK EXPANSION CHARTER. Intent re-anchored: NOT an economy system, never a money sink - a bullet-hell minigame with its own character; THE BAIT IS THE FIGHTER. (1) PLAYFUL SPACE: rifts may break main-game STYLE laws (patterns/density/spectacle); the FAIRNESS FLOOR never relaxes (explainable, deterministic, dodgeable, no-strobe); rift = pattern R&D, graduates may enter main-game boss work. (2) GEAR: 3 slots rod+chest+helm, MODULAR armor on the code-drawn fighter - the designer has already started building it their side; prototype handoff expected (starhook-proto2 INDEX precedent). (3) ACQUISITION BOTH: tackle vendor sells the tiered ladder priced in FISH (species-currency = the money, loop self-contained); rare catches drop specials; unique rods = future chase under the uniques law. (4) NO DEPTH ('this is not fishing') - rift danger rides the zone it opens over; the overworld is the progression geography, soft-gated by danger, no level locks. (5) RIFT TYPES with content pools (encounter or dungeon per type's pool, rng_loot in-sim; sketch [P]: catch/shoal/dungeon/strange kinds - dungeon rifts = the Warren machinery in galaxy skin). (6) TYPES VISIBLE at the tear - informed risk; surprise lives inside the pool. (7) RIFTS RARE - a sighting is an event ('oooooo rift'), never furniture; cadence [T]. OPEN threads: zone species rosters, per-species pattern identities, legendary naming (the designer's naming act), tackle vendor home. The built S1 starhook stands as-is; the charter directs future rounds only.",
-        "refs": [
-            "docs/23-SLICE_BUILD_PLAN.md",
-            "sl-0115",
-            "sl-0123",
-            "sl-0125"
-        ],
-        "by": "agent"
+      "id": "sl-0170",
+      "ts": "2026-08-03T07:24:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE STARHOOK EXPANSION CHARTER (designer, at-work chat, Tier 1): playful-space law; rifter gear rod+chest+helm (modular armor ALREADY IN THE DESIGNER'S HANDS); fish-priced vendor + rare drops; NO depth - the overworld is the geography; visible rift types w/ encounter/dungeon pools; rifts RARE",
+      "detail": "Seven rulings in one arc, recorded in docs/23 as THE STARHOOK EXPANSION CHARTER. Intent re-anchored: NOT an economy system, never a money sink - a bullet-hell minigame with its own character; THE BAIT IS THE FIGHTER. (1) PLAYFUL SPACE: rifts may break main-game STYLE laws (patterns/density/spectacle); the FAIRNESS FLOOR never relaxes (explainable, deterministic, dodgeable, no-strobe); rift = pattern R&D, graduates may enter main-game boss work. (2) GEAR: 3 slots rod+chest+helm, MODULAR armor on the code-drawn fighter - the designer has already started building it their side; prototype handoff expected (starhook-proto2 INDEX precedent). (3) ACQUISITION BOTH: tackle vendor sells the tiered ladder priced in FISH (species-currency = the money, loop self-contained); rare catches drop specials; unique rods = future chase under the uniques law. (4) NO DEPTH ('this is not fishing') - rift danger rides the zone it opens over; the overworld is the progression geography, soft-gated by danger, no level locks. (5) RIFT TYPES with content pools (encounter or dungeon per type's pool, rng_loot in-sim; sketch [P]: catch/shoal/dungeon/strange kinds - dungeon rifts = the Warren machinery in galaxy skin). (6) TYPES VISIBLE at the tear - informed risk; surprise lives inside the pool. (7) RIFTS RARE - a sighting is an event ('oooooo rift'), never furniture; cadence [T]. OPEN threads: zone species rosters, per-species pattern identities, legendary naming (the designer's naming act), tackle vendor home. The built S1 starhook stands as-is; the charter directs future rounds only.",
+      "refs": [
+        "docs/23-SLICE_BUILD_PLAN.md",
+        "sl-0115",
+        "sl-0123",
+        "sl-0125"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0171",
-        "ts": "2026-08-03T14:35:00Z",
-        "type": "incident",
-        "repo": "planning",
-        "target": "planning",
-        "title": "STALE-LINEAGE BRANCH SURFACED + MISDIAGNOSED, THEN RESOLVED: claude/operator-protocols-guidelines-ruyu4q = a 2026-07-30 snapshot of the PRE-REBOOTSTRAP full history (184 commits, root = the 2026-07-26 bootstrap), pushed up at an old session's close - ZERO unique files vs the mainline; the designer's PC checkout confirmed HEALTHY on the mainline",
-        "detail": "FACTS, verified: the mainline (claude/questionnaire-note-taking-9vl2sl) roots at a FRESH 2026-08-02 ~15:43 re-bootstrap (53 commits; the pre-Aug-2 git history is not on it - the docs carry the record). The surfaced branch carries the ORIGINAL 184-commit lineage through 2026-07-30 20:55 (tip = the PC-seam handoff commit) and is git-disjoint from the mainline (no common ancestor - NEVER git-merge it; a blind merge would regress ~64 newer mainline files). File-level audit: zero files unique to the branch; the mainline strictly supersedes (even the operator-guide files continued evolving mainline-side). THE MISDIAGNOSIS, on the record honestly: the session first read the branch as 'the designer's PC being 4 days stale' and advised a hard reset of the PC checkout - WRONG and RETRACTED before any harm (the designer never ran it); the PC checkout was then verified directly (git remote -v + log pasted): origin = this repo, HEAD = the mainline at 3498a9c - healthy, one ordinary git pull behind. LESSON (the gotcha shape): verify the actual remote + HEAD of a machine's checkout BEFORE theorizing about lineage; a disjoint branch push at session-close is a SNAPSHOT surfacing, not evidence any working copy is stale. DISPOSITION: the branch preserves the only on-GitHub copy of the pre-Aug-2 history - archive it as a tag (archive/claude/operator-protocols-guidelines-ruyu4q) then delete the branch pointer; the tag push is designer-hands (the session proxy 403s non-branch refs). Today's rulings (sl-0168/0169/0170) merged to the mainline at 94f704e; the designer pulls and is current.",
-        "refs": [
-            "sl-0168",
-            "sl-0169",
-            "sl-0170"
-        ],
-        "by": "agent"
+      "id": "sl-0171",
+      "ts": "2026-08-03T14:35:00Z",
+      "type": "incident",
+      "repo": "planning",
+      "target": "planning",
+      "title": "STALE-LINEAGE BRANCH SURFACED + MISDIAGNOSED, THEN RESOLVED: claude/operator-protocols-guidelines-ruyu4q = a 2026-07-30 snapshot of the PRE-REBOOTSTRAP full history (184 commits, root = the 2026-07-26 bootstrap), pushed up at an old session's close - ZERO unique files vs the mainline; the designer's PC checkout confirmed HEALTHY on the mainline",
+      "detail": "FACTS, verified: the mainline (claude/questionnaire-note-taking-9vl2sl) roots at a FRESH 2026-08-02 ~15:43 re-bootstrap (53 commits; the pre-Aug-2 git history is not on it - the docs carry the record). The surfaced branch carries the ORIGINAL 184-commit lineage through 2026-07-30 20:55 (tip = the PC-seam handoff commit) and is git-disjoint from the mainline (no common ancestor - NEVER git-merge it; a blind merge would regress ~64 newer mainline files). File-level audit: zero files unique to the branch; the mainline strictly supersedes (even the operator-guide files continued evolving mainline-side). THE MISDIAGNOSIS, on the record honestly: the session first read the branch as 'the designer's PC being 4 days stale' and advised a hard reset of the PC checkout - WRONG and RETRACTED before any harm (the designer never ran it); the PC checkout was then verified directly (git remote -v + log pasted): origin = this repo, HEAD = the mainline at 3498a9c - healthy, one ordinary git pull behind. LESSON (the gotcha shape): verify the actual remote + HEAD of a machine's checkout BEFORE theorizing about lineage; a disjoint branch push at session-close is a SNAPSHOT surfacing, not evidence any working copy is stale. DISPOSITION: the branch preserves the only on-GitHub copy of the pre-Aug-2 history - archive it as a tag (archive/claude/operator-protocols-guidelines-ruyu4q) then delete the branch pointer; the tag push is designer-hands (the session proxy 403s non-branch refs). Today's rulings (sl-0168/0169/0170) merged to the mainline at 94f704e; the designer pulls and is current.",
+      "refs": [
+        "sl-0168",
+        "sl-0169",
+        "sl-0170"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0172",
-        "ts": "2026-08-03T15:14:00Z",
-        "type": "note",
-        "repo": "planning",
-        "target": "planning",
-        "title": "CORRECTION to sl-0171's lineage facts (PC seat, measured vs live ls-remote): the mainline was NEVER re-bootstrapped - 413 commits rooted at the ORIGINAL 2026-07-26 bootstrap (4560d9c); claude/operator-protocols-guidelines-ruyu4q (efcc7ec, the 2026-07-30 PC-seam handoff, 184 commits) is a plain ANCESTOR 229 behind with ZERO unique commits - NOT disjoint; never-merge MOOT, archive-tag preserves nothing",
-        "detail": "FACTS re-measured on the designer's PC against origin (git ls-remote + full local history): merge-base(efcc7ec, mainline) = efcc7ec ITSELF (a textbook ancestor); rev-list --count efcc7ec = 184 (matches sl-0171's branch-side reading); rev-list --count mainline@7616d47 = 413, root = 4560d9c 'Bootstrap design docs repo at CORE-32 snapshot' authored 2026-07-26 15:56Z - the full pre-Aug-2 history lives ON the mainline. sl-0171's contrary claims (mainline = fresh 2026-08-02 ~15:43 re-bootstrap, 53 commits, no common ancestor, a merge would regress ~64 files) were artifacts of the phone sandbox's SHALLOW CLONE - a grafted false root at the fetch horizon makes healthy history look disjoint. The designer, on the phone agent (verbatim): 'it was extremelyt confused about our repos and it did wrong first'. WHAT STANDS from sl-0171: the PC-checkout health verification, the retracted hard-reset advice on the record, and the lesson - which THIS correction applies (verify remote+HEAD before lineage theories; addendum: from a FULL clone). The phone confusion was GIT-LEVEL ONLY - nothing wrong was ever merged; the three ruling commits' content (sl-0168/0169/0170) is sound and correctly on the mainline. DISPOSITION REVISED: operator-protocols-guidelines-ruyu4q AND today's claude/progress-review-plan-h69wyq (sits AT the tip 7616d47, zero unique - today's phone session pointer) are both ordinary designer-clicked branch deletions, whenever wanted; NO archive tag needed (nothing exists only on either; the four existing archive/* tags cover older branches). Same sweep: the at-work arc verified merged; PC pulled 3498a9c->7616d47; game repo clean+synced af92b90 both ends, single branch; doc 03 truthed (header, first-moves, owed list, truth-up block).",
-        "refs": [
-            "sl-0171"
-        ],
-        "by": "agent"
+      "id": "sl-0172",
+      "ts": "2026-08-03T15:14:00Z",
+      "type": "note",
+      "repo": "planning",
+      "target": "planning",
+      "title": "CORRECTION to sl-0171's lineage facts (PC seat, measured vs live ls-remote): the mainline was NEVER re-bootstrapped - 413 commits rooted at the ORIGINAL 2026-07-26 bootstrap (4560d9c); claude/operator-protocols-guidelines-ruyu4q (efcc7ec, the 2026-07-30 PC-seam handoff, 184 commits) is a plain ANCESTOR 229 behind with ZERO unique commits - NOT disjoint; never-merge MOOT, archive-tag preserves nothing",
+      "detail": "FACTS re-measured on the designer's PC against origin (git ls-remote + full local history): merge-base(efcc7ec, mainline) = efcc7ec ITSELF (a textbook ancestor); rev-list --count efcc7ec = 184 (matches sl-0171's branch-side reading); rev-list --count mainline@7616d47 = 413, root = 4560d9c 'Bootstrap design docs repo at CORE-32 snapshot' authored 2026-07-26 15:56Z - the full pre-Aug-2 history lives ON the mainline. sl-0171's contrary claims (mainline = fresh 2026-08-02 ~15:43 re-bootstrap, 53 commits, no common ancestor, a merge would regress ~64 files) were artifacts of the phone sandbox's SHALLOW CLONE - a grafted false root at the fetch horizon makes healthy history look disjoint. The designer, on the phone agent (verbatim): 'it was extremelyt confused about our repos and it did wrong first'. WHAT STANDS from sl-0171: the PC-checkout health verification, the retracted hard-reset advice on the record, and the lesson - which THIS correction applies (verify remote+HEAD before lineage theories; addendum: from a FULL clone). The phone confusion was GIT-LEVEL ONLY - nothing wrong was ever merged; the three ruling commits' content (sl-0168/0169/0170) is sound and correctly on the mainline. DISPOSITION REVISED: operator-protocols-guidelines-ruyu4q AND today's claude/progress-review-plan-h69wyq (sits AT the tip 7616d47, zero unique - today's phone session pointer) are both ordinary designer-clicked branch deletions, whenever wanted; NO archive tag needed (nothing exists only on either; the four existing archive/* tags cover older branches). Same sweep: the at-work arc verified merged; PC pulled 3498a9c->7616d47; game repo clean+synced af92b90 both ends, single branch; doc 03 truthed (header, first-moves, owed list, truth-up block).",
+      "refs": [
+        "sl-0171"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0173",
-        "ts": "2026-08-03T15:26:00Z",
-        "type": "ruling",
-        "repo": "planning",
-        "target": "planning",
-        "title": "STRAY BRANCHES PARKED BY THE DESIGNER'S WORD: no deletions until proper branch-handling protocols exist - 'lets let them sit there until we make proper protocols on this' (verbatim); amends sl-0172's delete-ready disposition; the protocol = a doc 18 edit-pass candidate",
-        "detail": "Both strays stay standing on origin by the designer's word: claude/operator-protocols-guidelines-ruyu4q (efcc7ec, 229 behind) and claude/progress-review-plan-h69wyq (at-tip 7616d47 at parking time). Zero risk in sitting - both are fully contained in the mainline (sl-0172's verified facts); the only cost is branch-list clutter. PROTOCOL SCOPE CANDIDATES for the doc 18 edit-pass (planning drafts, the designer accepts - talk-before-build applies): the claude/* session-branch lifecycle (phone/web seats create one per session; when a branch is redundant vs carries unique work), the disposition ladder (merge-if-forked-from-tip / park / archive-tag / delete, and who clicks what), and the verification discipline sl-0171/0172 proved (full clone + live ls-remote before ANY lineage claim - never trust a shallow sandbox's root). Until that protocol lands: the standing janitor convention holds for everything else (archive-tag before surgery; deletions/force-pushes designer-clicked), and these two strays are PARKED BY NAME.",
-        "refs": [
-            "sl-0171",
-            "sl-0172"
-        ],
-        "by": "agent"
+      "id": "sl-0173",
+      "ts": "2026-08-03T15:26:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "planning",
+      "title": "STRAY BRANCHES PARKED BY THE DESIGNER'S WORD: no deletions until proper branch-handling protocols exist - 'lets let them sit there until we make proper protocols on this' (verbatim); amends sl-0172's delete-ready disposition; the protocol = a doc 18 edit-pass candidate",
+      "detail": "Both strays stay standing on origin by the designer's word: claude/operator-protocols-guidelines-ruyu4q (efcc7ec, 229 behind) and claude/progress-review-plan-h69wyq (at-tip 7616d47 at parking time). Zero risk in sitting - both are fully contained in the mainline (sl-0172's verified facts); the only cost is branch-list clutter. PROTOCOL SCOPE CANDIDATES for the doc 18 edit-pass (planning drafts, the designer accepts - talk-before-build applies): the claude/* session-branch lifecycle (phone/web seats create one per session; when a branch is redundant vs carries unique work), the disposition ladder (merge-if-forked-from-tip / park / archive-tag / delete, and who clicks what), and the verification discipline sl-0171/0172 proved (full clone + live ls-remote before ANY lineage claim - never trust a shallow sandbox's root). Until that protocol lands: the standing janitor convention holds for everything else (archive-tag before surgery; deletions/force-pushes designer-clicked), and these two strays are PARKED BY NAME.",
+      "refs": [
+        "sl-0171",
+        "sl-0172"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0174",
-        "ts": "2026-08-03T15:36:00Z",
-        "type": "note",
-        "repo": "world_filler",
-        "target": "planning",
-        "title": "THE WORLD_FILLER TWO-LINEAGE DISCOVERY VERIFIED (relayed by the designer from another agent's consolidation proposal): TRUE in substance - the Director Studio (F8/F9), four .bat launchers, and the Godot importer addon live ONLY on the archived tf6bkf line (16 unique commits vs main's 48); CORRECTED - the janitor-night recorded ask WAS executed same-night (sl-0012's test-battery port); porting the Studio itself was NEVER a recorded task",
-        "detail": "Verified on the local clone vs origin (fetch fresh): main = 119 files / 48 unique commits (the newest engine work - zones, zonal danger, per-zone bosses, verdict rounds); archived claude/freeze-review-resolution-tf6bkf = 170 files / 16 unique commits carrying START-HERE.bat + STUDIO.bat + open-viewer.bat + setup.bat, consumers/godot_addon/worldfiller_importer/, committed dist/ builds (incl. src/serve server.js), DESIGN_BRIEF 1+2, F8 director UX loop (read-only viewer, reroll/unlock verbs) and F9 phases A+B (manual-intent server, Director Studio front-end). The branch survives LOCALLY in the clone; origin has only main + the archive tag (janitor sweep, sl-0011). THE CORRECTION: sl-0012 executed the only recorded port ask same-night (tests onto main, 160/160 green; serve.test deliberately NOT ported - 'porting it would port implementation'); no ask ever covered porting the Studio/launchers/addon - main was promoted as the approval line and the Studio stayed behind by the promotion's shape, not by a dropped task. STILL OPEN from sl-0012: the viewer row-crossing permissiveness ruling (archived viewer refused row-crossing territory runs; main's worldfiller-viewer.html:269 draws them permissively) - dormant designer flag, relevant to any future port. THE PROPOSAL ITSELF (one Node app: unified server + Tiles|World|Content SPA + a Pipeline view w/ staleness flags; 'Bake' actions replacing the GitHub-release ceremony w/ hash-pinning kept; five migration phases gated on byte-parity; Phase 0 = scaffold + vendor engines + CI parity net) is a PLAN, not a delivery - it gets NO entry per doc 18's law, and its doc exists only in the proposing agent's chat (verified: no repo push since assembler 2026-08-02 23:43 / game 04:22 / planning's own sweeps). ROUTING IS THE DESIGNER'S: it reverses the designer-adopted release transport (sl-0009 doc 18 adoption; sl-0013-0019 five-of-five rollout) and restructures the doc 16 seven-repo map - talk-before-build applies. Planning's recommendation on the record: the doc lands IN PLANNING for a proper assessment before any ruling; the natural customers of a revived Studio are the parked directed/furnished-world rounds (staged pre-S4).",
-        "refs": [
-            "sl-0011",
-            "sl-0012"
-        ],
-        "by": "agent"
+      "id": "sl-0174",
+      "ts": "2026-08-03T15:36:00Z",
+      "type": "note",
+      "repo": "world_filler",
+      "target": "planning",
+      "title": "THE WORLD_FILLER TWO-LINEAGE DISCOVERY VERIFIED (relayed by the designer from another agent's consolidation proposal): TRUE in substance - the Director Studio (F8/F9), four .bat launchers, and the Godot importer addon live ONLY on the archived tf6bkf line (16 unique commits vs main's 48); CORRECTED - the janitor-night recorded ask WAS executed same-night (sl-0012's test-battery port); porting the Studio itself was NEVER a recorded task",
+      "detail": "Verified on the local clone vs origin (fetch fresh): main = 119 files / 48 unique commits (the newest engine work - zones, zonal danger, per-zone bosses, verdict rounds); archived claude/freeze-review-resolution-tf6bkf = 170 files / 16 unique commits carrying START-HERE.bat + STUDIO.bat + open-viewer.bat + setup.bat, consumers/godot_addon/worldfiller_importer/, committed dist/ builds (incl. src/serve server.js), DESIGN_BRIEF 1+2, F8 director UX loop (read-only viewer, reroll/unlock verbs) and F9 phases A+B (manual-intent server, Director Studio front-end). The branch survives LOCALLY in the clone; origin has only main + the archive tag (janitor sweep, sl-0011). THE CORRECTION: sl-0012 executed the only recorded port ask same-night (tests onto main, 160/160 green; serve.test deliberately NOT ported - 'porting it would port implementation'); no ask ever covered porting the Studio/launchers/addon - main was promoted as the approval line and the Studio stayed behind by the promotion's shape, not by a dropped task. STILL OPEN from sl-0012: the viewer row-crossing permissiveness ruling (archived viewer refused row-crossing territory runs; main's worldfiller-viewer.html:269 draws them permissively) - dormant designer flag, relevant to any future port. THE PROPOSAL ITSELF (one Node app: unified server + Tiles|World|Content SPA + a Pipeline view w/ staleness flags; 'Bake' actions replacing the GitHub-release ceremony w/ hash-pinning kept; five migration phases gated on byte-parity; Phase 0 = scaffold + vendor engines + CI parity net) is a PLAN, not a delivery - it gets NO entry per doc 18's law, and its doc exists only in the proposing agent's chat (verified: no repo push since assembler 2026-08-02 23:43 / game 04:22 / planning's own sweeps). ROUTING IS THE DESIGNER'S: it reverses the designer-adopted release transport (sl-0009 doc 18 adoption; sl-0013-0019 five-of-five rollout) and restructures the doc 16 seven-repo map - talk-before-build applies. Planning's recommendation on the record: the doc lands IN PLANNING for a proper assessment before any ruling; the natural customers of a revived Studio are the parked directed/furnished-world rounds (staged pre-S4).",
+      "refs": [
+        "sl-0011",
+        "sl-0012"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0175",
-        "ts": "2026-08-03T15:57:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "MAP MARKERS MISSING ON THE MAP (designer play finding, screenshot on record with planning): the fullscreen map shows NO quest glyphs - only black squares + the player dot; the quest-pull kit's corner/full map markers (sl-0121/sl-0135) don't read in real play",
-        "detail": "The designer, verbatim: 'i dont see any map markers on map tbh'. The screenshot (fullscreen map overlay, dusk world): several BLACK SQUARES of varying sizes scattered (NW, NE, center, south, SW) + the white player dot with facing tick - no quest.available/quest.turn_in glyphs, no objective/turn-in markers anywhere. Planning's observation FOR THE PROBE, not a diagnosis: the black squares could be placements baked into the pack's own minimap.png OR markers rendering without their art - the game probe should first name WHICH surface this is (the sl-0069 fullscreen dev overlay vs the corner minimap vs both) and where the sl-0135 markers actually draw, with a capture at a giver. Expected end state: available/turn-in givers + tracked-quest objectives read on BOTH map surfaces. View-only fix expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
-        "refs": [
-            "sl-0121",
-            "sl-0135"
-        ],
-        "by": "agent"
+      "id": "sl-0175",
+      "ts": "2026-08-03T15:57:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "MAP MARKERS MISSING ON THE MAP (designer play finding, screenshot on record with planning): the fullscreen map shows NO quest glyphs - only black squares + the player dot; the quest-pull kit's corner/full map markers (sl-0121/sl-0135) don't read in real play",
+      "detail": "The designer, verbatim: 'i dont see any map markers on map tbh'. The screenshot (fullscreen map overlay, dusk world): several BLACK SQUARES of varying sizes scattered (NW, NE, center, south, SW) + the white player dot with facing tick - no quest.available/quest.turn_in glyphs, no objective/turn-in markers anywhere. Planning's observation FOR THE PROBE, not a diagnosis: the black squares could be placements baked into the pack's own minimap.png OR markers rendering without their art - the game probe should first name WHICH surface this is (the sl-0069 fullscreen dev overlay vs the corner minimap vs both) and where the sl-0135 markers actually draw, with a capture at a giver. Expected end state: available/turn-in givers + tracked-quest objectives read on BOTH map surfaces. View-only fix expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
+      "refs": [
+        "sl-0121",
+        "sl-0135"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0176",
-        "ts": "2026-08-03T15:57:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "GIVER QUEST ICON RENDERS UNDER THE NPC (designer play finding): the overhead quest glyph draws BELOW/UNDER the giver sprite instead of overhead - z-order or anchor defect in the sl-0121/sl-0135 kit",
-        "detail": "The designer, verbatim: 'also i think quest icon is bugged and actualy shows up under the npc atm'. Expected per sl-0135: overhead giver icons, two states (quest.available / quest.turn_in), drawn ABOVE the giver at its cell. Likely render-order or anchor offset. Fix = overhead, never occluded by the giver's own sprite (nor by adjacent props at rare geometry - check while in there). Evidence: probe captures at both scales, before/after (the two-scale convention). View-only expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
-        "refs": [
-            "sl-0121",
-            "sl-0135"
-        ],
-        "by": "agent"
+      "id": "sl-0176",
+      "ts": "2026-08-03T15:57:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "GIVER QUEST ICON RENDERS UNDER THE NPC (designer play finding): the overhead quest glyph draws BELOW/UNDER the giver sprite instead of overhead - z-order or anchor defect in the sl-0121/sl-0135 kit",
+      "detail": "The designer, verbatim: 'also i think quest icon is bugged and actualy shows up under the npc atm'. Expected per sl-0135: overhead giver icons, two states (quest.available / quest.turn_in), drawn ABOVE the giver at its cell. Likely render-order or anchor offset. Fix = overhead, never occluded by the giver's own sprite (nor by adjacent props at rare geometry - check while in there). Evidence: probe captures at both scales, before/after (the two-scale convention). View-only expected (zero sim bytes). Routed as part of the QUEST-PULL FINDINGS x2 paste at the session file's tail.",
+      "refs": [
+        "sl-0121",
+        "sl-0135"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0177",
-        "ts": "2026-08-03T17:16:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE GEAR SEAM ROUTED (the designer's starhook lean firmed + both shaping words in): charter-shaped rifter gear rod+chest+helm, FUNCTIONAL-FIRST ('ye lets do it functionally now and visually later. just some placeholder for now'), tackle vendor v1 in the HARBOR CAPITAL priced in fish, rare-catch drops; a SIM seam at the next free SERIAL",
-        "detail": "The designer's words: 'maybe we should work on the starhooking' (the lean) then '1.sure sounds good.' (vendor home = harbor capital, planning's routed lean accepted) + '2. ye lets do it functionally now and visually later. just some placeholder for now' (functional-first ruled - real stats/slots/placeholder looks; the visibly-worn modular armor layers ride the designer's prototype handoff whenever it arrives). THE SHAPE (doc 23 queue line amended in place): 3 slots rod+chest+helm (sl-0170 ruling 2); the four rods fold in as the vendor's tiered ladder (R-swap stays; rod unlocks may stay the one leveled ladder); chest+helm = rift-side defensive stats on the bait fighter/the line, overworld combat untouched (planning lean [P], numbers [T], block-9-style validation); TACKLE VENDOR v1 = ONE vendor in the harbor capital, stock = the tiered ladder PRICED IN FISH via the starhook_fish{} per-species counts (spend = recorded/deterministic, the fish-wallet shows in the vendor UI; rides sl-0131 vendor machinery + the v2 chrome); rare catches DROP special pieces (rng_loot, deterministic, zone/danger-gated per no-depth); unique rods (pattern deviants) = FUTURE, do not build. SERIAL: takes the NEXT free number at build under full re-baseline; the sl-0168 '26 = foraging' reservation amends to whichever seam builds first (the designer picks drop order; both pastes stand at the session file's tail - QUEST-PULL FINDINGS x2 can ride the same game session first as view-only warm-up). Resolve sl-0177 at close.",
-        "refs": [
-            "sl-0170",
-            "sl-0131",
-            "sl-0168"
-        ],
-        "by": "agent"
+      "id": "sl-0177",
+      "ts": "2026-08-03T17:16:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE GEAR SEAM ROUTED (the designer's starhook lean firmed + both shaping words in): charter-shaped rifter gear rod+chest+helm, FUNCTIONAL-FIRST ('ye lets do it functionally now and visually later. just some placeholder for now'), tackle vendor v1 in the HARBOR CAPITAL priced in fish, rare-catch drops; a SIM seam at the next free SERIAL",
+      "detail": "The designer's words: 'maybe we should work on the starhooking' (the lean) then '1.sure sounds good.' (vendor home = harbor capital, planning's routed lean accepted) + '2. ye lets do it functionally now and visually later. just some placeholder for now' (functional-first ruled - real stats/slots/placeholder looks; the visibly-worn modular armor layers ride the designer's prototype handoff whenever it arrives). THE SHAPE (doc 23 queue line amended in place): 3 slots rod+chest+helm (sl-0170 ruling 2); the four rods fold in as the vendor's tiered ladder (R-swap stays; rod unlocks may stay the one leveled ladder); chest+helm = rift-side defensive stats on the bait fighter/the line, overworld combat untouched (planning lean [P], numbers [T], block-9-style validation); TACKLE VENDOR v1 = ONE vendor in the harbor capital, stock = the tiered ladder PRICED IN FISH via the starhook_fish{} per-species counts (spend = recorded/deterministic, the fish-wallet shows in the vendor UI; rides sl-0131 vendor machinery + the v2 chrome); rare catches DROP special pieces (rng_loot, deterministic, zone/danger-gated per no-depth); unique rods (pattern deviants) = FUTURE, do not build. SERIAL: takes the NEXT free number at build under full re-baseline; the sl-0168 '26 = foraging' reservation amends to whichever seam builds first (the designer picks drop order; both pastes stand at the session file's tail - QUEST-PULL FINDINGS x2 can ride the same game session first as view-only warm-up). Resolve sl-0177 at close.",
+      "refs": [
+        "sl-0170",
+        "sl-0131",
+        "sl-0168"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0178",
-        "ts": "2026-08-03T17:22:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "RODS ARE STARHOOKING WEAPONS - SEVERAL PER LEVEL TIER (the designer's word, amends sl-0177 point 2 pre-drop): 'we should have several rods for each level tier, remember to consider them more like starhooking weapons instead of rods'",
-        "detail": "The word landed BEFORE the paste dropped - the paste amended in place at the session file's tail. THE SHAPE: rods = the rift lane's WEAPON FAMILY, each rod a real fight identity for the bait fighter, SEVERAL choices at every level tier (not one-per-tier); the existing four rods re-home into this frame [P]; R-swap stays; the tackle vendor stocks the tiered catalog. THE ONE OPEN SHAPE QUESTION (planning lean [P], the designer's word in the drop session picks): rod families may carry their OWN firing patterns - the pond's parallel to sword/staff/bow, each family a NORM (honest-dodgeable, fairness floor absolute), with UNIQUE rods staying the deviants-from-norm per sl-0169's pattern law - versus same-pattern rods differentiated by stat/behavior trades only. Every number and pattern [T].",
-        "refs": [
-            "sl-0177",
-            "sl-0169",
-            "sl-0170"
-        ],
-        "by": "agent"
-    },
+      "id": "sl-0178",
+      "ts": "2026-08-03T17:22:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "RODS ARE STARHOOKING WEAPONS - SEVERAL PER LEVEL TIER (the designer's word, amends sl-0177 point 2 pre-drop): 'we should have several rods for each level tier, remember to consider them more like starhooking weapons instead of rods'",
+      "detail": "The word landed BEFORE the paste dropped - the paste amended in place at the session file's tail. THE SHAPE: rods = the rift lane's WEAPON FAMILY, each rod a real fight identity for the bait fighter, SEVERAL choices at every level tier (not one-per-tier); the existing four rods re-home into this frame [P]; R-swap stays; the tackle vendor stocks the tiered catalog. THE ONE OPEN SHAPE QUESTION (planning lean [P], the designer's word in the drop session picks): rod families may carry their OWN firing patterns - the pond's parallel to sword/staff/bow, each family a NORM (honest-dodgeable, fairness floor absolute), with UNIQUE rods staying the deviants-from-norm per sl-0169's pattern law - versus same-pattern rods differentiated by stat/behavior trades only. Every number and pattern [T].",
+      "refs": [
+        "sl-0177",
+        "sl-0169",
+        "sl-0170"
+      ],
+      "by": "agent"
+    },
     {
       "id": "sl-0179",
       "ts": "2026-08-03T21:35:00Z",
@@ -2909,49 +2909,49 @@
       "by": "agent"
     },
     {
-        "id": "sl-0180",
-        "ts": "2026-08-03T18:52:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE STARHOOK BOSS EXPANSION + DUNGEON TEST ROUTED (the designer's word, pre-outing): 12-24 new starhook boss FIGHTS (2-4 phases, unique-ish patterns and/or unique compositions, 1-5 min, placeholder art) + 1-2 dungeon-rift tests (a 1-5 min walked path, mobs scattered, boss at the end) - the playful-space charter's first content batch",
-        "detail": "The designer, verbatim: 'lets try to set up a \"starhook Boss expansion and dungeon test\" where we could create like maybe 12-24 new starhooking bosses, or mostly their boss fight. and remember starhooking is a place where we are allowed to be a tad experimental, and i think the boss fights with 2-4 phases and unique ish projectile patterns and atleast unique compositions of different ones. for like some 1-5 min boss fights wont be that hard to make. and we just use placeholder art for now.' + 'Also if we could create 1 or two dungeon tests. a dungeon is pretty much just a 1-5 min long \"path\" (its larger then a path ofc but u walk through it like a path with boss at end) with enemy mobs scattered along the way and a boss at the end.' THE SHAPE ROUTED: bosses populate the rift fight pool alongside the existing fish (charter ruling 5's encounter pool made real); each = 2-4 telegraphed phases, playful-space pattern license WITH the fairness floor ABSOLUTE (deterministic/dodgeable/explainable/no-strobe mechanized on every new pattern), 1-5 min [T] vs the rod DPS ladder (a fight-length bound row suggested for balance_calc, the GATE 6 precedent); Warden three-phase recipe = the floor, stat walls never; PLACEHOLDER art + PLACEHOLDER DESCRIPTIVE IDS only (no lore names - naming + looks re-skin when the designer's fish designs land, the fish-first word; keep identities data-keyed for the re-skin, the ghost-species precedent). Dungeons = committed-instance machinery (the Warren precedent) in rift/galaxy skin, 1-2 test instances, dev-entrance access first [P] (ambient dungeon-rift spawns wire later behind [T] once the test proves). SIZE-FIRST CHECK SANCTIONED: split into waves rather than stall (the seam-I precedent) - waves resolve honestly. A SIM seam: next free SERIAL, full re-baseline, lock truthed at the bump. The QUEST-PULL FINDINGS x2 paste may ride the same session as warm-up. Resolve sl-0180 at close.",
-        "refs": [
-            "sl-0170",
-            "sl-0179",
-            "sl-0175",
-            "sl-0176"
-        ],
-        "by": "agent"
+      "id": "sl-0180",
+      "ts": "2026-08-03T18:52:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE STARHOOK BOSS EXPANSION + DUNGEON TEST ROUTED (the designer's word, pre-outing): 12-24 new starhook boss FIGHTS (2-4 phases, unique-ish patterns and/or unique compositions, 1-5 min, placeholder art) + 1-2 dungeon-rift tests (a 1-5 min walked path, mobs scattered, boss at the end) - the playful-space charter's first content batch",
+      "detail": "The designer, verbatim: 'lets try to set up a \"starhook Boss expansion and dungeon test\" where we could create like maybe 12-24 new starhooking bosses, or mostly their boss fight. and remember starhooking is a place where we are allowed to be a tad experimental, and i think the boss fights with 2-4 phases and unique ish projectile patterns and atleast unique compositions of different ones. for like some 1-5 min boss fights wont be that hard to make. and we just use placeholder art for now.' + 'Also if we could create 1 or two dungeon tests. a dungeon is pretty much just a 1-5 min long \"path\" (its larger then a path ofc but u walk through it like a path with boss at end) with enemy mobs scattered along the way and a boss at the end.' THE SHAPE ROUTED: bosses populate the rift fight pool alongside the existing fish (charter ruling 5's encounter pool made real); each = 2-4 telegraphed phases, playful-space pattern license WITH the fairness floor ABSOLUTE (deterministic/dodgeable/explainable/no-strobe mechanized on every new pattern), 1-5 min [T] vs the rod DPS ladder (a fight-length bound row suggested for balance_calc, the GATE 6 precedent); Warden three-phase recipe = the floor, stat walls never; PLACEHOLDER art + PLACEHOLDER DESCRIPTIVE IDS only (no lore names - naming + looks re-skin when the designer's fish designs land, the fish-first word; keep identities data-keyed for the re-skin, the ghost-species precedent). Dungeons = committed-instance machinery (the Warren precedent) in rift/galaxy skin, 1-2 test instances, dev-entrance access first [P] (ambient dungeon-rift spawns wire later behind [T] once the test proves). SIZE-FIRST CHECK SANCTIONED: split into waves rather than stall (the seam-I precedent) - waves resolve honestly. A SIM seam: next free SERIAL, full re-baseline, lock truthed at the bump. The QUEST-PULL FINDINGS x2 paste may ride the same session as warm-up. Resolve sl-0180 at close.",
+      "refs": [
+        "sl-0170",
+        "sl-0179",
+        "sl-0175",
+        "sl-0176"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0181",
-        "ts": "2026-08-03T18:54:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "TWO ADDS TO THE STARHOOK BATCH (the designer's word, amends sl-0180 pre-drop): (1) caught fish LAND IN THE INVENTORY ('starhooking fish should be added to inventory when you get them') + (2) a STARHOOK EQUIPMENT PANEL in the C menu (fires the rift-gear-pane round sl-0179 named FUTURE)",
-        "detail": "The designer, verbatim: 'oh also can you add that starhooking fish should be added to inventory when you get them, also a equipment panel for starhooking in the c menu'. THE SHAPE: (6) FISH TO THE BAG - a catch is VISIBLE in the inventory; planning lean [P]: fish stack PER-SPECIES in the bag grid while the starhook_fish{} species counts STAY the one pricing truth (the bag renders the counts as stacked items - one source, no dual truth; the seat proposes exact mechanics, sizes the bag-cap impact, per-species tooltips; forage materials later follow the same representation for consistency, sl-0168 doctrine). (7) THE STARHOOK EQUIPMENT PANEL IN C - the character tab gains a rifter section: rod/chest/helm doll slots showing worn gear, equip/swap among owned from the menu (the tackle station stays the buy surface); a view surface over the existing recorded equip ops (144..191); evidence at both scales. Both ride the sl-0180 session (or its first wave) - the paste amended IN PLACE at the session file's tail; the size-first check covers the widened batch.",
-        "refs": [
-            "sl-0180",
-            "sl-0179",
-            "sl-0168"
-        ],
-        "by": "agent"
+      "id": "sl-0181",
+      "ts": "2026-08-03T18:54:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "TWO ADDS TO THE STARHOOK BATCH (the designer's word, amends sl-0180 pre-drop): (1) caught fish LAND IN THE INVENTORY ('starhooking fish should be added to inventory when you get them') + (2) a STARHOOK EQUIPMENT PANEL in the C menu (fires the rift-gear-pane round sl-0179 named FUTURE)",
+      "detail": "The designer, verbatim: 'oh also can you add that starhooking fish should be added to inventory when you get them, also a equipment panel for starhooking in the c menu'. THE SHAPE: (6) FISH TO THE BAG - a catch is VISIBLE in the inventory; planning lean [P]: fish stack PER-SPECIES in the bag grid while the starhook_fish{} species counts STAY the one pricing truth (the bag renders the counts as stacked items - one source, no dual truth; the seat proposes exact mechanics, sizes the bag-cap impact, per-species tooltips; forage materials later follow the same representation for consistency, sl-0168 doctrine). (7) THE STARHOOK EQUIPMENT PANEL IN C - the character tab gains a rifter section: rod/chest/helm doll slots showing worn gear, equip/swap among owned from the menu (the tackle station stays the buy surface); a view surface over the existing recorded equip ops (144..191); evidence at both scales. Both ride the sl-0180 session (or its first wave) - the paste amended IN PLACE at the session file's tail; the size-first check covers the widened batch.",
+      "refs": [
+        "sl-0180",
+        "sl-0179",
+        "sl-0168"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0182",
-        "ts": "2026-08-03T20:30:00Z",
-        "type": "ruling",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE STARHOOK NAMING DIRECTION (designer ruling): the lane WANTS names, drawn from the COSMIC word family - 'galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that' - the no-coined-names law relaxes INSIDE starhooking to this rail; fishing-metaphor words fail it (the creel rename routed)",
-        "detail": "The designer, verbatim (responding to planning's creel flag): 'ye I think we should have more names with word likethis but not limited to: galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that'. THE RULING AS RECORDED: (1) inside the starhook lane, names are WANTED - the no-coined-names law relaxes to a VOCABULARY RAIL: names ride the cosmic family (galaxy / dimension / nebula / constellation / star / rift / ...; open-ended, 'not limited to'); (2) fishing-metaphor words FAIL the rail (creel = a fishing basket; the lane's identity is GALAXY not water - the designer's standing 'this is not fishing' correction applied to naming); (3) the law stands UNCHANGED outside the lane (overworld feature parts stay plain-description); (4) the designer's NAMING ACT still rules - placeholder descriptive ids stay until they name (boss/fish naming remains their act, now with the cosmic direction as its rail). ROUTED to the live/next game session: rename the creel surface to a cosmic-family name (seat proposes 2-3 candidates, the designer picks - or the designer names directly); apply the direction to future starhook surfaces. Docs 23 (charter ruling 8) + 03 (laws block exception) amended.",
-        "refs": [
-            "sl-0181",
-            "sl-0170"
-        ],
-        "by": "agent"
+      "id": "sl-0182",
+      "ts": "2026-08-03T20:30:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE STARHOOK NAMING DIRECTION (designer ruling): the lane WANTS names, drawn from the COSMIC word family - 'galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that' - the no-coined-names law relaxes INSIDE starhooking to this rail; fishing-metaphor words fail it (the creel rename routed)",
+      "detail": "The designer, verbatim (responding to planning's creel flag): 'ye I think we should have more names with word likethis but not limited to: galaxy, dimension, nebula, constellation, starhooking, rift. stuff like that'. THE RULING AS RECORDED: (1) inside the starhook lane, names are WANTED - the no-coined-names law relaxes to a VOCABULARY RAIL: names ride the cosmic family (galaxy / dimension / nebula / constellation / star / rift / ...; open-ended, 'not limited to'); (2) fishing-metaphor words FAIL the rail (creel = a fishing basket; the lane's identity is GALAXY not water - the designer's standing 'this is not fishing' correction applied to naming); (3) the law stands UNCHANGED outside the lane (overworld feature parts stay plain-description); (4) the designer's NAMING ACT still rules - placeholder descriptive ids stay until they name (boss/fish naming remains their act, now with the cosmic direction as its rail). ROUTED to the live/next game session: rename the creel surface to a cosmic-family name (seat proposes 2-3 candidates, the designer picks - or the designer names directly); apply the direction to future starhook surfaces. Docs 23 (charter ruling 8) + 03 (laws block exception) amended.",
+      "refs": [
+        "sl-0181",
+        "sl-0170"
+      ],
+      "by": "agent"
     },
     {
       "id": "sl-0183",
@@ -2972,116 +2972,206 @@
       "by": "agent"
     },
     {
-        "id": "sl-0184",
-        "ts": "2026-08-03T21:24:00Z",
-        "type": "ask_resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "MAP MARKERS RESOLVED (sl-0175; game 078283c, view-only, zero sim bytes, -SkipBattery ALL GREEN 3.1 min): the markers ALWAYS drew on both surfaces - the empty map was MODEL COVERAGE (available givers never marked; KILL/COLLECT carry no objective cell); the black squares = baked POI footprints in the pack's own minimap.png, NOT broken markers",
-        "detail": "Diagnosis proven with before-captures: one _draw_markers on the shared rect chain serves corner minimap AND fullscreen map; only turn-in rings + carried-VISIT diamonds ever drew. THE FIX = model coverage: gold BANG (available giver) / green RING (turn-in) via QuestGiverIcons.giver_states (ONE model - world + both maps), amber DIAMOND (VISIT objective) bound to [ui] tracked_quest exactly like the HUD tracker. THE HONEST REMAINING GAP, planning-owned by design: KILL/COLLECT quests carry NO objective cell - nothing marks where to hunt (options when the designer wants it: zone/region hint vs nothing; route on their word). Evidence before/after at reports/quest_pull_{before_,audit_}*.png, read by eyes. Executed by a routed hands-free game-seat session on the designer's 'do it now' word; planning wrote this resolution (the seat was instructed zero planning writes).",
-        "refs": [
-            "sl-0175",
-            "sl-0135"
-        ],
-        "by": "agent"
+      "id": "sl-0184",
+      "ts": "2026-08-03T21:24:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "MAP MARKERS RESOLVED (sl-0175; game 078283c, view-only, zero sim bytes, -SkipBattery ALL GREEN 3.1 min): the markers ALWAYS drew on both surfaces - the empty map was MODEL COVERAGE (available givers never marked; KILL/COLLECT carry no objective cell); the black squares = baked POI footprints in the pack's own minimap.png, NOT broken markers",
+      "detail": "Diagnosis proven with before-captures: one _draw_markers on the shared rect chain serves corner minimap AND fullscreen map; only turn-in rings + carried-VISIT diamonds ever drew. THE FIX = model coverage: gold BANG (available giver) / green RING (turn-in) via QuestGiverIcons.giver_states (ONE model - world + both maps), amber DIAMOND (VISIT objective) bound to [ui] tracked_quest exactly like the HUD tracker. THE HONEST REMAINING GAP, planning-owned by design: KILL/COLLECT quests carry NO objective cell - nothing marks where to hunt (options when the designer wants it: zone/region hint vs nothing; route on their word). Evidence before/after at reports/quest_pull_{before_,audit_}*.png, read by eyes. Executed by a routed hands-free game-seat session on the designer's 'do it now' word; planning wrote this resolution (the seat was instructed zero planning writes).",
+      "refs": [
+        "sl-0175",
+        "sl-0135"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0185",
-        "ts": "2026-08-03T21:24:00Z",
-        "type": "ask_resolved",
-        "repo": "game",
-        "target": "planning",
-        "title": "GIVER ICON RESOLVED (sl-0176; same commit): the icon anchored the AUTHORED cell at LIFT 34 (detached air over 24px bodies) and at the bodiless capital slot it landed at the FEET of a crowd NPC two tiles north of spawn - the literal 'under the npc'; fix = anchor the BODY cell + LIFT 18, occlusion structurally impossible",
-        "detail": "Measured on b77: three zone givers stand walkability-nudged off their authored cells (dry-scout 1N / cold-trapper 1N / cold-wayfinder 1NW) with icons not following - icons now anchor the giver's BODY cell (compute_stations def_cell -> NpcView.giver_cell_map; bodiless slots keep the authored interact cell); LIFT 34->18 (attached overhead read); occlusion structural by layer order (HP_BARS 35 > CANOPY 32 > ACTORS 30 - sprite/props/crowns can never cover it). Test pins: dev_map marker model + npc icon wiring (incl. the dry-scout 1N per-pack pin) + the quest_pull probe. Handoff gotcha 42 recorded game-side (a Windows toast rode ALWAYS_ON_TOP into two capture attempts - kept out of committed evidence; set_size ignored while maximized). Game 078283c + 2f42e92 (hours close), pushed + ls-remote verified. NOTE: the post-push lint glance (gotcha 26) was blocked in the executing seat by the permission layer - planning ran it at sweep instead. THE CAPITAL GIVER BODY stays the standing designer-owed word (unchanged).",
-        "refs": [
-            "sl-0176",
-            "sl-0135"
-        ],
-        "by": "agent"
+      "id": "sl-0185",
+      "ts": "2026-08-03T21:24:00Z",
+      "type": "ask_resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "GIVER ICON RESOLVED (sl-0176; same commit): the icon anchored the AUTHORED cell at LIFT 34 (detached air over 24px bodies) and at the bodiless capital slot it landed at the FEET of a crowd NPC two tiles north of spawn - the literal 'under the npc'; fix = anchor the BODY cell + LIFT 18, occlusion structurally impossible",
+      "detail": "Measured on b77: three zone givers stand walkability-nudged off their authored cells (dry-scout 1N / cold-trapper 1N / cold-wayfinder 1NW) with icons not following - icons now anchor the giver's BODY cell (compute_stations def_cell -> NpcView.giver_cell_map; bodiless slots keep the authored interact cell); LIFT 34->18 (attached overhead read); occlusion structural by layer order (HP_BARS 35 > CANOPY 32 > ACTORS 30 - sprite/props/crowns can never cover it). Test pins: dev_map marker model + npc icon wiring (incl. the dry-scout 1N per-pack pin) + the quest_pull probe. Handoff gotcha 42 recorded game-side (a Windows toast rode ALWAYS_ON_TOP into two capture attempts - kept out of committed evidence; set_size ignored while maximized). Game 078283c + 2f42e92 (hours close), pushed + ls-remote verified. NOTE: the post-push lint glance (gotcha 26) was blocked in the executing seat by the permission layer - planning ran it at sweep instead. THE CAPITAL GIVER BODY stays the standing designer-owed word (unchanged).",
+      "refs": [
+        "sl-0176",
+        "sl-0135"
+      ],
+      "by": "agent"
     },
     {
-        "id": "sl-0186",
-        "ts": "2026-08-03T21:56:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE DUNGEON IS BROKEN IN REAL PLAY (designer walk): 'its just a normal sized room and half of it doesnt work to walk in' - the bot proofs passed but the designer's walk contradicts the built serpentine; diagnose-first routed",
-        "detail": "Designer verbatim: 'the dungeon is tottaly broken its just a normal sized room and half of it doesnt work to walk in'. The wave-2 proofs walked the path script-side, so the defect is between the data and the real load: diagnose FIRST with a capture of what actually loads vs data/arena_rift_path.json (did the serpentine scenario load at all, or did the default arena rect win? walkability mask vs render mismatch? the end shafts blocking?), name the cause honestly, fix, commit real-walk evidence captures - and the DESIGNER RE-WALKS before this resolves. The lesson candidate for the record at resolution: script proofs prove the sim's fights; they do not prove the designer's WALK - a human-shaped load check belongs in the gate for walked content.",
-        "refs": [
-            "sl-0180",
-            "sl-0183"
-        ],
-        "by": "agent"
+      "id": "sl-0186",
+      "ts": "2026-08-03T21:56:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE DUNGEON IS BROKEN IN REAL PLAY (designer walk): 'its just a normal sized room and half of it doesnt work to walk in' - the bot proofs passed but the designer's walk contradicts the built serpentine; diagnose-first routed",
+      "detail": "Designer verbatim: 'the dungeon is tottaly broken its just a normal sized room and half of it doesnt work to walk in'. The wave-2 proofs walked the path script-side, so the defect is between the data and the real load: diagnose FIRST with a capture of what actually loads vs data/arena_rift_path.json (did the serpentine scenario load at all, or did the default arena rect win? walkability mask vs render mismatch? the end shafts blocking?), name the cause honestly, fix, commit real-walk evidence captures - and the DESIGNER RE-WALKS before this resolves. The lesson candidate for the record at resolution: script proofs prove the sim's fights; they do not prove the designer's WALK - a human-shaped load check belongs in the gate for walked content. || RESOLVED 2026-08-04 (game session, refinement round 1): diagnosed-first + fixed - see sl-0192. THE DESIGNER RE-WALKS before this closes for good (their own routed term).",
+      "refs": [
+        "sl-0180",
+        "sl-0183"
+      ],
+      "by": "agent",
+      "status": "resolved"
     },
     {
-        "id": "sl-0187",
-        "ts": "2026-08-03T21:56:00Z",
-        "type": "ruling",
-        "repo": "planning",
-        "target": "game",
-        "title": "FIGHT LENGTH RE-RULED: 20-60 s MAX, INTENSE (the designer's own correction, supersedes sl-0180's 1-5 min word: 'i think i exagurated the length... more of an intense combat like maybe 20-60 sec max') - gate 7 re-pins [20,60]; all eight kits' HP re-derive (117-148 s all fail the new bar)",
-        "detail": "The designer's honest self-correction in play. Re-pin balance_calc gate 7 bounds to [20,60] s vs the free-spine rod ladder; re-derive all eight kits' hp through the calculator; INTENSE is the direction - shorter AND denser; every number [T]; goldens re-record per the re-baseline discipline if any recorded run shifts.",
-        "refs": [
-            "sl-0180",
-            "sl-0183"
-        ],
-        "by": "agent"
+      "id": "sl-0187",
+      "ts": "2026-08-03T21:56:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "target": "game",
+      "title": "FIGHT LENGTH RE-RULED: 20-60 s MAX, INTENSE (the designer's own correction, supersedes sl-0180's 1-5 min word: 'i think i exagurated the length... more of an intense combat like maybe 20-60 sec max') - gate 7 re-pins [20,60]; all eight kits' HP re-derive (117-148 s all fail the new bar)",
+      "detail": "The designer's honest self-correction in play. Re-pin balance_calc gate 7 bounds to [20,60] s vs the free-spine rod ladder; re-derive all eight kits' hp through the calculator; INTENSE is the direction - shorter AND denser; every number [T]; goldens re-record per the re-baseline discipline if any recorded run shifts. || RESOLVED 2026-08-04: gate 7 [20,60], all eight HP re-derived 30-45s, denser - see sl-0193.",
+      "refs": [
+        "sl-0180",
+        "sl-0183"
+      ],
+      "by": "agent",
+      "status": "resolved"
     },
     {
-        "id": "sl-0188",
-        "ts": "2026-08-03T21:56:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "BOSS LIFE - THE STANDING-THERE PROBLEM (designer verdict): 'most of them just stand there if u dont approach them. some should have like static patterns moving around the room and others should have like bnehavioural ones' - the eight kits split into ROOM-PATTERN vs BEHAVIOURAL families; the keep-range law amends for rift bosses by this word",
-        "detail": "Designer verbatim above. THE SHAPE: (a) ROOM-PATTERN bosses - choreographed patterns that MOVE AROUND THE ROOM (sweeps, rotations, traveling walls - the room is the canvas, active regardless of player position); (b) BEHAVIOURAL bosses - movement/AI-driven life (reposition, dash, orbit, react). Assign each of the eight to a family [P lean at build], rebuild their life, re-run proofs. THE KEEP-RANGE ONE-ROOM LAW AMENDS by the designer's word FOR RIFT BOSSES: they may move and behave; the fairness floor stays ABSOLUTE (deterministic, honestly dodgeable, deaths explainable, no-strobe re-probe per changed kit). Every number [T].",
-        "refs": [
-            "sl-0180",
-            "sl-0183",
-            "sl-0187"
-        ],
-        "by": "agent"
+      "id": "sl-0188",
+      "ts": "2026-08-03T21:56:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "BOSS LIFE - THE STANDING-THERE PROBLEM (designer verdict): 'most of them just stand there if u dont approach them. some should have like static patterns moving around the room and others should have like bnehavioural ones' - the eight kits split into ROOM-PATTERN vs BEHAVIOURAL families; the keep-range law amends for rift bosses by this word",
+      "detail": "Designer verbatim above. THE SHAPE: (a) ROOM-PATTERN bosses - choreographed patterns that MOVE AROUND THE ROOM (sweeps, rotations, traveling walls - the room is the canvas, active regardless of player position); (b) BEHAVIOURAL bosses - movement/AI-driven life (reposition, dash, orbit, react). Assign each of the eight to a family [P lean at build], rebuild their life, re-run proofs. THE KEEP-RANGE ONE-ROOM LAW AMENDS by the designer's word FOR RIFT BOSSES: they may move and behave; the fairness floor stays ABSOLUTE (deterministic, honestly dodgeable, deaths explainable, no-strobe re-probe per changed kit). Every number [T]. || RESOLVED 2026-08-04: anchor/flanker families live, the law amended never-a-chaser - see sl-0194.",
+      "refs": [
+        "sl-0180",
+        "sl-0183",
+        "sl-0187"
+      ],
+      "by": "agent",
+      "status": "resolved"
     },
     {
-        "id": "sl-0189",
-        "ts": "2026-08-03T21:59:00Z",
-        "type": "ask_updated",
-        "repo": "planning",
-        "target": "game",
-        "title": "DEV COMMANDS FOR EVERY INSTANCED ENCOUNTER (the designer's add, joins refinement round 1): the console jumps directly into ANY instanced encounter - each of the eight boss kits by id, the dungeon(s), a plain catch - the `dungeon` one-flag precedent generalized",
-        "detail": "Designer verbatim: 'also maybe add dev commands for all the different instanced encounters'. Shape [P, seat refines per console conventions]: a command family on the dev console - jump straight into any rift boss kit by its id (e.g. the eight at roster 30-37), the dungeon path(s), a plain catch; a list/help form naming what's jumpable; include any other committed-instance content reachable only by play (the Warren class) if not already picker-covered. Dev-layer only, rides the same jump machinery as the existing `dungeon` command (the one-flag law); zero sim semantics. Joins the round-1 paste as item 4.",
-        "refs": [
-            "sl-0186",
-            "sl-0188"
-        ],
-        "by": "agent"
+      "id": "sl-0189",
+      "ts": "2026-08-03T21:59:00Z",
+      "type": "ask_updated",
+      "repo": "planning",
+      "target": "game",
+      "title": "DEV COMMANDS FOR EVERY INSTANCED ENCOUNTER (the designer's add, joins refinement round 1): the console jumps directly into ANY instanced encounter - each of the eight boss kits by id, the dungeon(s), a plain catch - the `dungeon` one-flag precedent generalized",
+      "detail": "Designer verbatim: 'also maybe add dev commands for all the different instanced encounters'. Shape [P, seat refines per console conventions]: a command family on the dev console - jump straight into any rift boss kit by its id (e.g. the eight at roster 30-37), the dungeon path(s), a plain catch; a list/help form naming what's jumpable; include any other committed-instance content reachable only by play (the Warren class) if not already picker-covered. Dev-layer only, rides the same jump machinery as the existing `dungeon` command (the one-flag law); zero sim semantics. Joins the round-1 paste as item 4. || RESOLVED 2026-08-04: the `rift` jump family - see sl-0195.",
+      "refs": [
+        "sl-0186",
+        "sl-0188"
+      ],
+      "by": "agent",
+      "status": "resolved"
     },
     {
-        "id": "sl-0190",
-        "ts": "2026-08-03T23:01:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "NAMES OVER FUNCTIONAL NPCS (the designer's word): vendors/givers/stations-with-bodies are hard to spot - a nameplate over every NPC you can at some point interact with; crowd NPCs stay unlabeled - 'would also bring more life to the world'",
-        "detail": "Designer verbatim: 'Also vendors and quest npcs and the alike is really hard to spot. i think a easy fix for this that would also bring more life to the world would be to have a name over the respective npc, and we will only have names on npcs that actually have a function that you at some point can interact with'. THE SHAPE [P leans, seat refines]: WHO = the interactable class exactly (givers, vendors, the bank, the tackle keeper, any future trainers - the seam-H audit's F-responders with bodies); crowd/villager NPCs (CORE-35 pure view) stay UNLABELED by the designer's own scoping. WHAT v1 = ROLE LABELS auto-derived from the interact registry (plain descriptions - 'Trader', 'Banker', 'Tackle Keeper', giver role/reason-tag words; zero authoring, law-clean) with a DATA NAME TABLE underneath so the designer's own proper-name pass replaces/augments any label whenever (their naming act, data-only swap - the fish-designs-era natural companion). DISPLAY: small nameplate over the head coexisting with the sl-0176 overhead quest icons (stack order name-vs-icon [T]; suggest icon above name); readable at both scales; always-on vs distance-fade [T, lean always-on for spotting - the ask IS visibility]; the structural occlusion layer (the HP-bar band, the sl-0176 precedent). View-only, zero sim bytes expected. May ride the LIVE round-1 session as an addendum or the next session - the designer's drop.",
-        "refs": [
-            "sl-0176",
-            "sl-0179"
-        ],
-        "by": "agent"
+      "id": "sl-0190",
+      "ts": "2026-08-03T23:01:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "NAMES OVER FUNCTIONAL NPCS (the designer's word): vendors/givers/stations-with-bodies are hard to spot - a nameplate over every NPC you can at some point interact with; crowd NPCs stay unlabeled - 'would also bring more life to the world'",
+      "detail": "Designer verbatim: 'Also vendors and quest npcs and the alike is really hard to spot. i think a easy fix for this that would also bring more life to the world would be to have a name over the respective npc, and we will only have names on npcs that actually have a function that you at some point can interact with'. THE SHAPE [P leans, seat refines]: WHO = the interactable class exactly (givers, vendors, the bank, the tackle keeper, any future trainers - the seam-H audit's F-responders with bodies); crowd/villager NPCs (CORE-35 pure view) stay UNLABELED by the designer's own scoping. WHAT v1 = ROLE LABELS auto-derived from the interact registry (plain descriptions - 'Trader', 'Banker', 'Tackle Keeper', giver role/reason-tag words; zero authoring, law-clean) with a DATA NAME TABLE underneath so the designer's own proper-name pass replaces/augments any label whenever (their naming act, data-only swap - the fish-designs-era natural companion). DISPLAY: small nameplate over the head coexisting with the sl-0176 overhead quest icons (stack order name-vs-icon [T]; suggest icon above name); readable at both scales; always-on vs distance-fade [T, lean always-on for spotting - the ask IS visibility]; the structural occlusion layer (the HP-bar band, the sl-0176 precedent). View-only, zero sim bytes expected. May ride the LIVE round-1 session as an addendum or the next session - the designer's drop. || RESOLVED 2026-08-04: role-label plates + the empty name table - see sl-0196.",
+      "refs": [
+        "sl-0176",
+        "sl-0179"
+      ],
+      "by": "agent",
+      "status": "resolved"
     },
     {
-        "id": "sl-0191",
-        "ts": "2026-08-03T23:06:00Z",
-        "type": "ask_opened",
-        "repo": "planning",
-        "target": "game",
-        "title": "THE DEV TOOLBELT (the designer's word): max level, best equipment, teleport to cities/zones, 'and stuff like that' - a general dev command family beside the sl-0189 encounter jumps",
-        "detail": "Designer verbatim: 'also we should add in a toolbelt of different dev commands like max level , best equipment teleport to the different cities or zones and stuff like that'. THE SHAPE [P, seat proposes the full belt + exact syntax per console conventions]: level set/max (profile-keyed) - gear grants (best-in-slot overworld tiers + the tackle catalog owned/equipped masks + fish counts for shop testing) - teleport family (the capital, each zone's anchor, named stations; rides the same machinery as scenario spawns) - gold - plus the obvious kin the seat proposes with a list/help form (the sl-0189 pattern). RAILS: dev-layer ONLY with the tester-safe discipline (dev grants must never corrupt recorded replays or feel-verdict eligibility - the verdict system already rejects edited runs; keep that contract: a dev-granted session marks itself); zero format growth; determinism untouched. PURPOSE SYNERGY: makes testing the 20-60s boss re-derives at proper gear instant. Joins round 1 as an addendum or its own drop - the designer's choice.",
-        "refs": [
-            "sl-0189"
-        ],
-        "by": "agent"
+      "id": "sl-0191",
+      "ts": "2026-08-03T23:06:00Z",
+      "type": "ask_opened",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE DEV TOOLBELT (the designer's word): max level, best equipment, teleport to cities/zones, 'and stuff like that' - a general dev command family beside the sl-0189 encounter jumps",
+      "detail": "Designer verbatim: 'also we should add in a toolbelt of different dev commands like max level , best equipment teleport to the different cities or zones and stuff like that'. THE SHAPE [P, seat proposes the full belt + exact syntax per console conventions]: level set/max (profile-keyed) - gear grants (best-in-slot overworld tiers + the tackle catalog owned/equipped masks + fish counts for shop testing) - teleport family (the capital, each zone's anchor, named stations; rides the same machinery as scenario spawns) - gold - plus the obvious kin the seat proposes with a list/help form (the sl-0189 pattern). RAILS: dev-layer ONLY with the tester-safe discipline (dev grants must never corrupt recorded replays or feel-verdict eligibility - the verdict system already rejects edited runs; keep that contract: a dev-granted session marks itself); zero format growth; determinism untouched. PURPOSE SYNERGY: makes testing the 20-60s boss re-derives at proper gear instant. Joins round 1 as an addendum or its own drop - the designer's choice. || RESOLVED 2026-08-04: the toolbelt via the dirty-stamping command queue - see sl-0197.",
+      "refs": [
+        "sl-0189"
+      ],
+      "by": "agent",
+      "status": "resolved"
+    },
+    {
+      "id": "sl-0192",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0186 RESOLVED (engineering; THE DESIGNER RE-WALKS = the acceptance): the dungeon was INVISIBLE, not small",
+      "detail": "Three stacked presentation defects over a fully-real sim (the bot proofs never lied about the fights; they never saw the screen): (1) arena_rift_path.json spoke a foreign dialect - props keyed 'species' where the arena schema reads 'name' - and the resolver ABORTED, erasing the ENTIRE placement set (floors AND walls) while collision stayed solid: invisible walls over void; (2) every starhook_rift scenario wore the 12x13 fixed fit camera - measured 4.0% of the serpentine visible, the player off-frame 150 ticks in; (3) the static cast capture was never cleared, so a console jump after any cast mounted stale split panes (the literal left 'half that doesnt work to walk in'). Fixes: data dialect + arena_builder hardened (a malformed prop is a NAMED SKIP, never an abort), ScenarioDef.rift_path routing (path rifts = standard clamped follow camera, full-screen galaxy, no panes, portal at the flee door, backdrop UNDER the authored tiles), capture lifecycle. THE LESSON MECHANIZED as a new fixed gate step + CI row (dungeon_walk_test): script proofs prove the sim's fights, never the designer's WALK - the gate now resolves every arena's render (blocking art on every blocked cell, every scenario) and traverses the full serpentine on real Kinematics. Evidence committed both eras: the preserved pre-fix record + the after captures (corridors mid-fight, line strain red).",
+      "refs": [
+        "game 4733560"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0193",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0187 RESOLVED: gate 7 re-pinned [20,60]s, all eight kits' HP re-derived (30-45s), denser cooldowns",
+      "detail": "balance_calc FIGHT_LEN_BAND (60,300)->(20,60); HP through the calculator vs the grade's free-spine rod DPS: twin_helix 420/35s, ring_nest 360/30s, cross_burst 480/40s, sine_shoal 700/35s, boomerang_veil 800/40s, decel_wall 380/35s, zone_constellation 440/40s, pulse_lattice 580/45s - every number [T]; every emitter cooldown compressed ~x0.7 (telegraph leads BYTE-UNTOUCHED - one lead per pattern stays law); the strain clock now eats ~12-18 stability per fight (reported, never gated). Proofs re-paced + re-recorded both lanes, all PASS; deliberate re-baseline sealed by a full gate on the commit.",
+      "refs": [
+        "game 427bd32"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0194",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0188 RESOLVED: the statue is dead - ROOM-PATTERN (anchor) vs BEHAVIOURAL (flanker) families live",
+      "detail": "The standing-there problem typed first: all eight kits were KEEP_RANGE band 3.5-6.0 with aggro 14 in a 10x11 room - instant aggro, walk to band, then STAND between 96-210-tick cooldowns. Families [P at build]: ROOM-PATTERN = ANCHOR, the choreography fills the room regardless of the player (ring_nest, decel_wall, zone_constellation, pulse_lattice); BEHAVIOURAL = FLANKER spiral-to-band + circle-strafe with climbing phase-speed ladders <=3.2 (twin_helix 2.2/2.6/3.0, sine_shoal 2.4/2.7/3.2, boomerang_veil 2.0/3.0/2.4 the surge, cross_burst 2.2/2.6/3.2). THE LAW AS AMENDED (gather_test re-pinned + family pins): rift bosses MAY MOVE AND BEHAVE but NO kit phase ever CHASES - the one-room corner-trap law and the hooked-fish law both survive. BONUS: the sl-0186 walk found the dungeon's decel_wall keep-ranging OUT of its boss room to tether edge - the anchor family closes it structurally (an anchored holder cannot leave). One never-weaken iteration recorded: sine_shoal's cap lane grazed byte-identically through two P2 param changes because the killing volley fired from the FROZEN entry-beat position - only the longer entry beat (30->40, MORE telegraph) moved it (a recorded class for future kit authoring). No-strobe re-probed per kit (all zero flips). Fairness floor held: floor+cap zero hits across all nine scenarios.",
+      "refs": [
+        "game 427bd32"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0195",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0189 RESOLVED: the jump family - `rift list|<boss_id>|catch [biome] [rare]|dungeon`",
+      "detail": "The `dungeon` precedent generalized: every rift boss kit by id (roster 30-37), a plain catch per biome x rarity, the dungeon path, and a list/help form naming everything jumpable - pure scenario routing on the same Config+reload machinery as every door, zero sim semantics, dev console one-flag law (lockdown lint green; the tester exe never sees it). The Warren and every rift already ride the picker - nothing else is play-locked.",
+      "refs": [
+        "game 451d4a0"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0196",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0190 RESOLVED: nameplates over the interactable class - role labels + the designer's name table",
+      "detail": "The station table already encoded the designer's scoping STRUCTURALLY: rows carrying def_cell ARE the interactable-bodied set (bank/merchant/trader/tackle keeper + zone givers); crowd rows carry none; the bodiless capital slot is not a body (its quest icon marks the ground - the body stays planning's flagged call). V1 role labels auto-derived (Banker/Merchant/Trader/Tackle Keeper/Quest Giver, zero authoring); data/npc_names.json ships EMPTY as the proper-name hook (data-only, per actor id, whenever). Icon-above-name stack at the icons' LIFT-18 anchor, always-on, HP_BARS structural occlusion, readable both scales by committed captures (the waystation shot shows the gold bang stacked over 'Quest Giver' over the farmer's head). Crowd-never-plated is structural, not a filter - test-pinned.",
+      "refs": [
+        "game 4f7a660"
+      ],
+      "status": "resolved",
+      "by": "agent"
+    },
+    {
+      "id": "sl-0197",
+      "ts": "2026-08-04T09:30:00Z",
+      "type": "ask-resolved",
+      "repo": "game",
+      "target": "planning",
+      "title": "sl-0191 RESOLVED: the dev toolbelt - level/gold/gear/tackle/fish/tp through the dirty-stamping command queue",
+      "detail": "level <1-30|max> (class lane, recompute+refill), gold <n>, gear (best NORMAL gear - frame-table tops; rings/uniques deliberately stay drops), tackle (whole catalog owned + top chest/helm worn; rod choice stays the R-swap), fish <n> (every species; the wallet sizes from the frame's biomes), tp list|<name>|cell <x> <y> (curated walkable cells: capital, one giver anchor per zone as per-pack pins, the stations, the warren doorstep). THE RAIL HELD STRUCTURALLY: every grant rides SimWorld's command queue and dirty-stamps exactly like god - replays refuse verification, feel verdicts auto-stamp PROVISIONAL (the existing contract, test-pinned incl. refused-grants-never-dirty); zero recorded-format growth; determinism untouched by proof (full battery byte-identical, smoke pair unmoved).",
+      "refs": [
+        "game 451d4a0"
+      ],
+      "status": "resolved",
+      "by": "agent"
     }
   ]
 }

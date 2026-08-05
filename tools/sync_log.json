@@ -3762,6 +3762,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0237",
+      "ts": "2026-08-05T15:56:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "title": "TWO TALK-FIRST TOPICS OPENED BY THE DESIGNER (explicitly NOT acted on - the WE-plan law governs; a designer-led round convenes on their word): (1) tiered-weapon class QUIRKS - each class more distinct; (2) unique weapons - WITH the sequencing ruling standing: tiered weapons reach perfection FIRST, uniques build on that foundation",
+      "detail": "The designer, verbatim (2026-08-05 evening, mid-paste-E play): 'i think we should look at the basic tiered weapons, and maybe make each class more distinct so that they got their own quirk, dont act on this yet we need to tlk about it.' + 'also maybe its time to look at atleast unique weapons and how they influence the gameplay etc, but i honestly think its important that we nail down the tiered weapon to perfection first so that we can built uniques on the foundation of the tiered weapons'. STATUS: TOPICS ONLY - no shape exists, none may exist until the designer-led round (sl-0231's law); planning brings questions and options TO that round. THE SEQUENCING RULING STANDS NOW (their word, no round needed): tiered-weapon perfection PRECEDES unique-building - which the block-9 unique grammar (one-break-on-a-normal-chassis) structurally agrees with: the chassis must be solid before the break is meaningful. CONTEXT THE ROUND WILL HAVE ON THE TABLE (existing record, not new shape): docs/22 block-5 research convergence on per-class GRAMMARS (sword = guard/hit-consequence, bow = projectile-geometry/cadence, staff = resource-engine); the sl-0169 trees pattern-law (trees never touch firing patterns - if quirks live anywhere pattern-shaped, the WEAPONS are the lawful carrier); the standing family-pattern-vs-per-rod owed word (the rift-side sibling question); the fresh dexterity ladders as the newest per-class distinctness layer.",
+      "refs": [
+        "sl-0169",
+        "docs/22-STAT_SYSTEM.md",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

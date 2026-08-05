@@ -27,8 +27,8 @@ the sweeps → the words).
 
 1. Read this section → the session file
    `notes/sessions/2026-08-04-evening.md` top to bottom.
-2. Verify the board yourself: game main pushed at **b01acd1** (the
-   night-seam docs close; an hours close may trail it); sync log
+2. Verify the board yourself: game main pushed at **d6cd2c8** (the
+   night-seam hours close — the session closed whole); sync log
    **230 entries / 0 dupes, tail sl-0230** — re-run the dupes
    check. **SERIAL IS 28** (the home + recall build; the lock's
    chain extended at planning's 2026-08-05 sweep; next bump 29).

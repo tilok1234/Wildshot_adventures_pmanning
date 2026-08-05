@@ -3714,6 +3714,22 @@
         "sl-0232"
       ],
       "by": "agent"
+    },
+    {
+      "id": "sl-0234",
+      "ts": "2026-08-05T14:50:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "OLD TUSK STANDS ON TOP OF A STILL PLAYER AND CANNOT HIT (the designer's live find, mid-close-fighter-round): the zero-distance overlap case joins the melee-harmless evidence - contact geometry fails INSIDE the attacker, not just outside the arcs",
+      "detail": "The designer, verbatim (2026-08-05 evening, playing while the close-fighter round ran in chat): 'i noticed if u stand still fighting that tusk guy, he cant hit you cause he stands on top of you'. THE NEW WRINKLE vs the sl-0208 wolf finding: the wolf missed because its arc GAPS exceed the 0.175 hurtbox; Old Tusk misses because he has no stopping distance - he walks ONTO the player and his attack geometry projects OUTWARD from a body the player is standing inside; zero-distance = unhittable. The finding extends the melee-harmless class to boss-grade contact kits and adds the overlap geometry case. THE FIX SPACE (notably, the designer's own item-2 example already answers it): a bite/stomp as a FLOOR ZONE under and around the attacker hits a player standing inside it; alternatives include a stopping distance / body-spacing, or zero-range-valid attacks - all [T], the seat proposes under the open-design-space principle. ROUTING LEAN [P]: rides THE CLOSE-FIGHTER ROUND (same disease family, same fix space, the round is being shaped in chat right now) - the designer's word places it or routes it separately.",
+      "refs": [
+        "sl-0208",
+        "sl-0213",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

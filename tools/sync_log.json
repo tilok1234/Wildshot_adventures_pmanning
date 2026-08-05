@@ -3745,6 +3745,23 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0236",
+      "ts": "2026-08-05T15:48:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "THE CLOSE-FIGHTER ROUND ROUTED (the first WE-planned paste - the designer led, planning scaffolded; dropped to a live game session 2026-08-05 evening): principles a-f verbatim rulings, wave 1 = wolf + goblin(flee-pelt experiment) + Old Tusk, the shadow_hound valve, wave 2 born calibrated with fresh archetypes",
+      "detail": "The round ran in the planning chat, designer-led per the sl-0231 law: planning brought questions and options; the designer's answers became the shape. THE PRINCIPLES (their rulings, all verbatim in the paste): (a) everyone fires - contact coexists freely; (b) states welcome - distance-triggered behavior flips (the designer's flee-and-pelt archetype); (c) THE NO-SILLY-RULES LAW - no rules that only fake realism, the fairness floor is the only binding constraint; (d) free proposals per enemy - no menu limits incl. the designer's own examples; (e) no density quota - the projectile-screen ecosystem serves the dodging-and-fighting claim, tuned by play; (f) THE VARIETY RULE (worded mid-drop, handed as a live-session addendum) - flee-pelt on one-or-a-couple families TOTAL ever, every family its own invention, fresh archetypes over reuse. WAVE 1 = wolf + goblin + Old Tusk (pick delegated; goblin carries the experiment; wolf invents its own); the EXPERIMENT VALVE = report-not-ship sanctioned (shadow_hound precedent); sl-0234 (the Old Tusk zero-distance overlap, evidence committed) rides as item 2b; the sl-0208 pins retire per family; range-band vocabulary lands in data. SIZE CHECKED at the designer's ask: right-sized at three kits + one fix (new machinery weighs more per kit than rift rails); further finds queue as paste F. The seal warm-up = item 0. The designer dropped the paste pre-addendum and hands the f-addendum into the live chat.",
+      "refs": [
+        "sl-0213",
+        "sl-0234",
+        "sl-0208",
+        "notes/sessions/2026-08-04-evening.md"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

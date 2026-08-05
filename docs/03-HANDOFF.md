@@ -14,9 +14,80 @@
 
 ---
 
-# CURRENT HANDOFF — 2026-08-04 night (THE PLAY NIGHT: THE QUICK THREE + THE COMBAT RESHAPE LANDED, VERDICT-POSITIVE · PASTE C CUT · SERIAL 27)
+# CURRENT HANDOFF — 2026-08-05 night (THE SEAT CLOSES FOR AN ACCOUNT SWITCH · THE CLOSE-FIGHTER ERA OPEN: WAVE 1 IN + VERDICT-POSITIVE, WAVE 2 AWAITS TWO PICKS · THE WALLS LIVE · SERIAL 28)
 
 **This section supersedes everything below it.** Written at the
+account-switch close of the two-day seat (the play night + the
+WE-plan day). Full story: `notes/sessions/2026-08-04-evening.md`
+top to bottom — it carries BOTH days including the morning's
+governance arc (the WE-plan breach → the walls) and the evening's
+close-fighter round. THE FRESH SEAT MAY HAVE NO MEMORY (the
+account switched): this file + that session file + doc 23 are the
+complete context; trust them over any recalled memory.
+
+## The fresh session's first moves, in order
+
+1. `git fetch` both repos, then read this section → the session
+   file `notes/sessions/2026-08-04-evening.md` top to bottom.
+2. Verify the board yourself: game main pushed at **f1ef86f** (the
+   close-fighter wave-1 hours close); sync log **241 entries / 0
+   dupes, tail sl-0241** — re-run the dupes check; planning synced
+   with origin. **SERIAL IS 28** (home+recall; next bump 29);
+   assembler main **ffa3058** (the consolidation).
+3. **ARM BOTH WATCHERS** (they died with the closing seat): the
+   multi-lane sweep watcher (game local+remote HEAD · planning
+   local+remote · sync-log hash; ~6-min loop, exit-on-fire,
+   re-arm after each fire; expect self-noise from your own writes)
+   + the five-producer watcher (ls-remote heads+tags on tileforge
+   / WorldForge / world_filler / 8-bit-sprite-assembler /
+   music_soundeffects; ~5-min loop).
+4. **RE-ARM THE WALLS IF INERT**: `git config core.hooksPath
+   hooks` in the planning repo (the committed commit-msg hook
+   refuses deletion commits without the designer token and
+   sync-log commits that fail parse/dupes/shrink — sl-0233; the
+   token is the designer's word made typeable, only they hand it
+   out per instance).
+5. **THE LAWS BIND EVERY SEAT** — the standing set lives in this
+   file's laws blocks + doc 23; the newest and hardest-won:
+   **THE WE-PLAN LAW (sl-0231/0232)** — "plan some" means plan
+   TOGETHER; planning brings questions and options, the designer's
+   answers become the shape; a process complaint is NEVER a
+   verdict on the artifact; destructive acts ONLY on the
+   designer's explicit word. Recording their words verbatim =
+   sweep duty; AUTHORING shape solo = the breach.
+6. **THE LIVE BOARD:** WAVE 2 of the close-fighter round is
+   UNLOCKED BUT UNSHAPED (sl-0240 — the designer's wave-1 verdict
+   was POSITIVE, verbatim "nice it feels prettyy good"; TWO PICKS
+   pend before any paste drafts: (1) the sl-0239 Grubb throne-room
+   fix lever — (a) escort mix / (b) flanker wall-escape
+   [planning's lean, the systemic fix] / (c) press numbers; (2)
+   any wave-1 calibration one-liners). The paste drafts WITH the
+   designer after the picks — wave-2 scope per sl-0236: every
+   remaining close family, each its OWN fresh archetype (the
+   variety rule; flee-pelt spent on goblin forever). TALK-FIRST
+   topics open, NO shape may pre-exist the designer-led rounds
+   (sl-0237: tiered-weapon class quirks + unique weapons;
+   tiered-perfection-first is ruled). ASSEMBLER OPEN ITEMS
+   (sl-0241): the EN mainline-adoption ruling; the old-folder
+   deletions await the designer's click in their assembler chat;
+   the clean-clone fix candidate unvalidated. DESIGNER-OWED
+   (verdicts + words): the amber-dot style pick (three options in
+   sl-0225 evidence) · the zoom pixel ladder · the hits-band
+   [5,8] bless · the RIFT-DUNGEON re-walk (still gates sl-0192) ·
+   the fifteen bosses · foraging play · the standing words
+   (panel2 chrome · tracker side · capital giver casting+cell ·
+   free-four shop-only · family-pattern vs per-rod · fish designs
+   · weekly GIF).
+7. Two-writers note: designer-dropped game AND assembler seats
+   write their own planning-side resolutions and push — planning
+   sweeps AROUND them; validate-before-write on the log always
+   (the walls enforce the append-only floor mechanically now).
+
+---
+
+# PREVIOUS HANDOFF — 2026-08-04 night (THE PLAY NIGHT: THE QUICK THREE + THE COMBAT RESHAPE LANDED, VERDICT-POSITIVE · PASTE C CUT · SERIAL 27)
+
+**Superseded by the section above; kept as history.** Written at the
 night's docs mirror (game 02c3a30/b85bf66 = its own post-reshape
 cold-start truth-up; this is planning's). Full story:
 `notes/sessions/2026-08-04-evening.md` (the WHOLE night: boot → the

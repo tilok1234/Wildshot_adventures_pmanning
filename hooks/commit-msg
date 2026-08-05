@@ -1,0 +1,77 @@
+#!/bin/sh
+# THE WALLS (sl-0231/0232 -> sl-0233; designer-shaped 2026-08-05).
+# Two mechanized guards on the planning repo. The token is the
+# designer's word made typeable: [DESIGNER: TilokApproves] in the
+# commit message. It is not a secret - it is deliberateness: adding
+# it requires knowing the designer said the word NOW, and using it
+# without that word is a visible, deliberate violation instead of a
+# momentum slip. Remove or change only on the designer's word.
+#
+# Wall 1 - DELETIONS ARE DESIGNER-CLICKED: any commit that deletes
+#          a tracked file is refused without the token.
+# Wall 2 - THE LOG IS APPEND-ONLY AND VALID: any commit touching
+#          tools/sync_log.json is refused if the staged log fails to
+#          parse, carries duplicate ids, or has FEWER entries than
+#          the committed version - unless the token rides (the
+#          sanctioned future archive-split needs exactly that).
+
+MSG_FILE="$1"
+TOKEN="[DESIGNER: TilokApproves]"
+
+has_token() {
+    grep -qF "$TOKEN" "$MSG_FILE"
+}
+
+# ---- Wall 1: deletions -------------------------------------------
+DELETED=$(git diff --cached --name-only --diff-filter=D)
+if [ -n "$DELETED" ]; then
+    if ! has_token; then
+        echo "" >&2
+        echo "WALL 1 REFUSES THIS COMMIT - it deletes tracked files:" >&2
+        echo "$DELETED" | sed 's/^/    /' >&2
+        echo "Deletions are designer-clicked (sl-0231/0232)." >&2
+        echo "If the designer said the word, add the token to the" >&2
+        echo "commit message: [DESIGNER: TilokApproves]" >&2
+        echo "" >&2
+        exit 1
+    fi
+fi
+
+# ---- Wall 2: the sync log ----------------------------------------
+if git diff --cached --name-only | grep -qx "tools/sync_log.json"; then
+    HEAD_COUNT=$(git show HEAD:tools/sync_log.json 2>/dev/null | python -c "import json,sys
+try:
+    print(len(json.load(sys.stdin)['entries']))
+except Exception:
+    print(-1)" 2>/dev/null)
+    [ -z "$HEAD_COUNT" ] && HEAD_COUNT=-1
+
+    RESULT=$(git show :tools/sync_log.json | python -c "import json,sys
+head = int(sys.argv[1])
+try:
+    d = json.load(sys.stdin)
+except Exception as e:
+    print('PARSE-FAIL: %s' % e); sys.exit(0)
+ids = [e.get('id') for e in d.get('entries', [])]
+dupes = sorted({i for i in ids if ids.count(i) > 1})
+if dupes:
+    print('DUPLICATE-IDS: %s' % ', '.join(dupes)); sys.exit(0)
+if head >= 0 and len(ids) < head:
+    print('SHRANK: %d -> %d entries' % (head, len(ids))); sys.exit(0)
+print('OK')" "$HEAD_COUNT")
+
+    if [ "$RESULT" != "OK" ]; then
+        if ! has_token; then
+            echo "" >&2
+            echo "WALL 2 REFUSES THIS COMMIT - the staged sync log fails:" >&2
+            echo "    $RESULT" >&2
+            echo "The log is append-only and must parse with unique ids." >&2
+            echo "A designer-worded restructure passes with the token:" >&2
+            echo "[DESIGNER: TilokApproves]" >&2
+            echo "" >&2
+            exit 1
+        fi
+    fi
+fi
+
+exit 0

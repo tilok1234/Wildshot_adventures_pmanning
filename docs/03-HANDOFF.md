@@ -126,7 +126,14 @@ sealed in a warren dead-end; pinned expected-FAIL watched; the fix
 is the designer's word — escort mix / flanker wall-escape / press
 numbers; paste-F material). WAVE 2 holds until the designer plays
 wave 1. The designer's TALK-FIRST topics stand open (sl-0237:
-class quirks + uniques; tiered-perfection-first ruled).
+class quirks + uniques; tiered-perfection-first ruled). **THE
+ASSEMBLER CONSOLIDATED** (sl-0241, a designer-directed parallel
+session, 2026-08-05 night: the EN-E03 approval lane rescued from
+a tmp-worktree-only existence to 8ea019b byte-exact; en-f00 +
+clean-clone candidate + the 19-boss review payload pushed; nine
+worktrees → one green clone; assembler main ffa3058). OPEN there:
+the EN-work mainline-adoption ruling + the old-folder deletions
+staged for the designer's click.
 
 ## LAWS THIS ERA (additions tonight)
 

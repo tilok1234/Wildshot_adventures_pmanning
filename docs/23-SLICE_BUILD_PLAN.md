@@ -416,11 +416,12 @@ every future seam and paste:
    CONTRIBUTE bullets to the hell, not just chase ("atm their
    projectiles are mostly nothing at all its just that they run
    after u that u notice"), with "dont overdo it" as the density
-   rail. THE CLOSE-FIGHTER ROUND executes this (queued on the
-   designer's word after play; the paste draft lives at
-   `notes/PASTE_E_DRAFT_close_fighters.md`); the sl-0208 hitbox
-   halving made it necessary (slash arcs cannot connect at 0.175
-   — the wolf 4-of-63 finding, pinned loudly meanwhile).
+   rail. THE CLOSE-FIGHTER ROUND executes this — its shape comes
+   from a DESIGNER-PLANNING round (the WE-plan law; no shape
+   exists until that talk), queued on the designer's word after
+   play; the sl-0208 hitbox halving made it necessary (slash arcs
+   cannot connect at 0.175 — the wolf 4-of-63 finding, pinned
+   loudly meanwhile).
 2. **"DUNGEON" IS RESERVED FOR THE OVERWORLD (sl-0216/0224).**
    The starhook path lane is the RIFT DUNGEON on every surface;
    the bare word belongs to future overworld dungeons (the

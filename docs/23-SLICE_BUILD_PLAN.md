@@ -403,6 +403,40 @@ throughout stays [T] for Green days. The S1 starhook build
 (sl-0115/0123/0125) stands as-is — this charter directs the
 FUTURE rounds, no immediate re-work implied.
 
+## The vocabulary layer + the quest philosophy (designer words, the 2026-08-04/05 play night)
+
+Three rulings from the reshaped build's first hours, binding on
+every future seam and paste:
+
+1. **"MELEE" NAMES ENGAGEMENT DISTANCE, NEVER WEAPON TYPE
+   (sl-0213).** The designer, verbatim: "we shouldnt think of any
+   enemies as melee they are all projectile based fighters kind
+   of, and melee i think should kind of only MOSTLY refer to how
+   close a enemy wants to be to you." Close fighters must
+   CONTRIBUTE bullets to the hell, not just chase ("atm their
+   projectiles are mostly nothing at all its just that they run
+   after u that u notice"), with "dont overdo it" as the density
+   rail. THE CLOSE-FIGHTER ROUND executes this (queued on the
+   designer's word after play; the paste draft lives at
+   `notes/PASTE_E_DRAFT_close_fighters.md`); the sl-0208 hitbox
+   halving made it necessary (slash arcs cannot connect at 0.175
+   — the wolf 4-of-63 finding, pinned loudly meanwhile).
+2. **"DUNGEON" IS RESERVED FOR THE OVERWORLD (sl-0216/0224).**
+   The starhook path lane is the RIFT DUNGEON on every surface;
+   the bare word belongs to future overworld dungeons (the
+   Warren class — the Warren itself keeps its own name and door).
+   A mechanized scan holds the line game-side; a cosmic proper
+   name for the rift lane stays invited on the ruling-8 rail
+   whenever the designer christens it.
+3. **MOST QUESTS PROMOTE ACTIVITY; STORY IS OPTIONAL PER QUEST
+   (sl-0218).** The designer, verbatim: "our goal with most of
+   quests is to just promote player activity and not all quest
+   will have a story etc." Quest surfaces assume the
+   activity-promotion model — cheap, legible, everywhere (the
+   amber-dot marks + nearest-cluster map regions are the v1
+   expression); bespoke story staging is the exception a quest
+   earns, not the default it pays for.
+
 ## Class trees v1 — the ruled shape (designer, 2026-08-03 at-work chat session; sl-0169)
 
 - **THE PATTERN LAW (the session's defining correction):** tree

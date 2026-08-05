@@ -98,16 +98,22 @@ Project Manager blocked the pretester entry guard; the recorded
 fallback ran IN FULL (33 steps + full battery + goldens ×10);
 morning item: close the stray Godot window, any seat runs the seal.
 
-**DESIGNER-OWED (the hands list):** close the stray Godot window
-(the seal rides) · try RECALL (P) + SET HOME at a waypost · the
-zoom pixel ladder pick (1.5x nearest-neighbor proposed) · the
-amber-dot STYLE PICK (three options in the sl-0225 evidence) · the
-road-shed feel + the leash [T]s (18/5) · the RIFT-DUNGEON RE-WALK
-(still gates sl-0192) · the fifteen bosses (tide_stalker the
-headline) · foraging play · the hitbox feel + the [5,8] bless · the
-standing words (panel2 chrome · tracker side · capital giver
-casting+cell · free-four shop-only · family-pattern vs per-rod ·
-fish designs · weekly GIF).
+**DESIGNER-OWED (the hands list, all TONIGHT-class — 2026-08-05
+daytime is a low-usage at-work day; game seats resume tonight or
+via the designer's SSH-other-account route):** close the stray
+Godot window (the seal rides the next session as its warm-up) ·
+try RECALL (P) + SET HOME at a waypost · the zoom pixel ladder
+pick (1.5x nearest-neighbor proposed) · the amber-dot STYLE PICK
+(three options in the sl-0225 evidence) · the road-shed feel + the
+leash [T]s (18/5) · the RIFT-DUNGEON RE-WALK (still gates sl-0192)
+· the fifteen bosses (tide_stalker the headline) · foraging play ·
+the hitbox feel + the [5,8] bless · the standing words (panel2
+chrome · tracker side · capital giver casting+cell · free-four
+shop-only · family-pattern vs per-rod · fish designs · weekly
+GIF). **PASTE E IS DRAFTED** (`notes/PASTE_E_DRAFT_close_fighters.md`
+— the close-fighter round + the seal warm-up; GATED on the
+designer's post-play word; doc 23 carries the vocabulary layer +
+quest philosophy as charter law now).
 
 ## LAWS THIS ERA (additions tonight)
 

@@ -27,9 +27,11 @@ the sweeps → the words).
 
 1. Read this section → the session file
    `notes/sessions/2026-08-04-evening.md` top to bottom.
-2. Verify the board yourself: game main pushed at **01d4801** (the
-   activity-pass hours close); sync log **226 entries / 0 dupes,
-   tail sl-0226** — re-run the dupes check.
+2. Verify the board yourself: game main pushed at **b01acd1** (the
+   night-seam docs close; an hours close may trail it); sync log
+   **230 entries / 0 dupes, tail sl-0230** — re-run the dupes
+   check. **SERIAL IS 28** (the home + recall build; the lock's
+   chain extended at planning's 2026-08-05 sweep; next bump 29).
 3. **ARM BOTH WATCHERS** (the multi-lane sweep watcher + the
    producer watcher — they die with each session; expect
    self-noise from your own writes).
@@ -82,7 +84,23 @@ the designer's word; wolf 4-of-63-swings pinned loudly meanwhile).
 **THE ASSET PACK exported** (Documents\wildshot-asset-pack-
 2026-08-04.zip, 62.5 MB whole-packs build, provenance README).
 
-**DESIGNER-OWED (the hands list):** drop paste D v3 · the
+**PASTE D LANDED OVERNIGHT (sl-0227/0221/0222/0223 → resolutions
+sl-0228/0229/0230, game 0c81144..b01acd1):** the CLAUDE.md diet
+(188,777 → ~27k; the tail verbatim at notes/MILESTONE_HISTORY.md) ·
+THE HOME + RECALL at **SERIAL 28** (waypost F-binds home, death
+respawns at the SET home fee-untouched, P casts the 2 s recall,
+2700 t cooldown, overworld-only structurally; 9 bytes/player — the
+cooldown field is the seam's one recorded deviation, accepted; the
+lock extended same-sweep) · the zoom option (1x/1.5x/2x follow-cam
+only, the pixel ladder awaits the designer's eyes). **THE FORMAL
+SEAL RIDES THE FIRST GUARD-CLEAR** — the designer's idle Godot
+Project Manager blocked the pretester entry guard; the recorded
+fallback ran IN FULL (33 steps + full battery + goldens ×10);
+morning item: close the stray Godot window, any seat runs the seal.
+
+**DESIGNER-OWED (the hands list):** close the stray Godot window
+(the seal rides) · try RECALL (P) + SET HOME at a waypost · the
+zoom pixel ladder pick (1.5x nearest-neighbor proposed) · the
 amber-dot STYLE PICK (three options in the sl-0225 evidence) · the
 road-shed feel + the leash [T]s (18/5) · the RIFT-DUNGEON RE-WALK
 (still gates sl-0192) · the fifteen bosses (tide_stalker the

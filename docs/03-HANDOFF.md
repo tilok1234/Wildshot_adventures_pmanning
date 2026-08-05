@@ -110,14 +110,23 @@ leash [T]s (18/5) · the RIFT-DUNGEON RE-WALK (still gates sl-0192)
 the hitbox feel + the [5,8] bless · the standing words (panel2
 chrome · tracker side · capital giver casting+cell · free-four
 shop-only · family-pattern vs per-rod · fish designs · weekly
-GIF). **THE CLOSE-FIGHTER ROUND HAS NO SHAPE YET BY LAW** — its
-shape comes from a designer-planning round (the WE-plan lesson,
-sl-0231: planning drafted one unilaterally 2026-08-05 and was
-corrected; the draft is DELETED; only the designer's verbatim
-direction stands in sl-0213 + doc 23). The seal warm-up rides
-whichever session runs first once the stray Godot window closes.
-Doc 23 carries the vocabulary layer + quest philosophy as charter
-law (verbatim designer rulings, record-keeping only).
+GIF). **CLOSE-FIGHTER WAVE 1 LANDED AND CLOSED 2026-08-05 evening**
+(the first fully WE-planned paste — the designer led, sl-0236/0237
+carry the round; game 7bc2d06..f1ef86f pushed; the seat's
+resolutions sl-0238/0239 at planning 8b9c946): WOLF = the pack
+circler (own invention) · GOBLIN = flee-and-pelt (the experiment
+PROVEN, valve unfired, "this family alone, ever") · OLD TUSK =
+trample + blades born inside the hug (the sl-0234 overlap dead
+three ways) · range bands on EnemyDef · the melee-harmless pins
+INVERTED · margins ~0.29–0.31 ×3 seeds · goldens byte-identical ·
+SERIAL 28 untouched · **the formal seal ALL GREEN 15.4 min (the
+sl-0229 debt cleared)**. **OPEN: sl-0239 THE THRONE-ROOM POCKET
+DEADLOCK** (King Grubb's escorts now fight; the floor bot gets
+sealed in a warren dead-end; pinned expected-FAIL watched; the fix
+is the designer's word — escort mix / flanker wall-escape / press
+numbers; paste-F material). WAVE 2 holds until the designer plays
+wave 1. The designer's TALK-FIRST topics stand open (sl-0237:
+class quirks + uniques; tiered-perfection-first ruled).
 
 ## LAWS THIS ERA (additions tonight)
 

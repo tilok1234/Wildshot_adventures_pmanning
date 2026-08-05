@@ -3730,6 +3730,21 @@
       ],
       "status": "open",
       "by": "agent"
+    },
+    {
+      "id": "sl-0235",
+      "ts": "2026-08-05T15:27:00Z",
+      "type": "ask",
+      "repo": "planning",
+      "target": "game",
+      "title": "QUEST OBJECTIVE REGIONS ABSENT IN REAL PLAY (the designer's find-hunt, second item): the sl-0225 nearest-cluster map hints do not show on the designer's fullscreen map - condition-vs-bug PENDING the designer's clarifier (accepted? tracked? quest type?)",
+      "detail": "The designer, verbatim (2026-08-05 evening, with a fullscreen map screenshot in chat): 'also still doesnt show quest objectives general location on map'. The screenshot shows the four-zone map with TWO GOLD BANGS (available quest givers - untaken quests, which carry no objective) and no visible region blobs; whether an accepted kill/collect quest existed at capture is UNKNOWN - planning asked the clarifier (accepted? tracked? type?) before classing this. THE FORK: (a) accepted+tracked kill/collect quest with no region rendering = the proof-didnt-prove-the-LOOK class (third instance) - diagnose-first at the paste; (b) conditions did not match (untaken/visit-type) = the CONDITIONS themselves face the designer's expectation - their word rules when hints should show (e.g. whether available quests hint at all). Either fork rides the evening paste.",
+      "refs": [
+        "sl-0225",
+        "sl-0218"
+      ],
+      "status": "open",
+      "by": "agent"
     }
   ]
 }

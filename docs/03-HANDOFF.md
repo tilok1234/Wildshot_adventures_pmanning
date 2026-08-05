@@ -127,7 +127,16 @@ NEVER bare for the starhook lane — RIFT DUNGEON on every lane
 surface, the plain word reserved for future overworld dungeons
 (sl-0216). The chunky-hits band is **[5,8]** pending the bless
 (doc 22 amended, sl-0207). Quest philosophy: most quests promote
-ACTIVITY; story is optional per quest (sl-0218).
+ACTIVITY; story is optional per quest (sl-0218). **THE WE-PLAN
+LAW (sl-0231/0232, designer-corrected):** "plan some" means plan
+TOGETHER — planning brings questions and options to a talk; shape
+exists only during/after it; a process complaint is never an
+artifact verdict; destructive acts only on the designer's explicit
+word. **THE WALLS (sl-0233, MECHANIZED):** hooks/commit-msg
+refuses deletion commits without the designer token and sync-log
+commits that fail parse/dupes/shrink — `git config
+core.hooksPath hooks` re-arms them on any fresh clone (do this at
+boot if hooks are inert).
 
 ---
 

@@ -3701,6 +3701,19 @@
       ],
       "status": "resolved",
       "by": "agent"
+    },
+    {
+      "id": "sl-0233",
+      "ts": "2026-08-05T14:15:00Z",
+      "type": "ruling",
+      "repo": "planning",
+      "title": "THE WALLS BUILT AND PROVEN LIVE (designer-shaped, the WE-plan way): commit-msg hook mechanizes two laws - deletions are designer-clicked (Wall 1, token-gated) + the sync log is append-only and valid (Wall 2); the refusal demonstrated live before trust",
+      "detail": "The shaping round (planning offered options + leans; the designer's words, verbatim): walls = both, third skipped ('ye i guess. like i just want the rules to be followed thats all. i dont want to hinder progress by putting dumb rules that serves no purpose'); token = 'Maybe for the token word we can use TilokApproves, but are u sure we need this? this wont hinder the projecwt?' - planning's honest answer recorded: no hindrance (planning deletions are rare; the token costs seconds when real; Wall 2 fires only on corruption/shrink; the future archive-split passes WITH the token; removable in one commit on the designer's word - the try-it-honestly posture); committed hooks folder = 'ye i guess yyou know better then me about this'; planning-only scope = 'ok fine'. THE BUILD: hooks/commit-msg (committed, +x, core.hooksPath -> hooks; the config line re-applies per clone) - Wall 1 refuses any commit staging deletions without the literal token [DESIGNER: TilokApproves] in the message; Wall 2 refuses sync_log.json commits that fail JSON parse, carry duplicate ids, or shrink the entry count vs HEAD, token-overridable. HONESTY NOTE ON THE RECORD: the token is visible in the committed hook - its power is DELIBERATENESS not secrecy (using it without the designer's live word is a visible deliberate violation, a different class than the momentum slip it closes; --no-verify likewise exists and is likewise loud). PROVEN LIVE 767f1d0/b6b728d: a token-less deletion commit REFUSED (exit 1, the wall's message naming the law), the same deletion WITH the designer's word PASSED - both paths in the record before trust. The 2026-08-05 morning breach class (sl-0231/0232) is now physically closed in-flow.",
+      "refs": [
+        "sl-0231",
+        "sl-0232"
+      ],
+      "by": "agent"
     }
   ]
 }
